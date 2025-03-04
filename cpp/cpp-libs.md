@@ -1,7 +1,7 @@
 # C++ libs
-## Lists:
+## Lists
 *
 *
-## Frameworks:
+## Frameworks
 *
 *
