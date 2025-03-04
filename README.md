@@ -3,6 +3,7 @@
 * [Libs](cpp/libs.md)
 * [Language](cpp/lang.md)
 * [Develop](cpp/dev.md)
+* [Unsorted](cpp/cpp-unsorted.md)
 ## C#
 * [C#](csharp/csharp.md)
 ## Python
@@ -11,5 +12,3 @@
 * [Develop](var/dev.md)
 * [Data process](var/data-process.md)
 * [Calc](var/calc.md)
-## Unsorted
-* [C++ unsorted](unsorted/cpp.md)
