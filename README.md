@@ -1,4 +1,4 @@
-# Develop links list
+# Develop link list
 ## C++
 * [Libs](cpp/cpp-libs.md)
 * [Language](cpp/cpp-language.md)
