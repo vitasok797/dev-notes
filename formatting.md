@@ -40,6 +40,6 @@
 > Text
 
 ## Task list
-- [x] task1
-- [ ] task2
-- [ ] task3
+* [x] task1
+* [ ] task2
+* [ ] task3
