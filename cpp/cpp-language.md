@@ -44,20 +44,20 @@
 
 ## Pointers
 * [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
-* [Долой указатели](https://habr.com/ru/companies/otus/articles/669532/)
+* [(Habr) Долой указатели](https://habr.com/ru/companies/otus/articles/669532/)
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * <https://en.wikipedia.org/wiki/Smart_pointer>
 
 ## Concurrent
-* [Демонстрация сбоев программы при отсутствии барьеров памяти](https://habr.com/ru/articles/155507/)
-* [std::atomic. Модель памяти C++ в примерах](https://habr.com/ru/articles/517918/)
-* [Потоки, блокировки и условные переменные в C++11 [Часть 1]](https://habr.com/ru/articles/182610/)
-* [Потоки, блокировки и условные переменные в C++11 [Часть 2]](https://habr.com/ru/articles/182626/)
+* [(Habr) Демонстрация сбоев программы при отсутствии барьеров памяти](https://habr.com/ru/articles/155507/)
+* [(Habr) std::atomic. Модель памяти C++ в примерах](https://habr.com/ru/articles/517918/)
+* [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 1]](https://habr.com/ru/articles/182610/)
+* [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 2]](https://habr.com/ru/articles/182626/)
 * [C++ std::thread Event Loop with Message Queue and Timer](https://github.com/endurodave/StdWorkerThread)
 
 ## Ranges
 * <https://www.foonathan.net/2020/03/iterator-sentinel/>
-* [Habr: Примеры C++ кода до и после Ranges](https://habr.com/ru/companies/otus/articles/456452/)
+* [(Habr) Примеры C++ кода до и после Ranges](https://habr.com/ru/companies/otus/articles/456452/)
 
 ## Universal references
 * <https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers>
@@ -70,8 +70,8 @@
 * [char8\_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
 * <https://stackoverflow.com/questions/313970/how-to-convert-an-instance-of-stdstring-to-lower-case>
 * [How to split a string in C++](https://www.fluentcpp.com/2017/04/21/how-to-split-a-string-in-c/)
-* [StackOverflow: Split string by range](https://stackoverflow.com/questions/48402558/how-to-split-a-stdstring-into-a-range-v3-of-stdstring-views)
-* [StackOverflow: String to int/float](https://stackoverflow.com/questions/7663709/how-can-i-convert-a-stdstring-to-int/77079910#77079910)
+* [(StackOverflow) Split string by range](https://stackoverflow.com/questions/48402558/how-to-split-a-stdstring-into-a-range-v3-of-stdstring-views)
+* [(StackOverflow) String to int/float](https://stackoverflow.com/questions/7663709/how-can-i-convert-a-stdstring-to-int/77079910#77079910)
 
 ## Encoding
 * [UTF-8 Everywhere](https://utf8everywhere.org/)
@@ -95,10 +95,10 @@
 ## Var
 * <https://en.cppreference.com/w/cpp/language/rule_of_three>
 * <https://www.fluentcpp.com/2018/06/19/3-simple-c17-features-that-will-make-your-code-simpler/>
-* [Habr: Тонкости реализации кода библиотеки](https://habr.com/ru/articles/138085/)
-* [Habr: Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
-* [Habr: Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
-* [Habr: Inline variables](https://habr.com/ru/companies/otus/articles/561772/)
+* [(Habr) Тонкости реализации кода библиотеки](https://habr.com/ru/articles/138085/)
+* [(Habr) Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
+* [(Habr) Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
+* [(Habr) Inline variables](https://habr.com/ru/companies/otus/articles/561772/)
 * [Calling C Code from C++ with ‘extern “C”‘](https://arne-mertz.de/2018/10/calling-cpp-code-from-c-with-extern-c/)
 * [std::string is not a Container for Raw Data](https://arne-mertz.de/2018/11/string-not-for-raw-data/)
 * [How C++ ‘using’ or alias-declaration is better than typedef](https://www.nextptr.com/tutorial/ta1193988140/how-cplusplus-using-or-aliasdeclaration-is-better-than-typedef)
