@@ -1,25 +1,32 @@
 # Intel compilers
 
-Base Toolkit Release Notes:
-https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes.html
-https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2024.html
-https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2023.html
-https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2022.html
-https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2021.html
+## Base Toolkit Release Notes
+* https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes.html
+* https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2024.html
+* https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2023.html
+* https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2022.html
+* https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2021.html
 
-HPC Toolkit Release Notes:
-https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html
-https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2024.html
-2023?
-https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2022.html
-https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2021.html
+## HPC Toolkit Release Notes
+* https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html
+* https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2024.html
+* :warning: `2023?`
+* https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2022.html
+* https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2021.html
 
-Links source:
-https://github.com/oneapi-src/oneapi-ci
+## Дистрибутивы
 
-linux install:
-[sudo] ./intel-oneapi-hpc-toolkit-2025.0.0.825_offline.sh -a --silent --cli --eula accept
-source: . /opt/intel/oneapi/<toolkit-version>/oneapi-vars.sh
+> [!NOTE]
+> Источник ссылок на дистрибутивы:\
+> <https://github.com/oneapi-src/oneapi-ci>
+
+> [!NOTE]
+> Установка под ОС Linux:\
+> `[sudo] ./intel-oneapi-xxxxx-toolkit-xxxxx_offline.sh -a --silent --cli --eula accept`
+
+> [!NOTE]
+> Определение переменных окружения под ОС Linux в sh скрипте:\
+> `. /opt/intel/oneapi/<toolkit-version>/oneapi-vars.sh`
 
 ---
 
