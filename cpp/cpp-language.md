@@ -8,6 +8,8 @@
 * <https://www.programming-books.io/essential/cpp/index.html>
 
 ## Guides
+* [ISO C++: Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
+* [ISO C++: FAQ](https://isocpp.org/wiki/faq)
 * [Fluent C++](https://www.fluentcpp.com/)
 * [Simplify C++](https://arne-mertz.de/)
 * [Modernes C++](https://www.modernescpp.com/index.php/table-of-content/)
@@ -18,8 +20,6 @@
 * [Sy Brand's Blog](https://blog.tartanllama.xyz/posts-by-categories/)
 * [Bjarne Stroustrup's FAQ](https://www.stroustrup.com/bs_faq.html)
 * [Bjarne Stroustrup's FAQ 2](https://www.stroustrup.com/bs_faq2.html)
-* [ISO C++: Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
-* [ISO C++: FAQ](https://isocpp.org/wiki/faq)
 * [Book: More C++ Idioms](https://en.wikibooks.org/wiki/Category:Book:More_C++_Idioms)
 * [Abseil Tips of the Week](https://abseil.io/tips/)
 * [SEI CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
@@ -90,7 +90,7 @@
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
 
 ## Видео
-* [C++17, который мы заслужили](https://www.youtube.com/watch?v=I0oerm0MYQY)
+* [(Youtube) C++17, который мы заслужили](https://www.youtube.com/watch?v=I0oerm0MYQY)
 
 ## Var
 * <https://en.cppreference.com/w/cpp/language/rule_of_three>
