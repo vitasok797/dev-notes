@@ -31,17 +31,23 @@
 ### Версия 2025
 
 #### 2025.0.0
-* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/b380d914-366b-4b77-a74a-05e3c38b3514/intel-oneapi-base-toolkit-2025.0.0.882_offline.exe (SHA384 2c07ee1b8e32a681330651d72159d76d856d1facc5049aac6896f64d8c7652fb7620040ff342506226a0d56adca56afb)
-* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/f07e32fa-b505-4b90-8a79-e328ce9ad9d6/intel-oneapi-hpc-toolkit-2025.0.0.822_offline.exe (SHA384 db9bee561cf3097a69df4cb2999b457a81ab6a614da087df780eb521b2cfd35802b02ea75239cef2974f8218eeb46752)
-* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/96aa5993-5b22-4a9b-91ab-da679f422594/intel-oneapi-base-toolkit-2025.0.0.885_offline.sh (SHA384 8151096bfb011b046f0ce88abd085cadba788453fd4e9b36a79be6ed4a9d2d1f2ab3e9072b4c9637ae5589fc0dcc0e07)
-* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/0884ef13-20f3-41d3-baa2-362fc31de8eb/intel-oneapi-hpc-toolkit-2025.0.0.825_offline.sh (SHA384 9c267c4a21a879d8e7613aa6db951bfe46e09c07cc11132c1185f6669462c9f3cdb06cae011752c1dcd9bec84ed43e6e)
+* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/b380d914-366b-4b77-a74a-05e3c38b3514/intel-oneapi-base-toolkit-2025.0.0.882_offline.exe \
+  (SHA384 2c07ee1b8e32a681330651d72159d76d856d1facc5049aac6896f64d8c7652fb7620040ff342506226a0d56adca56afb)
+* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/f07e32fa-b505-4b90-8a79-e328ce9ad9d6/intel-oneapi-hpc-toolkit-2025.0.0.822_offline.exe \
+  (SHA384 db9bee561cf3097a69df4cb2999b457a81ab6a614da087df780eb521b2cfd35802b02ea75239cef2974f8218eeb46752)
+* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/96aa5993-5b22-4a9b-91ab-da679f422594/intel-oneapi-base-toolkit-2025.0.0.885_offline.sh \
+  (SHA384 8151096bfb011b046f0ce88abd085cadba788453fd4e9b36a79be6ed4a9d2d1f2ab3e9072b4c9637ae5589fc0dcc0e07)
+* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/0884ef13-20f3-41d3-baa2-362fc31de8eb/intel-oneapi-hpc-toolkit-2025.0.0.825_offline.sh \
+  (SHA384 9c267c4a21a879d8e7613aa6db951bfe46e09c07cc11132c1185f6669462c9f3cdb06cae011752c1dcd9bec84ed43e6e)
 
 ### Версия 2024
 
 #### 2024.2.1
-* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d91caaa0-7306-46ea-a519-79a0423e1903/w_BaseKit_p_2024.2.1.101_offline.exe (SHA384 930be6d98abcdec3f233ac09b4d17c7d839be8d4356fd54344fbcee476f4c69d389b5b52013c3dc3fd99994d43ce2334)
+* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d91caaa0-7306-46ea-a519-79a0423e1903/w_BaseKit_p_2024.2.1.101_offline.exe \
+  (SHA384 930be6d98abcdec3f233ac09b4d17c7d839be8d4356fd54344fbcee476f4c69d389b5b52013c3dc3fd99994d43ce2334)
 * https://registrationcenter-download.intel.com/akdlm/IRC_NAS/745e923a-3f85-4e1e-b6dd-637c0e9ccba6/w_HPCKit_p_2024.2.1.80_offline.exe
-* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/e6ff8e9c-ee28-47fb-abd7-5c524c983e1c/l_BaseKit_p_2024.2.1.100_offline.sh (SHA384 f4f2e85113743716c0d30e84c6fb8fc1aff8b5aaecdf59918b16134a020a5b79c6a32e27ca347d7f990d731ba9e40943)
+* https://registrationcenter-download.intel.com/akdlm/IRC_NAS/e6ff8e9c-ee28-47fb-abd7-5c524c983e1c/l_BaseKit_p_2024.2.1.100_offline.sh \
+  (SHA384 f4f2e85113743716c0d30e84c6fb8fc1aff8b5aaecdf59918b16134a020a5b79c6a32e27ca347d7f990d731ba9e40943)
 * https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d461a695-6481-426f-a22f-b5644cd1fa8b/l_HPCKit_p_2024.2.1.79_offline.sh
 
 #### 2024.2.0
