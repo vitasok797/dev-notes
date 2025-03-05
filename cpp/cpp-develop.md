@@ -3,7 +3,7 @@
 ## VCPKG
 * <https://learn.microsoft.com/en-us/vcpkg/>
 * [Using Overlay Triplets: Building dynamic libraries on Linux](https://learn.microsoft.com/en-us/vcpkg/users/examples/overlay-triplets-linux-dynamic)
-* [Issue: How do I use libraries of vcpkg with cmake?](https://github.com/microsoft/vcpkg/issues/14258#issuecomment-717579819)
+* [(Issue) How do I use libraries of vcpkg with cmake?](https://github.com/microsoft/vcpkg/issues/14258#issuecomment-717579819)
 * [Using vcpkg in anger](https://codingnest.com/files/Using%20vcpkg%20In%20Anger.pdf)
 * <https://decovar.dev/blog/2022/10/30/cpp-dependencies-with-vcpkg/>
 
@@ -11,7 +11,7 @@
 * <https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-160>
 * <https://learn.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=msvc-160>
 * <https://learn.microsoft.com/en-us/cpp/linux/?view=msvc-160>
-* [Современный CMake: 10 советов по улучшению скриптов сборки](https://habr.com/ru/articles/330902/)
+* [(Habr) Современный CMake: 10 советов по улучшению скриптов сборки](https://habr.com/ru/articles/330902/)
 * [CMake in Visual Studio](https://logins.github.io/programming/2020/05/17/CMakeInVisualStudio.html)
 * [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 * [How to Use CMake Without the Agonizing Pain - Part 2](https://alexreinking.com/blog/how-to-use-cmake-without-the-agonizing-pain-part-2.html)
@@ -20,9 +20,9 @@
 ## Style
 * <https://google.github.io/styleguide/cppguide.html>
 * <https://github.com/motine/cppstylelineup>
-* [Руководство Google по стилю в C++](https://habr.com/ru/articles/480422/)
-* [Руководство Google по стилю в C++ 2](https://habr.com/ru/articles/841552/)
-* [90 рекомендаций по стилю написания программ на C++](https://habr.com/ru/articles/172091/)
+* [(Habr) Руководство Google по стилю в C++](https://habr.com/ru/articles/480422/)
+* [(Habr) Руководство Google по стилю в C++ 2](https://habr.com/ru/articles/841552/)
+* [(Habr) 90 рекомендаций по стилю написания программ на C++](https://habr.com/ru/articles/172091/)
 
 ## Linters and Analyzers
 * <https://github.com/cpplint/cpplint>
@@ -30,7 +30,7 @@
 * <https://heaohan.github.io/blog/2017/12/01/he-aohan-apply-cpplint>
 * <https://clang.llvm.org/docs/ClangFormat.html>
 * [Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
-* [Clang-Tidy для автоматического рефакторинга кода](https://habr.com/ru/companies/auriga/articles/526486/)
+* [(Habr) Clang-Tidy для автоматического рефакторинга кода](https://habr.com/ru/companies/auriga/articles/526486/)
 * [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
 * [Cppcheck](https://cppcheck.sourceforge.io/)
 
