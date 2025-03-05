@@ -146,7 +146,7 @@
 * POCO ([slides](https://pocoproject.org/slides/150-Processes.pdf))
 
 ## Threading
-* [<thread>](https://en.cppreference.com/w/cpp/thread)
+* [\<thread\>](https://en.cppreference.com/w/cpp/thread)
 * [Boost.Thread](https://www.boost.org/doc/libs/release/doc/html/thread.html)
 * POCO ([slides](https://pocoproject.org/slides/130-Threads.pdf))
 
@@ -168,15 +168,15 @@
 * <https://github.com/libevent/libevent>
 
 ## File System
-* [<filesystem>](https://en.cppreference.com/w/cpp/filesystem)
+* [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem)
 * [Boost.Filesystem](https://www.boost.org/doc/libs/release/libs/filesystem/doc/index.htm)
 * POCO ([slides](https://pocoproject.org/slides/080-Files.pdf))
 
 ## Communication
-* grpc:
+* gRPC:
   * <https://github.com/grpc/grpc>
   * <https://github.com/Tradias/asio-grpc>
-* zeromq:
+* ZeroMQ:
   * <https://github.com/zeromq/libzmq> ([vcpkg](https://vcpkg.io/en/package/zeromq))
   * <https://github.com/zeromq/cppzmq>
   * <https://github.com/zeromq/azmq>
