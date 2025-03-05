@@ -74,9 +74,9 @@
 * [(StackOverflow) String to int/float](https://stackoverflow.com/questions/7663709/how-can-i-convert-a-stdstring-to-int/77079910#77079910)
 
 ## Encoding
-* [UTF-8 Everywhere](https://utf8everywhere.org/)
-* [The Wonderfully Terrible World of C and C++ Encoding APIs](https://thephd.dev/the-c-c++-rust-string-text-encoding-api-landscape)
-* [Doing UTF-8 in Windows](https://www.codeproject.com/Articles/5252037/Doing-UTF-8-in-Windows) ([github](https://github.com/neacsum/utf8))
+* :warning: `Изучить` [UTF-8 Everywhere](https://utf8everywhere.org/)
+* :warning: `Изучить` [The Wonderfully Terrible World of C and C++ Encoding APIs](https://thephd.dev/the-c-c++-rust-string-text-encoding-api-landscape)
+* :warning: `Изучить` [Doing UTF-8 in Windows](https://www.codeproject.com/Articles/5252037/Doing-UTF-8-in-Windows) ([github](https://github.com/neacsum/utf8))
 
 ## Initialization
 * <https://en.cppreference.com/w/cpp/language/initialization>
