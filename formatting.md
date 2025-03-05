@@ -8,7 +8,7 @@
 * :+1: :point_right:
 * :star: :lock:
 * :white_check_mark: :negative_squared_cross_mark: :asterisk: :arrow_right:
-* :red_circle: :orange_circle: :yellow_circle: :green_circle:	:large_blue_circle:
+* :red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle:
 * :red_square: :orange_square: :yellow_square: :green_square: :blue_square:
 
 ## Marks
