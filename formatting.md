@@ -43,3 +43,27 @@
 * [x] task1
 * [ ] task2
 * [ ] task3
+
+## Table
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
+
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+## Collapsed section
+<details>
+<summary>Tips for collapsed sections</summary>
+
+### You can add a header
+
+You can add text within a collapsed section.
+
+```python
+   print(f'val={x}')
+```
+</details>
