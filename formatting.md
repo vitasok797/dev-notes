@@ -39,12 +39,12 @@
 > [!CAUTION]
 > Text
 
-## Task list
+## Task lists
 * [x] task1
 * [ ] task2
 * [ ] task3
 
-## Table
+## Tables
 | Command | Description |
 | --- | --- |
 | `git status` | List all *new or modified* files |
@@ -55,7 +55,7 @@
 | git status   | git status     | git status    |
 | git diff     | git diff       | git diff      |
 
-## Collapsed section
+## Collapsed sections
 <details>
 <summary>Tips for collapsed sections</summary>
 
