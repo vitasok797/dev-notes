@@ -4,7 +4,7 @@
 * [Libs](cpp/cpp-libs.md)
 * [Language](cpp/cpp-language.md)
 * [Develop](cpp/cpp-develop.md)
-* [Unsorted](cpp/cpp-unsorted.md)
+* [*Unsorted*](cpp/cpp-unsorted.md)
 
 ## C#
 * [C#](csharp/csharp.md)
@@ -18,4 +18,4 @@
 * [Calc](var/calc.md)
 
 ## Unsorted
-* [Unsorted 1](unsorted/unsorted-1.md)
+* [*Unsorted 1*](unsorted/unsorted-1.md)
