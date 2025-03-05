@@ -13,23 +13,23 @@
 * <https://github.com/Microsoft/GSL> ([vcpkg](https://vcpkg.io/en/package/ms-gsl))
 
 ## String
+* :warning: `Boost Locale?`
 * [Boost String Algorithms Library](https://www.boost.org/doc/libs/release/doc/html/string_algo.html)
 * [Boost.Tokenizer](https://www.boost.org/doc/libs/release/libs/tokenizer/doc/index.html)
-* Boost Locale?
 * POCO [String](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/String.h) [UTF8String](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/UTF8String.h) ([slides](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * [Abseil Strings](https://abseil.io/docs/cpp/guides/strings)
 
 ## Encoding
-* Boost Locale?
-* [ICU](https://icu.unicode.org/)
-* [ztd-text](https://github.com/soasis/text/) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
-* [utfcpp](https://github.com/nemtrif/utfcpp)
-* [Boost.Nowide](https://www.boost.org/doc/libs/release/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
-* [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8/) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
-* [simdutf](https://github.com/simdutf/simdutf)
-* [uni-algo](https://github.com/uni-algo/uni-algo)
-* [utf8.h](https://github.com/sheredom/utf8.h)
-* Примеры настроек сборки в одной из библиотек
+* :warning: `Boost Locale?`
+* :warning: `Найти примеры настроек сборки в одной из библиотек`
+* :warning: `Изучить` [ICU](https://icu.unicode.org/)
+* :warning: `Изучить` [ztd-text](https://github.com/soasis/text/) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
+* :warning: `Изучить` [utfcpp](https://github.com/nemtrif/utfcpp)
+* :warning: `Изучить` [Boost.Nowide](https://www.boost.org/doc/libs/release/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
+* :warning: `Изучить` [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8/) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
+* :warning: `Изучить` [simdutf](https://github.com/simdutf/simdutf)
+* :warning: `Изучить` [uni-algo](https://github.com/uni-algo/uni-algo)
+* :warning: `Изучить` [utf8.h](https://github.com/sheredom/utf8.h)
 
 ## Format
 * <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/))
@@ -37,10 +37,10 @@
 * <https://github.com/p-ranav/tabulate>
 
 ## Regex
-* Boost
-* POCO (PCRE)
-* ICU?
-* ?
+* :warning: `Boost`
+* :warning: `POCO (PCRE)`
+* :warning: `ICU?`
+* :warning: `Другие`
 
 ## I18n
 * [Boost.Locale](https://www.boost.org/doc/libs/release/libs/locale/doc/html/index.html)
