@@ -13,9 +13,10 @@
 * [Python](python/python.md)
 
 ## Var
-* [Develop](var/develop.md)
-* [Data process](var/data-process.md)
 * [Calc](var/calc.md)
+* [Data process](var/data-process.md)
+* [Develop](var/develop.md)
+* [Intel compilers](var/intel-compilers.md)
 
 ## Unsorted
 * [*Unsorted 1*](unsorted/unsorted-1.md)
