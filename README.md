@@ -7,6 +7,7 @@
     * [Develop](cpp/cpp-develop.md)
     * [*Unsorted*](cpp/cpp-unsorted.md)
   * [C#](csharp/csharp.md)
+  * [Fortran](fortran/fortran.md)
   * [Python](python/python.md)
 * Var:
   * [Calc](var/calc.md)
