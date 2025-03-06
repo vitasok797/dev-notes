@@ -17,5 +17,9 @@
 * <https://stackoverflow.com/questions/20388071/what-are-the-under-the-hood-differences-between-round-and-numpy-round>
 * <https://stackoverflow.com/questions/73951309/rounding-to-the-nearest-nth-decimal-place-with-numpy>
 
+## Time series
+* <https://towardsdatascience.com/time-series-forecast-error-metrics-you-should-know-cc88b8c67f27>
+* <https://levelup.gitconnected.com/25-time-series-forecasting-concepts-that-every-ml-engineer-should-know-part-2-d743166c89b9>
+
 ## Var
 * [(Habr) Неинициализированные переменные: ищем ошибки (Fortran)](https://habr.com/ru/companies/intel/articles/318494/)
