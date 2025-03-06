@@ -10,6 +10,7 @@
   * [Fortran](fortran/fortran.md)
   * [Python](python/python.md)
 * Var:
+  * [Architecture](var/architecture.md)
   * [Calc](var/calc.md)
   * [Develop](var/develop.md)
   * [Intel compilers](var/intel-compilers.md)
