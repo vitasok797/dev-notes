@@ -129,6 +129,13 @@
 * [Boost.MultiArray](https://www.boost.org/doc/libs/release/libs/multi_array/doc/index.html)
 * <https://github.com/kokkos/mdspan>
 
+### Units
+* <https://github.com/LLNL/units> ([vcpkg](https://vcpkg.io/en/package/llnl-units))
+* <https://github.com/mpusz/mp-units> ([vcpkg](https://vcpkg.io/en/package/mp-units))
+* <https://github.com/nholthaus/units> ([vcpkg](https://vcpkg.io/en/package/units))
+* <https://github.com/bernedom/SI> ([vcpkg](https://vcpkg.io/en/package/si))
+* <https://www.boost.org/libs/units>
+
 ### Reflection
 * <https://github.com/Neargye/nameof>
 * [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
