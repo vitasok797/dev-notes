@@ -69,7 +69,7 @@
 * [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
 * <https://github.com/jarro2783/cxxopts>
 * <https://github.com/p-ranav/argparse>
-* <https://github.com/p-ranav/structopt> (no vcpkg)
+* <https://github.com/p-ranav/structopt> (no vcpkg, header-only)
 * <https://github.com/muellan/clipp>
 * <https://github.com/adishavit/argh>
 * <https://github.com/CLIUtils/CLI11>
@@ -78,7 +78,7 @@
 * [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
 * POCO ([slides](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
 * <https://github.com/ph3at/libenvpp>
-* <https://github.com/p-ranav/envy> (no vcpkg)
+* <https://github.com/p-ranav/envy> (no vcpkg, header-only)
 
 ## XML
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
@@ -212,13 +212,12 @@
 * <https://github.com/Neargye/nameof>
 * [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
 * Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
-* <https://github.com/dave-hagedorn/cpp-typelist> (no vcpkg)
+* <https://github.com/dave-hagedorn/cpp-typelist> (no vcpkg, header-only)
 
 ## Var
 * <https://github.com/ericniebler/range-v3>
 * <https://github.com/Dobiasd/FunctionalPlus>
 * <https://github.com/CoolProp/CoolProp>
-* <https://github.com/evgeniums/cpp-validator> (no vcpkg, [habr](https://habr.com/ru/articles/525204/))
+* [cpp-validator](https://github.com/evgeniums/cpp-validator) (no vcpkg, header-only, [article](https://habr.com/ru/articles/525204/))
 * [Kaitai Struct](http://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
 * [A lightweight header-only pattern-matching library for C++17 with macro-free APIs](https://github.com/BowenFu/matchit.cpp) ([vcpkg](https://vcpkg.io/en/package/matchit))
-* [cpp-validator](https://github.com/evgeniums/cpp-validator) (no vcpkg, header-only, [Habr](https://habr.com/ru/articles/525204/))
