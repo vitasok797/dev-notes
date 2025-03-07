@@ -133,7 +133,6 @@
 * <https://github.com/Neargye/nameof>
 * [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
 * Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
-* <https://github.com/dave-hagedorn/cpp-typelist> (no vcpkg, header-only)
 
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/release/libs/log/doc/html/index.html)
