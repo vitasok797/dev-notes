@@ -134,6 +134,19 @@
 * [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
 * Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
 
+## System
+
+### Process
+* [Boost.Process](https://www.boost.org/doc/libs/release/doc/html/process.html)
+* [Boost.Interprocess](https://www.boost.org/doc/libs/release/doc/html/interprocess.html)
+* POCO ([slides](https://pocoproject.org/slides/150-Processes.pdf))
+
+### File System
+* [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem)
+* [Boost.Filesystem](https://www.boost.org/doc/libs/release/libs/filesystem/doc/index.htm)
+* POCO ([slides](https://pocoproject.org/slides/080-Files.pdf))
+* <https://github.com/p-ranav/glob> ([vcpkg](https://vcpkg.io/en/package/p-ranav-glob))
+
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/release/libs/log/doc/html/index.html)
 * POCO ([slides](https://pocoproject.org/slides/110-Logging.pdf))
@@ -160,11 +173,6 @@
 * <https://github.com/ArthurSonzogni/FTXUI>
 * <https://github.com/magiblot/tvision>
 
-## Process
-* [Boost.Process](https://www.boost.org/doc/libs/release/doc/html/process.html)
-* [Boost.Interprocess](https://www.boost.org/doc/libs/release/doc/html/interprocess.html)
-* POCO ([slides](https://pocoproject.org/slides/150-Processes.pdf))
-
 ## Threading
 * [\<thread\>](https://en.cppreference.com/w/cpp/thread)
 * [Boost.Thread](https://www.boost.org/doc/libs/release/doc/html/thread.html)
@@ -186,12 +194,6 @@
 * <https://github.com/NoAvailableAlias/nano-signal-slot>
 * <https://github.com/wqking/eventpp>
 * <https://github.com/libevent/libevent>
-
-## File System
-* [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem)
-* [Boost.Filesystem](https://www.boost.org/doc/libs/release/libs/filesystem/doc/index.htm)
-* POCO ([slides](https://pocoproject.org/slides/080-Files.pdf))
-* <https://github.com/p-ranav/glob> ([vcpkg](https://vcpkg.io/en/package/p-ranav-glob))
 
 ## Communication
 * gRPC:
