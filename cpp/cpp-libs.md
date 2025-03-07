@@ -1,6 +1,6 @@
 # C++ libs
 
-## Lists
+## Library lists
 * [Awesome C++](https://github.com/fffaraz/awesome-cpp)
 * [Awesome HPP](https://github.com/p-ranav/awesome-hpp)
 * [A list of open-source C++ libraries](https://en.cppreference.com/w/cpp/links/libs)
@@ -12,14 +12,16 @@
 * <https://github.com/facebook/folly>
 * <https://github.com/Microsoft/GSL> ([vcpkg](https://vcpkg.io/en/package/ms-gsl))
 
-## String
+## Text
+
+### String
 * :warning: `Boost Locale?`
 * [Boost String Algorithms Library](https://www.boost.org/doc/libs/release/doc/html/string_algo.html)
 * [Boost.Tokenizer](https://www.boost.org/doc/libs/release/libs/tokenizer/doc/index.html)
 * POCO [String](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/String.h) [UTF8String](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/UTF8String.h) ([slides](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * [Abseil Strings](https://abseil.io/docs/cpp/guides/strings)
 
-## Encoding
+### Encoding
 * :warning: `Boost Locale?`
 * :warning: `Найти примеры настроек сборки в одной из библиотек`
 * :warning: `Изучить` [ICU](https://icu.unicode.org/)
@@ -31,20 +33,67 @@
 * :warning: `Изучить` [uni-algo](https://github.com/uni-algo/uni-algo)
 * :warning: `Изучить` [utf8.h](https://github.com/sheredom/utf8.h)
 
-## Format
+### Format
 * <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/))
 * <https://github.com/p-ranav/pprint>
 * <https://github.com/p-ranav/tabulate>
 
-## Regex
+### Regex
 * :warning: `Boost`
 * :warning: `POCO (PCRE)`
 * :warning: `ICU?`
 * :warning: `Другие`
 * <https://github.com/zemasoft/wildcards>
 
-## I18n
+### I18n
 * [Boost.Locale](https://www.boost.org/doc/libs/release/libs/locale/doc/html/index.html)
+
+## Configuration
+
+### Common
+* [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
+* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
+* POCO ([slides](https://pocoproject.org/slides/180-Configuration.pdf))
+
+### Argument parsers
+* [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
+* POCO ([slides](https://pocoproject.org/slides/190-Applications.pdf))
+* [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
+* <https://github.com/jarro2783/cxxopts>
+* <https://github.com/p-ranav/argparse>
+* <https://github.com/p-ranav/structopt> (no vcpkg, header-only)
+* <https://github.com/muellan/clipp>
+* <https://github.com/adishavit/argh>
+* <https://github.com/CLIUtils/CLI11>
+
+### Environment variables
+* [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
+* POCO ([slides](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
+* <https://github.com/ph3at/libenvpp>
+* <https://github.com/p-ranav/envy> (no vcpkg, header-only)
+
+## Formats
+
+### XML
+* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
+* POCO ([slides](https://pocoproject.org/slides/170-XML.pdf))
+* [(StackOverflow) Choose XML library](https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c/9387612#9387612)
+
+### JSON
+* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
+* [Boost.JSON](https://www.boost.org/doc/libs/release/libs/json/doc/html/index.html)
+* <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
+
+### TOML
+* <https://github.com/marzer/tomlplusplus> ([site](https://marzer.github.io/tomlplusplus/))
+* <https://github.com/ToruNiina/toml11>
+* <https://github.com/skystrife/cpptoml>
+* <https://github.com/mayah/tinytoml>
+
+### CSV
+* <https://github.com/ben-strasser/fast-cpp-csv-parser>
+* <https://github.com/p-ranav/csv2>
+* <https://github.com/d99kris/rapidcsv>
 
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/release/libs/log/doc/html/index.html)
@@ -57,49 +106,6 @@
 * <https://github.com/abumq/easyloggingpp>
 * <https://github.com/log4cplus/log4cplus>
 * <https://logging.apache.org/log4cxx/>
-
-## Configuration
-* [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
-* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
-* POCO ([slides](https://pocoproject.org/slides/180-Configuration.pdf))
-
-## Argument parsers
-* [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
-* POCO ([slides](https://pocoproject.org/slides/190-Applications.pdf))
-* [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
-* <https://github.com/jarro2783/cxxopts>
-* <https://github.com/p-ranav/argparse>
-* <https://github.com/p-ranav/structopt> (no vcpkg, header-only)
-* <https://github.com/muellan/clipp>
-* <https://github.com/adishavit/argh>
-* <https://github.com/CLIUtils/CLI11>
-
-## Environment variables
-* [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
-* POCO ([slides](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
-* <https://github.com/ph3at/libenvpp>
-* <https://github.com/p-ranav/envy> (no vcpkg, header-only)
-
-## XML
-* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
-* POCO ([slides](https://pocoproject.org/slides/170-XML.pdf))
-* [(StackOverflow) Choose XML library](https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c/9387612#9387612)
-
-## JSON
-* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
-* [Boost.JSON](https://www.boost.org/doc/libs/release/libs/json/doc/html/index.html)
-* <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
-
-## TOML
-* <https://github.com/marzer/tomlplusplus> ([site](https://marzer.github.io/tomlplusplus/))
-* <https://github.com/ToruNiina/toml11>
-* <https://github.com/skystrife/cpptoml>
-* <https://github.com/mayah/tinytoml>
-
-## CSV
-* <https://github.com/ben-strasser/fast-cpp-csv-parser>
-* <https://github.com/p-ranav/csv2>
-* <https://github.com/d99kris/rapidcsv>
 
 ## GUI
 * <https://www.qt.io/product/framework>
