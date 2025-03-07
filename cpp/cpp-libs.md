@@ -172,6 +172,7 @@
 * [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem)
 * [Boost.Filesystem](https://www.boost.org/doc/libs/release/libs/filesystem/doc/index.htm)
 * POCO ([slides](https://pocoproject.org/slides/080-Files.pdf))
+* <https://github.com/p-ranav/glob> ([vcpkg](https://vcpkg.io/en/package/p-ranav-glob))
 
 ## Communication
 * gRPC:
@@ -220,3 +221,4 @@
 * <https://github.com/evgeniums/cpp-validator> (no vcpkg, [habr](https://habr.com/ru/articles/525204/))
 * [Kaitai Struct](http://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
 * [A lightweight header-only pattern-matching library for C++17 with macro-free APIs](https://github.com/BowenFu/matchit.cpp) ([vcpkg](https://vcpkg.io/en/package/matchit))
+* [cpp-validator](https://github.com/evgeniums/cpp-validator) (no vcpkg, header-only, [Habr](https://habr.com/ru/articles/525204/))
