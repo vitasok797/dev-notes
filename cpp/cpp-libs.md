@@ -55,7 +55,7 @@
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * POCO ([slides](https://pocoproject.org/slides/180-Configuration.pdf))
 
-### Argument parsers
+### Argument parser
 * [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
 * POCO ([slides](https://pocoproject.org/slides/190-Applications.pdf))
 * [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
@@ -66,7 +66,7 @@
 * <https://github.com/adishavit/argh>
 * <https://github.com/CLIUtils/CLI11>
 
-### Environment variables
+### Environment
 * [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
 * POCO ([slides](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
 * <https://github.com/ph3at/libenvpp>
@@ -123,7 +123,7 @@
 * <https://github.com/Neargye/magic_enum>
 * <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe))
 
-### Containers
+### Container
 * [Boost.Container](https://www.boost.org/doc/libs/release/doc/html/container.html)
 * [Boost.Circular\_Buffer](https://www.boost.org/doc/libs/release/doc/html/circular_buffer.html)
 * [Boost.MultiArray](https://www.boost.org/doc/libs/release/libs/multi_array/doc/index.html)
@@ -211,7 +211,7 @@
 * [Boost.Interval](https://www.boost.org/doc/libs/release/libs/numeric/interval/doc/interval.htm)
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
 
-## Shared Libraries
+## Shared Library
 * [Boost.DLL](https://www.boost.org/doc/libs/release/doc/html/boost_dll.html)
 * POCO ([slides](https://pocoproject.org/slides/120-SharedLibraries.pdf))
 
