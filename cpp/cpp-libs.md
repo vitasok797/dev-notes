@@ -117,6 +117,24 @@
 * <https://github.com/stbrumme/hash-library>
 * [Use Fast Algorithms](https://jolynch.github.io/posts/use_fast_data_algorithms/)
 
+## Types
+
+### Common
+* <https://github.com/Neargye/magic_enum>
+* <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe))
+
+### Containers
+* [Boost.Container](https://www.boost.org/doc/libs/release/doc/html/container.html)
+* [Boost.Circular\_Buffer](https://www.boost.org/doc/libs/release/doc/html/circular_buffer.html)
+* [Boost.MultiArray](https://www.boost.org/doc/libs/release/libs/multi_array/doc/index.html)
+* <https://github.com/kokkos/mdspan>
+
+### Reflection
+* <https://github.com/Neargye/nameof>
+* [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
+* Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
+* <https://github.com/dave-hagedorn/cpp-typelist> (no vcpkg, header-only)
+
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/release/libs/log/doc/html/index.html)
 * POCO ([slides](https://pocoproject.org/slides/110-Logging.pdf))
@@ -142,12 +160,6 @@
 * <https://github.com/p-ranav/indicators>
 * <https://github.com/ArthurSonzogni/FTXUI>
 * <https://github.com/magiblot/tvision>
-
-## Containers
-* [Boost.Container](https://www.boost.org/doc/libs/release/doc/html/container.html)
-* [Boost.Circular\_Buffer](https://www.boost.org/doc/libs/release/doc/html/circular_buffer.html)
-* [Boost.MultiArray](https://www.boost.org/doc/libs/release/libs/multi_array/doc/index.html)
-* <https://github.com/kokkos/mdspan>
 
 ## Process
 * [Boost.Process](https://www.boost.org/doc/libs/release/doc/html/process.html)
@@ -211,16 +223,6 @@
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
 * <https://github.com/TartanLlama/expected> ([vcpkg](https://vcpkg.io/en/package/tl-expected))
 * <https://github.com/martinmoene/expected-lite>
-
-## Types
-* <https://github.com/Neargye/magic_enum>
-* <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe))
-
-## Reflection
-* <https://github.com/Neargye/nameof>
-* [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
-* Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
-* <https://github.com/dave-hagedorn/cpp-typelist> (no vcpkg, header-only)
 
 ## Var
 * <https://github.com/ericniebler/range-v3>
