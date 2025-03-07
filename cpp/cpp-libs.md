@@ -95,6 +95,28 @@
 * <https://github.com/p-ranav/csv2>
 * <https://github.com/d99kris/rapidcsv>
 
+## Data
+
+### Serialization
+* <https://protobuf.dev/>
+* <https://flatbuffers.dev/>
+* <https://github.com/capnproto/capnproto>
+* <https://github.com/eyalz800/zpp_bits>
+* <https://github.com/fraillt/bitsery>
+* <https://github.com/fraillt/cpp_serializers_benchmark>
+
+### Base64
+* POCO ([slides](https://pocoproject.org/slides/100-Streams.pdf))
+* <https://github.com/tplgy/cppcodec>
+* <https://github.com/ReneNyffenegger/cpp-base64>
+
+### Hash
+* POCO ([slides](https://pocoproject.org/slides/060-RandomCrypto.pdf))
+* <https://github.com/okdshin/PicoSHA2>
+* <https://github.com/weidai11/cryptopp>
+* <https://github.com/stbrumme/hash-library>
+* [Use Fast Algorithms](https://jolynch.github.io/posts/use_fast_data_algorithms/)
+
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/release/libs/log/doc/html/index.html)
 * POCO ([slides](https://pocoproject.org/slides/110-Logging.pdf))
@@ -111,30 +133,10 @@
 * <https://www.qt.io/product/framework>
 * <https://www.wxwidgets.org/>
 
-## Serialization
-* <https://protobuf.dev/>
-* <https://flatbuffers.dev/>
-* <https://github.com/capnproto/capnproto>
-* <https://github.com/eyalz800/zpp_bits>
-* <https://github.com/fraillt/bitsery>
-* <https://github.com/fraillt/cpp_serializers_benchmark>
-
-## Base64
-* POCO ([slides](https://pocoproject.org/slides/100-Streams.pdf))
-* <https://github.com/tplgy/cppcodec>
-* <https://github.com/ReneNyffenegger/cpp-base64>
-
 ## UUID
 * [Boost.Uuid](https://www.boost.org/doc/libs/release/libs/uuid/doc/html/uuid.html)
 * POCO ([slides](https://pocoproject.org/slides/160-URIandUUID.pdf))
 * <https://github.com/mariusbancila/stduuid>
-
-## Hash
-* POCO ([slides](https://pocoproject.org/slides/060-RandomCrypto.pdf))
-* <https://github.com/okdshin/PicoSHA2>
-* <https://github.com/weidai11/cryptopp>
-* <https://github.com/stbrumme/hash-library>
-* [Use Fast Algorithms](https://jolynch.github.io/posts/use_fast_data_algorithms/)
 
 ## CLI
 * <https://github.com/p-ranav/indicators>
