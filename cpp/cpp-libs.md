@@ -41,6 +41,7 @@
 * :warning: `POCO (PCRE)`
 * :warning: `ICU?`
 * :warning: `Другие`
+* <https://github.com/zemasoft/wildcards>
 
 ## I18n
 * [Boost.Locale](https://www.boost.org/doc/libs/release/libs/locale/doc/html/index.html)
@@ -199,15 +200,18 @@
 * [Boost.LEAF](https://www.boost.org/doc/libs/release/libs/leaf/doc/html/index.html)
 * [Boost.System](https://www.boost.org/doc/libs/release/libs/system/doc/html/system.html)
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
+* <https://github.com/TartanLlama/expected> ([vcpkg](https://vcpkg.io/en/package/tl-expected))
+* <https://github.com/martinmoene/expected-lite>
 
 ## Types
+* <https://github.com/Neargye/magic_enum>
 * <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe))
 
 ## Reflection
-* <https://github.com/Neargye/magic_enum>
 * <https://github.com/Neargye/nameof>
 * [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
 * Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
+* <https://github.com/dave-hagedorn/cpp-typelist> (no vcpkg)
 
 ## Var
 * <https://github.com/ericniebler/range-v3>
@@ -215,3 +219,4 @@
 * <https://github.com/CoolProp/CoolProp>
 * <https://github.com/evgeniums/cpp-validator> (no vcpkg, [habr](https://habr.com/ru/articles/525204/))
 * [Kaitai Struct](http://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
+* [A lightweight header-only pattern-matching library for C++17 with macro-free APIs](https://github.com/BowenFu/matchit.cpp) ([vcpkg](https://vcpkg.io/en/package/matchit))
