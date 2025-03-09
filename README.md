@@ -8,6 +8,7 @@
     * [*Unsorted*](cpp/cpp-unsorted.md)
   * [C#](csharp/csharp.md)
   * [Fortran](fortran/fortran.md)
+  * [Julia](julia/julia.md)
   * [Python](python/python.md)
 * Var:
   * [Architecture](var/architecture.md)
