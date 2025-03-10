@@ -13,4 +13,5 @@
 
 ## Var
 * [Fortran Wiki](https://fortranwiki.org/fortran/show/HomePage)
+* [Fortran WikiBook](https://en.wikibooks.org/wiki/Fortran)
 * [(Habr) Неинициализированные переменные: ищем ошибки](https://habr.com/ru/companies/intel/articles/318494/)
