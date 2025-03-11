@@ -1,4 +1,4 @@
-# C++ language
+# C++ / Language
 
 ## Tutorials
 * <https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-160>
