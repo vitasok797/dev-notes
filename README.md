@@ -10,10 +10,10 @@
   * [Fortran](fortran/fortran.md)
   * [Julia](julia/julia.md)
   * [Python](python/python.md)
+* [Communication](communication/communication.md)
 * Var:
   * [Architecture](var/architecture.md)
   * [Calc](var/calc.md)
-  * [Communication](communication/communication.md)
   * [Develop](var/develop.md)
   * [Intel compilers](var/intel-compilers.md)
   * [Plot](var/plot.md)
