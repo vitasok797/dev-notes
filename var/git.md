@@ -21,6 +21,12 @@
 * [(Habr) Бранч-стратегии при разработке в Git](https://habr.com/ru/companies/itglobalcom/articles/535524/)
 * [(Habr) Работа с Git без использования локальных веток](https://habr.com/ru/articles/269671/)
 
+### Branching (Feature Flags)
+* [Feature Toggles (aka Feature Flags)](https://www.martinfowler.com/articles/feature-toggles.html)
+* [(Habr) Стратегия ветвления ThreeFlow](https://habr.com/ru/companies/infopulse/articles/345826/)
+* [(Habr) Feature Flags и фабрика ПО](https://habr.com/ru/articles/543420/)
+* [(Habr) Укрощение feature-флагов](https://habr.com/ru/companies/hh/articles/580736/)
+
 ## Rebase
 * [(Habr) Чем опасен rebase, или как получилось, что 2*3=5](https://habr.com/ru/articles/179123/)
 * [(Habr) Почему нужно перестать использовать Git rebase](https://habr.com/ru/companies/vk/articles/340558/)
