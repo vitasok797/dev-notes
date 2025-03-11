@@ -18,3 +18,4 @@
 * [Fortran Wiki](https://fortranwiki.org/fortran/show/HomePage)
 * [Fortran WikiBook](https://en.wikibooks.org/wiki/Fortran)
 * [(Habr) Неинициализированные переменные: ищем ошибки](https://habr.com/ru/companies/intel/articles/318494/)
+* [Intel Fortran Reference: standard-semantics option](http://ahamodel.uib.no/intel/GUID-DB7BF3D1-3528-416F-BD49-CE5A3B5546DF.html)
