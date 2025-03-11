@@ -4,12 +4,20 @@
 * <https://git-scm.com/book/ru/v2>
 * <https://learngitbranching.js.org>
 * <https://www.atlassian.com/git/tutorials>
-* <https://docs.github.com/en/get-started/using-github/github-flow>
 
 ## Articles
 
 * [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
 * [(Habr) Зачем пользователи GIT-а редактируют свои коммиты](https://habr.com/ru/articles/179045/)
+
+## Branching
+* [(Habr) Удачная модель ветвления для Git](https://habr.com/ru/articles/106912/)
+* [(Habr) Пожалуйста, перестаньте рекомендовать Git Flow](https://habr.com/ru/companies/flant/articles/491320/)
+* [A succesful Git branching model considered harmful](https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful/)
+* [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow)
+* [(Habr) GitLab Flow](https://habr.com/ru/companies/softmart/articles/316686/)
+* [(Habr) Бранч-стратегии при разработке в Git](https://habr.com/ru/companies/itglobalcom/articles/535524/)
+* [(Habr) Работа с Git без использования локальных веток](https://habr.com/ru/articles/269671/)
 
 ## Rebase
 * [(Habr) Чем опасен rebase, или как получилось, что 2*3=5](https://habr.com/ru/articles/179123/)
