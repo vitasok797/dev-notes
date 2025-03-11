@@ -39,6 +39,11 @@
 * [(Habr) Git Rebase: руководство по использованию](https://habr.com/ru/articles/161009/)
 * [Правим историю Git с помощью интерактивного rebase](https://alexeykalina.github.io/technologies/git-rebase-interactive.html)
 
+## Configuring Git
+* [Setting your username in Git](https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git)
+* [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
+* [Configuring Git to handle line endings](https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings)
+
 ## GUI Tools
 * [(Habr) GUI для Git: подборка популярных решений](https://habr.com/ru/articles/741016/)
 * [(Habr) Git — сравнение Visual Studio 2022 с MeGit/EGit и SourceTree](https://habr.com/ru/companies/ruvds/articles/683576/)
