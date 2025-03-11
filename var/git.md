@@ -45,8 +45,8 @@
 * [Configuring Git to handle line endings](https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings)
 
 > [!NOTE]
-> Disabling fast-forward merge:
-> git config --global merge.ff false
+> Disabling fast-forward merge: \
+> git config --global merge.ff false \
 > git config --global pull.ff true
 
 ## GUI Tools
