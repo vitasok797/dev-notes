@@ -1,1 +1,1 @@
-# gRPC
+# Communication / gRPC
