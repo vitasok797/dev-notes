@@ -1,4 +1,4 @@
-# C++ libs
+# C++ / Libs
 
 ## Library lists
 * [Awesome C++](https://github.com/fffaraz/awesome-cpp)
