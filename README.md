@@ -13,6 +13,7 @@
   * [Calc](var/calc.md)
   * [Develop](var/develop.md)
   * [Intel compilers](var/intel-compilers.md)
+  * [Multithreading](var/multithreading.md)
   * [Plot](var/plot.md)
 * Unsorted:
   * [*Unsorted 1*](unsorted/unsorted-1.md)
