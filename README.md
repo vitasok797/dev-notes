@@ -3,6 +3,7 @@
 * Languages:
   * [C++](cpp/cpp.md)
   * [C#](csharp/csharp.md)
+  * [Delphi](delphi/delphi.md)
   * [Fortran](fortran/fortran.md)
   * [Julia](julia/julia.md)
   * [Python](python/python.md)
