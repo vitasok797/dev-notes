@@ -12,6 +12,7 @@
 * [(Habr) Subversion vs. Git: Развенчивание мифов о развенчивании мифов](https://habr.com/ru/articles/320704/)
 * [(Habr) Git happens! 6 типичных ошибок Git и как их исправить](https://habr.com/ru/companies/flant/articles/419733/)
 * [(Habr) Безболезненное разрешение Merge конфликтов в Git](https://habr.com/ru/articles/323234/)
+* [(Habr) Git. Скачем между ветками как древесные лягушки](https://habr.com/ru/articles/826260/)
 
 ## Branching
 * [(Habr) Удачная модель ветвления для Git](https://habr.com/ru/articles/106912/)
