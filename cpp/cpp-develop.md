@@ -1,4 +1,4 @@
-# C++ develop
+# C++ / Develop
 
 ## VCPKG
 * <https://learn.microsoft.com/en-us/vcpkg/>
