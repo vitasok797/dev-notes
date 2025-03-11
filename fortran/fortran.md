@@ -4,6 +4,7 @@
 * [Intel® Fortran Compiler 17.0 Developer Guide and Reference](http://ahamodel.uib.no/intel/index.htm)
 
 ## Interoperability
+* [Reference: Mixed Language Programming](http://ahamodel.uib.no/intel/index.htm#GUID-D7795036-D10D-4145-97E9-70BAC4B0B4E1.html)
 * [Fortran Wiki: Interoperability](https://fortranwiki.org/fortran/show/Interoperability)
 * [Fortran Wiki: C interoperability](https://fortranwiki.org/fortran/show/C+interoperability)
 * [Fortran Wiki: Generating C Interfaces](https://fortranwiki.org/fortran/show/Generating+C+Interfaces)
