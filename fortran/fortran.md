@@ -1,6 +1,7 @@
 # Fortran
 
 ## Reference
+* [Intel® Fortran Compiler 17.0 Developer Guide and Reference](http://ahamodel.uib.no/intel/index.htm)
 
 ## Interoperability
 * [Fortran Wiki: Interoperability](https://fortranwiki.org/fortran/show/Interoperability)
