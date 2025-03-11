@@ -42,8 +42,10 @@
 ## Configuring Git
 * [Setting your username in Git](https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git)
 * [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
-* [Configuring Git to handle line endings](https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings)
-* [Git attributes (checking_out_and_checking_in)](https://git-scm.com/docs/gitattributes#_checking_out_and_checking_in)
+* Line endings:
+  * [Configuring Git to handle line endings](https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings)
+  * [Git. Символы конца строки EOL](https://tokmakov.msk.ru/blog/item/710)
+  * [Git attributes (checking_out_and_checking_in)](https://git-scm.com/docs/gitattributes#_checking_out_and_checking_in)
 
 <details>
 <summary>:warning: Disabling fast-forward merge:</summary>
