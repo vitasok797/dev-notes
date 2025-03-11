@@ -1,5 +1,5 @@
 # Communication
 
-* [DDS](communication/dds.md)
-* [gRPC](communication/grpc.md)
-* [ZeroMQ](communication/zeromq.md)
+* [DDS](dds.md)
+* [gRPC](grpc.md)
+* [ZeroMQ](zeromq.md)
