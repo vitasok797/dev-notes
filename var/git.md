@@ -9,6 +9,9 @@
 
 * [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
 * [(Habr) Зачем пользователи GIT-а редактируют свои коммиты](https://habr.com/ru/articles/179045/)
+* [(Habr) Subversion vs. Git: Развенчивание мифов о развенчивании мифов](https://habr.com/ru/articles/320704/)
+* [(Habr) Git happens! 6 типичных ошибок Git и как их исправить](https://habr.com/ru/companies/flant/articles/419733/)
+* [(Habr) Безболезненное разрешение Merge конфликтов в Git](https://habr.com/ru/articles/323234/)
 
 ## Branching
 * [(Habr) Удачная модель ветвления для Git](https://habr.com/ru/articles/106912/)
@@ -37,5 +40,7 @@
 
 ## GUI Tools
 * [(Habr) GUI для Git: подборка популярных решений](https://habr.com/ru/articles/741016/)
+* [(Habr) Git — сравнение Visual Studio 2022 с MeGit/EGit и SourceTree](https://habr.com/ru/companies/ruvds/articles/683576/)
+* [(Habr) Текущее состояние инструментов. Взгляд пользователя (2011)](https://habr.com/ru/articles/112648/)
 * <https://www.sourcetreeapp.com/>
 * <https://gitextensions.github.io/>
