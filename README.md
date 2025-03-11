@@ -13,6 +13,7 @@
 * Var:
   * [Architecture](var/architecture.md)
   * [Calc](var/calc.md)
+  * [Communication](communication/communication.md)
   * [Develop](var/develop.md)
   * [Intel compilers](var/intel-compilers.md)
   * [Plot](var/plot.md)
