@@ -4,6 +4,7 @@
 * <https://git-scm.com/book/ru/v2>
 * <https://learngitbranching.js.org>
 * <https://www.atlassian.com/git/tutorials>
+* [Шпаргалка](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 
 ## Articles
 
