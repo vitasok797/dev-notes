@@ -1,9 +1,8 @@
 # Git
 
 ## Tutorials
-* <https://git-scm.com/book/ru/v2>
-* <https://learngitbranching.js.org>
-* <https://www.atlassian.com/git/tutorials>
+* [Git book](https://git-scm.com/book/ru/v2)
+* [LearnGitBranching](https://learngitbranching.js.org)
 * [Шпаргалка](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 
 ## Articles
