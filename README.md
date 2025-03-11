@@ -12,6 +12,7 @@
   * [Architecture](var/architecture.md)
   * [Calc](var/calc.md)
   * [Develop](var/develop.md)
+  * [Git](var/git.md)
   * [Intel compilers](var/intel-compilers.md)
   * [Multithreading](var/multithreading.md)
   * [Plot](var/plot.md)
