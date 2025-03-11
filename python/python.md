@@ -8,3 +8,4 @@
 
 ## Var
 * [3 инструмента Python, которые вам стоит использовать при написании кода при работе с данными](https://dzen.ru/a/YjYZKTwU9GwI0BYG)
+* [PEP 526 – Syntax for Variable Annotations: Class and instance variable annotations](https://peps.python.org/pep-0526/#class-and-instance-variable-annotations)
