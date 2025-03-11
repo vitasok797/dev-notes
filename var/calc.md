@@ -20,3 +20,11 @@
 ## Time series
 * <https://towardsdatascience.com/time-series-forecast-error-metrics-you-should-know-cc88b8c67f27>
 * <https://levelup.gitconnected.com/25-time-series-forecasting-concepts-that-every-ml-engineer-should-know-part-2-d743166c89b9>
+* <https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-021-01306-w>
+* <https://www.sciencedirect.com/science/article/pii/S2405918817300405>
+* <https://www.aptech.com/blog/introduction-to-the-fundamentals-of-time-series-data-and-analysis/>
+* <https://epubs.siam.org/doi/epdf/10.1137/1.9781611972740.2>
+* <https://rtavenar.github.io/blog/dtw.html>
+* <https://bird.bcamath.org/bitstream/handle/20.500.11824/888/review.pdf;jsessionid=8CE5E3DE248B0B7837191BF6F8F2E190?sequence=1>
+* <https://forecastegy.com/posts/how-to-measure-time-series-similarity-in-python/>
+* <https://stats.stackexchange.com/questions/185912/alternate-distance-metrics-for-two-time-series>
