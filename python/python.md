@@ -1,5 +1,8 @@
 # Python
 
+## Async
+* [(Habr) Python 3.5; async/await](https://habr.com/ru/articles/266743/)
+
 ## Pandas
 * [10 minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
 
