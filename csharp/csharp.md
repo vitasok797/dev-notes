@@ -6,5 +6,5 @@
 
 ## Var
 
-* [Язык C# почти функционален](https://habr.com/ru/companies/piter/articles/321546/)
-* [Ваш C# уже «функциональный», просто позвольте ему это](https://habr.com/ru/articles/493484/)
+* [(Habr) Язык C# почти функционален](https://habr.com/ru/companies/piter/articles/321546/)
+* [(Habr) Ваш C# уже «функциональный», просто позвольте ему это](https://habr.com/ru/articles/493484/)
