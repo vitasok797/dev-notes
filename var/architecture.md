@@ -37,13 +37,13 @@
 * [(Habr) Реализация паттерна MVP на основе ApplicationController и IoC в WinForms приложении](https://habr.com/ru/articles/502358/)
 
 ## Video
-* [(Youtube) Clean Code - Uncle Bob / Lesson 1](https://www.youtube.com/watch?v=7EmboKQH8lM)
-* [(Youtube) Clean Code - Uncle Bob / Lesson 2](https://www.youtube.com/watch?v=2a_ytyt9sf8)
-* [(Youtube) Clean Code - Uncle Bob / Lesson 4](https://www.youtube.com/watch?v=58jGpV2Cg50)
-* [(Youtube) Uncle Bob SOLID principles](https://www.youtube.com/watch?v=zHiWqnTWsn4)
-* [(Youtube) Robert C Martin - Clean Architecture and Design](https://www.youtube.com/watch?v=Nsjsiz2A9mg)
-* [(Youtube) The S.O.L.I.D. Principles of OO & Agile Design - Uncle Bob Martin](https://www.youtube.com/watch?v=t86v3N4OshQ)
-* [(Youtube) UncleBob Expecting Professionalism](https://www.youtube.com/watch?v=BSaAMQVq01E)
+* [(Youtube) Uncle Bob: Clean Code / Lesson 1](https://www.youtube.com/watch?v=7EmboKQH8lM)
+* [(Youtube) Uncle Bob: Clean Code / Lesson 2](https://www.youtube.com/watch?v=2a_ytyt9sf8)
+* [(Youtube) Uncle Bob: Clean Code / Lesson 4](https://www.youtube.com/watch?v=58jGpV2Cg50)
+* [(Youtube) Uncle Bob: SOLID principles](https://www.youtube.com/watch?v=zHiWqnTWsn4)
+* [(Youtube) Uncle Bob: Clean Architecture and Design](https://www.youtube.com/watch?v=Nsjsiz2A9mg)
+* [(Youtube) Uncle Bob: The S.O.L.I.D. Principles of OO & Agile Design](https://www.youtube.com/watch?v=t86v3N4OshQ)
+* [(Youtube) Uncle Bob: Expecting Professionalism](https://www.youtube.com/watch?v=BSaAMQVq01E)
 * [(Youtube) Введение в Чистую Архитектуру. Артур Бадретдинов](https://www.youtube.com/watch?v=MYXt_9d_2ps)
 * [(Youtube) Эти страшные буквы MV*](https://www.youtube.com/watch?v=5WgsKtlHUls)
 
