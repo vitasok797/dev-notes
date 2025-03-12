@@ -39,6 +39,9 @@
 * <https://github.com/catchorg/Catch2>
 * <https://github.com/doctest/doctest>
 
+## DLL
+* [How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
+
 ## Var
 * <https://github.com/Data-Oriented-House/PortableBuildTools>
 * [Visual Studio 2022 Release History](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
