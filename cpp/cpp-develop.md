@@ -24,6 +24,14 @@
 * [(Habr) Руководство Google по стилю в C++ 2](https://habr.com/ru/articles/841552/)
 * [(Habr) 90 рекомендаций по стилю написания программ на C++](https://habr.com/ru/articles/172091/)
 
+## Testing
+* <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest))
+* <https://github.com/catchorg/Catch2>
+* <https://github.com/doctest/doctest>
+
+## DLL
+* [How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
+
 ## Linters and Analyzers
 * <https://github.com/cpplint/cpplint>
 * <https://demin.ws/blog/russian/2009/07/08/google-coding-standard-in-visual-studio/>
@@ -34,14 +42,6 @@
 * [(Habr) Clang-Tidy для автоматического рефакторинга кода](https://habr.com/ru/companies/auriga/articles/526486/)
 * [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
 * [Cppcheck](https://cppcheck.sourceforge.io/)
-
-## Testing
-* <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest))
-* <https://github.com/catchorg/Catch2>
-* <https://github.com/doctest/doctest>
-
-## DLL
-* [How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
 
 ## Visual Studio extensions
 * [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
