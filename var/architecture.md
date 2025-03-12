@@ -44,6 +44,7 @@
 * [(Youtube) Robert C Martin - Clean Architecture and Design](https://www.youtube.com/watch?v=Nsjsiz2A9mg)
 * [(Youtube) The S.O.L.I.D. Principles of OO & Agile Design - Uncle Bob Martin](https://www.youtube.com/watch?v=t86v3N4OshQ)
 * [(Youtube) Введение в Чистую Архитектуру. Артур Бадретдинов](https://www.youtube.com/watch?v=MYXt_9d_2ps)
+* [(Youtube) Эти страшные буквы MV*](https://www.youtube.com/watch?v=5WgsKtlHUls)
 
 ## Var
 * [(Habr) Service Locator нарушает инкапсуляцию](https://habr.com/ru/articles/270005/)
