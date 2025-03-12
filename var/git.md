@@ -74,3 +74,9 @@ git config --global pull.ff true
   * [Git Extensions](https://gitextensions.github.io/)
   * [MeGit](https://github.com/eclipsesource/megit)
   * [TortoiseGit](https://tortoisegit.org/)
+
+## Video
+* [(Youtube) Git. Большой практический выпуск](https://www.youtube.com/watch?v=SEvR78OhGtw)
+* [(Youtube) So You Think You Know Git](https://www.youtube.com/watch?v=aolI_Rz0ZqY)
+* [(Youtube) Git PULL vs FETCH](https://www.youtube.com/watch?v=T13gDBXarj0)
+* [(Youtube) Never* use git pull](https://www.youtube.com/watch?v=xN1-2p06Urc)
