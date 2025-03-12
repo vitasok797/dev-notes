@@ -31,8 +31,6 @@
 * [(Habr) Martin Fowler — GUI Architectures. Часть 4](https://habr.com/ru/articles/53943/)
 * [(Habr) Martin Fowler — GUI Architectures. Часть 5](https://habr.com/ru/articles/54034/)
 
-* [(Habr) ]()
-
 ### MVP
 * [(Habr) Особенности реализации MVP для Windows Forms](https://habr.com/ru/articles/211899/)
 * [(Habr) Реализация паттерна MVP на основе ApplicationController и IoC в WinForms приложении](https://habr.com/ru/articles/502358/)
