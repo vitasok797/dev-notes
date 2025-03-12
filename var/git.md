@@ -69,7 +69,7 @@ git config --global pull.ff true
 * [(Habr) GUI для Git: подборка популярных решений](https://habr.com/ru/articles/741016/)
 * [(Habr) Git — сравнение Visual Studio 2022 с MeGit/EGit и SourceTree](https://habr.com/ru/companies/ruvds/articles/683576/)
 * [(Habr) Текущее состояние инструментов. Взгляд пользователя (2011)](https://habr.com/ru/articles/112648/)
-* Tools:
+* GUI Clients:
   * [Sourcetree](https://www.sourcetreeapp.com/)
   * [Git Extensions](https://gitextensions.github.io/)
   * [MeGit](https://github.com/eclipsesource/megit)
