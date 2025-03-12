@@ -22,3 +22,9 @@
 * [(Habr) Domain Driven Design на практике](https://habr.com/ru/articles/334126/)
 * [(Habr) Организация кода в микросервисах и мой подход применения гексагональной архитектуры и DDD](https://habr.com/ru/articles/493426/)
 * [(Habr) Domain-driven design, Hexagonal architecture of ports and adapters, Dependency injection и Python](https://habr.com/ru/articles/559560/)
+
+## GUI architecture
+
+### MVP
+* [(Habr) Особенности реализации MVP для Windows Forms](https://habr.com/ru/articles/211899/)
+* [(Habr) Реализация паттерна MVP на основе ApplicationController и IoC в WinForms приложении](https://habr.com/ru/articles/502358/)
