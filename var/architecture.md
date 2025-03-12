@@ -25,6 +25,18 @@
 
 ## GUI architecture
 
+* [(Habr) Martin Fowler — GUI Architectures. Часть 1](https://habr.com/ru/articles/50830/)
+* [(Habr) Martin Fowler — GUI Architectures. Часть 2](https://habr.com/ru/articles/53536/)
+* [(Habr) Martin Fowler — GUI Architectures. Часть 3](https://habr.com/ru/articles/53920/)
+* [(Habr) Martin Fowler — GUI Architectures. Часть 4](https://habr.com/ru/articles/53943/)
+* [(Habr) Martin Fowler — GUI Architectures. Часть 5](https://habr.com/ru/articles/54034/)
+
+* [(Habr) ]()
+
 ### MVP
 * [(Habr) Особенности реализации MVP для Windows Forms](https://habr.com/ru/articles/211899/)
 * [(Habr) Реализация паттерна MVP на основе ApplicationController и IoC в WinForms приложении](https://habr.com/ru/articles/502358/)
+
+## Var
+* [(Habr) Service Locator нарушает инкапсуляцию](https://habr.com/ru/articles/270005/)
+* [Удалите из кода If-Else и Switch Case](https://proglib.io/p/udalite-iz-koda-if-else-i-switch-case-2021-06-02)
