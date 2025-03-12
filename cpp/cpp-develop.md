@@ -29,7 +29,8 @@
 * <https://demin.ws/blog/russian/2009/07/08/google-coding-standard-in-visual-studio/>
 * <https://heaohan.github.io/blog/2017/12/01/he-aohan-apply-cpplint>
 * <https://clang.llvm.org/docs/ClangFormat.html>
-* [Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
+* [C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
+* [C++ Code analysis in Visual Studio: Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
 * [(Habr) Clang-Tidy для автоматического рефакторинга кода](https://habr.com/ru/companies/auriga/articles/526486/)
 * [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
 * [Cppcheck](https://cppcheck.sourceforge.io/)
