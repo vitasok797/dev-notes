@@ -55,7 +55,7 @@
   * [Git attributes (checking_out_and_checking_in)](https://git-scm.com/docs/gitattributes#_checking_out_and_checking_in)
 
 <details>
-<summary>:star: Disabling fast-forward merge:</summary>
+<summary>:star: Disabling fast-forward merge</summary>
 
  ```
 git config --global merge.ff false
