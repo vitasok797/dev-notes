@@ -3,6 +3,7 @@
 ## Tutorials
 * [Git book](https://git-scm.com/book/ru/v2)
 * [LearnGitBranching](https://learngitbranching.js.org)
+* [Atlassian tutorials](https://www.atlassian.com/git/tutorials)
 * [Шпаргалка](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 
 ## Articles
@@ -28,6 +29,7 @@
 * [(Habr) Работа с Git без использования локальных веток](https://habr.com/ru/articles/269671/)
 * [(Habr) Собираем свой flow для git с нуля](https://habr.com/ru/articles/493866/)
 * [Git branching strategies](https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-git-branch-approach/git-branching-strategies.html)
+* [Comparing Git workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
 ### Branching (Feature Flags)
 * [Feature Toggles (aka Feature Flags)](https://www.martinfowler.com/articles/feature-toggles.html)
@@ -63,6 +65,7 @@ git config --global pull.ff true
 </details>
 
 ## GUI Tools
+* [Windows GUI Clients](https://git-scm.com/downloads/guis?os=windows)
 * [(Habr) GUI для Git: подборка популярных решений](https://habr.com/ru/articles/741016/)
 * [(Habr) Git — сравнение Visual Studio 2022 с MeGit/EGit и SourceTree](https://habr.com/ru/companies/ruvds/articles/683576/)
 * [(Habr) Текущее состояние инструментов. Взгляд пользователя (2011)](https://habr.com/ru/articles/112648/)
