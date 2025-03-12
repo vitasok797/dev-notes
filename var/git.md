@@ -13,6 +13,7 @@
 * [(Habr) Git happens! 6 типичных ошибок Git и как их исправить](https://habr.com/ru/companies/flant/articles/419733/)
 * [(Habr) Безболезненное разрешение Merge конфликтов в Git](https://habr.com/ru/articles/323234/)
 * [(Habr) Git. Скачем между ветками как древесные лягушки](https://habr.com/ru/articles/826260/)
+* [(Habr) Git снизу вверх](https://habr.com/ru/companies/intel/articles/344962/)
 
 ## Branching
 * [(Habr) Удачная модель ветвления для Git](https://habr.com/ru/articles/106912/)
@@ -21,9 +22,12 @@
 * [Trunk-Based Development site](https://trunkbaseddevelopment.com/)
 * [What is Trunk-Based Development?](https://paulhammant.com/2013/04/05/what-is-trunk-based-development/)
 * [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow)
+* [GitHub Flow](https://githubflow.github.io/)
 * [(Habr) GitLab Flow](https://habr.com/ru/companies/softmart/articles/316686/)
 * [(Habr) Бранч-стратегии при разработке в Git](https://habr.com/ru/companies/itglobalcom/articles/535524/)
 * [(Habr) Работа с Git без использования локальных веток](https://habr.com/ru/articles/269671/)
+* [(Habr) Собираем свой flow для git с нуля](https://habr.com/ru/articles/493866/)
+* [Git branching strategies](https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-git-branch-approach/git-branching-strategies.html)
 
 ### Branching (Feature Flags)
 * [Feature Toggles (aka Feature Flags)](https://www.martinfowler.com/articles/feature-toggles.html)
@@ -32,6 +36,7 @@
 * [(Habr) Укрощение feature-флагов](https://habr.com/ru/companies/hh/articles/580736/)
 
 ## Rebase
+* [(Habr) Руководство по Git. Часть №2: золотое правило и другие основы rebase](https://habr.com/ru/companies/vk/articles/493818/)
 * [(Habr) Чем опасен rebase, или как получилось, что 2*3=5](https://habr.com/ru/articles/179123/)
 * [(Habr) Почему нужно перестать использовать Git rebase](https://habr.com/ru/companies/vk/articles/340558/)
 * [(Habr) Золотое правило git rebase](https://habr.com/ru/companies/otus/articles/352640/)
