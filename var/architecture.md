@@ -36,6 +36,13 @@
 * [(Habr) Особенности реализации MVP для Windows Forms](https://habr.com/ru/articles/211899/)
 * [(Habr) Реализация паттерна MVP на основе ApplicationController и IoC в WinForms приложении](https://habr.com/ru/articles/502358/)
 
+## Video
+* [(Youtube) Clean Code - Uncle Bob / Lesson 1](https://www.youtube.com/watch?v=7EmboKQH8lM)
+* [(Youtube) Clean Code - Uncle Bob / Lesson 2](https://www.youtube.com/watch?v=2a_ytyt9sf8)
+* [(Youtube) Clean Code - Uncle Bob / Lesson 4](https://www.youtube.com/watch?v=58jGpV2Cg50)
+* [(Youtube) Uncle Bob SOLID principles](https://www.youtube.com/watch?v=zHiWqnTWsn4)
+* [(Youtube) Robert C Martin - Clean Architecture and Design](https://www.youtube.com/watch?v=Nsjsiz2A9mg)
+
 ## Var
 * [(Habr) Service Locator нарушает инкапсуляцию](https://habr.com/ru/articles/270005/)
 * [Удалите из кода If-Else и Switch Case](https://proglib.io/p/udalite-iz-koda-if-else-i-switch-case-2021-06-02)
