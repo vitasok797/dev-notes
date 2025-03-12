@@ -38,3 +38,4 @@
 ## Var
 * [(Habr) Service Locator нарушает инкапсуляцию](https://habr.com/ru/articles/270005/)
 * [Удалите из кода If-Else и Switch Case](https://proglib.io/p/udalite-iz-koda-if-else-i-switch-case-2021-06-02)
+* [Value Objects explained](https://enterprisecraftsmanship.com/posts/value-objects-explained/)
