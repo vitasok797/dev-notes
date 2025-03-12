@@ -25,6 +25,7 @@
 
 ## GUI architecture
 
+### Comparison
 * [(Habr) Martin Fowler — GUI Architectures. Часть 1](https://habr.com/ru/articles/50830/)
 * [(Habr) Martin Fowler — GUI Architectures. Часть 2](https://habr.com/ru/articles/53536/)
 * [(Habr) Martin Fowler — GUI Architectures. Часть 3](https://habr.com/ru/articles/53920/)
