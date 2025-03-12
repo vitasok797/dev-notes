@@ -15,9 +15,9 @@
 ### Clean Architecture
 * [(Habr) Коротко о главном: Clean Architecture, Robert C. Martin](https://habr.com/ru/articles/464185/)
 * [(Habr) Заблуждения Clean Architecture](https://habr.com/ru/companies/mobileup/articles/335382/)
-* [(Habr) Как устроен Domain-Driven Design](https://habr.com/ru/companies/oleg-bunin/articles/551428/)
 
 ### DDD
+* [(Habr) Как устроен Domain-Driven Design](https://habr.com/ru/companies/oleg-bunin/articles/551428/)
 * [(Habr) Поваренная книга разработчика: DDD-рецепты (3-я часть, Архитектура приложения)](https://habr.com/ru/articles/429750/)
 * [(Habr) Domain Driven Design на практике](https://habr.com/ru/articles/334126/)
 * [(Habr) Организация кода в микросервисах и мой подход применения гексагональной архитектуры и DDD](https://habr.com/ru/articles/493426/)
