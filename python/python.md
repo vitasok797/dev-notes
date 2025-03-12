@@ -5,6 +5,7 @@
 
 ## Pandas
 * [10 minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
+* [(Youtube) Time-Series Data Manipulation with Pandas](https://www.youtube.com/watch?v=VLGptwMRIVQ)
 
 ## PyInstaller
 * <https://github.com/pyinstaller/pyinstaller/wiki/Recipe-subprocess>
