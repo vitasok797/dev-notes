@@ -43,6 +43,14 @@
 ## DLL
 * [How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
 
+## Visual Studio extensions
+* [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
+* [Productivity Power Tools 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2022)
+* [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+* [cpplint](https://marketplace.visualstudio.com/items?itemName=mine.cpplint)
+* [Trailing Whitespace Visualizer (2019)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
+* [Trailing Whitespace Visualizer (2022)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespace64)
+
 ## Var
 * <https://github.com/Data-Oriented-House/PortableBuildTools>
 * [Visual Studio 2022 Release History](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
