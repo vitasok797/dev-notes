@@ -14,6 +14,7 @@
 * [Communication](communication/communication.md)
 * [Develop](var/develop.md)
 * [Git](var/git.md)
+* [GUI](var/gui.md)
 * [Intel compilers](var/intel-compilers.md)
 * [Multithreading](var/multithreading.md)
 * [Plot](var/plot.md)
