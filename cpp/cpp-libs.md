@@ -185,6 +185,7 @@
 * <https://github.com/abumq/easyloggingpp>
 * <https://github.com/log4cplus/log4cplus>
 * <https://logging.apache.org/log4cxx/>
+* [(Habr) Сравнение библиотек логирования](https://habr.com/ru/articles/313686/)
 
 ## GUI
 * <https://www.qt.io/product/framework>
