@@ -82,6 +82,7 @@
 ### JSON
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * [Boost.JSON](https://www.boost.org/doc/libs/release/libs/json/doc/html/index.html)
+* POCO [JSON/Object.h](https://docs.pocoproject.org/current/Poco.JSON.Object.html)
 * <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
 
 ### TOML
