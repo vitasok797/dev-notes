@@ -86,7 +86,7 @@
 * [Boost.JSON](https://www.boost.org/doc/libs/release/libs/json/doc/html/index.html)
 * POCO [JSON/Object.h](https://docs.pocoproject.org/current/Poco.JSON.Object.html)
 * <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
-* <https://github.com/Tencent/rapidjson/> [site](http://rapidjson.org/)
+* <https://github.com/Tencent/rapidjson/> ([site](http://rapidjson.org/))
 
 ### TOML
 * <https://github.com/marzer/tomlplusplus> ([site](https://marzer.github.io/tomlplusplus/))
