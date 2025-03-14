@@ -77,6 +77,8 @@
 ### XML
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * POCO ([slides](https://pocoproject.org/slides/170-XML.pdf))
+* https://github.com/zeux/pugixml
+* https://github.com/leethomason/tinyxml2
 * [(StackOverflow) Choose XML library](https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c/9387612#9387612)
 
 ### JSON
