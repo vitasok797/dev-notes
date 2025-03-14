@@ -219,6 +219,9 @@
   * <https://github.com/zeromq/azmq>
 * <https://github.com/eProsima/Fast-DDS> ([vcpkg](https://vcpkg.io/en/package/fastdds))
 
+## HTTP servers
+* POCO ([slides](https://pocoproject.org/slides/200-Network.pdf))
+
 ## Math
 * [Numerics library](https://en.cppreference.com/w/cpp/numeric)
 * [Boost.Math](https://www.boost.org/doc/libs/release/libs/math/doc/html/index.html)
