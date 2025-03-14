@@ -33,7 +33,7 @@
 * :warning: `Изучить` [uni-algo](https://github.com/uni-algo/uni-algo)
 * :warning: `Изучить` [utf8.h](https://github.com/sheredom/utf8.h)
 
-### Format
+### Formating
 * <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/))
 * <https://github.com/p-ranav/pprint>
 * <https://github.com/p-ranav/tabulate>
@@ -72,7 +72,7 @@
 * <https://github.com/ph3at/libenvpp>
 * <https://github.com/p-ranav/envy> (no vcpkg, header-only)
 
-## Formats
+## Data formats
 
 ### XML
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
@@ -98,9 +98,7 @@
 * <https://github.com/p-ranav/csv2>
 * <https://github.com/d99kris/rapidcsv>
 
-## Data
-
-### Serialization
+### Binary serialization
 * <https://protobuf.dev/>
 * <https://flatbuffers.dev/>
 * <https://github.com/capnproto/capnproto>
@@ -113,7 +111,7 @@
 * <https://github.com/tplgy/cppcodec>
 * <https://github.com/ReneNyffenegger/cpp-base64>
 
-### Hash
+### Hashing
 * POCO ([slides](https://pocoproject.org/slides/060-RandomCrypto.pdf))
 * <https://github.com/okdshin/PicoSHA2>
 * <https://github.com/weidai11/cryptopp>
