@@ -1,5 +1,8 @@
 # Python
 
+## Libs
+* [pydantic: Data validation using Python type hints](https://github.com/pydantic/pydantic)
+
 ## Async
 * [(Habr) Python 3.5; async/await](https://habr.com/ru/articles/266743/)
 
