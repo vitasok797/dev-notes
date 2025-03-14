@@ -106,6 +106,9 @@
 * <https://github.com/fraillt/bitsery>
 * <https://github.com/fraillt/cpp_serializers_benchmark>
 
+### Multiple formats serialization
+* [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp/) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
+
 ### Base64
 * POCO ([slides](https://pocoproject.org/slides/100-Streams.pdf))
 * <https://github.com/tplgy/cppcodec>
