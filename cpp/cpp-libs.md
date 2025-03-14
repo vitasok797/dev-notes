@@ -14,7 +14,7 @@
 
 ## Text
 
-### String
+### Strings
 * :warning: `Boost Locale?`
 * [Boost String Algorithms Library](https://www.boost.org/doc/libs/release/doc/html/string_algo.html)
 * [Boost.Tokenizer](https://www.boost.org/doc/libs/release/libs/tokenizer/doc/index.html)
