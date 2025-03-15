@@ -108,7 +108,7 @@
 * [Kaitai Struct (custom binary format)](http://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
 
 ### Multiformat serialization
-* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
+* [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp/) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
 
 ### Base64
