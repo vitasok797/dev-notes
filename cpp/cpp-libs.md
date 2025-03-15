@@ -239,9 +239,8 @@
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
 
 ## DB
-* SQLite:
-  * <https://github.com/aminroosta/sqlite_modern_cpp> ([vcpkg](https://vcpkg.io/en/package/sqlite-modern-cpp))
-  * <https://github.com/SRombauts/SQLiteCpp>
+* <https://github.com/aminroosta/sqlite_modern_cpp> ([vcpkg](https://vcpkg.io/en/package/sqlite-modern-cpp))
+* <https://github.com/SRombauts/SQLiteCpp>
 
 ## Shared Libraries
 * [Boost.DLL](https://www.boost.org/doc/libs/release/doc/html/boost_dll.html)
