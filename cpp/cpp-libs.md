@@ -129,7 +129,9 @@
 * <https://github.com/Neargye/magic_enum>
 
 ### Strong types
-* <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe))
+* <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe), [article1](https://www.foonathan.net/2016/10/type-safe/), [article2](https://www.foonathan.net/2016/10/strong-typedefs/))
+* <https://github.com/rollbear/strong_type> ([vcpkg](https://vcpkg.io/en/package/strong-type))
+* <https://github.com/joboccara/NamedType> (dead?, novcpkg, header-only, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
 
 ### Container
 * [Boost.Container](https://www.boost.org/doc/libs/release/doc/html/container.html)
