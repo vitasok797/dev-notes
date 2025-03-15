@@ -103,10 +103,10 @@
 * <https://protobuf.dev/>
 * <https://flatbuffers.dev/>
 * <https://github.com/capnproto/capnproto>
-* <https://github.com/eyalz800/zpp_bits>
+* <https://github.com/eyalz800/zpp_bits> ([vcpkg](https://vcpkg.io/en/package/zpp-bits))
 * <https://github.com/fraillt/bitsery>
-* <https://github.com/fraillt/cpp_serializers_benchmark>
 * [Kaitai Struct (custom binary format)](http://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
+* [CPP serializers benchmark](https://github.com/fraillt/cpp_serializers_benchmark)
 
 ### Multiformat serialization
 * [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
