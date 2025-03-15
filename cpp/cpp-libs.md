@@ -50,7 +50,7 @@
 
 ## Configuration
 
-### Common
+### Multisource
 * [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * POCO ([slides](https://pocoproject.org/slides/180-Configuration.pdf))
@@ -107,7 +107,7 @@
 * <https://github.com/fraillt/bitsery>
 * <https://github.com/fraillt/cpp_serializers_benchmark>
 
-### Multiple formats serialization
+### Multiformat serialization
 * [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp/) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
 
 ### Base64
@@ -124,8 +124,10 @@
 
 ## Types
 
-### Common
+### Enum
 * <https://github.com/Neargye/magic_enum>
+
+### Strong types
 * <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe))
 
 ### Container
