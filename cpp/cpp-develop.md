@@ -29,6 +29,12 @@
 * <https://github.com/catchorg/Catch2>
 * <https://github.com/doctest/doctest>
 
+## Benchmarking
+* <https://github.com/google/benchmark>
+* <https://github.com/martinus/nanobench>
+* <https://github.com/ivafanas/sltbench>
+* <https://github.com/DigitalInBlue/Celero>
+
 ## DLL
 * [How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
 
