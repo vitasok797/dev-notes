@@ -31,7 +31,7 @@
 * [Git branching strategies](https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-git-branch-approach/git-branching-strategies.html)
 * [Comparing Git workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
-### Branching (Feature Flags)
+### Branching / Feature flags
 * [Feature Toggles (aka Feature Flags)](https://www.martinfowler.com/articles/feature-toggles.html)
 * [(Habr) Стратегия ветвления ThreeFlow](https://habr.com/ru/companies/infopulse/articles/345826/)
 * [(Habr) Feature Flags и фабрика ПО](https://habr.com/ru/articles/543420/)
