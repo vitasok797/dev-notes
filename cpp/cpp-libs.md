@@ -60,6 +60,7 @@
 * [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
 * <https://github.com/jarro2783/cxxopts>
 * <https://github.com/p-ranav/argparse>
+* <https://github.com/mmahnic/argumentum>
 * <https://github.com/p-ranav/structopt> (no vcpkg, header-only)
 * <https://github.com/muellan/clipp>
 * <https://github.com/adishavit/argh>
