@@ -13,6 +13,11 @@
 ## PyInstaller
 * <https://github.com/pyinstaller/pyinstaller/wiki/Recipe-subprocess>
 
+## Package managers
+* [(Habr) Poetry — прекрасная альтернатива pip](https://habr.com/ru/articles/593529/)
+* [(Habr) Быстрый старт в мир Python окружений с uv](https://habr.com/ru/articles/875840/)
+* [UV](https://docs.astral.sh/uv/)
+
 ## Var
 * [(Habr) Протоколы в Python](https://habr.com/ru/companies/wunderfund/articles/751424/)
 * [3 инструмента Python, которые вам стоит использовать при написании кода при работе с данными](https://dzen.ru/a/YjYZKTwU9GwI0BYG)
