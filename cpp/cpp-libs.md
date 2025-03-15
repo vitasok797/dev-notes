@@ -148,7 +148,7 @@
 * <https://github.com/bernedom/SI> ([vcpkg](https://vcpkg.io/en/package/si))
 * <https://www.boost.org/libs/units>
 
-### Reflection
+### Types / Reflection
 * <https://github.com/Neargye/nameof>
 * [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
 * Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
