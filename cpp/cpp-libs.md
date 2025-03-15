@@ -52,6 +52,7 @@
 
 ### Multisource
 * [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
+* [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * POCO ([slides](https://pocoproject.org/slides/180-Configuration.pdf))
 
 ### Argument parser
@@ -109,7 +110,6 @@
 * [CPP serializers benchmark](https://github.com/fraillt/cpp_serializers_benchmark)
 
 ### Multiformat serialization
-* [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp/) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
 * <https://github.com/injae/serdepp>
 
