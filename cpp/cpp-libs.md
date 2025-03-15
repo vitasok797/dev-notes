@@ -31,7 +31,7 @@
 * :warning: `Изучить` [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8/) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
 * :warning: `Изучить` [simdutf](https://github.com/simdutf/simdutf)
 * :warning: `Изучить` [uni-algo](https://github.com/uni-algo/uni-algo)
-* :warning: `Изучить` [utf8.h](https://github.com/sheredom/utf8.h)
+* :warning: `Изучить` [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
 
 ### Formating
 * <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/))
