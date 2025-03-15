@@ -126,7 +126,7 @@
 ## Types
 
 ### Enum
-* <https://github.com/Neargye/magic_enum>
+* <https://github.com/Neargye/magic_enum> ([vcpkg](https://vcpkg.io/en/package/magic-enum))
 
 ### Strong types
 * <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe), [article1](https://www.foonathan.net/2016/10/type-safe/), [article2](https://www.foonathan.net/2016/10/strong-typedefs/))
