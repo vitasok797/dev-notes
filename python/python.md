@@ -16,7 +16,7 @@
 ## Package managers
 * [(Habr) Poetry — прекрасная альтернатива pip](https://habr.com/ru/articles/593529/)
 * [(Habr) Быстрый старт в мир Python окружений с uv](https://habr.com/ru/articles/875840/)
-* [UV](https://docs.astral.sh/uv/)
+* [UV reference](https://docs.astral.sh/uv/)
 
 ## Var
 * [(Habr) Протоколы в Python](https://habr.com/ru/companies/wunderfund/articles/751424/)
