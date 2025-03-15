@@ -132,7 +132,7 @@
 ### Strong types
 * <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe), [article1](https://www.foonathan.net/2016/10/type-safe/), [article2](https://www.foonathan.net/2016/10/strong-typedefs/))
 * <https://github.com/rollbear/strong_type> ([vcpkg](https://vcpkg.io/en/package/strong-type))
-* <https://github.com/joboccara/NamedType> (dead?, novcpkg, header-only, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
+* <https://github.com/joboccara/NamedType> (dead?, no vcpkg, header-only, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
 
 ### Container
 * [Boost.Container](https://www.boost.org/doc/libs/release/doc/html/container.html)
@@ -261,4 +261,4 @@
 * <https://github.com/Dobiasd/FunctionalPlus>
 * <https://github.com/CoolProp/CoolProp>
 * [cpp-validator](https://github.com/evgeniums/cpp-validator) (no vcpkg, header-only, [article](https://habr.com/ru/articles/525204/))
-* [match(it): Pattern-matching library](https://github.com/BowenFu/matchit.cpp) (header-only, [vcpkg](https://vcpkg.io/en/package/matchit))
+* [match(it): Pattern-matching library](https://github.com/BowenFu/matchit.cpp) ([vcpkg](https://vcpkg.io/en/package/matchit))
