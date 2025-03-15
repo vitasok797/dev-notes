@@ -14,14 +14,14 @@
 
 ## Text
 
-### Strings
+### Text / Strings
 * :warning: `Boost Locale?`
 * [Boost String Algorithms Library](https://www.boost.org/doc/libs/release/doc/html/string_algo.html)
 * [Boost.Tokenizer](https://www.boost.org/doc/libs/release/libs/tokenizer/doc/index.html)
 * POCO [String](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/String.h) [UTF8String](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/UTF8String.h) ([slides](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * [Abseil Strings](https://abseil.io/docs/cpp/guides/strings)
 
-### Encoding
+### Text / Encoding
 * :warning: `Boost Locale?`
 * :warning: `Найти примеры настроек сборки в одной из библиотек`
 * :warning: `Изучить` [ICU](https://icu.unicode.org/)
@@ -33,29 +33,29 @@
 * :warning: `Изучить` [uni-algo](https://github.com/uni-algo/uni-algo)
 * :warning: `Изучить` [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
 
-### Formating
+### Text / Formating
 * <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/))
 * <https://github.com/p-ranav/pprint>
 * <https://github.com/p-ranav/tabulate>
 
-### Regex
+### Text / Regex
 * :warning: `Boost`
 * :warning: `POCO (PCRE)`
 * :warning: `ICU?`
 * :warning: `Другие`
 * <https://github.com/zemasoft/wildcards>
 
-### I18n
+### Text / I18n
 * [Boost.Locale](https://www.boost.org/doc/libs/release/libs/locale/doc/html/index.html)
 
 ## Configuration
 
-### Multisource
+### Configuration / Multisource
 * [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
 * [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * POCO ([slides](https://pocoproject.org/slides/180-Configuration.pdf))
 
-### Argument parser
+### Configuration / Argument parser
 * [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
 * POCO ([slides](https://pocoproject.org/slides/190-Applications.pdf))
 * [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
@@ -67,40 +67,40 @@
 * <https://github.com/adishavit/argh>
 * <https://github.com/CLIUtils/CLI11>
 
-### Environment
+### Configuration / Environment
 * [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
 * POCO ([slides](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
 * <https://github.com/ph3at/libenvpp>
 * <https://github.com/p-ranav/envy> (no vcpkg, header-only)
 
-## Data formats
+## Formats
 
-### XML
+### Formats / XML
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * POCO ([slides](https://pocoproject.org/slides/170-XML.pdf))
 * <https://github.com/zeux/pugixml>
 * <https://github.com/leethomason/tinyxml2>
 * [(StackOverflow) Choose XML library](https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c/9387612#9387612)
 
-### JSON
+### Formats / JSON
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * [Boost.JSON](https://www.boost.org/doc/libs/release/libs/json/doc/html/index.html)
 * POCO [JSON/Object.h](https://docs.pocoproject.org/current/Poco.JSON.Object.html)
 * <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
 * <https://github.com/Tencent/rapidjson> ([site](http://rapidjson.org/))
 
-### TOML
+### Formats / TOML
 * <https://github.com/marzer/tomlplusplus> ([site](https://marzer.github.io/tomlplusplus/))
 * <https://github.com/ToruNiina/toml11>
 * <https://github.com/skystrife/cpptoml>
 * <https://github.com/mayah/tinytoml>
 
-### CSV
+### Formats / CSV
 * <https://github.com/ben-strasser/fast-cpp-csv-parser>
 * <https://github.com/p-ranav/csv2> ([vcpkg](https://vcpkg.io/en/package/p-ranav-csv2))
 * <https://github.com/d99kris/rapidcsv>
 
-### Binary serialization
+### Formats / Binary serialization
 * <https://protobuf.dev/>
 * <https://flatbuffers.dev/>
 * <https://github.com/capnproto/capnproto>
@@ -109,16 +109,16 @@
 * [Kaitai Struct (custom binary format)](http://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
 * [CPP serializers benchmark](https://github.com/fraillt/cpp_serializers_benchmark)
 
-### Multiformat serialization
+### Formats / Multiformat serialization
 * [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp/) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
 * <https://github.com/injae/serdepp>
 
-### Base64
+### Formats / Base64
 * POCO ([slides](https://pocoproject.org/slides/100-Streams.pdf))
 * <https://github.com/tplgy/cppcodec>
 * <https://github.com/ReneNyffenegger/cpp-base64>
 
-### Hashing
+### Formats / Hashing
 * POCO ([slides](https://pocoproject.org/slides/060-RandomCrypto.pdf))
 * <https://github.com/okdshin/PicoSHA2>
 * <https://github.com/weidai11/cryptopp>
@@ -127,21 +127,21 @@
 
 ## Types
 
-### Enum
+### Types / Enum
 * <https://github.com/Neargye/magic_enum> ([vcpkg](https://vcpkg.io/en/package/magic-enum))
 
-### Strong types
+### Types / Strong type
 * <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe), [article1](https://www.foonathan.net/2016/10/type-safe/), [article2](https://www.foonathan.net/2016/10/strong-typedefs/))
 * <https://github.com/rollbear/strong_type> ([vcpkg](https://vcpkg.io/en/package/strong-type))
 * <https://github.com/joboccara/NamedType> (dead?, no vcpkg, header-only, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
 
-### Container
+### Types / Container
 * [Boost.Container](https://www.boost.org/doc/libs/release/doc/html/container.html)
 * [Boost.Circular\_Buffer](https://www.boost.org/doc/libs/release/doc/html/circular_buffer.html)
 * [Boost.MultiArray](https://www.boost.org/doc/libs/release/libs/multi_array/doc/index.html)
 * <https://github.com/kokkos/mdspan>
 
-### Units
+### Types / Units
 * <https://github.com/LLNL/units> ([vcpkg](https://vcpkg.io/en/package/llnl-units))
 * <https://github.com/mpusz/mp-units> ([vcpkg](https://vcpkg.io/en/package/mp-units))
 * <https://github.com/nholthaus/units> ([vcpkg](https://vcpkg.io/en/package/units))
@@ -155,12 +155,12 @@
 
 ## System
 
-### Process
+### System / Process
 * [Boost.Process](https://www.boost.org/doc/libs/release/doc/html/process.html)
 * [Boost.Interprocess](https://www.boost.org/doc/libs/release/doc/html/interprocess.html)
 * POCO ([slides](https://pocoproject.org/slides/150-Processes.pdf))
 
-### File System
+### System / File System
 * [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem)
 * [Boost.Filesystem](https://www.boost.org/doc/libs/release/libs/filesystem/doc/index.htm)
 * POCO ([slides](https://pocoproject.org/slides/080-Files.pdf))
@@ -168,12 +168,12 @@
 
 ## Multithreading
 
-### Threads
+### Multithreading / Threads
 * [\<thread\>](https://en.cppreference.com/w/cpp/thread)
 * [Boost.Thread](https://www.boost.org/doc/libs/release/doc/html/thread.html)
 * POCO ([slides](https://pocoproject.org/slides/130-Threads.pdf))
 
-### Concurrent
+### Multithreading / Concurrent
 * <https://github.com/cameron314/concurrentqueue>
 * <https://github.com/cameron314/readerwriterqueue>
 * <https://github.com/rigtorp/MPMCQueue>
