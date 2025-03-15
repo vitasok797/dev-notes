@@ -56,6 +56,7 @@
 * [(Youtube) Эти страшные буквы MV*](https://www.youtube.com/watch?v=5WgsKtlHUls)
 
 ## Var
+* [Ковариантность и контравариантность](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%B8_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
 * [(Habr) Service Locator нарушает инкапсуляцию](https://habr.com/ru/articles/270005/)
 * [Service Locator is an Anti-Pattern](https://blog.ploeh.dk/2010/02/03/ServiceLocatorisanAnti-Pattern/)
 * [Удалите из кода If-Else и Switch Case](https://proglib.io/p/udalite-iz-koda-if-else-i-switch-case-2021-06-02)
