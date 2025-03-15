@@ -111,6 +111,7 @@
 ### Multiformat serialization
 * [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp/) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
+* <https://github.com/injae/serdepp>
 
 ### Base64
 * POCO ([slides](https://pocoproject.org/slides/100-Streams.pdf))
