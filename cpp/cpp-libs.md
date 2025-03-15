@@ -238,6 +238,13 @@
 * [Boost.Interval](https://www.boost.org/doc/libs/release/libs/numeric/interval/doc/interval.htm)
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
 
+## DB
+* <https://github.com/aminroosta/sqlite_modern_cpp> ([vcpkg](https://vcpkg.io/en/package/sqlite-modern-cpp))
+* <https://github.com/SRombauts/SQLiteCpp>
+* ORM:
+  * <https://github.com/fnc12/sqlite_orm> (AGPL, [vcpkg](https://vcpkg.io/en/package/sqlite-orm), [article](https://habr.com/ru/articles/320810/))
+  * <https://github.com/paulftw/hiberlite> (novcpkg)
+
 ## Shared Libraries
 * [Boost.DLL](https://www.boost.org/doc/libs/release/doc/html/boost_dll.html)
 * POCO ([slides](https://pocoproject.org/slides/120-SharedLibraries.pdf))
