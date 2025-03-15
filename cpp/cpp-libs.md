@@ -52,7 +52,6 @@
 
 ### Multisource
 * [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
-* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * POCO ([slides](https://pocoproject.org/slides/180-Configuration.pdf))
 
 ### Argument parser
@@ -106,8 +105,10 @@
 * <https://github.com/eyalz800/zpp_bits>
 * <https://github.com/fraillt/bitsery>
 * <https://github.com/fraillt/cpp_serializers_benchmark>
+* [Kaitai Struct (custom binary format)](http://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
 
 ### Multiformat serialization
+* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
 * [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp/) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
 
 ### Base64
@@ -253,5 +254,4 @@
 * <https://github.com/Dobiasd/FunctionalPlus>
 * <https://github.com/CoolProp/CoolProp>
 * [cpp-validator](https://github.com/evgeniums/cpp-validator) (no vcpkg, header-only, [article](https://habr.com/ru/articles/525204/))
-* [Kaitai Struct](http://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
 * [match(it): Pattern-matching library](https://github.com/BowenFu/matchit.cpp) (header-only, [vcpkg](https://vcpkg.io/en/package/matchit))
