@@ -53,6 +53,7 @@
 * [Visual Studio 2022 Release History](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
 * [C++ Binary Compatibility and Pain-Free Upgrades to Visual Studio 2019](https://devblogs.microsoft.com/cppblog/cpp-binary-compatibility-and-pain-free-upgrades-to-visual-studio-2019/)
 * [C++ binary compatibility between Visual Studio versions](https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)
+* [Visual Studio versions map](https://gist.github.com/RDCH106/40fe61f447df58c1b9c83a1781374bcd)
 * <https://github.com/Data-Oriented-House/PortableBuildTools>
 
 ## Visual Studio extensions
