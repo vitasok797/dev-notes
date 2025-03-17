@@ -96,15 +96,15 @@
 * <https://stackoverflow.com/questions/25282620/catching-exception-from-worker-thread-in-the-main-thread>
 * <https://www.cppstories.com/2024/expected-cpp23/>
 
-## Видео
-* [(Youtube) C++17, который мы заслужили](https://www.youtube.com/watch?v=I0oerm0MYQY)
-
 ## C++ vs C
 * [Why should I have written ZeroMQ in C, not C++ (part I)](https://250bpm.com/blog:4/)
 * [Why should I have written ZeroMQ in C, not C++ (part II)](https://250bpm.com/blog:8/)
 * [(Reddit) Why should I have written ZeroMQ in C, not C++ (part I) 1](https://www.reddit.com/r/C_Programming/comments/8ge9m0/why_should_i_have_written_zeromq_in_c_not_c_part_i/)
 * [(Reddit) Why should I have written ZeroMQ in C, not C++ (part I) 2](https://www.reddit.com/r/programming/comments/tggnn/why_should_i_have_written_zeromq_in_c_not_c/)
 * [Avoiding game crashes related to linked lists](https://www.codeofhonor.com/blog/avoiding-game-crashes-related-to-linked-lists)
+
+## Видео
+* [(Youtube) C++17, который мы заслужили](https://www.youtube.com/watch?v=I0oerm0MYQY)
 
 ## Var
 * <https://en.cppreference.com/w/cpp/language/rule_of_three>
