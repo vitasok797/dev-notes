@@ -43,7 +43,7 @@
 * <https://stackoverflow.com/questions/38197528/const-auto-really-not-useful>
 * <https://stackoverflow.com/questions/29859796/c-auto-vs-auto>
 
-## String
+## Strings
 * [char8\_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
 * <https://stackoverflow.com/questions/313970/how-to-convert-an-instance-of-stdstring-to-lower-case>
 * [How to split a string in C++](https://www.fluentcpp.com/2017/04/21/how-to-split-a-string-in-c/)
