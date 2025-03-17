@@ -27,7 +27,7 @@
 
 ## Classes
 * [The rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three)
-* [Copy-and-swap](https://ru.wikipedia.org/wiki/Copy-and-swap)
+* [Copy-and-swap idiom](https://ru.wikipedia.org/wiki/Copy-and-swap)
 
 ## Containers
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
