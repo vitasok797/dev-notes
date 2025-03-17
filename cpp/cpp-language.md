@@ -48,6 +48,13 @@
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * <https://en.wikipedia.org/wiki/Smart_pointer>
 
+## Classes
+* [The rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three)
+* [Copy-and-swap](https://ru.wikipedia.org/wiki/Copy-and-swap)
+
+## Containers
+* [Erase–remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
+
 ## Concurrent
 * [(Habr) Демонстрация сбоев программы при отсутствии барьеров памяти](https://habr.com/ru/articles/155507/)
 * [(Habr) std::atomic. Модель памяти C++ в примерах](https://habr.com/ru/articles/517918/)
