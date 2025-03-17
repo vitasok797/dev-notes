@@ -42,25 +42,12 @@
 * <https://stackoverflow.com/questions/25282620/catching-exception-from-worker-thread-in-the-main-thread>
 * <https://www.cppstories.com/2024/expected-cpp23/>
 
-## Pointers
-* [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
-* [(Habr) Долой указатели](https://habr.com/ru/companies/otus/articles/669532/)
-* [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
-* <https://en.wikipedia.org/wiki/Smart_pointer>
-
 ## Classes
 * [The rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three)
 * [Copy-and-swap](https://ru.wikipedia.org/wiki/Copy-and-swap)
 
 ## Containers
 * [Erase–remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
-
-## Concurrent
-* [(Habr) Демонстрация сбоев программы при отсутствии барьеров памяти](https://habr.com/ru/articles/155507/)
-* [(Habr) std::atomic. Модель памяти C++ в примерах](https://habr.com/ru/articles/517918/)
-* [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 1]](https://habr.com/ru/articles/182610/)
-* [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 2]](https://habr.com/ru/articles/182626/)
-* [C++ std::thread Event Loop with Message Queue and Timer](https://github.com/endurodave/StdWorkerThread)
 
 ## Ranges
 * <https://www.foonathan.net/2020/03/iterator-sentinel/>
@@ -95,6 +82,19 @@
 * [The case against Almost Always auto (AAA)](https://gist.github.com/Eisenwave/5cca27867828743bf50ad95d526f5a6e)
 * [Almost Always const auto&](https://huixie90.github.io/Almost-always-const-auto-ref/)
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
+
+## Pointers
+* [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
+* [(Habr) Долой указатели](https://habr.com/ru/companies/otus/articles/669532/)
+* [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
+* <https://en.wikipedia.org/wiki/Smart_pointer>
+
+## Concurrent
+* [(Habr) Демонстрация сбоев программы при отсутствии барьеров памяти](https://habr.com/ru/articles/155507/)
+* [(Habr) std::atomic. Модель памяти C++ в примерах](https://habr.com/ru/articles/517918/)
+* [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 1]](https://habr.com/ru/articles/182610/)
+* [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 2]](https://habr.com/ru/articles/182626/)
+* [C++ std::thread Event Loop with Message Queue and Timer](https://github.com/endurodave/StdWorkerThread)
 
 ## Видео
 * [(Youtube) C++17, который мы заслужили](https://www.youtube.com/watch?v=I0oerm0MYQY)
