@@ -36,13 +36,6 @@
 * <https://www.foonathan.net/2020/03/iterator-sentinel/>
 * [(Habr) Примеры C++ кода до и после Ranges](https://habr.com/ru/companies/otus/articles/456452/)
 
-## Universal references
-* <https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers>
-* <https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/>
-* <https://stackoverflow.com/questions/14918984/c11-how-can-i-define-a-function-that-accept-a-universal-reference-of-a-speci>
-* <https://stackoverflow.com/questions/38197528/const-auto-really-not-useful>
-* <https://stackoverflow.com/questions/29859796/c-auto-vs-auto>
-
 ## Strings
 * [char8\_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
 * <https://stackoverflow.com/questions/313970/how-to-convert-an-instance-of-stdstring-to-lower-case>
@@ -65,6 +58,13 @@
 * [The case against Almost Always auto (AAA)](https://gist.github.com/Eisenwave/5cca27867828743bf50ad95d526f5a6e)
 * [Almost Always const auto&](https://huixie90.github.io/Almost-always-const-auto-ref/)
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
+
+## Universal references
+* <https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers>
+* <https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/>
+* <https://stackoverflow.com/questions/14918984/c11-how-can-i-define-a-function-that-accept-a-universal-reference-of-a-speci>
+* <https://stackoverflow.com/questions/38197528/const-auto-really-not-useful>
+* <https://stackoverflow.com/questions/29859796/c-auto-vs-auto>
 
 ## Pointers
 * [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
