@@ -28,6 +28,10 @@
 ## Classes
 * [The rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three)
 * [Copy-and-swap idiom](https://ru.wikipedia.org/wiki/Copy-and-swap)
+* [(StackOverflow) What is the copy-and-swap idiom?](https://stackoverflow.com/questions/3279543/what-is-the-copy-and-swap-idiom/3279550#3279550)
+* [(StackOverflow) How is std::swap implemented?](https://stackoverflow.com/questions/25286544/how-does-the-standard-library-implement-stdswap/25286610#25286610)
+* [(StackOverflow) What does explicitly-defaulted move constructor do?](https://stackoverflow.com/questions/70917504/what-does-explicitly-defaulted-move-constructor-do)
+* [(StackOverflow) Questions about the move assignment operator](https://stackoverflow.com/questions/9847860/questions-about-the-move-assignment-operator)
 
 ## Containers
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
