@@ -25,23 +25,6 @@
 * [SEI CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
 * [Modern C++ Tutorial: C++ 11/14/17/20 On The Fly](https://github.com/changkun/modern-cpp-tutorial/blob/master/book/en-us/toc.md)
 
-## Error handling
-* [Boost.Outcome: Review of Error Handling Frameworks](https://www.boost.org/doc/libs/release/libs/outcome/doc/html/alternatives.html)
-* [Boost: Error and Exception Handling](https://www.boost.org/community/error_handling.html)
-* <https://isocpp.org/wiki/faq/exceptions>
-* <https://yosefk.com/c++fqa/exceptions.html>
-* <https://learn.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp>
-* <https://habr.com/ru/articles/221723/comments/#comment_7555889>
-* <https://stroustrup.com/except.pdf>
-* <https://stackoverflow.com/questions/1989819/theory-on-error-handling>
-* <https://acodersjourney.com/top-15-c-exception-handling-mistakes-avoid/>
-* <https://www.foonathan.net/2016/09/error-handling-strategy/>
-* <https://www.foonathan.net/2016/09/error-handling-types/>
-* <https://www.foonathan.net/2017/12/exceptions-vs-expected/>
-* <https://learn.microsoft.com/en-us/cpp/cpp/transporting-exceptions-between-threads>
-* <https://stackoverflow.com/questions/25282620/catching-exception-from-worker-thread-in-the-main-thread>
-* <https://www.cppstories.com/2024/expected-cpp23/>
-
 ## Classes
 * [The rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three)
 * [Copy-and-swap](https://ru.wikipedia.org/wiki/Copy-and-swap)
@@ -95,6 +78,23 @@
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 1]](https://habr.com/ru/articles/182610/)
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 2]](https://habr.com/ru/articles/182626/)
 * [C++ std::thread Event Loop with Message Queue and Timer](https://github.com/endurodave/StdWorkerThread)
+
+## Error handling
+* [Boost.Outcome: Review of Error Handling Frameworks](https://www.boost.org/doc/libs/release/libs/outcome/doc/html/alternatives.html)
+* [Boost: Error and Exception Handling](https://www.boost.org/community/error_handling.html)
+* <https://isocpp.org/wiki/faq/exceptions>
+* <https://yosefk.com/c++fqa/exceptions.html>
+* <https://learn.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp>
+* <https://habr.com/ru/articles/221723/comments/#comment_7555889>
+* <https://stroustrup.com/except.pdf>
+* <https://stackoverflow.com/questions/1989819/theory-on-error-handling>
+* <https://acodersjourney.com/top-15-c-exception-handling-mistakes-avoid/>
+* <https://www.foonathan.net/2016/09/error-handling-strategy/>
+* <https://www.foonathan.net/2016/09/error-handling-types/>
+* <https://www.foonathan.net/2017/12/exceptions-vs-expected/>
+* <https://learn.microsoft.com/en-us/cpp/cpp/transporting-exceptions-between-threads>
+* <https://stackoverflow.com/questions/25282620/catching-exception-from-worker-thread-in-the-main-thread>
+* <https://www.cppstories.com/2024/expected-cpp23/>
 
 ## Видео
 * [(Youtube) C++17, который мы заслужили](https://www.youtube.com/watch?v=I0oerm0MYQY)
