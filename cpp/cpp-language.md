@@ -30,7 +30,7 @@
 * [Copy-and-swap](https://ru.wikipedia.org/wiki/Copy-and-swap)
 
 ## Containers
-* [Erase–remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
+* [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
 
 ## Ranges
 * <https://www.foonathan.net/2020/03/iterator-sentinel/>
