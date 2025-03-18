@@ -87,7 +87,7 @@
 * [Boost.JSON](https://www.boost.org/doc/libs/release/libs/json/doc/html/index.html)
 * POCO [JSON/Object.h](https://docs.pocoproject.org/current/Poco.JSON.Object.html)
 * <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
-* <https://github.com/Tencent/rapidjson> ([site](http://rapidjson.org/))
+* <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
 
 ### Formats / TOML
 * <https://github.com/marzer/tomlplusplus> ([site](https://marzer.github.io/tomlplusplus/))
@@ -106,7 +106,7 @@
 * <https://github.com/capnproto/capnproto>
 * <https://github.com/eyalz800/zpp_bits> ([vcpkg](https://vcpkg.io/en/package/zpp-bits))
 * <https://github.com/fraillt/bitsery>
-* [Kaitai Struct (custom binary format)](http://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
+* [Kaitai Struct (custom binary format)](https://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
 * [CPP serializers benchmark](https://github.com/fraillt/cpp_serializers_benchmark)
 
 ### Formats / Multiformat serialization
