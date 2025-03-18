@@ -52,12 +52,12 @@
 * :warning: `Изучить` [Doing UTF-8 in Windows](https://www.codeproject.com/Articles/5252037/Doing-UTF-8-in-Windows) ([github](https://github.com/neacsum/utf8))
 
 ## Initialization
-* <https://en.cppreference.com/w/cpp/language/initialization>
+* [(cppreference) Initialization](https://en.cppreference.com/w/cpp/language/initialization)
 * [(Habr) Инициализация в современном C++](https://habr.com/ru/companies/jugru/articles/469465/)
 * [std::initializer_list in C++ 1/2](https://www.cppstories.com/2023/initializer_list_basics/)
 * [std::initializer_list in C++ 2/2](https://www.cppstories.com/2023/initializer_list_improvements/)
-* <https://herbsutter.com/2013/05/09/gotw-1-solution/>
-* <https://quuxplusone.github.io/blog/2019/02/18/knightmare-of-initialization/>
+* [GotW #1 Solution: Variable Initialization](https://herbsutter.com/2013/05/09/gotw-1-solution/)
+* [The Knightmare of Initialization in C++](https://quuxplusone.github.io/blog/2019/02/18/knightmare-of-initialization/)
 
 ## Auto
 * [GotW #94 Solution: AAA Style (Almost Always Auto)](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/)
