@@ -10,6 +10,8 @@
 ### Synchronization / Double-checked locking
 * [(Wiki) Double-checked locking](https://en.wikipedia.org/wiki/Double-checked_locking)
 * [The "Double-Checked Locking is Broken" Declaration](https://www.cs.umd.edu/~pugh/java/memoryModel/DoubleCheckedLocking.html)
+* [C++ and the Perils of Double-Checked Locking](https://www.aristeia.com/Papers/DDJ_Jul_Aug_2004_revised.pdf)
+* [(Preshing) Double-Checked Locking is Fixed In C++11](https://preshing.com/20130930/double-checked-locking-is-fixed-in-cpp11/)
 
 ## Memory barriers
 * [(Wiki) Memory barrier](https://en.wikipedia.org/wiki/Memory_barrier)
