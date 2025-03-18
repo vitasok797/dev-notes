@@ -17,6 +17,15 @@
 ## Memory barriers
 * [(Wiki) Memory barrier](https://en.wikipedia.org/wiki/Memory_barrier)
 * [(Habr) Барьеры и модели памяти – explained](https://habr.com/ru/articles/869188/)
+* [(Preshing) Memory Reordering Caught in the Act](https://preshing.com/20120515/memory-reordering-caught-in-the-act/)
+* [(Preshing) Memory Ordering at Compile Time](https://preshing.com/20120625/memory-ordering-at-compile-time/)
+* [(Preshing) Memory Barriers Are Like Source Control Operations](https://preshing.com/20120710/memory-barriers-are-like-source-control-operations/)
+* [(Preshing) Acquire and Release Semantics](https://preshing.com/20120913/acquire-and-release-semantics/)
+* [(Preshing) The Happens-Before Relation](https://preshing.com/20130702/the-happens-before-relation/)
+* [(Preshing) The Synchronizes-With Relation](https://preshing.com/20130823/the-synchronizes-with-relation/)
+* [(Preshing) Acquire and Release Fences](https://preshing.com/20130922/acquire-and-release-fences/)
+* [(Preshing) Acquire and Release Fences Don't Work the Way You'd Expect](https://preshing.com/20131125/acquire-and-release-fences-dont-work-the-way-youd-expect/)
+* [(Preshing) Can Reordering of Release/Acquire Operations Introduce Deadlock?](https://preshing.com/20170612/can-reordering-of-release-acquire-operations-introduce-deadlock/)
 
 ## Var
 * [(Wiki) volatile](https://en.wikipedia.org/wiki/Volatile_(computer_programming))
