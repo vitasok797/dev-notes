@@ -53,6 +53,9 @@
 
 ## Initialization
 * <https://en.cppreference.com/w/cpp/language/initialization>
+* [(Habr) Инициализация в современном C++](https://habr.com/ru/companies/jugru/articles/469465/)
+* [std::initializer_list in C++ 1/2](https://www.cppstories.com/2023/initializer_list_basics/)
+* [std::initializer_list in C++ 2/2](https://www.cppstories.com/2023/initializer_list_improvements/)
 * <https://herbsutter.com/2013/05/09/gotw-1-solution/>
 * <https://quuxplusone.github.io/blog/2019/02/18/knightmare-of-initialization/>
 
