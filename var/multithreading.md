@@ -6,6 +6,7 @@
 * [(Preshing) Always Use a Lightweight Mutex](https://preshing.com/20111124/always-use-a-lightweight-mutex/)
 * [(Preshing) Roll Your Own Lightweight Mutex](https://preshing.com/20120226/roll-your-own-lightweight-mutex/)
 * [(Preshing) Semaphores are Surprisingly Versatile](https://preshing.com/20150316/semaphores-are-surprisingly-versatile/)
+* [(Preshing) Locks Aren't Slow; Lock Contention Is](https://preshing.com/20111118/locks-arent-slow-lock-contention-is/)
 
 ### Synchronization / Double-checked locking
 * [(Wiki) Double-checked locking](https://en.wikipedia.org/wiki/Double-checked_locking)
