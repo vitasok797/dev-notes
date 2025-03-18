@@ -16,6 +16,7 @@
 
 ## Memory barriers
 * [(Wiki) Memory barrier](https://en.wikipedia.org/wiki/Memory_barrier)
+* [(Habr) Демонстрация сбоев программы при отсутствии барьеров памяти](https://habr.com/ru/articles/155507/)
 * [(Habr) Барьеры и модели памяти – explained](https://habr.com/ru/articles/869188/)
 * [(Preshing) Memory Reordering Caught in the Act](https://preshing.com/20120515/memory-reordering-caught-in-the-act/)
 * [(Preshing) Memory Ordering at Compile Time](https://preshing.com/20120625/memory-ordering-at-compile-time/)
