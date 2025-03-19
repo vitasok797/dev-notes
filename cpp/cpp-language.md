@@ -79,6 +79,7 @@
 * <https://en.wikipedia.org/wiki/Smart_pointer>
 
 ## Multithreading
+* [(Habr) Шпаргалка по модели памяти С++11](https://habr.com/ru/companies/otus/articles/763810/)
 * [(Habr) std::atomic. Модель памяти C++ в примерах](https://habr.com/ru/articles/517918/)
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 1]](https://habr.com/ru/articles/182610/)
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 2]](https://habr.com/ru/articles/182626/)
