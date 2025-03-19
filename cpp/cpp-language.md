@@ -78,7 +78,7 @@
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * <https://en.wikipedia.org/wiki/Smart_pointer>
 
-## Concurrent
+## Multithreading
 * [(Habr) std::atomic. Модель памяти C++ в примерах](https://habr.com/ru/articles/517918/)
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 1]](https://habr.com/ru/articles/182610/)
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 2]](https://habr.com/ru/articles/182626/)
