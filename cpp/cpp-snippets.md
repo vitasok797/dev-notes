@@ -25,6 +25,8 @@ namespace fbz = foo::bar::baz;
 
 ## If statement with initializer (C++17)
 
+[C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
+
 ```cpp
 if (init; condition) {...}
 ```
