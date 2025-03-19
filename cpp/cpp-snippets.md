@@ -65,5 +65,7 @@ Unpack map:
 ```cpp
 #include <map>
 
-for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) ...
+for (const auto& [k, v] : mymap) {...}
+
+for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {...}
 ```
