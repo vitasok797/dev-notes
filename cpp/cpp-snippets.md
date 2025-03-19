@@ -31,6 +31,8 @@ namespace fbz = foo::bar::baz;
 
 ## Structured Bindings (C++17)
 
+[Structured binding declaration](https://en.cppreference.com/w/cpp/language/structured_binding)
+
 Unpack tuple:
 ```cpp
 #include <tuple>
