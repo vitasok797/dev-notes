@@ -4,6 +4,14 @@
 
 Type:
 ```cpp
+using UserId = int;
+using UserAccounts = std::map<UserId, std::vector<Account>>;
+
+// identical to: typedef void (*func)(int, int);
+using func = void (*) (int, int);
+
+template<typename T>
+using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
 
 Namespace:
