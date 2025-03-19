@@ -22,6 +22,7 @@ namespace fbz = foo::bar::baz;
 ## If statement with initializer (C++17)
 
 ```cpp
+if (auto [itelem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 ```
 
 ## Namespace using
