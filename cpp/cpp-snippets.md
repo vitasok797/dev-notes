@@ -26,6 +26,10 @@ namespace fbz = foo::bar::baz;
 ## If statement with initializer (C++17)
 
 ```cpp
+if (init; condition) {...}
+```
+
+```cpp
 if (auto a = getval(); a < 10) {...}
 ```
 
