@@ -14,8 +14,9 @@ template<typename T>
 using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
 
-Namespace alias:
+[Namespace alias](https://en.cppreference.com/w/cpp/language/namespace_alias):
 ```cpp
+namespace fbz = foo::bar::baz;
 ```
 
 ## If statement with initializer (C++17)
