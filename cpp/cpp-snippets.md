@@ -26,6 +26,8 @@ namespace fbz = foo::bar::baz;
 
 ## Namespace using
 
+[Namespace using directives](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
+
 ```cpp
 ```
 
