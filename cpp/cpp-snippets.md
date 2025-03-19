@@ -2,7 +2,7 @@
 
 ## Aliases
 
-Type:
+[Type alias](https://en.cppreference.com/w/cpp/language/type_alias):
 ```cpp
 using UserId = int;
 using UserAccounts = std::map<UserId, std::vector<Account>>;
@@ -14,7 +14,7 @@ template<typename T>
 using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
 
-Namespace:
+Namespace alias:
 ```cpp
 ```
 
