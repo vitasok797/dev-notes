@@ -45,6 +45,12 @@ if (auto [itelem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 [Namespace using directives](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
 
 ```cpp
+namespace A {...}
+ 
+namespace B
+{
+    using namespace A;
+}
 ```
 
 ## Structured Bindings (C++17)
