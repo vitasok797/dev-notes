@@ -120,6 +120,5 @@
 * [(Habr) Inline variables](https://habr.com/ru/companies/otus/articles/561772/)
 * [Calling C Code from C++ with ‘extern “C”‘](https://arne-mertz.de/2018/10/calling-cpp-code-from-c-with-extern-c/)
 * [std::string is not a Container for Raw Data](https://arne-mertz.de/2018/11/string-not-for-raw-data/)
-* [How C++ ‘using’ or alias-declaration is better than typedef](https://www.nextptr.com/tutorial/ta1193988140/how-cplusplus-using-or-aliasdeclaration-is-better-than-typedef)
 * [Attributes](https://en.cppreference.com/w/cpp/language/attributes)
 * [Aggregate, POD, trivial type, standard layout class](https://andreasfertig.com/blog/2021/01/cpp20-aggregate-pod-trivial-type-standard-layout-class-what-is-what/)
