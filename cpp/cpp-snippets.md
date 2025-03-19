@@ -6,10 +6,14 @@
 ```cpp
 using UserId = int;
 using UserAccounts = std::map<UserId, std::vector<Account>>;
+```
 
+```cpp
 // identical to: typedef void (*func)(int, int);
 using func = void (*) (int, int);
+```
 
+```cpp
 template<typename T>
 using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
