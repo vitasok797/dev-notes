@@ -13,11 +13,13 @@
 * [DRY](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
 * [KISS](https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF))
 * [YAGNI](https://ru.wikipedia.org/wiki/YAGNI)
-* [GRASP](https://yourtodo.life/ru/posts/pogruzhenie-v-grasp-osnovyi-printsipov-proektirovaniya-sistem/)
+* [GRASP]([https://yourtodo.life/ru/posts/pogruzhenie-v-grasp-osnovyi-printsipov-proektirovaniya-sistem/](https://ru.wikipedia.org/wiki/GRASP))
 * [SoC](https://ru.wikipedia.org/wiki/%D0%A0%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BE%D1%82%D0%B2%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D0%B8)
 
 ### Principles / Articles
 * [SOLID Principles Cheat Sheet](https://bool.dev/blog/detail/solid-principles)
+* [GRASP принципы](https://bool.dev/blog/detail/grasp-printsipy)
+* [Погружение в GRASP: Основы принципов проектирования систем](https://yourtodo.life/ru/posts/pogruzhenie-v-grasp-osnovyi-printsipov-proektirovaniya-sistem/)
 * [(Habr) Принцип разделения ответственности и ORM](https://habr.com/ru/articles/263027/)
 
 ## Application
