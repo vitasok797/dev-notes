@@ -5,7 +5,8 @@
 * [(Metanit) Паттерны проектирования в C# и .NET](https://metanit.com/sharp/patterns/)
 
 ## Patterns
-* ???
+* [(Wiki) Data access object (DAO)](https://en.wikipedia.org/wiki/Data_access_object)
+* [(Wiki) Active record](https://en.wikipedia.org/wiki/Active_record_pattern)
 
 ## Principles
 * [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
