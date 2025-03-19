@@ -19,7 +19,7 @@
 ### Principles / Articles
 * [SOLID Principles Cheat Sheet](https://bool.dev/blog/detail/solid-principles)
 * [GRASP принципы](https://bool.dev/blog/detail/grasp-printsipy)
-* [Погружение в GRASP: Основы принципов проектирования систем](https://yourtodo.life/ru/posts/pogruzhenie-v-grasp-osnovyi-printsipov-proektirovaniya-sistem/)
+* [Погружение в GRASP](https://yourtodo.life/ru/posts/pogruzhenie-v-grasp-osnovyi-printsipov-proektirovaniya-sistem/)
 * [(Habr) Принцип разделения ответственности и ORM](https://habr.com/ru/articles/263027/)
 
 ## Application
