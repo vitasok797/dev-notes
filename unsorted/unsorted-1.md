@@ -46,3 +46,16 @@
 * https://www.eprosima.com/developer-resources/whitepapers/rpc-over-dds
 * https://www.eprosima.com/middleware/tools/rpc-over-dds
 * https://github.com/eProsima/RPC
+***
+* https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/chart_panel_index.html
+* https://github.com/eProsima/Non-Intrusive-DDS-Recorder
+* https://community.rti.com/static/documentation/connext-dds/6.0.0/doc/manuals/connext_dds/getting_started_extras/html_files/RTI_ConnextDDS_CoreLibraries_GettingStarted_ExtensibleAddendum/Content/ExtensibleTypesAddendum/Data_Representation.htm
+* https://community.rti.com/static/documentation/connext-dds/7.3.0/doc/manuals/connext_dds_professional/getting_started_guide/cpp98/intro_keys_instances.html#
+* https://community.rti.com/static/documentation/connext-dds/7.3.0/doc/manuals/connext_dds_professional/getting_started_guide/cpp98/intro_qos.html
+* https://community.rti.com/static/documentation/connext-micro/2.4.14/doc/html/usersmanual/msgintegrity.html
+* https://community.rti.com/static/documentation/connext-dds/5.2.0/doc/manuals/connext_dds/html_files/RTI_ConnextDDS_CoreLibraries_UsersManual/index.htm#UsersManual/Inbound_Ports_for_User_Traffic.htm#discovery_507287096_366435%3FTocPath%3DPart%25203%253A%2520Advanced%2520Concepts%7CDiscovery%7CPorts%2520Used%2520for%2520Discovery%7C_____2
+* https://community.rti.com/static/documentation/connext-dds/5.2.0/doc/manuals/connext_dds/html_files/RTI_ConnextDDS_CoreLibraries_UsersManual/index.htm#UsersManual/Simple_Endpoint_Discovery.htm#discovery_507287096_301293%3FTocPath%3DPart%25203%253A%2520Advanced%2520Concepts%7CDiscovery%7CWhat%2520is%2520Discovery%253F%7C_____2
+* https://community.rti.com/static/documentation/connext-dds/7.3.0/doc/manuals/connext_dds_professional/users_manual/users_manual/Accessing_the_Built_in_Subscriber.htm#28.3_Accessing_the_Built-in_Subscriber
+* https://www.omg.org/spec/DDSI-RTPS/2.2/PDF
+* https://community.rti.com/static/documentation/connext-dds/5.3.0/doc/manuals/cloud_discovery_service/core_concepts.html#domain-tags
+* https://fast-dds.docs.eprosima.com/en/latest/fastdds/property_policies/ignore_local_endpoints.html#ignore-local-endpoints
