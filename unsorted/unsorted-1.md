@@ -59,3 +59,6 @@
 * https://www.omg.org/spec/DDSI-RTPS/2.2/PDF
 * https://community.rti.com/static/documentation/connext-dds/5.3.0/doc/manuals/cloud_discovery_service/core_concepts.html#domain-tags
 * https://fast-dds.docs.eprosima.com/en/latest/fastdds/property_policies/ignore_local_endpoints.html#ignore-local-endpoints
+* https://community.rti.com/static/documentation/connext-dds/7.3.0/doc/manuals/connext_dds_professional/users_manual/users_manual/title.htm
+* https://community.rti.com/static/documentation/connext-dds/5.2.3/doc/manuals/connext_dds/html_files/RTI_ConnextDDS_CoreLibraries_UsersManual/index.htm#UsersManual/title.htm%3FTocPath%3D_____1
+* https://community.rti.com/static/documentation/connext-dds/7.3.0/doc/manuals/connext_dds_professional/users_manual/users_manual/QosPolicies.htm#entities_943231811_1206036
