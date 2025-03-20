@@ -77,7 +77,7 @@
 * <https://stackoverflow.com/questions/29859796/c-auto-vs-auto>
 
 ## Resource safety
-[A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
+* [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
 
 ## Pointers
 * [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
