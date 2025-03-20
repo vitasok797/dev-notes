@@ -26,13 +26,15 @@
 * [Modern C++ Tutorial: C++ 11/14/17/20 On The Fly](https://github.com/changkun/modern-cpp-tutorial/blob/master/book/en-us/toc.md)
 
 ## Classes
-* [The rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three)
+* The rule of three/five/zero:
+  * [(cppreference) The rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three)
+  * [(CG) If you can avoid defining default operations, do](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c20-if-you-can-avoid-defining-default-operations-do)
+  * [(CG) If you define or =delete any copy, move, or destructor function, define or =delete them all](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c21-if-you-define-or-delete-any-copy-move-or-destructor-function-define-or-delete-them-all)
+  * [(CG) A polymorphic class should suppress public copy/move](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)
 * [Copy-and-swap idiom](https://ru.wikipedia.org/wiki/Copy-and-swap)
 * [(StackOverflow) What is the copy-and-swap idiom?](https://stackoverflow.com/questions/3279543/what-is-the-copy-and-swap-idiom/3279550#3279550)
 * [(StackOverflow) How is std::swap implemented?](https://stackoverflow.com/questions/25286544/how-does-the-standard-library-implement-stdswap/25286610#25286610)
 * [(StackOverflow) Questions about the move assignment operator](https://stackoverflow.com/questions/9847860/questions-about-the-move-assignment-operator)
-* [(CG) A polymorphic class should suppress public copy/move](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)
-* [(CG) If you define or =delete any copy, move, or destructor function, define or =delete them all](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c21-if-you-define-or-delete-any-copy-move-or-destructor-function-define-or-delete-them-all)
 
 ## Containers
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
