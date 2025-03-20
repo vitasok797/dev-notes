@@ -25,6 +25,8 @@ namespace fbz = foo::bar::baz;
 
 ## Classes
 
+[C++ / Language / Classes](cpp-language.md#classes)
+
 Class template:
 ```cpp
 class MyClass
