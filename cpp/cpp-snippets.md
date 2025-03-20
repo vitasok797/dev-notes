@@ -52,7 +52,25 @@ private:
 };
 ```
 
+Virtual:
 ```cpp
+struct Base
+{
+    virtual void foo() = 0;
+    virtual ~Base() = default;
+};
+
+struct A : Base
+{
+    void foo() override;
+    ~A() override;
+};
+
+struct B final : A
+{
+    void foo() final;
+    ~B() final;
+};
 ```
 
 ## If statement with initializer (C++17)
