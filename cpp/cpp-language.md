@@ -31,6 +31,7 @@
 * [(StackOverflow) What is the copy-and-swap idiom?](https://stackoverflow.com/questions/3279543/what-is-the-copy-and-swap-idiom/3279550#3279550)
 * [(StackOverflow) How is std::swap implemented?](https://stackoverflow.com/questions/25286544/how-does-the-standard-library-implement-stdswap/25286610#25286610)
 * [(StackOverflow) Questions about the move assignment operator](https://stackoverflow.com/questions/9847860/questions-about-the-move-assignment-operator)
+* [(CG) A polymorphic class should suppress public copy/move](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)
 
 ## Containers
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
