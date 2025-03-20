@@ -23,6 +23,38 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 namespace fbz = foo::bar::baz;
 ```
 
+## Classes
+
+Class template:
+```cpp
+class MyClass
+{
+public:
+    // Types and type aliases
+    // Static constants
+
+    MyClass() = default;
+
+    MyClass(const MyClass&) = default;
+    MyClass(MyClass&&) = default;
+    MyClass& operator=(const MyClass&) = default;
+    MyClass& operator=(MyClass&&) = default;
+
+    virtual ~MyClass() = default;
+
+    // Functions
+    // Data members
+
+protected:
+
+private:
+
+};
+```
+
+```cpp
+```
+
 ## If statement with initializer (C++17)
 
 [C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
