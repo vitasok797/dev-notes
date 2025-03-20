@@ -37,6 +37,9 @@
 * [(Habr) Feature Flags и фабрика ПО](https://habr.com/ru/articles/543420/)
 * [(Habr) Укрощение feature-флагов](https://habr.com/ru/companies/hh/articles/580736/)
 
+## Merge
+* [(StackOverflow) How do I safely merge a Git branch into master?](https://stackoverflow.com/questions/5601931/how-do-i-safely-merge-a-git-branch-into-master)
+
 ## Rebase
 * [(Habr) Руководство по Git. Часть №2: золотое правило и другие основы rebase](https://habr.com/ru/companies/vk/articles/493818/)
 * [(Habr) Чем опасен rebase, или как получилось, что 2*3=5](https://habr.com/ru/articles/179123/)
