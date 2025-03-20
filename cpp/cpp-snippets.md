@@ -46,9 +46,16 @@ public:
     // Data members
 
 protected:
+    // Types and type aliases
+    // Static constants
+    // Functions
+    // Data members
 
 private:
-
+    // Types and type aliases
+    // Static constants
+    // Functions
+    // Data members
 };
 ```
 
