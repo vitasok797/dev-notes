@@ -41,8 +41,8 @@
 * https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html?highlight=GuidPrefix#key-concepts
 * https://fast-dds.docs.eprosima.com/en/latest/fastdds/dds_layer/domain/domainParticipant/partition.html
 ***
-*https://www.omg.org/spec/DDS4CCM/1.1/PDF
-*https://www.omg.org/spec/DDS-DLRL/1.4/PDF
-*https://www.eprosima.com/developer-resources/whitepapers/rpc-over-dds
-*https://www.eprosima.com/middleware/tools/rpc-over-dds
-*https://github.com/eProsima/RPC
+* https://www.omg.org/spec/DDS4CCM/1.1/PDF
+* https://www.omg.org/spec/DDS-DLRL/1.4/PDF
+* https://www.eprosima.com/developer-resources/whitepapers/rpc-over-dds
+* https://www.eprosima.com/middleware/tools/rpc-over-dds
+* https://github.com/eProsima/RPC
