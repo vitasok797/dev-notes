@@ -16,6 +16,8 @@
 * [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 * [How to Use CMake Without the Agonizing Pain - Part 2](https://alexreinking.com/blog/how-to-use-cmake-without-the-agonizing-pain-part-2.html)
 * [Managing Compiler Warnings with CMake](https://www.foonathan.net/2018/10/cmake-warnings/)
+* [CMake presets](https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html)
+* [CMake useful variables](https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/Useful-Variables)
 
 ## Style
 * <https://google.github.io/styleguide/cppguide.html>
