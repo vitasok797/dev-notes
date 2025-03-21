@@ -59,11 +59,10 @@
 <details>
 <summary>:warning: Disabling fast-forward merge</summary>
 
- ```
+```
 git config --global merge.ff false
 git config --global pull.ff true
 ```
-
 </details>
 
 ## GUI Tools
