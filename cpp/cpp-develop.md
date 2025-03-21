@@ -30,6 +30,7 @@
 * [Managing Compiler Warnings with CMake](https://www.foonathan.net/2018/10/cmake-warnings/)
 * [CMake presets](https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html)
 * [CMake useful variables](https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/Useful-Variables)
+* [(StackOverflow) Difference between CMAKE_CURRENT_SOURCE_DIR and CMAKE_CURRENT_LIST_DIR](https://stackoverflow.com/questions/15662497/difference-between-cmake-current-source-dir-and-cmake-current-list-dir)
 
 ## Style
 * <https://google.github.io/styleguide/cppguide.html>
