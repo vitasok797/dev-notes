@@ -7,7 +7,6 @@
 * [Шпаргалка](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 
 ## Articles
-
 * [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
 * [(Habr) Зачем пользователи GIT-а редактируют свои коммиты](https://habr.com/ru/articles/179045/)
 * [(Habr) Subversion vs. Git: Развенчивание мифов о развенчивании мифов](https://habr.com/ru/articles/320704/)
