@@ -40,7 +40,7 @@
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
 
 ## Ranges
-* <https://www.foonathan.net/2020/03/iterator-sentinel/>
+* [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
 * [(Habr) Примеры C++ кода до и после Ranges](https://habr.com/ru/companies/otus/articles/456452/)
 
 ## Strings
