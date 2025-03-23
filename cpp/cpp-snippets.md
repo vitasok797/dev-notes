@@ -122,10 +122,14 @@ switch (auto ch = getnext(); ch)
 ```cpp
 if (auto [itelem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 ```
+</details>
 
 ## Namespace using
 
-[Namespace using directives](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
+[Namespace using reference](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
+
+<details>
+<summary>Examples</summary>
 
 ```cpp
 namespace A {...}
