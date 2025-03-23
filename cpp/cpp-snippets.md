@@ -99,7 +99,7 @@ struct B final : A
 
 ## If statement with initializer (C++17)
 
-[C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
+[(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
 
 <details>
 <summary>Examples</summary>
