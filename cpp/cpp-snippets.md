@@ -36,7 +36,9 @@ namespace fbz = foo::bar::baz;
 
 [Language / Classes](cpp-language.md#classes)
 
-Class template:
+<details>
+<summary>Class template</summary>
+
 ```cpp
 class MyClass
 {
@@ -69,8 +71,11 @@ private:
     // Data members
 };
 ```
+</details>
 
-Virtual:
+<details>
+<summary>Virtual</summary>
+
 ```cpp
 struct Base
 {
@@ -90,6 +95,7 @@ struct B final : A
     ~B() final;
 };
 ```
+</details>
 
 ## If statement with initializer (C++17)
 
