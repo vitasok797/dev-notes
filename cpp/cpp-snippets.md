@@ -101,6 +101,9 @@ struct B final : A
 
 [C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
 
+<details>
+<summary>Examples</summary>
+
 ```cpp
 if (init; condition) {...}
 ```
@@ -132,6 +135,7 @@ namespace B
     using namespace A;
 }
 ```
+</details>
 
 ## Structured Bindings (C++17)
 
