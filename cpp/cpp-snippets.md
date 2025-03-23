@@ -139,9 +139,11 @@ namespace B
 
 ## Structured Bindings (C++17)
 
-[Structured binding declaration](https://en.cppreference.com/w/cpp/language/structured_binding)
+[Structured binding reference](https://en.cppreference.com/w/cpp/language/structured_binding)
 
-Unpack tuple:
+<details>
+<summary>Unpack tuple</summary>
+
 ```cpp
 #include <tuple>
 
@@ -150,8 +152,11 @@ std::tuple tuple{1, 'a', 2.3};
 auto [i, c, d] = tuple;
 auto& [i, c, d] = tuple;
 ```
+</details>
 
-Unpack struct:
+<details>
+<summary>Unpack struct</summary>
+
 ```cpp
 struct Foo
 {
@@ -165,8 +170,11 @@ Foo f {1, 'a', 2.3};
 auto [i, c, d] = f;
 auto& [i, c, d] = f;
 ```
+</details>
 
-Unpack map:
+<details>
+<summary>Unpack map</summary>
+
 ```cpp
 #include <map>
 
@@ -174,3 +182,4 @@ for (const auto& [k, v] : mymap) {...}
 
 for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {...}
 ```
+</details>
