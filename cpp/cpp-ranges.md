@@ -19,7 +19,7 @@ int main()
 
     for (const auto [index, value] : ranges::views::enumerate(items))
     {
-        std::cout << index << ": " << value << '\n';
+        std::cout << index << ": " << value << std::endl;
     }
 }
 ```
