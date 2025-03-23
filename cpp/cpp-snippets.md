@@ -139,7 +139,7 @@ namespace B
 
 ## Structured Bindings (C++17)
 
-[Structured binding reference](https://en.cppreference.com/w/cpp/language/structured_binding)
+[Structured bindings reference](https://en.cppreference.com/w/cpp/language/structured_binding)
 
 <details>
 <summary>Unpack tuple</summary>
