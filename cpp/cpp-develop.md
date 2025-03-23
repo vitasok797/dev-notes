@@ -4,7 +4,7 @@
 * <https://learn.microsoft.com/en-us/vcpkg/>
 * [(Issue) How do I use libraries of vcpkg with cmake?](https://github.com/microsoft/vcpkg/issues/14258#issuecomment-717579819)
 * [Using vcpkg in anger](https://codingnest.com/files/Using%20vcpkg%20In%20Anger.pdf)
-* <https://decovar.dev/blog/2022/10/30/cpp-dependencies-with-vcpkg/>
+* [Managing dependencies in a C++ project with vcpkg](https://decovar.dev/blog/2022/10/30/cpp-dependencies-with-vcpkg/)
 * [Using Overlay Triplets: Building dynamic libraries on Linux](https://learn.microsoft.com/en-us/vcpkg/users/examples/overlay-triplets-linux-dynamic)
 
 <details>
