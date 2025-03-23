@@ -2,7 +2,7 @@
 
 ## Docs
 * [Range-v3 reference](https://ericniebler.github.io/range-v3/)
-* [Microsoft std::ranges reference](https://learn.microsoft.com/en-us/cpp/standard-library/ranges)
+* [Microsoft std::ranges tutorial](https://learn.microsoft.com/en-us/cpp/standard-library/ranges)
 
 ## Snippets
 <details>
