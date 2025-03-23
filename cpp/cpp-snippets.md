@@ -1,8 +1,11 @@
 # C++ / Snippets
 
 ## Aliases
+<details>
+<summary>Type aliases</summary>
 
-[Type alias](https://en.cppreference.com/w/cpp/language/type_alias):
+[Type aliases reference](https://en.cppreference.com/w/cpp/language/type_alias)
+
 ```cpp
 using UserId = int;
 using UserAccounts = std::map<UserId, std::vector<Account>>;
@@ -17,11 +20,17 @@ using func = void (*) (int, int);
 template<typename T>
 using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
+</details>
 
-[Namespace alias](https://en.cppreference.com/w/cpp/language/namespace_alias):
+<details>
+<summary>Namespace aliases</summary>
+
+[Namespace aliases reference](https://en.cppreference.com/w/cpp/language/namespace_alias)
+
 ```cpp
 namespace fbz = foo::bar::baz;
 ```
+</details>
 
 ## Classes
 
