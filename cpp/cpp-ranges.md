@@ -4,6 +4,17 @@
 * [Range-v3 reference](https://ericniebler.github.io/range-v3/)
 * [Microsoft std::ranges tutorial](https://learn.microsoft.com/en-us/cpp/standard-library/ranges)
 
+## Articles
+* [(Habr) Примеры C++ кода до и после Ranges](https://habr.com/ru/companies/otus/articles/456452/)
+
+## Split
+* [(StackOverflow) Split string by range](https://stackoverflow.com/questions/48402558/how-to-split-a-stdstring-into-a-range-v3-of-stdstring-views)
+* [Superior String Splitting](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p2210r2.html)
+* [Implementing a better views::split](https://brevzin.github.io/c++/2020/07/06/split-view/)
+
+## Var
+* [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
+
 ## Snippets
 <details>
 <summary>Enumerate</summary>
@@ -25,12 +36,3 @@ int main()
 }
 ```
 </details>
-
-## Split
-* [(StackOverflow) Split string by range](https://stackoverflow.com/questions/48402558/how-to-split-a-stdstring-into-a-range-v3-of-stdstring-views)
-* [Superior String Splitting](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p2210r2.html)
-* [Implementing a better views::split](https://brevzin.github.io/c++/2020/07/06/split-view/)
-
-## Var
-* [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
-* [(Habr) Примеры C++ кода до и после Ranges](https://habr.com/ru/companies/otus/articles/456452/)
