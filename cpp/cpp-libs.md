@@ -97,8 +97,9 @@
 
 ### Formats / CSV
 * <https://github.com/ben-strasser/fast-cpp-csv-parser>
-* <https://github.com/p-ranav/csv2> ([vcpkg](https://vcpkg.io/en/package/p-ranav-csv2))
 * <https://github.com/d99kris/rapidcsv>
+* <https://github.com/vincentlaucsb/csv-parser> ([vcpkg](https://vcpkg.io/en/package/vincentlaucsb-csv-parser))
+* <https://github.com/p-ranav/csv2> ([vcpkg](https://vcpkg.io/en/package/p-ranav-csv2))
 
 ### Formats / Binary serialization
 * <https://protobuf.dev/>
