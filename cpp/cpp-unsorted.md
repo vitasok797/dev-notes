@@ -6,12 +6,9 @@
 
 ## Ranges
 * https://habr.com/ru/companies/otus/articles/878580/
-* https://ericniebler.github.io/range-v3/index.html
 * https://www.cppstories.com/2023/projections-examples-ranges/
 * https://www.cppstories.com/2022/ranges-alg-part-one/
-* https://learn.microsoft.com/en-us/cpp/standard-library/ranges?view=msvc-170
 * https://www.walletfox.com/course/quickref_range_v3.php
-* https://mariusbancila.ro/blog/2019/01/20/cpp-code-samples-before-and-after-ranges/
 * https://hannes.hauswedell.net/post/2019/11/30/range_intro/
 * https://hackingcpp.com/cpp/std/range_views_intro.html
 * https://hackingcpp.com/cpp/std/range_views.png
