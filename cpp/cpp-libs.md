@@ -25,10 +25,10 @@
 * :warning: `Boost Locale?`
 * :warning: `Найти примеры настроек сборки в одной из библиотек`
 * :warning: `Изучить` [ICU](https://icu.unicode.org/)
-* :warning: `Изучить` [ztd-text](https://github.com/soasis/text/) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
+* :warning: `Изучить` [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
 * :warning: `Изучить` [utfcpp](https://github.com/nemtrif/utfcpp)
 * :warning: `Изучить` [Boost.Nowide](https://www.boost.org/doc/libs/release/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
-* :warning: `Изучить` [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8/) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
+* :warning: `Изучить` [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
 * :warning: `Изучить` [simdutf](https://github.com/simdutf/simdutf)
 * :warning: `Изучить` [uni-algo](https://github.com/uni-algo/uni-algo)
 * :warning: `Изучить` [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
@@ -114,7 +114,7 @@
 * [CPP serializers benchmark](https://github.com/fraillt/cpp_serializers_benchmark)
 
 ### Formats / Multiformat serialization
-* [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp/) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
+* [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
 * <https://github.com/injae/serdepp>
 
 ### Formats / Base64
