@@ -241,6 +241,7 @@
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
 
 ## DB
+* [POCO Data (SQLite, MySQL/MariaDB, PostgreSQL)](https://docs.pocoproject.org/current/00200-DataUserManual.html)
 * <https://github.com/aminroosta/sqlite_modern_cpp> ([vcpkg](https://vcpkg.io/en/package/sqlite-modern-cpp))
 * <https://github.com/SRombauts/SQLiteCpp>
 
