@@ -13,6 +13,7 @@
 ## Iterators
 * [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
 * [C++20 Iterators In-depth](https://hitchcock.codes/blog/cpp-iterators-in-depth)
+* [Defining Ranges using Sentinels](https://www.studyplan.dev/pro-cpp/ranges-sentinels)
 
 ## Split
 * [(StackOverflow) Split string by range](https://stackoverflow.com/questions/48402558/how-to-split-a-stdstring-into-a-range-v3-of-stdstring-views)
