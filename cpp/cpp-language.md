@@ -84,7 +84,7 @@
 * [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
 * [(Habr) Долой указатели](https://habr.com/ru/companies/otus/articles/669532/)
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
-* <https://en.wikipedia.org/wiki/Smart_pointer>
+* [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
 
 ## Algorithms
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++](https://habr.com/ru/articles/762554/)
