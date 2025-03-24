@@ -108,6 +108,7 @@
 * <https://www.foonathan.net/2017/12/exceptions-vs-expected/>
 * <https://learn.microsoft.com/en-us/cpp/cpp/transporting-exceptions-between-threads>
 * <https://stackoverflow.com/questions/25282620/catching-exception-from-worker-thread-in-the-main-thread>
+* <https://www.cppstories.com/2021/sphero-cpp-return/>
 * <https://www.cppstories.com/2024/expected-cpp23/>
 
 ## C++ vs C
