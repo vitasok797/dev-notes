@@ -6,6 +6,7 @@
 * <https://metanit.com/cpp/qt/>
 * <https://www.learncpp.com/>
 * <https://www.programming-books.io/essential/cpp/index.html>
+* <https://www.studyplan.dev/pro-cpp>
 
 ## Guides
 * [ISO C++: Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
