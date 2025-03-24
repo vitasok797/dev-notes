@@ -15,9 +15,6 @@
 * [Superior String Splitting](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p2210r2.html)
 * [Implementing a better views::split](https://brevzin.github.io/c++/2020/07/06/split-view/)
 
-## Var
-* [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
-
 ## Snippets
 <details>
 <summary>Enumerate</summary>
