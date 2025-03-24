@@ -1,7 +1,7 @@
 # C++ / Ranges
 
 ## Docs
-* Std [ranges](https://en.cppreference.com/w/cpp/ranges) [ranges algorithms](https://en.cppreference.com/w/cpp/algorithm/ranges)
+* std::ranges: [ranges](https://en.cppreference.com/w/cpp/ranges) [algorithms](https://en.cppreference.com/w/cpp/algorithm/ranges)
 * [Range-v3 reference](https://ericniebler.github.io/range-v3/)
 * [Microsoft std::ranges tutorial](https://learn.microsoft.com/en-us/cpp/standard-library/ranges)
 
