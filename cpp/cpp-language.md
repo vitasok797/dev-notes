@@ -87,6 +87,9 @@
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
 
+## Iterators
+* [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
+
 ## Algorithms
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++](https://habr.com/ru/articles/762554/)
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (продолжение)](https://habr.com/ru/articles/763024/)
