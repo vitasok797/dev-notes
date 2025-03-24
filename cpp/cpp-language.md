@@ -45,6 +45,14 @@
 ## Containers
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
 
+## Iterators
+* [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
+* [C++20 Iterators In-depth](https://hitchcock.codes/blog/cpp-iterators-in-depth)
+
+## Algorithms
+* [(Habr) Визуализация алгоритмов стандартной библиотеки C++](https://habr.com/ru/articles/762554/)
+* [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (продолжение)](https://habr.com/ru/articles/763024/)
+
 ## Strings
 * [char8\_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
 * <https://stackoverflow.com/questions/313970/how-to-convert-an-instance-of-stdstring-to-lower-case>
@@ -86,14 +94,6 @@
 * [(Habr) Долой указатели](https://habr.com/ru/companies/otus/articles/669532/)
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
-
-## Iterators
-* [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
-* [C++20 Iterators In-depth](https://hitchcock.codes/blog/cpp-iterators-in-depth)
-
-## Algorithms
-* [(Habr) Визуализация алгоритмов стандартной библиотеки C++](https://habr.com/ru/articles/762554/)
-* [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (продолжение)](https://habr.com/ru/articles/763024/)
 
 ## Multithreading
 * [(Habr) Шпаргалка по модели памяти С++11](https://habr.com/ru/companies/otus/articles/763810/)
