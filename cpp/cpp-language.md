@@ -56,6 +56,7 @@
 * [How to split a string in C++](https://www.fluentcpp.com/2017/04/21/how-to-split-a-string-in-c/)
 * [(StackOverflow) Split string by range](https://stackoverflow.com/questions/48402558/how-to-split-a-stdstring-into-a-range-v3-of-stdstring-views)
 * [(StackOverflow) String to int/float](https://stackoverflow.com/questions/7663709/how-can-i-convert-a-stdstring-to-int/77079910#77079910)
+* [Parse CSV file with Boost Tokenizer](http://mybyteofcode.blogspot.com/2010/02/parse-csv-file-with-boost-tokenizer-in.html)
 
 ## Encoding
 * :warning: `Изучить` [UTF-8 Everywhere](https://utf8everywhere.org/)
