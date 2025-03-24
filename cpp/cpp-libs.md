@@ -142,6 +142,7 @@
 * <https://github.com/kokkos/mdspan>
 
 ### Types / Units
+* POCO [Units](https://github.com/pocoproject/poco/blob/main/Util/include/Poco/Util/Units.h)
 * <https://github.com/LLNL/units> ([vcpkg](https://vcpkg.io/en/package/llnl-units))
 * <https://github.com/mpusz/mp-units> ([vcpkg](https://vcpkg.io/en/package/mp-units))
 * <https://github.com/nholthaus/units> ([vcpkg](https://vcpkg.io/en/package/units))
