@@ -23,7 +23,11 @@
 * [Book: More C++ Idioms](https://en.wikibooks.org/wiki/Category:Book:More_C++_Idioms)
 * [Abseil Tips of the Week](https://abseil.io/tips/)
 * [SEI CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
+
+## Modern C++
 * [Modern C++ Tutorial: C++ 11/14/17/20 On The Fly](https://github.com/changkun/modern-cpp-tutorial/blob/master/book/en-us/toc.md)
+* [Spans, string_view, and Ranges - Four View types (C++17 to C++23) ](https://www.cppstories.com/2023/four-views-in-cpp23/)
+* [Six Handy Operations for String Processing in C++20/23 ](https://www.cppstories.com/2023/six-handy-ops-for-string-processing/)
 
 ## Classes
 * The rule of three/five/zero:
