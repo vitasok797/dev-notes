@@ -7,7 +7,7 @@
 
 ## Frameworks
 * <https://www.boost.org/doc/libs/>
-* <https://pocoproject.org/>
+* <https://pocoproject.org/> ([doc](https://docs.pocoproject.org/current/index.html))
 * <https://abseil.io/>
 * <https://github.com/facebook/folly>
 * <https://github.com/Microsoft/GSL> ([vcpkg](https://vcpkg.io/en/package/ms-gsl))
