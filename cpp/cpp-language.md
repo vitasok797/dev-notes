@@ -26,6 +26,7 @@
 
 ## Modern C++
 * [Modern C++ Tutorial: C++ 11/14/17/20 On The Fly](https://github.com/changkun/modern-cpp-tutorial/blob/master/book/en-us/toc.md)
+* [3 Simple C++17 Features That Will Make Your Code Simpler](https://www.fluentcpp.com/2018/06/19/3-simple-c17-features-that-will-make-your-code-simpler/)
 * [Spans, string_view, and Ranges - Four View types (C++17 to C++23) ](https://www.cppstories.com/2023/four-views-in-cpp23/)
 * [Six Handy Operations for String Processing in C++20/23 ](https://www.cppstories.com/2023/six-handy-ops-for-string-processing/)
 
@@ -126,7 +127,6 @@
 * [(Youtube) C++17, который мы заслужили](https://www.youtube.com/watch?v=I0oerm0MYQY)
 
 ## Var
-* [3 Simple C++17 Features That Will Make Your Code Simpler](https://www.fluentcpp.com/2018/06/19/3-simple-c17-features-that-will-make-your-code-simpler/)
 * [(Habr) Тонкости реализации кода библиотеки](https://habr.com/ru/articles/138085/)
 * [(Habr) Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
 * [(Habr) Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
