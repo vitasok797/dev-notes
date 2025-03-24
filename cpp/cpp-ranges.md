@@ -1,6 +1,7 @@
 # C++ / Ranges
 
 ## Docs
+* [Std Ranges Library](https://en.cppreference.com/w/cpp/ranges)
 * [Range-v3 reference](https://ericniebler.github.io/range-v3/)
 * [Microsoft std::ranges tutorial](https://learn.microsoft.com/en-us/cpp/standard-library/ranges)
 
