@@ -45,10 +45,6 @@
 ## Containers
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
 
-## Iterators
-* [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
-* [C++20 Iterators In-depth](https://hitchcock.codes/blog/cpp-iterators-in-depth)
-
 ## Algorithms
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++](https://habr.com/ru/articles/762554/)
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (продолжение)](https://habr.com/ru/articles/763024/)
