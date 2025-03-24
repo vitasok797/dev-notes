@@ -6,11 +6,11 @@
 * [A list of open-source C++ libraries](https://en.cppreference.com/w/cpp/links/libs)
 
 ## Frameworks
-* <https://www.boost.org/doc/libs/>
-* <https://pocoproject.org/> ([doc](https://docs.pocoproject.org/current/index.html))
-* <https://abseil.io/>
-* <https://github.com/facebook/folly>
-* <https://github.com/Microsoft/GSL> ([vcpkg](https://vcpkg.io/en/package/ms-gsl))
+* [Boost](https://www.boost.org/doc/libs/)
+* [POCO](https://pocoproject.org/) ([doc](https://docs.pocoproject.org/current/index.html))
+* [Abseil](https://abseil.io/)
+* [Folly](https://github.com/facebook/folly)
+* [Guidelines Support Library](https://github.com/Microsoft/GSL) ([vcpkg](https://vcpkg.io/en/package/ms-gsl))
 
 ## Text
 
