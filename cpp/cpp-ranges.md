@@ -1,7 +1,9 @@
 # C++ / Ranges
 
 ## Docs
-* std::ranges: [ranges](https://en.cppreference.com/w/cpp/ranges) [algorithms](https://en.cppreference.com/w/cpp/algorithm/ranges)
+* std::ranges:
+  * [Ranges](https://en.cppreference.com/w/cpp/ranges)
+  * [Algorithms](https://en.cppreference.com/w/cpp/algorithm/ranges)
 * Range-v3:
   * [Reference](https://ericniebler.github.io/range-v3/)
   * [Views](https://ericniebler.github.io/range-v3/index.html#autotoc_md23)
