@@ -4,7 +4,9 @@
 * std::ranges: [ranges](https://en.cppreference.com/w/cpp/ranges) [algorithms](https://en.cppreference.com/w/cpp/algorithm/ranges)
 * Range-v3:
   * [Reference](https://ericniebler.github.io/range-v3/)
-  * List: [views](https://ericniebler.github.io/range-v3/index.html#autotoc_md23), [actions](https://ericniebler.github.io/range-v3/index.html#autotoc_md25)
+  * [Views](https://ericniebler.github.io/range-v3/index.html#autotoc_md23)
+  * [Actions](https://ericniebler.github.io/range-v3/index.html#autotoc_md25)
+  * [Algorithms](https://ericniebler.github.io/range-v3/group__group-algorithms.html)
   * [Examples](https://ericniebler.github.io/range-v3/md_examples.html)
 * [Microsoft std::ranges tutorial](https://learn.microsoft.com/en-us/cpp/standard-library/ranges)
 
