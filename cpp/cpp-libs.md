@@ -101,6 +101,7 @@
 * <https://github.com/d99kris/rapidcsv>
 * <https://github.com/vincentlaucsb/csv-parser> ([vcpkg](https://vcpkg.io/en/package/vincentlaucsb-csv-parser))
 * <https://github.com/p-ranav/csv2> ([vcpkg](https://vcpkg.io/en/package/p-ranav-csv2))
+* <https://github.com/stephenberry/glaze> ([CSV](https://github.com/stephenberry/glaze/blob/main/docs/csv.md))
 
 ### Formats / Binary serialization
 * <https://protobuf.dev/>
