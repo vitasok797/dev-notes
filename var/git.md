@@ -81,3 +81,7 @@ git config --global pull.ff true
 * [(Youtube) So You Think You Know Git](https://www.youtube.com/watch?v=aolI_Rz0ZqY)
 * [(Youtube) Git PULL vs FETCH](https://www.youtube.com/watch?v=T13gDBXarj0)
 * [(Youtube) Never* use git pull](https://www.youtube.com/watch?v=xN1-2p06Urc)
+
+## Var
+* [(StackOverflow) What's the difference between git clone --mirror and git clone --bare](https://stackoverflow.com/questions/3959924/whats-the-difference-between-git-clone-mirror-and-git-clone-bare)
+* [(StackOverflow) How do I clone a subdirectory only of a Git repository?](https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository)
