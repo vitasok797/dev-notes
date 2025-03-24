@@ -15,6 +15,9 @@
 * [Superior String Splitting](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p2210r2.html)
 * [Implementing a better views::split](https://brevzin.github.io/c++/2020/07/06/split-view/)
 
+## Var
+* [Making Your Own Container Compatible With C++20 Ranges](https://www.reedbeta.com/blog/ranges-compatible-containers/)
+
 ## Snippets
 <details>
 <summary>Enumerate</summary>
