@@ -10,6 +10,10 @@
 * [(Habr) Алгоритмы диапазонов C++20 — 11 модифицирующих операций](https://habr.com/ru/companies/skillfactory/articles/707948/)
 * [(Habr) Алгоритмы диапазонов C++20 — сортировка, множества, обновления C++23 и прочее](https://habr.com/ru/companies/skillfactory/articles/707946/)
 
+## Iterators
+* [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
+* [C++20 Iterators In-depth](https://hitchcock.codes/blog/cpp-iterators-in-depth)
+
 ## Split
 * [(StackOverflow) Split string by range](https://stackoverflow.com/questions/48402558/how-to-split-a-stdstring-into-a-range-v3-of-stdstring-views)
 * [Superior String Splitting](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p2210r2.html)
