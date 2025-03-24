@@ -88,6 +88,7 @@
 * POCO [JSON/Object.h](https://docs.pocoproject.org/current/Poco.JSON.Object.html)
 * <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
 * <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
+* <https://github.com/stephenberry/glaze>
 
 ### Formats / TOML
 * <https://github.com/marzer/tomlplusplus> ([site](https://marzer.github.io/tomlplusplus/))
