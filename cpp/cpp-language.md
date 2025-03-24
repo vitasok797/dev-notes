@@ -82,6 +82,10 @@
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * <https://en.wikipedia.org/wiki/Smart_pointer>
 
+## Algorithms
+* [(Habr) Визуализация алгоритмов стандартной библиотеки C++](https://habr.com/ru/articles/762554/)
+* [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (продолжение)](https://habr.com/ru/articles/763024/)
+
 ## Multithreading
 * [(Habr) Шпаргалка по модели памяти С++11](https://habr.com/ru/companies/otus/articles/763810/)
 * [(Habr) std::atomic. Модель памяти C++ в примерах](https://habr.com/ru/articles/517918/)
