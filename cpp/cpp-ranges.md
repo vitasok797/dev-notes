@@ -40,9 +40,9 @@
 #include <vector>
 #include <range/v3/all.hpp>
 
-std::vector<std::string> items{"A", "B", "C"};
+std::vector<std::string> v{"A", "B", "C"};
 
-for (const auto [index, value] : ranges::views::enumerate(items))
+for (const auto [index, value] : ranges::views::enumerate(v))
     std::cout << index << ": " << value << std::endl;
 ```
 </details>
