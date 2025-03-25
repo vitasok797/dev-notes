@@ -66,6 +66,7 @@ v1 |= ranges::action::push_back(v2 | ranges::views::remove_if([](int i){ return 
 <summary>Copy to ostream</summary>
 
 ```cpp
+#include <iostream>
 #include <vector>
 #include <range/v3/all.hpp>
 
