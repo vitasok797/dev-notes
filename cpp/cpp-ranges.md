@@ -36,7 +36,6 @@
 <summary>To string</summary>
 
 ```cpp
-#include <iostream>
 #include <vector>
 #include <range/v3/all.hpp>
 
