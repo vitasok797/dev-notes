@@ -49,6 +49,22 @@ auto rng = ranges::subrange(v.begin() + 1, v.end());
 </details>
 
 <details>
+<summary>Filter</summary>
+
+```cpp
+#include <vector>
+#include <range/v3/all.hpp>
+
+std::vector<int> v{1, 2, 3, 4, 5, 6};
+
+auto is_even = [](int i) { return i % 2 == 0; };
+
+auto even_numbers = v | ranges::views::filter(is_even);
+auto odd_numbers = v | ranges::views::remove_if(is_even);
+```
+</details>
+
+<details>
 <summary>To string</summary>
 
 ```cpp
