@@ -61,3 +61,16 @@ v1 |= ranges::action::push_back(v2);
 v1 |= ranges::action::push_back(v2 | ranges::views::remove_if([](int i){ return i < 0; }));
 ```
 </details>
+
+<details>
+<summary>Copy to ostream</summary>
+
+```cpp
+#include <vector>
+#include <range/v3/all.hpp>
+
+std::vector<int> v{1, 2, 3};
+
+ranges::copy(v, ranges::ostream_iterator<int>(std::cout, "_"));
+```
+</details>
