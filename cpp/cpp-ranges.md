@@ -34,6 +34,19 @@
 
 ## Snippets
 <details>
+<summary>Range from iterators</summary>
+
+```cpp
+#include <vector>
+#include <range/v3/all.hpp>
+
+std::vector<int> v{1, 2, 3};
+
+auto rng = ranges::subrange(v.begin() + 1, v.end());
+```
+</details>
+
+<details>
 <summary>To string</summary>
 
 ```cpp
