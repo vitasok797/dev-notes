@@ -46,7 +46,6 @@
 
 ## Var
 * https://www.modernescpp.com/index.php/c-17-what-s-new-in-the-library/
-* https://habr.com/ru/companies/otus/articles/726620/
 * https://habr.com/ru/articles/372103/
 * https://habr.com/ru/articles/369811/
 * https://habr.com/ru/companies/otus/articles/656363/
