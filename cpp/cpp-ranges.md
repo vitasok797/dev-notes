@@ -33,6 +33,20 @@
 
 ## Snippets
 <details>
+<summary>To string</summary>
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <range/v3/all.hpp>
+
+std::vector<int> v{1, 2, 3};
+
+auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); });
+```
+</details>
+
+<details>
 <summary>Enumerate</summary>
 
 ```cpp
