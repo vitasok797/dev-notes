@@ -18,6 +18,7 @@
 * [(Habr) Алгоритмы диапазонов C++20 — 7 немодифицирующих операций](https://habr.com/ru/companies/skillfactory/articles/706458/)
 * [(Habr) Алгоритмы диапазонов C++20 — 11 модифицирующих операций](https://habr.com/ru/companies/skillfactory/articles/707948/)
 * [(Habr) Алгоритмы диапазонов C++20 — сортировка, множества, обновления C++23 и прочее](https://habr.com/ru/companies/skillfactory/articles/707946/)
+* [A beginner's guide to C++ Ranges and Views](https://hannes.hauswedell.net/post/2019/11/30/range_intro/)
 
 ## Iterators
 * [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
