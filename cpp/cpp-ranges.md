@@ -72,5 +72,6 @@ v1 |= ranges::action::push_back(v2 | ranges::views::remove_if([](int i){ return 
 std::vector<int> v{1, 2, 3};
 
 ranges::copy(v, ranges::ostream_iterator<int>(std::cout, "\n"));
+std::cout << ranges::views::all(v);
 ```
 </details>
