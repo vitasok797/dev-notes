@@ -11,12 +11,7 @@
 * https://www.walletfox.com/course/quickref_range_v3.php
 * https://hackingcpp.com/cpp/std/range_views_intro.html
 * https://hackingcpp.com/cpp/std/range_views.png
-
-## Ranges 2
 * https://stackoverflow.com/questions/67716780/is-it-possible-advisable-to-return-a-range
-* https://stackoverflow.com/questions/66324609/what-would-be-the-c20-concept-for-an-iterable-container
-* https://stackoverflow.com/questions/74666955/how-to-declare-a-function-that-takes-a-range
-* https://stackoverflow.com/questions/68912393/range-function-like-python-but-for-c-17-double
 
 ## Style
 * https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/c++/c++.md
