@@ -78,7 +78,8 @@
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
 
 ## Universal references
-* <https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers>
+* [Universal References in C++11](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
+* [(Wiki) Прямая передача](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8F%D0%BC%D0%B0%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B0_(C%2B%2B))
 * <https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/>
 * <https://stackoverflow.com/questions/14918984/c11-how-can-i-define-a-function-that-accept-a-universal-reference-of-a-speci>
 * <https://stackoverflow.com/questions/38197528/const-auto-really-not-useful>
