@@ -38,17 +38,26 @@
 ```cpp
 #include <iostream>
 #include <vector>
- 
-#include <range/v3/view/enumerate.hpp>
+#include <range/v3/all.hpp>
 
-int main()
-{
-    std::vector<std::string> items{"A", "B", "C"};
+std::vector<std::string> items{"A", "B", "C"};
 
-    for (const auto [index, value] : ranges::views::enumerate(items))
-    {
-        std::cout << index << ": " << value << std::endl;
-    }
-}
+for (const auto [index, value] : ranges::views::enumerate(items))
+    std::cout << index << ": " << value << std::endl;
+```
+</details>
+
+<details>
+<summary>Vector append</summary>
+
+```cpp
+#include <vector>
+#include <range/v3/all.hpp>
+
+std::vector<int> v1{1, 2, 3};
+std::vector<int> v2{4, -5, 6};
+
+v1 |= ranges::action::push_back(v2);
+v1 |= ranges::action::push_back(v2 | ranges::views::remove_if([](int i){ return i < 0; }));
 ```
 </details>
