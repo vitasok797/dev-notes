@@ -139,3 +139,15 @@ ranges::copy(v, ranges::ostream_iterator<int>(std::cout, "\n"));
 std::cout << ranges::views::all(v);
 ```
 </details>
+
+<details>
+<summary>Range argument</summary>
+
+```cpp
+#include <range/v3/all.hpp>
+
+void print_range(const auto& range);
+void print_range(const ranges::input_range auto& range);
+void print_range(ranges::input_range auto&& range);
+```
+</details>
