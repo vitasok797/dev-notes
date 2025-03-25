@@ -153,8 +153,10 @@ ranges::copy(v, ranges::ostream_iterator<T>(std::cout, "\n"));
 ```cpp
 #include <range/v3/all.hpp>
 
-void print_range(const auto& range);
-void print_range(const ranges::input_range auto& range);
-void print_range(ranges::input_range auto&& range);
+void func(const auto& r);
+void func(auto&& r);
+
+void func_with_concept(const ranges::range auto& r);
+void func_with_concept(ranges::range auto&& r);
 ```
 </details>
