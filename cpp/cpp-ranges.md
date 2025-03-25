@@ -46,6 +46,24 @@ auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); })
 </details>
 
 <details>
+<summary>Contains</summary>
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <range/v3/all.hpp>
+
+std::vector<int> v{1, 2, 3};
+
+std::cout << std::boolalpha;
+
+std::cout << ranges::contains(v, 2) << std::endl;
+std::cout << ranges::contains(v, 999) << std::endl;
+```
+</details>
+
+
+<details>
 <summary>Enumerate</summary>
 
 ```cpp
