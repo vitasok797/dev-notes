@@ -56,8 +56,7 @@
 * Clang:
   * [Clang Format](https://clang.llvm.org/docs/ClangFormat.html)
   * [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
-  * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/)
-  * [(Habr) Clang-Tidy для автоматического рефакторинга кода](https://habr.com/ru/companies/auriga/articles/526486/)
+  * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) ([habr](https://habr.com/ru/companies/auriga/articles/526486/))
 * cpplint:
   * [cpplint](https://github.com/cpplint/cpplint)
   * [cpplint в Visual Studio (1)](https://demin.ws/blog/russian/2009/07/08/google-coding-standard-in-visual-studio/)
