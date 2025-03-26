@@ -59,6 +59,7 @@
 * Clang:
   * [Clang Format](https://clang.llvm.org/docs/ClangFormat.html)
   * [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
+  * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/)
   * [(Habr) Clang-Tidy для автоматического рефакторинга кода](https://habr.com/ru/companies/auriga/articles/526486/)
 * Visual Studio:
   * [C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
