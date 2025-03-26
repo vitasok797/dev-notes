@@ -61,10 +61,10 @@
   * [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
   * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/)
   * [(Habr) Clang-Tidy для автоматического рефакторинга кода](https://habr.com/ru/companies/auriga/articles/526486/)
+* [Cppcheck](https://cppcheck.sourceforge.io/)
 * Visual Studio:
   * [C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
   * [C++ Code analysis in Visual Studio: Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
-* [Cppcheck](https://cppcheck.sourceforge.io/)
 
 ## Visual Studio
 * [Visual Studio 2022 Release History](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
