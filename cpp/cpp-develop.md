@@ -76,6 +76,7 @@
 * [cpplint](https://marketplace.visualstudio.com/items?itemName=mine.cpplint)
 * [Trailing Whitespace Visualizer (2019)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
 * [Trailing Whitespace Visualizer (2022)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespace64)
+* [Clang Power Tools](https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools) ([site](https://clangpowertools.com/))
 
 ## Var
 * [Beautiful Native Libraries](https://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/)
