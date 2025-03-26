@@ -70,13 +70,14 @@
 * <https://github.com/Data-Oriented-House/PortableBuildTools>
 
 ### Visual Studio / Extensions
+* Linters and Analyzers:
+  * [Clang Power Tools](https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools) ([site](https://clangpowertools.com/))
+  * [cpplint](https://marketplace.visualstudio.com/items?itemName=mine.cpplint)
 * [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
 * [Productivity Power Tools 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2022)
-* [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
-* [cpplint](https://marketplace.visualstudio.com/items?itemName=mine.cpplint)
 * [Trailing Whitespace Visualizer (2019)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
 * [Trailing Whitespace Visualizer (2022)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespace64)
-* [Clang Power Tools](https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools) ([site](https://clangpowertools.com/))
+* [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
 
 ## Var
 * [Beautiful Native Libraries](https://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/)
