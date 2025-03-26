@@ -73,10 +73,12 @@
 * Linters and Analyzers:
   * [Clang Power Tools](https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools) ([site](https://clangpowertools.com/))
   * [cpplint](https://marketplace.visualstudio.com/items?itemName=mine.cpplint)
-* [Productivity Power Tools 2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
-* [Productivity Power Tools 2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2022)
-* [Trailing Whitespace Visualizer (2019)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
-* [Trailing Whitespace Visualizer (2022)](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespace64)
+* Productivity Power Tools
+  [2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
+  [2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2022)
+* Trailing Whitespace Visualizer
+  [2019](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
+  [2022](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespace64)
 * [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
 
 ## Var
