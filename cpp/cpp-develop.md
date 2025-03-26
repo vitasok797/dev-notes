@@ -52,16 +52,16 @@
 * [How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
 
 ## Linters and Analyzers
-* cpplint:
-  * [cpplint](https://github.com/cpplint/cpplint)
-  * [cpplint в Visual Studio (1)](https://demin.ws/blog/russian/2009/07/08/google-coding-standard-in-visual-studio/)
-  * [cpplint в Visual Studio (2)](https://heaohan.github.io/blog/2017/12/01/he-aohan-apply-cpplint)
+* [Cppcheck](https://cppcheck.sourceforge.io/)
 * Clang:
   * [Clang Format](https://clang.llvm.org/docs/ClangFormat.html)
   * [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
   * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/)
   * [(Habr) Clang-Tidy для автоматического рефакторинга кода](https://habr.com/ru/companies/auriga/articles/526486/)
-* [Cppcheck](https://cppcheck.sourceforge.io/)
+* cpplint:
+  * [cpplint](https://github.com/cpplint/cpplint)
+  * [cpplint в Visual Studio (1)](https://demin.ws/blog/russian/2009/07/08/google-coding-standard-in-visual-studio/)
+  * [cpplint в Visual Studio (2)](https://heaohan.github.io/blog/2017/12/01/he-aohan-apply-cpplint)
 * Visual Studio:
   * [C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
   * [C++ Code analysis in Visual Studio: Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
