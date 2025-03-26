@@ -56,11 +56,13 @@
   * [cpplint](https://github.com/cpplint/cpplint)
   * [cpplint в Visual Studio (1)](https://demin.ws/blog/russian/2009/07/08/google-coding-standard-in-visual-studio/)
   * [cpplint в Visual Studio (2)](https://heaohan.github.io/blog/2017/12/01/he-aohan-apply-cpplint)
-* <https://clang.llvm.org/docs/ClangFormat.html>
-* [C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
-* [C++ Code analysis in Visual Studio: Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
-* [(Habr) Clang-Tidy для автоматического рефакторинга кода](https://habr.com/ru/companies/auriga/articles/526486/)
-* [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
+* Clang:
+  * [Clang Format](https://clang.llvm.org/docs/ClangFormat.html)
+  * [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
+  * [(Habr) Clang-Tidy для автоматического рефакторинга кода](https://habr.com/ru/companies/auriga/articles/526486/)
+* Visual Studio:
+  * [C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
+  * [C++ Code analysis in Visual Studio: Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
 * [Cppcheck](https://cppcheck.sourceforge.io/)
 
 ## Visual Studio
