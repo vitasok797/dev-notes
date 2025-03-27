@@ -146,6 +146,20 @@ namespace B
 [Structured bindings reference](https://en.cppreference.com/w/cpp/language/structured_binding)
 
 <details>
+<summary>Syntax</summary>
+
+```cpp
+auto [a, b, c] = ...
+const auto [a, b, c] = ...
+
+auto& [a, b, c] = ...
+const auto& [a, b, c] = ...
+
+auto&& [a, b, c] = ...
+```
+</details>
+
+<details>
 <summary>Unpack tuple</summary>
 
 ```cpp
@@ -153,8 +167,7 @@ namespace B
 
 std::tuple tuple{1, 'a', 2.3};
 
-auto [i, c, d] = tuple;
-auto& [i, c, d] = tuple;
+auto [a, b, c] = tuple;
 ```
 </details>
 
@@ -172,7 +185,6 @@ struct Foo
 Foo f {1, 'a', 2.3};
 
 auto [i, c, d] = f;
-auto& [i, c, d] = f;
 ```
 </details>
 
