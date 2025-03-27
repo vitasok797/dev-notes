@@ -167,7 +167,7 @@ int main()
 ## Namespace
 
 <details>
-<summary>Namespace aliases</summary>
+<summary>Namespace alias</summary>
 
 ```cpp
 namespace fbz = foo::bar::baz;
@@ -247,7 +247,7 @@ for (T thing = foo(); auto& x : thing.items()) {...}  // OK
 ```
 </details>
 
-## Structured Bindings
+## Structured Binding
 
 <details>
 <summary>Syntax</summary>
