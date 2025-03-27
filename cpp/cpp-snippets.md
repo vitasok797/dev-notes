@@ -165,7 +165,7 @@ namespace B
 <details>
 <summary>Namespace aliases</summary>
 
-[Namespace aliases reference](https://en.cppreference.com/w/cpp/language/namespace_alias)
+[(Reference) Namespace alias](https://en.cppreference.com/w/cpp/language/namespace_alias)
 
 ```cpp
 namespace fbz = foo::bar::baz;
@@ -224,7 +224,7 @@ for (T thing = foo(); auto& x : thing.items()) {...}  // OK
 <details>
 <summary>Syntax</summary>
 
-[Structured bindings reference](https://en.cppreference.com/w/cpp/language/structured_binding)
+[(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
 
 ```cpp
 auto [a, b, c] =
@@ -287,7 +287,7 @@ for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {..
 <details>
 <summary>Type aliases</summary>
 
-[Type aliases reference](https://en.cppreference.com/w/cpp/language/type_alias)
+[(Reference) Type alias](https://en.cppreference.com/w/cpp/language/type_alias)
 
 ```cpp
 using UserId = int;
