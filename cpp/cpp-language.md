@@ -46,6 +46,7 @@
 
 ## Containers
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
+* [12 Different Ways to Filter Containers in Modern C++](https://www.cppstories.com/2021/filter-cpp-containers/)
 
 ## Algorithms
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (1)](https://habr.com/ru/articles/762554/)
