@@ -140,9 +140,9 @@ auto lam = [i=0](const std::string &s) mutable
     return std::to_string(i++) + ":" + s;
 };
 
-std::cout << lam("aaa") << std::endl;
-std::cout << lam("bbb") << std::endl;
-std::cout << lam("ccc") << std::endl;
+std::cout << lam("aaa") << std::endl;  // 0:aaa
+std::cout << lam("bbb") << std::endl;  // 1:bbb
+std::cout << lam("ccc") << std::endl;  // 2:ccc
 ```
 </details>
 
