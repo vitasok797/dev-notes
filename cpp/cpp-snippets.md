@@ -171,10 +171,10 @@ namespace B
 ```
 </details>
 
-## Statements with initializer
+## Statement with initializer
 
 <details>
-<summary>If statement with initializer (C++17)</summary>
+<summary>If statement with initializer</summary>
 
 [(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
 
@@ -199,7 +199,7 @@ if (auto [itelem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 </details>
 
 <details>
-<summary>Range-based for loop with Initializer (C++20)</summary>
+<summary>Range-based for loop with initializer (C++20)</summary>
 
 ```cpp
 for (init; decl : expr)
@@ -218,7 +218,7 @@ for (T thing = foo(); auto& x : thing.items()) {...}  // OK
 ```
 </details>
 
-## Structured Bindings (C++17)
+## Structured Bindings
 
 <details>
 <summary>Syntax</summary>
@@ -281,10 +281,10 @@ for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {..
 ```
 </details>
 
-## Types
+## Type
 
 <details>
-<summary>Type aliases</summary>
+<summary>Type alias</summary>
 
 [(Reference) Type alias](https://en.cppreference.com/w/cpp/language/type_alias)
 
