@@ -1,6 +1,6 @@
 # C++ / Snippets
 
-## Classes
+## Class
 
 [Language / Classes](cpp-language.md#classes)
 
@@ -66,7 +66,7 @@ struct B final : A
 </details>
 
 <details>
-<summary>Static/constants fields</summary>
+<summary>Static/const fields</summary>
 
 ```cpp
 #include <iostream>
@@ -124,7 +124,6 @@ std::cout << lam("aaa") << std::endl;
 std::cout << lam("bbb") << std::endl;
 std::cout << lam("ccc") << std::endl;
 ```
-
 </details>
 
 ## Math
@@ -145,7 +144,7 @@ int main()
 ```
 </details>
 
-## Namespaces
+## Namespace
 
 <details>
 <summary>Using namespace</summary>
@@ -165,7 +164,7 @@ namespace B
 <details>
 <summary>Namespace aliases</summary>
 
-[(Reference) Namespace alias](https://en.cppreference.com/w/cpp/language/namespace_alias)
+[(Reference) Namespace aliases](https://en.cppreference.com/w/cpp/language/namespace_alias)
 
 ```cpp
 namespace fbz = foo::bar::baz;
