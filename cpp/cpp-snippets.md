@@ -163,8 +163,7 @@ for (init; decl : expr)
 ```cpp
 for (size_t i = 0; const auto& x : container)
 {
-    std::cout << i << ": " << x << std::endl;
-    ++i;
+    std::cout << i++ << ": " << x << std::endl;
 }
 ```
 
