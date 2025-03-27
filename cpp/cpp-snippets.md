@@ -139,29 +139,31 @@ struct B final : A
 
 struct MyClass
 {
-    static inline std::string static_field{"sf"};
+    // static mutable
+    static inline std::string static_mutable{"sm"};
 
+    // static const
     static inline const std::string static_const_1{"sc1"};
-    static constexpr std::string static_const_2{"sc2"};
+    static constexpr std::string static_const_2{"sc2"};  // better
 
+    // instance const
     const std::string instance_const{"ic"};
 };
 
 int main()
 {
-    MyClass::static_field += "!";
+    MyClass::static_mutable += "!!!";
 
-    std::cout << MyClass::static_field << std::endl;
+    std::cout << MyClass::static_mutable << std::endl;
     std::cout << MyClass::static_const_1 << std::endl;
     std::cout << MyClass::static_const_2 << std::endl;
 
     std::cout << std::endl;
 
-    MyClass inst{};
-    std::cout << inst.static_field << std::endl;
-    std::cout << inst.static_const_1 << std::endl;
-    std::cout << inst.static_const_2 << std::endl;
-    std::cout << inst.instance_const << std::endl;
+    std::cout << MyClass{}.static_mutable << std::endl;
+    std::cout << MyClass{}.static_const_1 << std::endl;
+    std::cout << MyClass{}.static_const_2 << std::endl;
+    std::cout << MyClass{}.instance_const << std::endl;
 }
 ```
 </details>
