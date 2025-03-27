@@ -221,10 +221,10 @@ for (T thing = foo(); auto& x : thing.items()) {...}  // OK
 
 ## Structured Bindings (C++17)
 
-[Structured bindings reference](https://en.cppreference.com/w/cpp/language/structured_binding)
-
 <details>
 <summary>Syntax</summary>
+
+[Structured bindings reference](https://en.cppreference.com/w/cpp/language/structured_binding)
 
 ```cpp
 auto [a, b, c] =
