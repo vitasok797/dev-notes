@@ -23,16 +23,6 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
 </details>
 
-<details>
-<summary>Namespace aliases</summary>
-
-[Namespace aliases reference](https://en.cppreference.com/w/cpp/language/namespace_alias)
-
-```cpp
-namespace fbz = foo::bar::baz;
-```
-</details>
-
 ## Apply
 
 <details>
