@@ -160,3 +160,17 @@ void func_with_concept(const ranges::range auto& r);
 void func_with_concept(ranges::range auto&& r);
 ```
 </details>
+
+<details>
+<summary>Projections</summary>
+
+```cpp
+#include <vector>
+#include <range/v3/all.hpp>
+
+std::vector<std::string> strings{"aaa", "bbbbb", "c"};
+
+// If the range is empty (as determined by ranges::distance(r)), the behavior is undefined
+auto max_len = ranges::max(strings, {}, &std::string::length).length();
+```
+</details>
