@@ -191,17 +191,6 @@ void func_with_concept(ranges::range auto&& r);
 <summary>Projections</summary>
 
 ```cpp
-#include <string>
-#include <vector>
-#include <range/v3/all.hpp>
-
-std::vector<std::string> strings{"aaa", "bbbbb", "c"};
-
-// If the range is empty, the behavior is undefined
-auto max_len = ranges::max(strings, {}, &std::string::length).length();
-```
-
-```cpp
 #include <iostream>
 #include <vector>
 #include <range/v3/all.hpp>
@@ -234,5 +223,16 @@ int main()
 
     ranges::for_each(v, [](const auto& s) { std::cout << s.name << std::endl; });
 }
+```
+
+```cpp
+#include <string>
+#include <vector>
+#include <range/v3/all.hpp>
+
+std::vector<std::string> strings{"aaa", "bbbbb", "c"};
+
+// If the range is empty, the behavior is undefined
+auto max_len = ranges::max(strings, {}, &std::string::length).length();
 ```
 </details>
