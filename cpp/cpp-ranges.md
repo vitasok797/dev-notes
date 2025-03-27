@@ -35,6 +35,21 @@
 * [Making Your Own Container Compatible With C++20 Ranges](https://www.reedbeta.com/blog/ranges-compatible-containers/)
 
 ## Snippets
+
+<details>
+<summary>Range argument</summary>
+
+```cpp
+#include <range/v3/all.hpp>
+
+void func(const auto& r);
+void func(auto&& r);
+
+void func_with_concept(const ranges::range auto& r);
+void func_with_concept(ranges::range auto&& r);
+```
+</details>
+
 <details>
 <summary>Range from iterators</summary>
 
@@ -170,20 +185,6 @@ ranges::copy(v, ranges::ostream_iterator<int>(std::cout, "\n"));
 // 3
 using T = ranges::range_value_t<decltype(v)>;
 ranges::copy(v, ranges::ostream_iterator<T>(std::cout, "\n"));
-```
-</details>
-
-<details>
-<summary>Range argument</summary>
-
-```cpp
-#include <range/v3/all.hpp>
-
-void func(const auto& r);
-void func(auto&& r);
-
-void func_with_concept(const ranges::range auto& r);
-void func_with_concept(ranges::range auto&& r);
 ```
 </details>
 
