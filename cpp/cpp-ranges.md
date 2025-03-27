@@ -131,7 +131,7 @@ std::cout << ranges::contains(v, 999) << std::endl;
 
 std::vector<std::string> v{"A", "B", "C"};
 
-for (const auto [index, value] : ranges::views::enumerate(v))
+for (const auto& [index, value] : ranges::views::enumerate(v))
     std::cout << index << ": " << value << std::endl;
 ```
 </details>
