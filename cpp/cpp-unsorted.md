@@ -6,8 +6,6 @@
 
 ## Ranges
 * https://habr.com/ru/companies/otus/articles/878580/
-* https://www.cppstories.com/2023/projections-examples-ranges/
-* https://www.cppstories.com/2022/ranges-alg-part-one/
 * https://www.walletfox.com/course/quickref_range_v3.php
 * https://hackingcpp.com/cpp/std/range_views_intro.html
 * https://hackingcpp.com/cpp/std/range_views.png
