@@ -147,7 +147,7 @@ std::vector<int> v1{1, 2, 3};
 std::vector<int> v2{4, -5, 6};
 
 v1 |= ranges::action::push_back(v2);
-v1 |= ranges::action::push_back(v2 | ranges::views::remove_if([](int i){ return i < 0; }));
+v1 |= ranges::action::push_back(v2 | ranges::views::remove_if([](int i) { return i < 0; }));
 ```
 </details>
 
