@@ -1,6 +1,7 @@
 # C++ / Snippets
 
 ## Aliases
+
 <details>
 <summary>Type aliases</summary>
 
