@@ -1,27 +1,5 @@
 # C++ / Snippets
 
-## Apply
-
-<details>
-<summary>Example</summary>
-
-```cpp
-#include <iostream>
-#include <tuple>
- 
-int sum(int a, int b, int c)
-{ 
-    return a + b + c; 
-}
-
-int main()
-{
-    std::tuple numbers{1, 2, 3};
-    std::cout << std::apply(sum, numbers) << std::endl;
-}
-```
-</details>
-
 ## Auto
 
 <details>
@@ -336,5 +314,27 @@ using func = void (*) (int, int);
 ```cpp
 template<typename T>
 using UserAccounts = std::map<UserId, std::vector<T>>;
+```
+</details>
+
+## Function
+
+<details>
+<summary>Apply</summary>
+
+```cpp
+#include <iostream>
+#include <tuple>
+ 
+int sum(int a, int b, int c)
+{ 
+    return a + b + c; 
+}
+
+int main()
+{
+    std::tuple numbers{1, 2, 3};
+    std::cout << std::apply(sum, numbers) << std::endl;
+}
 ```
 </details>
