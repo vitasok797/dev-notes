@@ -144,7 +144,7 @@ auto lam = [ptr = std::move(p_nums)]() { /* use ptr */ };
 ```
 
 ```cpp
-auto lam = [i = 0](const std::string &s) mutable
+auto lam = [i=0](const std::string &s) mutable
 {
     return std::to_string(i++) + ":" + s;
 };
