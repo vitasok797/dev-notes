@@ -206,11 +206,12 @@ struct S
 
 int main()
 {
-    std::vector<S> v{
+    std::vector<S> v
+    {
         {"bbb", 1.0, 2.0},
         {"aaa", 11.0, 220.0},
         {"ccc", 12.0, 22.0}
-        };
+    };
 
     // member
     ranges::sort(v, {}, &S::name);
