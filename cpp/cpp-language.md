@@ -30,6 +30,7 @@
 * [3 Simple C++17 Features That Will Make Your Code Simpler](https://www.fluentcpp.com/2018/06/19/3-simple-c17-features-that-will-make-your-code-simpler/)
 * [Spans, string_view, and Ranges - Four View types (C++17 to C++23) ](https://www.cppstories.com/2023/four-views-in-cpp23/)
 * [Enum Class Improvements for C++17, C++20 and C++23](https://www.cppstories.com/2024/enum-improvements/)
+* [Integer Conversions and Safe Comparisons in C++20 ](https://www.cppstories.com/2022/safe-int-cmp-cpp20/)
 
 ## Classes
 * The rule of three/five/zero:
