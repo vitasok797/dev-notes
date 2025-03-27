@@ -1,28 +1,5 @@
 # C++ / Snippets
 
-## Aliases
-
-<details>
-<summary>Type aliases</summary>
-
-[Type aliases reference](https://en.cppreference.com/w/cpp/language/type_alias)
-
-```cpp
-using UserId = int;
-using UserAccounts = std::map<UserId, std::vector<Account>>;
-```
-
-```cpp
-// identical to: typedef void (*func)(int, int);
-using func = void (*) (int, int);
-```
-
-```cpp
-template<typename T>
-using UserAccounts = std::map<UserId, std::vector<T>>;
-```
-</details>
-
 ## Apply
 
 <details>
@@ -336,5 +313,28 @@ auto [i, c, d] = f;
 for (const auto& [k, v] : mymap) {...}
 
 for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {...}
+```
+</details>
+
+## Types
+
+<details>
+<summary>Type aliases</summary>
+
+[Type aliases reference](https://en.cppreference.com/w/cpp/language/type_alias)
+
+```cpp
+using UserId = int;
+using UserAccounts = std::map<UserId, std::vector<Account>>;
+```
+
+```cpp
+// identical to: typedef void (*func)(int, int);
+using func = void (*) (int, int);
+```
+
+```cpp
+template<typename T>
+using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
 </details>
