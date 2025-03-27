@@ -200,4 +200,39 @@ std::vector<std::string> strings{"aaa", "bbbbb", "c"};
 // If the range is empty, the behavior is undefined
 auto max_len = ranges::max(strings, {}, &std::string::length).length();
 ```
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <range/v3/all.hpp>
+
+struct S
+{
+    std::string name;    
+    double a = 0.0;
+    double b = 0.0;
+
+    double area() const { return a * b; }
+};
+
+int main()
+{
+    std::vector<S> v{
+        {"bbb", 1.0, 2.0},
+        {"aaa", 11.0, 220.0},
+        {"ccc", 12.0, 22.0}
+        };
+
+    // member
+    ranges::sort(v, {}, &S::name);
+
+    // member function
+    ranges::sort(v, {}, &S::area);
+
+    // lambda
+    ranges::sort(v, {}, [](auto const& s) { return s.a; });
+
+    ranges::for_each(v, [](const auto& s) { std::cout << s.name << std::endl; });
+}
+```
 </details>
