@@ -117,11 +117,19 @@ struct B final : A
 [(StackOverflow) What is a generalized lambda capture and why was it created?](https://stackoverflow.com/questions/41519450/what-is-a-generalized-lambda-capture-and-why-was-it-created/41520537#41520537)
 
 ```cpp
-p_nums = make_unique<vector<int>>(nums);
+p_nums = std::make_unique<std::vector<int>>(nums);
 auto lam = [ptr = std::move(p_nums)]() { /* use ptr */ };
 ```
 
 ```cpp
+auto lam = [i = 0](const std::string &s) mutable
+{
+    return std::to_string(i++) + ":" + s;
+};
+
+std::cout << lam("aaa") << std::endl;
+std::cout << lam("bbb") << std::endl;
+std::cout << lam("ccc") << std::endl;
 ```
 
 </details>
