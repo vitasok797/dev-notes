@@ -167,9 +167,9 @@ std::cout << lam("ccc") << std::endl;
 
 int main()
 {
-    std::cout << std::clamp(0.5, 1.0, 2.0) << std::endl;
-    std::cout << std::clamp(1.5, 1.0, 2.0) << std::endl;
-    std::cout << std::clamp(2.5, 1.0, 2.0) << std::endl;
+    std::cout << std::clamp(0.5, 1.0, 2.0) << std::endl;  // 1
+    std::cout << std::clamp(1.5, 1.0, 2.0) << std::endl;  // 1.5
+    std::cout << std::clamp(2.5, 1.0, 2.0) << std::endl;  // 2
 }
 ```
 </details>
