@@ -153,6 +153,27 @@ if (auto [itelem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 ```
 </details>
 
+<details>
+<summary>Range-based for loop with Initializer (C++20)</summary>
+
+```cpp
+for (init; decl : expr)
+```
+
+```cpp
+for (std::size_t i = 0; const auto& x : container)
+{
+    std::cout << i << ": " << x << std::endl;
+    ++i;
+}
+```
+
+```cpp
+for (auto& x : foo().items()) {...}  // undefined behavior if foo() returns by value
+for (T thing = foo(); auto& x : thing.items()) {...}  // OK
+```
+</details>
+
 ## Structured Bindings (C++17)
 
 [Structured bindings reference](https://en.cppreference.com/w/cpp/language/structured_binding)
