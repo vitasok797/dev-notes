@@ -68,6 +68,7 @@ auto odd_numbers = v | ranges::views::remove_if(is_even);
 <summary>To string</summary>
 
 ```cpp
+#include <string>
 #include <vector>
 #include <range/v3/all.hpp>
 
@@ -165,12 +166,13 @@ void func_with_concept(ranges::range auto&& r);
 <summary>Projections</summary>
 
 ```cpp
+#include <string>
 #include <vector>
 #include <range/v3/all.hpp>
 
 std::vector<std::string> strings{"aaa", "bbbbb", "c"};
 
-// If the range is empty (as determined by ranges::distance(r)), the behavior is undefined
+// If the range is empty, the behavior is undefined
 auto max_len = ranges::max(strings, {}, &std::string::length).length();
 ```
 </details>
