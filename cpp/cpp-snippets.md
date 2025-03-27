@@ -32,6 +32,18 @@ namespace fbz = foo::bar::baz;
 ```
 </details>
 
+## Auto
+
+<details>
+<summary>Show "auto" type deduction</summary>
+
+[StackOverflow](https://stackoverflow.com/questions/38820579/using-auto-type-deduction-how-to-find-out-what-type-the-compiler-deduced)
+
+```cpp
+struct {} bad = 123;
+```
+</details>
+
 ## Classes
 
 [Language / Classes](cpp-language.md#classes)
