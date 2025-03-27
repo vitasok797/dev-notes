@@ -45,22 +45,22 @@ private:
 <summary>Virtual</summary>
 
 ```cpp
-struct Base
+struct A
 {
     virtual void foo() = 0;
-    virtual ~Base() = default;
+    virtual ~A() = default;
 };
 
-struct A : Base
+struct B : A
 {
     void foo() override;
-    ~A() override;
+    ~B() override;
 };
 
-struct B final : A
+struct C final : B
 {
     void foo() final;
-    ~B() final;
+    ~C() final;
 };
 ```
 </details>
