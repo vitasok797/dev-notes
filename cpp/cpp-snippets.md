@@ -2,8 +2,6 @@
 
 ## Class
 
-[Language / Classes](cpp-language.md#classes)
-
 <details>
 <summary>Class template</summary>
 
@@ -170,8 +168,6 @@ int main()
 
 <details>
 <summary>Namespace aliases</summary>
-
-[(Reference) Namespace aliases](https://en.cppreference.com/w/cpp/language/namespace_alias)
 
 ```cpp
 namespace fbz = foo::bar::baz;
@@ -340,7 +336,7 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 <details>
 <summary>Show "auto" type deduction</summary>
 
-[StackOverflow](https://stackoverflow.com/questions/38820579/using-auto-type-deduction-how-to-find-out-what-type-the-compiler-deduced)
+[(StackOverflow) Using 'auto' type deduction - how to find out what type the compiler deduced?](https://stackoverflow.com/questions/38820579/using-auto-type-deduction-how-to-find-out-what-type-the-compiler-deduced)
 
 ```cpp
 struct {} bad = 123;
