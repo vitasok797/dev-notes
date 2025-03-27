@@ -79,6 +79,32 @@ auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); })
 </details>
 
 <details>
+<summary>String trim and uppercase</summary>
+
+```cpp
+#include <iomanip>
+#include <iostream>
+#include <range/v3/all.hpp>
+
+int main()
+{
+    const std::string text{"    Hello World "};
+
+    auto res = text | ranges::views::reverse
+                    | ranges::views::drop_while(::isspace)
+                    | ranges::views::reverse
+                    | ranges::views::drop_while(::isspace)
+                    | ranges::views::transform(::toupper)
+                    | ranges::to<std::string>();
+
+    std::cout << std::quoted(text) << std::endl;
+    std::cout << std::quoted(res) << std::endl;
+}
+
+```
+</details>
+
+<details>
 <summary>Contains</summary>
 
 ```cpp
