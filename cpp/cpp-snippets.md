@@ -132,29 +132,36 @@ struct B final : A
 </details>
 
 <details>
-<summary>Static contants and fields</summary>
+<summary>Static/constants fields</summary>
 
 ```cpp
 #include <iostream>
 
 struct MyClass
 {
-    static inline std::string s1{"static field"};
+    static inline std::string static_field{"sf"};
 
-    static constexpr std::string s2{"static const 1"};
-    static inline constexpr std::string s3{"static const 2"};
+    static inline const std::string static_const_1{"sc1"};
+    static constexpr std::string static_const_2{"sc2"};
 
-    const std::string s4{"instance const"};
+    const std::string instance_const{"ic"};
 };
 
 int main()
 {
-    MyClass::s1 += "!";
+    MyClass::static_field += "!";
 
-    std::cout << MyClass::s1 << std::endl;
-    std::cout << MyClass::s2 << std::endl;
-    std::cout << MyClass::s3 << std::endl;
-    std::cout << MyClass{}.s4 << std::endl;
+    std::cout << MyClass::static_field << std::endl;
+    std::cout << MyClass::static_const_1 << std::endl;
+    std::cout << MyClass::static_const_2 << std::endl;
+
+    std::cout << std::endl;
+
+    MyClass inst{};
+    std::cout << inst.static_field << std::endl;
+    std::cout << inst.static_const_1 << std::endl;
+    std::cout << inst.static_const_2 << std::endl;
+    std::cout << inst.instance_const << std::endl;
 }
 ```
 </details>
