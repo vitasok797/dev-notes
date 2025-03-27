@@ -212,12 +212,12 @@ int main()
 ```
 </details>
 
-## Namespace using
-
-[Namespace using reference](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
+## Namespaces
 
 <details>
-<summary>Examples</summary>
+<summary>Using namespace</summary>
+
+[(Reference) Using namespace](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
 
 ```cpp
 namespace A {...}
@@ -226,6 +226,16 @@ namespace B
 {
     using namespace A;
 }
+```
+</details>
+
+<details>
+<summary>Namespace aliases</summary>
+
+[Namespace aliases reference](https://en.cppreference.com/w/cpp/language/namespace_alias)
+
+```cpp
+namespace fbz = foo::bar::baz;
 ```
 </details>
 
