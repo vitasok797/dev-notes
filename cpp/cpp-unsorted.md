@@ -42,7 +42,6 @@
 * https://www.cppstories.com/2018/05/errors-and-optional/
 
 ## Var
-* https://www.modernescpp.com/index.php/c-17-what-s-new-in-the-library/
 * https://habr.com/ru/companies/otus/articles/656363/
 * https://habr.com/ru/companies/otus/articles/546158/
 * https://hackingcpp.com/
