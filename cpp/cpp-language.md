@@ -73,6 +73,7 @@
 * [std::initializer_list in C++ 2/2](https://www.cppstories.com/2023/initializer_list_improvements/)
 * [GotW #1 Solution: Variable Initialization](https://herbsutter.com/2013/05/09/gotw-1-solution/)
 * [The Knightmare of Initialization in C++](https://quuxplusone.github.io/blog/2019/02/18/knightmare-of-initialization/)
+* [(Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
 
 ## Auto
 * [GotW #94 Solution: AAA Style (Almost Always Auto)](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/)
