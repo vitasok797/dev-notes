@@ -109,12 +109,29 @@ struct B final : A
 ```
 </details>
 
-## If statement with initializer (C++17)
+## Namespace using
 
-[(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
+[Namespace using reference](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
 
 <details>
 <summary>Examples</summary>
+
+```cpp
+namespace A {...}
+ 
+namespace B
+{
+    using namespace A;
+}
+```
+</details>
+
+## Statements with initializer
+
+<details>
+<summary>If statement with initializer (C++17)</summary>
+
+[(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
 
 ```cpp
 if (init; condition) {...}
@@ -133,23 +150,6 @@ switch (auto ch = getnext(); ch)
 
 ```cpp
 if (auto [itelem, success] = mymap.insert(std::pair('a', 100)); success) {...}
-```
-</details>
-
-## Namespace using
-
-[Namespace using reference](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
-
-<details>
-<summary>Examples</summary>
-
-```cpp
-namespace A {...}
- 
-namespace B
-{
-    using namespace A;
-}
 ```
 </details>
 
