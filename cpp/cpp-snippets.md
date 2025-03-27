@@ -149,13 +149,17 @@ namespace B
 <summary>Syntax</summary>
 
 ```cpp
-auto [a, b, c] = ...
-const auto [a, b, c] = ...
+auto [a, b, c] =
+const auto [a, b, c] =
 
-auto& [a, b, c] = ...
-const auto& [a, b, c] = ...
+auto& [a, b, c] =
+const auto& [a, b, c] =
 
-auto&& [a, b, c] = ...
+auto&& [a, b, c] =
+```
+
+```cpp
+auto [_, b, c] =
 ```
 </details>
 
