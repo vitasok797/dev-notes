@@ -31,7 +31,6 @@
 * [Spans, string_view, and Ranges - Four View types (C++17 to C++23) ](https://www.cppstories.com/2023/four-views-in-cpp23/)
 * [Enum Class Improvements for C++17, C++20 and C++23](https://www.cppstories.com/2024/enum-improvements/)
 * [Integer Conversions and Safe Comparisons in C++20 ](https://www.cppstories.com/2022/safe-int-cmp-cpp20/)
-* [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
 
 ## Classes
 * The rule of three/five/zero:
@@ -74,6 +73,9 @@
 * [GotW #1 Solution: Variable Initialization](https://herbsutter.com/2013/05/09/gotw-1-solution/)
 * [The Knightmare of Initialization in C++](https://quuxplusone.github.io/blog/2019/02/18/knightmare-of-initialization/)
 * [(Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
+
+## Constexpr
+* [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
 
 ## Auto
 * [GotW #94 Solution: AAA Style (Almost Always Auto)](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/)
