@@ -131,6 +131,34 @@ struct B final : A
 ```
 </details>
 
+<details>
+<summary>Static contants and fields</summary>
+
+```cpp
+#include <iostream>
+
+struct MyClass
+{
+    static inline std::string s1{"static field"};
+
+    static constexpr std::string s2{"static const 1"};
+    static inline constexpr std::string s3{"static const 2"};
+
+    const std::string s4{"instance const"};
+};
+
+int main()
+{
+    MyClass::s1 += "!";
+
+    std::cout << MyClass::s1 << std::endl;
+    std::cout << MyClass::s2 << std::endl;
+    std::cout << MyClass::s3 << std::endl;
+    std::cout << MyClass{}.s4 << std::endl;
+}
+```
+</details>
+
 ## Lambda
 
 <details>
