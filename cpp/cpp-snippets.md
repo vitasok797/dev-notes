@@ -156,6 +156,24 @@ std::cout << lam("ccc") << std::endl;
 
 </details>
 
+## Math
+
+<details>
+<summary>Clamp</summary>
+
+```cpp
+#include <algorithm>
+#include <iostream>
+
+int main()
+{
+    std::cout << std::clamp(0.5, 1.0, 2.0) << std::endl;
+    std::cout << std::clamp(1.5, 1.0, 2.0) << std::endl;
+    std::cout << std::clamp(2.5, 1.0, 2.0) << std::endl;
+}
+```
+</details>
+
 ## Namespace using
 
 [Namespace using reference](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
