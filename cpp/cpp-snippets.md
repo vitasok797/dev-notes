@@ -109,6 +109,23 @@ struct B final : A
 ```
 </details>
 
+## Lambda
+
+<details>
+<summary>Generalized capture</summary>
+
+[(StackOverflow) What is a generalized lambda capture and why was it created?](https://stackoverflow.com/questions/41519450/what-is-a-generalized-lambda-capture-and-why-was-it-created/41520537#41520537)
+
+```cpp
+p_nums = make_unique<vector<int>>(nums);
+auto lam = [ptr = std::move(p_nums)]() { /* use ptr */ };
+```
+
+```cpp
+```
+
+</details>
+
 ## Namespace using
 
 [Namespace using reference](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
