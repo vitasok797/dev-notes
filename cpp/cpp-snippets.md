@@ -179,6 +179,17 @@ namespace fbz = foo::bar::baz;
 </details>
 
 <details>
+<summary>Nested namespace</summary>
+
+```cpp
+namespace A::B::C
+{
+   // ...
+}
+```
+</details>
+
+<details>
 <summary>Using namespace</summary>
 
 [(Reference) Using namespace](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
