@@ -40,30 +40,6 @@ private:
 </details>
 
 <details>
-<summary>Virtual</summary>
-
-```cpp
-struct A
-{
-    virtual void foo() = 0;
-    virtual ~A() = default;
-};
-
-struct B : A
-{
-    void foo() override;
-    ~B() override;
-};
-
-struct C final : B
-{
-    void foo() final;
-    ~C() final;
-};
-```
-</details>
-
-<details>
 <summary>Static/const fields</summary>
 
 ```cpp
@@ -97,6 +73,30 @@ int main()
     std::cout << MyClass{}.static_const_2 << std::endl;
     std::cout << MyClass{}.instance_const << std::endl;
 }
+```
+</details>
+
+<details>
+<summary>Virtual</summary>
+
+```cpp
+struct A
+{
+    virtual void foo() = 0;
+    virtual ~A() = default;
+};
+
+struct B : A
+{
+    void foo() override;
+    ~B() override;
+};
+
+struct C final : B
+{
+    void foo() final;
+    ~C() final;
+};
 ```
 </details>
 
