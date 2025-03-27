@@ -100,7 +100,6 @@ int main()
     std::cout << std::quoted(text) << std::endl;
     std::cout << std::quoted(res) << std::endl;
 }
-
 ```
 </details>
 
