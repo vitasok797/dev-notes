@@ -1,7 +1,7 @@
 # C++ / Language
 
 ## Tutorials
-* [Microsoft C++ Language Reference](https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-160
+* [Microsoft C++ Language Reference](https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-160)
 * [Metanit: Введение в C++](https://metanit.com/cpp/tutorial/1.1.php)
 * [Metanit: Qt](https://metanit.com/cpp/qt/)
 * [LearnCpp](https://www.learncpp.com/)
