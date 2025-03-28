@@ -24,14 +24,14 @@
 ### Text / Encoding
 * :warning: `Boost Locale?`
 * :warning: `Найти примеры настроек сборки в одной из библиотек`
-* :warning: `Изучить` [ICU](https://icu.unicode.org/)
-* :warning: `Изучить` [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
-* :warning: `Изучить` [utfcpp](https://github.com/nemtrif/utfcpp)
-* :warning: `Изучить` [Boost.Nowide](https://www.boost.org/doc/libs/release/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
-* :warning: `Изучить` [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
-* :warning: `Изучить` [simdutf](https://github.com/simdutf/simdutf)
-* :warning: `Изучить` [uni-algo](https://github.com/uni-algo/uni-algo)
-* :warning: `Изучить` [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
+* :warning: [ICU](https://icu.unicode.org/)
+* :warning: [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
+* :warning: [utfcpp](https://github.com/nemtrif/utfcpp)
+* :warning: [Boost.Nowide](https://www.boost.org/doc/libs/release/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
+* :warning: [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
+* :warning: [simdutf](https://github.com/simdutf/simdutf)
+* :warning: [uni-algo](https://github.com/uni-algo/uni-algo)
+* :warning: [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
 
 ### Text / Formating
 * <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/))
