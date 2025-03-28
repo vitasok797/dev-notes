@@ -59,6 +59,7 @@
 * [(StackOverflow) String to int/float](https://stackoverflow.com/questions/7663709/how-can-i-convert-a-stdstring-to-int/77079910#77079910)
 * [char8\_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
 * [Parse CSV file with Boost Tokenizer](http://mybyteofcode.blogspot.com/2010/02/parse-csv-file-with-boost-tokenizer-in.html)
+* [(Habr) Три причины передавать std::string_view по значению](https://habr.com/ru/companies/otus/articles/726620/)
 
 ## Encoding
 * :warning: `Изучить` [UTF-8 Everywhere](https://utf8everywhere.org/)
@@ -144,7 +145,6 @@
 * [(Habr) Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
 * [(Habr) Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
 * [(Habr) Inline variables](https://habr.com/ru/companies/otus/articles/561772/)
-* [(Habr) Три причины передавать std::string_view по значению](https://habr.com/ru/companies/otus/articles/726620/)
 * [Calling C Code from C++ with ‘extern “C”‘](https://arne-mertz.de/2018/10/calling-cpp-code-from-c-with-extern-c/)
 * [std::string is not a Container for Raw Data](https://arne-mertz.de/2018/11/string-not-for-raw-data/)
 * [Attributes](https://en.cppreference.com/w/cpp/language/attributes)
