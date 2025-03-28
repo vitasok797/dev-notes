@@ -54,9 +54,14 @@ struct Static
     static inline const int const_int = 11;
     static constexpr    int constexpr_int = 11 * 2;
 
-    // static const (class)
+    // static const (heap allocated)
     static inline const std::string const_str{"static const str"};
-    // static constexpr std::string constexpr_str{"static constexpr str"};  // DON'T
+    /* DON'T
+    static constexpr    std::string constexpr_str{"static constexpr str"}; */
+
+    // static const (cstr for string constants)
+    static inline const auto const_cstr = "static const cstr";
+    static constexpr    auto constexpr_cstr = "static constexpr cstr";
 };
 
 struct NonStatic
@@ -84,6 +89,8 @@ int main()
     print(Static::const_int);
     print(Static::constexpr_int);
     print(Static::const_str);
+    print(Static::const_cstr);
+    print(Static::constexpr_cstr);
 
     std::cout << std::endl;
 
@@ -92,6 +99,8 @@ int main()
     print(static_inst.const_int);
     print(static_inst.constexpr_int);
     print(static_inst.const_str);
+    print(static_inst.const_cstr);
+    print(static_inst.constexpr_cstr);
 
     std::cout << std::endl;
 
