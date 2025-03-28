@@ -9,6 +9,7 @@
 * [Python](python/python.md)
 
 ## Var
+* [Algorithms](var/algorithms.md)
 * [Architecture](var/architecture.md)
 * [Calc](var/calc.md)
 * [Communication](communication/communication.md)
