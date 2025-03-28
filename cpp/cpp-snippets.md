@@ -43,6 +43,20 @@ private:
 <summary>Static/const fields</summary>
 
 ```cpp
+struct BriefExample
+{
+    // static mutable
+    static inline ...
+
+    // static const
+    static inline const ...
+
+    // non-static const
+    const ...
+};
+```
+
+```cpp
 #include <iostream>
 
 struct Static
