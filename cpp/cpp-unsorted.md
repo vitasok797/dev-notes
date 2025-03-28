@@ -28,8 +28,6 @@
 * https://stackoverflow.com/questions/10176471/is-it-possible-to-convert-a-boostsystemerror-code-to-a-stderror-code
 * https://gist.github.com/Vaiz/057cface48d5bb9f399c23d4235d23aa
 * https://github.com/ned14/Boost.Expected
-
-## Error Handling 2
 * https://blog.tartanllama.xyz/optional-expected/
 * http://blog.think-async.com/2010/04/system-error-support-in-c0x-part-1.html ([google translate](https://blog-think--async-com.translate.goog/2010/04/system-error-support-in-c0x-part-1.html?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=ru))
 * http://blog.think-async.com/2010/04/system-error-support-in-c0x-part-2.html ([google translate](https://blog-think--async-com.translate.goog/2010/04/system-error-support-in-c0x-part-2.html?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=ru))
