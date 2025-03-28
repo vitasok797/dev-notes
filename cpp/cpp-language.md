@@ -64,9 +64,9 @@
 * [(Habr) Три причины передавать std::string_view по значению](https://habr.com/ru/companies/otus/articles/726620/)
 
 ## Encoding
-* :warning: `Изучить` [UTF-8 Everywhere](https://utf8everywhere.org/)
-* :warning: `Изучить` [The Wonderfully Terrible World of C and C++ Encoding APIs](https://thephd.dev/the-c-c++-rust-string-text-encoding-api-landscape)
-* :warning: `Изучить` [Doing UTF-8 in Windows](https://www.codeproject.com/Articles/5252037/Doing-UTF-8-in-Windows) ([github](https://github.com/neacsum/utf8))
+* :warning: [UTF-8 Everywhere](https://utf8everywhere.org/)
+* :warning: [The Wonderfully Terrible World of C and C++ Encoding APIs](https://thephd.dev/the-c-c++-rust-string-text-encoding-api-landscape)
+* :warning: [Doing UTF-8 in Windows](https://www.codeproject.com/Articles/5252037/Doing-UTF-8-in-Windows) ([github](https://github.com/neacsum/utf8))
 
 ## Initialization
 * [(cppreference) Initialization](https://en.cppreference.com/w/cpp/language/initialization)
@@ -144,7 +144,7 @@
 * [(Habr) Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
 * [(Habr) Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
 * [(Habr) Inline variables](https://habr.com/ru/companies/otus/articles/561772/)
-* :warning: `Изучить` [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
+* :warning: [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
 * [Calling C Code from C++ with ‘extern “C”‘](https://arne-mertz.de/2018/10/calling-cpp-code-from-c-with-extern-c/)
 * [std::string is not a Container for Raw Data](https://arne-mertz.de/2018/11/string-not-for-raw-data/)
 * [Attributes](https://en.cppreference.com/w/cpp/language/attributes)
