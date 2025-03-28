@@ -221,7 +221,7 @@ int main()
     ranges::sort(v, {}, &S::area);
 
     // lambda
-    ranges::sort(v, {}, [](auto const& s) { return s.a; });
+    ranges::sort(v, {}, [](const auto& s) { return s.a; });
 
     ranges::for_each(v, [](const auto& s) { std::cout << s.name << std::endl; });
 }
