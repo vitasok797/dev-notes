@@ -44,6 +44,7 @@
 * [(StackOverflow) How is std::swap implemented?](https://stackoverflow.com/questions/25286544/how-does-the-standard-library-implement-stdswap/25286610#25286610)
 * [(StackOverflow) Questions about the move assignment operator](https://stackoverflow.com/questions/9847860/questions-about-the-move-assignment-operator)
 * [(StackOverflow) What's the scope of inline friend functions?](https://stackoverflow.com/questions/8207633/whats-the-scope-of-inline-friend-functions)
+* [(Habr) explicit в деталях](https://habr.com/ru/articles/436296/)
 
 ## Containers
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
