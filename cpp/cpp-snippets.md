@@ -45,33 +45,67 @@ private:
 ```cpp
 #include <iostream>
 
-struct MyClass
+struct Static
 {
     // static mutable
-    static inline std::string static_mutable{"sm"};
+    static inline std::string mutable_str{"static mutable str"};
 
     // static const
-    static inline const std::string static_const_1{"sc1"};
-    static constexpr std::string static_const_2{"sc2"};  // better
+    static inline const int const_int = 11;
+    static constexpr    int constexpr_int = 11 * 2;
 
-    // instance const
-    const std::string instance_const{"ic"};
+    // static const (class)
+    static inline const std::string const_str{"static const str"};
+    // static constexpr std::string constexpr_str{"static constexpr str"};  // DON'T
+};
+
+struct NonStatic
+{
+    // non-static mutable
+    std::string mutable_str{"non-static mutable str"};
+
+    // non-static const
+    const std::string const_str{"non-static const str"};
+
+    NonStatic() = default;
+    NonStatic(std::string addition):
+        mutable_str(std::string("non-static mutable str (") + addition + ")"),
+        const_str(std::string("non-static const str (") + addition + ")")
+        {};
 };
 
 int main()
 {
-    MyClass::static_mutable += "!!!";
+    auto print = [](const auto& val) { std::cout << "[" << val << "]" << std::endl; };
 
-    std::cout << MyClass::static_mutable << std::endl;
-    std::cout << MyClass::static_const_1 << std::endl;
-    std::cout << MyClass::static_const_2 << std::endl;
+    Static::mutable_str += " + mod";
+
+    print(Static::mutable_str);
+    print(Static::const_int);
+    print(Static::constexpr_int);
+    print(Static::const_str);
 
     std::cout << std::endl;
 
-    std::cout << MyClass{}.static_mutable << std::endl;
-    std::cout << MyClass{}.static_const_1 << std::endl;
-    std::cout << MyClass{}.static_const_2 << std::endl;
-    std::cout << MyClass{}.instance_const << std::endl;
+    Static static_inst{};
+    print(static_inst.mutable_str);
+    print(static_inst.const_int);
+    print(static_inst.constexpr_int);
+    print(static_inst.const_str);
+
+    std::cout << std::endl;
+
+    NonStatic non_static{};
+    non_static.mutable_str += " + mod";
+    print(non_static.mutable_str);
+    print(non_static.const_str);
+
+    std::cout << std::endl;
+
+    NonStatic non_static_custom{"custom"};
+    non_static_custom.mutable_str += " + mod";
+    print(non_static_custom.mutable_str);
+    print(non_static_custom.const_str);
 }
 ```
 </details>
