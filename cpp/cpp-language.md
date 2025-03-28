@@ -95,9 +95,6 @@
 * <https://stackoverflow.com/questions/38197528/const-auto-really-not-useful>
 * <https://stackoverflow.com/questions/29859796/c-auto-vs-auto>
 
-## Resource safety
-* [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
-
 ## Pointers
 * [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
 * [(Habr) Долой указатели](https://habr.com/ru/companies/otus/articles/669532/)
@@ -147,6 +144,7 @@
 * [(Habr) Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
 * [(Habr) Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
 * [(Habr) Inline variables](https://habr.com/ru/companies/otus/articles/561772/)
+* :warning: `Изучить` [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
 * [Calling C Code from C++ with ‘extern “C”‘](https://arne-mertz.de/2018/10/calling-cpp-code-from-c-with-extern-c/)
 * [std::string is not a Container for Raw Data](https://arne-mertz.de/2018/11/string-not-for-raw-data/)
 * [Attributes](https://en.cppreference.com/w/cpp/language/attributes)
