@@ -169,6 +169,8 @@ struct C final : B
 class ObjWatcher
 {
 public:
+    size_t index_;
+
     ObjWatcher() : index_(++counter_)
     {       
         std::cout << "ObjWatcher: created (" << index_ << ")" << std::endl;
@@ -187,12 +189,14 @@ public:
 
     ObjWatcher& operator=(const ObjWatcher& other)
     {
+        moved_ = false;
         std::cout << "ObjWatcher: (" << index_ << ") copy assigned from (" << other.index_ << ")" << std::endl;
         return *this;
     };
 
     ObjWatcher& operator=(ObjWatcher&& other)
     {
+        moved_ = false;
         other.moved_ = true;
         std::cout << "ObjWatcher: (" << index_ << ") move assigned from (" << other.index_ << ")" << std::endl;
         return *this;
@@ -207,7 +211,6 @@ public:
 
 private:
     static inline std::atomic<size_t> counter_ = 0;
-    size_t index_;
     bool moved_ = false;
 };
 ```
