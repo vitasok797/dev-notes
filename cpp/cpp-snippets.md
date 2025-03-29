@@ -262,6 +262,7 @@ namespace B
 <details>
 <summary>Object Watcher</summary>
 
+\
 Code:
 ```cpp
 #include <atomic>
@@ -313,6 +314,7 @@ private:
 };
 ```
 
+\
 Test:
 ```cpp
 #include <iostream>
