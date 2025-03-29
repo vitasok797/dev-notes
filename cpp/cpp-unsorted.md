@@ -5,7 +5,6 @@
 * https://www.boost.org/doc/libs/release/libs/convert/doc/html/index.html
 
 ## Ranges
-* https://habr.com/ru/companies/otus/articles/878580/
 * https://www.walletfox.com/course/quickref_range_v3.php
 * https://hackingcpp.com/cpp/std/range_views_intro.html
 * https://hackingcpp.com/cpp/std/range_views.png
