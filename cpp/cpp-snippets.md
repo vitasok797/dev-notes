@@ -169,8 +169,6 @@ struct C final : B
 class ObjWatcher
 {
 public:
-    size_t index_;
-
     ObjWatcher() : index_(++counter_)
     {       
         std::cout << "ObjWatcher: created (" << index_ << ")" << std::endl;
@@ -211,6 +209,7 @@ public:
 
 private:
     static inline std::atomic<size_t> counter_ = 0;
+    size_t index_;
     bool moved_ = false;
 };
 ```
