@@ -157,6 +157,89 @@ struct C final : B
 ```
 </details>
 
+## Debug
+
+<details>
+<summary>Object Watcher</summary>
+
+```cpp
+#include <atomic>
+#include <iostream>
+
+class ObjWatcher
+{
+public:
+    ObjWatcher() : index_(++counter_)
+    {       
+        std::cout << "ObjWatcher: created (" << index_ << ")" << std::endl;
+    };
+
+    ObjWatcher(const ObjWatcher& other) : index_(++counter_)
+    {
+        std::cout << "ObjWatcher: created (" << index_ << ") copy from (" << other.index_ << ")" << std::endl;
+    };
+
+    ObjWatcher(ObjWatcher&& other) : index_(++counter_)
+    {
+        other.moved_ = true;
+        std::cout << "ObjWatcher: created (" << index_ << ") move from (" << other.index_ << ")" << std::endl;
+    };
+
+    ObjWatcher& operator=(const ObjWatcher& other)
+    {
+        std::cout << "ObjWatcher: (" << index_ << ") copy assigned from (" << other.index_ << ")" << std::endl;
+        return *this;
+    };
+
+    ObjWatcher& operator=(ObjWatcher&& other)
+    {
+        other.moved_ = true;
+        std::cout << "ObjWatcher: (" << index_ << ") move assigned from (" << other.index_ << ")" << std::endl;
+        return *this;
+    };
+
+    virtual ~ObjWatcher()
+    {
+        std::cout << "ObjWatcher: destroyed (" << index_ << ")";
+        if (moved_) std::cout << " [moved]";
+        std::cout << std::endl;
+    };
+
+private:
+    static inline std::atomic<size_t> counter_ = 0;
+    size_t index_;
+    bool moved_ = false;
+};
+```
+
+Test:
+```cpp
+#include <iostream>
+
+int main()
+{
+    std::cout << "--- ctor ---" << std::endl;
+    ObjWatcher A;
+
+    std::cout << "--- copy ctor ---" << std::endl;
+    ObjWatcher B = A;
+
+    std::cout << "--- copy assignement ---" << std::endl;
+    ObjWatcher C;
+    C = A;
+
+    std::cout << "--- move ctor ---" << std::endl;
+    ObjWatcher D = std::move(A);
+
+    std::cout << "--- move assignement ---" << std::endl;
+    ObjWatcher E;
+    E = std::move(B);
+
+    std::cout << "--- end ---" << std::endl;
+}
+```
+</details>
+
 ## Function
 
 <details>
@@ -253,89 +336,6 @@ namespace A {...}
 namespace B
 {
     using namespace A;
-}
-```
-</details>
-
-## Object Watcher
-
-<details>
-<summary>Object Watcher</summary>
-
-```cpp
-#include <atomic>
-#include <iostream>
-
-class ObjWatcher
-{
-public:
-    ObjWatcher() : index_(++counter_)
-    {       
-        std::cout << "ObjWatcher: created (" << index_ << ")" << std::endl;
-    };
-
-    ObjWatcher(const ObjWatcher& other) : index_(++counter_)
-    {
-        std::cout << "ObjWatcher: created (" << index_ << ") copy from (" << other.index_ << ")" << std::endl;
-    };
-
-    ObjWatcher(ObjWatcher&& other) : index_(++counter_)
-    {
-        other.moved_ = true;
-        std::cout << "ObjWatcher: created (" << index_ << ") move from (" << other.index_ << ")" << std::endl;
-    };
-
-    ObjWatcher& operator=(const ObjWatcher& other)
-    {
-        std::cout << "ObjWatcher: (" << index_ << ") copy assigned from (" << other.index_ << ")" << std::endl;
-        return *this;
-    };
-
-    ObjWatcher& operator=(ObjWatcher&& other)
-    {
-        other.moved_ = true;
-        std::cout << "ObjWatcher: (" << index_ << ") move assigned from (" << other.index_ << ")" << std::endl;
-        return *this;
-    };
-
-    virtual ~ObjWatcher()
-    {
-        std::cout << "ObjWatcher: destroyed (" << index_ << ")";
-        if (moved_) std::cout << " [moved]";
-        std::cout << std::endl;
-    };
-
-private:
-    static inline std::atomic<size_t> counter_ = 0;
-    size_t index_;
-    bool moved_ = false;
-};
-```
-
-Test:
-```cpp
-#include <iostream>
-
-int main()
-{
-    std::cout << "--- ctor ---" << std::endl;
-    ObjWatcher A;
-
-    std::cout << "--- copy ctor ---" << std::endl;
-    ObjWatcher B = A;
-
-    std::cout << "--- copy assignement ---" << std::endl;
-    ObjWatcher C;
-    C = A;
-
-    std::cout << "--- move ctor ---" << std::endl;
-    ObjWatcher D = std::move(A);
-
-    std::cout << "--- move assignement ---" << std::endl;
-    ObjWatcher E;
-    E = std::move(B);
-
-    std::cout << "--- end ---" << std::endl;
 }
 ```
 </details>
