@@ -47,6 +47,7 @@
 * [(Habr) explicit в деталях](https://habr.com/ru/articles/436296/)
 
 ## Containers
+* [(cppreference) Containers library (containers, iterator invalidation)](https://en.cppreference.com/w/cpp/container)
 * [C++ Data Structures and Algorithms Cheat Sheet](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md)
   ([complexity](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md#11-overview))
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
