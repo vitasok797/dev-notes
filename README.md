@@ -12,7 +12,7 @@
 * [Algorithms](var/algorithms.md)
 * [Architecture](var/architecture.md)
 * [Calc](var/calc.md)
-* [Communication](communication/communication.md)
+* [Communication](comm/comm.md)
 * [Develop](var/develop.md)
 * [Git](var/git.md)
 * [GUI](var/gui.md)
