@@ -81,13 +81,15 @@
 * [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
 * [Just how constexpr is C++20’s std::string?](https://quuxplusone.github.io/blog/2023/09/08/constexpr-string-firewall/)
 
-## Auto
+## Types
+
+### Types / Auto
 * [GotW #94 Solution: AAA Style (Almost Always Auto)](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/)
 * [The case against Almost Always auto (AAA)](https://gist.github.com/Eisenwave/5cca27867828743bf50ad95d526f5a6e)
 * [Almost Always const auto&](https://huixie90.github.io/Almost-always-const-auto-ref/)
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
 
-## Universal references
+### Types / Universal references
 * [Universal References in C++11](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
 * [(Wiki) Прямая передача](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8F%D0%BC%D0%B0%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B0_(C%2B%2B))
 * <https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/>
