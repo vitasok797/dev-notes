@@ -342,6 +342,16 @@ namespace B
 ```
 </details>
 
+## Operators
+
+<details>
+<summary>Ternary conditional operator</summary>
+
+```cpp
+condition ? true_expression : false_expression
+```
+</details>
+
 ## Statement with initializer
 
 <details>
