@@ -1,6 +1,6 @@
 # Communication
 
-* [DDS](communication-dds.md)
-* [gRPC](communication-grpc.md)
-* [ZeroMQ](communication-zeromq.md)
-* [Var](communication-var.md)
+* [DDS](comm-dds.md)
+* [gRPC](comm-grpc.md)
+* [ZeroMQ](comm-zeromq.md)
+* [Var](comm-var.md)
