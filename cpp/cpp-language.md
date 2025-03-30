@@ -4,7 +4,7 @@
 * [Microsoft C++ Language Reference](https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-160)
 * [Metanit: Введение в C++](https://metanit.com/cpp/tutorial/1.1.php)
 * [Metanit: Qt](https://metanit.com/cpp/qt/)
-* [LearnCpp](https://www.learncpp.com/)
+* :warning: [LearnCpp](https://www.learncpp.com/)
 * [Essential C++](https://www.programming-books.io/essential/cpp/index.html)
 * [StudyPlan.dev: Professional C++](https://www.studyplan.dev/pro-cpp)
 
