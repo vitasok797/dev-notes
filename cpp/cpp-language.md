@@ -82,6 +82,7 @@
 * [Just how constexpr is C++20’s std::string?](https://quuxplusone.github.io/blog/2023/09/08/constexpr-string-firewall/)
 
 ## Types
+* [How to Find the Type of an Object in C++](https://www.delftstack.com/howto/cpp/cpp-find-object-type/)
 
 ### Types / Auto
 * [GotW #94 Solution: AAA Style (Almost Always Auto)](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/)
