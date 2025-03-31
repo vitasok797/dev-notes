@@ -125,7 +125,7 @@ int main()
 </details>
 
 <details>
-<summary>To string</summary>
+<summary>String: to_string</summary>
 
 ```cpp
 #include <string>
@@ -139,7 +139,7 @@ auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); })
 </details>
 
 <details>
-<summary>String trim and uppercase</summary>
+<summary>String: trim and uppercase</summary>
 
 ```cpp
 #include <iomanip>
