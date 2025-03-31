@@ -110,10 +110,10 @@
 * <https://stackoverflow.com/questions/29859796/c-auto-vs-auto>
 
 ### Types / Functional
-* [std::function](https://en.cppreference.com/w/cpp/utility/functional/function)
-* [std::invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke)
-* [std::apply](https://en.cppreference.com/w/cpp/utility/apply)
-* [Function object](https://en.wikipedia.org/wiki/Function_object#In_C_and_C++)
+* [(cppreference) std::function](https://en.cppreference.com/w/cpp/utility/functional/function)
+* [(cppreference) std::invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke)
+* [(cppreference) std::apply](https://en.cppreference.com/w/cpp/utility/apply)
+* [(Wiki) Function object](https://en.wikipedia.org/wiki/Function_object#In_C_and_C++)
 
 ## Pointers
 * [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
