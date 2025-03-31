@@ -234,38 +234,6 @@ ranges::copy(v, ranges::ostream_iterator<int>(std::cout, "\n"));
 using T = ranges::range_value_t<decltype(v)>;
 ranges::copy(v, ranges::ostream_iterator<T>(std::cout, "\n"));
 ```
-
-```cpp
-#include <iostream>
-#include <vector>
-#include <range/v3/all.hpp>
-
-struct Person
-{
-    std::string firstname;
-    std::string surname;
-    int year;
-};
-
-std::ostream& operator<<(std::ostream& os, const Person& person)
-{
-    os << person.surname << ", " << person.firstname << " was born in " << person.year;
-    return os;
-}
-
-int main()
-{
-    std::vector<Person> people
-    {
-        {"Jared", "Kushner", 1981},
-        {"Melania", "Trump", 1970},
-        {"Donald", "Trump", 1946},
-        {"Ivana", "Trump", 1949},
-    };
-
-    ranges::copy(people, ranges::ostream_iterator<Person>(std::cout, "\n"));
-}
-```
 </details>
 
 <details>
