@@ -112,6 +112,7 @@
 ### Types / Functional
 * [std::function](https://en.cppreference.com/w/cpp/utility/functional/function)
 * [std::invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke)
+* [std::apply](https://en.cppreference.com/w/cpp/utility/apply)
 
 ## Pointers
 * [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
