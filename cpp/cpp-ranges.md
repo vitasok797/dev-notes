@@ -291,29 +291,62 @@ auto max_len = ranges::max(strings, {}, &std::string::length).length();
 <summary>Custom views</summary>
 
 ```cpp
+#include <format>
 #include <iostream>
 #include <vector>
 #include <range/v3/all.hpp>
 
-auto to_str_view_2()
+struct Person
 {
-    auto to_str = [](int i) { return std::to_string(i); };
-    auto in_quotes = [](const std::string& s) { return "\"" + s + "\""; };
-    return ranges::views::transform(to_str)
-           | ranges::views::transform(in_quotes);
+    std::string firstname;
+    std::string surname;
+    int year;
+
+    std::string to_str() const
+    {
+        return std::format("{} {} was born in {}", surname, firstname, year);
+    };
+};
+
+auto people_to_str_view()
+{
+    auto in_quotes = [](const std::string& s) { return std::format("\"{}\"", s); };
+    return ranges::views::transform(&Person::to_str) | ranges::views::transform(in_quotes);
+}
+
+template <typename Proj>
+auto people_to_str_with_tag_view(Proj&& proj)
+{
+    auto to_str_with_tag = [&proj](const Person& person)
+    {
+        auto tag = std::invoke(proj, person);
+        return std::format("[{}] {}", tag, person.to_str());
+    };
+    return ranges::views::transform(to_str_with_tag);
 }
 
 int main()
 {
-    std::vector<int> v = {1, 2, 3};
+    std::vector<Person> people
+    {
+        {"Jared", "Kushner", 1981},
+        {"Donald", "Trump", 1946},
+        {"Melania", "Trump", 1970},
+        {"Ivana", "Trump", 1949},
+    };
 
-    auto to_str = [](int i) { return std::to_string(i); };
-    auto in_quotes = [](const std::string& s) { return "\"" + s + "\""; };
-    auto to_str_view_1 = ranges::views::transform(to_str)
-                         | ranges::views::transform(in_quotes);
+    for (auto&& x : people | people_to_str_view())
+        std::cout << x << std::endl;
 
-    std::cout << (v | to_str_view_1  ) << std::endl;  // ["1","2","3"]
-    std::cout << (v | to_str_view_2()) << std::endl;  // ["1","2","3"]
+    std::cout << std::endl;
+
+    for (auto&& x : people | people_to_str_with_tag_view(&Person::surname))
+        std::cout << x << std::endl;
+
+    std::cout << std::endl;
+
+    for (auto&& x : people | people_to_str_with_tag_view(&Person::year))
+        std::cout << x << std::endl;
 }
 ```
 </details>
