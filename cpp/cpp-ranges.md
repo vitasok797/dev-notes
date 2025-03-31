@@ -283,3 +283,37 @@ std::vector<std::string> strings{"aaa", "bbbbb", "c"};
 auto max_len = ranges::max(strings, {}, &std::string::length).length();
 ```
 </details>
+
+
+
+
+<details>
+<summary>Custom views</summary>
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <range/v3/all.hpp>
+
+auto to_str_view_2()
+{
+    auto to_str = [](int i) { return std::to_string(i); };
+    auto in_quotes = [](const std::string& s) { return "\"" + s + "\""; };
+    return ranges::views::transform(to_str)
+           | ranges::views::transform(in_quotes);
+}
+
+int main()
+{
+    std::vector<int> v = {1, 2, 3};
+
+    auto to_str = [](int i) { return std::to_string(i); };
+    auto in_quotes = [](const std::string& s) { return "\"" + s + "\""; };
+    auto to_str_view_1 = ranges::views::transform(to_str)
+                         | ranges::views::transform(in_quotes);
+
+    std::cout << (v | to_str_view_1  ) << std::endl;  // ["1","2","3"]
+    std::cout << (v | to_str_view_2()) << std::endl;  // ["1","2","3"]
+}
+```
+</details>
