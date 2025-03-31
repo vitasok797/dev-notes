@@ -83,6 +83,44 @@ auto odd_numbers = v | ranges::views::remove_if(is_even);
 <summary>Group by</summary>
 
 ```cpp
+#include <iostream>
+#include <vector>
+#include <range/v3/all.hpp>
+
+struct Person
+{
+    std::string firstname;
+    std::string surname;
+    int year;
+};
+
+std::ostream& operator<<(std::ostream& os, const Person& person)
+{
+    os << person.surname << ", " << person.firstname << " was born in " << person.year;
+    return os;
+}
+
+int main()
+{
+    std::vector<Person> people
+    {
+        {"Melania", "Trump", 1970},
+        {"Jared", "Kushner", 1981},
+        {"Donald", "Trump", 1946},
+        {"Ivana", "Trump", 1949},
+    };
+
+    ranges::sort(people, {}, &Person::surname);
+
+    auto surname_is_equal = [](const auto& p1, const auto& p2) { return p1.surname == p2.surname; };
+    auto groups = people | ranges::view::chunk_by(surname_is_equal);
+
+    for (const auto& group : groups)
+    {
+        std::cout << "-------" << std::endl;
+        ranges::copy(group, ranges::ostream_iterator<Person>(std::cout, "\n"));
+    }
+}
 ```
 
 ```cpp
