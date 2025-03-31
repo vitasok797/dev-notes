@@ -267,6 +267,7 @@
 ## Var
 * <https://github.com/ericniebler/range-v3>
 * <https://github.com/Dobiasd/FunctionalPlus>
+* <https://github.com/ryanhaining/cppitertools>
 * <https://github.com/CoolProp/CoolProp>
 * [cpp-validator](https://github.com/evgeniums/cpp-validator) (no vcpkg, header-only, [article](https://habr.com/ru/articles/525204/))
 * [match(it): Pattern-matching library](https://github.com/BowenFu/matchit.cpp) ([vcpkg](https://vcpkg.io/en/package/matchit))
