@@ -242,7 +242,7 @@ int main()
 ```
 </details>
 
-## Function
+## Functional
 
 <details>
 <summary>Apply</summary>
