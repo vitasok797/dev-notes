@@ -345,6 +345,27 @@ namespace B
 ## Operators
 
 <details>
+<summary>ostream << struct</summary>
+
+```cpp
+#include <iostream>
+
+struct Person
+{
+    std::string firstname;
+    std::string surname;
+    int year;
+};
+
+std::ostream& operator<<(std::ostream& os, const Person& person)
+{
+    os << person.surname << ", " << person.firstname << " was born in " << person.year;
+    return os;
+}
+```
+</details>
+
+<details>
 <summary>Ternary conditional operator</summary>
 
 ```cpp
