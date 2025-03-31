@@ -180,7 +180,6 @@ std::cout << ranges::contains(v, 999) << std::endl;
 ```
 </details>
 
-
 <details>
 <summary>Enumerate</summary>
 
@@ -283,9 +282,6 @@ std::vector<std::string> strings{"aaa", "bbbbb", "c"};
 auto max_len = ranges::max(strings, {}, &std::string::length).length();
 ```
 </details>
-
-
-
 
 <details>
 <summary>Custom views</summary>
