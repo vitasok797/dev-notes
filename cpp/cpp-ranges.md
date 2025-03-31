@@ -311,7 +311,7 @@ auto people_to_str_view()
 }
 
 template <typename Proj>
-auto people_to_str_with_tag_view(Proj&& proj)
+auto people_to_str_with_tag_view(const Proj& proj)
 {
     auto to_str_with_tag = [&proj](const Person& person)
     {
