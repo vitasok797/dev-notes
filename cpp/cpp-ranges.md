@@ -80,6 +80,16 @@ auto odd_numbers = v | ranges::views::remove_if(is_even);
 </details>
 
 <details>
+<summary>Group by</summary>
+
+```cpp
+```
+
+```cpp
+```
+</details>
+
+<details>
 <summary>To string</summary>
 
 ```cpp
