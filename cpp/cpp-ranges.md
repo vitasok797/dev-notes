@@ -122,9 +122,6 @@ int main()
     }
 }
 ```
-
-```cpp
-```
 </details>
 
 <details>
