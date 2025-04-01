@@ -516,7 +516,7 @@ private:
 };
 
 template <class F>
-[[nodiscard]] auto make_scope_guard(F&& f) noexcept
+[[nodiscard]] ScopeGuard<F> make_scope_guard(F&& f) noexcept
 {
     return ScopeGuard<std::decay_t<F>>{std::forward<F>(f)};
 }
@@ -529,7 +529,7 @@ Demo:
 int main()
 {
     std::string resource = "resource";
-    auto guard1 = ScopeGuard([&]() { std::cout << "guard1: " << resource << std::endl; });
+    auto _ = ScopeGuard([&]() { std::cout << "guard1: " << resource << std::endl; });
 
     auto guard2 = make_scope_guard([]() { std::cout << "guard2" << std::endl; });
 
