@@ -162,13 +162,13 @@ struct C final : B
 <details>
 <summary>Template constructor/methods</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/Wvq11djE7)
+:arrow_forward:[**Run**](https://godbolt.org/z/nnKdjb8rP)
 
 ```cpp
 #include <iostream>
 #include <utility>
 
-template <typename T>
+template<typename T>
 class TestClass1
 {
 public:
@@ -188,7 +188,7 @@ public:
     T x_;
 };
 
-template <typename T>
+template<typename T>
 class TestClass2
 {
 public:
