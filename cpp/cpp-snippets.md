@@ -157,6 +157,62 @@ struct C final : B
 ```
 </details>
 
+<details>
+<summary>Template constructor/methods</summary>
+
+```cpp
+#include <iostream>
+#include <utility>
+
+template <typename T>
+class TestClass1
+{
+public:
+    TestClass1(const T& x) : x_{x}
+    {
+        std::cout << "TestClass1 [const T&]" << std::endl;
+    }
+
+    // catches only rvalue refs
+    TestClass1(T&& x) : x_{std::move(x)}
+    {
+        std::cout << "TestClass1 [T&&]";
+        std::cout << (std::is_rvalue_reference<decltype(x)>::value ? " rvalue" : "");
+        std::cout << std::endl;
+    }
+
+    T x_;
+};
+
+template <typename T>
+class TestClass2
+{
+public:
+    TestClass2(auto&& x) : x_{std::forward<decltype(x)>(x)}
+    {
+        std::cout << "TestClass2 [T&&]";
+        std::cout << (std::is_rvalue_reference<decltype(x)>::value ? " rvalue" : "");
+        std::cout << std::endl;
+    }
+
+    T x_;
+};
+
+int main()
+{
+    double val = 0.0;
+
+    TestClass1{val};
+    TestClass1{0.0};
+
+    std::cout << std::endl;
+
+    TestClass2<double>{val};
+    TestClass2<double>{0.0};
+}
+```
+</details>
+
 ## Debug
 
 <details>
