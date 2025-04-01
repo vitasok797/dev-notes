@@ -486,6 +486,17 @@ for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {..
 ## Type
 
 <details>
+<summary>Scope guard</summary>
+
+```cpp
+```
+
+Demo:
+```cpp
+```
+</details>
+
+<details>
 <summary>Type alias</summary>
 
 [(Reference) Type alias](https://en.cppreference.com/w/cpp/language/type_alias)
