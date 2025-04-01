@@ -489,10 +489,41 @@ for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {..
 <summary>Scope guard</summary>
 
 ```cpp
+#include <utility>
+
+template <class F>
+class Finally
+{
+public:
+    explicit Finally(const F& f) noexcept : f_{f} {}
+    explicit Finally(F&& f) noexcept : f_{std::move(f)} {}
+
+    ~Finally() noexcept { if (invoke_) f_(); }
+
+    Finally(Finally&& other) noexcept
+        : f_(std::move(other.f_)), invoke_(std::exchange(other.invoke_, false))
+    {}
+
+    Finally(const Finally&) = delete;
+    void operator=(const Finally&) = delete;
+    void operator=(Finally&&) = delete;
+
+private:
+    F f_;
+    bool invoke_ = true;
+};
 ```
 
 Demo:
 ```cpp
+#include <iostream>
+
+int main()
+{
+    std::cout << "main (in)" << std::endl;
+    auto guard = Finally([]() { std::cout << "finally" << std::endl; });
+    std::cout << "main (out)" << std::endl;
+}
 ```
 </details>
 
