@@ -132,19 +132,24 @@
 
 ## Types
 
-### Types / Enum
-* <https://github.com/Neargye/magic_enum> ([vcpkg](https://vcpkg.io/en/package/magic-enum))
-
-### Types / Strong type
-* <https://github.com/rollbear/strong_type> ([vcpkg](https://vcpkg.io/en/package/strong-type))
-* <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe), [article1](https://www.foonathan.net/2016/10/type-safe/), [article2](https://www.foonathan.net/2016/10/strong-typedefs/))
-* <https://github.com/joboccara/NamedType> (dead?, no vcpkg, header-only, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
-
 ### Types / Container
 * [Boost.Container](https://www.boost.org/doc/libs/release/doc/html/container.html)
 * [Boost.Circular\_Buffer](https://www.boost.org/doc/libs/release/doc/html/circular_buffer.html)
 * [Boost.MultiArray](https://www.boost.org/doc/libs/release/libs/multi_array/doc/index.html)
 * <https://github.com/kokkos/mdspan>
+
+### Types / Enum
+* <https://github.com/Neargye/magic_enum> ([vcpkg](https://vcpkg.io/en/package/magic-enum))
+
+### Types / Reflection
+* <https://github.com/Neargye/nameof>
+* [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
+* Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
+
+### Types / Strong type
+* <https://github.com/rollbear/strong_type> ([vcpkg](https://vcpkg.io/en/package/strong-type))
+* <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe), [article1](https://www.foonathan.net/2016/10/type-safe/), [article2](https://www.foonathan.net/2016/10/strong-typedefs/))
+* <https://github.com/joboccara/NamedType> (dead?, no vcpkg, header-only, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
 
 ### Types / Units
 * POCO [Units](https://github.com/pocoproject/poco/blob/main/Util/include/Poco/Util/Units.h)
@@ -153,11 +158,6 @@
 * <https://github.com/nholthaus/units> ([vcpkg](https://vcpkg.io/en/package/units))
 * <https://github.com/bernedom/SI> ([vcpkg](https://vcpkg.io/en/package/si))
 * <https://www.boost.org/libs/units>
-
-### Types / Reflection
-* <https://github.com/Neargye/nameof>
-* [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
-* Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
 
 ## System
 
