@@ -492,26 +492,34 @@ for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {..
 #include <utility>
 
 template <class F>
-class Finally
+class ScopeGuard
 {
 public:
-    explicit Finally(const F& f) noexcept : f_{f} {}
-    explicit Finally(F&& f) noexcept : f_{std::move(f)} {}
+    [[nodiscard]] explicit ScopeGuard(const F& f) noexcept : f_{f} {}
+    [[nodiscard]] explicit ScopeGuard(F&& f) noexcept : f_{std::forward<F>(f)} {}
 
-    ~Finally() noexcept { if (invoke_) f_(); }
+    ~ScopeGuard() noexcept { if (invoke_) f_(); }
 
-    Finally(Finally&& other) noexcept
+    ScopeGuard(ScopeGuard&& other) noexcept
         : f_(std::move(other.f_)), invoke_(std::exchange(other.invoke_, false))
     {}
 
-    Finally(const Finally&) = delete;
-    void operator=(const Finally&) = delete;
-    void operator=(Finally&&) = delete;
+    ScopeGuard(const ScopeGuard&) = delete;
+    void operator=(const ScopeGuard&) = delete;
+    void operator=(ScopeGuard&&) = delete;
+
+    void dismiss() noexcept { invoke_ = false; }
 
 private:
     F f_;
     bool invoke_ = true;
 };
+
+template <class F>
+[[nodiscard]] auto make_scope_guard(F&& f) noexcept
+{
+    return ScopeGuard<std::decay_t<F>>{std::forward<F>(f)};
+}
 ```
 
 Demo:
@@ -520,9 +528,15 @@ Demo:
 
 int main()
 {
-    std::cout << "main (in)" << std::endl;
-    auto guard = Finally([]() { std::cout << "finally" << std::endl; });
-    std::cout << "main (out)" << std::endl;
+    std::string resource = "resource";
+    auto guard1 = ScopeGuard([&]() { std::cout << "guard1: " << resource << std::endl; });
+
+    auto guard2 = make_scope_guard([]() { std::cout << "guard2" << std::endl; });
+
+    auto guard3 = make_scope_guard([]() { std::cout << "guard3" << std::endl; });
+    guard3.dismiss();
+
+    std::cout << "--- scope out ---" << std::endl;
 }
 ```
 </details>
