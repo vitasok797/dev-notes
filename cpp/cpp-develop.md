@@ -87,3 +87,4 @@
 ## Var
 * [Beautiful Native Libraries](https://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/)
 * [Canonical Project Structure](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html)
+* [Ужасное состояние двоичной совместимости Linux](https://habr.com/ru/articles/893720/)
