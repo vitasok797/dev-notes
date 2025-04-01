@@ -148,6 +148,8 @@
 
 ### Types / Scope guard
 * [GSL \<util\> final_action](https://github.com/microsoft/GSL/blob/main/include/gsl/util)
+* <https://github.com/ricab/scope_guard> ([vcpkg](https://vcpkg.io/en/package/scope-guard))
+* <https://github.com/Neargye/scope_guard> (no vcpkg, header-only)
 
 ### Types / Strong type
 * <https://github.com/rollbear/strong_type> ([vcpkg](https://vcpkg.io/en/package/strong-type))
