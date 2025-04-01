@@ -496,7 +496,7 @@ class ScopeGuard
 {
 public:
     [[nodiscard]] explicit ScopeGuard(const F& f) noexcept : f_{f} {}
-    [[nodiscard]] explicit ScopeGuard(F&& f) noexcept : f_{std::forward<F>(f)} {}
+    [[nodiscard]] explicit ScopeGuard(F&& f) noexcept : f_{std::move(f)} {}
 
     ~ScopeGuard() noexcept { if (invoke_) f_(); }
 
