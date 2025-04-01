@@ -551,7 +551,7 @@ for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {..
 ```cpp
 #include <utility>
 
-template <class F>
+template<typename F>
 class ScopeGuard
 {
 public:
@@ -575,7 +575,7 @@ private:
     bool invoke_ = true;
 };
 
-template <class F>
+template<typename F>
 [[nodiscard]] ScopeGuard<F> make_scope_guard(F&& f) noexcept
 {
     return ScopeGuard<std::decay_t<F>>{std::forward<F>(f)};
