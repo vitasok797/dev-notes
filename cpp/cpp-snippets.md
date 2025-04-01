@@ -515,3 +515,62 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 struct {} bad = 123;
 ```
 </details>
+
+<details>
+<summary>Test: Rvalue and Universal references</summary>
+
+```cpp
+#include <iostream>
+
+using namespace std;
+
+
+template<typename T>
+void bar_t(const T& v) { cout << "const T&" << endl; }
+
+template<typename T>
+void bar_t(T& v) { cout << "T&" << endl; }
+
+template<typename T>
+void bar_t(T&& v) { cout << "T&&" << endl; }
+
+
+void bar(const int& v) { cout << "const int&" << endl; }
+
+void bar(int& v) { cout << "int&" << endl; }
+
+void bar(int&& v) { cout << "int&&" << endl; }
+
+
+template<typename T>
+void foo_t(T&& p)
+{
+    bar_t(p);
+    bar_t(std::move(p));
+    bar_t(std::forward<T>(p));
+
+    cout << endl;
+}
+
+template<typename T>
+void foo(T&& p)
+{
+    bar(p);
+    bar(std::move(p));
+    bar(std::forward<T>(p));
+
+    cout << endl;
+}
+
+int main()
+{
+    int i = 0;
+
+    foo_t(i);
+    foo_t(0);
+
+    foo(i);
+    foo(0);
+}
+```
+</details>
