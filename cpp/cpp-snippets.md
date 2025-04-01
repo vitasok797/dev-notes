@@ -56,6 +56,8 @@ struct BriefExample
 };
 ```
 
+:arrow_forward:[**Run**](https://godbolt.org/z/MEdMY1b9e)
+
 ```cpp
 #include <iostream>
 
