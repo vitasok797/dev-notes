@@ -626,7 +626,7 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 [(StackOverflow) Using 'auto' type deduction - how to find out what type the compiler deduced?](https://stackoverflow.com/questions/38820579/using-auto-type-deduction-how-to-find-out-what-type-the-compiler-deduced)
 
 ```cpp
-struct {} _ = ...;
+struct {} _ = ...
 ```
 </details>
 
