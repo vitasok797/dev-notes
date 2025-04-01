@@ -310,7 +310,7 @@ auto people_to_str_view()
     return ranges::views::transform(&Person::to_str) | ranges::views::transform(in_quotes);
 }
 
-template <typename Proj>
+template<typename Proj>
 auto people_to_str_with_tag_view(const Proj& proj)
 {
     auto to_str_with_tag = [&proj](const Person& person)
