@@ -517,7 +517,7 @@ struct {} bad = 123;
 </details>
 
 <details>
-<summary>Test: Rvalue and Universal references</summary>
+<summary>Test: rvalue and universal references</summary>
 
 ```cpp
 #include <iostream>
