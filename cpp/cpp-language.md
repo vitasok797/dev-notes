@@ -101,6 +101,12 @@
 * [Almost Always const auto&](https://huixie90.github.io/Almost-always-const-auto-ref/)
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
 
+### Types / Functional
+* [(cppreference) std::function](https://en.cppreference.com/w/cpp/utility/functional/function)
+* [(cppreference) std::invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke)
+* [(cppreference) std::apply](https://en.cppreference.com/w/cpp/utility/apply)
+* [(Wiki) Function object](https://en.wikipedia.org/wiki/Function_object#In_C_and_C++)
+
 ### Types / Rvalue and Universal references
 * [(Habr) std::move vs. std::forward](https://habr.com/ru/articles/568306/)
 * [Universal References in C++11](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
@@ -109,12 +115,6 @@
 * <https://stackoverflow.com/questions/14918984/c11-how-can-i-define-a-function-that-accept-a-universal-reference-of-a-speci>
 * <https://stackoverflow.com/questions/38197528/const-auto-really-not-useful>
 * <https://stackoverflow.com/questions/29859796/c-auto-vs-auto>
-
-### Types / Functional
-* [(cppreference) std::function](https://en.cppreference.com/w/cpp/utility/functional/function)
-* [(cppreference) std::invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke)
-* [(cppreference) std::apply](https://en.cppreference.com/w/cpp/utility/apply)
-* [(Wiki) Function object](https://en.wikipedia.org/wiki/Function_object#In_C_and_C++)
 
 ## Pointers
 * [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
