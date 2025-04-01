@@ -147,7 +147,7 @@
 * Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
 
 ### Types / Scope guard
-* GSL [\<util\> final_action](https://github.com/microsoft/GSL/blob/main/include/gsl/util)
+* [GSL \<util\> final_action](https://github.com/microsoft/GSL/blob/main/include/gsl/util)
 
 ### Types / Strong type
 * <https://github.com/rollbear/strong_type> ([vcpkg](https://vcpkg.io/en/package/strong-type))
