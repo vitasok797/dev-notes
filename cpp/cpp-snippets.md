@@ -537,11 +537,16 @@ condition ? true_expression : false_expression
 <details>
 <summary>Rvalue/universal references (test)</summary>
 
+:arrow_forward:[**Run**](https://godbolt.org/z/bh93hs3z4)
+
 ```cpp
 #include <iostream>
 
 using namespace std;
 
+#define IS_RVALUE(x) (std::is_rvalue_reference<decltype(x)>::value ? " (rvalue)" : "")
+
+// ----------------------------------------------------------------------------------------------
 
 template<typename T>
 void bar_t(const T& v) { cout << "const T&" << endl; }
@@ -550,19 +555,13 @@ template<typename T>
 void bar_t(T& v) { cout << "T&" << endl; }
 
 template<typename T>
-void bar_t(T&& v) { cout << "T&&" << endl; }
-
-
-void bar(const int& v) { cout << "const int&" << endl; }
-
-void bar(int& v) { cout << "int&" << endl; }
-
-void bar(int&& v) { cout << "int&&" << endl; }
-
+void bar_t(T&& v) { cout << "T&&" << IS_RVALUE(v) << endl; }
 
 template<typename T>
 void foo_t(T&& p)
 {
+    cout << "> foo_t" << IS_RVALUE(p) << endl;
+
     bar_t(p);
     bar_t(std::move(p));
     bar_t(std::forward<T>(p));
@@ -570,15 +569,27 @@ void foo_t(T&& p)
     cout << endl;
 }
 
+// ----------------------------------------------------------------------------------------------
+
+void bar(const int& v) { cout << "const int&" << endl; }
+
+void bar(int& v) { cout << "int&" << endl; }
+
+void bar(int&& v) { cout << "int&&" << IS_RVALUE(v) << endl; }
+
 template<typename T>
 void foo(T&& p)
 {
+    cout << "> foo" << IS_RVALUE(p) << endl;
+
     bar(p);
     bar(std::move(p));
     bar(std::forward<T>(p));
 
     cout << endl;
 }
+
+// ----------------------------------------------------------------------------------------------
 
 int main()
 {
