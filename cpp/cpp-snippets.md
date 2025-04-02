@@ -561,10 +561,14 @@ namespace B
 ## Operators
 
 <details>
-<summary>ostream << struct</summary>
+<summary>ostream <<</summary>
+
+:arrow_forward:[**Run**](https://godbolt.org/z/EqjfMKhav)
 
 ```cpp
 #include <iostream>
+
+// ----------------------------------------------------------------------------------------------
 
 struct Person
 {
@@ -575,8 +579,34 @@ struct Person
 
 std::ostream& operator<<(std::ostream& os, const Person& person)
 {
-    os << person.surname << ", " << person.firstname << " was born in " << person.year;
-    return os;
+    return os << person.surname << " " << person.firstname << " was born in " << person.year;
+}
+
+// ----------------------------------------------------------------------------------------------
+
+class PrivatePerson
+{
+private:
+    std::string alias_;
+    int year_;
+
+public:
+    PrivatePerson(const std::string& alias, int year) : alias_{alias}, year_{year} {};
+
+    friend std::ostream& operator<<(std::ostream& os, const PrivatePerson& person);
+};
+
+std::ostream& operator<<(std::ostream& os, const PrivatePerson& person)
+{
+    return os << person.alias_ << " was born in " << person.year_;
+}
+
+// ----------------------------------------------------------------------------------------------
+
+int main()
+{
+    std::cout << Person{"Smith", "John", 1980} << std::endl;
+    std::cout << PrivatePerson{"Private", 1990} << std::endl;
 }
 ```
 </details>
