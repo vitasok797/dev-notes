@@ -624,7 +624,7 @@ condition ? true_expression : false_expression
 <details>
 <summary>String builder</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/8q314bE93)
+:arrow_forward:[**Run**](https://godbolt.org/z/fYsc3b4nn)
 
 ```cpp
 #include <iostream>
@@ -635,21 +635,27 @@ void build_string_1()
     std::ostringstream ss;
 
     ss << "Hello";
-    ss << " world!";
-    ss << " This is a string builder";
+    ss << " from";
+    ss << " string builder 1";
 
-    std::cout << ss.str() << std::endl;
+    std::string res1 = ss.str();
+    std::string res2 = std::move(ss).str();
+
+    std::cout << res1 << std::endl;
+    std::cout << res2 << std::endl;
 }
 
 void build_string_2()
 {
-    std::string s;
+    std::string res;
 
-    s += "Hello";
-    s += " world!";
-    s += " This is a string builder";
+    res.reserve(100);  // optional
 
-    std::cout << s << std::endl;
+    res += "Hello";
+    res += " from";
+    res += " string builder 2";
+
+    std::cout << res << std::endl;
 }
 
 int main()
