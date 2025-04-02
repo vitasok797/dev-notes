@@ -297,7 +297,7 @@ int main()
 <details>
 <summary>Custom views</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/hP6jsKv1T)
+:arrow_forward:[**Run**](https://godbolt.org/z/hYo5hePrs)
 
 ```cpp
 #include <format>
@@ -323,8 +323,7 @@ auto people_to_str_view()
     return ranges::views::transform(&Person::to_str) | ranges::views::transform(in_quotes);
 }
 
-template<typename Proj>
-auto people_to_str_with_tag_view(const Proj& proj)
+auto people_to_str_with_tag_view(auto&& proj)
 {
     auto to_str_with_tag = [&proj](const Person& person)
     {
