@@ -433,10 +433,10 @@ condition ? true_expression : false_expression
 ```
 </details>
 
-## Statement with initializer
+## Initialization
 
 <details>
-<summary>If statement with initializer</summary>
+<summary>Statement with initializer: if</summary>
 
 [(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
 
@@ -461,7 +461,7 @@ if (auto [itelem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 </details>
 
 <details>
-<summary>Range-based for loop with initializer (C++20)</summary>
+<summary>Statement with initializer: range-based for (C++20)</summary>
 
 ```cpp
 for (init; decl : expr)
@@ -479,8 +479,6 @@ for (auto& x : foo().items()) {...}  // undefined behavior if foo() returns by v
 for (T thing = foo(); auto& x : thing.items()) {...}  // OK
 ```
 </details>
-
-## Structured Binding
 
 <details>
 <summary>Structured Binding</summary>
