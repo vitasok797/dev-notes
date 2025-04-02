@@ -197,17 +197,20 @@ v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { retur
 #include <vector>
 #include <range/v3/all.hpp>
 
-std::vector<int> v{1, 2, 3};
+int main()
+{
+    std::vector<int> v{1, 2, 3};
 
-// 1
-std::cout << ranges::views::all(v);
+    // 1
+    std::cout << ranges::views::all(v) << std::endl;
 
-// 2
-ranges::copy(v, ranges::ostream_iterator<int>(std::cout, "\n"));
+    // 2
+    ranges::copy(v, ranges::ostream_iterator<int>(std::cout, "\n"));
 
-// 3
-using T = ranges::range_value_t<decltype(v)>;
-ranges::copy(v, ranges::ostream_iterator<T>(std::cout, "\n"));
+    // 3
+    using T = ranges::range_value_t<decltype(v)>;
+    ranges::copy(v, ranges::ostream_iterator<T>(std::cout, "\n"));
+}
 ```
 </details>
 
