@@ -500,8 +500,8 @@ auto&& [a, b, c] =
 ```cpp
 auto [_, b, c] =
 ```
-Unpack tuple:
 
+Unpack tuple:
 ```cpp
 #include <tuple>
 
