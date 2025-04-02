@@ -329,7 +329,7 @@ int main()
 <details>
 <summary>Projection</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/Prr6abn6Y)
+:arrow_forward:[**Run**](https://godbolt.org/z/bWYxcbKb8)
 
 ```cpp
 #include <functional>
@@ -345,8 +345,12 @@ struct S
     double area() const { return a * b; }
 };
 
+// const Proj&  proj: NO (doesn't accept mutable lambdas)
+//       Proj&  proj: NO (doesn't accept rvalue refs)
+//       Proj&& proj: OK
+//       Proj   proj: OK
 template<typename T, typename Proj = std::identity>
-void print_range_with_proj(const T& range, Proj proj = {})
+void print_range_with_proj(const T& range, Proj&& proj = {})
 {
     std::cout << "---------------" << std::endl;
     for(const auto& x : range)
