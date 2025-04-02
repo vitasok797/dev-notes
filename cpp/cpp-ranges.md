@@ -288,6 +288,8 @@ auto max_len = ranges::max(strings, {}, &std::string::length).length();
 <details>
 <summary>Custom views</summary>
 
+:arrow_forward:[**Run**](https://godbolt.org/z/hP6jsKv1T)
+
 ```cpp
 #include <format>
 #include <iostream>
