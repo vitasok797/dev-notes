@@ -192,6 +192,8 @@ v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { retur
 <details>
 <summary>Copy to ostream</summary>
 
+:arrow_forward:[**Run**](https://godbolt.org/z/qTj6jvvYY)
+
 ```cpp
 #include <iostream>
 #include <vector>
