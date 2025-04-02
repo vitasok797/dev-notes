@@ -170,10 +170,6 @@ std::cout << ranges::contains(v, 999) << std::endl;
 <summary>Enumerate</summary>
 
 ```cpp
-#include <iostream>
-#include <vector>
-#include <range/v3/all.hpp>
-
 std::vector<std::string> v{"A", "B", "C"};
 
 for (const auto& [index, value] : ranges::views::enumerate(v))
@@ -185,9 +181,6 @@ for (const auto& [index, value] : ranges::views::enumerate(v))
 <summary>Vector append</summary>
 
 ```cpp
-#include <vector>
-#include <range/v3/all.hpp>
-
 std::vector<int> v1{1, 2, 3};
 std::vector<int> v2{4, -5, 6};
 
