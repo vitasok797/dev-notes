@@ -40,8 +40,6 @@
 <summary>Range argument</summary>
 
 ```cpp
-#include <range/v3/all.hpp>
-
 void func(const auto& r);
 void func(auto&& r);
 
@@ -54,9 +52,6 @@ void func_with_concept(ranges::range auto&& r);
 <summary>Range from iterators</summary>
 
 ```cpp
-#include <vector>
-#include <range/v3/all.hpp>
-
 std::vector<int> v{1, 2, 3};
 
 auto rng = ranges::subrange(v.begin() + 1, v.end());
@@ -67,9 +62,6 @@ auto rng = ranges::subrange(v.begin() + 1, v.end());
 <summary>Filter</summary>
 
 ```cpp
-#include <vector>
-#include <range/v3/all.hpp>
-
 std::vector<int> v{1, 2, 3, 4, 5, 6};
 
 auto is_even = [](int i) { return i % 2 == 0; };
