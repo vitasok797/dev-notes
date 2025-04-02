@@ -82,6 +82,8 @@ auto odd_numbers = v | ranges::views::remove_if(is_even);
 <details>
 <summary>Group by</summary>
 
+:arrow_forward:[**Run**](https://godbolt.org/z/G977zc3G9)
+
 ```cpp
 #include <iostream>
 #include <vector>
@@ -113,7 +115,7 @@ int main()
     ranges::sort(people, {}, &Person::surname);
 
     auto surname_is_equal = [](const auto& p1, const auto& p2) { return p1.surname == p2.surname; };
-    auto groups = people | ranges::view::chunk_by(surname_is_equal);
+    auto groups = people | ranges::views::chunk_by(surname_is_equal);
 
     for (const auto& group : groups)
     {
