@@ -326,6 +326,61 @@ int main()
 ```
 </details>
 
+<details>
+<summary>Projection</summary>
+
+:arrow_forward:[**Run**](https://godbolt.org/z/Prr6abn6Y)
+
+```cpp
+#include <functional>
+#include <iostream>
+#include <vector>
+
+struct S
+{
+    std::string name;
+    double a = 0.0;
+    double b = 0.0;
+
+    double area() const { return a * b; }
+};
+
+template<typename T, typename Proj = std::identity>
+void print_range_with_proj(const T& range, Proj proj = {})
+{
+    std::cout << "---------------" << std::endl;
+    for(const auto& x : range)
+    {
+        std::cout << std::invoke(proj, x) << std::endl;
+    }
+};
+
+int main()
+{
+    std::vector<S> v1
+    {
+        {"bbb", 1.0, 2.0},
+        {"aaa", 11.0, 220.0},
+        {"ccc", 12.0, 22.0}
+    };
+
+    print_range_with_proj(v1, &S::name);
+    print_range_with_proj(v1, &S::area);
+    print_range_with_proj(v1, [](const auto& s) { return s.a + s.b; });
+
+    std::vector<std::string> v2
+    {
+        "xxx",
+        "yyyyy",
+        "z"
+    };
+
+    print_range_with_proj(v2);
+    print_range_with_proj(v2, &std::string::length);
+}
+```
+</details>
+
 ## Initialization
 
 <details>
