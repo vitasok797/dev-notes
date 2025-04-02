@@ -242,7 +242,7 @@ ranges::copy(v, ranges::ostream_iterator<T>(std::cout, "\n"));
 
 struct S
 {
-    std::string name;    
+    std::string name;
     double a = 0.0;
     double b = 0.0;
 
