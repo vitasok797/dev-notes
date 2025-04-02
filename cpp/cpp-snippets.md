@@ -483,7 +483,7 @@ for (T thing = foo(); auto& x : thing.items()) {...}  // OK
 ## Structured Binding
 
 <details>
-<summary>Syntax</summary>
+<summary>Structured Binding</summary>
 
 [(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
 
@@ -500,10 +500,7 @@ auto&& [a, b, c] =
 ```cpp
 auto [_, b, c] =
 ```
-</details>
-
-<details>
-<summary>Unpack tuple</summary>
+Unpack tuple:
 
 ```cpp
 #include <tuple>
@@ -512,11 +509,8 @@ std::tuple tuple{1, 'a', 2.3};
 
 auto [a, b, c] = tuple;
 ```
-</details>
 
-<details>
-<summary>Unpack struct</summary>
-
+Unpack struct:
 ```cpp
 struct Foo
 {
@@ -529,11 +523,8 @@ Foo f {1, 'a', 2.3};
 
 auto [i, c, d] = f;
 ```
-</details>
 
-<details>
-<summary>Unpack map</summary>
-
+Unpack map:
 ```cpp
 #include <map>
 
