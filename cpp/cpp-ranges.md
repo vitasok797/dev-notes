@@ -233,8 +233,10 @@ struct S
     double area() const { return a * b; }
 };
 
-int main()
+void demo1()
 {
+    std::cout << "--- demo 1 ----------------------------------" << std::endl << std::endl;
+
     std::vector<S> v
     {
         {"bbb", 1.0, 2.0},
@@ -242,28 +244,51 @@ int main()
         {"ccc", 12.0, 22.0}
     };
 
-    // member
+    auto print_s_names = [](const auto& rng)
+    {
+        ranges::for_each(rng, [](const auto& x) { std::cout << x.name << std::endl; });
+        std::cout << std::endl;
+    };
+
+    // projection: member
     ranges::sort(v, {}, &S::name);
+    print_s_names(v);
 
-    // member function
+    // projection: member function
     ranges::sort(v, {}, &S::area);
+    print_s_names(v);
 
-    // lambda
+    // projection: lambda
     ranges::sort(v, {}, [](const auto& s) { return s.a; });
-
-    ranges::for_each(v, [](const auto& s) { std::cout << s.name << std::endl; });
+    print_s_names(v);
 }
-```
 
-```cpp
-#include <string>
-#include <vector>
-#include <range/v3/all.hpp>
+void demo2()
+{
+    std::cout << "--- demo 2 ----------------------------------" << std::endl << std::endl;
 
-std::vector<std::string> strings{"aaa", "bbbbb", "c"};
+    std::vector<std::string> v
+    {
+        "aaa",
+        "bbbbb",
+        "c"
+    };
 
-// If the range is empty, the behavior is undefined
-auto max_len = ranges::max(strings, {}, &std::string::length).length();
+    // ranges::max/min -> if the range is empty, the behavior is undefined
+    auto max_len = ranges::max(v, {}, &std::string::length).length();
+    auto min_len = ranges::min(v, {}, &std::string::length).length();
+    auto min_len_alt = ranges::max(v, ranges::greater{}, &std::string::length).length();
+
+    std::cout << "max len: " << max_len << std::endl;
+    std::cout << "min len: " << min_len << std::endl;
+    std::cout << "min len alt: " << min_len_alt << std::endl;
+}
+
+int main()
+{
+    demo1();
+    demo2();
+}
 ```
 </details>
 
