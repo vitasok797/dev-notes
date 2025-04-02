@@ -122,10 +122,6 @@ int main()
 <summary>String: to_string</summary>
 
 ```cpp
-#include <string>
-#include <vector>
-#include <range/v3/all.hpp>
-
 std::vector<int> v{1, 2, 3};
 
 auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); });
@@ -161,10 +157,6 @@ int main()
 <summary>Contains</summary>
 
 ```cpp
-#include <iostream>
-#include <vector>
-#include <range/v3/all.hpp>
-
 std::vector<int> v{1, 2, 3};
 
 std::cout << std::boolalpha;
