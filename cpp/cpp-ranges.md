@@ -219,6 +219,8 @@ int main()
 <details>
 <summary>Projections</summary>
 
+:arrow_forward:[**Run**](https://godbolt.org/z/cjcda7WG4)
+
 ```cpp
 #include <iostream>
 #include <vector>
