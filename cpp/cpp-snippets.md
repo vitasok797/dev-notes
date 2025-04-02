@@ -324,6 +324,105 @@ int main()
 ```
 </details>
 
+## Initialization
+
+<details>
+<summary>Statement with initializer: if</summary>
+
+[(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
+
+```cpp
+if (init; condition) {...}
+```
+
+```cpp
+if (auto a = getval(); a < 10) {...}
+```
+
+```cpp
+switch (auto ch = getnext(); ch)
+{
+    // case statements
+}
+```
+
+```cpp
+if (auto [itelem, success] = mymap.insert(std::pair('a', 100)); success) {...}
+```
+</details>
+
+<details>
+<summary>Statement with initializer: range-based for (C++20)</summary>
+
+```cpp
+for (init; decl : expr)
+```
+
+```cpp
+for (size_t i = 0; const auto& x : container)
+{
+    std::cout << i++ << ": " << x << std::endl;
+}
+```
+
+```cpp
+for (auto& x : foo().items()) {...}  // undefined behavior if foo() returns by value
+for (T thing = foo(); auto& x : thing.items()) {...}  // OK
+```
+</details>
+
+<details>
+<summary>Structured Binding</summary>
+
+[(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
+
+```cpp
+auto [a, b, c] =
+const auto [a, b, c] =
+
+auto& [a, b, c] =
+const auto& [a, b, c] =
+
+auto&& [a, b, c] =
+```
+
+```cpp
+auto [_, b, c] =
+```
+
+Unpack tuple:
+```cpp
+#include <tuple>
+
+std::tuple tuple{1, 'a', 2.3};
+
+auto [a, b, c] = tuple;
+```
+
+Unpack struct:
+```cpp
+struct Foo
+{
+    int i;
+    char c;
+    double d;
+};
+
+Foo f {1, 'a', 2.3};
+
+auto [i, c, d] = f;
+```
+
+Unpack map:
+```cpp
+#include <map>
+
+for (const auto& [k, v] : mymap) {...}
+
+for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {...}
+```
+</details>
+
 ## Lambda
 
 <details>
@@ -430,105 +529,6 @@ std::ostream& operator<<(std::ostream& os, const Person& person)
 
 ```cpp
 condition ? true_expression : false_expression
-```
-</details>
-
-## Initialization
-
-<details>
-<summary>Statement with initializer: if</summary>
-
-[(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
-
-```cpp
-if (init; condition) {...}
-```
-
-```cpp
-if (auto a = getval(); a < 10) {...}
-```
-
-```cpp
-switch (auto ch = getnext(); ch)
-{
-    // case statements
-}
-```
-
-```cpp
-if (auto [itelem, success] = mymap.insert(std::pair('a', 100)); success) {...}
-```
-</details>
-
-<details>
-<summary>Statement with initializer: range-based for (C++20)</summary>
-
-```cpp
-for (init; decl : expr)
-```
-
-```cpp
-for (size_t i = 0; const auto& x : container)
-{
-    std::cout << i++ << ": " << x << std::endl;
-}
-```
-
-```cpp
-for (auto& x : foo().items()) {...}  // undefined behavior if foo() returns by value
-for (T thing = foo(); auto& x : thing.items()) {...}  // OK
-```
-</details>
-
-<details>
-<summary>Structured Binding</summary>
-
-[(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
-
-```cpp
-auto [a, b, c] =
-const auto [a, b, c] =
-
-auto& [a, b, c] =
-const auto& [a, b, c] =
-
-auto&& [a, b, c] =
-```
-
-```cpp
-auto [_, b, c] =
-```
-
-Unpack tuple:
-```cpp
-#include <tuple>
-
-std::tuple tuple{1, 'a', 2.3};
-
-auto [a, b, c] = tuple;
-```
-
-Unpack struct:
-```cpp
-struct Foo
-{
-    int i;
-    char c;
-    double d;
-};
-
-Foo f {1, 'a', 2.3};
-
-auto [i, c, d] = f;
-```
-
-Unpack map:
-```cpp
-#include <map>
-
-for (const auto& [k, v] : mymap) {...}
-
-for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {...}
 ```
 </details>
 
