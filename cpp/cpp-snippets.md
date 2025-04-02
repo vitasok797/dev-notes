@@ -136,31 +136,7 @@ int main()
 </details>
 
 <details>
-<summary>Virtual</summary>
-
-```cpp
-struct A
-{
-    virtual void foo() = 0;
-    virtual ~A() = default;
-};
-
-struct B : A
-{
-    void foo() override;
-    ~B() override;
-};
-
-struct C final : B
-{
-    void foo() final;
-    ~C() final;
-};
-```
-</details>
-
-<details>
-<summary>Template constructor/methods</summary>
+<summary>Template constructors/methods</summary>
 
 :arrow_forward:[**Run**](https://godbolt.org/z/nnKdjb8rP)
 
@@ -214,6 +190,30 @@ int main()
     TestClass2<double>{val};
     TestClass2<double>{0.0};
 }
+```
+</details>
+
+<details>
+<summary>Virtual</summary>
+
+```cpp
+struct A
+{
+    virtual void foo() = 0;
+    virtual ~A() = default;
+};
+
+struct B : A
+{
+    void foo() override;
+    ~B() override;
+};
+
+struct C final : B
+{
+    void foo() final;
+    ~C() final;
+};
 ```
 </details>
 
