@@ -230,7 +230,7 @@ class ObjWatcher
 {
 public:
     ObjWatcher() : index_(++counter_)
-    {       
+    {
         std::cout << "ObjWatcher: created (" << index_ << ")" << std::endl;
     };
 
@@ -310,10 +310,10 @@ int main()
 ```cpp
 #include <iostream>
 #include <tuple>
- 
+
 int sum(int a, int b, int c)
-{ 
-    return a + b + c; 
+{
+    return a + b + c;
 }
 
 int main()
@@ -394,7 +394,7 @@ namespace A::B::C
 
 ```cpp
 namespace A {...}
- 
+
 namespace B
 {
     using namespace A;
