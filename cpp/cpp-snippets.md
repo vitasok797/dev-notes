@@ -619,6 +619,47 @@ condition ? true_expression : false_expression
 ```
 </details>
 
+## String
+
+<details>
+<summary>String builder</summary>
+
+:arrow_forward:[**Run**](https://godbolt.org/z/8q314bE93)
+
+```cpp
+#include <iostream>
+#include <sstream>
+
+void build_string_1()
+{
+    std::ostringstream ss;
+
+    ss << "Hello";
+    ss << " world!";
+    ss << " This is a string builder";
+
+    std::cout << ss.str() << std::endl;
+}
+
+void build_string_2()
+{
+    std::string s;
+
+    s += "Hello";
+    s += " world!";
+    s += " This is a string builder";
+
+    std::cout << s << std::endl;
+}
+
+int main()
+{
+    build_string_1();
+    build_string_2();
+}
+```
+</details>
+
 ## Type
 
 <details>
