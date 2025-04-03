@@ -778,7 +778,6 @@ int main()
 :arrow_forward:[**Run**](https://godbolt.org/z/xa5Ke9PE4)
 
 ```cpp
-#include <iostream>
 #include <utility>
 
 template<typename F>
@@ -809,19 +808,6 @@ template<typename F>
 [[nodiscard]] ScopeGuard<F> make_scope_guard(F&& f) noexcept
 {
     return ScopeGuard<std::decay_t<F>>{std::forward<F>(f)};
-}
-
-int main()
-{
-    std::string resource = "resource";
-    auto _ = ScopeGuard([&]() { std::cout << "guard1: " << resource << std::endl; });
-
-    auto guard2 = make_scope_guard([]() { std::cout << "guard2" << std::endl; });
-
-    auto guard3 = make_scope_guard([]() { std::cout << "guard3" << std::endl; });
-    guard3.dismiss();
-
-    std::cout << "--- scope out ---" << std::endl;
 }
 ```
 
