@@ -357,6 +357,28 @@ int main()
 </details>
 
 <details>
+<summary>Lambda generalized capture</summary>
+
+[(StackOverflow) What is a generalized lambda capture and why was it created?](https://stackoverflow.com/questions/41519450/what-is-a-generalized-lambda-capture-and-why-was-it-created/41520537#41520537)
+
+```cpp
+p_nums = std::make_unique<std::vector<int>>(nums);
+auto lam = [ptr=std::move(p_nums)]() { /* use ptr */ };
+```
+
+```cpp
+auto lam = [i=0](const std::string &s) mutable
+{
+    return std::to_string(i++) + ":" + s;
+};
+
+std::cout << lam("aaa") << std::endl;  // 0:aaa
+std::cout << lam("bbb") << std::endl;  // 1:bbb
+std::cout << lam("ccc") << std::endl;  // 2:ccc
+```
+</details>
+
+<details>
 <summary>Projection</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/eo51Wb8bj)
@@ -511,30 +533,6 @@ Unpack map:
 for (const auto& [k, v] : mymap) {...}
 
 for (auto&& [k, v] : std::map<std::string, int>{{"hello", 1}, {"world", 2}}) {...}
-```
-</details>
-
-## Lambda
-
-<details>
-<summary>Generalized capture</summary>
-
-[(StackOverflow) What is a generalized lambda capture and why was it created?](https://stackoverflow.com/questions/41519450/what-is-a-generalized-lambda-capture-and-why-was-it-created/41520537#41520537)
-
-```cpp
-p_nums = std::make_unique<std::vector<int>>(nums);
-auto lam = [ptr=std::move(p_nums)]() { /* use ptr */ };
-```
-
-```cpp
-auto lam = [i=0](const std::string &s) mutable
-{
-    return std::to_string(i++) + ":" + s;
-};
-
-std::cout << lam("aaa") << std::endl;  // 0:aaa
-std::cout << lam("bbb") << std::endl;  // 1:bbb
-std::cout << lam("ccc") << std::endl;  // 2:ccc
 ```
 </details>
 
