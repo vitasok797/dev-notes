@@ -332,12 +332,12 @@ int main()
 <details>
 <summary>Function object</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/TbKEG4fr9)
+:arrow_forward: [**Run**](https://godbolt.org/z/4ohW4sso7)
 
 ```cpp
 #include <iostream>
 
-struct compare_fn
+struct CompareInt
 {
     constexpr bool operator()(const int& a, const int& b) const
     {
@@ -345,13 +345,13 @@ struct compare_fn
     }
 };
 
-inline constexpr compare_fn compare{};
+inline constexpr CompareInt compare_int{};
 
 int main()
 {
-    std::cout << compare(1, 2) << std::endl;
-    std::cout << compare(2, 2) << std::endl;
-    std::cout << compare(3, 2) << std::endl;
+    std::cout << compare_int(1, 2) << std::endl;
+    std::cout << compare_int(2, 2) << std::endl;
+    std::cout << compare_int(3, 2) << std::endl;
 }
 ```
 </details>
