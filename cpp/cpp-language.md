@@ -94,6 +94,7 @@
 ## Types
 * [How to Find the Type of an Object in C++](https://www.delftstack.com/howto/cpp/cpp-find-object-type/)
 * [std::reference_wrapper](https://www.learncpp.com/cpp-tutorial/arrays-of-references-via-stdreference_wrapper/)
+* [(Habr) RVO и NRVO в C++17](https://habr.com/ru/companies/vk/articles/666330/)
 
 ### Types / Auto
 * [GotW #94 Solution: AAA Style (Almost Always Auto)](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/)
@@ -170,7 +171,6 @@
 * [(Habr) Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
 * [(Habr) Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
 * [(Habr) Inline variables](https://habr.com/ru/companies/otus/articles/561772/)
-* [(Habr) RVO и NRVO в C++17](https://habr.com/ru/companies/vk/articles/666330/)
 * :warning: [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
 * [Calling C Code from C++ with ‘extern “C”‘](https://arne-mertz.de/2018/10/calling-cpp-code-from-c-with-extern-c/)
 * [std::string is not a Container for Raw Data](https://arne-mertz.de/2018/11/string-not-for-raw-data/)
