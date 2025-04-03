@@ -381,7 +381,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <details>
 <summary>Projection</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/o4EqxMTd7)
+:arrow_forward: [**Run**](https://godbolt.org/z/vTnvd951E)
 
 ```cpp
 #include <functional>
@@ -397,14 +397,30 @@ struct Rect
     double area() const { return a * b; }
 };
 
-// const Proj&  proj: OK (cons: doesn't accept mutable lambdas/functors,
-//                              dangerous in case of lazy evaluation)
-//       Proj&  proj: NO (doesn't accept rvalues)
-//       Proj&& proj: OK (cons: confusing if there is no move/forward,
-//                              dangerous in case of lazy evaluation)
-//       Proj   proj: OK (cons: copying)
-template<typename T, typename Proj = std::identity>
-void print_range_with_proj(const T& range, Proj proj = {})
+//=============================================================================
+// Just run projection
+//-----------------------------------------------------------------------------
+// const P&  proj: YES
+//       P&  proj: NO
+//       P&& proj: NO
+//       P   proj: ACCEPTABLE (cons: copying)
+//=============================================================================
+// Just run projection (supporting mutable lambdas/functors)
+//-----------------------------------------------------------------------------
+// const P&  proj: NO
+//       P&  proj: NO (doesn't accept rvalues)
+//       P&& proj: ACCEPTABLE (confusing if there is no std::forward)
+//       P   proj: YES (cons: copying)
+//=============================================================================
+// Store projection for lazy evaluation
+//-----------------------------------------------------------------------------
+// const P&  proj: NO
+//       P&  proj: NO
+//       P&& proj: YES (accept by forwarding ref, then store by std::forward)
+//       P   proj: ACCEPTABLE (accept copy by value, then store by std::move)
+//=============================================================================
+template<typename R, typename P = std::identity>
+void print_range_with_proj(const R& range, P proj = {})
 {
     std::cout << "---------------" << std::endl;
     for (const auto& x : range)
