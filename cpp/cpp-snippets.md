@@ -363,7 +363,7 @@ int main()
 
 ```cpp
 p_nums = std::make_unique<std::vector<int>>(nums);
-auto lam = [ptr=std::move(p_nums)]() { /* use ptr */ };
+auto lam = [p_nums=std::move(p_nums)]() { /* use p_nums */ };
 ```
 
 ```cpp
