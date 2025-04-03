@@ -705,69 +705,55 @@ int main()
 <details>
 <summary>Rvalue/universal references (test)</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/bh93hs3z4)
+:arrow_forward:[**Run**](https://godbolt.org/z/sWPxzY5c9)
 
 ```cpp
 #include <iostream>
 
 using namespace std;
 
-#define IS_RVALUE(x) (std::is_rvalue_reference<decltype(x)>::value ? " (rvalue)" : "")
+#define IS_RVALUE_REF(x) (std::is_rvalue_reference<decltype(x)>::value ? " (rvalue_ref)" : "")
 
 // ----------------------------------------------------------------------------------------------
 
 template<typename T>
-void bar_t(const T& v) { cout << "const T&" << endl; }
+void func_templ(const T& x) { cout << "const T&" << endl; }
 
 template<typename T>
-void bar_t(T& v) { cout << "T&" << endl; }
+void func_templ(T& x) { cout << "T&" << endl; }
 
 template<typename T>
-void bar_t(T&& v) { cout << "T&&" << IS_RVALUE(v) << endl; }
+void func_templ(T&& x) { cout << "T&&" << IS_RVALUE_REF(x) << endl; }
 
-template<typename T>
-void foo_t(T&& p)
-{
-    cout << "> foo_t" << IS_RVALUE(p) << endl;
-
-    bar_t(p);
-    bar_t(std::move(p));
-    bar_t(std::forward<T>(p));
-
-    cout << endl;
-}
+// template<typename T>
+// void func_templ(T x) { cout << "T" << endl; }
 
 // ----------------------------------------------------------------------------------------------
 
-void bar(const int& v) { cout << "const int&" << endl; }
+void func(const int& x) { cout << "const int&" << endl; }
 
-void bar(int& v) { cout << "int&" << endl; }
+void func(int& x) { cout << "int&" << endl; }
 
-void bar(int&& v) { cout << "int&&" << IS_RVALUE(v) << endl; }
+void func(int&& x) { cout << "int&&" << IS_RVALUE_REF(x) << endl; }
 
-template<typename T>
-void foo(T&& p)
-{
-    cout << "> foo" << IS_RVALUE(p) << endl;
-
-    bar(p);
-    bar(std::move(p));
-    bar(std::forward<T>(p));
-
-    cout << endl;
-}
+// void func(int x) { cout << "int" << endl; }
 
 // ----------------------------------------------------------------------------------------------
 
 int main()
 {
+    const int ci = 0;
     int i = 0;
 
-    foo_t(i);
-    foo_t(0);
+    func_templ(ci);
+    func_templ(i);
+    func_templ(0);
 
-    foo(i);
-    foo(0);
+    cout << endl;
+
+    func(ci);
+    func(i);
+    func(0);
 }
 ```
 </details>
