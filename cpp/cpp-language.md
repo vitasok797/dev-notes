@@ -106,6 +106,7 @@
 * [(cppreference) std::invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke)
 * [(cppreference) std::apply](https://en.cppreference.com/w/cpp/utility/apply)
 * [(Wiki) Function object](https://en.wikipedia.org/wiki/Function_object#In_C_and_C++)
+* [(StackOverflow) When to use functors over lambdas](https://stackoverflow.com/questions/27256062/when-to-use-functors-over-lambdas)
 
 ### Types / Rvalue and Universal references
 * [(Habr) std::move vs. std::forward](https://habr.com/ru/articles/568306/)
