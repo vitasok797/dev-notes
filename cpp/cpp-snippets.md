@@ -327,6 +327,33 @@ int main()
 </details>
 
 <details>
+<summary>Function object</summary>
+
+:arrow_forward:[**Run**](https://godbolt.org/z/TbKEG4fr9)
+
+```cpp
+#include <iostream>
+
+struct compare_fn
+{
+    constexpr bool operator()(const int& a, const int& b) const
+    {
+        return a < b;
+    }
+};
+
+inline constexpr compare_fn compare{};
+
+int main()
+{
+    std::cout << compare(1, 2) << std::endl;
+    std::cout << compare(2, 2) << std::endl;
+    std::cout << compare(3, 2) << std::endl;
+}
+```
+</details>
+
+<details>
 <summary>Projection</summary>
 
 :arrow_forward:[**Run**](https://godbolt.org/z/bWYxcbKb8)
