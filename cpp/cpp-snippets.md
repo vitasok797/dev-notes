@@ -381,14 +381,14 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <details>
 <summary>Projection</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/eo51Wb8bj)
+:arrow_forward: [**Run**](https://godbolt.org/z/TE89vT7jK)
 
 ```cpp
 #include <functional>
 #include <iostream>
 #include <vector>
 
-struct S
+struct Rect
 {
     std::string name;
     double a = 0.0;
@@ -397,15 +397,17 @@ struct S
     double area() const { return a * b; }
 };
 
-// const Proj&  proj: NO (doesn't accept mutable lambdas)
-//       Proj&  proj: NO (doesn't accept rvalue refs)
-//       Proj&& proj: OK (by ref, but confusing)
-//       Proj   proj: OK
+// const Proj&  proj: OK (cons: doesn't accept mutable lambdas/functors,
+//                              dangerous in case of lazy evaluation)
+//       Proj&  proj: NO (doesn't accept rvalues)
+//       Proj&& proj: OK (cons: confusing if there is no move/forward,
+//                              dangerous in case of lazy evaluation)
+//       Proj   proj: OK (cons: copying)
 template<typename T, typename Proj = std::identity>
 void print_range_with_proj(const T& range, Proj proj = {})
 {
     std::cout << "---------------" << std::endl;
-    for(const auto& x : range)
+    for (const auto& x : range)
     {
         std::cout << std::invoke(proj, x) << std::endl;
     }
@@ -413,16 +415,16 @@ void print_range_with_proj(const T& range, Proj proj = {})
 
 int main()
 {
-    std::vector<S> v1
+    std::vector<Rect> v1
     {
         {"bbb", 1.0, 2.0},
         {"aaa", 11.0, 220.0},
         {"ccc", 12.0, 22.0}
     };
 
-    print_range_with_proj(v1, &S::name);
-    print_range_with_proj(v1, &S::area);
-    print_range_with_proj(v1, [](const auto& s) { return s.a + s.b; });
+    print_range_with_proj(v1, &Rect::name);
+    print_range_with_proj(v1, &Rect::area);
+    print_range_with_proj(v1, [](const auto& rect) { return rect.a + rect.b; });
 
     std::vector<std::string> v2
     {
