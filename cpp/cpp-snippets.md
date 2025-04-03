@@ -225,7 +225,7 @@ struct C final : B
 <details>
 <summary>Object Watcher</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/9Kr9a6YWY)
+:arrow_forward:[**Run**](https://godbolt.org/z/zz43xs8qY)
 
 ```cpp
 #include <atomic>
