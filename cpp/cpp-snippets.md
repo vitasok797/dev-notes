@@ -775,7 +775,7 @@ int main()
 <details>
 <summary>Scope guard</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/xa5Ke9PE4)
+:arrow_forward:[**Run**](https://godbolt.org/z/37ac48jbG)
 
 ```cpp
 #include <utility>
