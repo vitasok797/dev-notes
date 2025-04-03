@@ -138,7 +138,7 @@ int main()
 <details>
 <summary>Template constructors/methods</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/bYa7o56qv)
+:arrow_forward:[**Run**](https://godbolt.org/z/WdTab8MeT)
 
 ```cpp
 #include <iostream>
@@ -154,10 +154,10 @@ public:
     }
 
     // SURPRISE
-    // catches only rvalues
-    // T&& is rvalue ref of type T
-    // not forwarding/universal ref
-    TestClass1(T&& x) : x_{std::move(x)}
+    // Catches only rvalues
+    // T&& is rvalue ref of type T (not forwarding/universal ref)
+    // Both std::move and std::forward are acceptable
+    TestClass1(T&& x) : x_{std::forward<T>(x)}
     {
         std::cout << "TestClass1 [T&&]";
         std::cout << (std::is_rvalue_reference<decltype(x)>::value ? " rvalue_ref" : "");
