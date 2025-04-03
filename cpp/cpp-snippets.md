@@ -56,7 +56,7 @@ struct BriefExample
 };
 ```
 
-:arrow_forward:[**Run**](https://godbolt.org/z/MEdMY1b9e)
+:arrow_forward: [**Run**](https://godbolt.org/z/MEdMY1b9e)
 
 ```cpp
 #include <iostream>
@@ -138,7 +138,7 @@ int main()
 <details>
 <summary>Template constructors/methods</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/WdTab8MeT)
+:arrow_forward: [**Run**](https://godbolt.org/z/WdTab8MeT)
 
 ```cpp
 #include <iostream>
@@ -225,7 +225,7 @@ struct C final : B
 <details>
 <summary>Object Watcher</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/zz43xs8qY)
+:arrow_forward: [**Run**](https://godbolt.org/z/zz43xs8qY)
 
 ```cpp
 #include <atomic>
@@ -332,7 +332,7 @@ int main()
 <details>
 <summary>Function object</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/TbKEG4fr9)
+:arrow_forward: [**Run**](https://godbolt.org/z/TbKEG4fr9)
 
 ```cpp
 #include <iostream>
@@ -359,7 +359,7 @@ int main()
 <details>
 <summary>Projection</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/bWYxcbKb8)
+:arrow_forward: [**Run**](https://godbolt.org/z/bWYxcbKb8)
 
 ```cpp
 #include <functional>
@@ -597,7 +597,7 @@ namespace B
 <details>
 <summary>ostream <<</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/EqjfMKhav)
+:arrow_forward: [**Run**](https://godbolt.org/z/EqjfMKhav)
 
 ```cpp
 #include <iostream>
@@ -658,7 +658,7 @@ condition ? true_expression : false_expression
 <details>
 <summary>String builder</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/fYsc3b4nn)
+:arrow_forward: [**Run**](https://godbolt.org/z/fYsc3b4nn)
 
 ```cpp
 #include <iostream>
@@ -705,7 +705,7 @@ int main()
 <details>
 <summary>Rvalue/universal references (test)</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/sWPxzY5c9)
+:arrow_forward: [**Run**](https://godbolt.org/z/sWPxzY5c9)
 
 ```cpp
 #include <iostream>
@@ -761,7 +761,7 @@ int main()
 <details>
 <summary>Scope guard</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/37ac48jbG)
+:arrow_forward: [**Run**](https://godbolt.org/z/37ac48jbG)
 
 ```cpp
 #include <utility>
