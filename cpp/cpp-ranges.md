@@ -74,7 +74,7 @@ auto odd_numbers = v | ranges::views::remove_if(is_even);
 <details>
 <summary>Group by</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/G977zc3G9)
+:arrow_forward: [**Run**](https://godbolt.org/z/G977zc3G9)
 
 ```cpp
 #include <iostream>
@@ -192,7 +192,7 @@ v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { retur
 <details>
 <summary>Copy to ostream</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/qTj6jvvYY)
+:arrow_forward: [**Run**](https://godbolt.org/z/qTj6jvvYY)
 
 ```cpp
 #include <iostream>
@@ -219,7 +219,7 @@ int main()
 <details>
 <summary>Projections</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/cjcda7WG4)
+:arrow_forward: [**Run**](https://godbolt.org/z/cjcda7WG4)
 
 ```cpp
 #include <iostream>
@@ -297,7 +297,7 @@ int main()
 <details>
 <summary>Custom views</summary>
 
-:arrow_forward:[**Run**](https://godbolt.org/z/hYo5hePrs)
+:arrow_forward: [**Run**](https://godbolt.org/z/hYo5hePrs)
 
 ```cpp
 #include <format>
