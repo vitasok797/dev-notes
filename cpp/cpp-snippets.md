@@ -657,6 +657,19 @@ namespace B
 ```
 </details>
 
+<details>
+<summary>Using namespace member</summary>
+
+```cpp
+using std::cout;
+using std::endl;
+```
+
+```cpp
+using std::cout, std::endl;
+```
+</details>
+
 ## Operators
 
 <details>
