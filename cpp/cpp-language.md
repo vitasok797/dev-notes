@@ -78,13 +78,13 @@
 * [std::initializer_list in C++ 1/2](https://www.cppstories.com/2023/initializer_list_basics/)
 * [std::initializer_list in C++ 2/2](https://www.cppstories.com/2023/initializer_list_improvements/)
 * [(Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
-* [(Abseil TotW) Default vs Value Initialization](https://abseil.io/tips/146)
+* [(Abseil Tips) Default vs Value Initialization](https://abseil.io/tips/146)
   ([default](https://en.cppreference.com/w/cpp/language/default_initialization), [value](https://en.cppreference.com/w/cpp/language/value_initialization))
 
 ### Initialization / {}-initializer syntax
 * [GotW #1 Solution: Variable Initialization](https://herbsutter.com/2013/05/09/gotw-1-solution/)
 * [The Knightmare of Initialization in C++](https://quuxplusone.github.io/blog/2019/02/18/knightmare-of-initialization/)
-* [(Abseil TotW) Best Practices for Initialization](https://abseil.io/tips/88)
+* [(Abseil Tips) Best Practices for Initialization](https://abseil.io/tips/88)
 * [(CG) ES.23: Prefer the {}-initializer syntax](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es23-prefer-the--initializer-syntax)
 
 ### Initialization / Constexpr
@@ -95,7 +95,7 @@
 * [How to Find the Type of an Object in C++](https://www.delftstack.com/howto/cpp/cpp-find-object-type/)
 * [std::reference_wrapper](https://www.learncpp.com/cpp-tutorial/arrays-of-references-via-stdreference_wrapper/)
 * [(Habr) RVO и NRVO в C++17](https://habr.com/ru/companies/vk/articles/666330/)
-* [(Abseil TotW) Tag Types](https://abseil.io/tips/198)
+* [(Abseil Tips) Tag Types](https://abseil.io/tips/198)
 
 ### Types / Auto
 * [GotW #94 Solution: AAA Style (Almost Always Auto)](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/)
