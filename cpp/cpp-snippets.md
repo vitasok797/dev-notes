@@ -430,7 +430,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <details>
 <summary>Projection</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/vTnvd951E)
+:arrow_forward: [**Run**](https://godbolt.org/z/1o4q98enE)
 
 ```cpp
 #include <functional>
@@ -447,26 +447,19 @@ struct Rect
 };
 
 //=============================================================================
-// Just run projection
+// Run projection
 //-----------------------------------------------------------------------------
-// const P&  proj: YES
-//       P&  proj: NO
-//       P&& proj: NO
-//       P   proj: ACCEPTABLE (cons: copying)
-//=============================================================================
-// Just run projection (supporting mutable lambdas/functors)
-//-----------------------------------------------------------------------------
-// const P&  proj: NO
+// const P&  proj: NO (doesn't accept mutable lambdas/functors)
 //       P&  proj: NO (doesn't accept rvalues)
-//       P&& proj: ACCEPTABLE (confusing if there is no std::forward)
-//       P   proj: YES (cons: copying)
+//       P&& proj: NO (confusing if there is no forwarding)
+//       P   proj: YES
 //=============================================================================
 // Store projection for lazy evaluation
 //-----------------------------------------------------------------------------
 // const P&  proj: NO
 //       P&  proj: NO
 //       P&& proj: YES (accept by forwarding ref, then store by std::forward)
-//       P   proj: ACCEPTABLE (accept copy by value, then store by std::move)
+//       P   proj: YES (accept copy by value, then store by std::move)
 //=============================================================================
 template<typename R, typename P = std::identity>
 void print_range_with_proj(const R& range, P proj = {})
