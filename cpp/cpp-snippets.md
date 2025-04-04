@@ -62,6 +62,34 @@ private:
 </details>
 
 <details>
+<summary>Constructor inheritance</summary>
+
+
+```cpp
+struct A
+{
+    explicit A(int x) {}
+};
+
+class B: public A
+{
+    using A::A;
+};
+```
+
+```cpp
+#include <vector>
+
+template<class T>
+class my_vector : public std::vector<T>
+{
+public:
+    using std::vector<T>::std::vector;  // Takes all vector's constructors
+};
+```
+</details>
+
+<details>
 <summary>Static/const fields</summary>
 
 ```cpp
