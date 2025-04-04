@@ -624,6 +624,41 @@ int main()
 ## Namespace
 
 <details>
+<summary>Inline namespace</summary>
+
+```cpp
+#include <iostream>
+
+inline namespace V1
+{
+    void doSomething()
+    {
+        std::cout << "V1\n";
+    }
+}
+
+namespace V2
+{
+    void doSomething()
+    {
+        std::cout << "V2\n";
+    }
+}
+
+int main()
+{
+    V1::doSomething();
+    V2::doSomething();
+
+    // calls V1
+    doSomething();
+
+    return 0;
+}
+```
+</details>
+
+<details>
 <summary>Namespace alias</summary>
 
 ```cpp
