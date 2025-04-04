@@ -862,3 +862,59 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 struct {} _ = ...
 ```
 </details>
+
+## Var
+
+<details>
+<summary>std::optional</summary>
+
+:arrow_forward: [**Run**](https://godbolt.org/z/4bPoh8Wbc)
+
+```cpp
+#include <iostream>
+#include <optional>
+#include <vector>
+
+std::optional<std::string> create(bool is_success)
+{
+    if (!is_success) return {};  // or std::nullopt;
+    return "hello";
+}
+
+void test(bool is_success)
+{
+    std::cout << std::boolalpha;
+    std::cout << "--- is_success: " << is_success << " ---" << std::endl;
+
+    // ---------------------------------------------------------------------------
+
+    auto value = create(is_success);
+
+    std::cout << value.value_or("nullopt") << std::endl;
+
+    if (value)
+        std::cout << *value << std::endl;
+
+    if (value.has_value())
+        std::cout << value.value() << std::endl;
+
+    // ---------------------------------------------------------------------------
+
+    if (auto str = create(is_success); str)
+        std::cout << *str << std::endl;
+
+    // ---------------------------------------------------------------------------
+
+    // construct in_place
+    std::optional<std::vector<int>> opt_vec(std::in_place, {1, 2, 3});
+
+    // ---------------------------------------------------------------------------
+}
+
+int main()
+{
+    test(true);
+    test(false);
+}
+```
+</details>
