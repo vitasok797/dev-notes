@@ -868,7 +868,7 @@ struct {} _ = ...
 <details>
 <summary>std::optional</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/4bPoh8Wbc)
+:arrow_forward: [**Run**](https://godbolt.org/z/oaTc8E7qx)
 
 ```cpp
 #include <iostream>
@@ -906,7 +906,7 @@ void test(bool is_success)
     // ---------------------------------------------------------------------------
 
     // construct in_place
-    std::optional<std::vector<int>> opt_vec(std::in_place, {1, 2, 3});
+    const std::optional<std::vector<int>> opt_vec(std::in_place, {1, 2, 3});
 
     // ---------------------------------------------------------------------------
 }
