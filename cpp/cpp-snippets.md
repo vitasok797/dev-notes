@@ -770,12 +770,13 @@ int main()
 <details>
 <summary>Rvalue/universal references (test)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/sWPxzY5c9)
+:arrow_forward: [**Run**](https://godbolt.org/z/s7Gxe1aEP)
 
 ```cpp
 #include <iostream>
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 #define IS_RVALUE_REF(x) (std::is_rvalue_reference<decltype(x)>::value ? " (rvalue_ref)" : "")
 
