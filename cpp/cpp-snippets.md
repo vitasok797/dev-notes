@@ -874,7 +874,7 @@ int main()
 <details>
 <summary>Scope guard</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/37ac48jbG)
+:arrow_forward: [**Run**](https://godbolt.org/z/dqM38o84E)
 
 ```cpp
 #include <utility>
@@ -904,7 +904,7 @@ private:
 };
 
 template<typename F>
-[[nodiscard]] ScopeGuard<F> make_scope_guard(F&& f) noexcept
+[[nodiscard]] auto make_scope_guard(F&& f) noexcept
 {
     return ScopeGuard<std::decay_t<F>>{std::forward<F>(f)};
 }
@@ -914,17 +914,21 @@ Demo:
 ```cpp
 #include <iostream>
 
+using std::cout, std::endl;
+
 int main()
 {
+    auto guard1 = ScopeGuard([]() { cout << "guard1" << endl; });
+    auto guard2 = make_scope_guard([]() { cout << "guard2" << endl; });
+
     std::string resource = "resource";
-    auto _ = ScopeGuard([&]() { std::cout << "guard1: " << resource << std::endl; });
+    auto lam3 = [&resource]() { cout << "guard3: " << resource << endl; };
+    auto guard3 = make_scope_guard(lam3);
 
-    auto guard2 = make_scope_guard([]() { std::cout << "guard2" << std::endl; });
+    auto guard4 = make_scope_guard([]() { cout << "guard4 (dismissed)" << endl; });
+    guard4.dismiss();
 
-    auto guard3 = make_scope_guard([]() { std::cout << "guard3" << std::endl; });
-    guard3.dismiss();
-
-    std::cout << "--- scope out ---" << std::endl;
+    cout << "--- scope out ---" << endl;
 }
 ```
 </details>
