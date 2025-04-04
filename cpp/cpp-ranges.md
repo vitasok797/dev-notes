@@ -40,11 +40,12 @@
 <summary>Range argument</summary>
 
 ```cpp
-void func(const auto& r);
-void func(auto&& r);
+void func([const] auto[&&] rng);
+```
 
-void func_with_concept(const ranges::range auto& r);
-void func_with_concept(ranges::range auto&& r);
+```cpp
+void func_with_concept([const] ranges::range auto[&&] rng);
+void func_with_concept([const] ranges::output_range auto[&&] rng);
 ```
 </details>
 
