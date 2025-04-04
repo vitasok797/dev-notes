@@ -40,6 +40,28 @@ private:
 </details>
 
 <details>
+<summary>Constructor default arguments</summary>
+
+```cpp
+#include <string>
+#include <string_view>
+
+class Employee
+{
+private:
+    static constexpr int default_id = 0;
+
+    std::string name_;
+    int id_ = default_id;
+
+public:
+    Employee(std::string_view name, int id = default_id)
+        : name_{name}, id_{id} {}
+};
+```
+</details>
+
+<details>
 <summary>Static/const fields</summary>
 
 ```cpp
