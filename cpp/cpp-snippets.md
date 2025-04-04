@@ -64,7 +64,6 @@ private:
 <details>
 <summary>Constructor inheritance</summary>
 
-
 ```cpp
 struct A
 {
