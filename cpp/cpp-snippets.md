@@ -819,7 +819,7 @@ int main()
 ## Type
 
 <details>
-<summary>Rvalue/universal references (test)</summary>
+<summary>Function overload resolution (test)</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/4M917bjra)
 
