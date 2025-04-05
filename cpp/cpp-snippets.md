@@ -356,6 +356,16 @@ int main()
 ```
 </details>
 
+<details>
+<summary>Type deduction</summary>
+
+[(StackOverflow) Using 'auto' type deduction - how to find out what type the compiler deduced?](https://stackoverflow.com/questions/38820579/using-auto-type-deduction-how-to-find-out-what-type-the-compiler-deduced)
+
+```cpp
+struct {} _ = ...
+```
+</details>
+
 ## Functional
 
 <details>
@@ -944,16 +954,6 @@ using func = void (*) (int, int);
 ```cpp
 template<typename T>
 using UserAccounts = std::map<UserId, std::vector<T>>;
-```
-</details>
-
-<details>
-<summary>Type deduction (output)</summary>
-
-[(StackOverflow) Using 'auto' type deduction - how to find out what type the compiler deduced?](https://stackoverflow.com/questions/38820579/using-auto-type-deduction-how-to-find-out-what-type-the-compiler-deduced)
-
-```cpp
-struct {} _ = ...
 ```
 </details>
 
