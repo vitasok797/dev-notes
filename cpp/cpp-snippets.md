@@ -821,38 +821,40 @@ int main()
 <details>
 <summary>Rvalue/universal references (test)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/5n6YzzP61)
+:arrow_forward: [**Run**](https://godbolt.org/z/4M917bjra)
 
 ```cpp
 #include <iostream>
 
 using std::cout, std::endl;
 
-#define IS_RVALUE_REF(x) (std::is_rvalue_reference<decltype(x)>::value ? " (rvalue_ref)" : "")
+// ----------------------------------------------------------------------------------------------
+
+#define IS_RVALUE_REF(x) (std::is_rvalue_reference<decltype(x)>::value ? " (RVALUE)" : "")
+
+#ifdef _MSC_VER
+#define FUNC_INFO(arg) __FUNCSIG__ << IS_RVALUE_REF(arg)
+#define FUNC_NAME_INFO(arg, name) "(" << name << "): " << FUNC_INFO(arg)
+#else
+#define FUNC_INFO(arg) __PRETTY_FUNCTION__ << IS_RVALUE_REF(arg)
+#define FUNC_NAME_INFO(arg, name) FUNC_INFO(arg)
+#endif
 
 // ----------------------------------------------------------------------------------------------
 
-template<typename T>
-void func_templ(const T& x) { cout << "const T&" << endl; }
+template<typename T> void ft(const T& x) { cout << FUNC_NAME_INFO(x, "const T&") << endl; }
 
-template<typename T>
-void func_templ(T& x) { cout << "T&" << endl; }
+template<typename T> void ft(T& x) { cout << FUNC_NAME_INFO(x, "T&") << endl; }
 
-template<typename T>
-void func_templ(T&& x) { cout << "T&&" << IS_RVALUE_REF(x) << endl; }
-
-// template<typename T>
-// void func_templ(T x) { cout << "T" << endl; }
+template<typename T> void ft(T&& x) { cout << FUNC_NAME_INFO(x, "T&&") << endl; }
 
 // ----------------------------------------------------------------------------------------------
 
-void func(const int& x) { cout << "const int&" << endl; }
+void f(const int& x) { cout << FUNC_INFO(x) << endl; }
 
-void func(int& x) { cout << "int&" << endl; }
+void f(int& x) { cout << FUNC_INFO(x) << endl; }
 
-void func(int&& x) { cout << "int&&" << IS_RVALUE_REF(x) << endl; }
-
-// void func(int x) { cout << "int" << endl; }
+void f(int&& x) { cout << FUNC_INFO(x) << endl; }
 
 // ----------------------------------------------------------------------------------------------
 
@@ -861,15 +863,15 @@ int main()
     const int ci = 0;
     int i = 0;
 
-    func_templ(ci);
-    func_templ(i);
-    func_templ(0);
+    ft(ci);
+    ft(i);
+    ft(0);
 
     cout << endl;
 
-    func(ci);
-    func(i);
-    func(0);
+    f(ci);
+    f(i);
+    f(0);
 }
 ```
 </details>
