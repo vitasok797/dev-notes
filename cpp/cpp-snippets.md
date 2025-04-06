@@ -959,6 +959,18 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
 </details>
 
+<details>
+<summary>Universal (forwarding) reference with type constrains</summary>
+
+[(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
+
+:arrow_forward: [**Run**]()
+
+```cpp
+
+```
+</details>
+
 ## Var
 
 <details>
