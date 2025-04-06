@@ -967,9 +967,33 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 :arrow_forward: [**Run**](https://godbolt.org/z/Yr73zqGsb)
 
 ```cpp
+template<std::convertible_to<double> T>
+void func_double(T&& x) {...}
 ```
 
 ```cpp
+template<typename T>
+requires std::same_as<std::decay_t<T>, std::string>
+void func_string(T&& x) {...}
+
+void demo()
+{
+    std::string s = "111";
+    func_string(s);
+
+    func_string("222");  // error
+    func_string<std::string>("222");
+    func_string(std::string{"222"});
+}
+```
+
+```cpp
+template<typename T1, typename T2>
+concept type_is = std::same_as<std::decay_t<T1>, T2>;
+
+template<typename T>
+requires type_is<T, std::string>
+void func_string(T&& x) {...}
 ```
 </details>
 
