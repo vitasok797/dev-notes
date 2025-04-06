@@ -37,15 +37,15 @@
 ## Snippets
 
 <details>
-<summary>Range argument</summary>
+<summary>Range as argument</summary>
 
 ```cpp
-void func([const] auto[&&] rng);
+void func([const] auto[&][&&] rng);
 ```
 
 ```cpp
-void func_with_concept([const] ranges::range auto[&&] rng);
-void func_with_concept([const] ranges::output_range auto[&&] rng);
+void func_with_concept([const] ranges::range auto[&][&&] rng);
+void func_with_concept([const] ranges::output_range auto[&][&&] rng);
 ```
 </details>
 
