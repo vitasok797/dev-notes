@@ -65,6 +65,7 @@
 * Visual Studio:
   * [C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
   * [C++ Code analysis in Visual Studio: Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
+  * [AddressSanitizer](https://learn.microsoft.com/en-us/cpp/sanitizers/asan)
 
 ## Visual Studio
 * [Visual Studio 2022 Release History](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
@@ -72,7 +73,6 @@
 * [C++ binary compatibility between Visual Studio versions](https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)
 * [Visual Studio version map](https://gist.github.com/RDCH106/40fe61f447df58c1b9c83a1781374bcd)
 * [Portable Build Tools](https://github.com/Data-Oriented-House/PortableBuildTools)
-* [AddressSanitizer](https://learn.microsoft.com/en-us/cpp/sanitizers/asan)
 
 ### Visual Studio / Extensions
 * Linters and Analyzers:
