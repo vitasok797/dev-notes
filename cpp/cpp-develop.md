@@ -72,6 +72,7 @@
 * [C++ binary compatibility between Visual Studio versions](https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)
 * [Visual Studio version map](https://gist.github.com/RDCH106/40fe61f447df58c1b9c83a1781374bcd)
 * [Portable Build Tools](https://github.com/Data-Oriented-House/PortableBuildTools)
+* [AddressSanitizer](https://learn.microsoft.com/en-us/cpp/sanitizers/asan)
 
 ### Visual Studio / Extensions
 * Linters and Analyzers:
