@@ -42,19 +42,19 @@
 :arrow_forward: [**Run**](https://godbolt.org/z/hExn53qWf)
 
 ```cpp
-void func([const] auto[&][&&] rng);
+void func([const] auto[&][&&] rng) {}
 ```
 
 ```cpp
-void func_with_concept([const] ranges::range auto[&][&&] rng);
-void func_with_concept([const] ranges::output_range auto[&][&&] rng);
+void func_with_concept([const] ranges::range auto[&][&&] rng) {}
+void func_with_concept([const] ranges::output_range auto[&][&&] rng) {}
 
 template<typename R>
 requires ranges::range<R>
-void func_with_concept([const] R[&][&&] rng);
+void func_with_concept([const] R[&][&&] rng) {}
 
 template<ranges::range R>
-void func_with_concept([const] R[&][&&] rng);
+void func_with_concept([const] R[&][&&] rng) {}
 ```
 </details>
 
