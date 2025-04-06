@@ -967,16 +967,20 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 :arrow_forward: [**Run**](https://godbolt.org/z/Yr73zqGsb)
 
 ```cpp
+#include <concepts>
+
 template<std::convertible_to<double> T>
 void func_double(T&& x) {...}
 ```
 
 ```cpp
+#include <concepts>
+
 template<typename T>
 requires std::same_as<std::decay_t<T>, std::string>
 void func_string(T&& x) {...}
 
-void demo()
+int main()
 {
     std::string s = "111";
     func_string(s);
@@ -988,6 +992,8 @@ void demo()
 ```
 
 ```cpp
+#include <concepts>
+
 template<typename T1, typename T2>
 concept type_is = std::same_as<std::decay_t<T1>, T2>;
 
