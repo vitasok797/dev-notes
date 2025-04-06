@@ -964,10 +964,12 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 
 [(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
 
-:arrow_forward: [**Run**]()
+:arrow_forward: [**Run**](https://godbolt.org/z/Yr73zqGsb)
 
 ```cpp
+```
 
+```cpp
 ```
 </details>
 
