@@ -964,7 +964,7 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 
 [(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/Yr73zqGsb)
+:arrow_forward: [**Run**](https://godbolt.org/z/MfKo5GeT1)
 
 ```cpp
 #include <concepts>
@@ -995,10 +995,10 @@ int main()
 #include <concepts>
 
 template<typename T1, typename T2>
-concept type_is = std::same_as<std::decay_t<T1>, T2>;
+concept same_type = std::same_as<std::decay_t<T1>, std::decay_t<T2>>;
 
 template<typename T>
-requires type_is<T, std::string>
+requires same_type<T, std::string>
 void func_string(T&& x) {...}
 ```
 </details>
