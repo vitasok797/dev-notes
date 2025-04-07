@@ -391,8 +391,20 @@ int main()
 <details>
 <summary>Function as argument</summary>
 
-```cpp
+:arrow_forward: [**Run**](https://godbolt.org/z/WcaY5h6fb)
 
+```cpp
+void func_arg(std::function<int(int, int)> f)
+{
+    int res = f(1, 2);
+}
+```
+
+```cpp
+void func_arg(auto f)
+{
+    int res = f(1, 2);
+}
 ```
 </details>
 
