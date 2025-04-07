@@ -899,7 +899,7 @@ int main()
 <details>
 <summary>Scope guard</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/dqM38o84E)
+:arrow_forward: [**Run**](https://godbolt.org/z/G3j3P1z8c)
 
 ```cpp
 #include <utility>
@@ -941,17 +941,30 @@ Demo:
 
 using std::cout, std::endl;
 
+struct Resource
+{
+    Resource() { cout << "resource created" << endl; }
+    void use() { cout << "resource using" << endl; }
+    void close() { cout << "resource closed" << endl; }
+} ;
+
 int main()
 {
+    {
+        Resource resource;
+        auto resource_guard = make_scope_guard([&]() { resource.close(); });
+        // ...
+        resource.use();
+        // ...
+    }
+
     auto guard1 = ScopeGuard([]() { cout << "guard1" << endl; });
-    auto guard2 = make_scope_guard([]() { cout << "guard2" << endl; });
 
-    std::string resource = "resource";
-    auto lam3 = [&resource]() { cout << "guard3: " << resource << endl; };
-    auto guard3 = make_scope_guard(lam3);
+    auto lam2 = []() { cout << "guard2" << endl; };
+    auto guard2 = make_scope_guard(lam2);
 
-    auto guard4 = make_scope_guard([]() { cout << "guard4 (dismissed)" << endl; });
-    guard4.dismiss();
+    auto guard3 = make_scope_guard([]() { cout << "guard3" << endl; });
+    guard3.dismiss();
 
     cout << "--- scope out ---" << endl;
 }
