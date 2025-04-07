@@ -389,6 +389,14 @@ int main()
 </details>
 
 <details>
+<summary>Function as argument</summary>
+
+```cpp
+
+```
+</details>
+
+<details>
 <summary>Function object</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/7xMds9jjq)
