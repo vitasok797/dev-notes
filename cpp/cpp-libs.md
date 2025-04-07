@@ -147,6 +147,7 @@
 * Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
 
 ### Types / Scope guard
+* [Boost.Scope](https://www.boost.org/doc/libs/release/libs/scope/doc/html/index.html)
 * [GSL \<util\> final_action](https://github.com/microsoft/GSL/blob/main/include/gsl/util)
 * <https://github.com/ricab/scope_guard> ([vcpkg](https://vcpkg.io/en/package/scope-guard))
 * <https://github.com/Neargye/scope_guard> (no vcpkg, header-only)
