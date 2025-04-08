@@ -880,7 +880,7 @@ int main()
 <details>
 <summary>Scope guard</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/zGrjasW9o)
+:arrow_forward: [**Run**](https://godbolt.org/z/Pe14e4e4E)
 
 ```cpp
 #include <utility>
@@ -935,35 +935,51 @@ struct Resource
 
 int main()
 {
-    auto guard1 = ScopeGuard([]() { cout << "guard1" << endl; });
-
-    auto lam2 = []() { cout << "guard2" << endl; };
-    auto guard2 = make_scope_guard(lam2);
-
-    auto guard3 = make_scope_guard([]() { cout << "guard3" << endl; });
-    guard3.dismiss();
-
     {
-        Resource resource;
-        ScopeGuard scope_guard = [&]() { resource.close(); };
-        // ...
-        resource.use();
-        // ...
+        cout << "--- scope in 1 ---" << endl;
+
+        auto guard1 = ScopeGuard([]() { cout << "guard1" << endl; });
+
+        auto lam2 = []() { cout << "guard2" << endl; };
+        auto guard2 = make_scope_guard(lam2);
+
+        auto guard3 = make_scope_guard([]() { cout << "guard3" << endl; });
+        guard3.dismiss();
+
+        cout << "--- scope out 1 ---" << endl;
     }
 
     cout << endl;
 
     {
+        cout << "--- scope in 2 ---" << endl;
+
+        Resource resource;
+        ScopeGuard scope_guard = [&]() { resource.close(); };
+
+        // ...
+        resource.use();
+        // ...
+
+        cout << "--- scope out 2 ---" << endl;
+    }
+
+    cout << endl;
+
+    {
+        cout << "--- scope in 3 ---" << endl;
+
         SCOPE_GUARD{ cout << "additional SCOPE_GUARD" << endl; };
 
         Resource resource;
         SCOPE_GUARD{ resource.close(); };
+
         // ...
         resource.use();
         // ...
-    }
 
-    cout << "--- scope out ---" << endl;
+        cout << "--- scope out 3 ---" << endl;
+    }
 }
 ```
 </details>
