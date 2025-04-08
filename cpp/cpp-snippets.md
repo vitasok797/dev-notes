@@ -394,6 +394,8 @@ int main()
 :arrow_forward: [**Run**](https://godbolt.org/z/WcaY5h6fb)
 
 ```cpp
+#include <functional>
+
 void func_arg(std::function<int(int, int)> f)
 {
     int res = f(1, 2);
