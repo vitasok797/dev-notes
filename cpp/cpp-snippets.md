@@ -333,33 +333,6 @@ private:
     bool moved_ = false;
 };
 ```
-
-Demo:
-```cpp
-#include <iostream>
-
-int main()
-{
-    std::cout << "--- ctor ---" << std::endl;
-    ObjWatcher A;
-
-    std::cout << "--- copy ctor ---" << std::endl;
-    ObjWatcher B = A;
-
-    std::cout << "--- copy assignement ---" << std::endl;
-    ObjWatcher C;
-    C = A;
-
-    std::cout << "--- move ctor ---" << std::endl;
-    ObjWatcher D = std::move(A);
-
-    std::cout << "--- move assignement ---" << std::endl;
-    ObjWatcher E;
-    E = std::move(B);
-
-    std::cout << "--- end ---" << std::endl;
-}
-```
 </details>
 
 <details>
