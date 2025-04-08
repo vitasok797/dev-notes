@@ -280,7 +280,7 @@ struct C final : B
 <details>
 <summary>Object Watcher</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/zz43xs8qY)
+:arrow_forward: [**Run**](https://godbolt.org/z/r3ecjxY5d)
 
 ```cpp
 #include <atomic>
@@ -289,30 +289,30 @@ struct C final : B
 class ObjWatcher
 {
 public:
-    ObjWatcher() : index_(++counter_)
+    ObjWatcher() noexcept : index_(++counter_)
     {
         std::cout << "ObjWatcher: created (" << index_ << ")" << std::endl;
     };
 
-    ObjWatcher(const ObjWatcher& other) : index_(++counter_)
+    ObjWatcher(const ObjWatcher& other) noexcept : index_(++counter_)
     {
         std::cout << "ObjWatcher: created (" << index_ << ") copy from (" << other.index_ << ")" << std::endl;
     };
 
-    ObjWatcher(ObjWatcher&& other) : index_(++counter_)
+    ObjWatcher(ObjWatcher&& other) noexcept : index_(++counter_)
     {
         other.moved_ = true;
         std::cout << "ObjWatcher: created (" << index_ << ") move from (" << other.index_ << ")" << std::endl;
     };
 
-    ObjWatcher& operator=(const ObjWatcher& other)
+    ObjWatcher& operator=(const ObjWatcher& other) noexcept
     {
         moved_ = false;
         std::cout << "ObjWatcher: (" << index_ << ") copy assigned from (" << other.index_ << ")" << std::endl;
         return *this;
     };
 
-    ObjWatcher& operator=(ObjWatcher&& other)
+    ObjWatcher& operator=(ObjWatcher&& other) noexcept
     {
         moved_ = false;
         other.moved_ = true;
@@ -320,7 +320,7 @@ public:
         return *this;
     };
 
-    virtual ~ObjWatcher()
+    virtual ~ObjWatcher() noexcept
     {
         std::cout << "ObjWatcher: destroyed (" << index_ << ")";
         if (moved_) std::cout << " [moved]";
