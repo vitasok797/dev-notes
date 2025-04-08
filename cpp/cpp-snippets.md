@@ -37,6 +37,12 @@ private:
     // Data members
 };
 ```
+
+:warning: Don't forget "noexcept" at least for move operations:
+```cpp
+MyClass(MyClass&& other) noexcept {...}
+MyClass& operator=(MyClass&& other) noexcept {...}
+```
 </details>
 
 <details>
