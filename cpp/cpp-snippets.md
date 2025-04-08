@@ -552,7 +552,7 @@ switch (auto ch = getnext(); ch)
 ```
 
 ```cpp
-if (auto [itelem, success] = mymap.insert(std::pair('a', 100)); success) {...}
+if (auto [it_elem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 ```
 </details>
 
