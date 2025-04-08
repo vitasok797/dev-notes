@@ -38,7 +38,7 @@ private:
 };
 ```
 
-:warning: Make explicit move operations "noexcept" [C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-move-noexcept):
+:warning: Make explicit move operations "noexcept" ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rc-move-noexcept)):
 ```cpp
 MyClass(MyClass&& other) noexcept {...}
 MyClass& operator=(MyClass&& other) noexcept {...}
