@@ -43,6 +43,11 @@ private:
 MyClass(MyClass&& other) noexcept {...}
 MyClass& operator=(MyClass&& other) noexcept {...}
 ```
+
+:warning: Make explicit destructors "noexcept" ([C.37](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c37-make-destructors-noexcept)):
+```cpp
+~MyClass() noexcept {...}
+```
 </details>
 
 <details>
