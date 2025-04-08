@@ -880,17 +880,21 @@ int main()
 <details>
 <summary>Scope guard</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/G3j3P1z8c)
+:arrow_forward: [**Run**](https://godbolt.org/z/zGrjasW9o)
 
 ```cpp
 #include <utility>
+
+#define SCOPE_GUARD ScopeGuard SCOPE_GUARD_UNIQ_NAME(__LINE__) = [&]()
+#define SCOPE_GUARD_UNIQ_NAME(line) SCOPE_GUARD_UNIQ_NAME2(line)
+#define SCOPE_GUARD_UNIQ_NAME2(line) scope_guard_##line
 
 template<typename F>
 class ScopeGuard
 {
 public:
-    [[nodiscard]] explicit ScopeGuard(const F& f) noexcept : f_{f} {}
-    [[nodiscard]] explicit ScopeGuard(F&& f) noexcept : f_{std::forward<F>(f)} {}
+    [[nodiscard]] ScopeGuard(const F& f) noexcept : f_{f} {}
+    [[nodiscard]] ScopeGuard(F&& f) noexcept : f_{std::forward<F>(f)} {}
 
     ~ScopeGuard() noexcept { if (invoke_) f_(); }
 
@@ -931,14 +935,6 @@ struct Resource
 
 int main()
 {
-    {
-        Resource resource;
-        auto resource_guard = make_scope_guard([&]() { resource.close(); });
-        // ...
-        resource.use();
-        // ...
-    }
-
     auto guard1 = ScopeGuard([]() { cout << "guard1" << endl; });
 
     auto lam2 = []() { cout << "guard2" << endl; };
@@ -946,6 +942,26 @@ int main()
 
     auto guard3 = make_scope_guard([]() { cout << "guard3" << endl; });
     guard3.dismiss();
+
+    {
+        Resource resource;
+        ScopeGuard scope_guard = [&]() { resource.close(); };
+        // ...
+        resource.use();
+        // ...
+    }
+
+    cout << endl;
+
+    {
+        SCOPE_GUARD{ cout << "additional SCOPE_GUARD" << endl; };
+
+        Resource resource;
+        SCOPE_GUARD{ resource.close(); };
+        // ...
+        resource.use();
+        // ...
+    }
 
     cout << "--- scope out ---" << endl;
 }
