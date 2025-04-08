@@ -38,7 +38,7 @@ private:
 };
 ```
 
-:warning: Don't forget "noexcept" at least for move operations:
+:warning: Don't forget "noexcept" for explicit constructors/operations (at least for move):
 ```cpp
 MyClass(MyClass&& other) noexcept {...}
 MyClass& operator=(MyClass&& other) noexcept {...}
