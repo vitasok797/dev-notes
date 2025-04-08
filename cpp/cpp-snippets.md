@@ -40,7 +40,7 @@ private:
 </details>
 
 <details>
-<summary>Constructor default arguments</summary>
+<summary>Constructor with default arguments</summary>
 
 ```cpp
 #include <string>
