@@ -62,9 +62,9 @@ void func_with_concept([const] R[&][&&] rng) {}
 <summary>Range from iterators</summary>
 
 ```cpp
-std::vector<int> v{1, 2, 3};
+std::vector<int> v{1, 2, 3, 4, 5};
 
-auto rng = ranges::subrange(v.begin() + 1, v.end());
+auto rng = ranges::subrange(v.begin() + 2, v.end());
 ```
 </details>
 
