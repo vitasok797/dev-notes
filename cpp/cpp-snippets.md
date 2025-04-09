@@ -714,7 +714,7 @@ using std::cout, std::endl;
 <details>
 <summary>ostream <<</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/EqjfMKhav)
+:arrow_forward: [**Run**](https://godbolt.org/z/xxvKdr8o8)
 
 ```cpp
 #include <iostream>
@@ -728,7 +728,7 @@ struct Person
     int year;
 };
 
-std::ostream& operator<<(std::ostream& os, const Person& person)
+inline std::ostream& operator<<(std::ostream& os, const Person& person)
 {
     return os << person.surname << " " << person.firstname << " was born in " << person.year;
 }
@@ -747,7 +747,7 @@ public:
     friend std::ostream& operator<<(std::ostream& os, const PrivatePerson& person);
 };
 
-std::ostream& operator<<(std::ostream& os, const PrivatePerson& person)
+inline std::ostream& operator<<(std::ostream& os, const PrivatePerson& person)
 {
     return os << person.alias_ << " was born in " << person.year_;
 }
