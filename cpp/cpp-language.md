@@ -39,6 +39,9 @@
   * [(CG) If you can avoid defining default operations, do](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c20-if-you-can-avoid-defining-default-operations-do)
   * [(CG) If you define or =delete any copy, move, or destructor function, define or =delete them all](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c21-if-you-define-or-delete-any-copy-move-or-destructor-function-define-or-delete-them-all)
   * [(CG) A polymorphic class should suppress public copy/move](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)
+* Constructors:
+  * [(C++ FAQ) Named Constructor Idiom](https://isocpp.org/wiki/faq/ctors#named-ctor-idiom)
+  * [(C++ FAQ) Named Parameter Idiom](https://isocpp.org/wiki/faq/ctors#named-parameter-idiom)
 * [Copy-and-swap idiom](https://ru.wikipedia.org/wiki/Copy-and-swap)
 * [(StackOverflow) What is the copy-and-swap idiom?](https://stackoverflow.com/questions/3279543/what-is-the-copy-and-swap-idiom/3279550#3279550)
 * [(StackOverflow) How is std::swap implemented?](https://stackoverflow.com/questions/25286544/how-does-the-standard-library-implement-stdswap/25286610#25286610)
