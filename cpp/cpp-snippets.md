@@ -878,6 +878,35 @@ int main()
 </details>
 
 <details>
+<summary>Named arguments (using strong type)</summary>
+
+Using [strong_type](https://github.com/rollbear/strong_type)
+
+:arrow_forward: [**Run**](https://godbolt.org/z/z5Kv4dq1e)
+
+```cpp
+#include <iostream>
+#include <string_view>
+
+#include <strong_type/strong_type.hpp>
+
+using FirstName = strong::type<std::string_view, struct FirstName_tag>;
+using LastName = strong::type<std::string_view, struct LastName_tag>;
+
+void func(const FirstName& first_name, const LastName& last_name)
+{
+    std::cout << "FirstName: " << first_name.value_of() << std::endl;
+    std::cout << "LastName: " << last_name.value_of() << std::endl;
+}
+
+int main()
+{
+    func(FirstName{"John"}, LastName{"Doe"});
+}
+```
+</details>
+
+<details>
 <summary>Scope guard</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/Pe14e4e4E)
