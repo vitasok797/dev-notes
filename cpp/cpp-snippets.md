@@ -515,7 +515,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <details>
 <summary>Projection</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/1o4q98enE)
+:arrow_forward: [**Run**](https://godbolt.org/z/T1nv85b7G)
 
 ```cpp
 #include <functional>
@@ -543,8 +543,8 @@ struct Rect
 //-----------------------------------------------------------------------------
 // const P&  proj: NO
 //       P&  proj: NO
-//       P&& proj: YES (accept by forwarding ref, then store by std::forward)
-//       P   proj: YES (accept copy by value, then store by std::move)
+//       P&& proj: YES (pass by forwarding ref, then store by std::forward)
+//       P   proj: YES (pass by value, then store by std::move)
 //=============================================================================
 template<typename R, typename P = std::identity>
 void print_range_with_proj(const R& range, P proj = {})
