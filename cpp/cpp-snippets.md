@@ -444,7 +444,7 @@ int main()
 <details>
 <summary>Function as argument</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/WcaY5h6fb)
+:arrow_forward: [**Run**](https://godbolt.org/z/W71MMcabY)
 
 ```cpp
 #include <functional>
