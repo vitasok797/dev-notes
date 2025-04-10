@@ -131,6 +131,7 @@
 ### Types / Type Erasure
 * [Type Erasure](https://www.modernescpp.com/index.php/type-erasure/)
 * [How to use type erasure pattern to decouple polymorphic classes in C++?](https://iamsorush.com/posts/cpp-type-erasure/)
+* [(Habr) Нестандартный полиморфизм. Паттерн Type Erasure](https://habr.com/ru/articles/706450/)
 
 ## Pointers
 * [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
