@@ -159,7 +159,7 @@ class B: public A
 ```cpp
 #include <vector>
 
-template<class T>
+template<typename T>
 class my_vector : public std::vector<T>
 {
 public:
