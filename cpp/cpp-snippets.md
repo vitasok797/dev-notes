@@ -68,7 +68,81 @@ private:
 </details>
 
 <details>
-<summary>Constructor inheritance</summary>
+<summary>Constructor and inheritance (hierarchy)</summary>
+
+:arrow_forward: [**Run**](https://godbolt.org/z/MfjsjTMfv)
+
+```cpp
+#include <iostream>
+
+void print(auto text)
+{
+    std::cout << text << " ";
+}
+
+struct A
+{
+    A()
+    {
+        print("A");
+    }
+
+    A(int x)
+    {
+        print("Ai");
+    }
+};
+
+struct B : A
+{
+    B()
+    {
+        print("B");
+    }
+
+    B(int x)
+        : A(x)
+    {
+        print("Bi");
+    }
+};
+
+struct C : B
+{
+    C()
+    {
+        print("C");
+    }
+
+    C(int x)
+        : B(x)
+    {
+        print("Ci");
+    }
+
+    C(double x)
+    {
+        print("Cd");
+    }
+};
+
+int main()
+{
+    C();  // A B C
+
+    std::cout << std::endl;
+
+    C(1);  // Ai Bi Ci
+
+    std::cout << std::endl;
+
+    C(1.0);  // Ai Bi Ci
+}
+```
+</details>
+
+<details>
+<summary>Constructor and inheritance (import)</summary>
 
 ```cpp
 struct A
