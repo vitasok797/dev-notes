@@ -108,6 +108,7 @@
 * [The case against Almost Always auto (AAA)](https://gist.github.com/Eisenwave/5cca27867828743bf50ad95d526f5a6e)
 * [Almost Always const auto&](https://huixie90.github.io/Almost-always-const-auto-ref/)
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
+* [How to use type erasure pattern to decouple polymorphic classes in C++?](https://iamsorush.com/posts/cpp-type-erasure/)
 
 ### Types / By-value-then-move idiom
 * [(StackOverflow) Advantages of pass-by-value and std::move over pass-by-reference](https://stackoverflow.com/questions/51705967/advantages-of-pass-by-value-and-stdmove-over-pass-by-reference)
