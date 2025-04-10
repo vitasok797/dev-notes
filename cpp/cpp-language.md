@@ -93,7 +93,7 @@
 * [(Abseil Tips) Best Practices for Initialization](https://abseil.io/tips/88)
 * [(CG) ES.23: Prefer the {}-initializer syntax](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es23-prefer-the--initializer-syntax)
 
-### Initialization / Constexpr
+### Initialization / constexpr
 * [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
 * [Just how constexpr is C++20’s std::string?](https://quuxplusone.github.io/blog/2023/09/08/constexpr-string-firewall/)
 
