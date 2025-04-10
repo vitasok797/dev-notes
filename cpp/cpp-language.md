@@ -102,7 +102,6 @@
 * [std::reference_wrapper](https://www.learncpp.com/cpp-tutorial/arrays-of-references-via-stdreference_wrapper/)
 * [(Habr) RVO и NRVO в C++17](https://habr.com/ru/companies/vk/articles/666330/)
 * [(Abseil Tips) Tag Types](https://abseil.io/tips/198)
-* [How to use type erasure pattern to decouple polymorphic classes in C++?](https://iamsorush.com/posts/cpp-type-erasure/)
 
 ### Types / Auto
 * [GotW #94 Solution: AAA Style (Almost Always Auto)](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/)
@@ -128,6 +127,10 @@
 
 ### Types / Scope guard
 * [C++ List of ScopeGuard](https://blog.rnstlr.ch/c-list-of-scopeguard.html)
+
+### Types / Type Erasure
+* [Type Erasure](https://www.modernescpp.com/index.php/type-erasure/)
+* [How to use type erasure pattern to decouple polymorphic classes in C++?](https://iamsorush.com/posts/cpp-type-erasure/)
 
 ## Pointers
 * [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
