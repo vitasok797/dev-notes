@@ -442,6 +442,54 @@ int main()
 </details>
 
 <details>
+<summary>Dispatch table</summary>
+
+:arrow_forward: [**Run**](https://godbolt.org/z/5hPf7f1TK)
+
+```cpp
+#include <functional>
+#include <iostream>
+#include <map>
+
+double add(double a, double b)
+{
+	return a + b;
+}
+
+struct Sub
+{
+	double operator()(double a, double b)
+    {
+		return a - b;
+	}
+};
+
+double mult_three(double a, double b, double c)
+{
+	return a * b * c;
+}
+
+int main()
+{
+    using namespace std::placeholders;
+
+    std::map<const char, std::function<double(double, double)>> disp_table
+    {
+        {'+', add},
+        {'-', Sub{}},
+        {'*', std::bind(mult_three, 1.0, _1, _2)},
+        {'/', [](double a, double b) { return a / b; }}
+    };
+
+    std::cout << "3.5 + 4.5 = " << disp_table['+'](3.5, 4.5) << std::endl;
+    std::cout << "3.5 - 4.5 = " << disp_table['-'](3.5, 4.5) << std::endl;
+    std::cout << "3.5 * 4.5 = " << disp_table['*'](3.5, 4.5) << std::endl;
+    std::cout << "3.5 / 4.5 = " << disp_table['/'](3.5, 4.5) << std::endl;
+}
+```
+</details>
+
+<details>
 <summary>Function as argument</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/W71MMcabY)
