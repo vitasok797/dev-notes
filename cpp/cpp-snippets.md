@@ -444,7 +444,7 @@ int main()
 <details>
 <summary>Dispatch table</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/5hPf7f1TK)
+:arrow_forward: [**Run**](https://godbolt.org/z/zY6j8Gnse)
 
 ```cpp
 #include <functional>
@@ -453,20 +453,20 @@ int main()
 
 double add(double a, double b)
 {
-	return a + b;
+    return a + b;
 }
 
 struct Sub
 {
-	double operator()(double a, double b)
+    double operator()(double a, double b)
     {
-		return a - b;
-	}
+        return a - b;
+    }
 };
 
 double mult_three(double a, double b, double c)
 {
-	return a * b * c;
+    return a * b * c;
 }
 
 int main()
