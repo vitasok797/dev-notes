@@ -97,6 +97,9 @@
 * [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
 * [Just how constexpr is C++20’s std::string?](https://quuxplusone.github.io/blog/2023/09/08/constexpr-string-firewall/)
 
+## Templates
+* [constexpr if](https://www.modernescpp.com/index.php/constespr-if/)
+
 ## Types
 * [How to Find the Type of an Object in C++](https://www.delftstack.com/howto/cpp/cpp-find-object-type/)
 * [std::reference_wrapper](https://www.learncpp.com/cpp-tutorial/arrays-of-references-via-stdreference_wrapper/)
