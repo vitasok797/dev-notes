@@ -157,6 +157,9 @@
 * <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe), [article1](https://www.foonathan.net/2016/10/type-safe/), [article2](https://www.foonathan.net/2016/10/strong-typedefs/))
 * <https://github.com/joboccara/NamedType> (dead?, no vcpkg, header-only, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
 
+### Types / Type Erasure
+* <https://github.com/kelbon/AnyAny> (no vcpkg, header-only)
+
 ### Types / Units
 * POCO [Units](https://github.com/pocoproject/poco/blob/main/Util/include/Poco/Util/Units.h)
 * <https://github.com/LLNL/units> ([vcpkg](https://vcpkg.io/en/package/llnl-units))
