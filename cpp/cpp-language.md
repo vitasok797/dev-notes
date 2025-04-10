@@ -102,13 +102,13 @@
 * [std::reference_wrapper](https://www.learncpp.com/cpp-tutorial/arrays-of-references-via-stdreference_wrapper/)
 * [(Habr) RVO и NRVO в C++17](https://habr.com/ru/companies/vk/articles/666330/)
 * [(Abseil Tips) Tag Types](https://abseil.io/tips/198)
+* [How to use type erasure pattern to decouple polymorphic classes in C++?](https://iamsorush.com/posts/cpp-type-erasure/)
 
 ### Types / Auto
 * [GotW #94 Solution: AAA Style (Almost Always Auto)](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/)
 * [The case against Almost Always auto (AAA)](https://gist.github.com/Eisenwave/5cca27867828743bf50ad95d526f5a6e)
 * [Almost Always const auto&](https://huixie90.github.io/Almost-always-const-auto-ref/)
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
-* [How to use type erasure pattern to decouple polymorphic classes in C++?](https://iamsorush.com/posts/cpp-type-erasure/)
 
 ### Types / By-value-then-move idiom
 * [(StackOverflow) Advantages of pass-by-value and std::move over pass-by-reference](https://stackoverflow.com/questions/51705967/advantages-of-pass-by-value-and-stdmove-over-pass-by-reference)
