@@ -68,7 +68,7 @@ private:
 </details>
 
 <details>
-<summary>Constructor and inheritance (hierarchy)</summary>
+<summary>Constructors and inheritance: hierarchy (test)</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/MfjsjTMfv)
 
@@ -142,7 +142,7 @@ int main()
 </details>
 
 <details>
-<summary>Constructor and inheritance (import)</summary>
+<summary>Constructors and inheritance: import</summary>
 
 ```cpp
 struct A
