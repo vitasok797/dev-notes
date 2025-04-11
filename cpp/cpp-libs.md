@@ -140,6 +140,7 @@
 
 ### Types / Enum
 * <https://github.com/Neargye/magic_enum> ([vcpkg](https://vcpkg.io/en/package/magic-enum))
+* <https://github.com/fix8mt/conjure_enum> ([vcpkg](https://vcpkg.io/en/package/conjure-enum))
 
 ### Types / Reflection
 * <https://github.com/Neargye/nameof>
