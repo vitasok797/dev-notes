@@ -101,6 +101,7 @@
 * [constexpr if](https://www.modernescpp.com/index.php/constespr-if/)
 
 ## Types
+* [(cppreference) Fundamental types](https://en.cppreference.com/w/cpp/language/types)
 * [How to Find the Type of an Object in C++](https://www.delftstack.com/howto/cpp/cpp-find-object-type/)
 * [std::reference_wrapper](https://www.learncpp.com/cpp-tutorial/arrays-of-references-via-stdreference_wrapper/)
 * [(Habr) RVO и NRVO в C++17](https://habr.com/ru/companies/vk/articles/666330/)
