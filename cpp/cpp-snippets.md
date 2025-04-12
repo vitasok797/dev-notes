@@ -942,6 +942,157 @@ int main()
 ## Type
 
 <details>
+<summary>Enum bit flags</summary>
+
+Libs: [magic_enum](https://github.com/Neargye/magic_enum)
+
+:arrow_forward: [**Run**](https://godbolt.org/z/6rc6193qf)
+
+```cpp
+#include <magic_enum/magic_enum_containers.hpp>
+
+enum class Option : uint64_t
+{
+    OPT1 = uint64_t{1} << 0,
+    OPT2 = uint64_t{1} << 1,
+    OPT3 = uint64_t{1} << 2,
+    OPT4 = uint64_t{1} << 3,
+};
+using OptionFlags = magic_enum::containers::bitset<Option>;
+
+enum class OtherOption
+{
+    OPT1 = 1 << 0,
+    OPT2 = 1 << 1,
+    OPT3 = 1 << 2,
+    OPT4 = 1 << 3,
+};
+using OtherOptionFlags = magic_enum::containers::bitset<OtherOption>;
+
+// ----------------------------------------------------------------------------------------------
+
+#include <cassert>
+#include <format>
+#include <iostream>
+
+using std::cout, std::endl;
+
+void print_options(OptionFlags opt)
+{
+    bool opt1_set = opt.test(Option::OPT1);
+    bool opt2_set = opt.test(Option::OPT2);
+    bool opt3_set = opt[Option::OPT3];
+    bool opt4_set = opt[Option::OPT4];
+
+    bool all = opt.all();
+    bool any = opt.any();
+    bool none = opt.none();
+    assert(none == !any);
+
+    size_t total_flags_count = opt.size();
+    size_t set_flags_count = opt.count();
+
+    std::string as_str = opt.to_string();
+    std::string as_str_bin = opt.to_string({}, '0', '1');
+    unsigned long long as_raw = opt.to_ullong({});
+
+    cout << (opt1_set ? "+" : "o");
+    cout << (opt2_set ? "+" : "o");
+    cout << (opt3_set ? "+" : "o");
+    cout << (opt4_set ? "+" : "o");
+    cout << std::format("  {:19}", as_str);
+    cout << std::format("  ({}/{})", set_flags_count, total_flags_count);
+    cout << std::format(" ({})", as_str_bin);
+    cout << std::format(" (raw:{:02})", as_raw);
+    cout << (none ? " (NONE)" : "");
+    cout << (all ? " (ALL)" : "");
+    cout << endl;
+}
+
+int main()
+{
+    OptionFlags opt;
+
+    // create: from raw
+    int raw = 7;
+    opt = OptionFlags{{}, static_cast<unsigned long long>(raw)};
+    print_options(opt);
+
+    // create: from enum list
+    opt = OptionFlags{Option::OPT1, Option::OPT2};
+    print_options(opt);
+
+    // create: from enum
+    opt = OptionFlags{Option::OPT1};
+    print_options(opt);
+
+    // create: empty
+    opt = OptionFlags{};
+    print_options(opt);
+
+    // set
+    opt.set(Option::OPT1);
+    opt |= OptionFlags{Option::OPT2, Option::OPT3};
+    print_options(opt);
+
+    // toggle
+    opt[Option::OPT4] = !opt[Option::OPT4];
+    print_options(opt);
+    opt[Option::OPT4] = !opt[Option::OPT4];
+    print_options(opt);
+
+    // reset
+    opt.set(Option::OPT3, false);
+    opt.reset(Option::OPT2);
+    print_options(opt);
+
+    // inverse
+    opt.flip();
+    print_options(opt);
+
+    // clear
+    opt.reset();
+    print_options(opt);
+
+    // set all
+    opt.set();
+    print_options(opt);
+
+    // == != operators
+    OptionFlags opt_lhs{Option::OPT1, Option::OPT2};
+    OptionFlags opt_rhs_same{Option::OPT1, Option::OPT2};
+    OptionFlags opt_rhs_diff{Option::OPT1, Option::OPT3};
+    assert(opt_lhs == opt_rhs_same);
+    assert(opt_lhs != opt_rhs_diff);
+
+    // | operator
+    OptionFlags opt13{Option::OPT1, Option::OPT3};
+    OptionFlags opt2{Option::OPT2};
+    OptionFlags opt123{Option::OPT1, Option::OPT2, Option::OPT3};
+    assert(opt123 == (opt13 | opt2));
+
+    // function args
+    cout << endl;
+    auto func = [](OptionFlags opt = OptionFlags{}) { cout << "func: [" << opt << "]" << endl; };
+    func(OptionFlags{Option::OPT1, Option::OPT4});
+    func({Option::OPT2, Option::OPT3});
+    func(OptionFlags{});
+    // func({});  // NO
+
+    //-----------------
+    // errors
+    //-----------------
+
+    // OtherOptionFlags other_opt{OtherOption::OPT1, OtherOption::OPT2};
+    // other_opt.set(Option::OPT3);
+
+    // OtherOptionFlags other_opt{OtherOption::OPT1, OtherOption::OPT2};
+    // print_options(other_opt);
+}
+```
+</details>
+
+<details>
 <summary>Function overload resolution (test)</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/4M917bjra)
