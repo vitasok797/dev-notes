@@ -946,9 +946,11 @@ int main()
 
 Libs: [magic_enum](https://github.com/Neargye/magic_enum)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/6rc6193qf)
+:arrow_forward: [**Run**](https://godbolt.org/z/T18aGcPef)
 
 ```cpp
+#include <cstdint>
+
 #include <magic_enum/magic_enum_containers.hpp>
 
 enum class Option : uint64_t
