@@ -241,6 +241,9 @@
   * <https://github.com/zeromq/libzmq> ([vcpkg](https://vcpkg.io/en/package/zeromq))
   * <https://github.com/zeromq/cppzmq>
   * <https://github.com/zeromq/azmq>
+* NNG:
+  * <https://github.com/nanomsg/nng>
+  * <https://github.com/cwzx/nngpp>
 * DDS:
   * <https://github.com/eProsima/Fast-DDS> ([vcpkg](https://vcpkg.io/en/package/fastdds))
 
