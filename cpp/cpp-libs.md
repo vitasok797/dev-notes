@@ -241,7 +241,8 @@
   * <https://github.com/zeromq/libzmq> ([vcpkg](https://vcpkg.io/en/package/zeromq))
   * <https://github.com/zeromq/cppzmq>
   * <https://github.com/zeromq/azmq>
-* <https://github.com/eProsima/Fast-DDS> ([vcpkg](https://vcpkg.io/en/package/fastdds))
+* DDS:
+  * <https://github.com/eProsima/Fast-DDS> ([vcpkg](https://vcpkg.io/en/package/fastdds))
 
 ## HTTP servers
 * POCO ([slides](https://pocoproject.org/slides/200-Network.pdf))
