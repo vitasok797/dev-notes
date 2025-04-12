@@ -836,7 +836,7 @@ using std::cout, std::endl;
 <details>
 <summary>ostream <<</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/xxvKdr8o8)
+:arrow_forward: [**Run**](https://godbolt.org/z/effze1zTY)
 
 ```cpp
 #include <iostream>
@@ -859,14 +859,14 @@ inline std::ostream& operator<<(std::ostream& os, const Person& person)
 
 class PrivatePerson
 {
-private:
-    std::string alias_;
-    int year_;
-
 public:
     PrivatePerson(const std::string& alias, int year) : alias_{alias}, year_{year} {};
 
     friend std::ostream& operator<<(std::ostream& os, const PrivatePerson& person);
+
+private:
+    std::string alias_;
+    int year_;
 };
 
 inline std::ostream& operator<<(std::ostream& os, const PrivatePerson& person)
