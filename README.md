@@ -20,6 +20,3 @@
 * [Multithreading](var/multithreading.md)
 * [Plot](var/plot.md)
 * [TDD](var/tdd.md)
-
-## Unsorted
-* [*Unsorted 1*](unsorted/unsorted-1.md)
