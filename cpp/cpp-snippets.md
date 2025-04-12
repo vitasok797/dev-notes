@@ -1162,16 +1162,16 @@ int main()
 
 Libs: [strong_type](https://github.com/rollbear/strong_type)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/z5Kv4dq1e)
+:arrow_forward: [**Run**](https://godbolt.org/z/dPfqEndnz)
 
 ```cpp
 #include <iostream>
-#include <string_view>
+#include <string>
 
 #include <strong_type/strong_type.hpp>
 
-using FirstName = strong::type<std::string_view, struct FirstName_tag>;
-using LastName = strong::type<std::string_view, struct LastName_tag>;
+using FirstName = strong::type<std::string, struct FirstName_tag>;
+using LastName = strong::type<std::string, struct LastName_tag>;
 
 void func(const FirstName& first_name, const LastName& last_name)
 {
