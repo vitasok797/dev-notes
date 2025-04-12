@@ -946,7 +946,7 @@ int main()
 
 Libs: [magic_enum](https://github.com/Neargye/magic_enum)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/T18aGcPef)
+:arrow_forward: [**Run**](https://godbolt.org/z/aefr999Go)
 
 ```cpp
 #include <cstdint>
@@ -961,6 +961,7 @@ enum class Option : uint64_t
     OPT4 = uint64_t{1} << 3,
 };
 using OptionFlags = magic_enum::containers::bitset<Option>;
+inline constexpr OptionFlags no_options{};
 
 enum class OtherOption
 {
@@ -1075,11 +1076,15 @@ int main()
 
     // function args
     cout << endl;
-    auto func = [](OptionFlags opt = OptionFlags{}) { cout << "func: [" << opt << "]" << endl; };
-    func(OptionFlags{Option::OPT1, Option::OPT4});
-    func({Option::OPT2, Option::OPT3});
-    func(OptionFlags{});
-    // func({});  // NO
+    auto func = [](int a, OptionFlags opt = OptionFlags{}, int b = 0)
+    {
+        cout << "func: [" << opt << "]" << endl;
+    };
+    func(1);
+    func(1, OptionFlags{Option::OPT1, Option::OPT2});
+    func(1, {Option::OPT3, Option::OPT4});
+    func(1, OptionFlags{}, 2);
+    func(1, no_options, 2);
 
     //-----------------
     // errors
