@@ -19,7 +19,7 @@ public:
     MyClass& operator=(const MyClass&) = default;
     MyClass& operator=(MyClass&&) = default;
 
-    virtual ~MyClass() = default;
+    [virtual] ~MyClass() = default;
 
     // Functions
     // Data members
