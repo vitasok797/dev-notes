@@ -942,7 +942,7 @@ int main()
 <details>
 <summary>auto&& – resolving</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/65jjT994T)
+:arrow_forward: [**Run**](https://godbolt.org/z/ohzP61j5b)
 
 ```cpp
 #include <map>
@@ -987,6 +987,14 @@ int main()
 
         auto&& x = v[0];
         // int& x
+    }
+
+    {
+        auto&& v = std::vector<bool>{true, false, true};
+        // std::vector<bool>&& v
+
+        auto&& x = v[0];
+        // bool&& x (to proxy object)
     }
 
     {
