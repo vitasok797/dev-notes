@@ -940,7 +940,7 @@ int main()
 ## Type
 
 <details>
-<summary>auto&&: resolving</summary>
+<summary>auto&& – resolving</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/65jjT994T)
 
@@ -1013,7 +1013,7 @@ int main()
 </details>
 
 <details>
-<summary>auto&&: move for rvalue-ranges</summary>
+<summary>auto&& – move for rvalue-ranges</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/YK7Wxx3qd)
 
