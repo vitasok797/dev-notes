@@ -942,9 +942,10 @@ int main()
 <details>
 <summary>auto[&&] resolve (test)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/YM6M4hdP6)
+:arrow_forward: [**Run**](https://godbolt.org/z/Mo68rx7o6)
 
 ```cpp
+#include <map>
 #include <tuple>
 #include <vector>
 
@@ -983,11 +984,21 @@ int main()
     {
         std::vector v{1, 2, 3};
 
-        for (auto&& e : v){}
+        for (auto&& e : v) {}
         // int& e
 
-        for (auto&& e : std::move(v)){}
+        for (auto&& e : std::move(v)) {}
         // int& e
+    }
+
+    {
+        std::map<int, double> m{{1, 10.0}, {2, 20.0}};
+
+        for (auto&& [k, v] : m) {}
+        // const int& k, double& v
+
+        for (auto&& [k, v]: std::move(m)) {}
+        // const int& k, double& v
     }
 }
 ```
