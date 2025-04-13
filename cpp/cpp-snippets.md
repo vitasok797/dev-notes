@@ -942,13 +942,11 @@ int main()
 ## Type
 
 <details>
-<summary>auto[&&] resolve</summary>
+<summary>auto[&&] resolve (test)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/scczT8EdY)
+:arrow_forward: [**Run**](https://godbolt.org/z/YM6M4hdP6)
 
 ```cpp
-#include <map>
-#include <string>
 #include <tuple>
 #include <vector>
 
