@@ -940,7 +940,7 @@ int main()
 ## Type
 
 <details>
-<summary>auto[&&] resolve (test)</summary>
+<summary>auto&& resolving</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/65jjT994T)
 
@@ -1008,6 +1008,65 @@ int main()
         for (auto&& [k, v]: std::move(m)) {}
         // const int& k, double& v
     }
+}
+```
+</details>
+
+<details>
+<summary>auto&& and std::move for rvalue-ranges</summary>
+
+:arrow_forward: [**Run**](https://godbolt.org/z/YK7Wxx3qd)
+
+```cpp
+#include <iostream>
+#include <utility>
+#include <vector>
+
+using std::cout, std::endl;
+
+// solution 1
+template<typename T, typename R>
+void append_range_to_vector_1(std::vector<T>& dest, R&& src_range)
+{
+    constexpr bool is_rvalue = std::is_rvalue_reference_v<decltype(src_range)>;
+
+    for (auto&& el : src_range)
+    {
+        if constexpr (is_rvalue)
+        {
+            cout << "move: " << el << endl;
+            dest.push_back(std::move(el));
+        }
+        else
+        {
+            cout << "copy: " << el << endl;
+            dest.push_back(el);
+        }
+    }
+
+    cout << endl;
+}
+
+// solution 2 (C++23)
+template<typename T, typename R>
+void append_range_to_vector_2(std::vector<T>& dest, R&& src_range)
+{
+    for (auto&& el : src_range)
+    {
+        dest.push_back(std::forward_like<R>(el));
+    }
+}
+
+int main()
+{
+    std::vector<int> dest{};
+
+    std::vector v{1, 2, 3};
+    append_range_to_vector_1(dest, v);
+
+    append_range_to_vector_1(dest, std::vector{4, 5, 6});
+
+    for (const auto& el : dest) cout << "dest: " << el << endl;
 }
 ```
 </details>
