@@ -265,9 +265,9 @@ int main()
 </details>
 
 <details>
-<summary>Template T&& constructors/methods</summary>
+<summary>Template class constructors/methods with T&& args</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/3Wz73q1Tb)
+:arrow_forward: [**Run**](https://godbolt.org/z/frqz64xsh)
 
 ```cpp
 #include <iostream>
@@ -285,12 +285,11 @@ public:
     // SURPRISE!!!
     // Catches only rvalues
     // T&& is rvalue ref of type T (not forwarding/universal ref)
-    // So we need additional TestClass1(const T& x) constructor
+    // So we need additional TestClass1(const T&) constructor
     // Note: both std::move and std::forward are acceptable
     TestClass1(T&& x) : x_{std::forward<T>(x)}
     {
         std::cout << "TestClass1 [T&&]";
-        // std::cout << (std::is_rvalue_reference<decltype(x)>::value ? " rvalue_ref" : "");
         std::cout << (std::is_rvalue_reference_v<decltype(x)> ? " rvalue_ref" : "");
         std::cout << std::endl;
     }
