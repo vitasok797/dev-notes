@@ -265,9 +265,9 @@ int main()
 </details>
 
 <details>
-<summary>Template constructors/methods</summary>
+<summary>Template T&& constructors/methods</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/WdTab8MeT)
+:arrow_forward: [**Run**](https://godbolt.org/z/3Wz73q1Tb)
 
 ```cpp
 #include <iostream>
@@ -282,14 +282,16 @@ public:
         std::cout << "TestClass1 [const T&]" << std::endl;
     }
 
-    // SURPRISE
+    // SURPRISE!!!
     // Catches only rvalues
     // T&& is rvalue ref of type T (not forwarding/universal ref)
-    // Both std::move and std::forward are acceptable
+    // So we need additional TestClass1(const T& x) constructor
+    // Note: both std::move and std::forward are acceptable
     TestClass1(T&& x) : x_{std::forward<T>(x)}
     {
         std::cout << "TestClass1 [T&&]";
-        std::cout << (std::is_rvalue_reference<decltype(x)>::value ? " rvalue_ref" : "");
+        // std::cout << (std::is_rvalue_reference<decltype(x)>::value ? " rvalue_ref" : "");
+        std::cout << (std::is_rvalue_reference_v<decltype(x)> ? " rvalue_ref" : "");
         std::cout << std::endl;
     }
 
@@ -303,7 +305,7 @@ public:
     TestClass2(auto&& x) : x_{std::forward<decltype(x)>(x)}
     {
         std::cout << "TestClass2 [T&&]";
-        std::cout << (std::is_rvalue_reference<decltype(x)>::value ? " rvalue_ref" : "");
+        std::cout << (std::is_rvalue_reference_v<decltype(x)> ? " rvalue_ref" : "");
         std::cout << std::endl;
     }
 
