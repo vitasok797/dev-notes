@@ -942,7 +942,7 @@ int main()
 <details>
 <summary>auto&& resolving</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/81YYjj6Yq)
+:arrow_forward: [**Run**](https://godbolt.org/z/9G479eeqM)
 
 ```cpp
 #include <map>
@@ -962,7 +962,7 @@ int main()
     }
 
     {
-        auto tuple = std::tuple{1, 2.0};
+        std::tuple tuple{1, 2.0};
 
         auto&& [x1, y1] = tuple;
         // int& x1, double& y1
@@ -972,7 +972,7 @@ int main()
     }
 
     {
-        auto tuple = std::tuple{3, 4.0};
+        std::tuple tuple{3, 4.0};
 
         auto [x3, y3] = tuple;
         // int&& (to copy) x2, double&& (to copy) y2
