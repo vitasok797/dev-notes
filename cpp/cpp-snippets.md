@@ -942,7 +942,7 @@ int main()
 <details>
 <summary>auto[&&] resolve (test)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/Mo68rx7o6)
+:arrow_forward: [**Run**](https://godbolt.org/z/65jjT994T)
 
 ```cpp
 #include <map>
@@ -979,6 +979,14 @@ int main()
 
         auto [x4, y4] = std::move(tuple);
         // int&& (to moved) x2, double&& (to moved) y2
+    }
+
+    {
+        auto&& v = std::vector{1, 2, 3};
+        // std::vector<int>&& v
+
+        auto&& x = v[0];
+        // int& x
     }
 
     {
