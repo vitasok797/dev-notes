@@ -1241,7 +1241,7 @@ int main()
 <details>
 <summary>Function overload resolution (test)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/4M917bjra)
+:arrow_forward: [**Run**](https://godbolt.org/z/YEb76Paq6)
 
 ```cpp
 #include <iostream>
@@ -1250,7 +1250,7 @@ using std::cout, std::endl;
 
 // ----------------------------------------------------------------------------------------------
 
-#define IS_RVALUE_REF(x) (std::is_rvalue_reference<decltype(x)>::value ? " (RVALUE)" : "")
+#define IS_RVALUE_REF(x) (std::is_rvalue_reference_v<decltype(x)> ? " (RVALUE)" : "")
 
 #ifdef _MSC_VER
 #define FUNC_INFO(arg) __FUNCSIG__ << IS_RVALUE_REF(arg)
