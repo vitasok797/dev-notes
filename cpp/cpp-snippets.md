@@ -354,13 +354,13 @@ struct C final : B
 <details>
 <summary>Object Watcher</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/r3ecjxY5d)
+:arrow_forward: [**Run**](https://godbolt.org/z/EoTcbbGYh)
 
 ```cpp
 #include <atomic>
 #include <iostream>
 
-class ObjWatcher
+class ObjWatcher final
 {
 public:
     ObjWatcher() noexcept : index_(++counter_)
@@ -394,7 +394,7 @@ public:
         return *this;
     };
 
-    virtual ~ObjWatcher() noexcept
+    ~ObjWatcher() noexcept
     {
         std::cout << "ObjWatcher: destroyed (" << index_ << ")";
         if (moved_) std::cout << " [moved]";
