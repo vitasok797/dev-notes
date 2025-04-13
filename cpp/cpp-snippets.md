@@ -942,6 +942,62 @@ int main()
 ## Type
 
 <details>
+<summary>auto[&&] resolve</summary>
+
+:arrow_forward: [**Run**](https://godbolt.org/z/scczT8EdY)
+
+```cpp
+#include <map>
+#include <string>
+#include <tuple>
+#include <vector>
+
+int main()
+{
+    {
+        int x = 0;
+
+        auto&& x1 = x;
+        // int& x1
+
+        auto&& x2 = std::move(x);
+        // int&& x2
+    }
+
+    {
+        auto tuple = std::make_tuple(1, 2.0);
+
+        auto&& [x1, y1] = tuple;
+        // int& x1, double& y1
+
+        auto&& [x2, y2] = std::move(tuple);
+        // int&& x2, double&& y2
+    }
+
+    {
+        auto tuple = std::make_tuple(3, 4.0);
+
+        auto [x3, y3] = tuple;
+        // int&& (to copy) x2, double&& (to copy) y2
+
+        auto [x4, y4] = std::move(tuple);
+        // int&& (to moved) x2, double&& (to moved) y2
+    }
+
+    {
+        std::vector v{1, 2, 3};
+
+        for (auto&& e : v){}
+        // int& e
+
+        for (auto&& e : std::move(v)){}
+        // int& e
+    }
+}
+```
+</details>
+
+<details>
 <summary>Enum bit flags</summary>
 
 Libs: [magic_enum](https://github.com/Neargye/magic_enum)
