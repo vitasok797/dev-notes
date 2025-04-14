@@ -957,7 +957,7 @@ int main()
 <details>
 <summary>:warning: auto&& resolving</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/W6zK8qzor)
+:arrow_forward: [**Run**](https://godbolt.org/z/qYbG51vzd)
 
 ```cpp
 #include <map>
@@ -981,17 +981,17 @@ void test_tuple_binding_by_uref()
     // int& x1, double& y1
 
     auto&& [x2, y2] = std::tuple{1, 2.0};
-    // int&& x2, double&& y2
+    // int& x2, double& y2 (lvalue refs to original temporary tuple)
 }
 
 void test_tuple_binding_by_copy()
 {
     std::tuple tuple{1, 2.0};
     auto [x1, y1] = tuple;
-    // int&& x1, double&& y1 (rvalue refs to tuple copy)
+    // int& x1, double& y1 (lvalue refs to tuple copy)
 
     auto [x2, y2] = std::tuple{1, 2.0};
-    // int&& x2, double&& y2 (rvalue refs to original temporary tuple)
+    // int& x2, double& y2 (lvalue refs to original temporary tuple)
 }
 
 void test_vector_el()
@@ -1050,7 +1050,6 @@ void test_struct_binding_by_uref()
     // int& x1, double& y1
 
     auto&& [x2, y2] = S{1, 2.0};
-	// !!!
     // int& x2, double& y2 (lvalue refs to original temporary struct)
 }
 
