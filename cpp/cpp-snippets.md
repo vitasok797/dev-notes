@@ -50,13 +50,14 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 
 ```cpp
 #include <string>
-#include <string_view>
 
 class Employee
 {
 public:
-    Employee(std::string_view name, int id = default_id)
-        : name_{name}, id_{id} {}
+    Employee(std::string name, int id = default_id) :
+        name_{std::move(name)},
+        id_{id}
+    {}
 
 private:
     static constexpr int default_id = 0;
