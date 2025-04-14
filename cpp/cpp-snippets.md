@@ -631,6 +631,55 @@ int main()
 ```
 </details>
 
+<details>
+<summary>Return structured data</summary>
+
+:arrow_forward: [**Run**](https://godbolt.org/z/o1Wxcee7f)
+
+```cpp
+#include <iostream>
+#include <tuple>
+
+// --------------------------------------------------------
+
+struct ReturnData { int i; double d; };
+
+ReturnData get_data_1()
+{
+    return {42, 0.1};
+}
+
+// --------------------------------------------------------
+
+auto get_data_2()
+{
+    struct { int i; double d; } res{42, 0.2};
+    return res;
+}
+
+// --------------------------------------------------------
+
+std::tuple<int, double> get_data_3()
+{
+    return {42, 0.3};
+}
+
+// --------------------------------------------------------
+
+int main()
+{
+    auto res1 = get_data_1();
+    std::cout << res1.d << std::endl;
+
+    auto res2 = get_data_2();
+    std::cout << res2.d << std::endl;
+
+    auto [_, d] = get_data_3();
+    std::cout << d << std::endl;
+}
+```
+</details>
+
 ## Initialization
 
 <details>
