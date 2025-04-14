@@ -679,7 +679,7 @@ for (T thing = foo(); auto& x : thing.items()) {...}  // OK
 </details>
 
 <details>
-<summary>Structured Binding</summary>
+<summary>:warning: Structured Binding</summary>
 
 [(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
 
@@ -941,7 +941,7 @@ int main()
 ## Type
 
 <details>
-<summary>auto&& resolving</summary>
+<summary>:warning: auto&& resolving</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/9G479eeqM)
 
@@ -1022,7 +1022,7 @@ int main()
 </details>
 
 <details>
-<summary>auto&& and move in range-based for loop</summary>
+<summary>:warning: auto&& and move in range-based for loop</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/YK7Wxx3qd)
 
