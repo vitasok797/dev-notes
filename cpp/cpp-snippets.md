@@ -634,7 +634,7 @@ int main()
 <details>
 <summary>Return structured data</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/nYnfao176)
+:arrow_forward: [**Run**](https://godbolt.org/z/exdTYbvsx)
 
 ```cpp
 #include <iostream>
@@ -642,9 +642,9 @@ int main()
 
 // --------------------------------------------------------
 
-struct ReturnData { int i; double d; };
+struct ReturnData1 { int i; double d; };
 
-ReturnData get_data_1()
+ReturnData1 get_data_1()
 {
     return {42, 0.1};
 }
@@ -653,8 +653,8 @@ ReturnData get_data_1()
 
 auto get_data_2()
 {
-    struct ReturnData { int i; double d; };
-    return ReturnData{42, 0.2};
+    struct ReturnData2 { int i; double d; };
+    return ReturnData2{42, 0.2};
 }
 
 // --------------------------------------------------------
