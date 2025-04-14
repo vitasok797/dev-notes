@@ -641,7 +641,6 @@ int main()
 :arrow_forward: [**Run**](https://godbolt.org/z/eees47ec4)
 
 ```cpp
-{
 std::tuple<int, Watcher>{42, 1};  // inplace
 std::tuple<int, Watcher>{42, {1}};  // COPY!!!
 std::tuple<int, Watcher>{42, Watcher{1}};  // move
