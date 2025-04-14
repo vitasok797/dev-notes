@@ -5,9 +5,13 @@
 ## Emojis
 * :warning:
 * :exclamation: :question: :bangbang: :interrobang:
-* :+1: :point_right:
-* :star: :lock:
-* :white_check_mark: :negative_squared_cross_mark: :asterisk: :arrow_right:
+* :x:
+* :heavy_multiplication_x: :heavy_check_mark: :heavy_plus_sign: :heavy_minus_sign:
+* :+1: :point_right: :point_up:
+* :star: :lock: :zap: :bulb: :pushpin: :hourglass_flowing_sand: :mag: :rocket: :construction: :no_entry:
+* :confused: :open_mouth:
+* :white_check_mark: :negative_squared_cross_mark: :eight_spoked_asterisk:
+* :ballot_box_with_check: :arrow_right: :ok: :new: :information_source:
 * :red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle:
 * :red_square: :orange_square: :yellow_square: :green_square: :blue_square:
 
