@@ -957,80 +957,126 @@ int main()
 <details>
 <summary>:warning: auto&& resolving</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/9G479eeqM)
+:arrow_forward: [**Run**](https://godbolt.org/z/W6zK8qzor)
 
 ```cpp
 #include <map>
 #include <tuple>
 #include <vector>
 
+void test_scalar()
+{
+    int x = 0;
+    auto&& x1 = x;
+    // int& x1
+
+    auto&& x2 = 0;
+    // int&& x2
+}
+
+void test_tuple_binding_by_uref()
+{
+    std::tuple tuple{1, 2.0};
+    auto&& [x1, y1] = tuple;
+    // int& x1, double& y1
+
+    auto&& [x2, y2] = std::tuple{1, 2.0};
+    // int&& x2, double&& y2
+}
+
+void test_tuple_binding_by_copy()
+{
+    std::tuple tuple{1, 2.0};
+    auto [x1, y1] = tuple;
+    // int&& x1, double&& y1 (rvalue refs to tuple copy)
+
+    auto [x2, y2] = std::tuple{1, 2.0};
+    // int&& x2, double&& y2 (rvalue refs to original temporary tuple)
+}
+
+void test_vector_el()
+{
+    auto&& v = std::vector{1, 2, 3};
+    // std::vector<int>&& v
+
+    auto&& x = v[0];
+    // !!!
+    // int& x
+}
+
+void test_vector_proxy_el()
+{
+    auto&& v = std::vector<bool>{true, false, true};
+    // std::vector<bool>&& v
+
+    auto&& x = v[0];
+    // bool&& x (rvalue ref to temporary proxy object)
+}
+
+void test_iteration_vector()
+{
+    std::vector v{1, 2, 3};
+    for (auto&& el : v) {}
+    // int& el
+
+    for (auto&& el : std::vector{1, 2, 3}) {}
+    // !!!
+    // int& el
+    // ---------------------------------------------------------------------------
+    // for(; !operator==(__begin1, __end1); __begin1.operator++())
+    //   int & el = __begin1.operator*();
+
+    for (auto&& el : std::vector<bool>{true, false, true}) {}
+    // bool&& el (rvalue ref to temporary proxy object)
+}
+
+void test_iteration_binding_map()
+{
+    std::map<int, double> m{{1, 10.0}, {2, 20.0}};
+    for (auto&& [k, v] : m) {}
+    // const int& k, double& v
+
+    for (auto&& [k, v] : std::map<int, double>{{1, 10.0}, {2, 20.0}}) {}
+    // !!!
+    // const int& k, double& v
+}
+
+void test_struct_binding_by_uref()
+{
+    struct S { int x; double y; };
+
+    S s{1, 2.0};
+    auto&& [x1, y1] = s;
+    // int& x1, double& y1
+
+    auto&& [x2, y2] = S{1, 2.0};
+	// !!!
+    // int& x2, double& y2 (lvalue refs to original temporary struct)
+}
+
+void test_struct_binding_by_copy()
+{
+    struct S { int x; double y; };
+
+    S s{1, 2.0};
+    auto [x1, y1] = s;
+    // int& x1, double& y1 (lvalue refs to struct copy)
+
+    auto [x2, y2] = S{1, 2.0};
+    // int& x2, double& y2 (lvalue refs to original temporary struct)
+}
+
 int main()
 {
-    {
-        int x = 0;
-
-        auto&& x1 = x;
-        // int& x1
-
-        auto&& x2 = std::move(x);
-        // int&& x2
-    }
-
-    {
-        std::tuple tuple{1, 2.0};
-
-        auto&& [x1, y1] = tuple;
-        // int& x1, double& y1
-
-        auto&& [x2, y2] = std::move(tuple);
-        // int&& x2, double&& y2
-    }
-
-    {
-        std::tuple tuple{3, 4.0};
-
-        auto [x3, y3] = tuple;
-        // int&& (to copy) x2, double&& (to copy) y2
-
-        auto [x4, y4] = std::move(tuple);
-        // int&& (to moved) x2, double&& (to moved) y2
-    }
-
-    {
-        auto&& v = std::vector{1, 2, 3};
-        // std::vector<int>&& v
-
-        auto&& x = v[0];
-        // int& x
-    }
-
-    {
-        auto&& v = std::vector<bool>{true, false, true};
-        // std::vector<bool>&& v
-
-        auto&& x = v[0];
-        // bool&& x (to proxy object)
-    }
-
-    {
-        std::vector v{1, 2, 3};
-
-        for (auto&& e : v) {}
-        // int& e
-
-        for (auto&& e : std::move(v)) {}
-        // int& e
-    }
-
-    {
-        std::map<int, double> m{{1, 10.0}, {2, 20.0}};
-
-        for (auto&& [k, v] : m) {}
-        // const int& k, double& v
-
-        for (auto&& [k, v]: std::move(m)) {}
-        // const int& k, double& v
-    }
+    test_scalar();
+    test_tuple_binding_by_uref();
+    test_tuple_binding_by_copy();
+    test_vector_el();
+    test_vector_proxy_el();
+    test_iteration_vector();
+    test_iteration_binding_map();
+    test_struct_binding_by_uref();
+    test_struct_binding_by_copy();
 }
 ```
 </details>
