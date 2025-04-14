@@ -411,7 +411,7 @@ private:
 </details>
 
 <details>
-<summary>Type deduction</summary>
+<summary>Show deducted type</summary>
 
 [(StackOverflow) Using 'auto' type deduction - how to find out what type the compiler deduced?](https://stackoverflow.com/questions/38820579/using-auto-type-deduction-how-to-find-out-what-type-the-compiler-deduced)
 
