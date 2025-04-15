@@ -1389,13 +1389,14 @@ int main()
 
 [Source](src/scope_guard.h)
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/6fGs5M6fP)
+:arrow_forward: [**Demo**](https://godbolt.org/z/8sx6Th3ss)
 
 ```cpp
 #include <iostream>
 
 #include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/scope_guard.h>
 
+using namespace vs::util;
 using std::cout, std::endl;
 
 struct Resource
@@ -1441,10 +1442,10 @@ int main()
     {
         cout << "--- scope in 3 ---" << endl;
 
-        SCOPE_GUARD{ cout << "additional SCOPE_GUARD" << endl; };
+        VS_SCOPE_GUARD{ cout << "additional SCOPE_GUARD" << endl; };
 
         Resource resource;
-        SCOPE_GUARD{ resource.close(); };
+        VS_SCOPE_GUARD{ resource.close(); };
 
         // ...
         resource.use();
