@@ -1306,61 +1306,9 @@ int main()
 </details>
 
 <details>
-<summary>Function overload resolution (test)</summary>
+<summary>Function overload resolution test</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/YEb76Paq6)
-
-```cpp
-#include <iostream>
-
-using std::cout, std::endl;
-
-// ----------------------------------------------------------------------------------------------
-
-#define IS_RVALUE_REF(x) (std::is_rvalue_reference_v<decltype(x)> ? " (RVALUE)" : "")
-
-#ifdef _MSC_VER
-#define FUNC_INFO(arg) __FUNCSIG__ << IS_RVALUE_REF(arg)
-#define FUNC_NAME_INFO(arg, name) "(" << name << "): " << FUNC_INFO(arg)
-#else
-#define FUNC_INFO(arg) __PRETTY_FUNCTION__ << IS_RVALUE_REF(arg)
-#define FUNC_NAME_INFO(arg, name) FUNC_INFO(arg)
-#endif
-
-// ----------------------------------------------------------------------------------------------
-
-template<typename T> void ft(const T& x) { cout << FUNC_NAME_INFO(x, "const T&") << endl; }
-
-template<typename T> void ft(T& x) { cout << FUNC_NAME_INFO(x, "T&") << endl; }
-
-template<typename T> void ft(T&& x) { cout << FUNC_NAME_INFO(x, "T&&") << endl; }
-
-// ----------------------------------------------------------------------------------------------
-
-void f(const int& x) { cout << FUNC_INFO(x) << endl; }
-
-void f(int& x) { cout << FUNC_INFO(x) << endl; }
-
-void f(int&& x) { cout << FUNC_INFO(x) << endl; }
-
-// ----------------------------------------------------------------------------------------------
-
-int main()
-{
-    const int ci = 0;
-    int i = 0;
-
-    ft(ci);
-    ft(i);
-    ft(0);
-
-    cout << endl;
-
-    f(ci);
-    f(i);
-    f(0);
-}
-```
+:arrow_forward: [**Run**](https://godbolt.org/z/v3xMbM9z8)
 </details>
 
 <details>
