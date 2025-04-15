@@ -1,6 +1,9 @@
 #include <atomic>
 #include <iostream>
 
+namespace vs::debug
+{
+
 class ObjWatcher final
 {
 public:
@@ -47,3 +50,5 @@ private:
     size_t index_;
     bool moved_ = false;
 };
+
+}  // namespace vs::debug
