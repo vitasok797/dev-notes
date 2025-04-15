@@ -362,7 +362,7 @@ struct C final : B
 #include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/object_watcher.cpp>
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/xPnnhEYjK)
+:arrow_forward: [**Demo**](https://godbolt.org/z/6cWanf77h)
 </details>
 
 <details>
