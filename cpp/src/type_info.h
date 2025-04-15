@@ -31,7 +31,7 @@ constexpr auto get_type_info()
     suffix = "]";
 #elif defined(_MSC_VER)
     name = __FUNCSIG__;
-    prefix = "auto __cdecl vs::debug::get_tget_type_infoype_name<";
+    prefix = "auto __cdecl vs::debug::get_type_info<";
     suffix = ">(void)";
 #endif
     name.remove_prefix(prefix.size());
