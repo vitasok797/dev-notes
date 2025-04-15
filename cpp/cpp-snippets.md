@@ -358,7 +358,7 @@ struct C final : B
 
 [Source](src/object_watcher.h)
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/fWrz9T64c)
+:arrow_forward: [**Demo**](https://godbolt.org/z/EjcqW9M3x)
 </details>
 
 <details>
