@@ -71,7 +71,7 @@ private:
 <details>
 <summary>Constructors and inheritance: hierarchy (test)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/MfjsjTMfv)
+:arrow_forward: [**Run**](https://godbolt.org/z/KrTE6vjGP)
 
 ```cpp
 #include <iostream>
