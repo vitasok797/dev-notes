@@ -356,13 +356,8 @@ struct C final : B
 <details>
 <summary>Object Watcher</summary>
 
+:arrow_forward: [**Demo**](https://godbolt.org/z/6cWanf77h) \
 [Source](src/object_watcher.cpp)
-
-```cpp
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/object_watcher.cpp>
-```
-
-:arrow_forward: [**Demo**](https://godbolt.org/z/6cWanf77h)
 </details>
 
 <details>
