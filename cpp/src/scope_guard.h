@@ -1,8 +1,11 @@
 #include <utility>
 
-#define SCOPE_GUARD ScopeGuard SCOPE_GUARD_UNIQ_NAME(__LINE__) = [&]()
-#define SCOPE_GUARD_UNIQ_NAME(line) SCOPE_GUARD_UNIQ_NAME2(line)
-#define SCOPE_GUARD_UNIQ_NAME2(line) scope_guard_##line
+#define VS_SCOPE_GUARD vs::util::ScopeGuard VS_SCOPE_GUARD_UNIQ_NAME(__LINE__) = [&]()
+#define VS_SCOPE_GUARD_UNIQ_NAME(line) VS_SCOPE_GUARD_UNIQ_NAME2(line)
+#define VS_SCOPE_GUARD_UNIQ_NAME2(line) vs_scope_guard_##line
+
+namespace vs::util
+{
 
 template<typename F>
 class ScopeGuard
@@ -33,3 +36,5 @@ template<typename F>
 {
     return ScopeGuard<std::decay_t<F>>{std::forward<F>(f)};
 }
+
+}  // namespace vs::util
