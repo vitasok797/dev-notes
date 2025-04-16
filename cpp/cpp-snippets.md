@@ -69,9 +69,9 @@ private:
 </details>
 
 <details>
-<summary>Constructors and inheritance: hierarchy (test)</summary>
+<summary>Constructors and inheritance: hierarchy</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/KrTE6vjGP)
+:arrow_forward: [**Run**](https://godbolt.org/z/xddov143j)
 
 ```cpp
 #include <iostream>
@@ -137,7 +137,7 @@ int main()
 
     std::cout << std::endl;
 
-    C(1.0);  // Ai Bi Ci
+    C(1.0);  // A B Cd
 }
 ```
 </details>
