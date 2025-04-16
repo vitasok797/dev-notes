@@ -1092,6 +1092,24 @@ int main()
 <details>
 <summary>:warning: auto&& and forward :confused:</summary>
 
+### Summary
+```cpp
+for (auto&& el : my_range)
+auto&& [el, _] = my_tuple;
+auto&& [el, _] = my_struct;
+
+if constexpr (std::is_rvalue_reference_v<decltype(my_range)>)
+if constexpr (std::is_rvalue_reference_v<decltype(my_tuple)>)
+if constexpr (std::is_rvalue_reference_v<decltype(my_struct)>)
+{
+    vec.push_back(std::move(el));
+}
+else
+{
+    vec.push_back(el);
+}
+```
+
 :arrow_forward: [**Run**](https://godbolt.org/z/MTaYK9coG)
 
 ```cpp
