@@ -1089,60 +1089,233 @@ int main()
 </details>
 
 <details>
-<summary>:warning: auto&& and move in range-based for loop</summary>
+<summary>:warning: auto&& and forward :confused:</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/YK7Wxx3qd)
+:arrow_forward: [**Run**](https://godbolt.org/z/jrT9391do)
 
 ```cpp
 #include <iostream>
+#include <tuple>
 #include <utility>
 #include <vector>
 
 using std::cout, std::endl;
 
-// solution 1
-template<typename T, typename R>
-void append_range_to_vector_1(std::vector<T>& dest, R&& src_range)
-{
-    constexpr bool is_rvalue = std::is_rvalue_reference_v<decltype(src_range)>;
+enum class ArgType { VAL, RVAL };
 
-    for (auto&& el : src_range)
+struct Watcher
+{
+    Watcher() = default;
+    Watcher& operator=(const Watcher&) = delete;
+    Watcher& operator=(Watcher&&) = delete;
+    Watcher(const Watcher&) noexcept { operations_history += "C"; }
+    Watcher(Watcher&&) noexcept { operations_history += "M"; }
+
+    static inline std::string operations_history{};
+
+    static void check(const std::string& desc, ArgType arg_type)
+    {
+        auto operations_expected = std::string{};
+        if (arg_type == ArgType::VAL)
+        {
+            operations_expected = "C";
+            cout << desc << " (val)";
+        }
+        else
+        {
+            operations_expected = "M";
+            cout << desc << " (RVAL)";
+        }
+
+        cout << " --> " << operations_history;
+        if (operations_history != operations_expected)
+        {
+            cout << " ERROR (expected: " << operations_expected << ")";
+        }
+
+        cout << endl;
+        operations_history.clear();
+    }
+};
+
+// ----------------------------------------------------------------------------------------------
+
+void append_range_bad(auto& dest, auto&& range)
+{
+    for (auto&& el : range)
+    {
+        dest.push_back(std::forward<decltype(el)>(el));
+    }
+}
+
+void append_range_good(auto& dest, auto&& range)
+{
+    constexpr bool is_rvalue = std::is_rvalue_reference_v<decltype(range)>;
+
+    for (auto&& el : range)
     {
         if constexpr (is_rvalue)
         {
-            cout << "move: " << el << endl;
             dest.push_back(std::move(el));
         }
         else
         {
-            cout << "copy: " << el << endl;
             dest.push_back(el);
         }
     }
+}
+
+// solution using std::forward_like (C++23)
+// void append_range_good_2(auto& dest, auto&& range)
+// {
+//     for (auto&& el : range)
+//     {
+//         dest.push_back(std::forward_like<decltype(range)>(el));
+//     }
+// }
+
+void test_range_for()
+{
+    auto vec = std::vector<Watcher>(1);
+    auto dest = std::vector<Watcher>{};
+    dest.reserve(100);
+
+    append_range_bad(dest, vec);
+    Watcher::check("append_range_bad", ArgType::VAL);
+
+    append_range_bad(dest, std::vector<Watcher>(1));
+    Watcher::check("append_range_bad", ArgType::RVAL);
+
+    append_range_good(dest, vec);
+    Watcher::check("append_range_good", ArgType::VAL);
+
+    append_range_good(dest, std::vector<Watcher>(1));
+    Watcher::check("append_range_good", ArgType::RVAL);
 
     cout << endl;
 }
 
-// solution 2 (C++23)
-template<typename T, typename R>
-void append_range_to_vector_2(std::vector<T>& dest, R&& src_range)
+// ----------------------------------------------------------------------------------------------
+
+void append_tuple_bad(auto& dest, auto&& tuple)
 {
-    for (auto&& el : src_range)
+    auto&& [watcher, _] = tuple;
+    dest.push_back(std::forward<decltype(watcher)>(watcher));
+}
+
+void append_tuple_good(auto& dest, auto&& tuple)
+{
+    constexpr bool is_rvalue = std::is_rvalue_reference_v<decltype(tuple)>;
+
+    auto&& [watcher, _] = tuple;
+
+    if constexpr (is_rvalue)
     {
-        dest.push_back(std::forward_like<R>(el));
+        dest.push_back(std::move(watcher));
+    }
+    else
+    {
+        dest.push_back(watcher);
     }
 }
 
+void test_tuple()
+{
+    auto tuple = std::tuple<Watcher, int>{};
+    auto dest = std::vector<Watcher>{};
+    dest.reserve(100);
+
+    append_tuple_bad(dest, tuple);
+    Watcher::check("append_tuple_bad", ArgType::VAL);
+
+    append_tuple_bad(dest, std::tuple<Watcher, int>{});
+    Watcher::check("append_tuple_bad", ArgType::RVAL);
+
+    append_tuple_good(dest, tuple);
+    Watcher::check("append_tuple_good", ArgType::VAL);
+
+    append_tuple_good(dest, std::tuple<Watcher, int>{});
+    Watcher::check("append_tuple_good", ArgType::RVAL);
+
+    cout << endl;
+}
+
+// ----------------------------------------------------------------------------------------------
+
+struct TestStruct { Watcher w; int i; };
+
+void append_struct_bad_1(auto& dest, auto&& test_struct)
+{
+    auto&& [watcher, _] = test_struct;
+    dest.push_back(std::forward<decltype(watcher)>(watcher));
+}
+
+void append_struct_bad_2(auto& dest, auto&& test_struct)
+{
+    dest.push_back(std::forward<decltype(test_struct.w)>(test_struct.w));
+}
+
+void append_struct_good_1(auto& dest, auto&& test_struct)
+{
+    dest.push_back(std::forward<decltype(test_struct)>(test_struct).w);
+}
+
+void append_struct_good_2(auto& dest, auto&& test_struct)
+{
+    constexpr bool is_rvalue = std::is_rvalue_reference_v<decltype(test_struct)>;
+
+    auto&& [watcher, _] = test_struct;
+
+    if constexpr (is_rvalue)
+    {
+        dest.push_back(std::move(watcher));
+    }
+    else
+    {
+        dest.push_back(watcher);
+    }
+}
+
+void test_struct()
+{
+    auto test_struct = TestStruct{};
+    auto dest = std::vector<Watcher>{};
+    dest.reserve(100);
+
+    append_struct_bad_1(dest, test_struct);
+    Watcher::check("append_struct_bad_1", ArgType::VAL);
+
+    append_struct_bad_1(dest, TestStruct{});
+    Watcher::check("append_struct_bad_1", ArgType::RVAL);
+
+    append_struct_bad_2(dest, test_struct);
+    Watcher::check("append_struct_bad_2", ArgType::VAL);
+
+    append_struct_bad_2(dest, TestStruct{});
+    Watcher::check("append_struct_bad_2", ArgType::RVAL);
+
+    append_struct_good_1(dest, test_struct);
+    Watcher::check("append_struct_good_1", ArgType::VAL);
+
+    append_struct_good_1(dest, TestStruct{});
+    Watcher::check("append_struct_good_1", ArgType::RVAL);
+
+    append_struct_good_2(dest, test_struct);
+    Watcher::check("append_struct_good_2", ArgType::VAL);
+
+    append_struct_good_2(dest, TestStruct{});
+    Watcher::check("append_struct_good_2", ArgType::RVAL);
+
+    cout << endl;
+}
+
+// ----------------------------------------------------------------------------------------------
+
 int main()
 {
-    std::vector<int> dest{};
-
-    std::vector v{1, 2, 3};
-    append_range_to_vector_1(dest, v);
-
-    append_range_to_vector_1(dest, std::vector{4, 5, 6});
-
-    for (const auto& el : dest) cout << "dest: " << el << endl;
+    test_range_for();
+    test_tuple();
+    test_struct();
 }
 ```
 </details>
