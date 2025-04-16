@@ -172,8 +172,9 @@ public:
 <details>
 <summary>Static/const fields</summary>
 
+### Summary
 ```cpp
-struct BriefExample
+struct Summary
 {
     // static mutable
     static inline ...
