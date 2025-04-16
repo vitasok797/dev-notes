@@ -1091,7 +1091,7 @@ int main()
 <details>
 <summary>:warning: auto&& and forward :confused:</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/jrT9391do)
+:arrow_forward: [**Run**](https://godbolt.org/z/MTaYK9coG)
 
 ```cpp
 #include <iostream>
@@ -1150,11 +1150,9 @@ void append_range_bad(auto& dest, auto&& range)
 
 void append_range_good(auto& dest, auto&& range)
 {
-    constexpr bool is_rvalue = std::is_rvalue_reference_v<decltype(range)>;
-
     for (auto&& el : range)
     {
-        if constexpr (is_rvalue)
+        if constexpr (std::is_rvalue_reference_v<decltype(range)>)
         {
             dest.push_back(std::move(el));
         }
@@ -1205,11 +1203,9 @@ void append_tuple_bad(auto& dest, auto&& tuple)
 
 void append_tuple_good(auto& dest, auto&& tuple)
 {
-    constexpr bool is_rvalue = std::is_rvalue_reference_v<decltype(tuple)>;
-
     auto&& [watcher, _] = tuple;
 
-    if constexpr (is_rvalue)
+    if constexpr (std::is_rvalue_reference_v<decltype(tuple)>)
     {
         dest.push_back(std::move(watcher));
     }
@@ -1262,11 +1258,9 @@ void append_struct_good_1(auto& dest, auto&& test_struct)
 
 void append_struct_good_2(auto& dest, auto&& test_struct)
 {
-    constexpr bool is_rvalue = std::is_rvalue_reference_v<decltype(test_struct)>;
-
     auto&& [watcher, _] = test_struct;
 
-    if constexpr (is_rvalue)
+    if constexpr (std::is_rvalue_reference_v<decltype(test_struct)>)
     {
         dest.push_back(std::move(watcher));
     }
