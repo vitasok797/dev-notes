@@ -668,6 +668,8 @@ auto w = make_unique<Widget>();
 
 Strings (old + new style):
 ```cpp
+using namespace std::literals;
+
 const char* x = "hello";
 auto x = "hello";
 
