@@ -1536,13 +1536,13 @@ int main()
 <details>
 <summary>Pointers and const</summary>
 
-| Declaration Syntax       | Description                | Can reassign?          | Can modify pointer target? |
-|--------------------------|----------------------------|------------------------|----------------------------|
-| `const Type* ptr`        | **pointer-to**-const       | :white_check_mark: Yes | No                         |
-| `Type const* ptr`        | **pointer-to**-const       | :white_check_mark: Yes | No                         |
-| `Type* const ptr`        | const **pointer**          | No                     | :white_check_mark: Yes     |
-| `const Type* const ptr`  | const **pointer-to**-const | No                     | No                         |
-| `Type const* const ptr`  | const **pointer-to**-const | No                     | No                         |
+| Declaration syntax          | Description                | Can reassign?          | Can modify pointer target? |
+|-----------------------------|----------------------------|------------------------|----------------------------|
+| **`const Type* ptr`**       | **pointer-to**-const       | :white_check_mark: Yes | No                         |
+| `Type const* ptr`           | **pointer-to**-const       | :white_check_mark: Yes | No                         |
+| **`Type* const ptr`**       | const **pointer**          | No                     | :white_check_mark: Yes     |
+| **`const Type* const ptr`** | const **pointer-to**-const | No                     | No                         |
+| `Type const* const ptr`     | const **pointer-to**-const | No                     | No                         |
 
 </details>
 
