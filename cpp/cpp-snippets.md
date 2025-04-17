@@ -1527,6 +1527,73 @@ int main()
 </details>
 
 <details>
+<summary>Type alias</summary>
+
+[(Reference) Type alias](https://en.cppreference.com/w/cpp/language/type_alias)
+
+```cpp
+using UserId = int;
+using UserAccounts = std::map<UserId, std::vector<Account>>;
+```
+
+```cpp
+// identical to: typedef void (*func)(int, int);
+using func = void (*) (int, int);
+```
+
+```cpp
+template<typename T>
+using UserAccounts = std::map<UserId, std::vector<T>>;
+```
+</details>
+
+<details>
+<summary>Universal reference with type constrains</summary>
+
+[(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
+
+:arrow_forward: [**Run**](https://godbolt.org/z/MfKo5GeT1)
+
+```cpp
+#include <concepts>
+
+template<std::convertible_to<double> T>
+void func_double(T&& x) {...}
+```
+
+```cpp
+#include <concepts>
+
+template<typename T>
+requires std::same_as<std::decay_t<T>, std::string>
+void func_string(T&& x) {...}
+
+int main()
+{
+    std::string s = "111";
+    func_string(s);
+
+    func_string("222");  // error
+    func_string<std::string>("222");
+    func_string(std::string{"222"});
+}
+```
+
+```cpp
+#include <concepts>
+
+template<typename T1, typename T2>
+concept same_type = std::same_as<std::decay_t<T1>, std::decay_t<T2>>;
+
+template<typename T>
+requires same_type<T, std::string>
+void func_string(T&& x) {...}
+```
+</details>
+
+## Util
+
+<details>
 <summary>Scope guard</summary>
 
 [Source](src/scope_guard.h)
@@ -1598,73 +1665,6 @@ int main()
 }
 ```
 </details>
-
-<details>
-<summary>Type alias</summary>
-
-[(Reference) Type alias](https://en.cppreference.com/w/cpp/language/type_alias)
-
-```cpp
-using UserId = int;
-using UserAccounts = std::map<UserId, std::vector<Account>>;
-```
-
-```cpp
-// identical to: typedef void (*func)(int, int);
-using func = void (*) (int, int);
-```
-
-```cpp
-template<typename T>
-using UserAccounts = std::map<UserId, std::vector<T>>;
-```
-</details>
-
-<details>
-<summary>Universal reference with type constrains</summary>
-
-[(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
-
-:arrow_forward: [**Run**](https://godbolt.org/z/MfKo5GeT1)
-
-```cpp
-#include <concepts>
-
-template<std::convertible_to<double> T>
-void func_double(T&& x) {...}
-```
-
-```cpp
-#include <concepts>
-
-template<typename T>
-requires std::same_as<std::decay_t<T>, std::string>
-void func_string(T&& x) {...}
-
-int main()
-{
-    std::string s = "111";
-    func_string(s);
-
-    func_string("222");  // error
-    func_string<std::string>("222");
-    func_string(std::string{"222"});
-}
-```
-
-```cpp
-#include <concepts>
-
-template<typename T1, typename T2>
-concept same_type = std::same_as<std::decay_t<T1>, std::decay_t<T2>>;
-
-template<typename T>
-requires same_type<T, std::string>
-void func_string(T&& x) {...}
-```
-</details>
-
-## Util
 
 ## Var
 
