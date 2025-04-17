@@ -94,10 +94,12 @@
 * [(CG) ES.23: Prefer the {}-initializer syntax](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es23-prefer-the--initializer-syntax)
 
 ### Initialization / auto
+* [GotW #92 Solution: Auto Variables, Part 1](https://herbsutter.com/2013/06/07/gotw-92-solution-auto-variables-part-1/)
+* [GotW #93 Solution: Auto Variables, Part 2](https://herbsutter.com/2013/06/13/gotw-93-solution-auto-variables-part-2/)
 * [GotW #94 Solution: AAA Style (Almost Always Auto)](https://herbsutter.com/2013/08/12/gotw-94-solution-aaa-style-almost-always-auto/)
-* [The case against Almost Always auto (AAA)](https://gist.github.com/Eisenwave/5cca27867828743bf50ad95d526f5a6e)
 * [Almost Always const auto&](https://huixie90.github.io/Almost-always-const-auto-ref/)
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
+* [The case against Almost Always auto (AAA)](https://gist.github.com/Eisenwave/5cca27867828743bf50ad95d526f5a6e)
 
 ### Initialization / constexpr
 * [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
