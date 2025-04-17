@@ -643,7 +643,7 @@ int main()
 ## Initialization
 
 <details>
-<summary>Initialization with a temporary :confused:</summary>
+<summary>:warning: Initialization with a temporary :confused:</summary>
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
@@ -770,7 +770,7 @@ int main()
 </details>
 
 <details>
-<summary>Signed/unsigned operations :confused:</summary>
+<summary>:warning: Signed/unsigned operations :confused:</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/6ooGfa589)
 
