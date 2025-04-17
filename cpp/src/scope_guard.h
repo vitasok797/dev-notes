@@ -1,3 +1,6 @@
+#ifndef VS_UTIL_SCOPE_GUARD_H_
+#define VS_UTIL_SCOPE_GUARD_H_
+
 #include <utility>
 
 #define VS_SCOPE_GUARD vs::util::ScopeGuard VS_SCOPE_GUARD_UNIQ_NAME(__LINE__) = [&]()
@@ -38,3 +41,5 @@ template<typename F>
 }
 
 }  // namespace vs::util
+
+#endif  // VS_UTIL_SCOPE_GUARD_H_
