@@ -643,6 +643,77 @@ int main()
 ## Initialization
 
 <details>
+<summary>auto (AAA)</summary>
+
+:point_right: `auto` means "take exactly the type on the right-hand side, but strip off top-level const/volatile and &/&&"
+
+Syntax:
+```cpp
+[const] auto[&] x = expr;
+[const] auto[&] x = type{expr};
+```
+
+Examples:
+```cpp
+auto i = uint64_t{123};
+auto v = std::vector<int>{};
+auto get_size = [](const auto& x) { return x.size(); };
+```
+
+Heap allocation:
+```cpp
+auto w = new Widget{};
+auto w = make_unique<Widget>();
+```
+
+Strings (old + new style):
+```cpp
+const char* x = "hello";
+auto x = "hello";
+
+std::string x = "hello";
+auto x = std::string{"hello"};
+auto x = "hello"s;
+
+std::string_view x = "hello";
+auto x = std::string_view{"hello"};
+auto x = "hello"sv;
+```
+
+Loop counter:
+```cpp
+for(int i = 0; i < v.size(); ++i)  // BAD
+for(size_t i = 0; i < v.size(); ++i)  // BETTER
+for(auto i = size_t{}; i < v.size(); ++i)  // GOOD
+```
+
+Singned/unsignned cast with helpers:
+```cpp
+auto x = as_signed(integer_expr);
+auto x = as_unsigned(integer_expr);
+```
+
+Init by function return value:
+```cpp
+Gadget get_gadget();
+
+Widget w = get_gadget();  // BAD: implicit conversion Gadget to Widget (creates a temporary)
+auto w = get_gadget();  // GOOD: no implicit conversion
+auto w = Widget{ get_gadget() };  // GOOD: implicit conversion with intent
+```
+
+std::initializer_list issue:
+```cpp
+auto i = 3;    // int
+auto i(3);     // int
+auto i{3};     // C++11: std::initializer_list<int>
+               // C++14: int (only for single item in list)
+auto i = {3};  // C++11: std::initializer_list<int>
+               // C++14: std::initializer_list<int>
+```
+</details>
+
+<details>
 <summary>:warning: Initialization with a temporary :confused:</summary>
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
