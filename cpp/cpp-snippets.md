@@ -1605,15 +1605,17 @@ void func_string(T&& x) {...}
 
 [Source](src/scope_guard.h)
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/8sx6Th3ss)
+:arrow_forward: [**Demo**](https://godbolt.org/z/rq66eaTWK)
 
 ```cpp
 #include <iostream>
 
 #include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/scope_guard.h>
 
-using namespace vs::util;
 using std::cout, std::endl;
+
+using vs::util::ScopeGuard;
+using vs::util::make_scope_guard;
 
 struct Resource
 {
@@ -1643,8 +1645,8 @@ int main()
     {
         cout << "--- scope in 2 ---" << endl;
 
-        Resource resource;
-        ScopeGuard scope_guard = [&]() { resource.close(); };
+        auto resource = Resource{};
+        auto scope_guard = ScopeGuard{[&]() { resource.close(); }};
 
         // ...
         resource.use();
@@ -1660,7 +1662,7 @@ int main()
 
         VS_SCOPE_GUARD{ cout << "additional SCOPE_GUARD" << endl; };
 
-        Resource resource;
+        auto resource = Resource{};
         VS_SCOPE_GUARD{ resource.close(); };
 
         // ...
