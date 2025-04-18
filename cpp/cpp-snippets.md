@@ -666,7 +666,7 @@ auto w = new Widget{};
 auto w = std::make_unique<Widget>();
 ```
 
-Strings (old + new style):
+Strings:
 ```cpp
 using namespace std::literals;
 
