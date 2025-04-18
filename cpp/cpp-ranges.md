@@ -62,7 +62,7 @@ void func_with_concept([const] R[&][&&] rng) {}
 <summary>Range from iterators</summary>
 
 ```cpp
-std::vector<int> v{1, 2, 3, 4, 5};
+auto v = std::vector<int>{1, 2, 3, 4, 5};
 
 auto rng = ranges::subrange(v.begin() + 2, v.end());
 ```
@@ -72,7 +72,7 @@ auto rng = ranges::subrange(v.begin() + 2, v.end());
 <summary>Filter</summary>
 
 ```cpp
-std::vector<int> v{1, 2, 3, 4, 5, 6};
+auto v = std::vector<int>{1, 2, 3, 4, 5, 6};
 
 auto is_even = [](int i) { return i % 2 == 0; };
 
@@ -132,7 +132,7 @@ int main()
 <summary>String: to_string</summary>
 
 ```cpp
-std::vector<int> v{1, 2, 3};
+auto v = std::vector<int>{1, 2, 3};
 
 auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); });
 ```
@@ -148,17 +148,17 @@ auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); })
 
 int main()
 {
-    const std::string text{"    Hello World "};
+const auto text = std::string{"    Hello World "};
 
-    auto res = text | ranges::views::reverse
-                    | ranges::views::drop_while(::isspace)
-                    | ranges::views::reverse
-                    | ranges::views::drop_while(::isspace)
-                    | ranges::views::transform(::toupper)
-                    | ranges::to<std::string>();
+auto res = text | ranges::views::reverse
+                | ranges::views::drop_while(::isspace)
+                | ranges::views::reverse
+                | ranges::views::drop_while(::isspace)
+                | ranges::views::transform(::toupper)
+                | ranges::to<std::string>();
 
-    std::cout << std::quoted(text) << std::endl;
-    std::cout << std::quoted(res) << std::endl;
+std::cout << std::quoted(text) << std::endl;
+std::cout << std::quoted(res) << std::endl;
 }
 ```
 </details>
