@@ -405,7 +405,7 @@ int main()
 <details>
 <summary>Dispatch table</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/zY6j8Gnse)
+:arrow_forward: [**Run**](https://godbolt.org/z/fnhbG7vz7)
 
 ```cpp
 #include <functional>
@@ -434,7 +434,7 @@ int main()
 {
     using namespace std::placeholders;
 
-    std::map<const char, std::function<double(double, double)>> disp_table
+    auto disp_table = std::map<const char, std::function<double(double, double)>>
     {
         {'+', add},
         {'-', Sub{}},
