@@ -167,7 +167,7 @@ int main()
 <summary>Contains</summary>
 
 ```cpp
-std::vector<int> v{1, 2, 3};
+auto v = std::vector<int>{1, 2, 3};
 
 std::cout << std::boolalpha;
 
@@ -180,10 +180,12 @@ std::cout << ranges::contains(v, 999) << std::endl;
 <summary>Enumerate</summary>
 
 ```cpp
-std::vector<std::string> v{"A", "B", "C"};
+auto v = std::vector<std::string>{"A", "B", "C"};
 
 for (const auto& [index, value] : ranges::views::enumerate(v))
+{
     std::cout << index << ": " << value << std::endl;
+}
 ```
 </details>
 
@@ -191,8 +193,8 @@ for (const auto& [index, value] : ranges::views::enumerate(v))
 <summary>Vector append</summary>
 
 ```cpp
-std::vector<int> v1{1, 2, 3};
-std::vector<int> v2{4, -5, 6};
+auto v1 = std::vector<int>{1, 2, 3};
+auto v2 = std::vector<int>{4, -5, 6};
 
 v1 |= ranges::actions::push_back(v2);
 v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { return i < 0; }));
