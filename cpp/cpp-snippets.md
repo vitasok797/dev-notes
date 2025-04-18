@@ -373,11 +373,11 @@ struct {} _ = ...
 </details>
 
 <details>
-<summary>Type info</summary>
+<summary>Type info (overload resolution test)</summary>
 
 [Source](src/type_info.h)
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/67rd4PoWa)
+:arrow_forward: [**Demo**](https://godbolt.org/z/693qaGvvq)
 </details>
 
 ## Functional
@@ -1569,12 +1569,6 @@ int main()
     // print_options(other_opt);
 }
 ```
-</details>
-
-<details>
-<summary>Function overload resolution test</summary>
-
-:arrow_forward: [**Run**](https://godbolt.org/z/v3xMbM9z8)
 </details>
 
 <details>
