@@ -309,7 +309,7 @@ int main()
 <details>
 <summary>Custom views</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/7TrxrYsvh)
+:arrow_forward: [**Run**](https://godbolt.org/z/Y96efWxf5)
 
 ```cpp
 #include <format>
@@ -347,7 +347,7 @@ auto people_to_str_with_tag_view(auto proj)
 
 int main()
 {
-    std::vector<Person> people
+    auto people = std::vector<Person>
     {
         {"Jared", "Kushner", 1981},
         {"Donald", "Trump", 1946},
