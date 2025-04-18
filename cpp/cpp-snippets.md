@@ -670,14 +670,14 @@ Strings (old + new style):
 ```cpp
 using namespace std::literals;
 
-const char* x = "hello";
+// const char* x = "hello";
 auto x = "hello";
 
-std::string x = "hello";
+// std::string x = "hello";
 auto x = std::string{"hello"};
 auto x = "hello"s;
 
-std::string_view x = "hello";
+// std::string_view x = "hello";
 auto x = std::string_view{"hello"};
 auto x = "hello"sv;
 ```
