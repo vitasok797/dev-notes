@@ -1662,42 +1662,93 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 
 [(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/MfKo5GeT1)
+:arrow_forward: [**Run**](https://godbolt.org/z/oGxon6oec)
 
 ```cpp
 #include <concepts>
+#include <iostream>
+
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/type_info.h>
+
+using std::cout, std::endl;
+
+#define FUNC_INFO(x) VS_FUNC_INFO(x) << " [" << VS_TYPE_INFO(x) << "] [" << VS_REF_INFO(x) << "]"
+
+// ----------------------------------------------------------------------------------------------
 
 template<std::convertible_to<double> T>
-void func_double(T&& x) {...}
-```
+void func_double(T&& x)
+{
+    cout << x << ": " << FUNC_INFO(x) << endl;
+}
 
-```cpp
-#include <concepts>
+void test_convertible_to()
+{
+    const auto ci = 1;
+    auto i = 2;
+
+    func_double(ci);
+    func_double(i);
+    func_double(3);
+    func_double(4.2);
+    // func_double("cstr");  // error
+
+    cout << endl;
+}
+
+// ----------------------------------------------------------------------------------------------
 
 template<typename T>
 requires std::same_as<std::decay_t<T>, std::string>
-void func_string(T&& x) {...}
-
-int main()
+void func_string1(T&& x)
 {
-    std::string s = "111";
-    func_string(s);
-
-    func_string("222");  // error
-    func_string<std::string>("222");
-    func_string(std::string{"222"});
+    cout << x << ": " << FUNC_INFO(x) << endl;
 }
-```
 
-```cpp
-#include <concepts>
+void test_string1()
+{
+    auto s = std::string{"111"};
+
+    func_string1(s);
+    func_string1<std::string>("222");
+    func_string1(static_cast<std::string>("333"));
+    func_string1(std::string{"444"});
+    // func_string1("555");  // error
+
+    cout << endl;
+}
+
+// ----------------------------------------------------------------------------------------------
 
 template<typename T1, typename T2>
 concept same_type = std::same_as<std::decay_t<T1>, std::decay_t<T2>>;
 
 template<typename T>
 requires same_type<T, std::string>
-void func_string(T&& x) {...}
+void func_string2(T&& x)
+{
+    cout << x << ": " << FUNC_INFO(x) << endl;
+}
+
+void test_string2()
+{
+    auto s = std::string{"111"};
+
+    func_string2(s);
+    func_string2<std::string>("222");
+    // func_string2("333");  // error
+
+    cout << endl;
+}
+
+// ----------------------------------------------------------------------------------------------
+
+int main()
+{
+    test_convertible_to();
+    test_string1();
+    test_string2();
+}
 ```
 </details>
 
