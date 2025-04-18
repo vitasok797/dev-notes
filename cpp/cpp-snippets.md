@@ -383,7 +383,9 @@ struct {} _ = ...
 ## Functional
 
 <details>
-<summary>Apply</summary>
+<summary>apply / make_from_tuple</summary>
+
+:arrow_forward: [**Run**](https://godbolt.org/z/r31Ex5jqa)
 
 ```cpp
 #include <iostream>
@@ -394,10 +396,31 @@ int sum(int a, int b, int c)
     return a + b + c;
 }
 
-int main()
+void test_apply()
 {
     auto numbers = std::tuple{1, 2, 3};
-    std::cout << std::apply(sum, numbers) << std::endl;
+    std::cout << "apply res: " << std::apply(sum, numbers) << std::endl;
+}
+
+struct Foo
+{
+    Foo(int first, float second, int third)
+    {
+        std::cout << "make_from_tuple ctor: ";
+        std::cout << first << ", " << second << ", " << third << std::endl;
+    }
+};
+
+void test_make_from_tuple()
+{
+    auto ctor_args = std::tuple{10, 20, 30};
+    std::make_from_tuple<Foo>(ctor_args);
+}
+
+int main()
+{
+    test_apply();
+    test_make_from_tuple();
 }
 ```
 </details>
