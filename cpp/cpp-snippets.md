@@ -187,7 +187,7 @@ struct Summary
 };
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/MEdMY1b9e)
+:arrow_forward: [**Run**](https://godbolt.org/z/a4jcrPrMo)
 
 ```cpp
 #include <iostream>
@@ -241,7 +241,7 @@ int main()
 
     std::cout << std::endl;
 
-    Static static_inst{};
+    auto static_inst = Static{};
     print(static_inst.mutable_str);
     print(static_inst.const_int);
     print(static_inst.constexpr_int);
@@ -251,14 +251,14 @@ int main()
 
     std::cout << std::endl;
 
-    NonStatic non_static{};
+    auto non_static = NonStatic{};
     non_static.mutable_str += " + mod";
     print(non_static.mutable_str);
     print(non_static.const_str);
 
     std::cout << std::endl;
 
-    NonStatic non_static_custom{"custom"};
+    auto non_static_custom = NonStatic{"custom"};
     non_static_custom.mutable_str += " + mod";
     print(non_static_custom.mutable_str);
     print(non_static_custom.const_str);
