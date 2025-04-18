@@ -663,7 +663,7 @@ auto get_size = [](const auto& x) { return x.size(); };
 Heap allocation:
 ```cpp
 auto w = new Widget{};
-auto w = make_unique<Widget>();
+auto w = std::make_unique<Widget>();
 ```
 
 Strings (old + new style):
