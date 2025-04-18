@@ -269,7 +269,7 @@ int main()
 <details>
 <summary>Template class constructors/methods with T&& args</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/frqz64xsh)
+:arrow_forward: [**Run**](https://godbolt.org/z/hqjq4Whx3)
 
 ```cpp
 #include <iostream>
@@ -315,7 +315,7 @@ public:
 
 int main()
 {
-    double val = 0.0;
+    auto val = 0.0;
 
     TestClass1{val};
     TestClass1{0.0};
