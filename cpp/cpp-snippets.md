@@ -1760,7 +1760,7 @@ int main()
 <details>
 <summary>std::optional</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/oaTc8E7qx)
+:arrow_forward: [**Run**](https://godbolt.org/z/vzxGWjrqr)
 
 ```cpp
 #include <iostream>
@@ -1778,7 +1778,7 @@ void test(bool is_success)
     std::cout << std::boolalpha;
     std::cout << "--- is_success: " << is_success << " ---" << std::endl;
 
-    // ---------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------
 
     auto value = create(is_success);
 
@@ -1790,17 +1790,17 @@ void test(bool is_success)
     if (value.has_value())
         std::cout << value.value() << std::endl;
 
-    // ---------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------
 
     if (auto str = create(is_success); str)
         std::cout << *str << std::endl;
 
-    // ---------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------
 
     // construct in_place
-    const std::optional<std::vector<int>> opt_vec(std::in_place, {1, 2, 3});
+    const auto opt_vec = std::optional<std::vector<int>>(std::in_place, {1, 2, 3});
 
-    // ---------------------------------------------------------------------------
+    // ----------------------------------------------------------------------------------
 }
 
 int main()
