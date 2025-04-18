@@ -524,7 +524,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <details>
 <summary>Projection</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/T1nv85b7G)
+:arrow_forward: [**Run**](https://godbolt.org/z/xb4bxo4EY)
 
 ```cpp
 #include <functional>
@@ -567,7 +567,7 @@ void print_range_with_proj(const R& range, P proj = {})
 
 int main()
 {
-    std::vector<Rect> v1
+    auto v1 = std::vector<Rect>
     {
         {"bbb", 1.0, 2.0},
         {"aaa", 11.0, 220.0},
@@ -578,7 +578,7 @@ int main()
     print_range_with_proj(v1, &Rect::area);
     print_range_with_proj(v1, [](const Rect& rect) { return rect.a + rect.b; });
 
-    std::vector<std::string> v2
+    auto v2 = std::vector<std::string>
     {
         "xxx",
         "yyyyy",
