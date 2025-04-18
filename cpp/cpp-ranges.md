@@ -148,17 +148,17 @@ auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); })
 
 int main()
 {
-const auto text = std::string{"    Hello World "};
+    const auto text = std::string{"    Hello World "};
 
-auto res = text | ranges::views::reverse
-                | ranges::views::drop_while(::isspace)
-                | ranges::views::reverse
-                | ranges::views::drop_while(::isspace)
-                | ranges::views::transform(::toupper)
-                | ranges::to<std::string>();
+    auto res = text | ranges::views::reverse
+                    | ranges::views::drop_while(::isspace)
+                    | ranges::views::reverse
+                    | ranges::views::drop_while(::isspace)
+                    | ranges::views::transform(::toupper)
+                    | ranges::to<std::string>();
 
-std::cout << std::quoted(text) << std::endl;
-std::cout << std::quoted(res) << std::endl;
+    std::cout << std::quoted(text) << std::endl;
+    std::cout << std::quoted(res) << std::endl;
 }
 ```
 </details>
