@@ -762,7 +762,7 @@ for (init; decl : expr)
 ```
 
 ```cpp
-for (size_t i = 0; const auto& x : container)
+for (auto i = size_t{}; const auto& x : container)
 {
     std::cout << i++ << ": " << x << std::endl;
 }
@@ -770,7 +770,7 @@ for (size_t i = 0; const auto& x : container)
 
 ```cpp
 for (auto& x : foo().items()) {...}  // undefined behavior if foo() returns by value
-for (T thing = foo(); auto& x : thing.items()) {...}  // OK
+for (auto thing = foo(); auto& x : thing.items()) {...}  // OK
 ```
 </details>
 
@@ -797,7 +797,7 @@ Unpack tuple:
 ```cpp
 #include <tuple>
 
-std::tuple tuple{1, 'a', 2.3};
+auto tuple = std::tuple{1, 'a', 2.3};
 
 auto [a, b, c] = tuple;
 ```
@@ -811,7 +811,7 @@ struct Foo
     double d;
 };
 
-Foo f {1, 'a', 2.3};
+auto f = Foo{1, 'a', 2.3};
 
 auto [i, c, d] = f;
 ```
