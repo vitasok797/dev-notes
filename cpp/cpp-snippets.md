@@ -396,7 +396,7 @@ int sum(int a, int b, int c)
 
 int main()
 {
-    std::tuple numbers{1, 2, 3};
+    auto numbers = std::tuple{1, 2, 3};
     std::cout << std::apply(sum, numbers) << std::endl;
 }
 ```
@@ -505,7 +505,7 @@ int main()
 [(StackOverflow) What is a generalized lambda capture and why was it created?](https://stackoverflow.com/questions/41519450/what-is-a-generalized-lambda-capture-and-why-was-it-created/41520537#41520537)
 
 ```cpp
-p_nums = std::make_unique<std::vector<int>>(nums);
+auto p_nums = std::make_unique<std::vector<int>>(nums);
 auto lam = [p_nums=std::move(p_nums)]() { /* use p_nums */ };
 ```
 
