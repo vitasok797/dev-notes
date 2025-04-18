@@ -231,7 +231,7 @@ int main()
 <details>
 <summary>Projections</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/cjcda7WG4)
+:arrow_forward: [**Run**](https://godbolt.org/z/341nroGr6)
 
 ```cpp
 #include <iostream>
@@ -251,7 +251,7 @@ void demo1()
 {
     std::cout << "--- demo 1 ----------------------------------" << std::endl << std::endl;
 
-    std::vector<S> v
+    auto v = std::vector<S>
     {
         {"bbb", 1.0, 2.0},
         {"aaa", 11.0, 220.0},
@@ -281,7 +281,7 @@ void demo2()
 {
     std::cout << "--- demo 2 ----------------------------------" << std::endl << std::endl;
 
-    std::vector<std::string> v
+    auto v = std::vector<std::string>
     {
         "aaa",
         "bbbbb",
