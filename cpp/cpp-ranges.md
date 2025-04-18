@@ -204,7 +204,7 @@ v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { retur
 <details>
 <summary>Copy to ostream</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/qTj6jvvYY)
+:arrow_forward: [**Run**](https://godbolt.org/z/Whbbv4Tnz)
 
 ```cpp
 #include <iostream>
@@ -213,7 +213,7 @@ v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { retur
 
 int main()
 {
-    std::vector<int> v{1, 2, 3};
+    auto v = std::vector<int>{1, 2, 3};
 
     // 1
     std::cout << ranges::views::all(v) << std::endl;
