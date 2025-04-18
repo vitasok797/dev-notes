@@ -999,7 +999,7 @@ condition ? true_expression : false_expression
 <details>
 <summary>String builder</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/fYsc3b4nn)
+:arrow_forward: [**Run**](https://godbolt.org/z/n4nKdqjjW)
 
 ```cpp
 #include <iostream>
@@ -1007,7 +1007,7 @@ condition ? true_expression : false_expression
 
 void build_string_1()
 {
-    std::ostringstream ss;
+    auto ss = std::ostringstream{};
 
     ss << "Hello";
     ss << " from";
@@ -1022,7 +1022,7 @@ void build_string_1()
 
 void build_string_2()
 {
-    std::string res;
+    auto res = std::string{};
 
     res.reserve(100);  // optional
 
