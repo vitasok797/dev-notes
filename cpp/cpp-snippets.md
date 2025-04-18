@@ -1069,7 +1069,7 @@ int main()
 <details>
 <summary>:warning: auto&& resolving</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/qYbG51vzd)
+:arrow_forward: [**Run**](https://godbolt.org/z/qhcsK1GW3)
 
 ```cpp
 #include <map>
@@ -1078,7 +1078,7 @@ int main()
 
 void test_scalar()
 {
-    int x = 0;
+    auto x = 0;
     auto&& x1 = x;
     // int& x1
 
@@ -1088,7 +1088,7 @@ void test_scalar()
 
 void test_tuple_binding_by_uref()
 {
-    std::tuple tuple{1, 2.0};
+    auto tuple = std::tuple{1, 2.0};
     auto&& [x1, y1] = tuple;
     // int& x1, double& y1
 
@@ -1098,7 +1098,7 @@ void test_tuple_binding_by_uref()
 
 void test_tuple_binding_by_copy()
 {
-    std::tuple tuple{1, 2.0};
+    auto tuple = std::tuple{1, 2.0};
     auto [x1, y1] = tuple;
     // int& x1, double& y1 (lvalue refs to tuple copy)
 
@@ -1127,7 +1127,7 @@ void test_vector_proxy_el()
 
 void test_iteration_vector()
 {
-    std::vector v{1, 2, 3};
+    auto v = std::vector{1, 2, 3};
     for (auto&& el : v) {}
     // int& el
 
@@ -1144,7 +1144,7 @@ void test_iteration_vector()
 
 void test_iteration_binding_map()
 {
-    std::map<int, double> m{{1, 10.0}, {2, 20.0}};
+    auto m = std::map<int, double>{{1, 10.0}, {2, 20.0}};
     for (auto&& [k, v] : m) {}
     // const int& k, double& v
 
@@ -1157,7 +1157,7 @@ void test_struct_binding_by_uref()
 {
     struct S { int x; double y; };
 
-    S s{1, 2.0};
+    auto s = S{1, 2.0};
     auto&& [x1, y1] = s;
     // int& x1, double& y1
 
@@ -1169,7 +1169,7 @@ void test_struct_binding_by_copy()
 {
     struct S { int x; double y; };
 
-    S s{1, 2.0};
+    auto s = S{1, 2.0};
     auto [x1, y1] = s;
     // int& x1, double& y1 (lvalue refs to struct copy)
 
