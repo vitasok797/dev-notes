@@ -1760,7 +1760,7 @@ int main()
 <details>
 <summary>std::optional</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/vzxGWjrqr)
+:arrow_forward: [**Run**](https://godbolt.org/z/hWsKhq6d8)
 
 ```cpp
 #include <iostream>
@@ -1797,8 +1797,11 @@ void test(bool is_success)
 
     // ----------------------------------------------------------------------------------
 
-    // construct in_place
-    const auto opt_vec = std::optional<std::vector<int>>(std::in_place, {1, 2, 3});
+    // construct in_place 1
+    auto opt_vec1 = std::optional<std::vector<int>>(std::in_place, {1, 2, 3});
+
+    // construct in_place 2
+    auto opt_vec2 = std::make_optional<std::vector<int>>({1, 2, 3});
 
     // ----------------------------------------------------------------------------------
 }
