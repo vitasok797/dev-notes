@@ -340,13 +340,13 @@ struct A
 
 struct B : A
 {
-    void foo() override;
+    void foo() [const] override;
     ~B() override;
 };
 
 struct C final : B
 {
-    void foo() final;
+    void foo() [const] final;
     ~C() final;
 };
 ```
