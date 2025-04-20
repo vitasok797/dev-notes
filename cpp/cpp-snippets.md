@@ -739,20 +739,6 @@ auto i = {3};  // C++11: std::initializer_list<int>
 </details>
 
 <details>
-<summary>:warning: Initialization with a temporary :confused:</summary>
-
-[(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
-
-:arrow_forward: [**Run**](https://godbolt.org/z/7cGEM3ETb)
-
-```cpp
-std::tuple<int, Watcher>{42, 1};  // inplace
-std::tuple<int, Watcher>{42, {1}};  // COPY
-std::tuple<int, Watcher>{42, Watcher{1}};  // move
-```
-</details>
-
-<details>
 <summary>Statement with initializer: if</summary>
 
 [(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
@@ -844,6 +830,20 @@ Unpack map:
 #include <map>
 
 for (const auto& [k, v] : mymap) {...}
+```
+</details>
+
+<details>
+<summary>std::tuple initialization with a temporary</summary>
+
+[(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
+
+:arrow_forward: [**Run**](https://godbolt.org/z/7cGEM3ETb)
+
+```cpp
+std::tuple<int, Watcher>{42, 1};  // inplace
+std::tuple<int, Watcher>{42, {1}};  // COPY
+std::tuple<int, Watcher>{42, Watcher{1}};  // move
 ```
 </details>
 
