@@ -784,6 +784,20 @@ for (auto thing = foo(); auto& x : thing.items()) {...}  // OK
 </details>
 
 <details>
+<summary>std::tuple initialization with a temporary</summary>
+
+[(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
+
+:arrow_forward: [**Run**](https://godbolt.org/z/9K876WGfs)
+
+```cpp
+std::tuple<int, Watcher>{42, 1};  // inplace
+std::tuple<int, Watcher>{42, {1}};  // temporary + COPY
+std::tuple<int, Watcher>{42, Watcher{1}};  // temporary + move
+```
+</details>
+
+<details>
 <summary>:warning: Structured Binding</summary>
 
 [(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
@@ -830,20 +844,6 @@ Unpack map:
 #include <map>
 
 for (const auto& [k, v] : mymap) {...}
-```
-</details>
-
-<details>
-<summary>std::tuple initialization with a temporary</summary>
-
-[(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
-
-:arrow_forward: [**Run**](https://godbolt.org/z/9K876WGfs)
-
-```cpp
-std::tuple<int, Watcher>{42, 1};  // inplace
-std::tuple<int, Watcher>{42, {1}};  // temporary + COPY
-std::tuple<int, Watcher>{42, Watcher{1}};  // temporary + move
 ```
 </details>
 
