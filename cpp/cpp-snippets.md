@@ -743,7 +743,7 @@ auto i = {3};  // C++11: std::initializer_list<int>
 
 ### Summary (std::tuple)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/E3efbsnhx)
+:arrow_forward: [**Run**](https://godbolt.org/z/e9jb47vPh)
 
 ```cpp
 std::tuple<int, Watcher>{0, 1};  // inplace
@@ -755,7 +755,7 @@ std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1}};   // temporary
 
 ### Summary (std::optional)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/3jx1rvK5c)
+:arrow_forward: [**Run**](https://godbolt.org/z/Gd4n3EPvj)
 
 ```cpp
 
