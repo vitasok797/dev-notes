@@ -54,8 +54,8 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 class Employee
 {
 public:
-    Employee(std::string name, int id = default_id) :
-        name_{std::move(name)},
+    Employee(const std::string& name, int id = default_id) :
+        name_{name},
         id_{id}
     {}
 
