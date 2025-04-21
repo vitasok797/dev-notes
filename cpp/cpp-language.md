@@ -116,6 +116,8 @@
 
 ## Templates
 * [constexpr if](https://www.modernescpp.com/index.php/constespr-if/)
+* [How C++20 Concepts can simplify your code](https://andreasfertig.com/blog/2020/07/how-cpp20-concepts-can-simplify-your-code/)
+* [SFINAE. Как много в этом слове](https://scrutator.me/post/2016/12/12/sfinae.aspx)
 
 ## Types
 * [(cppreference) Fundamental types](https://en.cppreference.com/w/cpp/language/types)
