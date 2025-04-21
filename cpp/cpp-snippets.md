@@ -759,9 +759,11 @@ std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }  // tempo
 
 ```cpp
 auto o = std::make_optional<Watcher>(1, 2);  // inplace
+auto o = std::optional<Watcher>{1};  // inplace (single arg ctor only)
 auto o = std::optional<Watcher>{Watcher{1, 2}};  // temporary + move
 
 std::optional<Watcher> return_optional() { return std::make_optional<Watcher>(1, 2); }  // inplace
+std::optional<Watcher> return_optional() { return 1; }  // inplace (single arg ctor only)
 std::optional<Watcher> return_optional() { return Watcher{1, 2}; }  // temporary + move
 ```
 
