@@ -20,7 +20,7 @@
 namespace vs::debug
 {
 
-template <typename T>
+template<typename T>
 constexpr auto get_type_info()
 {
     std::string_view name, prefix, suffix;
