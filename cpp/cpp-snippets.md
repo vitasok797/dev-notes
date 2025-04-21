@@ -761,6 +761,8 @@ std::tuple<int, Watcher> return_tuple() { return {0, 1}; }
 std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }
 ```
 
+[(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
+
 ### Summary (std::optional)
 
 :arrow_forward: [**Run**](https://godbolt.org/z/Gd4n3EPvj)
@@ -786,9 +788,6 @@ std::optional<Watcher> return_optional() { return 1; }
 // return: temporary + move
 std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 ```
-
-[(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
-
 </details>
 
 <details>
