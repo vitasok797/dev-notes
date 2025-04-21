@@ -739,6 +739,24 @@ auto i = {3};  // C++11: std::initializer_list<int>
 </details>
 
 <details>
+<summary>Initializing tuple/optional with a temporary</summary>
+
+[(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
+
+:arrow_forward: [**Run**](https://godbolt.org/z/4oGa1W31v)
+
+```cpp
+std::tuple<int, Watcher>{0, 1};  // inplace
+std::tuple<int, Watcher>{0, {1}};  // temporary + COPY
+std::tuple<int, Watcher>{0, Watcher{1}};  // temporary + move
+
+std::make_tuple<int, Watcher>(0, 1);  // temporary + move
+std::make_tuple<int, Watcher>(0, {1});  // temporary + move
+std::make_tuple<int, Watcher>(0, Watcher{1});  // temporary + move
+```
+</details>
+
+<details>
 <summary>Statement with initializer: if</summary>
 
 [(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
@@ -780,24 +798,6 @@ for (auto i = size_t{}; const auto& x : container)
 ```cpp
 for (auto& x : foo().items()) {...}  // undefined behavior if foo() returns by value
 for (auto thing = foo(); auto& x : thing.items()) {...}  // OK
-```
-</details>
-
-<details>
-<summary>std::tuple initialization with a temporary</summary>
-
-[(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
-
-:arrow_forward: [**Run**](https://godbolt.org/z/4oGa1W31v)
-
-```cpp
-std::tuple<int, Watcher>{0, 1};  // inplace
-std::tuple<int, Watcher>{0, {1}};  // temporary + COPY
-std::tuple<int, Watcher>{0, Watcher{1}};  // temporary + move
-
-std::make_tuple<int, Watcher>(0, 1);  // temporary + move
-std::make_tuple<int, Watcher>(0, {1});  // temporary + move
-std::make_tuple<int, Watcher>(0, Watcher{1});  // temporary + move
 ```
 </details>
 
