@@ -129,6 +129,7 @@
 ### Types / By-value-then-move idiom
 * [(StackOverflow) Advantages of pass-by-value and std::move over pass-by-reference](https://stackoverflow.com/questions/51705967/advantages-of-pass-by-value-and-stdmove-over-pass-by-reference)
 * [(StackOverflow) Is the pass-by-value-and-then-move construct a bad idiom?](https://stackoverflow.com/questions/21035417/is-the-pass-by-value-and-then-move-construct-a-bad-idiom)
+* [Передача по ссылке или по значению?](https://scrutator.me/post/2018/07/30/value_vs_reference.aspx)
 
 ### Types / Functional
 * [(cppreference) std::function](https://en.cppreference.com/w/cpp/utility/functional/function)
