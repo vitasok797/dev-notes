@@ -11,19 +11,21 @@
 ## Guides
 * [ISO C++: Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)
 * [ISO C++: FAQ](https://isocpp.org/wiki/faq)
+* [Bjarne Stroustrup's FAQ](https://www.stroustrup.com/bs_faq.html)
+* [Bjarne Stroustrup's FAQ 2](https://www.stroustrup.com/bs_faq2.html)
+* [SEI CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
+* [Book: More C++ Idioms](https://en.wikibooks.org/wiki/Category:Book:More_C++_Idioms)
+* [Modernes C++](https://www.modernescpp.com/index.php/table-of-content/)
+* :question: [Effective Modern C++](https://xavierlamorlette.fr/cpp/effective_modern_cpp/)
+
+## Blogs
+* [Abseil Tips of the Week](https://abseil.io/tips/)
 * [Fluent C++](https://www.fluentcpp.com/)
 * [Simplify C++](https://arne-mertz.de/)
-* [Modernes C++](https://www.modernescpp.com/index.php/table-of-content/)
-* [Effective Modern C++](https://xavierlamorlette.fr/cpp/effective_modern_cpp/)
 * [C++ Stories](https://www.cppstories.com/p/start-here/)
 * [Andreas Fertig’s Blog](https://andreasfertig.blog/)
 * [Thoughts from a C++ library developer](https://www.foonathan.net/)
 * [Sy Brand's Blog](https://blog.tartanllama.xyz/posts-by-categories/)
-* [Bjarne Stroustrup's FAQ](https://www.stroustrup.com/bs_faq.html)
-* [Bjarne Stroustrup's FAQ 2](https://www.stroustrup.com/bs_faq2.html)
-* [Book: More C++ Idioms](https://en.wikibooks.org/wiki/Category:Book:More_C++_Idioms)
-* [Abseil Tips of the Week](https://abseil.io/tips/)
-* [SEI CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
 
 ## Modern C++
 * [Modern C++ Tutorial: C++ 11/14/17/20 On The Fly](https://github.com/changkun/modern-cpp-tutorial/blob/master/book/en-us/toc.md)
