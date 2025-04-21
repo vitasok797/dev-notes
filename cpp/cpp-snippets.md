@@ -788,12 +788,16 @@ for (auto thing = foo(); auto& x : thing.items()) {...}  // OK
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/9K876WGfs)
+:arrow_forward: [**Run**](https://godbolt.org/z/4oGa1W31v)
 
 ```cpp
-std::tuple<int, Watcher>{42, 1};  // inplace
-std::tuple<int, Watcher>{42, {1}};  // temporary + COPY
-std::tuple<int, Watcher>{42, Watcher{1}};  // temporary + move
+std::tuple<int, Watcher>{0, 1};  // inplace
+std::tuple<int, Watcher>{0, {1}};  // temporary + COPY
+std::tuple<int, Watcher>{0, Watcher{1}};  // temporary + move
+
+std::make_tuple<int, Watcher>(0, 1);  // temporary + move
+std::make_tuple<int, Watcher>(0, {1});  // temporary + move
+std::make_tuple<int, Watcher>(0, Watcher{1});  // temporary + move
 ```
 </details>
 
