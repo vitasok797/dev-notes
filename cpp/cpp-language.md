@@ -13,6 +13,7 @@
 * [ISO C++: FAQ](https://isocpp.org/wiki/faq)
 * [Bjarne Stroustrup's FAQ](https://www.stroustrup.com/bs_faq.html)
 * [Bjarne Stroustrup's FAQ 2](https://www.stroustrup.com/bs_faq2.html)
+* [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 * [SEI CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
 * [Book: More C++ Idioms](https://en.wikibooks.org/wiki/Category:Book:More_C++_Idioms)
 * [Modernes C++](https://www.modernescpp.com/index.php/table-of-content/)
