@@ -16,7 +16,6 @@
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 * [SEI CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
 * [Book: More C++ Idioms](https://en.wikibooks.org/wiki/Category:Book:More_C++_Idioms)
-* :question: [Effective Modern C++](https://xavierlamorlette.fr/cpp/effective_modern_cpp/)
 
 ## Blogs
 * [Abseil Tips of the Week](https://abseil.io/tips/)
