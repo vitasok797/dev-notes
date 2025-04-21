@@ -109,6 +109,9 @@
 * [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
 * [Just how constexpr is C++20’s std::string?](https://quuxplusone.github.io/blog/2023/09/08/constexpr-string-firewall/)
 
+### Initialization / Structured bindings
+* [Языковые новшества C++17. Часть 2. Constexpr и привязки](https://scrutator.me/post/2017/10/07/cpp17_lang_features_p2.aspx)
+
 ## Templates
 * [constexpr if](https://www.modernescpp.com/index.php/constespr-if/)
 
