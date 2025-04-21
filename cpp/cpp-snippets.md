@@ -746,11 +746,19 @@ auto i = {3};  // C++11: std::initializer_list<int>
 :arrow_forward: [**Run**](https://godbolt.org/z/e9jb47vPh)
 
 ```cpp
-auto t = std::tuple<int, Watcher>{0, 1};  // inplace (single arg ctor only)
-auto t = std::tuple<int, Watcher>{0, Watcher{1, 2}};  // temporary + move
+// create: inplace (single arg ctor only)
+auto t = std::tuple<int, Watcher>{0, 1};
 
-std::tuple<int, Watcher> return_tuple() { return {0, 1}; }  // inplace (single arg ctor only)
-std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }  // temporary + move
+// create: temporary + move
+auto t = std::tuple<int, Watcher>{0, Watcher{1, 2}};
+```
+
+```cpp
+// return: inplace (single arg ctor only)
+std::tuple<int, Watcher> return_tuple() { return {0, 1}; }
+
+// return: temporary + move
+std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }
 ```
 
 ### Summary (std::optional)
@@ -758,13 +766,25 @@ std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }  // tempo
 :arrow_forward: [**Run**](https://godbolt.org/z/Gd4n3EPvj)
 
 ```cpp
-auto o = std::make_optional<Watcher>(1, 2);  // inplace
-auto o = std::optional<Watcher>{1};  // inplace (single arg ctor only)
-auto o = std::optional<Watcher>{Watcher{1, 2}};  // temporary + move
+// create: inplace
+auto o = std::make_optional<Watcher>(1, 2);
 
-std::optional<Watcher> return_optional() { return std::make_optional<Watcher>(1, 2); }  // inplace
-std::optional<Watcher> return_optional() { return 1; }  // inplace (single arg ctor only)
-std::optional<Watcher> return_optional() { return Watcher{1, 2}; }  // temporary + move
+// create: inplace (single arg ctor only)
+auto o = std::optional<Watcher>{1};
+
+// create: temporary + move
+auto o = std::optional<Watcher>{Watcher{1, 2}};
+```
+
+```cpp
+// return: inplace
+std::optional<Watcher> return_optional() { return std::make_optional<Watcher>(1, 2); }
+
+// return: inplace (single arg ctor only)
+std::optional<Watcher> return_optional() { return 1; }
+
+// return: temporary + move
+std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 ```
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
