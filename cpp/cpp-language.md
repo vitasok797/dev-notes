@@ -37,6 +37,7 @@
 * [Enum Class Improvements for C++17, C++20 and C++23](https://www.cppstories.com/2024/enum-improvements/)
 * [Integer Conversions and Safe Comparisons in C++20 ](https://www.cppstories.com/2022/safe-int-cmp-cpp20/)
 * [Языковые новшества C++17. Часть 3. Порядок и спокойствие](https://scrutator.me/post/2018/04/28/cpp17_lang_features_p3.aspx)
+* [How C++20 Concepts can simplify your code](https://andreasfertig.com/blog/2020/07/how-cpp20-concepts-can-simplify-your-code/)
 
 ## Classes
 * The rule of three/five/zero:
