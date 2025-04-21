@@ -16,7 +16,6 @@
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 * [SEI CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
 * [Book: More C++ Idioms](https://en.wikibooks.org/wiki/Category:Book:More_C++_Idioms)
-* [Modernes C++](https://www.modernescpp.com/index.php/table-of-content/)
 * :question: [Effective Modern C++](https://xavierlamorlette.fr/cpp/effective_modern_cpp/)
 
 ## Blogs
@@ -24,6 +23,7 @@
 * [Fluent C++](https://www.fluentcpp.com/)
 * [Simplify C++](https://arne-mertz.de/)
 * [C++ Stories](https://www.cppstories.com/p/start-here/)
+* [Modernes C++](https://www.modernescpp.com/index.php/table-of-content/)
 * [Andreas Fertig’s Blog](https://andreasfertig.blog/)
 * [Thoughts from a C++ library developer](https://www.foonathan.net/)
 * [Sy Brand's Blog](https://blog.tartanllama.xyz/posts-by-categories/)
