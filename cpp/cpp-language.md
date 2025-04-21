@@ -26,6 +26,7 @@
 * [Andreas Fertig’s Blog](https://andreasfertig.blog/)
 * [Thoughts from a C++ library developer](https://www.foonathan.net/)
 * [Sy Brand's Blog](https://blog.tartanllama.xyz/posts-by-categories/)
+* [Субъективный объективизм](https://scrutator.me/)
 
 ## Modern C++
 * [Modern C++ Tutorial: C++ 11/14/17/20 On The Fly](https://github.com/changkun/modern-cpp-tutorial/blob/master/book/en-us/toc.md)
