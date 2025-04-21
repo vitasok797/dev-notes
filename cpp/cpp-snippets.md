@@ -741,15 +741,18 @@ auto i = {3};  // C++11: std::initializer_list<int>
 <details>
 <summary>Initializing tuple/optional with a temporary</summary>
 
-### Summary
+### Summary (std::tuple)
 ```cpp
 std::tuple<int, Watcher>{0, 1};  // inplace
-std::tuple<int, Watcher>{0, {1}};  // temporary + COPY
 std::tuple<int, Watcher>{0, Watcher{1}};  // temporary + move
 
-std::make_tuple<int, Watcher>(0, 1);  // temporary + move
-std::make_tuple<int, Watcher>(0, {1});  // temporary + move
-std::make_tuple<int, Watcher>(0, Watcher{1});  // temporary + move
+std::tuple<int, Watcher> return_tuple() { return {0, 1}; }  // inplace
+std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1}};   // temporary + move
+```
+
+### Summary (std::optional)
+```cpp
+
 ```
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
