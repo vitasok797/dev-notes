@@ -158,6 +158,7 @@
 * [(Habr) Долой указатели](https://habr.com/ru/companies/otus/articles/669532/)
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
+* [Вероломные указатели](https://scrutator.me/post/2019/12/12/backstabbing_ptrs.aspx)
 
 ## Files
 * [22 Common Filesystem Tasks in C++20](https://www.cppstories.com/2024/common-filesystem-cpp20/)
