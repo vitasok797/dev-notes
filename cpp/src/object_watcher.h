@@ -54,6 +54,19 @@ private:
     bool moved_ = false;
 };
 
+class CtorWatcher final
+{
+public:
+    template<typename... Args>
+    CtorWatcher(const Args&...) noexcept { std::cout << "ctor" << sizeof...(Args) << std::endl; };
+
+    CtorWatcher(const CtorWatcher&) noexcept { std::cout << " COPY" << std::endl; };
+    CtorWatcher(CtorWatcher&&) noexcept { std::cout << " move" << std::endl; };
+
+    CtorWatcher& operator=(const CtorWatcher&) = delete;
+    CtorWatcher& operator=(CtorWatcher&&) = delete;
+};
+
 }  // namespace vs::debug
 
 #endif  // VS_DEBUG_OBJECT_WATCHER_H_
