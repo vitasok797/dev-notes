@@ -57,8 +57,9 @@ private:
 class CtorWatcher final
 {
 public:
-    template<typename... Args>
-    CtorWatcher(const Args&...) noexcept { std::cout << "ctor" << sizeof...(Args) << std::endl; };
+    CtorWatcher() noexcept { std::cout << "ctor0" << std::endl; };
+    CtorWatcher(const auto&) noexcept { std::cout << "ctor1" << std::endl; };
+    CtorWatcher(const auto&, const auto&) noexcept { std::cout << "ctor2" << std::endl; };
 
     CtorWatcher(const CtorWatcher&) noexcept { std::cout << " COPY" << std::endl; };
     CtorWatcher(CtorWatcher&&) noexcept { std::cout << " move" << std::endl; };
