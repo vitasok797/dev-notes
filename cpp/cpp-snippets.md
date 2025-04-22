@@ -784,7 +784,7 @@ auto i = {3};  // C++11: std::initializer_list<int>
 
 ### Summary (std::tuple)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/e9jb47vPh)
+:arrow_forward: [**Run**](https://godbolt.org/z/s7bKb4KEE)
 
 ```cpp
 // create: inplace (single arg ctor only)
@@ -806,7 +806,7 @@ std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }
 
 ### Summary (std::optional)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/Gd4n3EPvj)
+:arrow_forward: [**Run**](https://godbolt.org/z/4vdWPeYWx)
 
 ```cpp
 // create: inplace
