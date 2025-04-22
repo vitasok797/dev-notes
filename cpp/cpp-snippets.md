@@ -269,61 +269,101 @@ int main()
 <details>
 <summary>Template class constructors/methods with T&& args</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/hqjq4Whx3)
+:arrow_forward: [**Run**](https://godbolt.org/z/Tb781E4s3)
 
 ```cpp
 #include <iostream>
 #include <utility>
 
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/object_watcher.h>
+
+using std::cout, std::endl;
+
+using Watcher = vs::debug::CtorWatcher;
+
 template<typename T>
-class TestClass1
+struct Test1
 {
-public:
-    TestClass1(const T& x) : x_{x}
+    Test1(const T& x) : x_{x}
     {
-        std::cout << "TestClass1 [const T&]" << std::endl;
+        cout << "Test1 [const T&]" << endl;
     }
 
-    // SURPRISE!!!
     // Catches only rvalues
     // T&& is rvalue ref of type T (not forwarding/universal ref)
     // So we need additional TestClass1(const T&) constructor
     // Note: both std::move and std::forward are acceptable
-    TestClass1(T&& x) : x_{std::forward<T>(x)}
+    Test1(T&& x) : x_{std::forward<T>(x)}
     {
-        std::cout << "TestClass1 [T&&]";
-        std::cout << (std::is_rvalue_reference_v<decltype(x)> ? " rvalue_ref" : "");
-        std::cout << std::endl;
+        cout << "Test1 [T&&]";
+        cout << (std::is_rvalue_reference_v<decltype(x)> ? " rvalue_ref" : "");
+        cout << endl;
     }
 
     T x_;
 };
 
 template<typename T>
-class TestClass2
+struct Test2
 {
-public:
-    TestClass2(auto&& x) : x_{std::forward<decltype(x)>(x)}
+    Test2(T x) : x_{std::move(x)}
     {
-        std::cout << "TestClass2 [T&&]";
-        std::cout << (std::is_rvalue_reference_v<decltype(x)> ? " rvalue_ref" : "");
-        std::cout << std::endl;
+        cout << "Test2 [T]" << endl;
     }
 
     T x_;
 };
 
+template<typename T>
+struct Test3
+{
+    Test3(auto&& x) : x_{std::forward<decltype(x)>(x)}
+    {
+        cout << "Test3 [T&&]";
+        cout << (std::is_rvalue_reference_v<decltype(x)> ? " rvalue_ref" : "");
+        cout << endl;
+    }
+
+    T x_;
+};
+
+void lf() { cout << endl; }
+
+void test1()
+{
+    auto w = Watcher{};
+    Test1{w};
+    lf();
+
+    Test1{Watcher{}};
+    lf();
+}
+
+void test2()
+{
+    auto w = Watcher{};
+    Test2{w};
+    lf();
+
+    Test2{Watcher{}};
+    lf();
+}
+
+void test3()
+{
+    auto w = Watcher{};
+    Test3<Watcher>{w};
+    lf();
+
+    Test3<Watcher>{Watcher{}};
+    lf();
+}
+
 int main()
 {
-    auto val = 0.0;
-
-    TestClass1{val};
-    TestClass1{0.0};
-
-    std::cout << std::endl;
-
-    TestClass2<double>{val};
-    TestClass2<double>{0.0};
+    test1();
+    test2();
+    test3();
 }
 ```
 </details>
