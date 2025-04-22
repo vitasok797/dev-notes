@@ -399,7 +399,7 @@ struct C final : B
 
 [Source](src/object_watcher.h)
 
-:arrow_forward: [**Demo** (CtorWatcher)](https://godbolt.org/z/PPoqc4YT6) \
+:arrow_forward: [**Demo** (CtorWatcher)](https://godbolt.org/z/1Kvjhzeh7) \
 :arrow_forward: [**Demo** (ObjWatcher)](https://godbolt.org/z/45q6TK5Kx)
 </details>
 
