@@ -3,7 +3,7 @@
 ## Class
 
 <details>
-<summary>Class template</summary>
+<summary>Class: structure</summary>
 
 ```cpp
 class MyClass
