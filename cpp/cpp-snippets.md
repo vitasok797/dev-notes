@@ -1051,9 +1051,6 @@ condition ? true_expression : false_expression
 
 ### Create
 ```cpp
-// inplace (single-arg ctor only)
-auto o = std::optional<Watcher>{1};
-
 // inplace
 auto o = std::make_optional<Watcher>(1, 2);
 
