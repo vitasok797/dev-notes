@@ -1141,7 +1141,8 @@ int main()
 // inplace (single-arg ctor only)
 auto t = std::tuple<int, Watcher>{0, 1};
 
-// temporary + move
+// move
+auto t = std::tuple<int, Watcher>{0, std::move(w)};
 auto t = std::tuple<int, Watcher>{0, Watcher{1, 2}};
 ```
 
@@ -1153,7 +1154,8 @@ std::tuple<int, Watcher> return_tuple() { return {0, 1}; }
 // inplace (single-arg ctor only)
 std::tuple<int, Watcher> return_tuple() { return std::tuple<int, Watcher>{0, 1}; }
 
-// temporary + move
+// move
+std::tuple<int, Watcher> return_tuple() { return {0, std::move(w)}; }
 std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }
 ```
 
