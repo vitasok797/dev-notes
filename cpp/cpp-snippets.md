@@ -780,9 +780,7 @@ auto i = {3};  // C++11: std::initializer_list<int>
 </details>
 
 <details>
-<summary>Initializing tuple/optional with a temporary</summary>
-
-### Summary (std::tuple)
+<summary>Initializing std::tuple with a temporary</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/s7bKb4KEE)
 
@@ -804,7 +802,10 @@ std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
-### Summary (std::optional)
+</details>
+
+<details>
+<summary>Initializing std::optional with a temporary</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/4vdWPeYWx)
 
