@@ -167,7 +167,7 @@ struct C final : B
 </details>
 
 <details>
-<summary>Constructor with default arguments</summary>
+<summary>Constructors: default arguments</summary>
 
 ```cpp
 #include <string>
@@ -190,7 +190,7 @@ private:
 </details>
 
 <details>
-<summary>Constructors and inheritance: hierarchy</summary>
+<summary>Constructors: inheritance (hierarchy)</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/xddov143j)
 
@@ -264,7 +264,7 @@ int main()
 </details>
 
 <details>
-<summary>Constructors and inheritance: import</summary>
+<summary>Constructors: inheritance (import)</summary>
 
 ```cpp
 struct A
