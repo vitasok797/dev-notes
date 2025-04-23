@@ -1049,25 +1049,27 @@ condition ? true_expression : false_expression
 <details>
 <summary>std::optional (initialization)</summary>
 
+### Create
 ```cpp
-// create: inplace
+// inplace
 auto o = std::make_optional<Watcher>(1, 2);
 
-// create: inplace (single arg ctor only)
+// inplace (single arg ctor only)
 auto o = std::optional<Watcher>{1};
 
-// create: temporary + move
+// temporary + move
 auto o = std::optional<Watcher>{Watcher{1, 2}};
 ```
 
+### Return
 ```cpp
-// return: inplace
+// inplace
 std::optional<Watcher> return_optional() { return std::make_optional<Watcher>(1, 2); }
 
-// return: inplace (single arg ctor only)
+// inplace (single arg ctor only)
 std::optional<Watcher> return_optional() { return 1; }
 
-// return: temporary + move
+// temporary + move
 std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 ```
 
@@ -1135,19 +1137,21 @@ int main()
 <details>
 <summary>std::tuple (initialization)</summary>
 
+### Create
 ```cpp
-// create: inplace (single arg ctor only)
+// inplace (single arg ctor only)
 auto t = std::tuple<int, Watcher>{0, 1};
 
-// create: temporary + move
+// temporary + move
 auto t = std::tuple<int, Watcher>{0, Watcher{1, 2}};
 ```
 
+### Return
 ```cpp
-// return: inplace (single arg ctor only)
+// inplace (single arg ctor only)
 std::tuple<int, Watcher> return_tuple() { return {0, 1}; }
 
-// return: temporary + move
+// temporary + move
 std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }
 ```
 
