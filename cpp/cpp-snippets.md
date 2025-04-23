@@ -143,6 +143,30 @@ int main()
 </details>
 
 <details>
+<summary>Class: virtual</summary>
+
+```cpp
+struct A
+{
+    virtual void foo() = 0;
+    virtual ~A() = default;
+};
+
+struct B : A
+{
+    void foo() [const] override;
+    ~B() override;
+};
+
+struct C final : B
+{
+    void foo() [const] final;
+    ~C() final;
+};
+```
+</details>
+
+<details>
 <summary>Constructor with default arguments</summary>
 
 ```cpp
@@ -365,30 +389,6 @@ int main()
     test2();
     test3();
 }
-```
-</details>
-
-<details>
-<summary>Virtual</summary>
-
-```cpp
-struct A
-{
-    virtual void foo() = 0;
-    virtual ~A() = default;
-};
-
-struct B : A
-{
-    void foo() [const] override;
-    ~B() override;
-};
-
-struct C final : B
-{
-    void foo() [const] final;
-    ~C() final;
-};
 ```
 </details>
 
