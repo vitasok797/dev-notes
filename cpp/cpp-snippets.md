@@ -46,6 +46,103 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 </details>
 
 <details>
+<summary>Class: static/const fields</summary>
+
+### Summary
+```cpp
+struct Summary
+{
+    // static mutable
+    static inline ...
+
+    // static const
+    static inline const ...
+
+    // non-static const
+    const ...
+};
+```
+
+:arrow_forward: [**Run**](https://godbolt.org/z/a4jcrPrMo)
+
+```cpp
+#include <iostream>
+
+struct Static
+{
+    // static mutable
+    static inline std::string mutable_str{"static mutable str"};
+
+    // static const
+    static inline const int const_int = 11;
+    static constexpr    int constexpr_int = 11 * 2;
+
+    // static const (heap allocated)
+    static inline const std::string const_str{"static const str"};
+    /* DON'T
+    static constexpr    std::string constexpr_str{"static constexpr str"}; */
+
+    // static const (cstr for string constants)
+    static inline const auto const_cstr = "static const cstr";
+    static constexpr    auto constexpr_cstr = "static constexpr cstr";
+};
+
+struct NonStatic
+{
+    // non-static mutable
+    std::string mutable_str{"non-static mutable str"};
+
+    // non-static const
+    const std::string const_str{"non-static const str"};
+
+    NonStatic() = default;
+    NonStatic(std::string addition):
+        mutable_str(std::string("non-static mutable str (") + addition + ")"),
+        const_str(std::string("non-static const str (") + addition + ")")
+        {};
+};
+
+int main()
+{
+    auto print = [](const auto& val) { std::cout << "[" << val << "]" << std::endl; };
+
+    Static::mutable_str += " + mod";
+
+    print(Static::mutable_str);
+    print(Static::const_int);
+    print(Static::constexpr_int);
+    print(Static::const_str);
+    print(Static::const_cstr);
+    print(Static::constexpr_cstr);
+
+    std::cout << std::endl;
+
+    auto static_inst = Static{};
+    print(static_inst.mutable_str);
+    print(static_inst.const_int);
+    print(static_inst.constexpr_int);
+    print(static_inst.const_str);
+    print(static_inst.const_cstr);
+    print(static_inst.constexpr_cstr);
+
+    std::cout << std::endl;
+
+    auto non_static = NonStatic{};
+    non_static.mutable_str += " + mod";
+    print(non_static.mutable_str);
+    print(non_static.const_str);
+
+    std::cout << std::endl;
+
+    auto non_static_custom = NonStatic{"custom"};
+    non_static_custom.mutable_str += " + mod";
+    print(non_static_custom.mutable_str);
+    print(non_static_custom.const_str);
+}
+```
+</details>
+
+<details>
 <summary>Constructor with default arguments</summary>
 
 ```cpp
@@ -166,103 +263,6 @@ class my_vector : public std::vector<T>
 public:
     using std::vector<T>::std::vector;  // Takes all vector's constructors
 };
-```
-</details>
-
-<details>
-<summary>Static/const fields</summary>
-
-### Summary
-```cpp
-struct Summary
-{
-    // static mutable
-    static inline ...
-
-    // static const
-    static inline const ...
-
-    // non-static const
-    const ...
-};
-```
-
-:arrow_forward: [**Run**](https://godbolt.org/z/a4jcrPrMo)
-
-```cpp
-#include <iostream>
-
-struct Static
-{
-    // static mutable
-    static inline std::string mutable_str{"static mutable str"};
-
-    // static const
-    static inline const int const_int = 11;
-    static constexpr    int constexpr_int = 11 * 2;
-
-    // static const (heap allocated)
-    static inline const std::string const_str{"static const str"};
-    /* DON'T
-    static constexpr    std::string constexpr_str{"static constexpr str"}; */
-
-    // static const (cstr for string constants)
-    static inline const auto const_cstr = "static const cstr";
-    static constexpr    auto constexpr_cstr = "static constexpr cstr";
-};
-
-struct NonStatic
-{
-    // non-static mutable
-    std::string mutable_str{"non-static mutable str"};
-
-    // non-static const
-    const std::string const_str{"non-static const str"};
-
-    NonStatic() = default;
-    NonStatic(std::string addition):
-        mutable_str(std::string("non-static mutable str (") + addition + ")"),
-        const_str(std::string("non-static const str (") + addition + ")")
-        {};
-};
-
-int main()
-{
-    auto print = [](const auto& val) { std::cout << "[" << val << "]" << std::endl; };
-
-    Static::mutable_str += " + mod";
-
-    print(Static::mutable_str);
-    print(Static::const_int);
-    print(Static::constexpr_int);
-    print(Static::const_str);
-    print(Static::const_cstr);
-    print(Static::constexpr_cstr);
-
-    std::cout << std::endl;
-
-    auto static_inst = Static{};
-    print(static_inst.mutable_str);
-    print(static_inst.const_int);
-    print(static_inst.constexpr_int);
-    print(static_inst.const_str);
-    print(static_inst.const_cstr);
-    print(static_inst.constexpr_cstr);
-
-    std::cout << std::endl;
-
-    auto non_static = NonStatic{};
-    non_static.mutable_str += " + mod";
-    print(non_static.mutable_str);
-    print(non_static.const_str);
-
-    std::cout << std::endl;
-
-    auto non_static_custom = NonStatic{"custom"};
-    non_static_custom.mutable_str += " + mod";
-    print(non_static_custom.mutable_str);
-    print(non_static_custom.const_str);
-}
 ```
 </details>
 
