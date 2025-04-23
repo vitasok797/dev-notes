@@ -1098,6 +1098,65 @@ condition ? true_expression : false_expression
 ```
 </details>
 
+## Std::
+
+<details>
+<summary>std::optional</summary>
+
+:arrow_forward: [**Run**](https://godbolt.org/z/hWsKhq6d8)
+
+```cpp
+#include <iostream>
+#include <optional>
+#include <vector>
+
+std::optional<std::string> create(bool is_success)
+{
+    if (!is_success) return {};  // or std::nullopt;
+    return "hello";
+}
+
+void test(bool is_success)
+{
+    std::cout << std::boolalpha;
+    std::cout << "--- is_success: " << is_success << " ---" << std::endl;
+
+    // ----------------------------------------------------------------------------------
+
+    auto value = create(is_success);
+
+    std::cout << value.value_or("nullopt") << std::endl;
+
+    if (value)
+        std::cout << *value << std::endl;
+
+    if (value.has_value())
+        std::cout << value.value() << std::endl;
+
+    // ----------------------------------------------------------------------------------
+
+    if (auto str = create(is_success); str)
+        std::cout << *str << std::endl;
+
+    // ----------------------------------------------------------------------------------
+
+    // construct in_place 1
+    auto opt_vec1 = std::optional<std::vector<int>>(std::in_place, {1, 2, 3});
+
+    // construct in_place 2
+    auto opt_vec2 = std::make_optional<std::vector<int>>({1, 2, 3});
+
+    // ----------------------------------------------------------------------------------
+}
+
+int main()
+{
+    test(true);
+    test(false);
+}
+```
+</details>
+
 ## String
 
 <details>
@@ -1906,65 +1965,6 @@ int main()
 
         cout << "--- scope out 3 ---" << endl;
     }
-}
-```
-</details>
-
-## Var
-
-<details>
-<summary>std::optional</summary>
-
-:arrow_forward: [**Run**](https://godbolt.org/z/hWsKhq6d8)
-
-```cpp
-#include <iostream>
-#include <optional>
-#include <vector>
-
-std::optional<std::string> create(bool is_success)
-{
-    if (!is_success) return {};  // or std::nullopt;
-    return "hello";
-}
-
-void test(bool is_success)
-{
-    std::cout << std::boolalpha;
-    std::cout << "--- is_success: " << is_success << " ---" << std::endl;
-
-    // ----------------------------------------------------------------------------------
-
-    auto value = create(is_success);
-
-    std::cout << value.value_or("nullopt") << std::endl;
-
-    if (value)
-        std::cout << *value << std::endl;
-
-    if (value.has_value())
-        std::cout << value.value() << std::endl;
-
-    // ----------------------------------------------------------------------------------
-
-    if (auto str = create(is_success); str)
-        std::cout << *str << std::endl;
-
-    // ----------------------------------------------------------------------------------
-
-    // construct in_place 1
-    auto opt_vec1 = std::optional<std::vector<int>>(std::in_place, {1, 2, 3});
-
-    // construct in_place 2
-    auto opt_vec2 = std::make_optional<std::vector<int>>({1, 2, 3});
-
-    // ----------------------------------------------------------------------------------
-}
-
-int main()
-{
-    test(true);
-    test(false);
 }
 ```
 </details>
