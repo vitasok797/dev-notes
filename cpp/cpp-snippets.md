@@ -1051,11 +1051,11 @@ condition ? true_expression : false_expression
 
 ### Create
 ```cpp
+// inplace (single-arg ctor only)
+auto o = std::optional<Watcher>{1};
+
 // inplace
 auto o = std::make_optional<Watcher>(1, 2);
-
-// inplace (single arg ctor only)
-auto o = std::optional<Watcher>{1};
 
 // temporary + move
 auto o = std::optional<Watcher>{Watcher{1, 2}};
@@ -1063,17 +1063,17 @@ auto o = std::optional<Watcher>{Watcher{1, 2}};
 
 ### Return
 ```cpp
+// inplace (single-arg + non-explicit ctor only)
+std::optional<Watcher> return_optional() { return 1; }
+
 // inplace
 std::optional<Watcher> return_optional() { return std::make_optional<Watcher>(1, 2); }
-
-// inplace (single arg ctor only)
-std::optional<Watcher> return_optional() { return 1; }
 
 // temporary + move
 std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/4vdWPeYWx)
+:arrow_forward: [**Run**](https://godbolt.org/z/3PcKTG431)
 
 </details>
 
