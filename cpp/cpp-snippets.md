@@ -1054,7 +1054,8 @@ condition ? true_expression : false_expression
 // inplace
 auto o = std::make_optional<Watcher>(1, 2);
 
-// temporary + move
+// move
+auto o = std::optional<Watcher>{std::move(w)};
 auto o = std::optional<Watcher>{Watcher{1, 2}};
 ```
 
@@ -1066,7 +1067,8 @@ std::optional<Watcher> return_optional() { return 1; }
 // inplace
 std::optional<Watcher> return_optional() { return std::make_optional<Watcher>(1, 2); }
 
-// temporary + move
+// move
+std::optional<Watcher> return_optional() { return std::move(w); }
 std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 ```
 
