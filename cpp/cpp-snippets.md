@@ -1087,7 +1087,7 @@ void func(const std::optional<std::string>& arg = {})
 {
     if (arg)
         auto& value = *arg;
-};
+}
 
 func();
 func({});
@@ -1100,7 +1100,7 @@ void func_nocopy(const vs::util::optional_ref<const std::string> arg)
 {
     if (arg)
         auto& value = arg->get()
-};
+}
 
 const auto s = std::string{"world"};
 func_nocopy(s);
