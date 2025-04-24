@@ -26,6 +26,7 @@
 * [Andreas Fertig’s Blog](https://andreasfertig.blog/)
 * [Thoughts from a C++ library developer](https://www.foonathan.net/)
 * [Sy Brand's Blog](https://blog.tartanllama.xyz/posts-by-categories/)
+* [vector<bool>{ true, true, false }](https://vector-of-bool.github.io/)
 * [Субъективный объективизм](https://scrutator.me/)
 
 ## Modern C++
