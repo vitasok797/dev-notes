@@ -11,7 +11,7 @@ namespace vs::util
 {
 
 template<typename F>
-class ScopeGuard
+class ScopeGuard final
 {
 public:
     [[nodiscard]] ScopeGuard(const F& f) noexcept : f_{f} {}
