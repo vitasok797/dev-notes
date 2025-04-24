@@ -1111,6 +1111,19 @@ const auto s = std::string{"world"};
 func_nocopy(s);
 ```
 
+### Get value
+```cpp
+// opt.value() or *opt
+const auto& value = opt.value();             // const ref
+      auto& value = opt.value();             // ref
+      auto  value = opt.value();             // copy
+      auto  value = std::move(opt.value());  // move
+
+// opt.value_or()
+const auto& value = opt.value_or(...);  // const ref
+      auto  value = opt.value_or(...);  // copy
+```
+
 ### Usage
 ```cpp
 auto opt = return_opt();
