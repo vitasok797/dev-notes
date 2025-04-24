@@ -6,7 +6,7 @@
 <summary>Class: structure</summary>
 
 ```cpp
-class MyClass
+class MyClass [final]
 {
 public:
     // Types and type aliases
@@ -42,6 +42,12 @@ private:
 ```cpp
 MyClass(MyClass&& other) noexcept {...}
 MyClass& operator=(MyClass&& other) noexcept {...}
+```
+
+:warning: Virtual destructor:
+```
+* If you intend your class to be inherited from, make sure your destructor is virtual and public;
+* If you do not intend your class to be inherited from, mark your class as final;
 ```
 </details>
 
