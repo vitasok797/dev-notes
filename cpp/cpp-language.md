@@ -141,6 +141,12 @@
 * [(StackOverflow) When to use functors over lambdas](https://stackoverflow.com/questions/27256062/when-to-use-functors-over-lambdas)
 * [How to fix output parameters](https://www.foonathan.net/2016/10/output-parameter/)
 
+### Types / Optional
+* [(Habr) Использование std::optional в С++17](https://habr.com/ru/articles/372103/)
+* [(Habr) Рефакторинг с использованием C++17 std::optional](https://habr.com/ru/articles/369811/)
+* [Error Handling and std::optional](https://www.cppstories.com/2018/05/errors-and-optional/)
+* [C++ Can't Abandon Raw Pointers](https://vector-of-bool.github.io/2018/02/27/opt-ref.html)
+
 ### Types / Rvalue and Universal references
 * [(Habr) std::move vs. std::forward](https://habr.com/ru/articles/568306/)
 * [Universal References in C++11](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
