@@ -1083,7 +1083,7 @@ std::optional<Type> return_opt()
 
 ### Argument
 ```cpp
-void func(const std::optional<std::string>& arg = {})
+void func(const std::optional<std::string>& arg)
 {
     if (arg)
     {
@@ -1092,7 +1092,6 @@ void func(const std::optional<std::string>& arg = {})
     }
 }
 
-func();
 func({});
 func(std::nullopt);
 func("hello");
