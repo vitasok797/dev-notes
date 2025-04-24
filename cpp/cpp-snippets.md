@@ -1079,7 +1079,7 @@ std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 <details>
 <summary>std::optional (usage)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/f54vhjqPE)
+:arrow_forward: [**Run**](https://godbolt.org/z/zh6x4WcoP)
 
 ```cpp
 #include <iostream>
@@ -1096,7 +1096,7 @@ std::optional<std::string> create(bool is_success)
 
 void test_main(bool is_success)
 {
-    std::cout << "--- [test_main] is_success: " << is_success << " ---" << std::endl;
+    std::cout << "--- [test_main] " << (is_success ? "success" : "failure") << " ---" << std::endl;
 
     // ----------------------------------------------------------------------------------
 
@@ -1117,6 +1117,19 @@ void test_main(bool is_success)
 
     // ----------------------------------------------------------------------------------
 
+    auto value2 = create(is_success);
+
+    if (!value2)
+    {
+        std::cout << "nullopt" << std::endl;
+        return;
+    }
+
+    auto& no_nesting_pos_path_value = *value2;
+    std::cout << no_nesting_pos_path_value << std::endl;
+
+    // ----------------------------------------------------------------------------------
+
     // construct inplace 1
     auto opt_vec1 = std::optional<std::vector<int>>(std::in_place, {1, 2, 3});
 
@@ -1130,21 +1143,22 @@ void test_optional_arg()
 {
     std::cout << "--- [test_optional_arg] ---" << std::endl;
 
-    auto f_opt = [](const std::optional<int>& arg)
+    auto f_opt = [](const std::optional<std::string>& arg = {})
     {
-        std::cout << "arg.has_value(): " << arg.has_value() << std::endl;
+        std::cout << (arg.has_value() ? *arg : "-") << std::endl;
     };
 
     auto f_opt_nocopy = [](const vs::util::optional_ref<const std::string> arg)
     {
-        // ...
+        std::cout << (arg.has_value() ? arg->get() : "-") << std::endl;
     };
 
-    f_opt(1);
+    f_opt();
     f_opt({});
     f_opt(std::nullopt);
+    f_opt("hello");
 
-    const auto s = std::string{"test"};
+    const auto s = std::string{"world"};
     f_opt_nocopy(s);
 }
 
