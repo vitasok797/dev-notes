@@ -1057,6 +1057,9 @@ auto o = std::make_optional<Watcher>(1, 2);
 // move
 auto o = std::optional<Watcher>{std::move(w)};
 auto o = std::optional<Watcher>{Watcher{1, 2}};
+
+// copy
+auto o = std::optional<Watcher>{w};
 ```
 
 ### Return
@@ -1080,7 +1083,7 @@ std::optional<Watcher> return_optional()
 
 ### Argument
 ```cpp
-auto func = [](const std::optional<std::string>& arg = {})
+void func(const std::optional<std::string>& arg = {})
 {
     if (arg)
     {
@@ -1095,7 +1098,7 @@ func("hello");
 ```
 
 ```cpp
-auto func_nocopy = [](const vs::util::optional_ref<const std::string> arg)
+void func_nocopy(const vs::util::optional_ref<const std::string> arg)
 {
     if (arg)
     {
@@ -1109,29 +1112,30 @@ func_nocopy(s);
 
 ### Usage
 ```cpp
-auto value = return_optional();
+auto opt = return_optional();
 
-std::cout << value.value_or("nullopt") << std::endl;
+std::cout << opt.value_or("nullopt") << std::endl;
 
-if (value)
-    std::cout << *value << std::endl;
-
-if (value.has_value())
-    std::cout << value.value() << std::endl;
+if (opt)
+if (opt.has_value())
+{
+    // use: *opt
+    // use: opt.value()
+}
 ```
 
 ```cpp
-if (auto str = return_optional(); str)
-    std::cout << *str << std::endl;
+if (auto opt = return_optional(); opt)
+    // use: *opt
 ```
 
 ```cpp
 // no nesting on positive path
 
-auto value = return_optional();
-if (!value) return;
+auto opt = return_optional();
+if (!opt) return;
 
-auto& good_value = *value;
+auto& value = *opt;
 ```
 
 :arrow_forward: [**Run** (initialization)](https://godbolt.org/z/3PcKTG431) \
