@@ -1087,7 +1087,8 @@ void func(const std::optional<std::string>& arg = {})
 {
     if (arg)
     {
-        auto& value = *arg;
+        // use: *opt
+        // use: opt.value()
     }
 }
 
@@ -1137,8 +1138,9 @@ if (auto opt = return_opt(); opt.has_value())
 
 auto opt = return_opt();
 if (!opt) return;
-
 auto& value = *opt;
+
+// use: value
 ```
 
 :arrow_forward: [**Run** (initialization)](https://godbolt.org/z/3PcKTG431) \
