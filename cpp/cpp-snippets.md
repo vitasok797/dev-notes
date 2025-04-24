@@ -1061,6 +1061,12 @@ auto o = std::optional<Watcher>{Watcher{1, 2}};
 
 ### Return
 ```cpp
+std::optional<std::string> return_optional(bool is_success)
+{
+    if (!is_success) return {};  // or std::nullopt;
+    return "hello";
+}
+
 // inplace (single-arg + non-explicit ctor only)
 std::optional<Watcher> return_optional() { return 1; }
 
@@ -1073,26 +1079,7 @@ std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 ```
 
 ### Usage
-
 ```cpp
-#include <iostream>
-#include <optional>
-#include <vector>
-
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/util.h>
-
-std::optional<std::string> create(bool is_success)
-{
-    if (!is_success) return {};  // or std::nullopt;
-    return "hello";
-}
-
-void test_main(bool is_success)
-{
-    std::cout << "--- [test_main] " << (is_success ? "success" : "failure") << " ---" << std::endl;
-
-    // ----------------------------------------------------------------------------------
-
     auto value = create(is_success);
 
     std::cout << value.value_or("nullopt") << std::endl;
@@ -1120,18 +1107,9 @@ void test_main(bool is_success)
 
     auto& no_nesting_pos_path_value = *value2;
     std::cout << no_nesting_pos_path_value << std::endl;
+```
 
-    // ----------------------------------------------------------------------------------
-
-    // construct inplace 1
-    auto opt_vec1 = std::optional<std::vector<int>>(std::in_place, {1, 2, 3});
-
-    // construct inplace 2
-    auto opt_vec2 = std::make_optional<std::vector<int>>({1, 2, 3});
-
-    // ----------------------------------------------------------------------------------
-}
-
+```cpp
 void test_optional_arg()
 {
     std::cout << "--- [test_optional_arg] ---" << std::endl;
@@ -1153,16 +1131,6 @@ void test_optional_arg()
 
     const auto s = std::string{"world"};
     f_opt_nocopy(s);
-}
-
-int main()
-{
-    std::cout << std::boolalpha;
-
-    test_main(true);
-    test_main(false);
-
-    test_optional_arg();
 }
 ```
 
