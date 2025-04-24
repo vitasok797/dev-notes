@@ -1055,11 +1055,11 @@ condition ? true_expression : false_expression
 auto opt = std::make_optional<Type>(1, 2);
 
 // move
-auto opt = std::optional<Type>{std::move(obj)};
+auto opt = std::optional<Type>{std::move(type_obj)};
 auto opt = std::optional<Type>{Type{1, 2}};
 
 // copy
-auto opt = std::optional<Type>{obj};
+auto opt = std::optional<Type>{type_obj};
 ```
 
 ### Return
@@ -1076,7 +1076,7 @@ std::optional<Type> return_opt()
     return std::make_optional<Type>(1, 2);
 
     // move
-    return std::move(obj);
+    return std::move(type_obj);
     return Type{1, 2};
 }
 ```
