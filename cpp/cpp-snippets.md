@@ -1061,53 +1061,55 @@ auto o = std::optional<Watcher>{Watcher{1, 2}};
 
 ### Return
 ```cpp
-std::optional<std::string> return_optional()
+std::optional<Watcher> return_optional()
 {
     if (!success) return std::nullopt;
     if (!success) return {};
-    return "hello";
+
+    // inplace (single-arg + non-explicit ctor only)
+    return 1;
+
+    // inplace
+    return std::make_optional<Watcher>(1, 2);
+
+    // move
+    return std::move(w);
+    return Watcher{1, 2};
 }
-
-// inplace (single-arg + non-explicit ctor only)
-std::optional<Watcher> return_optional() { return 1; }
-
-// inplace
-std::optional<Watcher> return_optional() { return std::make_optional<Watcher>(1, 2); }
-
-// move
-std::optional<Watcher> return_optional() { return std::move(w); }
-std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 ```
 
 ### Argument
 ```cpp
-void test_optional_arg()
+auto func = [](const std::optional<std::string>& arg = {})
 {
-    std::cout << "--- [test_optional_arg] ---" << std::endl;
-
-    auto f_opt = [](const std::optional<std::string>& arg = {})
+    if (arg)
     {
-        std::cout << (arg.has_value() ? *arg : "-") << std::endl;
-    };
+        auto& value = *arg;
+    }
+};
 
-    auto f_opt_nocopy = [](const vs::util::optional_ref<const std::string> arg)
+func();
+func({});
+func(std::nullopt);
+func("hello");
+```
+
+```cpp
+auto func_nocopy = [](const vs::util::optional_ref<const std::string> arg)
+{
+    if (arg)
     {
-        std::cout << (arg.has_value() ? arg->get() : "-") << std::endl;
-    };
+        auto& value = arg->get()
+    }
+};
 
-    f_opt();
-    f_opt({});
-    f_opt(std::nullopt);
-    f_opt("hello");
-
-    const auto s = std::string{"world"};
-    f_opt_nocopy(s);
-}
+const auto s = std::string{"world"};
+func_nocopy(s);
 ```
 
 ### Usage
 ```cpp
-auto value = create(is_success);
+auto value = return_optional();
 
 std::cout << value.value_or("nullopt") << std::endl;
 
@@ -1116,24 +1118,20 @@ if (value)
 
 if (value.has_value())
     std::cout << value.value() << std::endl;
+```
 
-// ----------------------------------------------------------------------------------
-
-if (auto str = create(is_success); str)
+```cpp
+if (auto str = return_optional(); str)
     std::cout << *str << std::endl;
+```
 
-// ----------------------------------------------------------------------------------
+```cpp
+// no nesting on positive path
 
-auto value2 = create(is_success);
+auto value = return_optional();
+if (!value) return;
 
-if (!value2)
-{
-    std::cout << "nullopt" << std::endl;
-    return;
-}
-
-auto& no_nesting_pos_path_value = *value2;
-std::cout << no_nesting_pos_path_value << std::endl;
+auto& good_value = *value;
 ```
 
 :arrow_forward: [**Run** (initialization)](https://godbolt.org/z/3PcKTG431) \
