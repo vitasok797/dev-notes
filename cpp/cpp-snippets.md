@@ -1114,7 +1114,7 @@ func_nocopy(s);
 ```cpp
 auto opt = return_opt();
 
-std::cout << opt.value_or("nullopt") << std::endl;
+// use: opt.value_or(...)
 
 if (opt)
 if (opt.has_value())
