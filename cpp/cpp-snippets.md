@@ -1047,7 +1047,7 @@ condition ? true_expression : false_expression
 ## Std::
 
 <details>
-<summary>std::optional (initialization)</summary>
+<summary>std::optional</summary>
 
 ### Create
 ```cpp
@@ -1072,14 +1072,7 @@ std::optional<Watcher> return_optional() { return std::move(w); }
 std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/3PcKTG431)
-
-</details>
-
-<details>
-<summary>std::optional (usage)</summary>
-
-:arrow_forward: [**Run**](https://godbolt.org/z/zh6x4WcoP)
+### Usage
 
 ```cpp
 #include <iostream>
@@ -1172,6 +1165,10 @@ int main()
     test_optional_arg();
 }
 ```
+
+:arrow_forward: [**Run** (initialization)](https://godbolt.org/z/3PcKTG431) \
+:arrow_forward: [**Run** (usage)](https://godbolt.org/z/zh6x4WcoP)
+
 </details>
 
 <details>
