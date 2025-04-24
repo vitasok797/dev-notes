@@ -1079,12 +1079,14 @@ std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 <details>
 <summary>std::optional (usage)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/P6n5e7rs9)
+:arrow_forward: [**Run**](https://godbolt.org/z/f54vhjqPE)
 
 ```cpp
 #include <iostream>
 #include <optional>
 #include <vector>
+
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/util.h>
 
 std::optional<std::string> create(bool is_success)
 {
@@ -1115,10 +1117,10 @@ void test_main(bool is_success)
 
     // ----------------------------------------------------------------------------------
 
-    // construct in_place 1
+    // construct inplace 1
     auto opt_vec1 = std::optional<std::vector<int>>(std::in_place, {1, 2, 3});
 
-    // construct in_place 2
+    // construct inplace 2
     auto opt_vec2 = std::make_optional<std::vector<int>>({1, 2, 3});
 
     // ----------------------------------------------------------------------------------
@@ -1128,14 +1130,22 @@ void test_optional_arg()
 {
     std::cout << "--- [test_optional_arg] ---" << std::endl;
 
-    auto func = [](const std::optional<int>& arg)
+    auto f_opt = [](const std::optional<int>& arg)
     {
         std::cout << "arg.has_value(): " << arg.has_value() << std::endl;
     };
 
-    func(1);
-    func({});
-    func(std::nullopt);
+    auto f_opt_nocopy = [](const vs::util::optional_ref<const std::string> arg)
+    {
+        // ...
+    };
+
+    f_opt(1);
+    f_opt({});
+    f_opt(std::nullopt);
+
+    const auto s = std::string{"test"};
+    f_opt_nocopy(s);
 }
 
 int main()
