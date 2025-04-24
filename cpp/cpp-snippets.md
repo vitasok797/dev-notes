@@ -1052,19 +1052,19 @@ condition ? true_expression : false_expression
 ### Create
 ```cpp
 // inplace
-auto o = std::make_optional<Watcher>(1, 2);
+auto opt = std::make_optional<Type>(1, 2);
 
 // move
-auto o = std::optional<Watcher>{std::move(w)};
-auto o = std::optional<Watcher>{Watcher{1, 2}};
+auto opt = std::optional<Type>{std::move(obj)};
+auto opt = std::optional<Type>{Type{1, 2}};
 
 // copy
-auto o = std::optional<Watcher>{w};
+auto opt = std::optional<Type>{obj};
 ```
 
 ### Return
 ```cpp
-std::optional<Watcher> return_optional()
+std::optional<Type> return_opt()
 {
     if (!success) return std::nullopt;
     if (!success) return {};
@@ -1073,11 +1073,11 @@ std::optional<Watcher> return_optional()
     return 1;
 
     // inplace
-    return std::make_optional<Watcher>(1, 2);
+    return std::make_optional<Type>(1, 2);
 
     // move
-    return std::move(w);
-    return Watcher{1, 2};
+    return std::move(obj);
+    return Type{1, 2};
 }
 ```
 
@@ -1086,9 +1086,7 @@ std::optional<Watcher> return_optional()
 void func(const std::optional<std::string>& arg = {})
 {
     if (arg)
-    {
         auto& value = *arg;
-    }
 };
 
 func();
@@ -1101,9 +1099,7 @@ func("hello");
 void func_nocopy(const vs::util::optional_ref<const std::string> arg)
 {
     if (arg)
-    {
         auto& value = arg->get()
-    }
 };
 
 const auto s = std::string{"world"};
@@ -1112,7 +1108,7 @@ func_nocopy(s);
 
 ### Usage
 ```cpp
-auto opt = return_optional();
+auto opt = return_opt();
 
 std::cout << opt.value_or("nullopt") << std::endl;
 
@@ -1125,14 +1121,14 @@ if (opt.has_value())
 ```
 
 ```cpp
-if (auto opt = return_optional(); opt)
+if (auto opt = return_opt(); opt)
     // use: *opt
 ```
 
 ```cpp
 // no nesting on positive path
 
-auto opt = return_optional();
+auto opt = return_opt();
 if (!opt) return;
 
 auto& value = *opt;
