@@ -1061,9 +1061,10 @@ auto o = std::optional<Watcher>{Watcher{1, 2}};
 
 ### Return
 ```cpp
-std::optional<std::string> return_optional(bool is_success)
+std::optional<std::string> return_optional()
 {
-    if (!is_success) return {};  // or std::nullopt;
+    if (!success) return std::nullopt;
+    if (!success) return {};
     return "hello";
 }
 
@@ -1078,37 +1079,7 @@ std::optional<Watcher> return_optional() { return std::move(w); }
 std::optional<Watcher> return_optional() { return Watcher{1, 2}; }
 ```
 
-### Usage
-```cpp
-    auto value = create(is_success);
-
-    std::cout << value.value_or("nullopt") << std::endl;
-
-    if (value)
-        std::cout << *value << std::endl;
-
-    if (value.has_value())
-        std::cout << value.value() << std::endl;
-
-    // ----------------------------------------------------------------------------------
-
-    if (auto str = create(is_success); str)
-        std::cout << *str << std::endl;
-
-    // ----------------------------------------------------------------------------------
-
-    auto value2 = create(is_success);
-
-    if (!value2)
-    {
-        std::cout << "nullopt" << std::endl;
-        return;
-    }
-
-    auto& no_nesting_pos_path_value = *value2;
-    std::cout << no_nesting_pos_path_value << std::endl;
-```
-
+### Argument
 ```cpp
 void test_optional_arg()
 {
@@ -1132,6 +1103,37 @@ void test_optional_arg()
     const auto s = std::string{"world"};
     f_opt_nocopy(s);
 }
+```
+
+### Usage
+```cpp
+auto value = create(is_success);
+
+std::cout << value.value_or("nullopt") << std::endl;
+
+if (value)
+    std::cout << *value << std::endl;
+
+if (value.has_value())
+    std::cout << value.value() << std::endl;
+
+// ----------------------------------------------------------------------------------
+
+if (auto str = create(is_success); str)
+    std::cout << *str << std::endl;
+
+// ----------------------------------------------------------------------------------
+
+auto value2 = create(is_success);
+
+if (!value2)
+{
+    std::cout << "nullopt" << std::endl;
+    return;
+}
+
+auto& no_nesting_pos_path_value = *value2;
+std::cout << no_nesting_pos_path_value << std::endl;
 ```
 
 :arrow_forward: [**Run** (initialization)](https://godbolt.org/z/3PcKTG431) \
