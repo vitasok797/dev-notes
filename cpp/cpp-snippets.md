@@ -1086,7 +1086,9 @@ std::optional<Type> return_opt()
 void func(const std::optional<std::string>& arg = {})
 {
     if (arg)
+    {
         auto& value = *arg;
+    }
 }
 
 func();
@@ -1099,7 +1101,9 @@ func("hello");
 void func_nocopy(const vs::util::optional_ref<const std::string> arg)
 {
     if (arg)
-        auto& value = arg->get()
+    {
+        auto& value = arg->get();
+    }
 }
 
 const auto s = std::string{"world"};
