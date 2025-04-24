@@ -1125,8 +1125,9 @@ if (opt.has_value())
 ```
 
 ```cpp
-if (auto opt = return_opt(); opt)
+if (auto opt = return_opt(); opt.has_value())
     // use: *opt
+    // use: opt.value()
 ```
 
 ```cpp
