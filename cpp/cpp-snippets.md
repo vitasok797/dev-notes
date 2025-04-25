@@ -44,11 +44,12 @@ MyClass(MyClass&& other) noexcept {...}
 MyClass& operator=(MyClass&& other) noexcept {...}
 ```
 
-:warning: Virtual destructor:
-```
-* If you intend your class to be inherited from, make sure your destructor is virtual and public;
-* If you do not intend your class to be inherited from, mark your class as final;
-```
+:warning: Inheritance:
+| Inheritance | Class |
+| --- | --- |
+| Yes  | Virtual and public destructor |
+| No |  Class is `final` |
+
 </details>
 
 <details>
