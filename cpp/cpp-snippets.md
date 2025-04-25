@@ -53,6 +53,30 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 </details>
 
 <details>
+<summary>Class: virtual</summary>
+
+```cpp
+struct A
+{
+    virtual void foo() = 0;
+    virtual ~A() = default;
+};
+
+struct B : A
+{
+    void foo() [const] override;
+    ~B() override;
+};
+
+struct C final : B
+{
+    void foo() [const] final;
+    ~C() final;
+};
+```
+</details>
+
+<details>
 <summary>Class: static/const fields</summary>
 
 ### Summary
@@ -146,30 +170,6 @@ int main()
     print(non_static_custom.mutable_str);
     print(non_static_custom.const_str);
 }
-```
-</details>
-
-<details>
-<summary>Class: virtual</summary>
-
-```cpp
-struct A
-{
-    virtual void foo() = 0;
-    virtual ~A() = default;
-};
-
-struct B : A
-{
-    void foo() [const] override;
-    ~B() override;
-};
-
-struct C final : B
-{
-    void foo() [const] final;
-    ~C() final;
-};
 ```
 </details>
 
