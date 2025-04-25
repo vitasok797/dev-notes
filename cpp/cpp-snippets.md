@@ -47,8 +47,8 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 :warning: Inheritance:
 | Inheritance | Class |
 | --- | --- |
-| Yes  | Virtual and public destructor |
-| No |  Class is `final` |
+| Yes  | `virtual` and public destructor |
+| No |  `final` class |
 
 </details>
 
