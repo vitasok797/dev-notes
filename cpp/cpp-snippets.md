@@ -94,9 +94,8 @@ struct Summary
 };
 ```
 
+### Full
 ```cpp
-#include <iostream>
-
 struct Static
 {
     // static mutable
