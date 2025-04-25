@@ -145,7 +145,6 @@
 ### Types / Optional
 * [(Habr) Использование std::optional в С++17](https://habr.com/ru/articles/372103/)
 * [(Habr) Рефакторинг с использованием C++17 std::optional](https://habr.com/ru/articles/369811/)
-* [Error Handling and std::optional](https://www.cppstories.com/2018/05/errors-and-optional/)
 * [C++ Can't Abandon Raw Pointers](https://vector-of-bool.github.io/2018/02/27/opt-ref.html)
 
 ### Types / Rvalue and Universal references
