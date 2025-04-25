@@ -45,10 +45,10 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 ```
 
 :warning: Inheritance:
-| Inheritance | Class |
-| --- | --- |
-| Yes  | `virtual` and public destructor |
-| No |  `final` class |
+| Inheritance | Class                           |
+|:-----------:|---------------------------------|
+| Yes         | `virtual` and public destructor |
+| No          | `final` class                   |
 
 </details>
 
