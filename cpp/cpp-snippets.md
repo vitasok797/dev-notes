@@ -94,8 +94,6 @@ struct Summary
 };
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/a4jcrPrMo)
-
 ```cpp
 #include <iostream>
 
@@ -125,52 +123,11 @@ struct NonStatic
 
     // non-static const
     const std::string const_str{"non-static const str"};
-
-    NonStatic() = default;
-    NonStatic(std::string addition):
-        mutable_str(std::string("non-static mutable str (") + addition + ")"),
-        const_str(std::string("non-static const str (") + addition + ")")
-        {};
 };
-
-int main()
-{
-    auto print = [](const auto& val) { std::cout << "[" << val << "]" << std::endl; };
-
-    Static::mutable_str += " + mod";
-
-    print(Static::mutable_str);
-    print(Static::const_int);
-    print(Static::constexpr_int);
-    print(Static::const_str);
-    print(Static::const_cstr);
-    print(Static::constexpr_cstr);
-
-    std::cout << std::endl;
-
-    auto static_inst = Static{};
-    print(static_inst.mutable_str);
-    print(static_inst.const_int);
-    print(static_inst.constexpr_int);
-    print(static_inst.const_str);
-    print(static_inst.const_cstr);
-    print(static_inst.constexpr_cstr);
-
-    std::cout << std::endl;
-
-    auto non_static = NonStatic{};
-    non_static.mutable_str += " + mod";
-    print(non_static.mutable_str);
-    print(non_static.const_str);
-
-    std::cout << std::endl;
-
-    auto non_static_custom = NonStatic{"custom"};
-    non_static_custom.mutable_str += " + mod";
-    print(non_static_custom.mutable_str);
-    print(non_static_custom.const_str);
-}
 ```
+
+:arrow_forward: [**Run**](https://godbolt.org/z/a4jcrPrMo)
+
 </details>
 
 <details>
