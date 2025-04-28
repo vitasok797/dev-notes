@@ -101,9 +101,31 @@ public:
 
 ### Abstract base
 ```cpp
+class AbstractBase
+{
+public:
+    virtual ~AbstractBase() = 0;
+
+    void process() const
+    {
+        step1();
+        step2();
+    };
+
+    virtual void step1() const {...}
+    virtual void step2() const {...}
+};
+
+inline AbstractBase::~AbstractBase() {}
+
+class Derived : public AbstractBase
+{
+public:
+    virtual void step2() const override {...}
+};
 ```
 
-:arrow_forward: [**Run**]()
+:arrow_forward: [**Run**](https://godbolt.org/z/rPW3jdTr6)
 
 </details>
 
