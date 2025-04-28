@@ -53,7 +53,7 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 </details>
 
 <details>
-<summary>Class: virtual</summary>
+<summary>Class: virtual functions</summary>
 
 ```cpp
 struct A
