@@ -166,6 +166,7 @@
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
 * [Вероломные указатели](https://scrutator.me/post/2019/12/12/backstabbing_ptrs.aspx)
+* [Ох уж этот std::make_shared](https://habr.com/ru/articles/509004/)
 
 ## Files
 * [22 Common Filesystem Tasks in C++20](https://www.cppstories.com/2024/common-filesystem-cpp20/)
