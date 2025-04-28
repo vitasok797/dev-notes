@@ -58,20 +58,20 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 ```cpp
 struct A
 {
-    virtual void foo() = 0;
     virtual ~A() = default;
+    virtual void foo() = 0;
 };
 
 struct B : A
 {
-    void foo() [const] override;
     ~B() override;
+    void foo() [const] override;
 };
 
 struct C final : B
 {
-    void foo() [const] final;
     ~C() final;
+    void foo() [const] final;
 };
 ```
 </details>
