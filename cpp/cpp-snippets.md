@@ -121,11 +121,11 @@ inline AbstractBase::~AbstractBase() {}
 class Derived : public AbstractBase
 {
 public:
-    virtual void step2() const override {...}
+    void step2() const override {...}
 };
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/rPW3jdTr6)
+:arrow_forward: [**Run**](https://godbolt.org/z/hzWqoEY71)
 
 </details>
 
