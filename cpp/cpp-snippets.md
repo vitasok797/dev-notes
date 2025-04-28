@@ -133,35 +133,41 @@ public:
 <summary>Class: polymorphism</summary>
 
 ```cpp
-class ITest
+class Base
 {
 public:
     virtual void run() const = 0;
-    virtual ~ITest() = default;
+    virtual ~Base() = default;
 };
 
-class Test : public ITest
+class Derived : public Base
 {
 public:
     void run() const override {...}
 };
 
-void call_base_ref(const ITest& itest) {...}
-void call_base_ptr(const ITest* itest) {...}
-void call_base_shared_ptr(const std::shared_ptr<ITest> itest) {...}
+void call_base_ref(const Base& base) {...}
+void call_base_ptr(const Base* base) {...}
+void call_base_shared_ptr(const std::shared_ptr<Base> base) {...}
 
 int main()
 {
-    auto test = Test{};
-    auto& itest_ref = static_cast<ITest&>(test);
-    auto itest_ptr = static_cast<ITest*>(&test);
+    auto derived = Derived{};
+    Base& base_ref = derived;
+    Base* base_ptr = &derived;
 
-    auto test_shared_ptr = std::make_shared<Test>();
-    auto itest_shared_ptr = static_cast<std::shared_ptr<ITest>>(test_shared_ptr);
+    auto derived_shared_ptr = std::make_shared<Derived>();
+    // option 1
+    std::shared_ptr<Base> base_shared_ptr = derived_shared_ptr;
+    // option 2
+    auto base_shared_ptr = std::static_pointer_cast<Base>(derived_shared_ptr);
+
+    auto create_base_shared_ptr = []() -> std::shared_ptr<Base> { return std::make_shared<Derived>(); };
+    auto base_shared_ptr = create_base_shared_ptr();
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/5TGYKq3df)
+:arrow_forward: [**Run**](https://godbolt.org/z/nzee3v1W7)
 
 </details>
 
