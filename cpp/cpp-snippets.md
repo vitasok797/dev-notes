@@ -146,9 +146,9 @@ public:
     void run() const override {...}
 };
 
-void call_base_ref(const Base& base) {...}
-void call_base_ptr(const Base* base) {...}
-void call_base_shared_ptr(const std::shared_ptr<Base> base) {...}
+void polymorphic_call(const Base& base) {...}
+void polymorphic_call(const Base* base) {...}
+void polymorphic_call(const std::shared_ptr<Base> base) {...}
 
 void create()
 {
