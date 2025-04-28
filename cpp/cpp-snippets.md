@@ -84,18 +84,33 @@ struct C final : B
 class ITest
 {
 public:
-    virtual void test1() const = 0;
-    virtual void test2() const = 0;
+    virtual void test1() [const] = 0;
+    virtual void test2() [const] = 0;
     virtual ~ITest() = default;
 };
 
 class Test : public ITest
 {
 public:
-    void test1() const override {...}
-    void test2() const override {...}
+    void test1() [const] override {...}
+    void test2() [const] override {...}
 };
+```
 
+:arrow_forward: [**Run**]()
+
+### Abstract base
+```cpp
+```
+
+:arrow_forward: [**Run**]()
+
+</details>
+
+<details>
+<summary>Class: polymorphism</summary>
+
+```cpp
 ```
 
 :arrow_forward: [**Run**](https://godbolt.org/z/noxheo4nY)
