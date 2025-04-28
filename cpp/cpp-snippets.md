@@ -59,7 +59,7 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 struct A
 {
     virtual ~A() = default;
-    virtual void foo() = 0;
+    virtual void foo() [const] = 0;
 };
 
 struct B : A
