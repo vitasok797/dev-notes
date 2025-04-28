@@ -170,6 +170,9 @@
 * [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
 * [Вероломные указатели](https://scrutator.me/post/2019/12/12/backstabbing_ptrs.aspx)
 
+## Patterns
+* [(Habr) Техника избежания неопределённого поведения при обращении к синглтону](https://habr.com/ru/articles/455848/)
+
 ## Files
 * [22 Common Filesystem Tasks in C++20](https://www.cppstories.com/2024/common-filesystem-cpp20/)
 * [Understanding is_open() in C++: A Comprehensive Guide](https://medium.com/@ryan_forrester_/understanding-is-open-in-c-a-comprehensive-guide-a8e8f6b731ef) ([rus](https://nuancesprog.ru/p/28233/))
