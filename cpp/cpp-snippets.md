@@ -150,17 +150,13 @@ void call_base_ref(const Base& base) {...}
 void call_base_ptr(const Base* base) {...}
 void call_base_shared_ptr(const std::shared_ptr<Base> base) {...}
 
-int main()
+void create()
 {
     auto derived = Derived{};
     Base& base_ref = derived;
     Base* base_ptr = &derived;
 
-    auto derived_shared_ptr = std::make_shared<Derived>();
-    // option 1
-    std::shared_ptr<Base> base_shared_ptr = derived_shared_ptr;
-    // option 2
-    auto base_shared_ptr = std::static_pointer_cast<Base>(derived_shared_ptr);
+    std::shared_ptr<Base> base_shared_ptr = std::make_shared<Derived>();
 
     auto create_base_shared_ptr = []() -> std::shared_ptr<Base> { return std::make_shared<Derived>(); };
     auto base_shared_ptr = create_base_shared_ptr();
