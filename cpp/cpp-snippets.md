@@ -153,8 +153,8 @@ void pass_base_shared_ptr(const std::shared_ptr<ITest> itest) {...}
 int main()
 {
     auto test = Test{};
-    ITest& itest_ref = test;
-    ITest* itest_ptr = &test;
+    auto& itest_ref = static_cast<ITest&>(test);
+    auto itest_ptr = static_cast<ITest*>(&test);
 
     std::shared_ptr<ITest> itest_shared_ptr = std::make_shared<Test>();
 }
