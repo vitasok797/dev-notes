@@ -84,16 +84,16 @@ struct C final : B
 class ITest
 {
 public:
-    virtual void test1() [const] = 0;
-    virtual void test2() [const] = 0;
+    virtual void test1() const = 0;
+    virtual void test2() const = 0;
     virtual ~ITest() = default;
 };
 
 class Test : public ITest
 {
 public:
-    void test1() [const] override {...}
-    void test2() [const] override {...}
+    void test1() const override {...}
+    void test2() const override {...}
 };
 ```
 
