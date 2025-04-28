@@ -97,7 +97,7 @@ public:
 };
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/vWWevfeeK)
+:arrow_forward: [**Run**](https://godbolt.org/z/4EzYn8fPf)
 
 ### Abstract base
 ```cpp
@@ -125,7 +125,7 @@ public:
 };
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/hzWqoEY71)
+:arrow_forward: [**Run**](https://godbolt.org/z/3aoxEqaWs)
 
 </details>
 
@@ -160,7 +160,7 @@ int main()
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/h8zhfMYbK)
+:arrow_forward: [**Run**](https://godbolt.org/z/oKzfoY59q)
 
 </details>
 
