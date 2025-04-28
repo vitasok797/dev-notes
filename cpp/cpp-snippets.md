@@ -124,9 +124,9 @@ public:
     void run() const override {...}
 };
 
-void pass_base_ref(const ITest& test) {...}
-void pass_base_ptr(const ITest* test) {...}
-void pass_base_shared_ptr(const std::shared_ptr<ITest> test) {...}
+void pass_base_ref(const ITest& itest) {...}
+void pass_base_ptr(const ITest* itest) {...}
+void pass_base_shared_ptr(const std::shared_ptr<ITest> itest) {...}
 
 int main()
 {
@@ -138,7 +138,7 @@ int main()
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/jn687b9z8)
+:arrow_forward: [**Run**](https://godbolt.org/z/h8zhfMYbK)
 
 </details>
 
