@@ -146,9 +146,9 @@ public:
     void run() const override {...}
 };
 
-void pass_base_ref(const ITest& itest) {...}
-void pass_base_ptr(const ITest* itest) {...}
-void pass_base_shared_ptr(const std::shared_ptr<ITest> itest) {...}
+void call_base_ref(const ITest& itest) {...}
+void call_base_ptr(const ITest* itest) {...}
+void call_base_shared_ptr(const std::shared_ptr<ITest> itest) {...}
 
 int main()
 {
@@ -156,11 +156,12 @@ int main()
     auto& itest_ref = static_cast<ITest&>(test);
     auto itest_ptr = static_cast<ITest*>(&test);
 
-    std::shared_ptr<ITest> itest_shared_ptr = std::make_shared<Test>();
+    auto test_shared_ptr = std::make_shared<Test>();
+    auto itest_shared_ptr = static_cast<std::shared_ptr<ITest>>(test_shared_ptr);
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/oKzfoY59q)
+:arrow_forward: [**Run**](https://godbolt.org/z/5TGYKq3df)
 
 </details>
 
