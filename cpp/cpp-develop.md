@@ -66,6 +66,10 @@
   * [C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
   * [C++ Code analysis in Visual Studio: Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
   * [AddressSanitizer](https://learn.microsoft.com/en-us/cpp/sanitizers/asan)
+* Sanitizers:
+  * [Выявление ошибок в работе с памятью в C и C++: Сравниваем Sanitizers и Valgrind](https://habr.com/ru/companies/otus/articles/801123/)
+  * <https://github.com/google/sanitizers>
+  * [Valgrind](https://valgrind.org/)
 
 ## Visual Studio
 * [Visual Studio 2022 Release History](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
