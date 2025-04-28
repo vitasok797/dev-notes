@@ -1174,11 +1174,11 @@ func_nocopy(s);
 const auto& value = opt.value();             // const ref
       auto& value = opt.value();             // ref
       auto  value = opt.value();             // copy
-      auto  value = std::move(opt.value());  // move
+      auto  value = std::move(opt).value();  // move
 
 // opt.value_or()
-const auto& value = opt.value_or(...);  // const ref
-      auto  value = opt.value_or(...);  // copy
+auto value = opt.value_or(...);             // copy
+auto value = std::move(opt).value_or(...);  // move
 ```
 
 ### Usage
