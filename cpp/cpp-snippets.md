@@ -77,6 +77,32 @@ struct C final : B
 </details>
 
 <details>
+<summary>Class: interface/abstract</summary>
+
+### Interface
+```cpp
+class ITest
+{
+public:
+    virtual void test1() const = 0;
+    virtual void test2() const = 0;
+    virtual ~ITest() = default;
+};
+
+class Test : public ITest
+{
+public:
+    void test1() const override {...}
+    void test2() const override {...}
+};
+
+```
+
+:arrow_forward: [**Run**](https://godbolt.org/z/noxheo4nY)
+
+</details>
+
+<details>
 <summary>Class: static/const fields</summary>
 
 ### Summary
