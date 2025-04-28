@@ -111,9 +111,34 @@ public:
 <summary>Class: polymorphism</summary>
 
 ```cpp
+class ITest
+{
+public:
+    virtual void run() const = 0;
+    virtual ~ITest() = default;
+};
+
+class Test : public ITest
+{
+public:
+    void run() const override {...}
+};
+
+void pass_base_ref(const ITest& test) {...}
+void pass_base_ptr(const ITest* test) {...}
+void pass_base_shared_ptr(const std::shared_ptr<ITest> test) {...}
+
+int main()
+{
+    auto test = Test{};
+    ITest& itest_ref = test;
+    ITest* itest_ptr = &test;
+
+    std::shared_ptr<ITest> itest_shared_ptr = std::make_shared<Test>();
+}
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/jPaT14qr3)
+:arrow_forward: [**Run**](https://godbolt.org/z/jn687b9z8)
 
 </details>
 
