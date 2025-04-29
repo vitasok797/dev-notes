@@ -163,18 +163,31 @@ void ref_and_ptr()
 
 void shared_ptr()
 {
+    // create
     std::shared_ptr<Base> base_shared_ptr = std::make_shared<Derived>();
     auto base_shared_ptr = std::shared_ptr<Base>{new Derived{}};
 
+    // return
     auto return_base_shared_ptr = []() -> std::shared_ptr<Base> { return std::make_shared<Derived>(); };
+
+    // call
+    polymorphic_call(*base_shared_ptr);       // (const Base&)
+    polymorphic_call(base_shared_ptr.get());  // (const Base*)
+    polymorphic_call(base_shared_ptr);        // (std::shared_ptr<Base>)
 }
 
 void unique_ptr()
 {
+    // create
     std::unique_ptr<Base> base_unique_ptr = std::make_unique<Derived>();
     auto base_unique_ptr = std::unique_ptr<Base>{new Derived{}};
 
+    // return
     auto return_base_unique_ptr = []() -> std::unique_ptr<Base> { return std::make_unique<Derived>(); };
+
+    // call
+    polymorphic_call(*base_unique_ptr);       // (const Base&)
+    polymorphic_call(base_unique_ptr.get());  // (const Base*)
 }
 
 void vector_of_unique_ptr()
@@ -190,7 +203,7 @@ void vector_of_unique_ptr()
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/xnGdYWcEG)
+:arrow_forward: [**Run**](https://godbolt.org/z/YWevKsvo4)
 
 </details>
 
