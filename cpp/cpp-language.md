@@ -169,6 +169,7 @@
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
 * [Вероломные указатели](https://scrutator.me/post/2019/12/12/backstabbing_ptrs.aspx)
+* [Modern C++ Memory Management with unique_ptr](https://app.studyraid.com/en/courses/12308/modern-c-memory-management-with-uniqueptr)
 
 ## Patterns
 * [(Habr) Техника избежания неопределённого поведения при обращении к синглтону](https://habr.com/ru/articles/455848/)
