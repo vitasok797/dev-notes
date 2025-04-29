@@ -1892,7 +1892,7 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 
 [(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/oGxon6oec)
+:arrow_forward: [**Run**](https://godbolt.org/z/hnhsG8rbv)
 
 ```cpp
 #include <concepts>
@@ -1902,7 +1902,7 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 
 using std::cout, std::endl;
 
-#define FUNC_INFO(x) VS_FUNC_INFO(x) << " [" << VS_TYPE_INFO(x) << "] [" << VS_REF_INFO(x) << "]"
+#define FUNC_INFO(x) VS_FUNC_INFO << " [" << VS_TYPE_INFO(x) << "] [" << VS_REF_INFO(x) << "]"
 
 // ----------------------------------------------------------------------------------------------
 
