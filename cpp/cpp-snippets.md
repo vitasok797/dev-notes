@@ -780,7 +780,7 @@ int main()
 <details>
 <summary>std::make_from_tuple</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/vjGhcezsj)
+:arrow_forward: [**Run**](https://godbolt.org/z/4andfo1hb)
 
 ```cpp
 #include <iostream>
@@ -797,7 +797,7 @@ struct Foo
 
 int main()
 {
-    auto ctor_args = std::tuple{10, 20, 30};
+    auto ctor_args = std::tuple{10, 20.2, 30};
     std::make_from_tuple<Foo>(ctor_args);
 }
 ```
