@@ -150,17 +150,25 @@ void polymorphic_call(const Base& base) {...}
 void polymorphic_call(const Base* base) {...}
 void polymorphic_call(const std::shared_ptr<Base> base) {...}
 
-void create()
+void ref_and_ptr()
 {
     auto derived = Derived{};
     Base& base_ref = derived;
     Base* base_ptr = &derived;
+}
 
-    std::unique_ptr<Base> base_unique_ptr = std::make_unique<Derived>();
+void shared_ptr()
+{
     std::shared_ptr<Base> base_shared_ptr = std::make_shared<Derived>();
 
-    auto create_base_shared_ptr = []() -> std::shared_ptr<Base> { return std::make_shared<Derived>(); };
-    auto base_shared_ptr = create_base_shared_ptr();
+    auto return_base_shared_ptr = []() -> std::shared_ptr<Base> { return std::make_shared<Derived>(); };
+}
+
+void unique_ptr()
+{
+    std::unique_ptr<Base> base_unique_ptr = std::make_unique<Derived>();
+
+    auto return_base_unique_ptr = []() -> std::unique_ptr<Base> { return std::make_unique<Derived>(); };
 }
 
 void vector_of_unique_ptr()
@@ -173,7 +181,7 @@ void vector_of_unique_ptr()
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/TK8nr88v9)
+:arrow_forward: [**Run**](https://godbolt.org/z/sxqvGdhq3)
 
 </details>
 
