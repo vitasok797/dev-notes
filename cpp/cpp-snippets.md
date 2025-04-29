@@ -148,7 +148,7 @@ public:
 
 void polymorphic_call(const Base& base) {...}
 void polymorphic_call(const Base* base) {...}
-void polymorphic_call(const std::shared_ptr<Base> base) {...}
+void polymorphic_call(std::shared_ptr<Base> base) {...}
 
 void ref_and_ptr()
 {
@@ -183,7 +183,7 @@ void vector_of_unique_ptr()
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/9hW33cYac)
+:arrow_forward: [**Run**](https://godbolt.org/z/1YWfd6vGT)
 
 </details>
 
