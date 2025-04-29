@@ -27,6 +27,7 @@
 * [Thoughts from a C++ library developer](https://www.foonathan.net/)
 * [Sy Brand's Blog](https://blog.tartanllama.xyz/posts-by-categories/)
 * [vector<bool>{ true, true, false }](https://vector-of-bool.github.io/)
+* [Andrzej's C++ blog](https://akrzemi1.wordpress.com/)
 * [Субъективный объективизм](https://scrutator.me/)
 
 ## Modern C++
@@ -146,6 +147,7 @@
 * [(Habr) Использование std::optional в С++17](https://habr.com/ru/articles/372103/)
 * [(Habr) Рефакторинг с использованием C++17 std::optional](https://habr.com/ru/articles/369811/)
 * [C++ Can't Abandon Raw Pointers](https://vector-of-bool.github.io/2018/02/27/opt-ref.html)
+* [A moved-from optional](https://akrzemi1.wordpress.com/2022/09/06/a-moved-from-optional/)
 
 ### Types / Rvalue and Universal references
 * [(Habr) std::move vs. std::forward](https://habr.com/ru/articles/568306/)
