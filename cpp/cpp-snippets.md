@@ -181,13 +181,16 @@ void vector_of_unique_ptr()
 {
     auto v = std::vector<std::unique_ptr<Base>>{};
 
+    auto ptr = std::make_unique<Derived>();
+    v.push_back(std::move(ptr));
+
     v.push_back(std::make_unique<Derived>());
     v.push_back(std::unique_ptr<Base>{new Derived{}});
     v.emplace_back(new Derived{});
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/1YWfd6vGT)
+:arrow_forward: [**Run**](https://godbolt.org/z/xnGdYWcEG)
 
 </details>
 
