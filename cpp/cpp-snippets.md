@@ -12,6 +12,10 @@ public:
     // Types and type aliases
     // Static constants
 
+    // Factory functions
+    // Constructors and assignment operators
+    // Destructor
+
     MyClass() = default;
 
     MyClass(const MyClass&) = default;
