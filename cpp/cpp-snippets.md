@@ -156,6 +156,7 @@ void create()
     Base& base_ref = derived;
     Base* base_ptr = &derived;
 
+    std::unique_ptr<Base> base_unique_ptr = std::make_unique<Derived>();
     std::shared_ptr<Base> base_shared_ptr = std::make_shared<Derived>();
 
     auto create_base_shared_ptr = []() -> std::shared_ptr<Base> { return std::make_shared<Derived>(); };
@@ -163,7 +164,7 @@ void create()
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/nzee3v1W7)
+:arrow_forward: [**Run**](https://godbolt.org/z/chfervG6P)
 
 </details>
 
