@@ -12,9 +12,9 @@
 #define VS_TYPE_INFO(x) vs::debug::get_type_info<decltype(x)>()
 
 #ifdef _MSC_VER
-#define VS_FUNC_INFO(x) __FUNCSIG__
+#define VS_FUNC_INFO __FUNCSIG__
 #else
-#define VS_FUNC_INFO(x) __PRETTY_FUNCTION__
+#define VS_FUNC_INFO __PRETTY_FUNCTION__
 #endif
 
 namespace vs::debug
