@@ -162,9 +162,18 @@ void create()
     auto create_base_shared_ptr = []() -> std::shared_ptr<Base> { return std::make_shared<Derived>(); };
     auto base_shared_ptr = create_base_shared_ptr();
 }
+
+void vector_of_unique_ptr()
+{
+    auto v = std::vector<std::unique_ptr<Base>>{};
+
+    v.push_back(std::make_unique<Derived>());
+    v.push_back(std::unique_ptr<Base>{new Derived});
+    v.emplace_back(new Derived);
+}
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/chfervG6P)
+:arrow_forward: [**Run**](https://godbolt.org/z/TK8nr88v9)
 
 </details>
 
