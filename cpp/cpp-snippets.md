@@ -1681,7 +1681,7 @@ int main()
 
 Libs: [magic_enum](https://github.com/Neargye/magic_enum)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/aefr999Go)
+:arrow_forward: [**Run**](https://godbolt.org/z/bMnr4q14c)
 
 ```cpp
 #include <cstdint>
@@ -1698,7 +1698,7 @@ enum class Option : uint64_t
 using OptionFlags = magic_enum::containers::bitset<Option>;
 inline constexpr OptionFlags no_options{};
 
-enum class OtherOption
+enum class OtherOption : uint32_t
 {
     OPT1 = 1 << 0,
     OPT2 = 1 << 1,
