@@ -468,7 +468,7 @@ struct {} _ = ...
 </details>
 
 <details>
-<summary>Type info (overload resolution test)</summary>
+<summary>Type info (+overload resolution test)</summary>
 
 [Source](src/type_info.h)
 
