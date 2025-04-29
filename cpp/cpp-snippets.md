@@ -472,7 +472,7 @@ struct {} _ = ...
 
 [Source](src/type_info.h)
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/b34ThdYcq)
+:arrow_forward: [**Demo**](https://godbolt.org/z/Wcfd717c9)
 </details>
 
 ## Functional
