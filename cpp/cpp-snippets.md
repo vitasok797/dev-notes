@@ -101,7 +101,7 @@ public:
 };
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/E97aTccbc)
+:arrow_forward: [**Demo**](https://godbolt.org/z/E97aTccbc)
 
 ### Abstract base
 ```cpp
@@ -129,7 +129,7 @@ public:
 };
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/n9b5osa9x)
+:arrow_forward: [**Demo**](https://godbolt.org/z/n9b5osa9x)
 
 </details>
 
@@ -195,7 +195,7 @@ void vector_of_unique_ptr()
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/YWevKsvo4)
+:arrow_forward: [**Demo**](https://godbolt.org/z/YWevKsvo4)
 
 </details>
 
@@ -248,7 +248,7 @@ struct NonStatic
 };
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/a4jcrPrMo)
+:arrow_forward: [**Demo**](https://godbolt.org/z/a4jcrPrMo)
 
 </details>
 
