@@ -185,10 +185,12 @@
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 1]](https://habr.com/ru/articles/182610/)
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 2]](https://habr.com/ru/articles/182626/)
 * [C++ std::thread Event Loop with Message Queue and Timer](https://github.com/endurodave/StdWorkerThread)
+* [(Not) using std::thread](https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/)
 
 ## Error handling
 * [Boost.Outcome: Review of Error Handling Frameworks](https://www.boost.org/doc/libs/release/libs/outcome/doc/html/alternatives.html)
 * [Boost: Error and Exception Handling](https://www.boost.org/community/error_handling.html)
+* [Exception-Safety in Generic Components](https://www.boost.org/community/exception_safety.html)
 * <https://isocpp.org/wiki/faq/exceptions>
 * <https://yosefk.com/c++fqa/exceptions.html>
 * <https://learn.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp>
