@@ -78,6 +78,7 @@ struct C final : B
     void foo() [const] final;
 };
 ```
+
 </details>
 
 <details>
@@ -273,6 +274,7 @@ private:
     int id_ = default_id;
 };
 ```
+
 </details>
 
 <details>
@@ -347,6 +349,7 @@ int main()
     C(1.0);  // A B Cd
 }
 ```
+
 </details>
 
 <details>
@@ -374,6 +377,7 @@ public:
     using std::vector<T>::std::vector;  // Takes all vector's constructors
 };
 ```
+
 </details>
 
 <details>
@@ -476,6 +480,7 @@ int main()
     test3();
 }
 ```
+
 </details>
 
 ## Debug
@@ -487,6 +492,7 @@ int main()
 
 :arrow_forward: [**Demo** (CtorWatcher)](https://godbolt.org/z/5Yd5TxWhT) \
 :arrow_forward: [**Demo** (ObjWatcher)](https://godbolt.org/z/45q6TK5Kx)
+
 </details>
 
 <details>
@@ -497,6 +503,7 @@ int main()
 ```cpp
 struct {} _ = ...
 ```
+
 </details>
 
 <details>
@@ -505,6 +512,7 @@ struct {} _ = ...
 [Source](src/type_info.h)
 
 :arrow_forward: [**Demo**](https://godbolt.org/z/Wcfd717c9)
+
 </details>
 
 ## Functional
@@ -555,6 +563,7 @@ int main()
     std::cout << "3.5 / 4.5 = " << disp_table['/'](3.5, 4.5) << std::endl;
 }
 ```
+
 </details>
 
 <details>
@@ -605,6 +614,7 @@ int main()
     std::cout << compare(3, 2) << std::endl;
 }
 ```
+
 </details>
 
 <details>
@@ -627,6 +637,7 @@ std::cout << lam("aaa") << std::endl;  // 0:aaa
 std::cout << lam("bbb") << std::endl;  // 1:bbb
 std::cout << lam("ccc") << std::endl;  // 2:ccc
 ```
+
 </details>
 
 <details>
@@ -697,6 +708,7 @@ int main()
     print_range_with_proj(v2, &std::string::length);
 }
 ```
+
 </details>
 
 <details>
@@ -746,6 +758,7 @@ int main()
     std::cout << d << std::endl;
 }
 ```
+
 </details>
 
 <details>
@@ -768,6 +781,7 @@ int main()
     std::cout << "apply res: " << std::apply(sum, numbers) << std::endl;
 }
 ```
+
 </details>
 
 <details>
@@ -794,6 +808,7 @@ int main()
     std::make_from_tuple<Foo>(ctor_args);
 }
 ```
+
 </details>
 
 ## Initialization
@@ -869,6 +884,7 @@ auto i{3};     // C++11: std::initializer_list<int>
 auto i = {3};  // C++11: std::initializer_list<int>
                // C++14: std::initializer_list<int>
 ```
+
 </details>
 
 <details>
@@ -894,6 +910,7 @@ switch (auto ch = getnext(); ch)
 ```cpp
 if (auto [it_elem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 ```
+
 </details>
 
 <details>
@@ -914,6 +931,7 @@ for (auto i = size_t{}; const auto& x : container)
 for (auto& x : foo().items()) {...}  // undefined behavior if foo() returns by value
 for (auto thing = foo(); auto& x : thing.items()) {...}  // OK
 ```
+
 </details>
 
 <details>
@@ -964,6 +982,7 @@ Unpack map:
 
 for (const auto& [k, v] : mymap) {...}
 ```
+
 </details>
 
 ## Math
@@ -982,6 +1001,7 @@ int main()
     std::cout << std::clamp(2.5, 1.0, 2.0) << std::endl;  // 2
 }
 ```
+
 </details>
 
 <details>
@@ -1026,6 +1046,7 @@ int main()
     return 0;
 }
 ```
+
 </details>
 
 <details>
@@ -1034,6 +1055,7 @@ int main()
 ```cpp
 namespace fbz = foo::bar::baz;
 ```
+
 </details>
 
 <details>
@@ -1045,6 +1067,7 @@ namespace A::B::C
    // ...
 }
 ```
+
 </details>
 
 <details>
@@ -1060,6 +1083,7 @@ namespace B
     using namespace A;
 }
 ```
+
 </details>
 
 <details>
@@ -1073,6 +1097,7 @@ using std::endl;
 ```cpp
 using std::cout, std::endl;
 ```
+
 </details>
 
 ## Operators
@@ -1126,6 +1151,7 @@ int main()
     std::cout << PrivatePerson{"Private", 1990} << std::endl;
 }
 ```
+
 </details>
 
 <details>
@@ -1134,6 +1160,7 @@ int main()
 ```cpp
 condition ? true_expression : false_expression
 ```
+
 </details>
 
 ## Std::
@@ -1330,6 +1357,7 @@ int main()
     build_string_2();
 }
 ```
+
 </details>
 
 ## Type
@@ -1458,6 +1486,7 @@ int main()
     test_struct_binding_by_copy();
 }
 ```
+
 </details>
 
 <details>
@@ -1702,6 +1731,7 @@ int main()
     test_struct();
 }
 ```
+
 </details>
 
 <details>
@@ -1860,6 +1890,7 @@ int main()
     // print_options(other_opt);
 }
 ```
+
 </details>
 
 <details>
@@ -1889,6 +1920,7 @@ int main()
     func(FirstName{"John"}, LastName{"Doe"});
 }
 ```
+
 </details>
 
 <details>
@@ -1923,6 +1955,7 @@ using func = void (*) (int, int);
 template<typename T>
 using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
+
 </details>
 
 <details>
@@ -2035,4 +2068,5 @@ int main()
     }
 }
 ```
+
 </details>
