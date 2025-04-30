@@ -67,6 +67,7 @@ auto v = std::vector<int>{1, 2, 3, 4, 5};
 
 auto rng = ranges::subrange(v.begin() + 2, v.end());
 ```
+
 </details>
 
 <details>
@@ -80,6 +81,7 @@ auto is_even = [](int i) { return i % 2 == 0; };
 auto even_numbers = v | ranges::views::filter(is_even);
 auto odd_numbers = v | ranges::views::remove_if(is_even);
 ```
+
 </details>
 
 <details>
@@ -127,6 +129,7 @@ int main()
     }
 }
 ```
+
 </details>
 
 <details>
@@ -137,6 +140,7 @@ auto v = std::vector<int>{1, 2, 3};
 
 auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); });
 ```
+
 </details>
 
 <details>
@@ -162,6 +166,7 @@ int main()
     std::cout << std::quoted(res) << std::endl;
 }
 ```
+
 </details>
 
 <details>
@@ -175,6 +180,7 @@ std::cout << std::boolalpha;
 std::cout << ranges::contains(v, 2) << std::endl;
 std::cout << ranges::contains(v, 999) << std::endl;
 ```
+
 </details>
 
 <details>
@@ -188,6 +194,7 @@ for (const auto& [index, value] : ranges::views::enumerate(v))
     std::cout << index << ": " << value << std::endl;
 }
 ```
+
 </details>
 
 <details>
@@ -200,6 +207,7 @@ auto v2 = std::vector<int>{4, -5, 6};
 v1 |= ranges::actions::push_back(v2);
 v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { return i < 0; }));
 ```
+
 </details>
 
 <details>
@@ -227,6 +235,7 @@ int main()
     ranges::copy(v, ranges::ostream_iterator<T>(std::cout, "\n"));
 }
 ```
+
 </details>
 
 <details>
@@ -305,6 +314,7 @@ int main()
     demo2();
 }
 ```
+
 </details>
 
 <details>
@@ -376,4 +386,5 @@ int main()
         std::cout << x << std::endl;
 }
 ```
+
 </details>
