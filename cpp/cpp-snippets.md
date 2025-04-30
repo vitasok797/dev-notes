@@ -191,10 +191,6 @@ void unique_ptr()
 void vector_of_unique_ptr()
 {
     auto v = std::vector<std::unique_ptr<Base>>{};
-
-    auto ptr = std::make_unique<Derived>();
-    v.push_back(std::move(ptr));
-
     v.push_back(std::make_unique<Derived>());
 }
 ```
