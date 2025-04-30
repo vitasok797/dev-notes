@@ -1930,8 +1930,6 @@ using UserAccounts = std::map<UserId, std::vector<T>>;
 
 [(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/65W1E9Y5x)
-
 ```cpp
 #include <concepts>
 
@@ -1957,6 +1955,9 @@ template<typename T>
 requires same_type<T, std::string>
 void same_as_string_2(T&& x) {...}
 ```
+
+:arrow_forward: [**Demo**](https://godbolt.org/z/65W1E9Y5x)
+
 </details>
 
 ## Util
