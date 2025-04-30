@@ -39,8 +39,6 @@
 <details>
 <summary>Range as argument</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/hExn53qWf)
-
 ```cpp
 void func([const] auto[&][&&] rng) {}
 ```
@@ -56,6 +54,9 @@ void func_with_concept([const] R[&][&&] rng) {}
 template<ranges::range R>
 void func_with_concept([const] R[&][&&] rng) {}
 ```
+
+:arrow_forward: [**Demo**](https://godbolt.org/z/hExn53qWf)
+
 </details>
 
 <details>
