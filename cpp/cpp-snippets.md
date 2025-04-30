@@ -986,7 +986,7 @@ int main()
 <details>
 <summary>:warning: Signed/unsigned operations :confused:</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/5aPxGTEdz)
+:arrow_forward: [**Demo**](https://godbolt.org/z/5aPxGTEdz)
 
 </details>
 
@@ -1247,8 +1247,8 @@ auto& value = *opt;
 // use: value
 ```
 
-:arrow_forward: [**Run** (initialization)](https://godbolt.org/z/3PcKTG431) \
-:arrow_forward: [**Run** (usage)](https://godbolt.org/z/96KqW36xe)
+:arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/3PcKTG431) \
+:arrow_forward: [**Demo** (usage)](https://godbolt.org/z/96KqW36xe)
 
 </details>
 
@@ -1278,7 +1278,7 @@ std::tuple<int, Watcher> return_tuple() { return {0, std::move(w)}; }
 std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }
 ```
 
-:arrow_forward: [**Run** (initialization)](https://godbolt.org/z/MET71zdG1)
+:arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/MET71zdG1)
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
