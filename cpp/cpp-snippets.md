@@ -1967,7 +1967,7 @@ void same_as_string_2(T&& x) {...}
 
 [Source](src/scope_guard.h)
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/rq66eaTWK)
+:arrow_forward: [**Run**](https://godbolt.org/z/rq66eaTWK)
 
 ```cpp
 #include <iostream>
