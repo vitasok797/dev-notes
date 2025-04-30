@@ -560,8 +560,6 @@ int main()
 <details>
 <summary>Function as argument</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/W71MMcabY)
-
 ```cpp
 #include <functional>
 
@@ -577,6 +575,9 @@ void func_arg(auto f)
     int res = f(1, 2);
 }
 ```
+
+:arrow_forward: [**Demo**](https://godbolt.org/z/W71MMcabY)
+
 </details>
 
 <details>
