@@ -11,7 +11,7 @@ namespace vs::util
 template<typename T>
 using optional_ref = std::optional<std::reference_wrapper<T>>;
 
-template<typename T> auto as_signed  (T t){ return std::make_signed_t<T>(t); }
+template<typename T> auto as_signed(T t){ return std::make_signed_t<T>(t); }
 template<typename T> auto as_unsigned(T t){ return std::make_unsigned_t<T>(t); }
 
 }  // namespace vs::util
