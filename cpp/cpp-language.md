@@ -96,7 +96,6 @@
 * [(Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
 * [(Abseil Tips) Default vs Value Initialization](https://abseil.io/tips/146)
   ([default](https://en.cppreference.com/w/cpp/language/default_initialization), [value](https://en.cppreference.com/w/cpp/language/value_initialization))
-* [(LearnCpp) Struct aggregate initialization](https://www.learncpp.com/cpp-tutorial/struct-aggregate-initialization/)
 
 ### Initialization / {}-initializer syntax
 * [GotW #1 Solution: Variable Initialization](https://herbsutter.com/2013/05/09/gotw-1-solution/)
@@ -115,6 +114,9 @@
 ### Initialization / constexpr
 * [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
 * [Just how constexpr is C++20’s std::string?](https://quuxplusone.github.io/blog/2023/09/08/constexpr-string-firewall/)
+
+### Initialization / Struct
+* [(LearnCpp) Struct aggregate initialization](https://www.learncpp.com/cpp-tutorial/struct-aggregate-initialization/)
 
 ### Initialization / Structured bindings
 * [Языковые новшества C++17. Часть 2. Constexpr и привязки](https://scrutator.me/post/2017/10/07/cpp17_lang_features_p2.aspx)
