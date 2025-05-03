@@ -116,7 +116,7 @@
 * [Just how constexpr is C++20’s std::string?](https://quuxplusone.github.io/blog/2023/09/08/constexpr-string-firewall/)
 
 ### Initialization / Struct
-* [(LearnCpp) Aggregate initialization](https://www.learncpp.com/cpp-tutorial/struct-aggregate-initialization/)
+* [(LearnCpp) Struct aggregate initialization](https://www.learncpp.com/cpp-tutorial/struct-aggregate-initialization/)
 * [(LearnCpp) Default member initialization](https://www.learncpp.com/cpp-tutorial/default-member-initialization/)
 
 ### Initialization / Structured bindings
