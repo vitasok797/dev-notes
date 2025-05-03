@@ -1279,6 +1279,8 @@ auto& value = *opt;
 // use: value
 ```
 
+Using: [object_watcher.h](src/object_watcher.h), [util.h](src/util.h)
+
 :arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/3PcKTG431) \
 :arrow_forward: [**Demo** (usage)](https://godbolt.org/z/96KqW36xe)
 
@@ -1309,6 +1311,8 @@ std::tuple<int, Watcher> return_tuple() { return std::tuple<int, Watcher>{0, 1};
 std::tuple<int, Watcher> return_tuple() { return {0, std::move(w)}; }
 std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }
 ```
+
+Using: [object_watcher.h](src/object_watcher.h)
 
 :arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/MET71zdG1)
 
