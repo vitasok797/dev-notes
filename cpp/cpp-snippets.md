@@ -1737,7 +1737,7 @@ int main()
 <details>
 <summary>Enum bit flags</summary>
 
-Libs: [magic_enum](https://github.com/Neargye/magic_enum)
+Using: [magic_enum](https://github.com/Neargye/magic_enum)
 
 :arrow_forward: [**Run**](https://godbolt.org/z/bMnr4q14c)
 
@@ -1894,9 +1894,9 @@ int main()
 </details>
 
 <details>
-<summary>Named arguments (using strong type)</summary>
+<summary>Named arguments</summary>
 
-Libs: [strong_type](https://github.com/rollbear/strong_type)
+Using: [strong_type](https://github.com/rollbear/strong_type)
 
 :arrow_forward: [**Run**](https://godbolt.org/z/Y9ocj6c8c)
 
