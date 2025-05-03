@@ -164,7 +164,7 @@
 ### Types / Scope guard
 * [C++ List of ScopeGuard](https://blog.rnstlr.ch/c-list-of-scopeguard.html)
 
-### Types / Signed/unsigned
+### Types / Signed vs unsigned
 * [(LearnCpp) Unsigned integers, and why to avoid them](https://www.learncpp.com/cpp-tutorial/unsigned-integers-and-why-to-avoid-them/)
 * [(libtorrent.org) Unsigned integers](https://blog.libtorrent.org/2016/05/unsigned-integers/)
 
