@@ -804,7 +804,7 @@ Syntax:
 
 Examples:
 ```cpp
-auto i = uint64_t{123};
+auto i = int64_t{123};
 auto v = std::vector<int>{};
 auto get_size = [](const auto& x) { return x.size(); };
 ```
