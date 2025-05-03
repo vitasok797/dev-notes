@@ -488,7 +488,7 @@ int main()
 <details>
 <summary>Object Watcher</summary>
 
-[Source](src/object_watcher.h)
+Using: [object_watcher.h](src/object_watcher.h)
 
 :arrow_forward: [**Demo** (CtorWatcher)](https://godbolt.org/z/5Yd5TxWhT) \
 :arrow_forward: [**Demo** (ObjWatcher)](https://godbolt.org/z/45q6TK5Kx)
@@ -507,11 +507,11 @@ struct {} _ = ...
 </details>
 
 <details>
-<summary>Type info (+overload resolution test)</summary>
+<summary>Type info (overload resolution test)</summary>
 
-[Source](src/type_info.h)
+Using: [type_info.h](src/type_info.h)
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/Wcfd717c9)
+:arrow_forward: [**Demo** (overload resolution test)](https://godbolt.org/z/Wcfd717c9)
 
 </details>
 
@@ -1998,7 +1998,7 @@ void same_as_string_2(T&& x) {...}
 <details>
 <summary>Scope guard</summary>
 
-[Source](src/scope_guard.h)
+Using: [scope_guard.h](src/scope_guard.h)
 
 :arrow_forward: [**Run**](https://godbolt.org/z/rq66eaTWK)
 
