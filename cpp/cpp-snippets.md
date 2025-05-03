@@ -1003,7 +1003,7 @@ int main()
 <details>
 <summary>Floating point comparisons</summary>
 
-[(Learncpp) 6.7 — Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
+[(Learncpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
 
 :arrow_forward: [**Demo**](https://godbolt.org/z/E8rzKnqqf) [[calc.h](src/calc.h)]
 
