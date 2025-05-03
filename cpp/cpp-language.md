@@ -164,6 +164,9 @@
 ### Types / Scope guard
 * [C++ List of ScopeGuard](https://blog.rnstlr.ch/c-list-of-scopeguard.html)
 
+### Types / Signed/unsigned
+* [libtorrent.org: unsigned integers](https://blog.libtorrent.org/2016/05/unsigned-integers/)
+
 ### Types / Type Erasure
 * [Type Erasure](https://www.modernescpp.com/index.php/type-erasure/)
 * [How to use type erasure pattern to decouple polymorphic classes in C++?](https://iamsorush.com/posts/cpp-type-erasure/)
