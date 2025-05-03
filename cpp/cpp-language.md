@@ -168,6 +168,7 @@
 * [(LearnCpp) Unsigned integers, and why to avoid them](https://www.learncpp.com/cpp-tutorial/unsigned-integers-and-why-to-avoid-them/)
 * [Subscripts and sizes should be signed. Bjarne Stroustrup](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1428r0.pdf)
 * [(libtorrent.org) Unsigned integers](https://blog.libtorrent.org/2016/05/unsigned-integers/)
+* [std::ssize](https://en.cppreference.com/w/cpp/iterator/size)
 
 ### Types / Type Erasure
 * [Type Erasure](https://www.modernescpp.com/index.php/type-erasure/)
