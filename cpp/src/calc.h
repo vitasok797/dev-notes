@@ -1,7 +1,6 @@
 #ifndef VS_CALC_H_
 #define VS_CALC_H_
 
-#include <algorithm>
 #include <cmath>
 
 namespace vs
