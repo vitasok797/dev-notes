@@ -85,6 +85,9 @@
 * :warning: [The Wonderfully Terrible World of C and C++ Encoding APIs](https://thephd.dev/the-c-c++-rust-string-text-encoding-api-landscape)
 * :warning: [Doing UTF-8 in Windows](https://www.codeproject.com/Articles/5252037/Doing-UTF-8-in-Windows) ([github](https://github.com/neacsum/utf8))
 
+## Operators
+* [(cppreference) Operator Precedence](https://en.cppreference.com/w/cpp/language/operator_precedence)
+
 ## Initialization
 * [(cppreference) Initialization](https://en.cppreference.com/w/cpp/language/initialization)
 * [(Habr) Инициализация в современном C++](https://habr.com/ru/companies/jugru/articles/469465/)
