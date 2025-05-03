@@ -1955,13 +1955,13 @@ using UserAccounts = std::map<UserId, std::vector<Account>>;
 ```
 
 ```cpp
-// identical to: typedef void (*func)(int, int);
-using func = void (*) (int, int);
+template<typename T>
+using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
 
 ```cpp
-template<typename T>
-using UserAccounts = std::map<UserId, std::vector<T>>;
+// identical to: typedef void (*func)(int, int);
+using func = void (*) (int, int);
 ```
 
 </details>
