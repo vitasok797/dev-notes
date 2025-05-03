@@ -710,50 +710,32 @@ int main()
 <details>
 <summary>Return structured data</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/exdTYbvsx)
-
 ```cpp
-#include <iostream>
-#include <tuple>
+struct Data { int i; double d; };
 
-// --------------------------------------------------------
-
-struct ReturnData1 { int i; double d; };
-
-ReturnData1 get_data_1()
+Data get_data()
 {
     return {42, 0.1};
+    return Data{42, 0.1};
 }
+```
 
-// --------------------------------------------------------
-
-auto get_data_2()
+```cpp
+auto get_data()
 {
-    struct ReturnData2 { int i; double d; };
-    return ReturnData2{42, 0.2};
+    struct Data { int i; double d; };
+    return Data{42, 0.2};
 }
+```
 
-// --------------------------------------------------------
-
-std::tuple<int, double> get_data_3()
+```cpp
+std::tuple<int, double> get_data()
 {
     return {42, 0.3};
 }
-
-// --------------------------------------------------------
-
-int main()
-{
-    auto res1 = get_data_1();
-    std::cout << res1.d << std::endl;
-
-    auto res2 = get_data_2();
-    std::cout << res2.d << std::endl;
-
-    auto [_, d] = get_data_3();
-    std::cout << d << std::endl;
-}
 ```
+
+:arrow_forward: [**Demo**](https://godbolt.org/z/exdTYbvsx)
 
 </details>
 
