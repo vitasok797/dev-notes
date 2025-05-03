@@ -488,7 +488,7 @@ int main()
 <details>
 <summary>Object Watcher</summary>
 
-:arrow_forward: [**Demo** (CtorWatcher)](https://godbolt.org/z/5Yd5TxWhT) [[object_watcher.h](src/object_watcher.h)]\
+:arrow_forward: [**Demo** (CtorWatcher)](https://godbolt.org/z/5Yd5TxWhT) [[object_watcher.h](src/object_watcher.h)] \
 :arrow_forward: [**Demo** (ObjWatcher)](https://godbolt.org/z/45q6TK5Kx) [[object_watcher.h](src/object_watcher.h)]
 
 </details>
