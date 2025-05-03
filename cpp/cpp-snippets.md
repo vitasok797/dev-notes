@@ -1985,9 +1985,7 @@ requires same_type<T, std::string>
 void same_as_string_2(T&& x) {...}
 ```
 
-Using: [type_info.h](src/type_info.h)
-
-:arrow_forward: [**Demo**](https://godbolt.org/z/65W1E9Y5x)
+:arrow_forward: [**Demo**](https://godbolt.org/z/65W1E9Y5x) [[type_info.h](src/type_info.h)]
 
 </details>
 
@@ -1996,9 +1994,7 @@ Using: [type_info.h](src/type_info.h)
 <details>
 <summary>Scope guard</summary>
 
-Using: [scope_guard.h](src/scope_guard.h)
-
-:arrow_forward: [**Run**](https://godbolt.org/z/rq66eaTWK)
+:arrow_forward: [**Run**](https://godbolt.org/z/rq66eaTWK) [[scope_guard.h](src/scope_guard.h)]
 
 ```cpp
 #include <iostream>
