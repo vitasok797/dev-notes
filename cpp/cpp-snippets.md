@@ -833,15 +833,17 @@ auto x = "hello"sv;
 
 Loop counter:
 ```cpp
-for(int i = 0; i < v.size(); ++i)  // BAD
-for(size_t i = 0; i < v.size(); ++i)  // BETTER
-for(auto i = size_t{}; i < v.size(); ++i)  // GOOD
+for(auto i = size_t{0}; i < v.size(); ++i)
+for(auto i = vs::Index{0}; i < ssize(v); ++i)
+
+for(auto i = vs::Index(v.size())-1; i >= 0; --i)
+for(auto i = std::ssize(v)-1; i >= 0; --i)
 ```
 
 Singned/unsignned cast with helpers:
 ```cpp
-auto x = as_signed(integer_expr);
-auto x = as_unsigned(integer_expr);
+auto x = vs::as_signed(integer_expr);
+auto x = vs::as_unsigned(integer_expr);
 ```
 
 Init by function return value:
