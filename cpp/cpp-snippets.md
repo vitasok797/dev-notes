@@ -995,7 +995,7 @@ int main()
 <summary>:warning: Signed/unsigned</summary>
 
 :arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/98Edqj9rx) [[util.h](src/util.h)] \
-:arrow_forward: [**Demo** (index)](https://godbolt.org/z/8s364bGa4) [[util.h](src/util.h)]
+:arrow_forward: [**Demo** (index)](https://godbolt.org/z/W7jnPcvjG) [[util.h](src/util.h)]
 
 </details>
 
