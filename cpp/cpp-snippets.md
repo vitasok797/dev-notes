@@ -995,8 +995,16 @@ int main()
 <details>
 <summary>:warning: Signed/unsigned</summary>
 
+### Loop counter
+```cpp
+for(auto i = size_t{0}; i < v.size(); ++i)
+for(auto i = vs::Index{0}; i < ssize(v); ++i)
+
+for(auto i = ssize(v)-1; i >= 0; --i)
+```
+
 :arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/asWjqrxq8) [[util.h](src/util.h)] \
-:arrow_forward: [**Demo** (index)](https://godbolt.org/z/YPrTPhMaq) [[util.h](src/util.h)]
+:arrow_forward: [**Demo** (index)](https://godbolt.org/z/rf4qhvMqT) [[util.h](src/util.h)]
 
 </details>
 
