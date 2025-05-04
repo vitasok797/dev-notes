@@ -837,7 +837,7 @@ for(auto i = size_t{0}; i < v.size(); ++i)
 for(auto i = vs::Index{0}; i < ssize(v); ++i)
 
 for(auto i = vs::Index(v.size())-1; i >= 0; --i)
-for(auto i = std::ssize(v)-1; i >= 0; --i)
+for(auto i = ssize(v)-1; i >= 0; --i)
 ```
 
 Singned/unsignned cast with helpers:
