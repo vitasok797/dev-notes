@@ -57,7 +57,7 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 </details>
 
 <details>
-<summary>Class: virtual functions</summary>
+<summary>Class: virtual/override/final</summary>
 
 ```cpp
 struct A
