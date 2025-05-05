@@ -18,7 +18,7 @@ public:
 
     MyClass() = default;
 
-    // Rule of five/zero
+    // Rule of five/zero (for non-abstract classes)
     MyClass(const MyClass&) = default;
     MyClass(MyClass&&) = default;
     MyClass& operator=(const MyClass&) = default;
