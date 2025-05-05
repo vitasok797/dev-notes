@@ -155,6 +155,7 @@
 * [(Habr) Рефакторинг с использованием C++17 std::optional](https://habr.com/ru/articles/369811/)
 * [C++ Can't Abandon Raw Pointers](https://vector-of-bool.github.io/2018/02/27/opt-ref.html)
 * [A moved-from optional](https://akrzemi1.wordpress.com/2022/09/06/a-moved-from-optional/)
+* [Deducing your intentions](https://akrzemi1.wordpress.com/2018/12/09/deducing-your-intentions/)
 
 ### Types / Rvalue and Universal references
 * [(Habr) std::move vs. std::forward](https://habr.com/ru/articles/568306/)
