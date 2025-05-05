@@ -637,6 +637,19 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 </details>
 
 <details>
+<summary>Pass by value</summary>
+
+* _Cheaply-copied types (2*sizeof(void*))_
+* _Impossible to copy types_
+* Iterators
+* Functors, lambdas, std::function
+* Views (std::string_view, std::span)
+* std::shared_ptr (sharing ownership)
+* std::unique_ptr (taking ownership)
+
+</details>
+
+<details>
 <summary>Projection</summary>
 
 :arrow_forward: [**Run**](https://godbolt.org/z/xb4bxo4EY)
