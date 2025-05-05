@@ -18,7 +18,7 @@ public:
 
     MyClass() = default;
 
-    // Rule of five/zero (for non-abstract classes)
+    // Rule of five/zero
     MyClass(const MyClass&) = default;
     MyClass(MyClass&&) = default;
     MyClass& operator=(const MyClass&) = default;
@@ -42,17 +42,17 @@ private:
 };
 ```
 
+| Inheritance                   | Class settings                     |
+|:-----------------------------:|------------------------------------|
+| Yes <br> (abstract/interface) | • `virtual` public destructor      |
+| Yes                           | • rule of five/zero                |
+| No                            | • `final` <br> • rule of five/zero |
+
 :warning: Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
 ```cpp
 MyClass(MyClass&& other) noexcept {...}
 MyClass& operator=(MyClass&& other) noexcept {...}
 ```
-
-:warning: Inheritance:
-| Inheritance | Class                           |
-|:-----------:|---------------------------------|
-| Yes         | `virtual` and public destructor |
-| No          | `final` class                   |
 
 </details>
 
