@@ -42,14 +42,14 @@ private:
 };
 ```
 
-| Inheritance               | Class settings                                                                                                                                                                                                                                          |
-|:-------------------------:|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| No                        | • `final` class<br>• rule of five/zero                                                                                                                                                                                                                  |
-| Yes<br>(interface)        | • destructor: `virtual ~MyClass() = default;`                                                                                                                                                                                                           |
-| Yes<br>(abstract base)    | • destructor: `virtual ~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}`                                                                                                                                                           |
-| Yes<br>(abstract derived) | • destructor: `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}`                                                                                                                                                          |
-| Yes<br>(concrete base)    | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`/`delete`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
-| Yes<br>(concrete derived) | • (optional) `final` class<br>• (optional) destructor: `override`/`final`, user-defined<br>• rule of five/zero                                                                                                                                          |
+| Inheritance         | Class options                                                                                                                                                                                                                                  |
+|:-------------------:|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| No                  | • `final` class<br>• rule of five/zero                                                                                                                                                                                                         |
+| Interface           | • destructor: `virtual ~MyClass() = default;`                                                                                                                                                                                                  |
+| Abstract<br>base    | • destructor: `virtual ~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}`                                                                                                                                                  |
+| Abstract<br>derived | • destructor: `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}`                                                                                                                                                 |
+| Concrete<br>base    | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
+| Concrete<br>derived | • (optional) `final` class<br>• (optional) destructor: `override`/`final`, user-defined<br>• rule of five/zero                                                                                                                                 |
 
 :warning: Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
 ```cpp
