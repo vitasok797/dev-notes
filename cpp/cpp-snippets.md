@@ -1017,8 +1017,8 @@ for(auto i = ssize(v)-1; i >= 0; --i)
 ```
 
 :arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/67qo5cnd7) [[util.h](src/util.h)] \
-:arrow_forward: [**Demo** (index)](https://godbolt.org/z/r5Ga1PGrK) [[util.h](src/util.h)] \
-:arrow_forward: [**Demo** (accumulate)](https://godbolt.org/z/Kzxz6a85G) [[util.h](src/util.h)]
+:arrow_forward: [**Demo** (index)](https://godbolt.org/z/6fPKrWz8b) [[util.h](src/util.h)] \
+:arrow_forward: [**Demo** (accumulate)](https://godbolt.org/z/x5ehf4vME) [[util.h](src/util.h)]
 
 </details>
 
