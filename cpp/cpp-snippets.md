@@ -42,14 +42,14 @@ private:
 };
 ```
 
-| Inheritance               | Class settings                                                                                         |
-|:-------------------------:|--------------------------------------------------------------------------------------------------------|
-| No                        | • `final` class<br>• rule of five/zero                                                                 |
-| Yes<br>(interface)        | • destructor: `virtual ~MyClass() = default;`                                                          |
-| Yes<br>(abstract base)    | • destructor: `virtual ~MyClass() = 0;`                                                                |
-| Yes<br>(abstract derived) | • destructor: `~MyClass() override = 0;`                                                               |
-| Yes<br>(concrete base)    | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`/`delete`)    |
-| Yes<br>(concrete derived) | • (optional) `final` class<br>• (optional) destructor: `override`, user-defined<br>• rule of five/zero |
+| Inheritance               | Class settings                                                                                                 |
+|:-------------------------:|----------------------------------------------------------------------------------------------------------------|
+| No                        | • `final` class<br>• rule of five/zero                                                                         |
+| Yes<br>(interface)        | • destructor: `virtual ~MyClass() = default;`                                                                  |
+| Yes<br>(abstract base)    | • destructor: `virtual ~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}`                  |
+| Yes<br>(abstract derived) | • destructor: `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}`                 |
+| Yes<br>(concrete base)    | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`/`delete`)            |
+| Yes<br>(concrete derived) | • (optional) `final` class<br>• (optional) destructor: `override`/`final`, user-defined<br>• rule of five/zero |
 
 :warning: Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
 ```cpp
