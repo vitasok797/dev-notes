@@ -921,6 +921,7 @@ for (auto i = size_t{}; const auto& x : container)
 
 ```cpp
 for (auto& x : foo().items()) {...}  // undefined behavior if foo() returns by value
+                                     // https://pvs-studio.ru/ru/blog/posts/cpp/1149/
 for (auto thing = foo(); auto& x : thing.items()) {...}  // OK
 ```
 
