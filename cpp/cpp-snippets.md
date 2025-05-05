@@ -847,9 +847,9 @@ auto x = "hello"sv;
 Loop counter:
 ```cpp
 for(auto i = size_t{0}; i < v.size(); ++i)
-for(auto i = vs::Index{0}; i < ssize(v); ++i)
+for(auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 
-for(auto i = ssize(v)-1; i >= 0; --i)
+for(auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
 Singned/unsignned cast with helpers:
@@ -1011,9 +1011,9 @@ int main()
 ### Loop counter
 ```cpp
 for(auto i = size_t{0}; i < v.size(); ++i)
-for(auto i = vs::Index{0}; i < ssize(v); ++i)
+for(auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 
-for(auto i = ssize(v)-1; i >= 0; --i)
+for(auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
 :arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/67qo5cnd7) [[util.h](src/util.h)] \
