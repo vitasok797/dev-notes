@@ -1116,52 +1116,38 @@ using std::cout, std::endl;
 <details>
 <summary>ostream <<</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/effze1zTY)
-
 ```cpp
-#include <iostream>
-
-// ----------------------------------------------------------------------------------------------
-
-struct Person
-{
-    std::string firstname;
-    std::string surname;
-    int year;
-};
-
 inline std::ostream& operator<<(std::ostream& os, const Person& person)
 {
     return os << person.surname << " " << person.firstname << " was born in " << person.year;
 }
+```
 
-// ----------------------------------------------------------------------------------------------
-
+```cpp
 class PrivatePerson
 {
 public:
-    PrivatePerson(const std::string& alias, int year) : alias_{alias}, year_{year} {};
-
     friend std::ostream& operator<<(std::ostream& os, const PrivatePerson& person);
-
-private:
-    std::string alias_;
-    int year_;
 };
 
 inline std::ostream& operator<<(std::ostream& os, const PrivatePerson& person)
 {
     return os << person.alias_ << " was born in " << person.year_;
 }
-
-// ----------------------------------------------------------------------------------------------
-
-int main()
-{
-    std::cout << Person{"Smith", "John", 1980} << std::endl;
-    std::cout << PrivatePerson{"Private", 1990} << std::endl;
-}
 ```
+
+```cpp
+class PrivatePerson
+{
+public:
+    friend std::ostream& operator<<(std::ostream& os, const PrivatePerson& person)
+    {
+        return os << person.alias_ << " was born in " << person.year_;
+    }
+};
+```
+
+:arrow_forward: [**Demo**](https://godbolt.org/z/M1dq9Kofh)
 
 </details>
 
