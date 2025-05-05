@@ -1939,15 +1939,36 @@ int main()
 
 [(Reference) Type alias](https://en.cppreference.com/w/cpp/language/type_alias)
 
+### Alias
+
 ```cpp
 using UserId = int;
 using UserAccounts = std::map<UserId, std::vector<Account>>;
 ```
 
+### Alias (template)
+
 ```cpp
 template<typename T>
 using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
+
+### Nested alias
+
+```cpp
+struct Shape
+{
+  using VertexList = std::vector<Point>;
+  VertexList vertexes;
+};
+
+Shape MakeShape()
+{
+  return Shape{ Shape::VertexList{{1,0}, {0,1}, {0,0}, {1,1}} };
+}
+```
+
+### Function pointer
 
 ```cpp
 // identical to: typedef void (*func)(int, int);
