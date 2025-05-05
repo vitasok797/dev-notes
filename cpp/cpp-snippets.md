@@ -18,11 +18,11 @@ public:
 
     MyClass() = default;
 
+    // Rule of five/zero
     MyClass(const MyClass&) = default;
     MyClass(MyClass&&) = default;
     MyClass& operator=(const MyClass&) = default;
     MyClass& operator=(MyClass&&) = default;
-
     [virtual] ~MyClass() = default;
 
     // Functions
