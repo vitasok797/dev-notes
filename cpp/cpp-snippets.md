@@ -639,7 +639,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <details>
 <summary>Pass by value</summary>
 
-* _Cheaply-copied types (2*sizeof(void*))_
+* _Cheaply-copied types (2\*sizeof(void\*))_
 * _Impossible to copy types_
 * Iterators
 * Functors, lambdas, std::function
