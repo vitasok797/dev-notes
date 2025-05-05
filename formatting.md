@@ -14,6 +14,7 @@
 * :ballot_box_with_check: :arrow_right: :ok: :new: :information_source:
 * :red_circle: :orange_circle: :yellow_circle: :green_circle: :large_blue_circle:
 * :red_square: :orange_square: :yellow_square: :green_square: :blue_square:
+* :black_small_square: :black_medium_small_square:
 
 ## Marks
 * `text` [Yandex](https://yandex.ru)
