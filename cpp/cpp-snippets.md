@@ -1030,10 +1030,14 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 :arrow_forward: [**Demo** (index)](https://godbolt.org/z/3fjhGdvGe) [[util.h](src/util.h)] \
 :arrow_forward: [**Demo** (accumulate)](https://godbolt.org/z/x5ehf4vME) [[util.h](src/util.h)]
 
-### `Wsign-compare` compiler option
+### `-Wsign-compare` compiler option
+* Enabling:
+  * GCC: enabled by `-Wall` and `-Wextra` ([ref](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
+  * Clang: enabled by `-Wextra` ([ref](https://clang.llvm.org/docs/DiagnosticsReference.html))
+  * MSVC: enabled by `/W3` and `/W4` (warning `C4018`)
 * Cons: false positive for code `for (auto i = vs::Index{0}; i < sizeof(buf); i++)`
 * Solution:
-  * Disable `Wsign-compare` compiler option
+  * Disable `-Wsign-compare` compiler option
   * Enable a similar option in the static checker 
   * Static checker setup: do not flag on a mixed signed/unsigned comparison where one of the arguments is `sizeof` or a call to container `.size()` and the other is `ptrdiff_t` ([ES.100](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es100-dont-mix-signed-and-unsigned-arithmetic))
 
