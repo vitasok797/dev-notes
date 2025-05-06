@@ -1032,14 +1032,22 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 
 ### `-Wsign-compare` compiler option
 * Enabling:
-  * GCC: enabled by `-Wall` and `-Wextra` ([ref](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
-  * Clang: enabled by `-Wextra` ([ref](https://clang.llvm.org/docs/DiagnosticsReference.html))
-  * MSVC: enabled by `/W3` and `/W4` (warning `C4018`)
-* Cons: false positive for code `for (auto i = vs::Index{0}; i < sizeof(buf); i++)`
+  * GCC: `-Wsign-compare`, `-Wall`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
+  * Clang: `-Wsign-compare`, `-Wextra` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
+  * MSVC: `/W3`, `/W4` ([C4018](https://learn.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4018)) ([doc](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-option-warning-level))
+* Cons: false positive for code like `for (auto i = vs::Index{0}; i < sizeof(buf); i++)`
 * Solution:
-  * Disable `-Wsign-compare` compiler option
-  * Enable a similar option in the static checker 
+  * Disable compiler option:
+    * GCC/Clang: `-Wno-sign-compare`
+    * MSVC: `/wd4018`
+  * Enable a similar option in the static checker
   * Static checker setup: do not flag on a mixed signed/unsigned comparison where one of the arguments is `sizeof` or a call to container `.size()` and the other is `ptrdiff_t` ([ES.100](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es100-dont-mix-signed-and-unsigned-arithmetic))
+
+### `-Wtype-limits` compiler option
+* Enabling:
+  * GCC: `-Wtype-limits`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
+  * Clang: `-Wtype-limits` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
+  * MSVC: (`/W3` or `/W4`) + `/w34296` ([C4296](https://learn.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-4-c4296)) ([doc](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-option-warning-level))
 
 </details>
 
