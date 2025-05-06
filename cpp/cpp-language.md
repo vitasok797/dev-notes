@@ -173,6 +173,7 @@
 * [(LearnCpp) std::vector and the unsigned length and subscript problem](https://www.learncpp.com/cpp-tutorial/stdvector-and-the-unsigned-length-and-subscript-problem/)
 * [(LearnCpp) Arrays, loops, and sign challenge solutions](https://www.learncpp.com/cpp-tutorial/arrays-loops-and-sign-challenge-solutions/)
 * [Subscripts and sizes should be signed. Bjarne Stroustrup](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1428r0.pdf)
+* [My battle against signed/unsigned comparison: the most usual violations](https://www.sandordargo.com/blog/2023/10/18/signed-unsigned-comparison-the-most-usual-violations)
 * [(libtorrent.org) Unsigned integers](https://blog.libtorrent.org/2016/05/unsigned-integers/)
 * [-Wsign-compare is garbage](https://staticthinking.wordpress.com/2023/07/25/wsign-compare-is-garbage/)
 
