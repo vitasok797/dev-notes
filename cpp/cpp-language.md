@@ -241,6 +241,7 @@
 * [(Habr) Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
 * [(Habr) Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
 * [(Habr) Inline variables](https://habr.com/ru/companies/otus/articles/561772/)
+* [(Habr) Близкие контакты ADL-ной степени](https://habr.com/ru/companies/jugru/articles/447900/)
 * :warning: [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
 * [Calling C Code from C++ with ‘extern “C”‘](https://arne-mertz.de/2018/10/calling-cpp-code-from-c-with-extern-c/)
 * [std::string is not a Container for Raw Data](https://arne-mertz.de/2018/11/string-not-for-raw-data/)
