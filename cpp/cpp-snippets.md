@@ -48,7 +48,7 @@ private:
 | Inheritance | Polymorphic<br>usage | Type | Class options |
 |:---:|:---:|:---:|---|
 | No ||| • `final` class<br>• rule of five/zero |
-| :white_check_mark: | No | Abstract | ??? |
+| :white_check_mark: | No | Abstract | • destructor: `virtual ~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
 | :white_check_mark: | No | Concrete | • (optional) `final` class<br>• rule of five/zero |
 | :white_check_mark: | :white_check_mark: | Interface | • destructor: `virtual ~MyClass() = default;` |
 | :white_check_mark: | :white_check_mark: | Abstract | • destructor:<br>&nbsp;&nbsp;&nbsp;&nbsp;- base: `virtual ~MyClass() = 0;`<br>&nbsp;&nbsp;&nbsp;&nbsp;- derived: `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
