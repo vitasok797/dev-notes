@@ -1026,9 +1026,9 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
 ### Demos
-:arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/67qo5cnd7) [[util.h](src/util.h)] \
-:arrow_forward: [**Demo** (index)](https://godbolt.org/z/3fjhGdvGe) [[util.h](src/util.h)] \
-:arrow_forward: [**Demo** (accumulate)](https://godbolt.org/z/x5ehf4vME) [[util.h](src/util.h)]
+:arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/f3oEcdr14) [[util.h](src/util.h)] \
+:arrow_forward: [**Demo** (index)](https://godbolt.org/z/1xvqEcPzE) [[util.h](src/util.h)] \
+:arrow_forward: [**Demo** (accumulate)](https://godbolt.org/z/YW1TazaWT) [[util.h](src/util.h)]
 
 ### `-Wsign-compare` compiler option
 * Enabling:
