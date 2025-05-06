@@ -88,30 +88,6 @@ struct C final : B
 </details>
 
 <details>
-<summary>Class: interface</summary>
-
-```cpp
-class ITest
-{
-public:
-    virtual void test1() const = 0;
-    virtual void test2() const = 0;
-    virtual ~ITest() = default;
-};
-
-class Test : public ITest
-{
-public:
-    void test1() const override {...}
-    void test2() const override {...}
-};
-```
-
-:arrow_forward: [**Demo**](https://godbolt.org/z/E97aTccbc)
-
-</details>
-
-<details>
 <summary>Class: abstract</summary>
 
 ```cpp
@@ -140,6 +116,30 @@ public:
 ```
 
 :arrow_forward: [**Demo**](https://godbolt.org/z/se7n64j9P)
+
+</details>
+
+<details>
+<summary>Class: interface</summary>
+
+```cpp
+class ITest
+{
+public:
+    virtual void test1() const = 0;
+    virtual void test2() const = 0;
+    virtual ~ITest() = default;
+};
+
+class Test : public ITest
+{
+public:
+    void test1() const override {...}
+    void test2() const override {...}
+};
+```
+
+:arrow_forward: [**Demo**](https://godbolt.org/z/E97aTccbc)
 
 </details>
 
