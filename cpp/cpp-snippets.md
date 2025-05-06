@@ -87,9 +87,8 @@ struct C final : B
 </details>
 
 <details>
-<summary>Class: interface/abstract</summary>
+<summary>Class: interface</summary>
 
-### Interface
 ```cpp
 class ITest
 {
@@ -109,7 +108,11 @@ public:
 
 :arrow_forward: [**Demo**](https://godbolt.org/z/E97aTccbc)
 
-### Abstract base
+</details>
+
+<details>
+<summary>Class: abstract</summary>
+
 ```cpp
 class AbstractBase
 {
