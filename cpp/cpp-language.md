@@ -125,6 +125,7 @@
 ## ADL
 * [(Habr) Близкие контакты ADL-ной степени](https://habr.com/ru/companies/jugru/articles/447900/)
 * [(Wiki) Argument-dependent name lookup](https://en.wikipedia.org/wiki/Argument-dependent_name_lookup)
+* [(StackOverflow) Не могу понять что не нравится clang`у](https://ru.stackoverflow.com/questions/886168/%D0%9D%D0%B5-%D0%BC%D0%BE%D0%B3%D1%83-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%8C-%D1%87%D1%82%D0%BE-%D0%BD%D0%B5-%D0%BD%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%81%D1%8F-clang%D1%83)
 
 ## Templates
 * [constexpr if](https://www.modernescpp.com/index.php/constespr-if/)
