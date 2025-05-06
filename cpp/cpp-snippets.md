@@ -42,15 +42,15 @@ private:
 };
 ```
 
-| Inheritance | Class options |
-|:---:|---|
-| No | • `final` class<br>• rule of five/zero |
-| Non-polymorphic | • (optional) `final` class<br>• rule of five/zero |
-| Non-polymorphic<br>abstract | • destructor: `~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
-| Abstract | • destructor (base): `virtual ~MyClass() = 0;`<br>• destructor (derived): `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
-| Interface | • destructor: `virtual ~MyClass() = default;` |
-| Concrete<br>(base) | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
-| Concrete<br>(derived) | • (optional) `final` class<br>• (optional) destructor: `override`/`final`, user-defined<br>• rule of five/zero |
+| Inheritance | Polymorphic<br>usage | Type | Class options |
+|:---:|:---:|:---:|---|
+| No ||| • `final` class<br>• rule of five/zero |
+| :white_check_mark: | No | Common | • (optional) `final` class<br>• rule of five/zero |
+| :white_check_mark: | No | Abstract | • destructor: `~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
+| :white_check_mark: | :white_check_mark: | Abstract | • destructor (base): `virtual ~MyClass() = 0;`<br>• destructor (derived): `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
+| :white_check_mark: | :white_check_mark: | Interface | • destructor: `virtual ~MyClass() = default;` |
+| :white_check_mark: | :white_check_mark: | Concrete<br>(base) | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
+| :white_check_mark: | :white_check_mark: | Concrete<br>(derived) | • (optional) `final` class<br>• (optional) destructor: `override`/`final`, user-defined<br>• rule of five/zero |
 
 :warning: Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
 ```cpp
