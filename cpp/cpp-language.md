@@ -166,12 +166,14 @@
 * [C++ List of ScopeGuard](https://blog.rnstlr.ch/c-list-of-scopeguard.html)
 
 ### Types / Signed vs unsigned
+* std:
+  * [std::ssize](https://en.cppreference.com/w/cpp/iterator/size)
+  * [std::cmp_*](https://en.cppreference.com/w/cpp/utility/intcmp)
 * [(LearnCpp) Unsigned integers, and why to avoid them](https://www.learncpp.com/cpp-tutorial/unsigned-integers-and-why-to-avoid-them/)
 * [(LearnCpp) std::vector and the unsigned length and subscript problem](https://www.learncpp.com/cpp-tutorial/stdvector-and-the-unsigned-length-and-subscript-problem/)
 * [(LearnCpp) Arrays, loops, and sign challenge solutions](https://www.learncpp.com/cpp-tutorial/arrays-loops-and-sign-challenge-solutions/)
 * [Subscripts and sizes should be signed. Bjarne Stroustrup](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1428r0.pdf)
 * [(libtorrent.org) Unsigned integers](https://blog.libtorrent.org/2016/05/unsigned-integers/)
-* [std::ssize](https://en.cppreference.com/w/cpp/iterator/size)
 * [-Wsign-compare is garbage](https://staticthinking.wordpress.com/2023/07/25/wsign-compare-is-garbage/)
 
 ### Types / Type Erasure
