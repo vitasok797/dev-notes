@@ -5,6 +5,7 @@
 <details>
 <summary>Class: structure</summary>
 
+### Structure
 ```cpp
 class MyClass [final]
 {
@@ -42,6 +43,8 @@ private:
 };
 ```
 
+### Options
+
 | Inheritance | Polymorphic<br>usage | Type | Class options |
 |:---:|:---:|:---:|---|
 | No ||| • `final` class<br>• rule of five/zero |
@@ -53,17 +56,15 @@ private:
 | :white_check_mark: | :white_check_mark: | Concrete<br>(base) | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
 | :white_check_mark: | :white_check_mark: | Concrete<br>(derived) | • (optional) `final` class<br>• rule of five/zero (mark destructor as `override`/`final`) |
 
+### Tips
+
 :warning: Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
 ```cpp
 MyClass(MyClass&& other) noexcept {...}
 MyClass& operator=(MyClass&& other) noexcept {...}
 ```
 
-</details>
-
-<details>
-<summary>Class: virtual/override/final</summary>
-
+### Specifiers: virtual/override/final
 ```cpp
 struct A
 {
