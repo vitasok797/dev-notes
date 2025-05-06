@@ -854,10 +854,10 @@ auto x = "hello"sv;
 
 Loop counter:
 ```cpp
-for(auto i = size_t{0}; i < v.size(); ++i)
-for(auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
+for (auto i = size_t{0}; i < v.size(); ++i)
+for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 
-for(auto i = vs::signed_size(v) - 1; i >= 0; --i)
+for (auto i = vs::signed_size(v) - 1; i >= 0; --i)
 ```
 
 Singned/unsignned cast with helpers:
@@ -1019,15 +1019,23 @@ int main()
 
 ### Loop counter
 ```cpp
-for(auto i = size_t{0}; i < v.size(); ++i)
-for(auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
+for (auto i = size_t{0}; i < v.size(); ++i)
+for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 
-for(auto i = vs::signed_size(v) - 1; i >= 0; --i)
+for (auto i = vs::signed_size(v) - 1; i >= 0; --i)
 ```
 
+### Demos
 :arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/67qo5cnd7) [[util.h](src/util.h)] \
 :arrow_forward: [**Demo** (index)](https://godbolt.org/z/3fjhGdvGe) [[util.h](src/util.h)] \
 :arrow_forward: [**Demo** (accumulate)](https://godbolt.org/z/x5ehf4vME) [[util.h](src/util.h)]
+
+### `Wsign-compare` compiler option
+* Cons: false positive for code `for (auto i = vs::Index{0}; i < sizeof(buf); i++)`
+* Solution:
+  * Disable `Wsign-compare` compiler option
+  * Enable a similar option in the static checker 
+  * Static checker setup: do not flag on a mixed signed/unsigned comparison where one of the arguments is `sizeof` or a call to container `.size()` and the other is `ptrdiff_t` ([ES.100](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es100-dont-mix-signed-and-unsigned-arithmetic))
 
 </details>
 
