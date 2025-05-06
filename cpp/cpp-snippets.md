@@ -857,7 +857,7 @@ Loop counter:
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 
-for (auto i = vs::signed_size(v) - 1; i >= 0; --i)
+for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
 Singned/unsignned cast with helpers:
@@ -1022,7 +1022,7 @@ int main()
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 
-for (auto i = vs::signed_size(v) - 1; i >= 0; --i)
+for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
 ### Demos
