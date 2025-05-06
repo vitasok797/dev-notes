@@ -47,10 +47,11 @@ private:
 | No ||| • `final` class<br>• rule of five/zero |
 | :white_check_mark: | No | Common | • (optional) `final` class<br>• rule of five/zero |
 | :white_check_mark: | No | Abstract | • destructor: `~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
-| :white_check_mark: | :white_check_mark: | Abstract | • destructor (base): `virtual ~MyClass() = 0;`<br>• destructor (derived): `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
 | :white_check_mark: | :white_check_mark: | Interface | • destructor: `virtual ~MyClass() = default;` |
+| :white_check_mark: | :white_check_mark: | Abstract<br>(base) | • destructor: `virtual ~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
+| :white_check_mark: | :white_check_mark: | Abstract<br>(derived) | • destructor: `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
 | :white_check_mark: | :white_check_mark: | Concrete<br>(base) | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
-| :white_check_mark: | :white_check_mark: | Concrete<br>(derived) | • (optional) `final` class<br>• (optional) destructor: `override`/`final`, user-defined<br>• rule of five/zero |
+| :white_check_mark: | :white_check_mark: | Concrete<br>(derived) | • (optional) `final` class<br>• rule of five/zero (mark destructor as `override`/`final`) |
 
 :warning: Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
 ```cpp
