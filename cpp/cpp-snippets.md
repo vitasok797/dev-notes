@@ -1924,7 +1924,7 @@ int main()
 
 Libs: [strong_type](https://github.com/rollbear/strong_type)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/Y9ocj6c8c)
+:arrow_forward: [**Run**](https://godbolt.org/z/r76PGoxxd)
 
 ```cpp
 #include <iostream>
@@ -1937,8 +1937,8 @@ using LastName = strong::type<std::string, struct LastName_tag>;
 
 void func(const FirstName& first_name, const LastName& last_name)
 {
-    std::cout << "FirstName: " << first_name.value_of() << std::endl;
-    std::cout << "LastName: " << last_name.value_of() << std::endl;
+    std::cout << "FirstName: " << value_of(first_name) << std::endl;
+    std::cout << "LastName: " << value_of(last_name) << std::endl;
 }
 
 int main()
