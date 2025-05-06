@@ -53,7 +53,6 @@
 * [(StackOverflow) What is the copy-and-swap idiom?](https://stackoverflow.com/questions/3279543/what-is-the-copy-and-swap-idiom/3279550#3279550)
 * [(StackOverflow) How is std::swap implemented?](https://stackoverflow.com/questions/25286544/how-does-the-standard-library-implement-stdswap/25286610#25286610)
 * [(StackOverflow) Questions about the move assignment operator](https://stackoverflow.com/questions/9847860/questions-about-the-move-assignment-operator)
-* [(StackOverflow) What's the scope of inline friend functions?](https://stackoverflow.com/questions/8207633/whats-the-scope-of-inline-friend-functions)
 * [(Habr) explicit в деталях](https://habr.com/ru/articles/436296/)
 
 ## Containers
@@ -125,6 +124,7 @@
 ## ADL
 * [(Habr) Близкие контакты ADL-ной степени](https://habr.com/ru/companies/jugru/articles/447900/)
 * [(Wiki) Argument-dependent name lookup](https://en.wikipedia.org/wiki/Argument-dependent_name_lookup)
+* [(StackOverflow) What's the scope of inline friend functions?](https://stackoverflow.com/questions/8207633/whats-the-scope-of-inline-friend-functions)
 * [(StackOverflow) Не могу понять что не нравится clang`у](https://ru.stackoverflow.com/questions/886168/%D0%9D%D0%B5-%D0%BC%D0%BE%D0%B3%D1%83-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%8C-%D1%87%D1%82%D0%BE-%D0%BD%D0%B5-%D0%BD%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%81%D1%8F-clang%D1%83)
 
 ## Templates
