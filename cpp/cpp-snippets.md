@@ -3,7 +3,7 @@
 ## Class
 
 <details>
-<summary>Class: structure</summary>
+<summary>Class: guide</summary>
 
 ### Structure
 ```cpp
