@@ -888,6 +888,17 @@ auto i = {3};  // C++11: std::initializer_list<int>
 </details>
 
 <details>
+<summary>auto (trailing return type)</summary>
+
+```cpp
+void func(int a, int b) {}
+auto func(int a, int b) -> int {}
+auto func(int a, int b) -> decltype(a + b) {}
+```
+
+</details>
+
+<details>
 <summary>Statement with initializer: if</summary>
 
 [(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
@@ -909,17 +920,6 @@ switch (auto ch = getnext(); ch)
 
 ```cpp
 if (auto [it_elem, success] = mymap.insert(std::pair('a', 100)); success) {...}
-```
-
-</details>
-
-<details>
-<summary>auto (trailing return type)</summary>
-
-```cpp
-void func(int a, int b) {}
-auto func(int a, int b) -> int {}
-auto func(int a, int b) -> decltype(a + b) {}
 ```
 
 </details>
