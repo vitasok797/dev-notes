@@ -914,6 +914,17 @@ if (auto [it_elem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 </details>
 
 <details>
+<summary>auto (trailing return type)</summary>
+
+```cpp
+void func(int a, int b) {}
+auto func(int a, int b) -> int {}
+auto func(int a, int b) -> decltype(a + b) {}
+```
+
+</details>
+
+<details>
 <summary>Statement with initializer: range-based for (C++20)</summary>
 
 ```cpp
