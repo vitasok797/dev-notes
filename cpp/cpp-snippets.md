@@ -891,9 +891,9 @@ auto i = {3};  // C++11: std::initializer_list<int>
 <summary>auto (trailing return type)</summary>
 
 ```cpp
-void func(int a, int b) {}
-auto func(int a, int b) -> int {}
-auto func(int a, int b) -> decltype(a + b) {}
+auto func(...) -> void {...}
+auto func(...) -> int {...}
+auto func(...) -> int [const] [override/final] {...}
 ```
 
 </details>
