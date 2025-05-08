@@ -897,7 +897,7 @@ auto func(...) [noexcept] -> int {...}
 ```
 
 ```cpp
-auto member_func(...) [noexcept] -> int [const] [override/final] {...}
+auto member_func(...) [const] [&/&&] [noexcept] -> int [override/final] {...}
 ```
 
 </details>
