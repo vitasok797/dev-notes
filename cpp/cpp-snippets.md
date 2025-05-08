@@ -860,13 +860,13 @@ for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
-Singned/unsignned cast with helpers:
+Signed/unsigned cast with helpers:
 ```cpp
 auto x = vs::as_signed(integer_expr);
 auto x = vs::as_unsigned(integer_expr);
 ```
 
-Init by function return value:
+Initialization by function return value:
 ```cpp
 Gadget get_gadget();
 
@@ -875,7 +875,7 @@ auto w = get_gadget();  // GOOD: no implicit conversion
 auto w = Widget{ get_gadget() };  // GOOD: implicit conversion with intent
 ```
 
-std::initializer_list issue:
+`std::initializer_list` issue:
 ```cpp
 auto i = 3;    // int
 auto i(3);     // int
@@ -974,7 +974,7 @@ auto&& [a, b, c] =
 auto [_, b, c] =
 ```
 
-Unpack tuple:
+Unpacking a tuple:
 ```cpp
 #include <tuple>
 
@@ -983,7 +983,7 @@ auto tuple = std::tuple{1, 'a', 2.3};
 auto [a, b, c] = tuple;
 ```
 
-Unpack struct:
+Unpacking a struct:
 ```cpp
 struct Foo
 {
@@ -997,7 +997,7 @@ auto f = Foo{1, 'a', 2.3};
 auto [i, c, d] = f;
 ```
 
-Unpack map:
+Unpacking a map:
 ```cpp
 #include <map>
 
@@ -1060,8 +1060,8 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
   * Disable compiler option:
     * GCC/Clang: `-Wno-sign-compare`
     * MSVC: `/wd4018`
-  * Enable a similar option in the static checker
-  * Static checker setup: do not flag on a mixed signed/unsigned comparison where one of the arguments is `sizeof` or a call to container `.size()` and the other is `ptrdiff_t` ([ES.100](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es100-dont-mix-signed-and-unsigned-arithmetic))
+  * Enable a similar option in the static analyzer
+  * Static analyzer configuration: do not flag on a mixed signed/unsigned comparison where one of the arguments is `sizeof` or a call to container `.size()` and the other is `ptrdiff_t` ([ES.100](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es100-dont-mix-signed-and-unsigned-arithmetic))
 
 ### `-Wtype-limits` compiler option
 * Enabling:
@@ -2015,7 +2015,7 @@ Shape MakeShape()
 
 ### Function pointer
 ```cpp
-// identical to: typedef void (*func)(int, int);
+// Equivalent to: typedef void (*func)(int, int);
 using func = void (*) (int, int);
 ```
 
