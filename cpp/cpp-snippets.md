@@ -823,6 +823,10 @@ Syntax:
 [const] auto[&] x = type{expr};
 ```
 
+```cpp
+decltype(auto) x = expr;  // preserves cv/ref
+```
+
 Examples:
 ```cpp
 auto i = int64_t{123};
