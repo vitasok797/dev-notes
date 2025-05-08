@@ -891,16 +891,18 @@ auto i = {3};  // C++11: std::initializer_list<int>
 <summary>auto (trailing return type)</summary>
 
 ```cpp
-void func(...) {...}
-auto func(...) -> void {...}
+void func()         {}
+auto func() -> void {}
 ```
 
 ```cpp
-auto func(...) [noexcept] -> int {...}
+int  func() [noexcept]        {}
+auto func() [noexcept] -> int {}
 ```
 
 ```cpp
-auto member_func(...) [const] [&/&&] [noexcept] -> int [override/final] {...}
+int  member_func() [const] [&/&&] [noexcept]        [override/final] {}
+auto member_func() [const] [&/&&] [noexcept] -> int [override/final] {}
 ```
 
 </details>
