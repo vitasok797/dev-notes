@@ -901,8 +901,8 @@ auto func() [noexcept] -> int
 ```
 
 ```cpp
-int  member_func() [const] [&/&&] [noexcept]        [override/final]
-auto member_func() [const] [&/&&] [noexcept] -> int [override/final]
+[virtual] int  member_func() [const] [&/&&] [noexcept]        [override/final]
+[virtual] auto member_func() [const] [&/&&] [noexcept] -> int [override/final]
 ```
 
 </details>
