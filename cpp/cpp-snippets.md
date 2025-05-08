@@ -905,6 +905,11 @@ auto func() [noexcept] -> int
 [virtual] auto member_func() [const] [&/&&] [noexcept] -> int [override/final]
 ```
 
+```cpp
+Person::PersonType Person::get_person_type()
+              auto Person::get_person_type() -> PersonType
+```
+
 </details>
 
 <details>
