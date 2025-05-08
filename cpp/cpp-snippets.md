@@ -893,7 +893,11 @@ auto i = {3};  // C++11: std::initializer_list<int>
 ```cpp
 auto func(...) -> void {...}
 auto func(...) -> int {...}
-auto func(...) [noexcept] -> int [const] [override/final] {...}
+auto func(...) [noexcept] -> int {...}
+```
+
+```cpp
+auto member_func(...) [noexcept] -> int [const] [override/final] {...}
 ```
 
 </details>
