@@ -907,7 +907,14 @@ auto func() [noexcept] -> int
 
 ```cpp
 Person::PersonType Person::get_person_type()
-              auto Person::get_person_type() -> PersonType
+auto               Person::get_person_type() -> PersonType
+```
+
+```cpp
+// return type deduction
+
+[const] auto[*/&/&&] func()
+        auto         func() -> [const] auto[*/&/&&]
 ```
 
 </details>
