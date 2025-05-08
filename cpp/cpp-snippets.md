@@ -923,6 +923,11 @@ auto               Person::get_person_type() -> PersonType
         auto         func() -> [const] auto[&/&&/*]
 ```
 
+```cpp
+decltype(auto) func()
+auto           func() -> decltype(auto)
+```
+
 </details>
 
 <details>
