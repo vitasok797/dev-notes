@@ -21,9 +21,9 @@ public:
 
     // Rule of five/zero
     MyClass(const MyClass&) = default;
-    MyClass(MyClass&&) = default;
     MyClass& operator=(const MyClass&) = default;
-    MyClass& operator=(MyClass&&) = default;
+    MyClass(MyClass&&) noexcept = default;
+    MyClass& operator=(MyClass&&) noexcept = default;
     [virtual] ~MyClass() = default;
 
     // Functions
