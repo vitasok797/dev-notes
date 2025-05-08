@@ -913,8 +913,8 @@ auto               Person::get_person_type() -> PersonType
 ```cpp
 // return type deduction
 
-[const] auto[*/&/&&] func()
-        auto         func() -> [const] auto[*/&/&&]
+[const] auto[\*/&/&&] func()
+        auto         func() -> [const] auto[\*/&/&&]
 ```
 
 </details>
