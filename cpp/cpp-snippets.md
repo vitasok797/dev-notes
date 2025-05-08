@@ -59,8 +59,8 @@ private:
 
 :warning: Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
 ```cpp
-MyClass(MyClass&& other) noexcept {...}
-MyClass& operator=(MyClass&& other) noexcept {...}
+MyClass(MyClass&& other) [const] noexcept {...}
+MyClass& operator=(MyClass&& other) [const] noexcept {...}
 ```
 
 ### Specifiers: virtual/override/final
