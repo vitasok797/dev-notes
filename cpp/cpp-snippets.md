@@ -890,6 +890,8 @@ auto i = {3};  // C++11: std::initializer_list<int>
 <details>
 <summary>auto (trailing return type)</summary>
 
+### Trailing return type
+
 ```cpp
 void func()
 auto func() -> void
@@ -910,11 +912,11 @@ Person::PersonType Person::get_person_type()
 auto               Person::get_person_type() -> PersonType
 ```
 
-```cpp
-// return type deduction
+### Trailing return type (with type deduction)
 
-[const] auto[\*/&/&&] func()
-        auto         func() -> [const] auto[\*/&/&&]
+```cpp
+[const] auto[&/&&/*] func()
+        auto         func() -> [const] auto[&/&&/*]
 ```
 
 </details>
