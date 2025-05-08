@@ -647,11 +647,11 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <details>
 <summary>Pass by value</summary>
 
-* _Cheaply-copied types (2\*sizeof(void\*))_
-* _Impossible to copy types_
+* **Cheap-to-copy types (≤ 2×sizeof(void\*))**
+* **Non-copyable types**
 * Iterators
-* Functors, lambdas, std::function
-* Views (std::string_view, std::span)
+* Callable objects (functors, lambdas, std::function)
+* View types (std::string_view, std::span)
 * std::shared_ptr (sharing ownership)
 * std::unique_ptr (taking ownership)
 
@@ -830,7 +830,7 @@ auto v = std::vector<int>{};
 auto get_size = [](const auto& x) { return x.size(); };
 ```
 
-Heap allocation:
+Dynamic memory allocation:
 ```cpp
 auto w = new Widget{};
 auto w = std::make_unique<Widget>();
@@ -1214,7 +1214,7 @@ condition ? true_expression : false_expression
 <details>
 <summary>std::optional</summary>
 
-### Create
+### Creating
 ```cpp
 // inplace
 auto opt = std::make_optional<Type>(1, 2);
@@ -1227,7 +1227,7 @@ auto opt = std::optional<Type>{Type{1, 2}};
 auto opt = std::optional<Type>{type_inst};
 ```
 
-### Return
+### Returning
 ```cpp
 std::optional<Type> return_opt()
 {
@@ -1246,7 +1246,7 @@ std::optional<Type> return_opt()
 }
 ```
 
-### Argument
+### Passing as argument
 ```cpp
 void func(const std::optional<std::string>& arg)
 {
@@ -1275,7 +1275,7 @@ const auto s = std::string{"world"};
 func_nocopy(s);
 ```
 
-### Get value
+### Getting value
 ```cpp
 // opt.value() or *opt
 const auto& value = opt.value();             // const ref
@@ -1329,7 +1329,7 @@ auto& value = *opt;
 <details>
 <summary>std::tuple</summary>
 
-### Create
+### Creating
 ```cpp
 // inplace (single-arg ctor only)
 auto t = std::tuple<int, Watcher>{0, 1};
@@ -1339,7 +1339,7 @@ auto t = std::tuple<int, Watcher>{0, std::move(w)};
 auto t = std::tuple<int, Watcher>{0, Watcher{1, 2}};
 ```
 
-### Return
+### Returning
 ```cpp
 // inplace (single-arg + non-explicit ctor only)
 std::tuple<int, Watcher> return_tuple() { return {0, 1}; }
