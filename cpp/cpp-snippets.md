@@ -897,11 +897,6 @@ auto i = {3};  // C++11: std::initializer_list<int>
 ### Trailing return type
 
 ```cpp
-void func()
-auto func() -> void
-```
-
-```cpp
 int  func() [noexcept]
 auto func() [noexcept] -> int
 ```
