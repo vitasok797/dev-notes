@@ -7,3 +7,4 @@
 ## Var
 * [Semantic Versioning 2.0.0](https://semver.org)
 * [Conventional Commits](https://www.conventionalcommits.org/)
+* [(Simplify C++) Code Reviews (Part 1-5)](https://arne-mertz.de/2017/12/code-reviews-why/)
