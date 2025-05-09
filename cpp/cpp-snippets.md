@@ -1069,7 +1069,7 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
 ### Demos
-:arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/Kn3dTTE1M) [[util.h](src/util.h)] \
+:arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/cjzzEqaMY) [[util.h](src/util.h)] \
 :arrow_forward: [**Demo** (index)](https://godbolt.org/z/4Pq5oqz8G) [[util.h](src/util.h)] \
 :arrow_forward: [**Demo** (accumulate)](https://godbolt.org/z/1Kjjraf81) [[util.h](src/util.h)]
 
