@@ -819,8 +819,8 @@ int main()
 
 Syntax:
 ```cpp
-[const] auto[&] x = expr;
-[const] auto[&] x = type{expr};
+[const] auto[&/&&/*] x = expr;
+[const] auto[&/&&/*] x = type{expr};
 ```
 
 ```cpp
