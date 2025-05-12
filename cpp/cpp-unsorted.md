@@ -1,8 +1,8 @@
 # C++ / Unsorted
 
 ## Convert
-* https://www.boost.org/doc/libs/release/libs/numeric/conversion/doc/html/index.html
-* https://www.boost.org/doc/libs/release/libs/convert/doc/html/index.html
+* https://www.boost.org/doc/libs/latest/libs/numeric/conversion/doc/html/index.html
+* https://www.boost.org/doc/libs/latest/libs/convert/doc/html/index.html
 
 ## Ranges
 * https://www.walletfox.com/course/quickref_range_v3.php
@@ -16,14 +16,14 @@
 * https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md
 
 ## Error Handling
-* https://www.boost.org/doc/libs/release/libs/outcome/doc/html/index.html
-* https://www.boost.org/doc/libs/release/libs/outcome/doc/html/alternatives.html
-* https://boostorg.github.io/leaf/
-* https://www.boost.org/doc/libs/release/libs/optional/doc/html/index.html
+* https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/index.html
+* https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/alternatives.html
+* https://www.boost.org/doc/libs/latest/libs/leaf/doc/html/index.html
+* https://www.boost.org/doc/libs/latest/libs/optional/doc/html/index.html
 * https://github.com/pdimov/expected/blob/master/doc/expected.md
 * https://habr.com/ru/articles/430690/
-* https://www.boost.org/doc/libs/release/libs/system/doc/html/system.html
-* https://www.boost.org/doc/libs/release/libs/variant2/doc/html/variant2.html
+* https://www.boost.org/doc/libs/latest/libs/system/doc/html/system.html
+* https://www.boost.org/doc/libs/latest/libs/variant2/doc/html/variant2.html
 * https://stackoverflow.com/questions/10176471/is-it-possible-to-convert-a-boostsystemerror-code-to-a-stderror-code
 * https://gist.github.com/Vaiz/057cface48d5bb9f399c23d4235d23aa
 * https://github.com/ned14/Boost.Expected
