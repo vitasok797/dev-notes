@@ -197,7 +197,7 @@
 * <https://github.com/max0x7ba/atomic_queue> ([vcpkg](https://vcpkg.io/en/package/atomic-queue))
 
 ### Multithreading / Concurrent
-* [TBB](https://github.com/uxlfoundation/oneTBB)
+* [TBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
 * <https://github.com/David-Haim/concurrencpp>
 
 ## Logging
