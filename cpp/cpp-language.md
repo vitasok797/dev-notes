@@ -247,6 +247,7 @@
 * Cpp2:
   * <https://github.com/hsutter/cppfront>
   * [doc](https://hsutter.github.io/cppfront/)
+  * [(Youtube) Can C++ be 10x Simpler & Safer? - Herb Sutter - CppCon 2022](https://www.youtube.com/watch?v=ELeZAKCN4tY)
 
 ## C++ vs C
 * [Why should I have written ZeroMQ in C, not C++ (part I)](https://250bpm.com/blog:4/)
