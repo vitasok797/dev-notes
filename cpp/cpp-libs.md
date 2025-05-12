@@ -76,15 +76,15 @@
 ## Formats
 
 ### Formats / XML
-* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
+* [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * POCO ([slides](https://pocoproject.org/slides/170-XML.pdf))
 * <https://github.com/zeux/pugixml>
 * <https://github.com/leethomason/tinyxml2>
 * [(StackOverflow) Choose XML library](https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c/9387612#9387612)
 
 ### Formats / JSON
-* [Boost.PropertyTree](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
-* [Boost.JSON](https://www.boost.org/doc/libs/release/libs/json/doc/html/index.html)
+* [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
+* [Boost.JSON](https://www.boost.org/doc/libs/latest/libs/json/doc/html/index.html)
 * POCO [JSON/Object.h](https://docs.pocoproject.org/current/Poco.JSON.Object.html)
 * <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
 * <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
@@ -133,9 +133,9 @@
 ## Types
 
 ### Types / Container
-* [Boost.Container](https://www.boost.org/doc/libs/release/doc/html/container.html)
-* [Boost.Circular\_Buffer](https://www.boost.org/doc/libs/release/doc/html/circular_buffer.html)
-* [Boost.MultiArray](https://www.boost.org/doc/libs/release/libs/multi_array/doc/index.html)
+* [Boost.Container](https://www.boost.org/doc/libs/latest/doc/html/container.html)
+* [Boost.Circular\_Buffer](https://www.boost.org/doc/libs/latest/doc/html/circular_buffer.html)
+* [Boost.MultiArray](https://www.boost.org/doc/libs/latest/libs/multi_array/doc/index.html)
 * <https://github.com/kokkos/mdspan>
 
 ### Types / Enum
@@ -144,11 +144,11 @@
 
 ### Types / Reflection
 * <https://github.com/Neargye/nameof>
-* [Boost.Describe](https://www.boost.org/doc/libs/release/libs/describe/doc/html/describe.html)
-* Boost.Core: [type\_name](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/release/libs/core/doc/html/core/is_same.html)
+* [Boost.Describe](https://www.boost.org/doc/libs/latest/libs/describe/doc/html/describe.html)
+* Boost.Core: [type\_name](https://www.boost.org/doc/libs/latest/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/latest/libs/core/doc/html/core/is_same.html)
 
 ### Types / Scope guard
-* [Boost.Scope](https://www.boost.org/doc/libs/release/libs/scope/doc/html/index.html)
+* [Boost.Scope](https://www.boost.org/doc/libs/latest/libs/scope/doc/html/index.html)
 * [GSL \<util\> final_action](https://github.com/microsoft/GSL/blob/main/include/gsl/util)
 * <https://github.com/ricab/scope_guard> ([vcpkg](https://vcpkg.io/en/package/scope-guard))
 * <https://github.com/Neargye/scope_guard> (no vcpkg, header-only)
@@ -162,23 +162,23 @@
 * <https://github.com/kelbon/AnyAny> (no vcpkg, header-only)
 
 ### Types / Units
+* [Boost.Units](https://www.boost.org/doc/libs/latest/doc/html/boost_units.html)
 * POCO [Units](https://github.com/pocoproject/poco/blob/main/Util/include/Poco/Util/Units.h)
 * <https://github.com/LLNL/units> ([vcpkg](https://vcpkg.io/en/package/llnl-units))
 * <https://github.com/mpusz/mp-units> ([vcpkg](https://vcpkg.io/en/package/mp-units))
 * <https://github.com/nholthaus/units> ([vcpkg](https://vcpkg.io/en/package/units))
 * <https://github.com/bernedom/SI> ([vcpkg](https://vcpkg.io/en/package/si))
-* <https://www.boost.org/libs/units>
 
 ## System
 
 ### System / Process
-* [Boost.Process](https://www.boost.org/doc/libs/release/doc/html/process.html)
-* [Boost.Interprocess](https://www.boost.org/doc/libs/release/doc/html/interprocess.html)
+* [Boost.Process](https://www.boost.org/doc/libs/latest/doc/html/process.html)
+* [Boost.Interprocess](https://www.boost.org/doc/libs/latest/doc/html/interprocess.html)
 * POCO ([slides](https://pocoproject.org/slides/150-Processes.pdf))
 
 ### System / File System
 * [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem)
-* [Boost.Filesystem](https://www.boost.org/doc/libs/release/libs/filesystem/doc/index.htm)
+* [Boost.Filesystem](https://www.boost.org/doc/libs/latest/libs/filesystem/doc/index.htm)
 * POCO ([slides](https://pocoproject.org/slides/080-Files.pdf))
 * <https://github.com/p-ranav/glob> ([vcpkg](https://vcpkg.io/en/package/p-ranav-glob))
 
@@ -186,7 +186,7 @@
 
 ### Multithreading / Threads
 * [\<thread\>](https://en.cppreference.com/w/cpp/thread)
-* [Boost.Thread](https://www.boost.org/doc/libs/release/doc/html/thread.html)
+* [Boost.Thread](https://www.boost.org/doc/libs/latest/doc/html/thread.html)
 * POCO ([slides](https://pocoproject.org/slides/130-Threads.pdf))
 
 ### Multithreading / Concurrent queues
@@ -201,7 +201,7 @@
 * <https://github.com/David-Haim/concurrencpp>
 
 ## Logging
-* [Boost.Log v2](https://www.boost.org/doc/libs/release/libs/log/doc/html/index.html)
+* [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
 * POCO ([slides](https://pocoproject.org/slides/110-Logging.pdf))
 * [Abseil Logging](https://abseil.io/docs/cpp/guides/logging)
 * <https://github.com/google/glog>
@@ -218,7 +218,7 @@
 * <https://www.wxwidgets.org/>
 
 ## UUID
-* [Boost.Uuid](https://www.boost.org/doc/libs/release/libs/uuid/doc/html/uuid.html)
+* [Boost.Uuid](https://www.boost.org/doc/libs/latest/libs/uuid/doc/html/uuid.html)
 * POCO ([slides](https://pocoproject.org/slides/160-URIandUUID.pdf))
 * <https://github.com/mariusbancila/stduuid>
 
@@ -228,7 +228,7 @@
 * <https://github.com/magiblot/tvision>
 
 ## Signals, Events
-* [Boost.Signals2](https://www.boost.org/doc/libs/release/doc/html/signals2.html)
+* [Boost.Signals2](https://www.boost.org/doc/libs/latest/doc/html/signals2.html)
 * POCO ([slides](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
 * <https://github.com/libsigcplusplus/libsigcplusplus> ([vcpkg](https://vcpkg.io/en/package/libsigcpp))
 * <https://github.com/palacaze/sigslot> ([vcpkg](https://vcpkg.io/en/package/palsigslot))
@@ -258,9 +258,9 @@
 
 ## Math
 * [Numerics library](https://en.cppreference.com/w/cpp/numeric)
-* [Boost.Math](https://www.boost.org/doc/libs/release/libs/math/doc/html/index.html)
-* [Boost.Icl (Interval Container Library)](https://www.boost.org/doc/libs/release/libs/icl/doc/html/index.html)
-* [Boost.Interval](https://www.boost.org/doc/libs/release/libs/numeric/interval/doc/interval.htm)
+* [Boost.Math](https://www.boost.org/doc/libs/latest/libs/math/doc/html/index.html)
+* [Boost.Icl (Interval Container Library)](https://www.boost.org/doc/libs/latest/libs/icl/doc/html/index.html)
+* [Boost.Interval](https://www.boost.org/doc/libs/latest/libs/numeric/interval/doc/interval.htm)
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
 
 ## DB
@@ -269,14 +269,14 @@
 * <https://github.com/SRombauts/SQLiteCpp>
 
 ## Shared Libraries
-* [Boost.DLL](https://www.boost.org/doc/libs/release/doc/html/boost_dll.html)
+* [Boost.DLL](https://www.boost.org/doc/libs/latest/doc/html/boost_dll.html)
 * POCO ([slides](https://pocoproject.org/slides/120-SharedLibraries.pdf))
 
 ## Error handling
-* [Boost.Optional](https://www.boost.org/doc/libs/release/libs/optional/doc/html/index.html)
-* [Boost.Outcome](https://www.boost.org/doc/libs/release/libs/outcome/doc/html/index.html) ([standalone](https://github.com/ned14/outcome))
-* [Boost.LEAF](https://www.boost.org/doc/libs/release/libs/leaf/doc/html/index.html)
-* [Boost.System](https://www.boost.org/doc/libs/release/libs/system/doc/html/system.html)
+* [Boost.Optional](https://www.boost.org/doc/libs/latest/libs/optional/doc/html/index.html)
+* [Boost.Outcome](https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/index.html) ([standalone](https://github.com/ned14/outcome))
+* [Boost.LEAF](https://www.boost.org/doc/libs/latest/libs/leaf/doc/html/index.html)
+* [Boost.System](https://www.boost.org/doc/libs/latest/libs/system/doc/html/system.html)
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
 * <https://github.com/TartanLlama/expected> ([vcpkg](https://vcpkg.io/en/package/tl-expected))
 * <https://github.com/martinmoene/expected-lite>
