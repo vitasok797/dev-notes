@@ -215,6 +215,7 @@
 
 ### Multithreading / Async
 * [(Habr) Корутины в C++20: архитектура и практическое применение](https://habr.com/ru/articles/908386/)
+* [(Habr) Недостатки корутин в C++](https://habr.com/ru/companies/ruvds/articles/755246/)
 
 ## Error handling
 * [Boost.Outcome: Review of Error Handling Frameworks](https://www.boost.org/doc/libs/release/libs/outcome/doc/html/alternatives.html)
