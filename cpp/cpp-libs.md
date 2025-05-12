@@ -6,7 +6,7 @@
 * [A list of open-source C++ libraries](https://en.cppreference.com/w/cpp/links/libs)
 
 ## Frameworks
-* [Boost](https://www.boost.org/doc/libs/)
+* [Boost](https://www.boost.org/libraries/latest/categorized/)
 * [POCO](https://pocoproject.org/) ([doc](https://docs.pocoproject.org/current/index.html))
 * [Abseil](https://abseil.io/)
 * [Folly](https://github.com/facebook/folly)
@@ -16,8 +16,8 @@
 
 ### Text / Strings
 * :warning: `Boost Locale?`
-* [Boost String Algorithms Library](https://www.boost.org/doc/libs/release/doc/html/string_algo.html)
-* [Boost.Tokenizer](https://www.boost.org/doc/libs/release/libs/tokenizer/doc/index.html)
+* [Boost String Algorithms Library](https://www.boost.org/doc/libs/latest/doc/html/string_algo.html)
+* [Boost.Tokenizer](https://www.boost.org/doc/libs/latest/libs/tokenizer/doc/index.html)
 * POCO [String](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/String.h) [UTF8String](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/UTF8String.h) ([slides](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * [Abseil Strings](https://abseil.io/docs/cpp/guides/strings)
 
@@ -27,7 +27,7 @@
 * :warning: [ICU](https://icu.unicode.org/)
 * :warning: [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
 * :warning: [utfcpp](https://github.com/nemtrif/utfcpp)
-* :warning: [Boost.Nowide](https://www.boost.org/doc/libs/release/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
+* :warning: [Boost.Nowide](https://www.boost.org/doc/libs/latest/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
 * :warning: [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
 * :warning: [simdutf](https://github.com/simdutf/simdutf)
 * :warning: [uni-algo](https://github.com/uni-algo/uni-algo)
@@ -46,7 +46,7 @@
 * <https://github.com/zemasoft/wildcards>
 
 ### Text / I18n
-* [Boost.Locale](https://www.boost.org/doc/libs/release/libs/locale/doc/html/index.html)
+* [Boost.Locale](https://www.boost.org/doc/libs/latest/libs/locale/doc/html/index.html)
 
 ## Configuration
 
