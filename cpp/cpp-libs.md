@@ -196,6 +196,7 @@
 * <https://github.com/rigtorp/SPSCQueue>
 * <https://github.com/max0x7ba/atomic_queue> ([vcpkg](https://vcpkg.io/en/package/atomic-queue))
 * [TBB](https://github.com/uxlfoundation/oneTBB)
+* <https://github.com/David-Haim/concurrencpp>
 
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/release/libs/log/doc/html/index.html)
