@@ -242,11 +242,9 @@
 
 ## C++ nextgen
 * Carbon:
-  * <https://github.com/carbon-language/carbon-lang>
-  * [doc](https://docs.carbon-lang.dev/)
+  * <https://github.com/carbon-language/carbon-lang> ([doc](https://docs.carbon-lang.dev/))
 * Cpp2:
-  * <https://github.com/hsutter/cppfront>
-  * [doc](https://hsutter.github.io/cppfront/)
+  * <https://github.com/hsutter/cppfront> ([doc](https://hsutter.github.io/cppfront/))
   * [(Youtube) Can C++ be 10x Simpler & Safer? - Herb Sutter - CppCon 2022](https://www.youtube.com/watch?v=ELeZAKCN4tY)
 
 ## C++ vs C
