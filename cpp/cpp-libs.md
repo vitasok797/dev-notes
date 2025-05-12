@@ -51,12 +51,12 @@
 ## Configuration
 
 ### Configuration / Multisource
-* [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
-* [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/release/doc/html/property_tree.html)
+* [Boost.Program\_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
+* [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * POCO ([slides](https://pocoproject.org/slides/180-Configuration.pdf))
 
 ### Configuration / Argument parser
-* [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
+* [Boost.Program\_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * POCO ([slides](https://pocoproject.org/slides/190-Applications.pdf))
 * [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
 * <https://github.com/jarro2783/cxxopts>
@@ -68,7 +68,7 @@
 * <https://github.com/CLIUtils/CLI11>
 
 ### Configuration / Environment
-* [Boost.Program\_options](https://www.boost.org/doc/libs/release/doc/html/program_options.html)
+* [Boost.Program\_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * POCO ([slides](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
 * <https://github.com/ph3at/libenvpp>
 * <https://github.com/p-ranav/envy> (no vcpkg, header-only)
