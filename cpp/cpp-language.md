@@ -31,7 +31,6 @@
 * [Субъективный объективизм](https://scrutator.me/)
 
 ## Modern C++
-* [Modern C++ Tutorial: C++ 11/14/17/20 On The Fly](https://github.com/changkun/modern-cpp-tutorial/blob/master/book/en-us/toc.md)
 * [3 Simple C++17 Features That Will Make Your Code Simpler](https://www.fluentcpp.com/2018/06/19/3-simple-c17-features-that-will-make-your-code-simpler/)
 * [Spans, string_view, and Ranges - Four View types (C++17 to C++23) ](https://www.cppstories.com/2023/four-views-in-cpp23/)
 * [How to use std::span from C++20](https://www.cppstories.com/2023/span-cpp20/)
@@ -39,6 +38,10 @@
 * [Integer Conversions and Safe Comparisons in C++20 ](https://www.cppstories.com/2022/safe-int-cmp-cpp20/)
 * [Языковые новшества C++17. Часть 3. Порядок и спокойствие](https://scrutator.me/post/2018/04/28/cpp17_lang_features_p3.aspx)
 * [How C++20 Concepts can simplify your code](https://andreasfertig.com/blog/2020/07/how-cpp20-concepts-can-simplify-your-code/)
+
+### Modern C++ / Tutorials
+* [Modern C++ Tutorial: C++ 11/14/17/20 On The Fly](https://github.com/changkun/modern-cpp-tutorial/blob/master/book/en-us/toc.md)
+* [All C++20 core language features with examples](https://oleksandrkvl.github.io/2021/04/02/cpp-20-overview.html)
 
 ## Classes
 * The rule of three/five/zero:
