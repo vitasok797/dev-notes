@@ -219,9 +219,9 @@
 * [(Habr) Подробно о корутинах в C++](https://habr.com/ru/companies/piter/articles/491996/)
 
 ## Error handling
-* [Boost.Outcome: Review of Error Handling Frameworks](https://www.boost.org/doc/libs/release/libs/outcome/doc/html/alternatives.html)
-* [Boost: Error and Exception Handling](https://www.boost.org/community/error_handling.html)
-* [Exception-Safety in Generic Components](https://www.boost.org/community/exception_safety.html)
+* [Boost.Outcome: Review of Error Handling Frameworks](https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/alternatives.html)
+* :warning: [Boost: Error and Exception Handling](https://www.boost.org/community/error_handling.html)
+* [Exception-Safety in Generic Components](https://www.boost.org/doc/user-guide/exception-safety.html)
 * <https://isocpp.org/wiki/faq/exceptions>
 * <https://yosefk.com/c++fqa/exceptions.html>
 * <https://learn.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp>
