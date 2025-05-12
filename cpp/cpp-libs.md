@@ -189,12 +189,14 @@
 * [Boost.Thread](https://www.boost.org/doc/libs/release/doc/html/thread.html)
 * POCO ([slides](https://pocoproject.org/slides/130-Threads.pdf))
 
-### Multithreading / Concurrent
+### Multithreading / Concurrent queues
 * <https://github.com/cameron314/concurrentqueue>
 * <https://github.com/cameron314/readerwriterqueue>
 * <https://github.com/rigtorp/MPMCQueue>
 * <https://github.com/rigtorp/SPSCQueue>
 * <https://github.com/max0x7ba/atomic_queue> ([vcpkg](https://vcpkg.io/en/package/atomic-queue))
+
+### Multithreading / Concurrent
 * [TBB](https://github.com/uxlfoundation/oneTBB)
 * <https://github.com/David-Haim/concurrencpp>
 
