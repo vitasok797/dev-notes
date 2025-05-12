@@ -237,6 +237,14 @@
 * <https://www.cppstories.com/2021/sphero-cpp-return/>
 * <https://www.cppstories.com/2024/expected-cpp23/>
 
+## C++ nextgen
+* Carbon:
+  * <https://github.com/carbon-language/carbon-lang>
+  * [doc](https://docs.carbon-lang.dev/)
+* Cpp2:
+  * <https://github.com/hsutter/cppfront>
+  * [doc](https://hsutter.github.io/cppfront/)
+
 ## C++ vs C
 * [Why should I have written ZeroMQ in C, not C++ (part I)](https://250bpm.com/blog:4/)
 * [Why should I have written ZeroMQ in C, not C++ (part II)](https://250bpm.com/blog:8/)
