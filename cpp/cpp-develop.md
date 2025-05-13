@@ -49,7 +49,8 @@
 * <https://github.com/DigitalInBlue/Celero>
 
 ## DLL
-* [How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
+* [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
+* [(StackOverflow) How to generate an import library (LIB-file) from a DLL?](https://stackoverflow.com/questions/9946322/how-to-generate-an-import-library-lib-file-from-a-dll)
 
 ## Linters and Analyzers
 * [Cppcheck](https://cppcheck.sourceforge.io/)
@@ -94,3 +95,4 @@
 * [Beautiful Native Libraries](https://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/)
 * [Canonical Project Structure](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html)
 * [Ужасное состояние двоичной совместимости Linux](https://habr.com/ru/articles/893720/)
+* [How to mix C and C++](https://isocpp.org/wiki/faq/mixing-c-and-cpp)
