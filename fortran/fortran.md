@@ -20,10 +20,13 @@
 * [Vectorization for Intel C++ & Fortran Compiler](https://indico.cern.ch/event/403113/contributions/1847260/attachments/1124417/1604772/07_Vectorization_for_Intel_C__Fortran_Compiler_.pdf)
 
 ## Tutotials
-* []()
+* [Introduction to Advanced Fortran](https://materials.prace-ri.eu/400/1/advFortranIntro.pdf)
 
 ## Var
 * [Fortran Wiki](https://fortranwiki.org/fortran/show/HomePage)
 * [Fortran WikiBook](https://en.wikibooks.org/wiki/Fortran)
 * [(Habr) Неинициализированные переменные: ищем ошибки](https://habr.com/ru/companies/intel/articles/318494/)
+* [Mistakes in Fortran 90 Programs That Might Surprise You](https://www.cs.rpi.edu/~szymansk/OOF90/bugs.html)
 * [Блог F-SEPS: СЛАУ](http://fseps.blogspot.com/search/label/%D0%A1%D0%9B%D0%90%D0%A3)
+* [(StackOverflow) How to increase array size on-the-fly in Fortran?](https://stackoverflow.com/questions/8384406/how-to-increase-array-size-on-the-fly-in-fortran)
+* [(intel) Compatibility of objects created in different versions of Intel Fortran](https://community.intel.com/t5/Intel-Fortran-Compiler/Compatibility-of-objects-created-in-different-versions-of-Intel/td-p/829454)
