@@ -173,7 +173,10 @@ void ref_and_ptr()
 void shared_ptr()
 {
     // create
-    std::shared_ptr<Base> base_shared_ptr = std::make_shared<Derived>();
+    auto base_shared_ptr = std::shared_ptr<Base>{ std::make_shared<Derived>() };
+
+    // cast
+    auto base_shared_ptr = std::static_pointer_cast<Base>(derived_shared_ptr);
 
     // return
     auto return_base_shared_ptr = []() -> std::shared_ptr<Base> { return std::make_shared<Derived>(); };
@@ -187,7 +190,7 @@ void shared_ptr()
 void unique_ptr()
 {
     // create
-    std::unique_ptr<Base> base_unique_ptr = std::make_unique<Derived>();
+    auto base_unique_ptr = std::unique_ptr<Base>{ std::make_unique<Derived>() };
 
     // return
     auto return_base_unique_ptr = []() -> std::unique_ptr<Base> { return std::make_unique<Derived>(); };
@@ -204,7 +207,7 @@ void vector_of_unique_ptr()
 }
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/YWevKsvo4)
+:arrow_forward: [**Demo**](https://godbolt.org/z/cEGG8YjMG)
 
 </details>
 
