@@ -21,6 +21,7 @@
 
 ## Optimization
 * [Vectorization for Intel C++ & Fortran Compiler](https://indico.cern.ch/event/403113/contributions/1847260/attachments/1124417/1604772/07_Vectorization_for_Intel_C__Fortran_Compiler_.pdf)
+* [Quick Reference Guide to Optimization with Intel® C++ and Fortran Compilers v19.1](https://cdrdv2-public.intel.com/671303/quick-reference-guide-intel-compilers-v19-1-final-.pdf)
 
 ## Tutotials
 * [Introduction to Advanced Fortran](https://materials.prace-ri.eu/400/1/advFortranIntro.pdf)
