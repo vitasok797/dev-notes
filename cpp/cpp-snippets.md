@@ -645,8 +645,9 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 </details>
 
 <details>
-<summary>Pass by value</summary>
+<summary>Passing arguments</summary>
 
+### Pass by value
 * **Cheap-to-copy types (≤ 2×sizeof(void\*))**
 * **Non-copyable types**
 * Iterators
