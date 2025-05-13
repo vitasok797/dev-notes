@@ -844,6 +844,12 @@ auto w = new Widget{};
 auto w = std::make_unique<Widget>();
 ```
 
+Polymorphic smart pointers:
+```cpp
+auto base_shared_ptr = std::shared_ptr<Base>{ std::make_shared<Derived>() };
+auto base_unique_ptr = std::unique_ptr<Base>{ std::make_unique<Derived>() };
+```
+
 Strings:
 ```cpp
 using namespace std::literals;
@@ -860,7 +866,7 @@ auto x = std::string_view{"hello"};
 auto x = "hello"sv;
 ```
 
-Loop counter:
+Loop counters:
 ```cpp
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
