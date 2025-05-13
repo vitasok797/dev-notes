@@ -15,5 +15,13 @@
 ([example.pas](https://github.com/FMXExpress/swig-delphi/blob/master/Examples/delphi/class/example.pas),
 [example_wrap.cxx](https://github.com/FMXExpress/swig-delphi/blob/master/Examples/delphi/class/example_wrap.cxx))
 
+## Strings
+* [(ref) String Types](https://docwiki.embarcadero.com/RADStudio/Athens/en/String_Types_(Delphi))
+* [(ref) Character Sets](https://docwiki.embarcadero.com/RADStudio/Athens/en/Character_Sets)
+* [(ref) Unicode in RAD Studio](https://docwiki.embarcadero.com/RADStudio/Athens/en/Unicode_in_RAD_Studio)
+* [PChars: сами строки не включены ](https://www.transl-gunsmoker.ru/2009/09/pchars.html)
+* [(StackOverflow) Converting UnicodeString to AnsiString](https://stackoverflow.com/questions/26892449/converting-unicodestring-to-ansistring)
+* [Размер строки в байтах (вне зависимости от кодировки)](http://www.freepascal.ru/forum/viewtopic.php?f=5&t=9463)
+
 ## Var
 * [(StackOverflow) getting around circular references in Delphi](https://stackoverflow.com/questions/2644973/getting-around-circular-references-in-delphi)
