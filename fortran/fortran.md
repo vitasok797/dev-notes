@@ -2,6 +2,8 @@
 
 ## Reference
 * [Intel Fortran Compiler 17.0 Developer Guide and Reference](https://ahamodel.uib.no/intel/index.htm)
+* [Intel Fortran Reference: Predefined Preprocessor Symbols](https://ahamodel.uib.no/intel/GUID-34CFF5B7-4F26-4FCA-B73B-494A28C9E226.html)
+* [Intel Fortran Reference: standard-semantics option](https://ahamodel.uib.no/intel/GUID-DB7BF3D1-3528-416F-BD49-CE5A3B5546DF.html)
 
 ## Interoperability
 * [Intel Fortran Reference: Mixed Language Programming](https://ahamodel.uib.no/intel/index.htm#GUID-D7795036-D10D-4145-97E9-70BAC4B0B4E1.html)
@@ -14,9 +16,14 @@
 * [GFortran: вызываем функции LAPACK из DLL динамически](https://fseps.blogspot.com/2017/03/gfortran-lapack-dll.html)
 * [Intel Fortran Reference: standard-semantics option](https://ahamodel.uib.no/intel/GUID-DB7BF3D1-3528-416F-BD49-CE5A3B5546DF.html)
 
+## Optimization
+* [Vectorization for Intel C++ & Fortran Compiler](https://indico.cern.ch/event/403113/contributions/1847260/attachments/1124417/1604772/07_Vectorization_for_Intel_C__Fortran_Compiler_.pdf)
+
+## Tutotials
+* []()
+
 ## Var
 * [Fortran Wiki](https://fortranwiki.org/fortran/show/HomePage)
 * [Fortran WikiBook](https://en.wikibooks.org/wiki/Fortran)
 * [(Habr) Неинициализированные переменные: ищем ошибки](https://habr.com/ru/companies/intel/articles/318494/)
-* [Intel Fortran Reference: Predefined Preprocessor Symbols](https://ahamodel.uib.no/intel/GUID-34CFF5B7-4F26-4FCA-B73B-494A28C9E226.html)
-* [Intel Fortran Reference: standard-semantics option](https://ahamodel.uib.no/intel/GUID-DB7BF3D1-3528-416F-BD49-CE5A3B5546DF.html)
+* [Блог F-SEPS: СЛАУ](http://fseps.blogspot.com/search/label/%D0%A1%D0%9B%D0%90%D0%A3)
