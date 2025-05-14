@@ -1070,7 +1070,7 @@ auto main() -> int
 </details>
 
 <details>
-<summary>:warning: Signed/unsigned</summary>
+<summary>Signed/unsigned</summary>
 
 ### Loop counter
 ```cpp
