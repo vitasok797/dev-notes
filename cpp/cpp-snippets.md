@@ -1390,17 +1390,17 @@ auto t = std::tuple<int, Watcher>{0, Watcher{1, 2}};
 ### Returning
 ```cpp
 // inplace (single-arg + non-explicit ctor only)
-std::tuple<int, Watcher> return_tuple() { return {0, 1}; }
+auto return_tuple() -> std::tuple<int, Watcher> { return {0, 1}; }
 
 // inplace (single-arg ctor only)
-std::tuple<int, Watcher> return_tuple() { return std::tuple<int, Watcher>{0, 1}; }
+auto return_tuple() -> std::tuple<int, Watcher> { return std::tuple<int, Watcher>{0, 1}; }
 
 // move
-std::tuple<int, Watcher> return_tuple() { return {0, std::move(w)}; }
-std::tuple<int, Watcher> return_tuple() { return {0, Watcher{1, 2}}; }
+auto return_tuple() -> std::tuple<int, Watcher> { return {0, std::move(w)}; }
+auto return_tuple() -> std::tuple<int, Watcher> { return {0, Watcher{1, 2}}; }
 ```
 
-:arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/MET71zdG1) [[object_watcher.h](src/object_watcher.h)]
+:arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/b9cPfqq5q) [[object_watcher.h](src/object_watcher.h)]
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
