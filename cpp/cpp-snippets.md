@@ -1065,7 +1065,7 @@ int main()
 
 [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/E8rzKnqqf) [[calc.h](src/calc.h)]
+:arrow_forward: [**Demo**](https://godbolt.org/z/fWban9Ee4) [[math.h](src/math.h)]
 
 </details>
 
