@@ -934,6 +934,7 @@ auto               Person::get_person_type() -> PersonType
 auto func() -> auto
 auto func()  // trailing auto can be omitted
 ```
+
 </details>
 
 <details>
