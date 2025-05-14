@@ -24,10 +24,10 @@ public:
     {}
 
     ScopeGuard(const ScopeGuard&) = delete;
-    void operator=(const ScopeGuard&) = delete;
-    void operator=(ScopeGuard&&) = delete;
+    ScopeGuard& operator=(const ScopeGuard&) = delete;
+    ScopeGuard& operator=(ScopeGuard&&) = delete;
 
-    void dismiss() noexcept { invoke_ = false; }
+    auto dismiss() noexcept -> void { invoke_ = false; }
 
 private:
     F f_;
