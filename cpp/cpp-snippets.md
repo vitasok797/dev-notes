@@ -824,7 +824,7 @@ int main()
 Syntax:
 ```cpp
 [static/inline] [const/constexpr] auto[&/&&/*] x = expr;
-[static/inline] [const/constexpr] auto[&/&&/*] x = type{expr};
+[static/inline] [const/constexpr] auto[&/&&/*] x = TYPE{expr};
 ```
 
 ```cpp
@@ -908,13 +908,13 @@ auto i = {3};  // C++11: std::initializer_list<int>
 ### Trailing return type
 
 ```cpp
-int  non_member_func() [noexcept]
-auto non_member_func() [noexcept] -> int
+[static/inline] [constexpr] TYPE non_member_func() [noexcept]
+[static/inline] [constexpr] auto non_member_func() [noexcept] -> TYPE
 ```
 
 ```cpp
-[virtual] int  member_func() [const] [&/&&] [noexcept]        [override/final]
-[virtual] auto member_func() [const] [&/&&] [noexcept] -> int [override/final]
+[virtual] [static] [inline] [constexpr] TYPE member_func() [const] [&/&&] [noexcept]         [override/final]
+[virtual] [static] [inline] [constexpr] auto member_func() [const] [&/&&] [noexcept] -> TYPE [override/final]
 ```
 
 ```cpp
