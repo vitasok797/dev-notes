@@ -200,6 +200,7 @@
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
 * [Вероломные указатели](https://scrutator.me/post/2019/12/12/backstabbing_ptrs.aspx)
+* [Зачем нужны owner_before и owner_less (std::shared_ptr)](https://dyzzet.ru/a/owner_before-and-owner_less/)
 
 ## Patterns
 * [(Habr) Техника избежания неопределённого поведения при обращении к синглтону](https://habr.com/ru/articles/455848/)
