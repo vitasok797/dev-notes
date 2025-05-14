@@ -913,8 +913,8 @@ auto i = {3};  // C++11: std::initializer_list<int>
 ```
 
 ```cpp
-[virtual] [static] [inline] [constexpr] TYPE member_func() [const] [&/&&] [noexcept]         [override/final]
-[virtual] [static] [inline] [constexpr] auto member_func() [const] [&/&&] [noexcept] -> TYPE [override/final]
+[virtual] [static] [constexpr] TYPE member_func() [const] [&/&&] [noexcept]         [override/final]
+[virtual] [static] [constexpr] auto member_func() [const] [&/&&] [noexcept] -> TYPE [override/final]
 ```
 
 ```cpp
