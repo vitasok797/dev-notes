@@ -925,18 +925,14 @@ auto               Person::get_person_type() -> PersonType
 ### Trailing return type (type deduction)
 
 ```cpp
-auto func()          // OK
+... auto func() ... -> TYPE
+... auto func() ... -> [const] auto[&/&&/*]
+                    -> decltype(auto)
+```
+
+```cpp
 auto func() -> auto  // OK
-```
-
-```cpp
-[const] auto[&/&&/*] func()
-        auto         func() -> [const] auto[&/&&/*]
-```
-
-```cpp
-decltype(auto) func()
-auto           func() -> decltype(auto)
+auto func()          // OK
 ```
 
 </details>
