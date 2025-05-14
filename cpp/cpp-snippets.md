@@ -1203,7 +1203,7 @@ using std::cout, std::endl;
 
 * Members:
   * Unary operators
-  * The assignment operators (`+=` `–=` `/=` `*=` etc.) 
+  * Assignment operators (`+=` `–=` `/=` `*=` etc.) 
   * `=` `()` `[]` `->`
 * Non-members:
   * All other binary operators
