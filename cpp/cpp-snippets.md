@@ -823,8 +823,8 @@ int main()
 
 Syntax:
 ```cpp
-[const] auto[&/&&/*] x = expr;
-[const] auto[&/&&/*] x = type{expr};
+[static/inline] [const/constexpr] auto[&/&&/*] x = expr;
+[static/inline] [const/constexpr] auto[&/&&/*] x = type{expr};
 ```
 
 ```cpp
@@ -908,8 +908,8 @@ auto i = {3};  // C++11: std::initializer_list<int>
 ### Trailing return type
 
 ```cpp
-int  func() [noexcept]
-auto func() [noexcept] -> int
+int  non_member_func() [noexcept]
+auto non_member_func() [noexcept] -> int
 ```
 
 ```cpp
