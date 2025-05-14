@@ -125,20 +125,20 @@ public:
 class ITest
 {
 public:
-    virtual void test1() const = 0;
-    virtual void test2() const = 0;
+    virtual auto test1() const -> void = 0;
+    virtual auto test2() const -> void = 0;
     virtual ~ITest() = default;
 };
 
 class Test : public ITest
 {
 public:
-    void test1() const override {...}
-    void test2() const override {...}
+    auto test1() const -> void override {...}
+    auto test2() const -> void override {...}
 };
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/E97aTccbc)
+:arrow_forward: [**Demo**](https://godbolt.org/z/hsE9v5dEa)
 
 </details>
 
