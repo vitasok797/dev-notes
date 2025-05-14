@@ -767,18 +767,18 @@ auto get_data() -> std::tuple<int, double>
 <details>
 <summary>std::apply</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/fE8c846Pj)
+:arrow_forward: [**Run**](https://godbolt.org/z/3Gs98nrhG)
 
 ```cpp
 #include <iostream>
 #include <tuple>
 
-int sum(int a, int b, int c)
+auto sum(int a, int b, int c) -> int
 {
     return a + b + c;
 }
 
-int main()
+auto main() -> int
 {
     auto numbers = std::tuple{1, 2, 3};
     std::cout << "apply res: " << std::apply(sum, numbers) << std::endl;
@@ -790,7 +790,7 @@ int main()
 <details>
 <summary>std::make_from_tuple</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/4andfo1hb)
+:arrow_forward: [**Run**](https://godbolt.org/z/5PcK5hev7)
 
 ```cpp
 #include <iostream>
@@ -805,7 +805,7 @@ struct Foo
     }
 };
 
-int main()
+auto main() -> int
 {
     auto ctor_args = std::tuple{10, 20.2, 30};
     std::make_from_tuple<Foo>(ctor_args);
