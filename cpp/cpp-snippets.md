@@ -260,7 +260,7 @@ struct NonStatic
 };
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/a4jcrPrMo)
+:arrow_forward: [**Demo**](https://godbolt.org/z/7bKoo59Mv)
 
 </details>
 
@@ -291,12 +291,12 @@ private:
 <details>
 <summary>Constructors: inheritance (hierarchy)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/xddov143j)
+:arrow_forward: [**Run**](https://godbolt.org/z/Kdo6acEh7)
 
 ```cpp
 #include <iostream>
 
-void print(auto text)
+auto print(auto text) -> void
 {
     std::cout << text << " ";
 }
@@ -347,7 +347,7 @@ struct C : B
     }
 };
 
-int main()
+auto main() -> int
 {
     C();  // A B C
 
@@ -394,7 +394,7 @@ public:
 <details>
 <summary>Template class constructors/methods with T&& args</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/Tb781E4s3) [[object_watcher.h](src/object_watcher.h)]
+:arrow_forward: [**Run**](https://godbolt.org/z/9ajoYG3Yh) [[object_watcher.h](src/object_watcher.h)]
 
 ```cpp
 #include <iostream>
@@ -452,9 +452,9 @@ struct Test3
     T x_;
 };
 
-void lf() { cout << endl; }
+auto lf() -> void { cout << endl; }
 
-void test1()
+auto test1() -> void
 {
     auto w = Watcher{};
     Test1{w};
@@ -464,7 +464,7 @@ void test1()
     lf();
 }
 
-void test2()
+auto test2() -> void
 {
     auto w = Watcher{};
     Test2{w};
@@ -474,7 +474,7 @@ void test2()
     lf();
 }
 
-void test3()
+auto test3() -> void
 {
     auto w = Watcher{};
     Test3<Watcher>{w};
@@ -484,7 +484,7 @@ void test3()
     lf();
 }
 
-int main()
+auto main() -> int
 {
     test1();
     test2();
