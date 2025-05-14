@@ -2055,7 +2055,7 @@ struct Shape
     VertexList vertexes;
 };
 
-Shape MakeShape()
+auto MakeShape() -> Shape
 {
     return Shape{ Shape::VertexList{{1,0}, {0,1}, {0,0}, {1,1}} };
 }
