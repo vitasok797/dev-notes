@@ -867,7 +867,7 @@ auto x = std::string_view{"hello"};
 auto x = "hello"sv;
 ```
 
-Loop counters:
+Loop counter:
 ```cpp
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
