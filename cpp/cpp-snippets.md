@@ -738,7 +738,7 @@ auto main() -> int
 ```cpp
 struct Data { int i; double d; };
 
-Data get_data()
+auto get_data() -> Data
 {
     return {42, 0.1};
     return Data{42, 0.1};
@@ -754,13 +754,13 @@ auto get_data()
 ```
 
 ```cpp
-std::tuple<int, double> get_data()
+auto get_data() -> std::tuple<int, double>
 {
     return {42, 0.3};
 }
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/exdTYbvsx)
+:arrow_forward: [**Demo**](https://godbolt.org/z/j8dGva4bT)
 
 </details>
 
