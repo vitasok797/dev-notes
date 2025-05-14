@@ -1,5 +1,5 @@
-#ifndef VS_CALC_H_
-#define VS_CALC_H_
+#ifndef VS_MATH_H_
+#define VS_MATH_H_
 
 #include <cmath>
 
@@ -18,4 +18,4 @@ inline bool almost_equal_rel(double a, double b, double rel_epsilon = 1e-6)
 
 }  // namespace vs
 
-#endif  // VS_CALC_H_
+#endif  // VS_MATH_H_
