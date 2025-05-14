@@ -1604,7 +1604,7 @@ else
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/MTaYK9coG)
+:arrow_forward: [**Run**](https://godbolt.org/z/nK4dWzjM6)
 
 ```cpp
 #include <iostream>
@@ -1626,7 +1626,7 @@ struct Watcher
 
     static inline std::string operations_history{};
 
-    static void check(const std::string& desc, ArgType arg_type)
+    static auto check(const std::string& desc, ArgType arg_type) -> void
     {
         auto operations_expected = std::string{};
         if (arg_type == ArgType::VAL)
@@ -1653,7 +1653,7 @@ struct Watcher
 
 // ----------------------------------------------------------------------------------------------
 
-void append_range_bad(auto& dest, auto&& range)
+auto append_range_bad(auto& dest, auto&& range) -> void
 {
     for (auto&& el : range)
     {
@@ -1661,7 +1661,7 @@ void append_range_bad(auto& dest, auto&& range)
     }
 }
 
-void append_range_good(auto& dest, auto&& range)
+auto append_range_good(auto& dest, auto&& range) -> void
 {
     for (auto&& el : range)
     {
@@ -1677,7 +1677,7 @@ void append_range_good(auto& dest, auto&& range)
 }
 
 // solution using std::forward_like (C++23)
-// void append_range_good_2(auto& dest, auto&& range)
+// auto append_range_good_2(auto& dest, auto&& range) -> void
 // {
 //     for (auto&& el : range)
 //     {
@@ -1685,7 +1685,7 @@ void append_range_good(auto& dest, auto&& range)
 //     }
 // }
 
-void test_range_for()
+auto test_range_for() -> void
 {
     auto vec = std::vector<Watcher>(1);
     auto dest = std::vector<Watcher>{};
@@ -1708,13 +1708,13 @@ void test_range_for()
 
 // ----------------------------------------------------------------------------------------------
 
-void append_tuple_bad(auto& dest, auto&& tuple)
+auto append_tuple_bad(auto& dest, auto&& tuple) -> void
 {
     auto&& [watcher, _] = tuple;
     dest.push_back(std::forward<decltype(watcher)>(watcher));
 }
 
-void append_tuple_good(auto& dest, auto&& tuple)
+auto append_tuple_good(auto& dest, auto&& tuple) -> void
 {
     auto&& [watcher, _] = tuple;
 
@@ -1728,7 +1728,7 @@ void append_tuple_good(auto& dest, auto&& tuple)
     }
 }
 
-void test_tuple()
+auto test_tuple() -> void
 {
     auto tuple = std::tuple<Watcher, int>{};
     auto dest = std::vector<Watcher>{};
@@ -1753,23 +1753,23 @@ void test_tuple()
 
 struct TestStruct { Watcher w; int i; };
 
-void append_struct_bad_1(auto& dest, auto&& test_struct)
+auto append_struct_bad_1(auto& dest, auto&& test_struct) -> void
 {
     auto&& [watcher, _] = test_struct;
     dest.push_back(std::forward<decltype(watcher)>(watcher));
 }
 
-void append_struct_bad_2(auto& dest, auto&& test_struct)
+auto append_struct_bad_2(auto& dest, auto&& test_struct) -> void
 {
     dest.push_back(std::forward<decltype(test_struct.w)>(test_struct.w));
 }
 
-void append_struct_good_1(auto& dest, auto&& test_struct)
+auto append_struct_good_1(auto& dest, auto&& test_struct) -> void
 {
     dest.push_back(std::forward<decltype(test_struct)>(test_struct).w);
 }
 
-void append_struct_good_2(auto& dest, auto&& test_struct)
+auto append_struct_good_2(auto& dest, auto&& test_struct) -> void
 {
     auto&& [watcher, _] = test_struct;
 
@@ -1783,7 +1783,7 @@ void append_struct_good_2(auto& dest, auto&& test_struct)
     }
 }
 
-void test_struct()
+auto test_struct() -> void
 {
     auto test_struct = TestStruct{};
     auto dest = std::vector<Watcher>{};
@@ -1818,7 +1818,7 @@ void test_struct()
 
 // ----------------------------------------------------------------------------------------------
 
-int main()
+auto main() -> int
 {
     test_range_for();
     test_tuple();
