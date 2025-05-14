@@ -95,14 +95,14 @@ class AbstractBase
 public:
     virtual ~AbstractBase() = 0;
 
-    void process() const
+    auto process() const -> void
     {
         step1();
         step2();
     };
 
-    virtual void step1() const {...}
-    virtual void step2() const {...}
+    virtual auto step1() const -> void {...}
+    virtual auto step2() const -> void {...}
 };
 
 inline AbstractBase::~AbstractBase() {}
@@ -110,11 +110,11 @@ inline AbstractBase::~AbstractBase() {}
 class Derived : public AbstractBase
 {
 public:
-    void step2() const override {...}
+    auto step2() const -> void override {...}
 };
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/se7n64j9P)
+:arrow_forward: [**Demo**](https://godbolt.org/z/7evMYToW4)
 
 </details>
 
