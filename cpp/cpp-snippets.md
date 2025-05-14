@@ -1411,13 +1411,13 @@ auto return_tuple() -> std::tuple<int, Watcher> { return {0, Watcher{1, 2}}; }
 <details>
 <summary>String builder</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/n4nKdqjjW)
+:arrow_forward: [**Run**](https://godbolt.org/z/GG4YrYd8G)
 
 ```cpp
 #include <iostream>
 #include <sstream>
 
-void build_string_1()
+auto build_string_1() -> void
 {
     auto ss = std::ostringstream{};
 
@@ -1432,7 +1432,7 @@ void build_string_1()
     std::cout << res2 << std::endl;
 }
 
-void build_string_2()
+auto build_string_2() -> void
 {
     auto res = std::string{};
 
@@ -1445,7 +1445,7 @@ void build_string_2()
     std::cout << res << std::endl;
 }
 
-int main()
+auto main() -> int
 {
     build_string_1();
     build_string_2();
