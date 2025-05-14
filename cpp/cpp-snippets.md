@@ -149,28 +149,28 @@ public:
 class Base
 {
 public:
-    virtual void run() const = 0;
+    virtual auto run() const -> void = 0;
     virtual ~Base() = default;
 };
 
 class Derived : public Base
 {
 public:
-    void run() const override {...}
+    auto run() const -> void override {...}
 };
 
-void polymorphic_call(const Base& base) {...}
-void polymorphic_call(const Base* base) {...}
-void polymorphic_call(std::shared_ptr<Base> base) {...}
+auto polymorphic_call(const Base& base) -> void {...}
+auto polymorphic_call(const Base* base) -> void {...}
+auto polymorphic_call(std::shared_ptr<Base> base) -> void {...}
 
-void ref_and_ptr()
+auto ref_and_ptr() -> void
 {
     auto derived = Derived{};
     Base& base_ref = derived;
     Base* base_ptr = &derived;
 }
 
-void shared_ptr()
+auto shared_ptr() -> void
 {
     // create
     auto base_shared_ptr = std::shared_ptr<Base>{ std::make_shared<Derived>() };
@@ -187,7 +187,7 @@ void shared_ptr()
     func(base_shared_ptr);        // (std::shared_ptr<Base>)
 }
 
-void unique_ptr()
+auto unique_ptr() -> void
 {
     // create
     auto base_unique_ptr = std::unique_ptr<Base>{ std::make_unique<Derived>() };
@@ -200,14 +200,14 @@ void unique_ptr()
     func(base_unique_ptr.get());  // (const Base*)
 }
 
-void vector_of_unique_ptr()
+auto vector_of_unique_ptr() -> void
 {
     auto v = std::vector<std::unique_ptr<Base>>{};
     v.push_back(std::make_unique<Derived>());
 }
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/cEGG8YjMG)
+:arrow_forward: [**Demo**](https://godbolt.org/z/zKv78hE71)
 
 </details>
 
