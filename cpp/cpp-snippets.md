@@ -652,7 +652,8 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 
 [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information) \
 [For general use, take T* or T& arguments rather than smart pointers](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f7-for-general-use-take-t-or-t-arguments-rather-than-smart-pointers) \
-[Prefer T* over T& when “no argument” is a valid option](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
+[Prefer T* over T& when “no argument” is a valid option](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option) \
+[Language / Types / By-value-then-move idiom](cpp-language.md#types--by-value-then-move-idiom)
 
 ### Pass by value
 * **Cheap-to-copy types (≤ 2×sizeof(void\*))**
