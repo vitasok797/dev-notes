@@ -1197,7 +1197,7 @@ using std::cout, std::endl;
 <summary>ostream <<</summary>
 
 ```cpp
-inline std::ostream& operator<<(std::ostream& os, const Person& person)
+inline auto operator<<(std::ostream& os, const Person& person) -> std::ostream&
 {
     return os << person.surname << " " << person.firstname << " was born in " << person.year;
 }
@@ -1207,10 +1207,10 @@ inline std::ostream& operator<<(std::ostream& os, const Person& person)
 class PrivatePerson
 {
 public:
-    friend std::ostream& operator<<(std::ostream& os, const PrivatePerson& person);
+    friend auto operator<<(std::ostream& os, const PrivatePerson& person) -> std::ostream&;
 };
 
-inline std::ostream& operator<<(std::ostream& os, const PrivatePerson& person)
+inline auto operator<<(std::ostream& os, const PrivatePerson& person) -> std::ostream&
 {
     return os << person.alias_ << " was born in " << person.year_;
 }
@@ -1220,14 +1220,14 @@ inline std::ostream& operator<<(std::ostream& os, const PrivatePerson& person)
 class PrivatePerson
 {
 public:
-    friend std::ostream& operator<<(std::ostream& os, const PrivatePerson& person)
+    friend auto operator<<(std::ostream& os, const PrivatePerson2& person) -> std::ostream&
     {
         return os << person.alias_ << " was born in " << person.year_;
     }
 };
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/M1dq9Kofh)
+:arrow_forward: [**Demo**](https://godbolt.org/z/fxPqf4GKW)
 
 </details>
 
