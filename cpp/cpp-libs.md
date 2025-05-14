@@ -43,7 +43,9 @@
 * :warning: `POCO (PCRE)`
 * :warning: `ICU?`
 * :warning: `Другие`
+* <https://github.com/hanickadot/compile-time-regular-expressions> ([vcpkg](https://vcpkg.io/en/package/ctre), [doc](https://compile-time-regular-expressions.readthedocs.io/))
 * <https://github.com/zemasoft/wildcards>
+* [(Habr) regexp — большие гонки](https://habr.com/ru/articles/812953/)
 
 ### Text / I18n
 * [Boost.Locale](https://www.boost.org/doc/libs/latest/libs/locale/doc/html/index.html)
