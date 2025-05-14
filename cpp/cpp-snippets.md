@@ -1220,7 +1220,7 @@ inline auto operator<<(std::ostream& os, const PrivatePerson& person) -> std::os
 class PrivatePerson
 {
 public:
-    friend auto operator<<(std::ostream& os, const PrivatePerson2& person) -> std::ostream&
+    friend auto operator<<(std::ostream& os, const PrivatePerson& person) -> std::ostream&
     {
         return os << person.alias_ << " was born in " << person.year_;
     }
