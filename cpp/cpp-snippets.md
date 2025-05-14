@@ -1059,7 +1059,7 @@ int main()
 
 [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/fWban9Ee4) [[math.h](src/math.h)]
+:arrow_forward: [**Demo**](https://godbolt.org/z/1orqxaq9d) [[math.h](src/math.h)]
 
 </details>
 
