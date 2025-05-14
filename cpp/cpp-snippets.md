@@ -1459,14 +1459,14 @@ auto main() -> int
 <details>
 <summary>:warning: auto&& resolving</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/qhcsK1GW3)
+:arrow_forward: [**Run**](https://godbolt.org/z/vznsdzoTc)
 
 ```cpp
 #include <map>
 #include <tuple>
 #include <vector>
 
-void test_scalar()
+auto test_scalar() -> void
 {
     auto x = 0;
     auto&& x1 = x;
@@ -1476,7 +1476,7 @@ void test_scalar()
     // int&& x2
 }
 
-void test_tuple_binding_by_uref()
+auto test_tuple_binding_by_uref() -> void
 {
     auto tuple = std::tuple{1, 2.0};
     auto&& [x1, y1] = tuple;
@@ -1486,7 +1486,7 @@ void test_tuple_binding_by_uref()
     // int& x2, double& y2 (lvalue refs to original temporary tuple)
 }
 
-void test_tuple_binding_by_copy()
+auto test_tuple_binding_by_copy() -> void
 {
     auto tuple = std::tuple{1, 2.0};
     auto [x1, y1] = tuple;
@@ -1496,7 +1496,7 @@ void test_tuple_binding_by_copy()
     // int& x2, double& y2 (lvalue refs to original temporary tuple)
 }
 
-void test_vector_el()
+auto test_vector_el() -> void
 {
     auto&& v = std::vector{1, 2, 3};
     // std::vector<int>&& v
@@ -1506,7 +1506,7 @@ void test_vector_el()
     // int& x
 }
 
-void test_vector_proxy_el()
+auto test_vector_proxy_el() -> void
 {
     auto&& v = std::vector<bool>{true, false, true};
     // std::vector<bool>&& v
@@ -1515,7 +1515,7 @@ void test_vector_proxy_el()
     // bool&& x (rvalue ref to temporary proxy object)
 }
 
-void test_iteration_vector()
+auto test_iteration_vector() -> void
 {
     auto v = std::vector{1, 2, 3};
     for (auto&& el : v) {}
@@ -1532,7 +1532,7 @@ void test_iteration_vector()
     // bool&& el (rvalue ref to temporary proxy object)
 }
 
-void test_iteration_binding_map()
+auto test_iteration_binding_map() -> void
 {
     auto m = std::map<int, double>{{1, 10.0}, {2, 20.0}};
     for (auto&& [k, v] : m) {}
@@ -1543,7 +1543,7 @@ void test_iteration_binding_map()
     // const int& k, double& v
 }
 
-void test_struct_binding_by_uref()
+auto test_struct_binding_by_uref() -> void
 {
     struct S { int x; double y; };
 
@@ -1555,7 +1555,7 @@ void test_struct_binding_by_uref()
     // int& x2, double& y2 (lvalue refs to original temporary struct)
 }
 
-void test_struct_binding_by_copy()
+auto test_struct_binding_by_copy() -> void
 {
     struct S { int x; double y; };
 
@@ -1567,7 +1567,7 @@ void test_struct_binding_by_copy()
     // int& x2, double& y2 (lvalue refs to original temporary struct)
 }
 
-int main()
+auto main() -> int
 {
     test_scalar();
     test_tuple_binding_by_uref();
