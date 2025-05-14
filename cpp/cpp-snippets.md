@@ -1992,7 +1992,7 @@ auto main() -> int
 
 Libs: [strong_type](https://github.com/rollbear/strong_type)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/r76PGoxxd)
+:arrow_forward: [**Run**](https://godbolt.org/z/YEs7TYKsj)
 
 ```cpp
 #include <iostream>
@@ -2003,13 +2003,13 @@ Libs: [strong_type](https://github.com/rollbear/strong_type)
 using FirstName = strong::type<std::string, struct FirstName_tag>;
 using LastName = strong::type<std::string, struct LastName_tag>;
 
-void func(const FirstName& first_name, const LastName& last_name)
+auto func(const FirstName& first_name, const LastName& last_name) -> void
 {
     std::cout << "FirstName: " << value_of(first_name) << std::endl;
     std::cout << "LastName: " << value_of(last_name) << std::endl;
 }
 
-int main()
+auto main() -> int
 {
     func(FirstName{"John"}, LastName{"Doe"});
 }
