@@ -664,7 +664,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <details>
 <summary>Projection</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/xb4bxo4EY)
+:arrow_forward: [**Run**](https://godbolt.org/z/YT7ToaYvd)
 
 ```cpp
 #include <functional>
@@ -677,7 +677,7 @@ struct Rect
     double a = 0.0;
     double b = 0.0;
 
-    double area() const { return a * b; }
+    auto area() const -> double { return a * b; }
 };
 
 //=============================================================================
@@ -696,7 +696,7 @@ struct Rect
 //       P   proj: YES (pass by value, then store by std::move)
 //=============================================================================
 template<typename R, typename P = std::identity>
-void print_range_with_proj(const R& range, P proj = {})
+auto print_range_with_proj(const R& range, P proj = {}) -> void
 {
     std::cout << "---------------" << std::endl;
     for (const auto& x : range)
@@ -705,7 +705,7 @@ void print_range_with_proj(const R& range, P proj = {})
     }
 };
 
-int main()
+auto main() -> int
 {
     auto v1 = std::vector<Rect>
     {
