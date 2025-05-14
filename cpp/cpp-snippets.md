@@ -499,8 +499,8 @@ auto main() -> int
 <details>
 <summary>Object Watcher</summary>
 
-:arrow_forward: [**Demo** (CtorWatcher)](https://godbolt.org/z/5Yd5TxWhT) [[object_watcher.h](src/object_watcher.h)] \
-:arrow_forward: [**Demo** (ObjWatcher)](https://godbolt.org/z/45q6TK5Kx) [[object_watcher.h](src/object_watcher.h)]
+:arrow_forward: [**Demo** (CtorWatcher)](https://godbolt.org/z/f6r8obT7W) [[object_watcher.h](src/object_watcher.h)] \
+:arrow_forward: [**Demo** (ObjWatcher)](https://godbolt.org/z/zWoMMTdqz) [[object_watcher.h](src/object_watcher.h)]
 
 </details>
 
@@ -518,7 +518,7 @@ struct {} _ = ...
 <details>
 <summary>Type info (overload resolution test)</summary>
 
-:arrow_forward: [**Demo** (overload resolution test)](https://godbolt.org/z/Wcfd717c9) [[type_info.h](src/type_info.h)]
+:arrow_forward: [**Demo** (overload resolution test)](https://godbolt.org/z/jGWMzWvE9) [[type_info.h](src/type_info.h)]
 
 </details>
 
