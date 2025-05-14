@@ -1833,7 +1833,7 @@ auto main() -> int
 
 Libs: [magic_enum](https://github.com/Neargye/magic_enum)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/bMnr4q14c)
+:arrow_forward: [**Run**](https://godbolt.org/z/69fs8a7G6)
 
 ```cpp
 #include <cstdint>
@@ -1867,7 +1867,7 @@ using OtherOptionFlags = magic_enum::containers::bitset<OtherOption>;
 
 using std::cout, std::endl;
 
-void print_options(OptionFlags opt)
+auto print_options(OptionFlags opt) -> void
 {
     bool opt1_set = opt.test(Option::OPT1);
     bool opt2_set = opt.test(Option::OPT2);
@@ -1899,7 +1899,7 @@ void print_options(OptionFlags opt)
     cout << endl;
 }
 
-int main()
+auto main() -> int
 {
     OptionFlags opt;
 
