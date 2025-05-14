@@ -828,6 +828,7 @@ Syntax:
 ```
 
 ```cpp
+         auto  x = expr;  // removes cv/ref
 decltype(auto) x = expr;  // preserves cv/ref
 ```
 
