@@ -68,19 +68,19 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 struct A
 {
     virtual ~A() = default;
-    virtual void foo() [const] [&/&&] [noexcept] = 0;
+    virtual auto foo() [const] [&/&&] [noexcept] -> void = 0;
 };
 
 struct B : A
 {
     ~B() override;
-    void foo() [const] [&/&&] [noexcept] override;
+    auto foo() [const] [&/&&] [noexcept] -> void override;
 };
 
 struct C final : B
 {
     ~C() final;
-    void foo() [const] [&/&&] [noexcept] final;
+    auto foo() [const] [&/&&] [noexcept] -> void final;
 };
 ```
 
