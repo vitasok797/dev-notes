@@ -1044,7 +1044,7 @@ for (const auto& [k, v] : mymap) {...}
 #include <algorithm>
 #include <iostream>
 
-int main()
+auto main() -> int
 {
     std::cout << std::clamp(0.5, 1.0, 2.0) << std::endl;  // 1
     std::cout << std::clamp(1.5, 1.0, 2.0) << std::endl;  // 1.5
