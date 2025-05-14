@@ -1111,7 +1111,7 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 
 inline namespace V1
 {
-    void doSomething()
+    auto doSomething() -> void
     {
         std::cout << "V1\n";
     }
@@ -1119,13 +1119,13 @@ inline namespace V1
 
 namespace V2
 {
-    void doSomething()
+    auto doSomething() -> void
     {
         std::cout << "V2\n";
     }
 }
 
-int main()
+auto main() -> int
 {
     V1::doSomething();
     V2::doSomething();
