@@ -1199,6 +1199,18 @@ using std::cout, std::endl;
 ## Operators
 
 <details>
+<summary>Member/non-member operators</summary>
+
+* Members:
+  * Unary operators
+  * The assignment operators (`+=` `–=` `/=` `*=` etc.) 
+  * `=` `()` `[]` `->`
+* Non-members:
+  * All other binary operators
+
+</details>
+
+<details>
 <summary>ostream <<</summary>
 
 ```cpp
