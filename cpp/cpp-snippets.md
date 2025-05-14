@@ -934,12 +934,6 @@ auto               Person::get_person_type() -> PersonType
 auto func() -> auto
 auto func()  // trailing auto can be omitted
 ```
-
-```cpp
-auto func() -> void
-auto func()  // trailing void can be omitted
-```
-
 </details>
 
 <details>
