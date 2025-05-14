@@ -527,32 +527,32 @@ struct {} _ = ...
 <details>
 <summary>Dispatch table</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/fnhbG7vz7)
+:arrow_forward: [**Run**](https://godbolt.org/z/dY9qeP87v)
 
 ```cpp
 #include <functional>
 #include <iostream>
 #include <map>
 
-double add(double a, double b)
+auto add(double a, double b) -> double
 {
     return a + b;
 }
 
 struct Sub
 {
-    double operator()(double a, double b)
+    auto operator()(double a, double b) -> double
     {
         return a - b;
     }
 };
 
-double mult_three(double a, double b, double c)
+auto mult_three(double a, double b, double c) -> double
 {
     return a * b * c;
 }
 
-int main()
+auto main() -> int
 {
     using namespace std::placeholders;
 
@@ -579,34 +579,34 @@ int main()
 ```cpp
 #include <functional>
 
-void func_arg(std::function<int(int, int)> f)
+auto func_arg(std::function<int(int, int)> f) -> void
 {
     int res = f(1, 2);
 }
 ```
 
 ```cpp
-void func_arg(auto f)
+auto func_arg(auto f) -> void
 {
     int res = f(1, 2);
 }
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/W71MMcabY)
+:arrow_forward: [**Demo**](https://godbolt.org/z/bE63qnnhM)
 
 </details>
 
 <details>
 <summary>Function object</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/7xMds9jjq)
+:arrow_forward: [**Run**](https://godbolt.org/z/bssqEqqMj)
 
 ```cpp
 #include <iostream>
 
 struct Compare
 {
-    constexpr bool operator()(const auto& a, const auto& b) const
+    constexpr auto operator()(const auto& a, const auto& b) const -> bool
     {
         return a == b;
     }
@@ -614,7 +614,7 @@ struct Compare
 
 inline constexpr Compare compare{};
 
-int main()
+auto main() -> int
 {
     std::cout << compare(1, 2) << std::endl;
     std::cout << compare(2, 2) << std::endl;
