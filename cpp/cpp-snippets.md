@@ -666,7 +666,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
   * std::shared_ptr (sharing ownership)
   * std::unique_ptr (transfering ownership) (move)
 * Non-copyable types (move)
-* By-value-then-move idiom (for constructors only) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
+* By-value-then-move idiom (for constructors only as optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
 
 </details>
 
