@@ -1,4 +1,4 @@
-# C++ / Snippets
+# C++ / Snippets and Guidelines
 
 ## Class
 
