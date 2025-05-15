@@ -88,7 +88,7 @@
 * :warning: [Doing UTF-8 in Windows](https://www.codeproject.com/Articles/5252037/Doing-UTF-8-in-Windows) ([github](https://github.com/neacsum/utf8))
 
 ## Operators
-* [(cppreference) Operator Precedence](https://en.cppreference.com/w/cpp/language/operator_precedence)
+* [(cppreference) Operator precedence](https://en.cppreference.com/w/cpp/language/operator_precedence)
 * [(cppreference) Operator overloading](https://en.cppreference.com/w/cpp/language/operators)
 
 ## Initialization
