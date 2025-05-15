@@ -1322,6 +1322,8 @@ auto func_nocopy(const vs::util::optional_ref<const std::string> arg) -> void
 }
 
 const auto s = std::string{"world"};
+func_nocopy({});
+func_nocopy(std::nullopt);
 func_nocopy(s);
 ```
 
@@ -1372,7 +1374,7 @@ auto& value = *opt;
 ```
 
 :arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/reexs7fG5) [[object_watcher.h](src/object_watcher.h)] \
-:arrow_forward: [**Demo** (usage)](https://godbolt.org/z/6qj14Kcxq) [[util.h](src/util.h)]
+:arrow_forward: [**Demo** (usage)](https://godbolt.org/z/T57E6rh76) [[util.h](src/util.h)]
 
 </details>
 
