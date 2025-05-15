@@ -661,9 +661,9 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 * Non-copyable types
 * Cheap-to-copy types (≤ 2×sizeof(void\*)):
   * Fundamental types (integral, floating-point, bool, etc.)
-  * Iterators
   * Callable objects (functors, lambdas, std::function)
   * View types (std::string_view, std::span)
+  * Iterators
 * Smart pointers:
   * std::shared_ptr (sharing ownership)
   * std::unique_ptr (transfer ownership)
