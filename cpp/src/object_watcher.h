@@ -1,5 +1,5 @@
-#ifndef VS_DEBUG_OBJECT_WATCHER_H_
-#define VS_DEBUG_OBJECT_WATCHER_H_
+#ifndef VS_OBJECT_WATCHER_H_
+#define VS_OBJECT_WATCHER_H_
 
 #include <atomic>
 #include <iostream>
@@ -70,4 +70,4 @@ public:
 
 }  // namespace vs::debug
 
-#endif  // VS_DEBUG_OBJECT_WATCHER_H_
+#endif  // VS_OBJECT_WATCHER_H_
