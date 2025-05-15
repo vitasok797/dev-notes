@@ -2109,7 +2109,7 @@ auto same_as_string_2(T&& x) -> void {...}
 <details>
 <summary>Scope guard</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/rq66eaTWK) [[scope_guard.h](src/scope_guard.h)]
+:arrow_forward: [**Run**](https://godbolt.org/z/Eqb3Kov44) [[scope_guard.h](src/scope_guard.h)]
 
 ```cpp
 #include <iostream>
@@ -2124,11 +2124,11 @@ using vs::util::make_scope_guard;
 struct Resource
 {
     Resource() { cout << "resource created" << endl; }
-    void use() { cout << "resource using" << endl; }
-    void close() { cout << "resource closed" << endl; }
-} ;
+    auto use() -> void { cout << "resource using" << endl; }
+    auto close() -> void { cout << "resource closed" << endl; }
+};
 
-int main()
+auto main() -> int
 {
     {
         cout << "--- scope in 1 ---" << endl;
