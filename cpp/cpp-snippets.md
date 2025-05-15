@@ -661,14 +661,12 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
   * Callable objects (functors, lambdas, std::function)
   * View types (std::string_view, std::span)
   * Iterators
-* Optional:
-  * std::optional of cheap-to-copy types
-  * vs::optional_ref
+* std::optional of cheap-to-copy types
 * Smart pointers:
   * std::shared_ptr (sharing ownership)
   * std::unique_ptr (transfering ownership) (move)
 * Non-copyable types (move)
-* By-value-then-move idiom ([Passing parameters by value (by-value-then-move idiom)](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
+* By-value-then-move idiom (for constructors only) ([articles](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
 
 </details>
 
