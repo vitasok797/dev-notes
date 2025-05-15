@@ -1316,7 +1316,7 @@ func("hello");
 ```
 
 ```cpp
-auto func_nocopy(const vs::util::optional_ref<const std::string> arg) -> void
+auto func_nocopy(const vs::optional_ref<const std::string> arg) -> void
 {
     if (arg)
     {
@@ -1377,7 +1377,7 @@ auto& value = *opt;
 ```
 
 :arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/reexs7fG5) [[object_watcher.h](src/object_watcher.h)] \
-:arrow_forward: [**Demo** (usage)](https://godbolt.org/z/T57E6rh76) [[util.h](src/util.h)]
+:arrow_forward: [**Demo** (usage)](https://godbolt.org/z/oqM3e5b98) [[util.h](src/util.h)]
 
 </details>
 
