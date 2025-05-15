@@ -2142,7 +2142,7 @@ auto same_as_string_2(T&& x) -> void {...}
 <details>
 <summary>Scope guard</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/Eqb3Kov44) [[scope_guard.h](src/scope_guard.h)]
+:arrow_forward: [**Run**](https://godbolt.org/z/47hGf8qee) [[scope_guard.h](src/scope_guard.h)]
 
 ```cpp
 #include <iostream>
@@ -2151,8 +2151,8 @@ auto same_as_string_2(T&& x) -> void {...}
 
 using std::cout, std::endl;
 
-using vs::util::ScopeGuard;
-using vs::util::make_scope_guard;
+using vs::ScopeGuard;
+using vs::make_scope_guard;
 
 struct Resource
 {
