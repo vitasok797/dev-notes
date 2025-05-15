@@ -87,7 +87,7 @@ auto odd_numbers = v | ranges::views::remove_if(is_even);
 <details>
 <summary>Group by</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/heMPMh7c3)
+:arrow_forward: [**Run**](https://godbolt.org/z/xb6K58EhT)
 
 ```cpp
 #include <iostream>
@@ -109,7 +109,7 @@ auto operator<<(std::ostream& os, const Person& person) -> std::ostream&
 
 auto main() -> int
 {
-    auto people = std::vector<Person> 
+    auto people = std::vector<Person>
     {
         {"Melania", "Trump", 1970},
         {"Jared", "Kushner", 1981},
