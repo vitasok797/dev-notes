@@ -4,5 +4,5 @@
 * [Language](cpp-language.md)
 * [Libs](cpp-libs.md)
 * [Ranges](cpp-ranges.md)
-* [Snippets](cpp-snippets.md)
+* [Snippets and Guidelines](cpp-snippets.md)
 * [*Unsorted*](cpp-unsorted.md)
