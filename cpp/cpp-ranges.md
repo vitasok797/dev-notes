@@ -151,7 +151,7 @@ auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); })
 #include <iostream>
 #include <range/v3/all.hpp>
 
-int main()
+auto main() -> int
 {
     const auto text = std::string{"    Hello World "};
 
