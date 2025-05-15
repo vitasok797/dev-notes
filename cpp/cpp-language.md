@@ -146,12 +146,6 @@
 * [(Habr) RVO и NRVO в C++17](https://habr.com/ru/companies/vk/articles/666330/)
 * [(Abseil Tips) Tag Types](https://abseil.io/tips/198)
 
-### Types / Passing parameter by value (by-value-then-move idiom)
-* [(Youtube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style"](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
-* [Передача по ссылке или по значению?](https://scrutator.me/post/2018/07/30/value_vs_reference.aspx)
-* [(StackOverflow) Advantages of pass-by-value and std::move over pass-by-reference](https://stackoverflow.com/questions/51705967/advantages-of-pass-by-value-and-stdmove-over-pass-by-reference)
-* [(StackOverflow) Is the pass-by-value-and-then-move construct a bad idiom?](https://stackoverflow.com/questions/21035417/is-the-pass-by-value-and-then-move-construct-a-bad-idiom)
-
 ### Types / Functional
 * [(cppreference) std::function](https://en.cppreference.com/w/cpp/utility/functional/function)
 * [(cppreference) std::invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke)
@@ -167,7 +161,13 @@
 * [A moved-from optional](https://akrzemi1.wordpress.com/2022/09/06/a-moved-from-optional/)
 * [Deducing your intentions](https://akrzemi1.wordpress.com/2018/12/09/deducing-your-intentions/)
 
-### Types / Rvalue and Universal references
+### Types / Passing parameter by value (by-value-then-move idiom)
+* [(Youtube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style"](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
+* [Передача по ссылке или по значению?](https://scrutator.me/post/2018/07/30/value_vs_reference.aspx)
+* [(StackOverflow) Advantages of pass-by-value and std::move over pass-by-reference](https://stackoverflow.com/questions/51705967/advantages-of-pass-by-value-and-stdmove-over-pass-by-reference)
+* [(StackOverflow) Is the pass-by-value-and-then-move construct a bad idiom?](https://stackoverflow.com/questions/21035417/is-the-pass-by-value-and-then-move-construct-a-bad-idiom)
+
+### Types / Rvalue and Forwarding references
 * [(Habr) std::move vs. std::forward](https://habr.com/ru/articles/568306/)
 * [Universal References in C++11](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
 * [(Wiki) Прямая передача](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8F%D0%BC%D0%B0%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B0_(C%2B%2B))
