@@ -668,7 +668,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
   * vs::optional_ref
 * Smart pointers:
   * std::shared_ptr (sharing ownership)
-  * std::unique_ptr (transfer ownership) (move)
+  * std::unique_ptr (transfering ownership) (move)
 * Non-copyable types (move)
 
 </details>
