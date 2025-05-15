@@ -394,7 +394,7 @@ public:
 <details>
 <summary>Template class constructors/methods with T&& args</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/9ajoYG3Yh) [[object_watcher.h](src/object_watcher.h)]
+:arrow_forward: [**Run**](https://godbolt.org/z/8TfPfE9nd) [[object_watcher.h](src/object_watcher.h)]
 
 ```cpp
 #include <iostream>
@@ -415,7 +415,7 @@ struct Test1
     }
 
     // Catches only rvalues
-    // T&& is rvalue ref of type T (not forwarding/universal ref)
+    // T&& is rvalue ref of type T (not a forwarding ref)
     // So we need additional TestClass1(const T&) constructor
     // Note: both std::move and std::forward are acceptable
     Test1(T&& x) : x_{std::forward<T>(x)}
