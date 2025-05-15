@@ -658,13 +658,15 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 #### Pass by value
 [Language / Types / Passing parameters by value (by-value-then-move idiom)](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)
 
-* **Cheap-to-copy types (≤ 2×sizeof(void\*))**
-* **Non-copyable types**
-* Iterators
-* Callable objects (functors, lambdas, std::function)
-* View types (std::string_view, std::span)
-* std::shared_ptr (sharing ownership)
-* std::unique_ptr (taking ownership)
+* Cheap-to-copy types (≤ 2×sizeof(void\*)):
+  * Fundamental types (integral, floating-point, bool, etc.)
+  * Iterators
+  * Callable objects (functors, lambdas, std::function)
+  * View types (std::string_view, std::span)
+* Non-copyable types
+* Smart pointers:
+  * std::shared_ptr (sharing ownership)
+  * std::unique_ptr (transfer ownership)
 
 </details>
 
