@@ -241,7 +241,7 @@ auto main() -> int
 <details>
 <summary>Projections</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/341nroGr6)
+:arrow_forward: [**Run**](https://godbolt.org/z/Wz66dqMGM)
 
 ```cpp
 #include <iostream>
@@ -254,10 +254,10 @@ struct S
     double a = 0.0;
     double b = 0.0;
 
-    double area() const { return a * b; }
+    auto area() const -> double { return a * b; }
 };
 
-void demo1()
+auto demo1() -> void
 {
     std::cout << "--- demo 1 ----------------------------------" << std::endl << std::endl;
 
@@ -287,7 +287,7 @@ void demo1()
     print_s_names(v);
 }
 
-void demo2()
+auto demo2() -> void
 {
     std::cout << "--- demo 2 ----------------------------------" << std::endl << std::endl;
 
@@ -308,7 +308,7 @@ void demo2()
     std::cout << "min len alt: " << min_len_alt << std::endl;
 }
 
-int main()
+auto main() -> int
 {
     demo1();
     demo2();
