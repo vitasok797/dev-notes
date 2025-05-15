@@ -1420,7 +1420,7 @@ auto return_tuple() -> std::tuple<int, Watcher> { return {0, Watcher{1, 2}}; }
 
 Libs: [fmt](https://github.com/fmtlib/fmt)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/KGq79nbTW)
+:arrow_forward: [**Run**](https://godbolt.org/z/T59E8f48n)
 
 ```cpp
 #include <string>
@@ -1431,7 +1431,7 @@ Libs: [fmt](https://github.com/fmtlib/fmt)
 
 auto main() -> int
 {
-    auto v = std::vector<std::string>{"a", "b", "c", "d"};
+    auto v = std::vector{1, 2, 3, 4, 5};
 
     auto res = fmt::format("{}", fmt::join(v, ", "));
 
