@@ -87,7 +87,7 @@ auto odd_numbers = v | ranges::views::remove_if(is_even);
 <details>
 <summary>Group by</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/j4a31Toqo)
+:arrow_forward: [**Run**](https://godbolt.org/z/heMPMh7c3)
 
 ```cpp
 #include <iostream>
@@ -101,15 +101,15 @@ struct Person
     int year;
 };
 
-std::ostream& operator<<(std::ostream& os, const Person& person)
+auto operator<<(std::ostream& os, const Person& person) -> std::ostream&
 {
     os << person.surname << ", " << person.firstname << " was born in " << person.year;
     return os;
 }
 
-int main()
+auto main() -> int
 {
-    auto people = std::vector<Person>
+    auto people = std::vector<Person> 
     {
         {"Melania", "Trump", 1970},
         {"Jared", "Kushner", 1981},
