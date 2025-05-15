@@ -658,7 +658,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 #### Pass by value
 [Language / Types / Passing parameters by value (by-value-then-move idiom)](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)
 
-* Non-copyable types
+* Non-copyable types (moved)
 * Cheap-to-copy types (≤ 2×sizeof(void\*)):
   * Fundamental types (integral, floating-point, bool, etc.)
   * Callable objects (functors, lambdas, std::function)
