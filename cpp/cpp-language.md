@@ -161,7 +161,7 @@
 * [A moved-from optional](https://akrzemi1.wordpress.com/2022/09/06/a-moved-from-optional/)
 * [Deducing your intentions](https://akrzemi1.wordpress.com/2018/12/09/deducing-your-intentions/)
 
-### Types / Passing parameter by value (by-value-then-move idiom)
+### Types / Passing parameters by value (by-value-then-move idiom)
 * [(Youtube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style"](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
 * [Передача по ссылке или по значению?](https://scrutator.me/post/2018/07/30/value_vs_reference.aspx)
 * [(StackOverflow) Advantages of pass-by-value and std::move over pass-by-reference](https://stackoverflow.com/questions/51705967/advantages-of-pass-by-value-and-stdmove-over-pass-by-reference)
