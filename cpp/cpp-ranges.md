@@ -40,22 +40,22 @@
 <summary>Range as argument</summary>
 
 ```cpp
-void func([const] auto[&/&&/*] rng) {}
+auto func([const] auto[&/&&/*] rng) -> void {}
 ```
 
 ```cpp
-void func_with_concept([const] ranges::range auto[&/&&/*] rng) {}
-void func_with_concept([const] ranges::output_range auto[&/&&/*] rng) {}
+auto func_with_concept([const] ranges::range auto[&/&&/*] rng) -> void {}
+auto func_with_concept([const] ranges::output_range auto[&/&&/*] rng) -> void {}
 
 template<typename R>
 requires ranges::range<R>
-void func_with_concept([const] R[&/&&/*] rng) {}
+auto func_with_concept([const] R[&/&&/*] rng) -> void {}
 
 template<ranges::range R>
-void func_with_concept([const] R[&/&&/*] rng) {}
+auto func_with_concept([const] R[&/&&/*] rng) -> void {}
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/hExn53qWf)
+:arrow_forward: [**Demo**](https://godbolt.org/z/6z913s66d)
 
 </details>
 
