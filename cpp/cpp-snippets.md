@@ -656,7 +656,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 * [Prefer T* over T& when “no argument” is a valid option](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
 
 #### Pass by value
-[Language / Types / By-value-then-move idiom](cpp-language.md#types--by-value-then-move-idiom)
+[Language / Types / Passing parameters by value (by-value-then-move idiom)](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)
 
 * **Cheap-to-copy types (≤ 2×sizeof(void\*))**
 * **Non-copyable types**
