@@ -1201,13 +1201,14 @@ using std::cout, std::endl;
 ## Operators
 
 <details>
-<summary>Member/non-member operators</summary>
+<summary>Operators overload (member/non-member functions)</summary>
 
-* Members:
+* Use member function:
   * Unary operators
-  * Assignment operators (`+=` `–=` `/=` `*=` etc.) 
-  * `=` `()` `[]` `->`
-* Non-members:
+  * `=`, `()`, `[]`, `->`
+  * Binary operator that modifies its left operand (`+=`, `–=`, `/=`, `*=`, etc.)
+* Use non-member function (or friend):
+  * Binary operator that modifies its left operand, but you can’t add members to the class definition of the left operand (`<<`, etc.)
   * All other binary operators
 
 </details>
