@@ -2114,7 +2114,7 @@ using func = void (*) (int, int);
 </details>
 
 <details>
-<summary>Universal reference with type constrains</summary>
+<summary>Forwarding reference with type constrains</summary>
 
 [(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
 
