@@ -656,8 +656,6 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 * [Prefer T* over T& when “no argument” is a valid option](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
 
 #### Pass by value
-[Language / Types / Passing parameters by value (by-value-then-move idiom)](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)
-
 * Cheap-to-copy types (≤ 2×sizeof(void\*)):
   * Fundamental types (integral, floating-point, bool, etc.)
   * Callable objects (functors, lambdas, std::function)
@@ -670,6 +668,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
   * std::shared_ptr (sharing ownership)
   * std::unique_ptr (transfering ownership) (move)
 * Non-copyable types (move)
+* By-value-then-move idiom ([Passing parameters by value (by-value-then-move idiom)](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
 
 </details>
 
