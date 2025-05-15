@@ -1,5 +1,5 @@
-#ifndef VS_DEBUG_TYPE_INFO_H_
-#define VS_DEBUG_TYPE_INFO_H_
+#ifndef VS_TYPE_INFO_H_
+#define VS_TYPE_INFO_H_
 
 #include <string_view>
 #include <type_traits>
@@ -44,4 +44,4 @@ constexpr auto get_type_info()
 
 }  // namespace vs::debug
 
-#endif  // VS_DEBUG_TYPE_INFO_H_
+#endif  // VS_TYPE_INFO_H_
