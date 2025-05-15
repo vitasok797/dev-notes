@@ -663,6 +663,9 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
   * Callable objects (functors, lambdas, std::function)
   * View types (std::string_view, std::span)
   * Iterators
+* Optional:
+  * std::optional of cheap-to-copy types
+  * vs::optional_ref
 * Smart pointers:
   * std::shared_ptr (sharing ownership)
   * std::unique_ptr (transfer ownership) (move)
