@@ -1201,7 +1201,7 @@ using std::cout, std::endl;
 ## Operators
 
 <details>
-<summary>Operator overloading (member/non-member functions)</summary>
+<summary>Operator overloading</summary>
 
 [(Reference) Operator overloading](https://en.cppreference.com/w/cpp/language/operators)
 
