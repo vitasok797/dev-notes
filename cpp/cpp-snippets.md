@@ -884,6 +884,13 @@ for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
+Range-based for loops element type:
+```cpp
+for (      auto  x : cont)  // when you want to modify copies of the elements
+for (      auto& x : cont)  // when you want to modify the original elements
+for (const auto& x : cont)  // otherwise (when you just need to view the original elements)
+```
+
 Signed/unsigned cast with helpers:
 ```cpp
 auto x = vs::as_signed(integer_expr);
