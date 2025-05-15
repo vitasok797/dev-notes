@@ -89,6 +89,7 @@
 
 ## Operators
 * [(cppreference) Operator Precedence](https://en.cppreference.com/w/cpp/language/operator_precedence)
+* [(cppreference) Operator overloading](https://en.cppreference.com/w/cpp/language/operators)
 
 ## Initialization
 * [(cppreference) Initialization](https://en.cppreference.com/w/cpp/language/initialization)
