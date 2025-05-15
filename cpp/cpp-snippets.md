@@ -1207,7 +1207,7 @@ using std::cout, std::endl;
 
 * Use member function:
   * Unary operators
-  * Cannot be non-member (`=`, `()`, `[]`, `->`)
+  * Operators that cannot be non-member (`=`, `()`, `[]`, `->`)
   * Binary operator that modifies its left operand (`+=`, `–=`, `/=`, `*=`, etc.)
 * Use non-member function (or friend):
   * Binary operator that modifies its left operand, but you can’t add members to the class definition of the left operand (`<<`, etc.)
