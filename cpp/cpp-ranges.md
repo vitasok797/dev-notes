@@ -320,7 +320,7 @@ auto main() -> int
 <details>
 <summary>Custom views</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/Y96efWxf5)
+:arrow_forward: [**Run**](https://godbolt.org/z/xWhbK719d)
 
 ```cpp
 #include <format>
@@ -334,7 +334,7 @@ struct Person
     std::string surname;
     int year;
 
-    std::string to_str() const
+    auto to_str() const -> std::string
     {
         return std::format("{} {} was born in {}", surname, firstname, year);
     };
@@ -356,7 +356,7 @@ auto people_to_str_with_tag_view(auto proj)
     return ranges::views::transform(to_str_with_tag);
 }
 
-int main()
+auto main() -> int
 {
     auto people = std::vector<Person>
     {
