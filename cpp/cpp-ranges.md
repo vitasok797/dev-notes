@@ -213,14 +213,14 @@ v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { retur
 <details>
 <summary>Copy to ostream</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/Whbbv4Tnz)
+:arrow_forward: [**Run**](https://godbolt.org/z/jYqhn5r6Y)
 
 ```cpp
 #include <iostream>
 #include <vector>
 #include <range/v3/all.hpp>
 
-int main()
+auto main() -> int
 {
     auto v = std::vector<int>{1, 2, 3};
 
