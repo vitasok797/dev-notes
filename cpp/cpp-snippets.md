@@ -5,7 +5,7 @@
 <details>
 <summary>Class: guide</summary>
 
-### Structure
+#### Structure
 ```cpp
 class MyClass [final]
 {
@@ -43,7 +43,7 @@ private:
 };
 ```
 
-### Options
+#### Options
 
 | Inheritance | Polymorphic<br>usage | Type | Class options |
 |:---:|:---:|:---:|---|
@@ -55,7 +55,7 @@ private:
 | :white_check_mark: | :white_check_mark: | Concrete<br>(base) | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
 | :white_check_mark: | :white_check_mark: | Concrete<br>(derived) | • (optional) `final` class<br>• rule of five/zero (mark destructor as `override`/`final`) |
 
-### Tips
+#### Tips
 
 :warning: Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
 ```cpp
@@ -63,7 +63,7 @@ MyClass(MyClass&& other) noexcept {...}
 MyClass& operator=(MyClass&& other) noexcept {...}
 ```
 
-### Specifiers: virtual/override/final
+#### Specifiers: virtual/override/final
 ```cpp
 struct A
 {
@@ -214,7 +214,7 @@ auto vector_of_unique_ptr() -> void
 <details>
 <summary>Class: static/const fields</summary>
 
-### Summary
+#### Summary
 ```cpp
 struct Summary
 {
@@ -229,7 +229,7 @@ struct Summary
 };
 ```
 
-### Full
+#### Full
 ```cpp
 struct Static
 {
@@ -912,7 +912,7 @@ auto i = {3};  // C++11: std::initializer_list<int>
 <details>
 <summary>auto (trailing return type)</summary>
 
-### Trailing return type
+#### Trailing return type
 
 ```cpp
 [static/inline] [constexpr] TYPE non_member_func() [noexcept]
@@ -929,7 +929,7 @@ Person::PersonType Person::get_person_type()
 auto               Person::get_person_type() -> PersonType
 ```
 
-### Trailing return type (type deduction)
+#### Trailing return type (type deduction)
 
 ```cpp
 ... auto func() ... -> TYPE
@@ -1074,7 +1074,7 @@ auto main() -> int
 <details>
 <summary>Signed/unsigned</summary>
 
-### Loop counter
+#### Loop counter
 ```cpp
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
@@ -1082,13 +1082,13 @@ for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
-### Demos
+#### Demos
 :arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/vcnarnYb6) [[util.h](src/util.h)] \
 :arrow_forward: [**Demo** (compare)](https://godbolt.org/z/nG9x3oEM3) [[util.h](src/util.h)] \
 :arrow_forward: [**Demo** (index)](https://godbolt.org/z/8PzeK8qKE) [[util.h](src/util.h)] \
 :arrow_forward: [**Demo** (accumulate)](https://godbolt.org/z/Tq3MW9zn4) [[util.h](src/util.h)]
 
-### `-Wsign-compare` compiler option
+#### `-Wsign-compare` compiler option
 * Enabling:
   * GCC: `-Wsign-compare`, `-Wall`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
   * Clang: `-Wsign-compare`, `-Wextra` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
@@ -1101,7 +1101,7 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
   * Enable a similar option in the static analyzer
   * Static analyzer configuration: do not flag on a mixed signed/unsigned comparison where one of the arguments is `sizeof` or a call to container `.size()` and the other is `ptrdiff_t` ([ES.100](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es100-dont-mix-signed-and-unsigned-arithmetic))
 
-### `-Wtype-limits` compiler option
+#### `-Wtype-limits` compiler option
 * Enabling:
   * GCC: `-Wtype-limits`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
   * Clang: `-Wtype-limits` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
@@ -1264,7 +1264,7 @@ condition ? true_expression : false_expression
 <details>
 <summary>std::optional</summary>
 
-### Creating
+#### Creating
 ```cpp
 // inplace
 auto opt = std::make_optional<Type>(1, 2);
@@ -1277,7 +1277,7 @@ auto opt = std::optional<Type>{Type{1, 2}};
 auto opt = std::optional<Type>{type_inst};
 ```
 
-### Returning
+#### Returning
 ```cpp
 auto return_opt() -> std::optional<Type>
 {
@@ -1296,7 +1296,7 @@ auto return_opt() -> std::optional<Type>
 }
 ```
 
-### Passing as argument
+#### Passing as argument
 ```cpp
 auto func(const std::optional<std::string>& arg) -> void
 {
@@ -1325,7 +1325,7 @@ const auto s = std::string{"world"};
 func_nocopy(s);
 ```
 
-### Getting value
+#### Getting value
 ```cpp
 // opt.value() or *opt
 const auto& value = opt.value();             // const ref
@@ -1338,7 +1338,7 @@ auto value = opt.value_or(...);             // copy
 auto value = std::move(opt).value_or(...);  // move
 ```
 
-### Usage
+#### Usage
 ```cpp
 auto opt = return_opt();
 
@@ -1379,7 +1379,7 @@ auto& value = *opt;
 <details>
 <summary>std::tuple</summary>
 
-### Creating
+#### Creating
 ```cpp
 // inplace (single-arg ctor only)
 auto t = std::tuple<int, Watcher>{0, 1};
@@ -1389,7 +1389,7 @@ auto t = std::tuple<int, Watcher>{0, std::move(w)};
 auto t = std::tuple<int, Watcher>{0, Watcher{1, 2}};
 ```
 
-### Returning
+#### Returning
 ```cpp
 // inplace (single-arg + non-explicit ctor only)
 auto return_tuple() -> std::tuple<int, Watcher> { return {0, 1}; }
@@ -1588,7 +1588,7 @@ auto main() -> int
 <details>
 <summary>:warning: auto&& and forward :confused:</summary>
 
-### Summary
+#### Summary
 ```cpp
 for (auto&& el : my_range)
 auto&& [el, _] = my_tuple;
@@ -2037,19 +2037,19 @@ auto main() -> int
 
 [(Reference) Type alias](https://en.cppreference.com/w/cpp/language/type_alias)
 
-### Simple
+#### Simple
 ```cpp
 using UserId = int;
 using UserAccounts = std::map<UserId, std::vector<Account>>;
 ```
 
-### Template
+#### Template
 ```cpp
 template<typename T>
 using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
 
-### Nested
+#### Nested
 ```cpp
 struct Shape
 {
@@ -2063,7 +2063,7 @@ auto MakeShape() -> Shape
 }
 ```
 
-### Function pointer
+#### Function pointer
 ```cpp
 // Equivalent to: typedef void (*func)(int, int);
 using func = void (*) (int, int);
