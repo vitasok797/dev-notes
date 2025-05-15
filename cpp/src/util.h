@@ -1,5 +1,5 @@
-#ifndef VS_UTIL_UTIL_H_
-#define VS_UTIL_UTIL_H_
+#ifndef VS_UTIL_H_
+#define VS_UTIL_H_
 
 #include <cstddef>
 #include <functional>
@@ -21,13 +21,9 @@ constexpr auto signed_size(const T& t) -> SignedSize
     return static_cast<SignedSize>(as_signed(t.size()));
 }
 
-namespace util
-{
-
 template<typename T>
 using optional_ref = std::optional<std::reference_wrapper<T>>;
 
-}  // namespace util
 }  // namespace vs
 
-#endif  // VS_UTIL_UTIL_H_
+#endif  // VS_UTIL_H_
