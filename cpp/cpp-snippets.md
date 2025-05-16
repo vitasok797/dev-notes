@@ -662,10 +662,9 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 |---|---|:---:|:---:|---|
 | Read | `CheapToCopyType` || `CheapToCopyType` ||
 | Read | `HeavyType` || `const HeavyType&` | No ownership transfer |
-| Read (optional) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
-| Read (optional) | `AnyType` || `const AnyType*` | No ownership transfer |
-| Read/Write | `AnyType` || `AnyType&` | No ownership transfer |
-| Write | `AnyType` || `AnyType&` | Out parameter<br>Avoid |
+| Read (optional value) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
+| Read (optional value) | `AnyType` || `const AnyType*` | No ownership transfer |
+| Read/Write<br>Write | `AnyType` || `AnyType&` | No ownership transfer<br>:exclamation:Avoid using "Write" only out parameters |
 | Absorb | `NonCopyableType` | :white_check_mark: | `NonCopyableType` ||
 | Absorb (optimization) | `MovableType` | :white_check_mark: | `MovableType&&` | `std::move` in function |
 | Take ownership | `std::unique_ptr<>` | :white_check_mark: | `std::unique_ptr<>` | Assume `std::move` in function |
