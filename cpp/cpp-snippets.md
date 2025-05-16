@@ -670,20 +670,19 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | Reseat | `std::unique_ptr<AnyType>` || `std::unique_ptr<AnyType>&` ||
 | Reseat | `std::shared_ptr<AnyType>` || `std::shared_ptr<AnyType>&` ||
 
-##### Pass by value
-* Cheap-to-copy types (≤ 2×sizeof(void\*)):
-  * Fundamental types (integral, floating-point, bool, etc.)
-  * Callable objects (functors, lambdas, std::function)
-  * View types (std::string_view, std::span)
-  * Iterators
-* std::optional of cheap-to-copy types
-* Smart pointers:
-  * std::shared_ptr (sharing ownership)
-  * std::unique_ptr (transfering ownership) (move)
-* Non-copyable types (move)
+Cheap-to-copy types (≤ 2×sizeof(void\*)):
+* Fundamental types (integral, floating-point, bool, etc.)
+* Callable objects (functors, lambdas, std::function)
+* View types (std::string_view, std::span)
+* Iterators
+
+Additional "pass by value" cases:
+* Non-copyable types move (like std::unique_ptr)
 * By-value-then-move idiom (for constructors only as optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
 
 #### Returning
+
+:question: :question: :question:
 
 </details>
 
