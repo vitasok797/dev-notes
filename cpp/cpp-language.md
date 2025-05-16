@@ -79,10 +79,6 @@
 * [char8\_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
 * [Parse CSV file with Boost Tokenizer](http://mybyteofcode.blogspot.com/2010/02/parse-csv-file-with-boost-tokenizer-in.html)
 
-### Strings / string_view:
-* [(Habr) Три причины передавать std::string_view по значению](https://habr.com/ru/companies/otus/articles/726620/)
-* [(StackOverflow) Constructor taking std::string_view vs std::string and move](https://stackoverflow.com/questions/62411152/constructor-taking-stdstring-view-vs-stdstring-and-move/62411757#62411757)
-
 ## Encoding
 * ⚠️ [UTF-8 Everywhere](https://utf8everywhere.org/)
 * ⚠️ [The Wonderfully Terrible World of C and C++ Encoding APIs](https://thephd.dev/the-c-c++-rust-string-text-encoding-api-landscape)
@@ -163,11 +159,15 @@
 * [A moved-from optional](https://akrzemi1.wordpress.com/2022/09/06/a-moved-from-optional/)
 * [Deducing your intentions](https://akrzemi1.wordpress.com/2018/12/09/deducing-your-intentions/)
 
-### Types / Passing parameters by value (by-value-then-move idiom)
+### Types / Passing parameters
+
+### Types / Passing parameters by value, by-value-then-move idiom
 * [(Youtube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style"](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
 * [Передача по ссылке или по значению?](https://scrutator.me/post/2018/07/30/value_vs_reference.aspx)
 * [(StackOverflow) Advantages of pass-by-value and std::move over pass-by-reference](https://stackoverflow.com/questions/51705967/advantages-of-pass-by-value-and-stdmove-over-pass-by-reference)
 * [(StackOverflow) Is the pass-by-value-and-then-move construct a bad idiom?](https://stackoverflow.com/questions/21035417/is-the-pass-by-value-and-then-move-construct-a-bad-idiom)
+* [(StackOverflow) Constructor taking std::string_view vs std::string and move](https://stackoverflow.com/questions/62411152/constructor-taking-stdstring-view-vs-stdstring-and-move/62411757#62411757)
+* [(Habr) Три причины передавать std::string_view по значению](https://habr.com/ru/companies/otus/articles/726620/)
 
 ### Types / Rvalue and Forwarding references
 * [(Habr) std::move vs. std::forward](https://habr.com/ru/articles/568306/)
