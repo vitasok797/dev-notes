@@ -4,7 +4,7 @@
 * [Microsoft C++ Language Reference](https://learn.microsoft.com/en-us/cpp/cpp/cpp-language-reference?view=msvc-160)
 * [Metanit: Введение в C++](https://metanit.com/cpp/tutorial/1.1.php)
 * [Metanit: Qt](https://metanit.com/cpp/qt/)
-* :warning: [LearnCpp](https://www.learncpp.com/)
+* ⚠️ [LearnCpp](https://www.learncpp.com/)
 * [Essential C++](https://www.programming-books.io/essential/cpp/index.html)
 * [StudyPlan.dev: Professional C++](https://www.studyplan.dev/pro-cpp)
 
@@ -16,7 +16,7 @@
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 * [SEI CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
 * [Book: More C++ Idioms](https://en.wikibooks.org/wiki/Category:Book:More_C++_Idioms)
-* :warning: [HackingCpp](https://hackingcpp.com)
+* ⚠️ [HackingCpp](https://hackingcpp.com)
 
 ## Blogs
 * [Abseil Tips of the Week](https://abseil.io/tips/)
@@ -84,9 +84,9 @@
 * [(StackOverflow) Constructor taking std::string_view vs std::string and move](https://stackoverflow.com/questions/62411152/constructor-taking-stdstring-view-vs-stdstring-and-move/62411757#62411757)
 
 ## Encoding
-* :warning: [UTF-8 Everywhere](https://utf8everywhere.org/)
-* :warning: [The Wonderfully Terrible World of C and C++ Encoding APIs](https://thephd.dev/the-c-c++-rust-string-text-encoding-api-landscape)
-* :warning: [Doing UTF-8 in Windows](https://www.codeproject.com/Articles/5252037/Doing-UTF-8-in-Windows) ([github](https://github.com/neacsum/utf8))
+* ⚠️ [UTF-8 Everywhere](https://utf8everywhere.org/)
+* ⚠️ [The Wonderfully Terrible World of C and C++ Encoding APIs](https://thephd.dev/the-c-c++-rust-string-text-encoding-api-landscape)
+* ⚠️ [Doing UTF-8 in Windows](https://www.codeproject.com/Articles/5252037/Doing-UTF-8-in-Windows) ([github](https://github.com/neacsum/utf8))
 
 ## Operators
 * [(cppreference) Operator precedence](https://en.cppreference.com/w/cpp/language/operator_precedence)
@@ -114,7 +114,7 @@
 * [Almost Always const auto&](https://huixie90.github.io/Almost-always-const-auto-ref/)
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
 * [The case against Almost Always auto (AAA)](https://gist.github.com/Eisenwave/5cca27867828743bf50ad95d526f5a6e)
-* [(Youtube) Embracing Trailing Return Types and `auto` Return SAFELY in Modern C++](https://www.youtube.com/watch?v=Tnl7FnwJ2Uw)
+* [(Youtube) Embracing Trailing Return Types and auto Return SAFELY in Modern C++](https://www.youtube.com/watch?v=Tnl7FnwJ2Uw)
 
 ### Initialization / constexpr
 * [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
@@ -227,7 +227,6 @@
 
 ## Error handling
 * [Boost.Outcome: Review of Error Handling Frameworks](https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/alternatives.html)
-* :warning: [Boost: Error and Exception Handling](https://www.boost.org/community/error_handling.html)
 * [Exception-Safety in Generic Components](https://www.boost.org/doc/user-guide/exception-safety.html)
 * <https://isocpp.org/wiki/faq/exceptions>
 * <https://yosefk.com/c++fqa/exceptions.html>
@@ -266,7 +265,7 @@
 * [(Habr) Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
 * [(Habr) Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
 * [(Habr) Inline variables](https://habr.com/ru/companies/otus/articles/561772/)
-* :warning: [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
+* ⚠️ [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
 * [Calling C Code from C++ with ‘extern “C”‘](https://arne-mertz.de/2018/10/calling-cpp-code-from-c-with-extern-c/)
 * [std::string is not a Container for Raw Data](https://arne-mertz.de/2018/11/string-not-for-raw-data/)
 * [Attributes](https://en.cppreference.com/w/cpp/language/attributes)
