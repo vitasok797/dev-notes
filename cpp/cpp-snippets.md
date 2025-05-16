@@ -662,10 +662,10 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | In (optional) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | In (optional) | `AnyType` || `const AnyType*` | No ownership transfer |
 | In (absorb) | `NonCopyableType` | :white_check_mark: | `NonCopyableType` ||
-| In (absorb) | `std::unique_ptr<>` | :white_check_mark: | `std::unique_ptr<>` | Ownership transfer |
-| `optimization`<br>In (move from) | `MovableType` | :white_check_mark: | `MovableType&&` ||
+| In (absorb)<br>`optimization` | `MovableType` | :white_check_mark: | `MovableType&&` ||
 | In/Out | `AnyType` || `AnyType&` | No ownership transfer<br>Avoid "output parameters" |
 | In/Out (optional) | `AnyType` || `AnyType*` | No ownership transfer<br>:question: Avoid |
+| Transfer ownership | `std::unique_ptr<>` | :white_check_mark: | `std::unique_ptr<>` ||
 | Share ownership | `std::shared_ptr<>` || `std::shared_ptr<>` ||
 | Share ownership (may) | `std::shared_ptr<>` || `const std::shared_ptr<>&` ||
 | Reseat | `std::unique_ptr<>` || `std::unique_ptr<>&` ||
