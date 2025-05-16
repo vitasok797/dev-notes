@@ -661,10 +661,10 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 
 | Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
 |---|---|:---:|:---:|---|
-| Read, Copy | `CheapToCopyType` || `CheapToCopyType` ||
-| Read, Copy | `HeavyType` || `const HeavyType&` | No ownership transfer |
-| Read, Copy<br>(optional&nbsp;value) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
-| Read, Copy<br>(optional&nbsp;value) | `AnyType` || `const AnyType*` | No ownership transfer |
+| Read <sub>or copy</sub> | `CheapToCopyType` || `CheapToCopyType` ||
+| Read <sub>or copy</sub> | `HeavyType` || `const HeavyType&` | No ownership transfer |
+| Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
+| Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• :exclamation:Prefer return values to "Write" only out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
 | Consume | `MoveOnlyType` | :white_check_mark: | `MoveOnlyType` ||
 | Take ownership | `std::unique_ptr` | :white_check_mark: | `std::unique_ptr<>` | Assume `std::move` in function |
