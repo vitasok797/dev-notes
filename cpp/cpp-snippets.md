@@ -1327,7 +1327,7 @@ auto return_opt() -> std::optional<Type>
 
 #### Passing as argument
 ```cpp
-auto func(const std::optional<std::string>& arg) -> void
+auto func(std::optional<int> arg) -> void
 {
     if (arg)
     {
@@ -1338,11 +1338,11 @@ auto func(const std::optional<std::string>& arg) -> void
 
 func({});
 func(std::nullopt);
-func("hello");
+func(7);
 ```
 
 ```cpp
-auto func_nocopy(const vs::optional_ref<const std::string> arg) -> void
+auto func_nocopy(vs::optional_ref<const std::string> arg) -> void
 {
     if (arg)
     {
@@ -1350,7 +1350,7 @@ auto func_nocopy(const vs::optional_ref<const std::string> arg) -> void
     }
 }
 
-const auto s = std::string{"world"};
+const auto s = std::string{"hello"};
 func_nocopy({});
 func_nocopy(std::nullopt);
 func_nocopy(s);
@@ -1403,7 +1403,7 @@ auto& value = *opt;
 ```
 
 :arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/reexs7fG5) [[object_watcher.h](src/object_watcher.h)] \
-:arrow_forward: [**Demo** (usage)](https://godbolt.org/z/oqM3e5b98) [[util.h](src/util.h)]
+:arrow_forward: [**Demo** (usage)](https://godbolt.org/z/3fzbzM8oo) [[util.h](src/util.h)]
 
 </details>
 
