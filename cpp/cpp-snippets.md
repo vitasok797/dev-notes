@@ -654,23 +654,25 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 * :star: [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
 * [For general use, take T* or T& arguments rather than smart pointers](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f7-for-general-use-take-t-or-t-arguments-rather-than-smart-pointers)
 * [Prefer T* over T& when “no argument” is a valid option](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
+* [GotW #91 Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
+* [(HackingCpp) Function Parameters & Return Values](https://hackingcpp.com/cpp/design/function_interface_advice.png)
 * By-value-then-move idiom (for constructors only as optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
 
 | Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
 |---|---|:---:|:---:|---|
-| In | `CheapToCopyType` || `CheapToCopyType` ||
-| In | `HeavyType` || `const HeavyType&` | No ownership transfer |
-| In (optional) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
-| In (optional) | `AnyType` || `const AnyType*` | No ownership transfer |
-| In (absorb) | `NonCopyableType` | :white_check_mark: | `NonCopyableType` ||
-| In (absorb)<br>`optimization` | `MovableType` | :white_check_mark: | `MovableType&&` | `std::move` in function |
-| In/Out | `AnyType` || `AnyType&` | No ownership transfer |
-| Out | `AnyType` || `AnyType&` | Avoid |
-| Take ownership | `std::unique_ptr<>` | :white_check_mark: | `std::unique_ptr<>` ||
-| Share ownership | `std::shared_ptr<>` || `std::shared_ptr<>` ||
-| Share ownership (may) | `std::shared_ptr<>` || `const std::shared_ptr<>&` ||
-| Reseat | `std::unique_ptr<>` || `std::unique_ptr<>&` ||
-| Reseat | `std::shared_ptr<>` || `std::shared_ptr<>&` ||
+| Read | `CheapToCopyType` || `CheapToCopyType` ||
+| Read | `HeavyType` || `const HeavyType&` | No ownership transfer |
+| Read (optional) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
+| Read (optional) | `AnyType` || `const AnyType*` | No ownership transfer |
+| Read/Write | `AnyType` || `AnyType&` | No ownership transfer |
+| Write | `AnyType` || `AnyType&` | Out parameter<br>Avoid |
+| Absorb | `NonCopyableType` | :white_check_mark: | `NonCopyableType` ||
+| Absorb (optimization) | `MovableType` | :white_check_mark: | `MovableType&&` | `std::move` in function |
+| Take ownership | `std::unique_ptr<>` | :white_check_mark: | `std::unique_ptr<>` | Assume `std::move` in function |
+| Share ownership | `std::shared_ptr<>` || `std::shared_ptr<>` | Assume `std::move` in function |
+| May share ownership<br>May create `std::weak_ptr` | `std::shared_ptr<>` || `const std::shared_ptr<>&` ||
+| Reseat pointer | `std::unique_ptr<>` || `std::unique_ptr<>&` ||
+| Reseat pointer | `std::shared_ptr<>` || `std::shared_ptr<>&` ||
 
 Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Fundamental types (integral, floating-point, bool, etc.)
