@@ -659,12 +659,13 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 |---|---|:---:|:---:|---|
 | In | `CheapToCopyType` || `CheapToCopyType` ||
 | In | `HeavyType` || `const HeavyType&` | No ownership transfer |
-| In (move from) | `MovableType` | :white_check_mark: | `MovableType&&` | Optimization |
-| In (optional) | `AnyType` || `const AnyType*` | No ownership transfer |
 | In (optional) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
-| In/Out | `AnyType` || `AnyType&` | Avoid "output parameters" |
-| In/Out (optional) | `AnyType` || `AnyType*` | :question: Avoid |
-| Absorb | `std::unique_ptr<AnyType>` | :white_check_mark: | `std::unique_ptr<AnyType>` | Ownership transfer |
+| In (optional) | `AnyType` || `const AnyType*` | No ownership transfer |
+| In (absorb) | `NonCopyableType` | :white_check_mark: | `NonCopyableType` ||
+| In (absorb) | `std::unique_ptr<AnyType>` | :white_check_mark: | `std::unique_ptr<AnyType>` | Ownership transfer |
+| `optimization`<br>In (move from) | `MovableType` | :white_check_mark: | `MovableType&&` ||
+| In/Out | `AnyType` || `AnyType&` | No ownership transfer<br>Avoid "output parameters" |
+| In/Out (optional) | `AnyType` || `AnyType*` | No ownership transfer<br>:question: Avoid |
 | Share ownership | `std::shared_ptr<AnyType>` || `std::shared_ptr<AnyType>` ||
 | Share ownership (may) | `std::shared_ptr<AnyType>` || `const std::shared_ptr<AnyType>&` ||
 | Reseat | `std::unique_ptr<AnyType>` || `std::unique_ptr<AnyType>&` ||
@@ -677,7 +678,6 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Iterators
 
 Additional "pass by value" cases:
-* Non-copyable types move (like std::unique_ptr)
 * By-value-then-move idiom (for constructors only as optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
 
 #### Returning
