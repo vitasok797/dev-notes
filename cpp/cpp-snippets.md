@@ -651,13 +651,9 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <summary>Parameter passing</summary>
 
 #### Parameters
-* ⭐ [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
-* [F7](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f7-for-general-use-take-t-or-t-arguments-rather-than-smart-pointers),
-  [F60](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
-* [GotW #91 Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
-* [Should move-only types ever be passed by value?](http://scottmeyers.blogspot.com/2014/07/should-move-only-types-ever-be-passed.html)
-* [(HackingCpp) Function Parameters & Return Values](https://hackingcpp.com/cpp/design/function_interface_advice.png)
-* By-value-then-move idiom (for constructors only as optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
+* [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
+* [Language / Types / Passing parameters](cpp-language.md#types--passing-parameters)
+* By-value-then-move idiom (for constructors only as optimization) ([links](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
 
 | Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
 |---|---|:---:|:---:|---|
