@@ -664,9 +664,9 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | Read | `HeavyType` || `const HeavyType&` | No ownership transfer |
 | Read&nbsp;(optional&nbsp;value) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read&nbsp;(optional&nbsp;value) | `AnyType` || `const AnyType*` | No ownership transfer |
-| Read+Write<br>Write | `AnyType` || `AnyType&` | No ownership transfer<br>:exclamation:Avoid using "Write" only out parameters |
+| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• :exclamation:Avoid using "Write" only out parameters |
 | Consume | `NonCopyableType` | :white_check_mark: | `NonCopyableType` ||
-| Consume (optimized) | `MovableType` | :white_check_mark: | `MovableType&&` | `std::move` in function |
+| Consume | `MovableType` | :white_check_mark: | `MovableType&&` | • :exclamation:Optimization<br>• `std::move` in function |
 | Take ownership | `std::unique_ptr` | :white_check_mark: | `std::unique_ptr<>` | Assume `std::move` in function |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
 | May&nbsp;share&nbsp;ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
