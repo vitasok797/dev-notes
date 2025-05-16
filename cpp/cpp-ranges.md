@@ -55,7 +55,7 @@ template<ranges::range R>
 auto func_with_concept([const] R[&/&&/*] rng) -> void {}
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/6z913s66d)
+▶️[**Demo**](https://godbolt.org/z/6z913s66d)
 
 </details>
 
@@ -87,7 +87,7 @@ auto odd_numbers = v | ranges::views::remove_if(is_even);
 <details>
 <summary>Group by</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/xb6K58EhT)
+▶️[**Run**](https://godbolt.org/z/xb6K58EhT)
 
 ```cpp
 #include <iostream>
@@ -213,7 +213,7 @@ v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { retur
 <details>
 <summary>Copy to ostream</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/jYqhn5r6Y)
+▶️[**Run**](https://godbolt.org/z/jYqhn5r6Y)
 
 ```cpp
 #include <iostream>
@@ -241,7 +241,7 @@ auto main() -> int
 <details>
 <summary>Projections</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/Wz66dqMGM)
+▶️[**Run**](https://godbolt.org/z/Wz66dqMGM)
 
 ```cpp
 #include <iostream>
@@ -320,7 +320,7 @@ auto main() -> int
 <details>
 <summary>Custom views</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/xWhbK719d)
+▶️[**Run**](https://godbolt.org/z/xWhbK719d)
 
 ```cpp
 #include <format>
