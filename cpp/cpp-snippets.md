@@ -650,12 +650,24 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <details>
 <summary>Parameter passing</summary>
 
-#### Guidelines
-* [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
+#### Parameters
+* :star: [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
 * [For general use, take T* or T& arguments rather than smart pointers](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f7-for-general-use-take-t-or-t-arguments-rather-than-smart-pointers)
 * [Prefer T* over T& when “no argument” is a valid option](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
 
-#### Pass by value
+| Intent | Type | Parameter type | Comment |
+|---|---|:---:|---|
+| Read | `CheapToCopyType` | `CheapToCopyType` ||
+| Read | `HeavyType` | `const HeavyType&` | No ownership transfer |
+| Read (optional) | `AnyType` | `const AnyType*` | No ownership transfer |
+| Read (optional) | `CheapToCopyType` | `std::optional<CheapToCopyType>` ||
+| Write | `AnyType` | `AnyType&` | Avoid "output parameters" |
+| Write (optional) | `AnyType` | `AnyType*` | :question: Avoid |
+| Absorb | `MovableType` rvalue | `MovableType&&` ||
+| Absorb | `std::unique_ptr<AnyType>` rvalue | `std::unique_ptr<AnyType>` | Ownership transfer |
+| Share ownership | `std::shared_ptr<AnyType>` | `std::shared_ptr<AnyType>` ||
+
+##### Pass by value
 * Cheap-to-copy types (≤ 2×sizeof(void\*)):
   * Fundamental types (integral, floating-point, bool, etc.)
   * Callable objects (functors, lambdas, std::function)
@@ -667,6 +679,8 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
   * std::unique_ptr (transfering ownership) (move)
 * Non-copyable types (move)
 * By-value-then-move idiom (for constructors only as optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
+
+#### Returning
 
 </details>
 
