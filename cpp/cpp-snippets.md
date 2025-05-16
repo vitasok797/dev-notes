@@ -665,7 +665,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | Read, Copy<br>(optional&nbsp;value) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read, Copy<br>(optional&nbsp;value) | `AnyType` || `const AnyType*` | No ownership transfer |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• :exclamation:Prefer return values to "Write" only out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
-| Consume | `NonCopyableType` | :white_check_mark: | `NonCopyableType` ||
+| Consume | `MoveOnlyType` | :white_check_mark: | `MoveOnlyType` ||
 | Take ownership | `std::unique_ptr` | :white_check_mark: | `std::unique_ptr<>` | Assume `std::move` in function |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
 | May&nbsp;share&nbsp;ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
