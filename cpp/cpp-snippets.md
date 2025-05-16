@@ -667,11 +667,11 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | Read + Write<br>Write | `AnyType` || `AnyType&` | No ownership transfer<br>:exclamation:Avoid using "Write" only out parameters |
 | Absorb | `NonCopyableType` | :white_check_mark: | `NonCopyableType` ||
 | Absorb (optimization) | `MovableType` | :white_check_mark: | `MovableType&&` | `std::move` in function |
-| Take ownership | `std::unique_ptr<>` | :white_check_mark: | `std::unique_ptr<>` | Assume `std::move` in function |
-| Share ownership | `std::shared_ptr<>` || `std::shared_ptr<>` | Assume `std::move` in function |
-| May share ownership<br>May create `std::weak_ptr` | `std::shared_ptr<>` || `const std::shared_ptr<>&` ||
-| Reseat pointer | `std::unique_ptr<>` || `std::unique_ptr<>&` ||
-| Reseat pointer | `std::shared_ptr<>` || `std::shared_ptr<>&` ||
+| Take ownership | `std::unique_ptr` | :white_check_mark: | `std::unique_ptr<>` | Assume `std::move` in function |
+| Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
+| May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
+| Reseat pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
+| Reseat pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
 
 Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Fundamental types (integral, floating-point, bool, etc.)
