@@ -653,7 +653,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 #### Parameters
 * [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
 * [Language / Types / Passing parameters](cpp-language.md#types--passing-parameters)
-* By-value-then-move idiom (for constructors only as optimization) ([links](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
+* By-value-then-move idiom (constructors only optimization) ([links](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
 
 | Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
 |---|---|:---:|:---:|---|
@@ -661,7 +661,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | Read <sub>or copy</sub> | `HeavyType` || `const HeavyType&` | No ownership transfer |
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
-| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values to "Write" only out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
+| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over "Write" only out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
 | Consume | `MoveOnlyType` | ✅ | `MoveOnlyType` ||
 | Take ownership | `std::unique_ptr` | ✅ | `std::unique_ptr<>` | Assume `std::move` in function |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
