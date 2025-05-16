@@ -48,12 +48,12 @@ private:
 | Inheritance | Polymorphic<br>usage | Type | Class options |
 |:---:|:---:|:---:|---|
 | No ||| • `final` class<br>• rule of five/zero |
-| :white_check_mark: | No | Abstract | • destructor: `virtual ~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
-| :white_check_mark: | No | Concrete | • (optional) `final` class<br>• rule of five/zero |
-| :white_check_mark: | :white_check_mark: | Interface | • destructor: `virtual ~MyClass() = default;` |
-| :white_check_mark: | :white_check_mark: | Abstract | • destructor:<br>&nbsp;&nbsp;&nbsp;&nbsp;- base: `virtual ~MyClass() = 0;`<br>&nbsp;&nbsp;&nbsp;&nbsp;- derived: `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
-| :white_check_mark: | :white_check_mark: | Concrete<br>(base) | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
-| :white_check_mark: | :white_check_mark: | Concrete<br>(derived) | • (optional) `final` class<br>• rule of five/zero (mark destructor as `override`/`final`) |
+| ✅ | No | Abstract | • destructor: `virtual ~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
+| ✅ | No | Concrete | • (optional) `final` class<br>• rule of five/zero |
+| ✅ | ✅ | Interface | • destructor: `virtual ~MyClass() = default;` |
+| ✅ | ✅ | Abstract | • destructor:<br>&nbsp;&nbsp;&nbsp;&nbsp;- base: `virtual ~MyClass() = 0;`<br>&nbsp;&nbsp;&nbsp;&nbsp;- derived: `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
+| ✅ | ✅ | Concrete<br>(base) | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
+| ✅ | ✅ | Concrete<br>(derived) | • (optional) `final` class<br>• rule of five/zero (mark destructor as `override`/`final`) |
 
 #### Tips
 
@@ -666,8 +666,8 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• :exclamation:Prefer return values to "Write" only out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
-| Consume | `MoveOnlyType` | :white_check_mark: | `MoveOnlyType` ||
-| Take ownership | `std::unique_ptr` | :white_check_mark: | `std::unique_ptr<>` | Assume `std::move` in function |
+| Consume | `MoveOnlyType` | ✅ | `MoveOnlyType` ||
+| Take ownership | `std::unique_ptr` | ✅ | `std::unique_ptr<>` | Assume `std::move` in function |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
 | May&nbsp;share&nbsp;ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
 | Reseat pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
@@ -2078,9 +2078,9 @@ auto main() -> int
 
 | Declaration syntax      | Description                | Reassign?              | Modify target?         |
 |-------------------------|----------------------------|:----------------------:|:----------------------:|
-| **`const Type*`**       | **pointer-to**-const       | :white_check_mark: Yes | No                     |
-| `Type const*`           | **pointer-to**-const       | :white_check_mark: Yes | No                     |
-| **`Type* const`**       | const **pointer**          | No                     | :white_check_mark: Yes |
+| **`const Type*`**       | **pointer-to**-const       | ✅ Yes | No                     |
+| `Type const*`           | **pointer-to**-const       | ✅ Yes | No                     |
+| **`Type* const`**       | const **pointer**          | No                     | ✅ Yes |
 | **`const Type* const`** | const **pointer-to**-const | No                     | No                     |
 | `Type const* const`     | const **pointer-to**-const | No                     | No                     |
 
