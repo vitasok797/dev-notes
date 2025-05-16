@@ -657,12 +657,12 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 
 | Intent | Type | Parameter type | Comment |
 |---|---|:---:|---|
-| Read | `CheapToCopyType` | `CheapToCopyType` ||
-| Read | `HeavyType` | `const HeavyType&` | No ownership transfer |
-| Read (optional) | `AnyType` | `const AnyType*` | No ownership transfer |
-| Read (optional) | `CheapToCopyType` | `std::optional<CheapToCopyType>` ||
-| Write | `AnyType` | `AnyType&` | Avoid "output parameters" |
-| Write (optional) | `AnyType` | `AnyType*` | :question: Avoid |
+| In | `CheapToCopyType` | `CheapToCopyType` ||
+| In | `HeavyType` | `const HeavyType&` | No ownership transfer |
+| In (optional) | `AnyType` | `const AnyType*` | No ownership transfer |
+| In (optional) | `CheapToCopyType` | `std::optional<CheapToCopyType>` ||
+| In/Out | `AnyType` | `AnyType&` | Avoid "output parameters" |
+| In/Out (optional) | `AnyType` | `AnyType*` | :question: Avoid |
 | Absorb | `MovableType` rvalue | `MovableType&&` ||
 | Absorb | `std::unique_ptr<AnyType>` rvalue | `std::unique_ptr<AnyType>` | Ownership transfer |
 | Share ownership | `std::shared_ptr<AnyType>` | `std::shared_ptr<AnyType>` ||
