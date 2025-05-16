@@ -10,7 +10,7 @@
 ## HPC Toolkit Release Notes
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2024.html
-* :warning: `2023?`
+* ⚠️ `2023?`
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2022.html
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2021.html
 
