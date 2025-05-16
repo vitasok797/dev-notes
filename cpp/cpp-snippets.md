@@ -651,7 +651,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <summary>Parameter passing</summary>
 
 #### Parameters
-* :star: [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
+* ⭐ [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
 * [F7](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f7-for-general-use-take-t-or-t-arguments-rather-than-smart-pointers),
   [F60](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
 * [GotW #91 Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
@@ -665,7 +665,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | Read <sub>or copy</sub> | `HeavyType` || `const HeavyType&` | No ownership transfer |
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
-| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• :exclamation:Prefer return values to "Write" only out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
+| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• ⚠️ Prefer return values to "Write" only out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
 | Consume | `MoveOnlyType` | ✅ | `MoveOnlyType` ||
 | Take ownership | `std::unique_ptr` | ✅ | `std::unique_ptr<>` | Assume `std::move` in function |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
@@ -680,7 +680,7 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Iterators
 
 #### Returning
-:question: :question: :question:
+❓❓❓
 
 </details>
 
@@ -842,7 +842,7 @@ auto main() -> int
 <details>
 <summary>auto (AAA)</summary>
 
-:point_right: `auto` means "take exactly the type on the right-hand side, but strip off top-level const/volatile and &/&&"
+💡 `auto` means "take exactly the type on the right-hand side, but strip off top-level const/volatile and &/&&"
 
 Syntax:
 ```cpp
@@ -1640,7 +1640,7 @@ auto main() -> int
 </details>
 
 <details>
-<summary>🚧 auto&& and forward :confused:</summary>
+<summary>🚧 auto&& and forward 😕</summary>
 
 #### Summary
 ```cpp
