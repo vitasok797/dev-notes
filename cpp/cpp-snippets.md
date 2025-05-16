@@ -2076,13 +2076,13 @@ auto main() -> int
 <details>
 <summary>Pointers and const</summary>
 
-| Declaration syntax      | Description                | Reassign?              | Modify target?         |
-|-------------------------|----------------------------|:----------------------:|:----------------------:|
-| **`const Type*`**       | **pointer-to**-const       | ✅ Yes | No                     |
-| `Type const*`           | **pointer-to**-const       | ✅ Yes | No                     |
-| **`Type* const`**       | const **pointer**          | No                     | ✅ Yes |
-| **`const Type* const`** | const **pointer-to**-const | No                     | No                     |
-| `Type const* const`     | const **pointer-to**-const | No                     | No                     |
+| Declaration syntax      | Description                | Reassign? | Modify target? |
+|-------------------------|----------------------------|:---------:|:--------------:|
+| **`const Type*`**       | **pointer-to**-const       | Yes       | No             |
+| `Type const*`           | **pointer-to**-const       | Yes       | No             |
+| **`Type* const`**       | const **pointer**          | No        | Yes            |
+| **`const Type* const`** | const **pointer-to**-const | No        | No             |
+| `Type const* const`     | const **pointer-to**-const | No        | No             |
 
 </details>
 
