@@ -652,8 +652,8 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 
 #### Parameters
 * :star: [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
-* [For general use, take T* or T& arguments rather than smart pointers](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f7-for-general-use-take-t-or-t-arguments-rather-than-smart-pointers)
-* [Prefer T* over T& when “no argument” is a valid option](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
+* [F7](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f7-for-general-use-take-t-or-t-arguments-rather-than-smart-pointers),
+  [F60](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
 * [GotW #91 Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
 * [(HackingCpp) Function Parameters & Return Values](https://hackingcpp.com/cpp/design/function_interface_advice.png)
 * By-value-then-move idiom (for constructors only as optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
@@ -664,7 +664,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | Read, Copy | `HeavyType` || `const HeavyType&` | No ownership transfer |
 | Read, Copy<br>(optional&nbsp;value) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read, Copy<br>(optional&nbsp;value) | `AnyType` || `const AnyType*` | No ownership transfer |
-| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• :exclamation:Prefer return values to output ("Write" only) parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
+| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• :exclamation:Prefer return values to "Write" only out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
 | Consume | `NonCopyableType` | :white_check_mark: | `NonCopyableType` ||
 | Take ownership | `std::unique_ptr` | :white_check_mark: | `std::unique_ptr<>` | Assume `std::move` in function |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
