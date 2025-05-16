@@ -655,20 +655,20 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 * [For general use, take T* or T& arguments rather than smart pointers](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f7-for-general-use-take-t-or-t-arguments-rather-than-smart-pointers)
 * [Prefer T* over T& when “no argument” is a valid option](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
 
-| Intent | Type | Parameter type | Comment |
-|---|---|:---:|---|
-| In | `CheapToCopyType` | `CheapToCopyType` ||
-| In | `HeavyType` | `const HeavyType&` | No ownership transfer |
-| In (optional) | `AnyType` | `const AnyType*` | No ownership transfer |
-| In (optional) | `CheapToCopyType` | `std::optional<CheapToCopyType>` ||
-| In/Out | `AnyType` | `AnyType&` | Avoid "output parameters" |
-| In/Out (optional) | `AnyType` | `AnyType*` | :question: Avoid |
-| Absorb | `MovableType` rvalue | `MovableType&&` ||
-| Absorb | `std::unique_ptr<AnyType>` rvalue | `std::unique_ptr<AnyType>` | Ownership transfer |
-| Share | `std::shared_ptr<AnyType>` | `std::shared_ptr<AnyType>` ||
-| Share (may) | `std::shared_ptr<AnyType>` | `const std::shared_ptr<AnyType>&` ||
-| Reseat | `std::unique_ptr<AnyType>` | `std::unique_ptr<AnyType>&` ||
-| Reseat | `std::shared_ptr<AnyType>` | `std::shared_ptr<AnyType>&` ||
+| Intent | Type | Rvalue<br>only | Parameter type | Comment |
+|---|---|:---:|:---:|---|
+| In | `CheapToCopyType` || `CheapToCopyType` ||
+| In | `HeavyType` || `const HeavyType&` | No ownership transfer |
+| In (optional) | `AnyType` || `const AnyType*` | No ownership transfer |
+| In (optional) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
+| In/Out | `AnyType` || `AnyType&` | Avoid "output parameters" |
+| In/Out (optional) | `AnyType` || `AnyType*` | :question: Avoid |
+| Absorb | `MovableType` | :white_check_mark: | `MovableType&&` ||
+| Absorb | `std::unique_ptr<AnyType>` | :white_check_mark: | `std::unique_ptr<AnyType>` | Ownership transfer |
+| Share | `std::shared_ptr<AnyType>` || `std::shared_ptr<AnyType>` ||
+| Share (may) | `std::shared_ptr<AnyType>` || `const std::shared_ptr<AnyType>&` ||
+| Reseat | `std::unique_ptr<AnyType>` || `std::unique_ptr<AnyType>&` ||
+| Reseat | `std::shared_ptr<AnyType>` || `std::shared_ptr<AnyType>&` ||
 
 ##### Pass by value
 * Cheap-to-copy types (≤ 2×sizeof(void\*)):
