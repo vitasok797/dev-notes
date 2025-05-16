@@ -1016,7 +1016,7 @@ for (auto thing = foo(); auto& x : thing.items()) {...}  // OK
 </details>
 
 <details>
-<summary>⚠️ Structured Binding</summary>
+<summary>🚧 Structured Binding</summary>
 
 [(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
 
@@ -1513,7 +1513,7 @@ auto main() -> int
 ## Type
 
 <details>
-<summary>⚠️ auto&& resolving</summary>
+<summary>🚧 auto&& resolving</summary>
 
 ▶️[**Run**](https://godbolt.org/z/vznsdzoTc)
 
@@ -1640,7 +1640,7 @@ auto main() -> int
 </details>
 
 <details>
-<summary>⚠️ auto&& and forward :confused:</summary>
+<summary>🚧 auto&& and forward :confused:</summary>
 
 #### Summary
 ```cpp
