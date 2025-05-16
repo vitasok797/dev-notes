@@ -662,14 +662,14 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 |---|---|:---:|:---:|---|
 | Read | `CheapToCopyType` || `CheapToCopyType` ||
 | Read | `HeavyType` || `const HeavyType&` | No ownership transfer |
-| Read (optional value) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
-| Read (optional value) | `AnyType` || `const AnyType*` | No ownership transfer |
-| Read + Write<br>Write | `AnyType` || `AnyType&` | No ownership transfer<br>:exclamation:Avoid using "Write" only out parameters |
+| Read&nbsp;(optional&nbsp;value) | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
+| Read&nbsp;(optional&nbsp;value) | `AnyType` || `const AnyType*` | No ownership transfer |
+| Read+Write<br>Write | `AnyType` || `AnyType&` | No ownership transfer<br>:exclamation:Avoid using "Write" only out parameters |
 | Absorb | `NonCopyableType` | :white_check_mark: | `NonCopyableType` ||
-| Absorb (optimization) | `MovableType` | :white_check_mark: | `MovableType&&` | `std::move` in function |
+| Absorb (optimized) | `MovableType` | :white_check_mark: | `MovableType&&` | `std::move` in function |
 | Take ownership | `std::unique_ptr` | :white_check_mark: | `std::unique_ptr<>` | Assume `std::move` in function |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
-| May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
+| May&nbsp;share&nbsp;ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
 | Reseat pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
 | Reseat pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
 
