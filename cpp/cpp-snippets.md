@@ -57,7 +57,7 @@ private:
 
 #### Tips
 
-:warning: Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
+⚠️ Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
 ```cpp
 MyClass(MyClass&& other) noexcept {...}
 MyClass& operator=(MyClass&& other) noexcept {...}
@@ -114,7 +114,7 @@ public:
 };
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/7evMYToW4)
+▶️[**Demo**](https://godbolt.org/z/7evMYToW4)
 
 </details>
 
@@ -138,7 +138,7 @@ public:
 };
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/hsE9v5dEa)
+▶️[**Demo**](https://godbolt.org/z/hsE9v5dEa)
 
 </details>
 
@@ -207,7 +207,7 @@ auto vector_of_unique_ptr() -> void
 }
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/zKv78hE71)
+▶️[**Demo**](https://godbolt.org/z/zKv78hE71)
 
 </details>
 
@@ -260,7 +260,7 @@ struct NonStatic
 };
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/7bKoo59Mv)
+▶️[**Demo**](https://godbolt.org/z/7bKoo59Mv)
 
 </details>
 
@@ -291,7 +291,7 @@ private:
 <details>
 <summary>Constructors: inheritance (hierarchy)</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/Kdo6acEh7)
+▶️[**Run**](https://godbolt.org/z/Kdo6acEh7)
 
 ```cpp
 #include <iostream>
@@ -394,7 +394,7 @@ public:
 <details>
 <summary>Template class constructors/methods with T&& args</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/8TfPfE9nd) [[object_watcher.h](src/object_watcher.h)]
+▶️[**Run**](https://godbolt.org/z/8TfPfE9nd) [[object_watcher.h](src/object_watcher.h)]
 
 ```cpp
 #include <iostream>
@@ -499,8 +499,8 @@ auto main() -> int
 <details>
 <summary>Object Watcher</summary>
 
-:arrow_forward: [**Demo** (CtorWatcher)](https://godbolt.org/z/f6r8obT7W) [[object_watcher.h](src/object_watcher.h)] \
-:arrow_forward: [**Demo** (ObjWatcher)](https://godbolt.org/z/zWoMMTdqz) [[object_watcher.h](src/object_watcher.h)]
+▶️[**Demo** (CtorWatcher)](https://godbolt.org/z/f6r8obT7W) [[object_watcher.h](src/object_watcher.h)] \
+▶️[**Demo** (ObjWatcher)](https://godbolt.org/z/zWoMMTdqz) [[object_watcher.h](src/object_watcher.h)]
 
 </details>
 
@@ -518,7 +518,7 @@ struct {} _ = ...
 <details>
 <summary>Type info (overload resolution test)</summary>
 
-:arrow_forward: [**Demo** (overload resolution test)](https://godbolt.org/z/jGWMzWvE9) [[type_info.h](src/type_info.h)]
+▶️[**Demo** (overload resolution test)](https://godbolt.org/z/jGWMzWvE9) [[type_info.h](src/type_info.h)]
 
 </details>
 
@@ -527,7 +527,7 @@ struct {} _ = ...
 <details>
 <summary>Dispatch table</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/dY9qeP87v)
+▶️[**Run**](https://godbolt.org/z/dY9qeP87v)
 
 ```cpp
 #include <functional>
@@ -592,14 +592,14 @@ auto func_arg(auto f) -> void
 }
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/bE63qnnhM)
+▶️[**Demo**](https://godbolt.org/z/bE63qnnhM)
 
 </details>
 
 <details>
 <summary>Function object</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/bssqEqqMj)
+▶️[**Run**](https://godbolt.org/z/bssqEqqMj)
 
 ```cpp
 #include <iostream>
@@ -687,7 +687,7 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 <details>
 <summary>Projection</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/YT7ToaYvd)
+▶️[**Run**](https://godbolt.org/z/YT7ToaYvd)
 
 ```cpp
 #include <functional>
@@ -783,14 +783,14 @@ auto get_data() -> std::tuple<int, double>
 }
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/j8dGva4bT)
+▶️[**Demo**](https://godbolt.org/z/j8dGva4bT)
 
 </details>
 
 <details>
 <summary>std::apply</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/3Gs98nrhG)
+▶️[**Run**](https://godbolt.org/z/3Gs98nrhG)
 
 ```cpp
 #include <iostream>
@@ -813,7 +813,7 @@ auto main() -> int
 <details>
 <summary>std::make_from_tuple</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/5PcK5hev7)
+▶️[**Run**](https://godbolt.org/z/5PcK5hev7)
 
 ```cpp
 #include <iostream>
@@ -1016,7 +1016,7 @@ for (auto thing = foo(); auto& x : thing.items()) {...}  // OK
 </details>
 
 <details>
-<summary>:warning: Structured Binding</summary>
+<summary>⚠️ Structured Binding</summary>
 
 [(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
 
@@ -1090,7 +1090,7 @@ auto main() -> int
 
 [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/1orqxaq9d) [[math.h](src/math.h)]
+▶️[**Demo**](https://godbolt.org/z/1orqxaq9d) [[math.h](src/math.h)]
 
 </details>
 
@@ -1106,10 +1106,10 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
 #### Demos
-:arrow_forward: [**Demo** (arithmetic)](https://godbolt.org/z/vcnarnYb6) [[util.h](src/util.h)] \
-:arrow_forward: [**Demo** (compare)](https://godbolt.org/z/nG9x3oEM3) [[util.h](src/util.h)] \
-:arrow_forward: [**Demo** (index)](https://godbolt.org/z/8PzeK8qKE) [[util.h](src/util.h)] \
-:arrow_forward: [**Demo** (accumulate)](https://godbolt.org/z/Tq3MW9zn4) [[util.h](src/util.h)]
+▶️[**Demo** (arithmetic)](https://godbolt.org/z/vcnarnYb6) [[util.h](src/util.h)] \
+▶️[**Demo** (compare)](https://godbolt.org/z/nG9x3oEM3) [[util.h](src/util.h)] \
+▶️[**Demo** (index)](https://godbolt.org/z/8PzeK8qKE) [[util.h](src/util.h)] \
+▶️[**Demo** (accumulate)](https://godbolt.org/z/Tq3MW9zn4) [[util.h](src/util.h)]
 
 #### `-Wsign-compare` compiler option
 * Enabling:
@@ -1272,7 +1272,7 @@ public:
 };
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/fxPqf4GKW)
+▶️[**Demo**](https://godbolt.org/z/fxPqf4GKW)
 
 </details>
 
@@ -1399,8 +1399,8 @@ auto& value = *opt;
 // use: value
 ```
 
-:arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/reexs7fG5) [[object_watcher.h](src/object_watcher.h)] \
-:arrow_forward: [**Demo** (usage)](https://godbolt.org/z/3fzbzM8oo) [[util.h](src/util.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/reexs7fG5) [[object_watcher.h](src/object_watcher.h)] \
+▶️[**Demo** (usage)](https://godbolt.org/z/3fzbzM8oo) [[util.h](src/util.h)]
 
 </details>
 
@@ -1430,7 +1430,7 @@ auto return_tuple() -> std::tuple<int, Watcher> { return {0, std::move(w)}; }
 auto return_tuple() -> std::tuple<int, Watcher> { return {0, Watcher{1, 2}}; }
 ```
 
-:arrow_forward: [**Demo** (initialization)](https://godbolt.org/z/b9cPfqq5q) [[object_watcher.h](src/object_watcher.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/b9cPfqq5q) [[object_watcher.h](src/object_watcher.h)]
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
@@ -1443,7 +1443,7 @@ auto return_tuple() -> std::tuple<int, Watcher> { return {0, Watcher{1, 2}}; }
 
 Libs: [fmt](https://github.com/fmtlib/fmt)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/T59E8f48n)
+▶️[**Run**](https://godbolt.org/z/T59E8f48n)
 
 ```cpp
 #include <string>
@@ -1467,7 +1467,7 @@ auto main() -> int
 <details>
 <summary>String builder</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/GG4YrYd8G)
+▶️[**Run**](https://godbolt.org/z/GG4YrYd8G)
 
 ```cpp
 #include <iostream>
@@ -1513,9 +1513,9 @@ auto main() -> int
 ## Type
 
 <details>
-<summary>:warning: auto&& resolving</summary>
+<summary>⚠️ auto&& resolving</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/vznsdzoTc)
+▶️[**Run**](https://godbolt.org/z/vznsdzoTc)
 
 ```cpp
 #include <map>
@@ -1640,7 +1640,7 @@ auto main() -> int
 </details>
 
 <details>
-<summary>:warning: auto&& and forward :confused:</summary>
+<summary>⚠️ auto&& and forward :confused:</summary>
 
 #### Summary
 ```cpp
@@ -1660,7 +1660,7 @@ else
 }
 ```
 
-:arrow_forward: [**Run**](https://godbolt.org/z/nK4dWzjM6)
+▶️[**Run**](https://godbolt.org/z/nK4dWzjM6)
 
 ```cpp
 #include <iostream>
@@ -1889,7 +1889,7 @@ auto main() -> int
 
 Libs: [magic_enum](https://github.com/Neargye/magic_enum)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/69fs8a7G6)
+▶️[**Run**](https://godbolt.org/z/69fs8a7G6)
 
 ```cpp
 #include <cstdint>
@@ -2048,7 +2048,7 @@ auto main() -> int
 
 Libs: [strong_type](https://github.com/rollbear/strong_type)
 
-:arrow_forward: [**Run**](https://godbolt.org/z/YEs7TYKsj)
+▶️[**Run**](https://godbolt.org/z/YEs7TYKsj)
 
 ```cpp
 #include <iostream>
@@ -2156,7 +2156,7 @@ requires same_type<T, std::string>
 auto same_as_string_2(T&& x) -> void {...}
 ```
 
-:arrow_forward: [**Demo**](https://godbolt.org/z/hhbo7f8GT) [[type_info.h](src/type_info.h)]
+▶️[**Demo**](https://godbolt.org/z/hhbo7f8GT) [[type_info.h](src/type_info.h)]
 
 </details>
 
@@ -2165,7 +2165,7 @@ auto same_as_string_2(T&& x) -> void {...}
 <details>
 <summary>Scope guard</summary>
 
-:arrow_forward: [**Run**](https://godbolt.org/z/47hGf8qee) [[scope_guard.h](src/scope_guard.h)]
+▶️[**Run**](https://godbolt.org/z/47hGf8qee) [[scope_guard.h](src/scope_guard.h)]
 
 ```cpp
 #include <iostream>
