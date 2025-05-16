@@ -665,7 +665,10 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | In/Out (optional) | `AnyType` | `AnyType*` | :question: Avoid |
 | Absorb | `MovableType` rvalue | `MovableType&&` ||
 | Absorb | `std::unique_ptr<AnyType>` rvalue | `std::unique_ptr<AnyType>` | Ownership transfer |
-| Share ownership | `std::shared_ptr<AnyType>` | `std::shared_ptr<AnyType>` ||
+| Share | `std::shared_ptr<AnyType>` | `std::shared_ptr<AnyType>` ||
+| Share (may) | `std::shared_ptr<AnyType>` | `const std::shared_ptr<AnyType>&` ||
+| Reseat | `std::unique_ptr<AnyType>` | `std::unique_ptr<AnyType>&` ||
+| Reseat | `std::shared_ptr<AnyType>` | `std::shared_ptr<AnyType>&` ||
 
 ##### Pass by value
 * Cheap-to-copy types (≤ 2×sizeof(void\*)):
