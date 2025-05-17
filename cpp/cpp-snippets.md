@@ -765,8 +765,8 @@ auto main() -> int
 | Sink (take ownership) | `std::unique_ptr` | ✅ | `std::unique_ptr<>`❓ | Assume `std::move` in function ❓ |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
 | May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
-| Reseat pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
-| Reseat pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
+| Reassign pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
+| Reassign pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
 
 Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Fundamental types (integral, floating-point, bool, etc.)
