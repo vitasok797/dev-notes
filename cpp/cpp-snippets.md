@@ -839,6 +839,36 @@ auto func_arg(auto f) -> void
 </details>
 
 <details>
+<summary>Named arguments</summary>
+
+Libs: [strong_type](https://github.com/rollbear/strong_type)
+
+▶️[**Run**](https://godbolt.org/z/YEs7TYKsj)
+
+```cpp
+#include <iostream>
+#include <string>
+
+#include <strong_type/strong_type.hpp>
+
+using FirstName = strong::type<std::string, struct FirstName_tag>;
+using LastName = strong::type<std::string, struct LastName_tag>;
+
+auto func(const FirstName& first_name, const LastName& last_name) -> void
+{
+    std::cout << "FirstName: " << value_of(first_name) << std::endl;
+    std::cout << "LastName: " << value_of(last_name) << std::endl;
+}
+
+auto main() -> int
+{
+    func(FirstName{"John"}, LastName{"Doe"});
+}
+```
+
+</details>
+
+<details>
 <summary>Returning structured data</summary>
 
 ```cpp
@@ -2071,36 +2101,6 @@ auto main() -> int
 
     // OtherOptionFlags other_opt{OtherOption::OPT1, OtherOption::OPT2};
     // print_options(other_opt);
-}
-```
-
-</details>
-
-<details>
-<summary>Named arguments</summary>
-
-Libs: [strong_type](https://github.com/rollbear/strong_type)
-
-▶️[**Run**](https://godbolt.org/z/YEs7TYKsj)
-
-```cpp
-#include <iostream>
-#include <string>
-
-#include <strong_type/strong_type.hpp>
-
-using FirstName = strong::type<std::string, struct FirstName_tag>;
-using LastName = strong::type<std::string, struct LastName_tag>;
-
-auto func(const FirstName& first_name, const LastName& last_name) -> void
-{
-    std::cout << "FirstName: " << value_of(first_name) << std::endl;
-    std::cout << "LastName: " << value_of(last_name) << std::endl;
-}
-
-auto main() -> int
-{
-    func(FirstName{"John"}, LastName{"Doe"});
 }
 ```
 
