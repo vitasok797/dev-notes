@@ -763,7 +763,7 @@ auto main() -> int
 | Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over out parameters ("Write" only case) ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
 | Sink | `MoveOnlyType` | ✔️ | `MoveOnlyType`❓ | ❓ |
 | Sink (take ownership) | `std::unique_ptr` | ✔️ | `std::unique_ptr<>`❓ | Use `std::move` in function ❓ |
-| Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Use `std::move` in function |
+| Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Use `std::move` in function ❓ |
 | May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
 | Reassign pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
 | Reassign pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
@@ -786,8 +786,6 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 
 <details>
 <summary>🚧 Forwarding reference with type constraints</summary>
-
-[(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
 
 ```cpp
 #include <concepts>
