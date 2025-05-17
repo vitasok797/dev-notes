@@ -762,22 +762,22 @@ auto main() -> int
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over out parameters ("Write" only case) ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
 | Sink | `MoveOnlyType` | ✔️ | `MoveOnlyType`❓ | ❓ |
-| Sink (take ownership) | `std::unique_ptr` | ✔️ | `std::unique_ptr<>`❓ | Assume `std::move` in function ❓ |
-| Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
+| Sink (take ownership) | `std::unique_ptr` | ✔️ | `std::unique_ptr<>`❓ | Use `std::move` in function ❓ |
+| Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Use `std::move` in function |
 | May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
 | Reassign pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
 | Reassign pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
 
 Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Fundamental types (integral, floating-point, bool, etc.)
-* ❓ Callable objects (functors, lambdas, std::function)
-* View types (std::string_view, std::span)
 * Iterators
+* View types (std::string_view, std::span)
+* ❓ Callable objects (functors, lambdas, std::function)
 
 <sup>✱</sup>Possible optimizations for copying heavy types (`const HeavyType&` case):
-* Add rvalue reference overload and then std::move
-* Use forwarding reference and then std::forward
-* Pass by-value-then-move idiom (constructors only optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
+* Add rvalue reference function overload (then std::move)
+* Use forwarding reference (then std::forward).<br>Some type constraints can be added (std::same_as, std::derived_from, std::convertible_to, etc. ([concepts](https://en.cppreference.com/w/cpp/concepts#Core_language_concepts)))
+* Pass by value (then std::move). Assumed to be used only for constructors. See [info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)
 
 #### Returning
 ❓
@@ -785,7 +785,7 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 </details>
 
 <details>
-<summary>🚧 Forwarding reference with type constrains</summary>
+<summary>🚧 Forwarding reference with type constraints</summary>
 
 [(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
 
