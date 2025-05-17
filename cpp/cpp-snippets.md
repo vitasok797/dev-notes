@@ -2115,11 +2115,11 @@ auto main() -> int
 
 | Declaration syntax      | Description                | Reassign? | Modify target? |
 |-------------------------|----------------------------|:---------:|:--------------:|
-| **`const Type*`**       | **pointer-to**-const       | Yes       | No             |
-| `Type const*`           | **pointer-to**-const       | Yes       | No             |
-| **`Type* const`**       | const **pointer**          | No        | Yes            |
-| **`const Type* const`** | const **pointer-to**-const | No        | No             |
-| `Type const* const`     | const **pointer-to**-const | No        | No             |
+| **`const Type*`**       | **pointer-to**-const       | ✔️ ||
+| `Type const*`           | **pointer-to**-const       | ✔️ ||
+| **`Type* const`**       | const **pointer**          || ✔️ |
+| **`const Type* const`** | const **pointer-to**-const |||
+| `Type const* const`     | const **pointer-to**-const |||
 
 </details>
 
