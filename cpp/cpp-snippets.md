@@ -757,7 +757,7 @@ auto main() -> int
 | Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
 |---|---|:---:|:---:|---|
 | Read <sub>or copy</sub> | `CheapToCopyType` || `CheapToCopyType` ||
-| Read <sub>or copy</sub> | `HeavyType` || `const HeavyType&` | No ownership transfer |
+| Read <sub>or copy</sub> | `HeavyType` || `const HeavyType&` | • No ownership transfer<br>• See possible optimazations<sup>✱</sup> |
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over out parameters ("Write" only) ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
@@ -774,10 +774,10 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * View types (std::string_view, std::span)
 * Iterators
 
-Possible optimizations:
-* ❓
-* ❓
-* By-value-then-move idiom (constructors only optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
+<sup>✱</sup>Possible optimizations for copying heavy types (`const HeavyType&` case):
+* Add rvalue reference overload and then std::move
+* Use forwarding reference and then std::forward
+* Pass by-value-then-move idiom (constructors only optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
 
 #### Returning
 ❓
