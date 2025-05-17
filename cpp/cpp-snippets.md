@@ -795,25 +795,12 @@ auto convertible_to_double(T&& x) -> void {...}
 ```
 
 ```cpp
-#include <concepts>
-
 template<typename T>
-requires std::same_as<std::decay_t<T>, std::string>
-auto same_as_string_1(T&& x) -> void {...}
-```
-
-```cpp
-#include <concepts>
-
-template<typename T1, typename T2>
-concept same_type = std::same_as<std::decay_t<T1>, std::decay_t<T2>>;
-
-template<typename T>
-requires same_type<T, std::string>
+requires vs::same_type_as<T, std::string>
 auto same_as_string_2(T&& x) -> void {...}
 ```
 
-▶️[**Demo**](https://godbolt.org/z/hhbo7f8GT) [[type_info.h](src/type_info.h)]
+▶️[**Demo**](https://godbolt.org/z/abK5ac8G8) [[type_info.h](src/type_info.h), [util.h](src/util.h)]
 
 </details>
 
