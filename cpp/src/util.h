@@ -1,6 +1,7 @@
 #ifndef VS_UTIL_H_
 #define VS_UTIL_H_
 
+#include <concepts>
 #include <cstddef>
 #include <functional>
 #include <optional>
