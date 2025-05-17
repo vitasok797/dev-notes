@@ -522,7 +522,7 @@ struct {} _ = ...
 
 </details>
 
-## Functional
+## Functions
 
 <details>
 <summary>Dispatch table</summary>
@@ -832,6 +832,8 @@ auto main() -> int
 ```
 
 </details>
+
+### Functions (Parameter passing)
 
 ## Initialization
 
