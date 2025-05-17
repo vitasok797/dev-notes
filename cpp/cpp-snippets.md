@@ -47,13 +47,13 @@ private:
 
 | Inheritance | Polymorphic<br>usage | Type | Class options |
 |:---:|:---:|:---:|---|
-| No ||| • `final` class<br>• rule of five/zero |
-| ✅ | No | Abstract | • destructor: `virtual ~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
-| ✅ | No | Concrete | • (optional) `final` class<br>• rule of five/zero |
-| ✅ | ✅ | Interface | • destructor: `virtual ~MyClass() = default;` |
-| ✅ | ✅ | Abstract | • destructor:<br>&nbsp;&nbsp;&nbsp;&nbsp;- base: `virtual ~MyClass() = 0;`<br>&nbsp;&nbsp;&nbsp;&nbsp;- derived: `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
-| ✅ | ✅ | Concrete<br>(base) | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
-| ✅ | ✅ | Concrete<br>(derived) | • (optional) `final` class<br>• rule of five/zero (mark destructor as `override`/`final`) |
+|||| • `final` class<br>• rule of five/zero |
+| ✔️ || Abstract | • destructor: `virtual ~MyClass() = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
+| ✔️ || Concrete | • (optional) `final` class<br>• rule of five/zero |
+| ✔️ | ✔️ | Interface | • destructor: `virtual ~MyClass() = default;` |
+| ✔️ | ✔️ | Abstract | • destructor:<br>&nbsp;&nbsp;&nbsp;&nbsp;- base: `virtual ~MyClass() = 0;`<br>&nbsp;&nbsp;&nbsp;&nbsp;- derived: `~MyClass() override = 0;`<br>• destructor body: `inline MyClass::~MyClass() {}` |
+| ✔️ | ✔️ | Concrete<br>(base) | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
+| ✔️ | ✔️ | Concrete<br>(derived) | • (optional) `final` class<br>• rule of five/zero (mark destructor as `override`/`final`) |
 
 #### Tips
 
