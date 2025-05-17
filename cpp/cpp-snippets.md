@@ -648,39 +648,6 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 </details>
 
 <details>
-<summary>Parameter passing</summary>
-
-#### Parameters
-* [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
-* [Language / Types / Passing parameters](cpp-language.md#types--passing-parameters)
-* By-value-then-move idiom (constructors only optimization) ([links](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
-
-| Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
-|---|---|:---:|:---:|---|
-| Read <sub>or copy</sub> | `CheapToCopyType` || `CheapToCopyType` ||
-| Read <sub>or copy</sub> | `HeavyType` || `const HeavyType&` | No ownership transfer |
-| Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
-| Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
-| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over out parameters ("Write" only) ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
-| Sink | `MoveOnlyType` | ✅ | `MoveOnlyType` ||
-| Sink (take ownership) | `std::unique_ptr` | ✅ | `std::unique_ptr<>` | Assume `std::move` in function |
-| Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
-| May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
-| Reseat pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
-| Reseat pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
-
-Cheap-to-copy types (≤ 2×sizeof(void\*)):
-* Fundamental types (integral, floating-point, bool, etc.)
-* Callable objects (functors, lambdas, std::function)
-* View types (std::string_view, std::span)
-* Iterators
-
-#### Returning
-❓❓❓
-
-</details>
-
-<details>
 <summary>Projection</summary>
 
 ▶️[**Run**](https://godbolt.org/z/YT7ToaYvd)
@@ -834,6 +801,74 @@ auto main() -> int
 </details>
 
 ### Functions / Parameter passing
+
+<details>
+<summary>Parameter passing</summary>
+
+#### Parameters
+* [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
+* [Language / Types / Passing parameters](cpp-language.md#types--passing-parameters)
+* By-value-then-move idiom (constructors only optimization) ([links](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
+
+| Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
+|---|---|:---:|:---:|---|
+| Read <sub>or copy</sub> | `CheapToCopyType` || `CheapToCopyType` ||
+| Read <sub>or copy</sub> | `HeavyType` || `const HeavyType&` | No ownership transfer |
+| Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
+| Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
+| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over out parameters ("Write" only) ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
+| Sink | `MoveOnlyType` | ✅ | `MoveOnlyType` ||
+| Sink (take ownership) | `std::unique_ptr` | ✅ | `std::unique_ptr<>` | Assume `std::move` in function |
+| Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
+| May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
+| Reseat pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
+| Reseat pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
+
+Cheap-to-copy types (≤ 2×sizeof(void\*)):
+* Fundamental types (integral, floating-point, bool, etc.)
+* Callable objects (functors, lambdas, std::function)
+* View types (std::string_view, std::span)
+* Iterators
+
+#### Returning
+❓❓❓
+
+</details>
+
+<details>
+<summary>Forwarding reference with type constrains</summary>
+
+[(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
+
+```cpp
+#include <concepts>
+
+template<std::convertible_to<double> T>
+auto convertible_to_double(T&& x) -> void {...}
+```
+
+```cpp
+#include <concepts>
+
+template<typename T>
+requires std::same_as<std::decay_t<T>, std::string>
+auto same_as_string_1(T&& x) -> void {...}
+```
+
+```cpp
+#include <concepts>
+
+template<typename T1, typename T2>
+concept same_type = std::same_as<std::decay_t<T1>, std::decay_t<T2>>;
+
+template<typename T>
+requires same_type<T, std::string>
+auto same_as_string_2(T&& x) -> void {...}
+```
+
+▶️[**Demo**](https://godbolt.org/z/hhbo7f8GT) [[type_info.h](src/type_info.h)]
+
+</details>
 
 ## Initialization
 
@@ -2120,41 +2155,6 @@ auto MakeShape() -> Shape
 // Equivalent to: typedef void (*func)(int, int);
 using func = void (*) (int, int);
 ```
-
-</details>
-
-<details>
-<summary>Forwarding reference with type constrains</summary>
-
-[(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
-
-```cpp
-#include <concepts>
-
-template<std::convertible_to<double> T>
-auto convertible_to_double(T&& x) -> void {...}
-```
-
-```cpp
-#include <concepts>
-
-template<typename T>
-requires std::same_as<std::decay_t<T>, std::string>
-auto same_as_string_1(T&& x) -> void {...}
-```
-
-```cpp
-#include <concepts>
-
-template<typename T1, typename T2>
-concept same_type = std::same_as<std::decay_t<T1>, std::decay_t<T2>>;
-
-template<typename T>
-requires same_type<T, std::string>
-auto same_as_string_2(T&& x) -> void {...}
-```
-
-▶️[**Demo**](https://godbolt.org/z/hhbo7f8GT) [[type_info.h](src/type_info.h)]
 
 </details>
 
