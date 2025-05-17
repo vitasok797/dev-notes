@@ -574,29 +574,6 @@ auto main() -> int
 </details>
 
 <details>
-<summary>Function as argument</summary>
-
-```cpp
-#include <functional>
-
-auto func_arg(std::function<int(int, int)> f) -> void
-{
-    int res = f(1, 2);
-}
-```
-
-```cpp
-auto func_arg(auto f) -> void
-{
-    int res = f(1, 2);
-}
-```
-
-▶️[**Demo**](https://godbolt.org/z/bE63qnnhM)
-
-</details>
-
-<details>
 <summary>Function object</summary>
 
 ▶️[**Run**](https://godbolt.org/z/bssqEqqMj)
@@ -719,38 +696,6 @@ auto main() -> int
 </details>
 
 <details>
-<summary>Return structured data</summary>
-
-```cpp
-struct Data { int i; double d; };
-
-auto get_data() -> Data
-{
-    return {42, 0.1};
-    return Data{42, 0.1};
-}
-```
-
-```cpp
-auto get_data()
-{
-    struct Data { int i; double d; };
-    return Data{42, 0.2};
-}
-```
-
-```cpp
-auto get_data() -> std::tuple<int, double>
-{
-    return {42, 0.3};
-}
-```
-
-▶️[**Demo**](https://godbolt.org/z/j8dGva4bT)
-
-</details>
-
-<details>
 <summary>std::apply</summary>
 
 ▶️[**Run**](https://godbolt.org/z/3Gs98nrhG)
@@ -867,6 +812,61 @@ auto same_as_string_2(T&& x) -> void {...}
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/hhbo7f8GT) [[type_info.h](src/type_info.h)]
+
+</details>
+
+<details>
+<summary>Function as argument</summary>
+
+```cpp
+#include <functional>
+
+auto func_arg(std::function<int(int, int)> f) -> void
+{
+    int res = f(1, 2);
+}
+```
+
+```cpp
+auto func_arg(auto f) -> void
+{
+    int res = f(1, 2);
+}
+```
+
+▶️[**Demo**](https://godbolt.org/z/bE63qnnhM)
+
+</details>
+
+<details>
+<summary>Returning structured data</summary>
+
+```cpp
+struct Data { int i; double d; };
+
+auto get_data() -> Data
+{
+    return {42, 0.1};
+    return Data{42, 0.1};
+}
+```
+
+```cpp
+auto get_data()
+{
+    struct Data { int i; double d; };
+    return Data{42, 0.2};
+}
+```
+
+```cpp
+auto get_data() -> std::tuple<int, double>
+{
+    return {42, 0.3};
+}
+```
+
+▶️[**Demo**](https://godbolt.org/z/j8dGva4bT)
 
 </details>
 
