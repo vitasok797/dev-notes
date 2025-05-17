@@ -781,7 +781,7 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 </details>
 
 <details>
-<summary>Forwarding reference with type constrains</summary>
+<summary>🚧 Forwarding reference with type constrains</summary>
 
 [(Reddit) A syntax for universal references of concrete types](https://www.reddit.com/r/cpp/comments/hyfz76/a_syntax_for_universal_references_of_concrete/)
 
@@ -816,7 +816,7 @@ auto same_as_string_2(T&& x) -> void {...}
 </details>
 
 <details>
-<summary>Function as argument</summary>
+<summary>🚧 Function as argument</summary>
 
 ```cpp
 #include <functional>
