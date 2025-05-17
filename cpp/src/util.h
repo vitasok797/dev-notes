@@ -24,6 +24,9 @@ constexpr auto signed_size(const T& t) -> SignedSize
 template<typename T>
 using optional_ref = std::optional<std::reference_wrapper<T>>;
 
+template<typename T1, typename T2>
+concept same_type_as = std::same_as<std::decay_t<T1>, T2>;
+
 }  // namespace vs
 
 #endif  // VS_UTIL_H_
