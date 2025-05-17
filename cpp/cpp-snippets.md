@@ -833,7 +833,7 @@ auto main() -> int
 
 </details>
 
-### Functions (Parameter passing)
+### Functions / Parameter passing
 
 ## Initialization
 
