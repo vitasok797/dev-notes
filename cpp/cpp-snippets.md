@@ -753,7 +753,6 @@ auto main() -> int
 #### Parameters
 * [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
 * [Language / Types / Passing parameters](cpp-language.md#types--passing-parameters)
-* By-value-then-move idiom (constructors only optimization) ([links](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
 
 | Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
 |---|---|:---:|:---:|---|
@@ -762,8 +761,8 @@ auto main() -> int
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over out parameters ("Write" only) ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
-| Sink | `MoveOnlyType` | ✅ | `MoveOnlyType` ||
-| Sink (take ownership) | `std::unique_ptr` | ✅ | `std::unique_ptr<>` | Assume `std::move` in function |
+| Sink | `MoveOnlyType` | ✅ | `MoveOnlyType`❓ | ❓ |
+| Sink (take ownership) | `std::unique_ptr` | ✅ | `std::unique_ptr<>`❓ | Assume `std::move` in function❓ |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
 | May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
 | Reseat pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
@@ -771,12 +770,17 @@ auto main() -> int
 
 Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Fundamental types (integral, floating-point, bool, etc.)
-* Callable objects (functors, lambdas, std::function)
+* ❓ Callable objects (functors, lambdas, std::function)
 * View types (std::string_view, std::span)
 * Iterators
 
+Possible optimizations:
+* 
+* 
+* By-value-then-move idiom (constructors only optimization) ([info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom))
+
 #### Returning
-❓❓❓
+🚧
 
 </details>
 
