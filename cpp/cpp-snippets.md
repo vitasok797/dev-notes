@@ -761,8 +761,8 @@ auto main() -> int
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over out parameters ("Write" only) ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
-| Sink | `MoveOnlyType` | ✅ | `MoveOnlyType`❓ | ❓ |
-| Sink (take ownership) | `std::unique_ptr` | ✅ | `std::unique_ptr<>`❓ | Assume `std::move` in function ❓ |
+| Sink | `MoveOnlyType` | ✔️ | `MoveOnlyType`❓ | ❓ |
+| Sink (take ownership) | `std::unique_ptr` | ✔️ | `std::unique_ptr<>`❓ | Assume `std::move` in function ❓ |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
 | May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
 | Reassign pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
