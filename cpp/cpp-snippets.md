@@ -661,11 +661,11 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 | Read <sub>or copy</sub> | `HeavyType` || `const HeavyType&` | No ownership transfer |
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
-| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over "Write" only out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
-| Consume | `MoveOnlyType` | ✅ | `MoveOnlyType` ||
-| Take ownership | `std::unique_ptr` | ✅ | `std::unique_ptr<>` | Assume `std::move` in function |
+| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over out parameters ("Write" only) ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
+| Sink | `MoveOnlyType` | ✅ | `MoveOnlyType` ||
+| Sink (take ownership) | `std::unique_ptr` | ✅ | `std::unique_ptr<>` | Assume `std::move` in function |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
-| May&nbsp;share&nbsp;ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
+| May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
 | Reseat pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
 | Reseat pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
 
