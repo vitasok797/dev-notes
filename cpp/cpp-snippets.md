@@ -760,7 +760,7 @@ auto main() -> int
 | Read <sub>or copy</sub> | `HeavyType` || `const HeavyType&` | • No ownership transfer<br>• See possible optimazations<sup>✱</sup> |
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read&nbsp;<sub>or&nbsp;copy</sub>&nbsp;\[optional&nbsp;value\] | `AnyType` || `const AnyType*` | No ownership transfer |
-| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over out parameters ("Write" only) ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
+| Read+Write<br>Write | `AnyType` || `AnyType&` | • No ownership transfer<br>• 👉 Prefer return values over out parameters ("Write" only case) ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
 | Sink | `MoveOnlyType` | ✔️ | `MoveOnlyType`❓ | ❓ |
 | Sink (take ownership) | `std::unique_ptr` | ✔️ | `std::unique_ptr<>`❓ | Assume `std::move` in function ❓ |
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` | Assume `std::move` in function |
