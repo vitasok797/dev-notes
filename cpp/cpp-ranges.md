@@ -53,7 +53,7 @@ auto func([const] R[&/&&/*] rng) -> void {}
 template<ranges::range R>
 auto func([const] R[&/&&/*] rng) -> void {}
 
-auto func([const] ranges::range auto[&/&&/*] rng) -> void {}
+auto func([const] ranges::range        auto[&/&&/*] rng) -> void {}
 auto func([const] ranges::output_range auto[&/&&/*] rng) -> void {}
 ```
 
