@@ -802,35 +802,19 @@ auto same_as_string(T&& x) -> void {...}
 //=============================================================================
 // Run func
 //-----------------------------------------------------------------------------
-// const auto&  f: NO (doesn't accept mutable lambdas/functors)
-//       auto&  f: NO (doesn't accept rvalues)
-//       auto&& f: NO (confusing if there is no forwarding)
-//       auto   f: YES
+// template<typename F>
+// const F&  f: NO (doesn't accept mutable lambdas/functors)
+//       F&  f: NO (doesn't accept rvalues)
+//       F&& f: NO (confusing if there is no forwarding)
+//       F   f: YES
 //=============================================================================
 // Store func
 //-----------------------------------------------------------------------------
-// const auto&  f: NO
-//       auto&  f: NO
-//       auto&& f: YES (pass by forwarding ref, then store by std::forward)
-//       auto   f: YES (pass by value, then store by std::move)
-//=============================================================================
-```
-
-```cpp
-//=============================================================================
-// Run projection
-//-----------------------------------------------------------------------------
-// const P&  proj: NO (doesn't accept mutable lambdas/functors)
-//       P&  proj: NO (doesn't accept rvalues)
-//       P&& proj: NO (confusing if there is no forwarding)
-//       P   proj: YES
-//=============================================================================
-// Store projection for lazy evaluation
-//-----------------------------------------------------------------------------
-// const P&  proj: NO
-//       P&  proj: NO
-//       P&& proj: YES (pass by forwarding ref, then store by std::forward)
-//       P   proj: YES (pass by value, then store by std::move)
+// template<typename F>
+// const F&  f: NO
+//       F&  f: NO
+//       F&& f: YES (pass by forwarding ref, then store by std::forward)
+//       F   f: YES (pass by value, then store by std::move)
 //=============================================================================
 ```
 
