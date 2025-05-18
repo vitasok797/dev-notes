@@ -784,7 +784,7 @@ auto convertible_to_double(T&& x) -> void {...}
 
 template<typename T>
 requires std::convertible_to<T, std::string>
-auto convertible_to_string(T&& x) -> void
+auto convertible_to_string(T&& x) -> void {...}
 ```
 
 ```cpp
@@ -792,7 +792,7 @@ auto convertible_to_string(T&& x) -> void
 
 template<typename T>
 requires vs::same_type_as<T, std::string>
-auto same_as_string(T&& x) -> void {...}
+auto same_type_as_string(T&& x) -> void {...}
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/WMd5x3TfE) [[type_info.h](src/type_info.h), [util.h](src/util.h)]
