@@ -743,11 +743,11 @@ auto main() -> int
 |---|---|:---:|:---:|---|
 | ***<ins>Common:</ins>*** |||||
 | Read | `CheapToCopyType` || `CheapToCopyType` ||
-| Read | `HeavyType` || `const HeavyType&` | See possible optimazations for copying<sup>✱</sup> |
+| Read | `HeavyType` || `const HeavyType&` | See possible optimazations for retaining "copy"<sup>✱</sup> |
 | Read <sub>value is optional</sub> | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read <sub>value is optional</sub> | `AnyType` || `const AnyType*` | No ownership transfer |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | ["Write" only case\] Prefer return values over out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
-| Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType` | See possible optimazations<sup>✱✱</sup> |
+| Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType` | As optimazation use rvalue reference:<br>`MoveOnlyType&&` (then `std::move`) |
 | ***<ins>Smart pointers:</ins>*** |||||
 | Steal<br>(take ownership) | `std::unique_ptr` | ✔️ | `std::unique_ptr<>` ||
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` ||
@@ -761,15 +761,12 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * View types (std::string_view, std::span)
 * ❓ Callable objects (functors, lambdas, std::function)
 
-<sup>✱</sup>Possible optimizations for "copying" `HeavyType`:
+<sup>✱</sup>Possible optimizations for retaining a "copy" of `HeavyType`:
 * Use two overloads:
   * `const HeavyType&`
   * `HeavyType&&` (then `std::move`)
 * Use forwarding reference: `T&&` (then `std::forward`).<br>Some type constraints can be added (see [concepts](https://en.cppreference.com/w/cpp/concepts#Core_language_concepts))
 * Pass by value: `HeavyType` (then `std::move`).<br>See [by-value-then-move idiom](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom). Assumed to be used only for constructors
-
-<sup>✱✱</sup>Possible optimizations for "stealing" `MoveOnlyType`:
-* Use rvalue reference: `MoveOnlyType&&` (then `std::move`)
 
 #### Returning
 ❓❓❓
