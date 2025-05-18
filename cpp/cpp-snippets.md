@@ -814,6 +814,28 @@ auto same_as_string(T&& x) -> void {...}
 <summary>🚧 Function as argument</summary>
 
 ```cpp
+//=============================================================================
+// Run func
+//-----------------------------------------------------------------------------
+// const auto&  f: NO (doesn't accept mutable lambdas/functors)
+//       auto&  f: NO (doesn't accept rvalues)
+//       auto&& f: NO (confusing if there is no forwarding)
+//       auto   f: YES
+//=============================================================================
+// Store func
+//-----------------------------------------------------------------------------
+// const auto&  f: NO
+//       auto&  f: NO
+//       auto&& f: YES (pass by forwarding ref, then store by std::forward)
+//       auto   f: YES (pass by value, then store by std::move)
+//=============================================================================
+```
+
+```cpp
+
+```
+
+```cpp
 #include <functional>
 
 auto func_arg(std::function<int(int, int)> f) -> void
@@ -829,7 +851,7 @@ auto func_arg(auto f) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/bE63qnnhM)
+▶️[**Demo**](https://godbolt.org/z/jPY4bYzY4)
 
 </details>
 
