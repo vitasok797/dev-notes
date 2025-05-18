@@ -65,7 +65,8 @@
   * [cpplint в Visual Studio (2)](https://heaohan.github.io/blog/2017/12/01/he-aohan-apply-cpplint)
 * Visual Studio:
   * [C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
-  * [C++ Code analysis in Visual Studio: Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
+    * [Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
+    * [Use the C++ Core Guidelines checkers](https://learn.microsoft.com/en-us/cpp/code-quality/using-the-cpp-core-guidelines-checkers?view=msvc-160)
   * [AddressSanitizer](https://learn.microsoft.com/en-us/cpp/sanitizers/asan)
 * Sanitizers:
   * [(Habr) Выявление ошибок в работе с памятью в C и C++: Сравниваем Sanitizers и Valgrind](https://habr.com/ru/companies/otus/articles/801123/)
