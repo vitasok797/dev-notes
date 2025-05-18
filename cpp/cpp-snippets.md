@@ -761,7 +761,7 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * View types (std::string_view, std::span)
 * ❓ Callable objects (functors, lambdas, std::function)
 
-<sup>✱</sup>Possible optimizations for copying `HeavyType`:
+<sup>✱</sup>Possible optimizations for "copying" `HeavyType`:
 * Use two overloads:
   * `const HeavyType&`
   * `HeavyType&&` (then `std::move`)
