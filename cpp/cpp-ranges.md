@@ -44,15 +44,17 @@ auto func([const] auto[&/&&/*] rng) -> void {}
 ```
 
 ```cpp
-auto func_with_concept([const] ranges::range auto[&/&&/*] rng) -> void {}
-auto func_with_concept([const] ranges::output_range auto[&/&&/*] rng) -> void {}
+// Using concepts
 
 template<typename R>
 requires ranges::range<R>
-auto func_with_concept([const] R[&/&&/*] rng) -> void {}
+auto func([const] R[&/&&/*] rng) -> void {}
 
 template<ranges::range R>
-auto func_with_concept([const] R[&/&&/*] rng) -> void {}
+auto func([const] R[&/&&/*] rng) -> void {}
+
+auto func([const] ranges::range auto[&/&&/*] rng) -> void {}
+auto func([const] ranges::output_range auto[&/&&/*] rng) -> void {}
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/6z913s66d)
