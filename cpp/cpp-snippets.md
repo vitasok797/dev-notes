@@ -761,14 +761,14 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * View types (std::string_view, std::span)
 * ❓ Callable objects (functors, lambdas, std::function)
 
-<sup>✱</sup>Possible optimizations for copying heavy types (`const HeavyType&` case):
+<sup>✱</sup>Possible optimizations for copying `HeavyType`:
 * Use two overloads:
   * `const HeavyType&`
   * `HeavyType&&` (then `std::move`)
 * Use forwarding reference: `T&&` (then `std::forward`).<br>Some type constraints can be added (see [concepts](https://en.cppreference.com/w/cpp/concepts#Core_language_concepts))
 * Pass by value: `HeavyType` (then `std::move`).<br>See [by-value-then-move idiom](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom). Assumed to be used only for constructors
 
-<sup>✱✱</sup>Possible optimizations for "stealing" `MoveOnlyType` (`MoveOnlyType` case):
+<sup>✱✱</sup>Possible optimizations for "stealing" `MoveOnlyType`:
 * Use rvalue reference: `MoveOnlyType&&` (then `std::move`)
 
 #### Returning
