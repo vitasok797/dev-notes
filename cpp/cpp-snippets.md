@@ -762,11 +762,14 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * ❓ Callable objects (functors, lambdas, std::function)
 
 <sup>✱</sup>Possible optimizations for copying heavy types (`const HeavyType&` case):
-* Add rvalue reference function overload (then std::move)
-* Use forwarding reference (then std::forward).<br>Some type constraints can be added (std::same_as, std::derived_from, std::convertible_to, etc. ([concepts](https://en.cppreference.com/w/cpp/concepts#Core_language_concepts)))
-* Pass by value (then std::move). Assumed to be used only for constructors. See [info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)
+* Use two overloads:
+  * `const HeavyType&`
+  * `HeavyType&&` (then `std::move`)
+* Use forwarding reference: `T&&` (then `std::forward`).<br>Some type constraints can be added (see [concepts](https://en.cppreference.com/w/cpp/concepts#Core_language_concepts))
+* Pass by value (by-value-then-move idiom): `HeavyType` (then `std::move`).<br>Assumed to be used only for constructors. See [info](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)
 
-<sup>✱✱</sup>Possible optimizations for XXXX (`MoveOnlyType` case):
+<sup>✱✱</sup>Possible optimizations for "stealing" `MoveOnlyType` (`MoveOnlyType` case):
+* Use rvalue reference: `MoveOnlyType&&` (then `std::move`)
 
 #### Returning
 ❓❓❓
