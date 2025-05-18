@@ -774,13 +774,17 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 </details>
 
 <details>
-<summary>🚧 Forwarding reference with type constraints</summary>
+<summary>Forwarding reference with type constraints</summary>
 
 ```cpp
 #include <concepts>
 
 template<std::convertible_to<double> T>
 auto convertible_to_double(T&& x) -> void {...}
+
+template<typename T>
+requires std::convertible_to<T, std::string>
+auto convertible_to_string(T&& x) -> void
 ```
 
 ```cpp
@@ -791,7 +795,7 @@ requires vs::same_type_as<T, std::string>
 auto same_as_string(T&& x) -> void {...}
 ```
 
-▶️[**Demo**](https://godbolt.org/z/abK5ac8G8) [[type_info.h](src/type_info.h), [util.h](src/util.h)]
+▶️[**Demo**](https://godbolt.org/z/WMd5x3TfE) [[type_info.h](src/type_info.h), [util.h](src/util.h)]
 
 </details>
 
