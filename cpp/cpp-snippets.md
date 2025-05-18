@@ -769,7 +769,7 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 <sup>✱✱</sup>Possible optimizations for XXXX (`MoveOnlyType` case):
 
 #### Returning
-❓
+❓❓❓
 
 </details>
 
