@@ -627,7 +627,7 @@ std::cout << lam("ccc") << std::endl;  // 2:ccc
 <details>
 <summary>Projection</summary>
 
-▶️[**Run**](https://godbolt.org/z/YT7ToaYvd)
+▶️[**Run**](https://godbolt.org/z/K3Pj67Ybf)
 
 ```cpp
 #include <functional>
@@ -643,21 +643,6 @@ struct Rect
     auto area() const -> double { return a * b; }
 };
 
-//=============================================================================
-// Run projection
-//-----------------------------------------------------------------------------
-// const P&  proj: NO (doesn't accept mutable lambdas/functors)
-//       P&  proj: NO (doesn't accept rvalues)
-//       P&& proj: NO (confusing if there is no forwarding)
-//       P   proj: YES
-//=============================================================================
-// Store projection for lazy evaluation
-//-----------------------------------------------------------------------------
-// const P&  proj: NO
-//       P&  proj: NO
-//       P&& proj: YES (pass by forwarding ref, then store by std::forward)
-//       P   proj: YES (pass by value, then store by std::move)
-//=============================================================================
 template<typename R, typename P = std::identity>
 auto print_range_with_proj(const R& range, P proj = {}) -> void
 {
@@ -832,7 +817,21 @@ auto same_as_string(T&& x) -> void {...}
 ```
 
 ```cpp
-
+//=============================================================================
+// Run projection
+//-----------------------------------------------------------------------------
+// const P&  proj: NO (doesn't accept mutable lambdas/functors)
+//       P&  proj: NO (doesn't accept rvalues)
+//       P&& proj: NO (confusing if there is no forwarding)
+//       P   proj: YES
+//=============================================================================
+// Store projection for lazy evaluation
+//-----------------------------------------------------------------------------
+// const P&  proj: NO
+//       P&  proj: NO
+//       P&& proj: YES (pass by forwarding ref, then store by std::forward)
+//       P   proj: YES (pass by value, then store by std::move)
+//=============================================================================
 ```
 
 ```cpp
