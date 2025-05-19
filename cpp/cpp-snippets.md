@@ -743,21 +743,22 @@ auto main() -> int
 |---|---|:---:|:---:|---|
 | ***<ins>Base:</ins>*** |||||
 | Read | `CheapToCopyType` || `CheapToCopyType` ||
-| Read | `HeavyType` || `const HeavyType&` | See possible optimazations for retaining a "copy"<sup>✱</sup> |
+| Read | `HeavyType` || `const HeavyType&` | See possible optimizations for retaining a "copy"<sup>✱</sup> |
 | Read <sub>value is optional</sub> | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read <sub>value is optional</sub> | `AnyType` || `const AnyType*` | No ownership transfer |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | ["Write" only case\] Prefer return values over out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
-| Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType` | As optimazation use rvalue reference:<br>`MoveOnlyType&&` (then `std::move`) |
+| Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType` | See possible optimizations<sup>✱✱</sup> |
 | ***<ins>Smart pointers:</ins>*** |||||
 | Steal<br>(take ownership) | `std::unique_ptr` | ✔️ | `std::unique_ptr<>` ||
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` ||
 | May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
 | Reassign pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
 | Reassign pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
-| ***<ins>Optimazations:</ins>*** |||||
+| ***<ins>Optimizations:</ins>*** |||||
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `const HeavyType&`<br>`HeavyType&&` | Then `std::move` `HeavyType&&` |
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `T&&` | • Then `std::forward`<br>• Some type constraints can be added (see [concepts](https://en.cppreference.com/w/cpp/concepts#Core_language_concepts)) |
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `HeavyType` | • Then `std::move`<br>• See [by-value-then-move idiom](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)<br>• Assumed to be used only for constructors |
+| <sup>✱✱</sup>Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType&&` | Then `std::move` |
 
 Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Fundamental types (integral, floating-point, bool, etc.)
