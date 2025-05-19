@@ -148,6 +148,8 @@
 * [(Wiki) Function object](https://en.wikipedia.org/wiki/Function_object#In_C_and_C++)
 * [(StackOverflow) When to use functors over lambdas](https://stackoverflow.com/questions/27256062/when-to-use-functors-over-lambdas)
 * [How to fix output parameters](https://www.foonathan.net/2016/10/output-parameter/)
+* [Avoiding The Performance Hazzards of std::function](https://blog.demofox.org/2015/02/25/avoiding-the-performance-hazzards-of-stdfunction/)
+* [Efficient Use of Lambda Expressions and std::function](https://web.archive.org/web/20190717161949/http:/www.drdobbs.com/cpp/efficient-use-of-lambda-expressions-and/232500059)
 
 ### Types / Optional
 * [(Habr) Использование std::optional в С++17](https://habr.com/ru/articles/372103/)
