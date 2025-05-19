@@ -87,7 +87,7 @@
 ### Formats / JSON
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * [Boost.JSON](https://www.boost.org/doc/libs/latest/libs/json/doc/html/index.html)
-* POCO [JSON/Object.h](https://github.com/pocoproject/poco/blob/main/JSON/include/Poco/JSON/Object.h)
+* POCO ([JSON/Object.h](https://github.com/pocoproject/poco/blob/main/JSON/include/Poco/JSON/Object.h))
 * <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
 * <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
 * <https://github.com/stephenberry/glaze>
@@ -165,7 +165,7 @@
 
 ### Types / Units
 * [Boost.Units](https://www.boost.org/doc/libs/latest/doc/html/boost_units.html)
-* POCO [Util/Units.h](https://github.com/pocoproject/poco/blob/main/Util/include/Poco/Util/Units.h)
+* POCO ([Util/Units.h](https://github.com/pocoproject/poco/blob/main/Util/include/Poco/Util/Units.h))
 * <https://github.com/LLNL/units> ([vcpkg](https://vcpkg.io/en/package/llnl-units))
 * <https://github.com/mpusz/mp-units> ([vcpkg](https://vcpkg.io/en/package/mp-units))
 * <https://github.com/nholthaus/units> ([vcpkg](https://vcpkg.io/en/package/units))
@@ -266,7 +266,7 @@
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
 
 ## DB
-* [POCO Data (SQLite, MySQL/MariaDB, PostgreSQL)](https://docs.pocoproject.org/current/00200-DataUserManual.html)
+* POCO [Data (SQLite, MySQL/MariaDB, PostgreSQL)](https://docs.pocoproject.org/current/00200-DataUserManual.html)
 * <https://github.com/aminroosta/sqlite_modern_cpp> ([vcpkg](https://vcpkg.io/en/package/sqlite-modern-cpp))
 * <https://github.com/SRombauts/SQLiteCpp>
 
