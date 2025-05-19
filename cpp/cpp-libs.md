@@ -189,7 +189,7 @@
 ### Multithreading / Threads
 * [\<thread\>](https://en.cppreference.com/w/cpp/thread)
 * [Boost.Thread](https://www.boost.org/doc/libs/latest/doc/html/thread.html)
-* POCO ([slides](https://pocoproject.org/slides/130-Threads.pdf))
+* POCO ([Threads](https://pocoproject.org/slides/130-Threads.pdf), [NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
 
 ### Multithreading / Concurrent queues
 * <https://github.com/cameron314/concurrentqueue>
