@@ -803,27 +803,7 @@ auto same_type_as_string(T&& x) -> void {...}
 </details>
 
 <details>
-<summary>🚧 Function as argument</summary>
-
-```cpp
-//=============================================================================
-// Run func
-//-----------------------------------------------------------------------------
-// template<typename F>
-// const F&  f: NO (doesn't accept mutable lambdas/functors)
-//       F&  f: NO (doesn't accept rvalues)
-//       F&& f: NO (confusing if there is no forwarding)
-//       F   f: YES
-//=============================================================================
-// Store func
-//-----------------------------------------------------------------------------
-// template<typename F>
-// const F&  f: NO
-//       F&  f: NO
-//       F&& f: YES (pass by forwarding ref, then store by std::forward)
-//       F   f: YES (pass by value, then store by std::move)
-//=============================================================================
-```
+<summary>Function as argument</summary>
 
 ```cpp
 #include <functional>
@@ -846,6 +826,26 @@ auto test(F f) -> void
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/n59PoPhfP)
+
+```cpp
+//=============================================================================
+// Run func
+//-----------------------------------------------------------------------------
+// template<typename F>
+// const F&  f: NO (doesn't accept mutable lambdas/functors)
+//       F&  f: NO (doesn't accept rvalues)
+//       F&& f: NO (confusing if there is no forwarding)
+//       F   f: YES
+//=============================================================================
+// Store func
+//-----------------------------------------------------------------------------
+// template<typename F>
+// const F&  f: NO
+//       F&  f: NO
+//       F&& f: YES (pass by forwarding ref, then store by std::forward)
+//       F   f: YES (pass by value, then store by std::move)
+//=============================================================================
+```
 
 </details>
 
