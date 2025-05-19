@@ -505,6 +505,13 @@ auto main() -> int
 struct {} _ = ...
 ```
 
+```cpp
+template<typename...>
+class TD;
+
+TD<T> _;
+```
+
 </details>
 
 <details>
