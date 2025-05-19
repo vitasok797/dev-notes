@@ -38,7 +38,6 @@
 * [Enum Class Improvements for C++17, C++20 and C++23](https://www.cppstories.com/2024/enum-improvements/)
 * [Integer Conversions and Safe Comparisons in C++20 ](https://www.cppstories.com/2022/safe-int-cmp-cpp20/)
 * [Языковые новшества C++17. Часть 3. Порядок и спокойствие](https://scrutator.me/post/2018/04/28/cpp17_lang_features_p3.aspx)
-* [How C++20 Concepts can simplify your code](https://andreasfertig.com/blog/2020/07/how-cpp20-concepts-can-simplify-your-code/)
 
 ### Modern C++ / Tutorials
 * [Modern C++ Tutorial: C++ 11/14/17/20 On The Fly](https://github.com/changkun/modern-cpp-tutorial/blob/master/book/en-us/toc.md)
@@ -130,8 +129,6 @@
 * [(StackOverflow) Не могу понять что не нравится clang`у](https://ru.stackoverflow.com/questions/886168/%D0%9D%D0%B5-%D0%BC%D0%BE%D0%B3%D1%83-%D0%BF%D0%BE%D0%BD%D1%8F%D1%82%D1%8C-%D1%87%D1%82%D0%BE-%D0%BD%D0%B5-%D0%BD%D1%80%D0%B0%D0%B2%D0%B8%D1%82%D1%81%D1%8F-clang%D1%83)
 
 ## Templates
-* [constexpr if](https://www.modernescpp.com/index.php/constespr-if/)
-* [How C++20 Concepts can simplify your code](https://andreasfertig.com/blog/2020/07/how-cpp20-concepts-can-simplify-your-code/)
 * [SFINAE. Как много в этом слове](https://scrutator.me/post/2016/12/12/sfinae.aspx)
 
 ### Templates / CRTP (Curiously Recurring Template Pattern)
