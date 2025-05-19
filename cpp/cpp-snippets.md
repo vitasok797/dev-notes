@@ -764,7 +764,7 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Fundamental types (integral, floating-point, bool, etc.)
 * Iterators
 * View types (std::string_view, std::span)
-* ❓ Callable objects (functors, lambdas, std::function)
+* Small callable objects (functors, lambdas)
 
 From the caller's point of view, the value can be `std::move`ed if the parameter type is:
 * `HeavyType`
