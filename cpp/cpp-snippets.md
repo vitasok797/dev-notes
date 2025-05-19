@@ -1352,7 +1352,7 @@ condition ? true_expression : false_expression
 
 </details>
 
-## Std::
+## std::
 
 <details>
 <summary>std::optional</summary>
@@ -2162,7 +2162,7 @@ using func = void (*) (int, int);
 
 </details>
 
-## Util
+## vs::
 
 <details>
 <summary>Scope guard</summary>
