@@ -18,7 +18,7 @@
 * ⚠️ `Boost Locale?`
 * [Boost String Algorithms Library](https://www.boost.org/doc/libs/latest/doc/html/string_algo.html)
 * [Boost.Tokenizer](https://www.boost.org/doc/libs/latest/libs/tokenizer/doc/index.html)
-* POCO [String](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/String.h) [UTF8String](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/UTF8String.h) ([slides](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
+* POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf)) ([String.h](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/String.h), [UTF8String.h](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/UTF8String.h))
 * [Abseil Strings](https://abseil.io/docs/cpp/guides/strings)
 
 ### Text / Encoding
@@ -55,11 +55,11 @@
 ### Configuration / Multisource
 * [Boost.Program\_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
-* POCO ([slides](https://pocoproject.org/slides/180-Configuration.pdf))
+* POCO ([Configuration](https://pocoproject.org/slides/180-Configuration.pdf))
 
 ### Configuration / Argument parser
 * [Boost.Program\_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
-* POCO ([slides](https://pocoproject.org/slides/190-Applications.pdf))
+* POCO ([Applications](https://pocoproject.org/slides/190-Applications.pdf))
 * [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
 * <https://github.com/jarro2783/cxxopts>
 * <https://github.com/p-ranav/argparse>
@@ -71,7 +71,7 @@
 
 ### Configuration / Environment
 * [Boost.Program\_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
-* POCO ([slides](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
+* POCO ([PlatformAndEnvironment](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
 * <https://github.com/ph3at/libenvpp>
 * <https://github.com/p-ranav/envy> (no vcpkg, header-only)
 
@@ -79,7 +79,7 @@
 
 ### Formats / XML
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
-* POCO ([slides](https://pocoproject.org/slides/170-XML.pdf))
+* POCO ([XML](https://pocoproject.org/slides/170-XML.pdf))
 * <https://github.com/zeux/pugixml>
 * <https://github.com/leethomason/tinyxml2>
 * [(StackOverflow) Choose XML library](https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c/9387612#9387612)
@@ -87,7 +87,7 @@
 ### Formats / JSON
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * [Boost.JSON](https://www.boost.org/doc/libs/latest/libs/json/doc/html/index.html)
-* POCO [JSON/Object.h](https://docs.pocoproject.org/current/Poco.JSON.Object.html)
+* POCO [JSON/Object.h](https://github.com/pocoproject/poco/blob/main/JSON/include/Poco/JSON/Object.h)
 * <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
 * <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
 * <https://github.com/stephenberry/glaze>
@@ -121,12 +121,12 @@
 * <https://github.com/injae/serdepp>
 
 ### Formats / Base64
-* POCO ([slides](https://pocoproject.org/slides/100-Streams.pdf))
+* POCO ([Streams](https://pocoproject.org/slides/100-Streams.pdf))
 * <https://github.com/tplgy/cppcodec>
 * <https://github.com/ReneNyffenegger/cpp-base64>
 
 ### Formats / Hashing
-* POCO ([slides](https://pocoproject.org/slides/060-RandomCrypto.pdf))
+* POCO ([RandomCrypto](https://pocoproject.org/slides/060-RandomCrypto.pdf))
 * <https://github.com/okdshin/PicoSHA2>
 * <https://github.com/weidai11/cryptopp>
 * <https://github.com/stbrumme/hash-library>
@@ -165,7 +165,7 @@
 
 ### Types / Units
 * [Boost.Units](https://www.boost.org/doc/libs/latest/doc/html/boost_units.html)
-* POCO [Units](https://github.com/pocoproject/poco/blob/main/Util/include/Poco/Util/Units.h)
+* POCO [Util/Units.h](https://github.com/pocoproject/poco/blob/main/Util/include/Poco/Util/Units.h)
 * <https://github.com/LLNL/units> ([vcpkg](https://vcpkg.io/en/package/llnl-units))
 * <https://github.com/mpusz/mp-units> ([vcpkg](https://vcpkg.io/en/package/mp-units))
 * <https://github.com/nholthaus/units> ([vcpkg](https://vcpkg.io/en/package/units))
@@ -176,12 +176,12 @@
 ### System / Process
 * [Boost.Process](https://www.boost.org/doc/libs/latest/doc/html/process.html)
 * [Boost.Interprocess](https://www.boost.org/doc/libs/latest/doc/html/interprocess.html)
-* POCO ([slides](https://pocoproject.org/slides/150-Processes.pdf))
+* POCO ([Processes](https://pocoproject.org/slides/150-Processes.pdf))
 
 ### System / File System
 * [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem)
 * [Boost.Filesystem](https://www.boost.org/doc/libs/latest/libs/filesystem/doc/index.htm)
-* POCO ([slides](https://pocoproject.org/slides/080-Files.pdf))
+* POCO ([Files](https://pocoproject.org/slides/080-Files.pdf))
 * <https://github.com/p-ranav/glob> ([vcpkg](https://vcpkg.io/en/package/p-ranav-glob))
 
 ## Multithreading
@@ -204,7 +204,7 @@
 
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
-* POCO ([slides](https://pocoproject.org/slides/110-Logging.pdf))
+* POCO ([Logging](https://pocoproject.org/slides/110-Logging.pdf))
 * [Abseil Logging](https://abseil.io/docs/cpp/guides/logging)
 * <https://github.com/google/glog>
 * <https://github.com/gabime/spdlog>
@@ -221,7 +221,7 @@
 
 ## UUID
 * [Boost.Uuid](https://www.boost.org/doc/libs/latest/libs/uuid/doc/html/uuid.html)
-* POCO ([slides](https://pocoproject.org/slides/160-URIandUUID.pdf))
+* POCO ([URIandUUID](https://pocoproject.org/slides/160-URIandUUID.pdf))
 * <https://github.com/mariusbancila/stduuid>
 
 ## CLI
@@ -231,7 +231,7 @@
 
 ## Signals, Events
 * [Boost.Signals2](https://www.boost.org/doc/libs/latest/doc/html/signals2.html)
-* POCO ([slides](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
+* POCO ([NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
 * <https://github.com/libsigcplusplus/libsigcplusplus> ([vcpkg](https://vcpkg.io/en/package/libsigcpp))
 * <https://github.com/palacaze/sigslot> ([vcpkg](https://vcpkg.io/en/package/palsigslot))
 * <https://github.com/NoAvailableAlias/nano-signal-slot>
@@ -253,7 +253,7 @@
   * <https://github.com/eProsima/Fast-DDS> ([vcpkg](https://vcpkg.io/en/package/fastdds))
 
 ## HTTP servers
-* POCO ([slides](https://pocoproject.org/slides/200-Network.pdf))
+* POCO ([Network](https://pocoproject.org/slides/200-Network.pdf))
 * <https://github.com/civetweb/civetweb>
 * <https://github.com/yhirose/cpp-httplib>
 * <https://github.com/CrowCpp/crow>
@@ -272,7 +272,7 @@
 
 ## Shared Libraries
 * [Boost.DLL](https://www.boost.org/doc/libs/latest/doc/html/boost_dll.html)
-* POCO ([slides](https://pocoproject.org/slides/120-SharedLibraries.pdf))
+* POCO ([SharedLibraries](https://pocoproject.org/slides/120-SharedLibraries.pdf))
 
 ## Error handling
 * [Boost.Optional](https://www.boost.org/doc/libs/latest/libs/optional/doc/html/index.html)
