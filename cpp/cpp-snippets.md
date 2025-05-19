@@ -1602,6 +1602,15 @@ auto is_equal(T a, T b)
 
 ▶️[**Demo**](https://godbolt.org/z/f4cn5861h)
 
+```cpp
+template<typename T>
+concept numeric = std::integral<T> || std::floating_point<T>;
+
+template<typename T>
+requires numeric<T>
+auto average(const std::vector<T>& vec) -> double
+```
+
 </details>
 
 <details>
