@@ -1580,6 +1580,25 @@ auto main() -> int
 
 </details>
 
+## Templates
+
+<details>
+<summary>if constexpr</summary>
+
+```cpp
+template<typename T>
+auto read_and_fill(T& container, int size) -> void
+{
+    if constexpr (requires { container.reserve(size); })
+    {
+        container.reserve(size);
+    }
+    // fill
+}
+```
+
+</details>
+
 ## Type
 
 <details>
