@@ -828,20 +828,24 @@ auto same_type_as_string(T&& x) -> void {...}
 ```cpp
 #include <functional>
 
-auto func_arg(std::function<int(int, int)> f) -> void
+auto test(std::function<int(int, int)> f) -> void
 {
     int res = f(1, 2);
 }
 ```
 
 ```cpp
-auto func_arg(auto f) -> void
+#include <type_traits>
+
+template<typename F>
+requires std::is_invocable_r_v<int, F, int, int>
+auto test(F f) -> void
 {
     int res = f(1, 2);
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/jPY4bYzY4)
+▶️[**Demo**](https://godbolt.org/z/n59PoPhfP)
 
 </details>
 
