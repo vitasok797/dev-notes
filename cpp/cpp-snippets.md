@@ -741,7 +741,7 @@ auto main() -> int
 
 | Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
 |---|---|:---:|:---:|---|
-| ***<ins>Common:</ins>*** |||||
+| ***<ins>Base:</ins>*** |||||
 | Read | `CheapToCopyType` || `CheapToCopyType` ||
 | Read | `HeavyType` || `const HeavyType&` | See possible optimazations for retaining a "copy"<sup>✱</sup> |
 | Read <sub>value is optional</sub> | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
