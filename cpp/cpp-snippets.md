@@ -506,8 +506,7 @@ struct {} _ =
 ```
 
 ```cpp
-template<typename...>
-class TD;
+template<typename...> class TD;
 
 TD<T> _;
 TD<decltype(x)> _;
