@@ -1586,13 +1586,13 @@ auto main() -> int
 <summary>Concepts</summary>
 
 ```cpp
-template<class T>
+template<typename T>
 auto is_equal(T a, T b)
 {
     return a == b;
 }
 
-template<class T>
+template<typename T>
 requires std::floating_point<T>
 auto is_equal(T a, T b)
 {
@@ -1600,7 +1600,7 @@ auto is_equal(T a, T b)
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/6zra3KPea)
+▶️[**Demo**](https://godbolt.org/z/f4cn5861h)
 
 </details>
 
