@@ -766,6 +766,11 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * View types (std::string_view, std::span)
 * ❓ Callable objects (functors, lambdas, std::function)
 
+From the caller's point of view, the value can be `std::move` if the parameter type is:
+* `HeavyType&&`
+* `T&&`
+* `HeavyType`
+
 #### Returning
 ❓❓❓
 
