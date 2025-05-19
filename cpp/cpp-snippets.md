@@ -1609,22 +1609,10 @@ auto is_equal(T a, T b)
 
 ```cpp
 template<typename T>
-auto read_and_fill(T& container, int size) -> void
-{
-    if constexpr (requires { container.reserve(size); })
-    {
-        container.reserve(size);
-    }
-    // fill
-}
-```
-
-```cpp
-template<typename T>
 constexpr auto precision = T(0.000001);
 
 template<typename T>
-auto close_enough(T a, T b) -> bool
+auto is_equal(T a, T b) -> bool
 {
     if constexpr (std::is_floating_point_v<T>)
     {
@@ -1634,6 +1622,18 @@ auto close_enough(T a, T b) -> bool
     {
         return a == b;
     }
+}
+```
+
+```cpp
+template<typename T>
+auto read_and_fill(T& container, int size) -> void
+{
+    if constexpr (requires { container.reserve(size); })
+    {
+        container.reserve(size);
+    }
+    // fill
 }
 ```
 
