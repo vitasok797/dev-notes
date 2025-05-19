@@ -277,3 +277,4 @@
 * [Attributes](https://en.cppreference.com/w/cpp/language/attributes)
 * [Aggregate, POD, trivial type, standard layout class](https://andreasfertig.com/blog/2021/01/cpp20-aggregate-pod-trivial-type-standard-layout-class-what-is-what/)
 * [Embedding Lua in Modern C++](https://medium.com/@polgar.timo/embedding-lua-in-modern-c-84a9bb52109f)
+* [(Abseil Tips) Namespace Naming](https://abseil.io/tips/130)
