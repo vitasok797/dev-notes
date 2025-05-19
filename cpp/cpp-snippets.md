@@ -1611,6 +1611,16 @@ requires numeric<T>
 auto average(const std::vector<T>& vec) -> double
 ```
 
+```cpp
+template<typename T, typename ... Variants>
+concept one_of_types = (std::is_same_v<std::decay_t<T>, Variants> || ...);
+
+auto my_abs(one_of_types<int, float, double> auto value)
+{
+    return value < 0 ? -value : value;
+}
+```
+
 </details>
 
 <details>
