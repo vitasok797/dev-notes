@@ -497,21 +497,21 @@ auto main() -> int
 ## Debug
 
 <details>
-<summary>Object Watcher</summary>
-
-▶️[**Demo** (CtorWatcher)](https://godbolt.org/z/f6r8obT7W) [[object_watcher.h](src/object_watcher.h)] \
-▶️[**Demo** (ObjWatcher)](https://godbolt.org/z/zWoMMTdqz) [[object_watcher.h](src/object_watcher.h)]
-
-</details>
-
-<details>
-<summary>Show deducted type</summary>
+<summary>Display type</summary>
 
 [(StackOverflow) Using 'auto' type deduction - how to find out what type the compiler deduced?](https://stackoverflow.com/questions/38820579/using-auto-type-deduction-how-to-find-out-what-type-the-compiler-deduced)
 
 ```cpp
 struct {} _ = ...
 ```
+
+</details>
+
+<details>
+<summary>Object Watcher</summary>
+
+▶️[**Demo** (CtorWatcher)](https://godbolt.org/z/f6r8obT7W) [[object_watcher.h](src/object_watcher.h)] \
+▶️[**Demo** (ObjWatcher)](https://godbolt.org/z/zWoMMTdqz) [[object_watcher.h](src/object_watcher.h)]
 
 </details>
 
