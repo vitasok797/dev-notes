@@ -754,19 +754,16 @@ auto main() -> int
 | May share ownership | `std::shared_ptr` || `const std::shared_ptr<>&` | May copy `std::shared_ptr` or create `std::weak_ptr` |
 | Reassign pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
 | Reassign pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
+| ***<ins>Optimazations:</ins>*** |||||
+| <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `const HeavyType&`<br>`HeavyType&&` | Then `std::move` `HeavyType&&` |
+| <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `T&&` | • Then `std::forward`<br>• Some type constraints can be added (see [concepts](https://en.cppreference.com/w/cpp/concepts#Core_language_concepts)) |
+| <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `HeavyType` | • Then `std::move`<br>• See [by-value-then-move idiom](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)<br>• Assumed to be used only for constructors |
 
 Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Fundamental types (integral, floating-point, bool, etc.)
 * Iterators
 * View types (std::string_view, std::span)
 * ❓ Callable objects (functors, lambdas, std::function)
-
-<sup>✱</sup>Possible optimizations for retaining a "copy" of `HeavyType`:
-* Use two overloads:
-  * `const HeavyType&`
-  * `HeavyType&&` (then `std::move`)
-* Use forwarding reference: `T&&` (then `std::forward`).<br>Some type constraints can be added (see [concepts](https://en.cppreference.com/w/cpp/concepts#Core_language_concepts))
-* Pass by value: `HeavyType` (then `std::move`).<br>See [by-value-then-move idiom](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom). Assumed to be used only for constructors
 
 #### Returning
 ❓❓❓
