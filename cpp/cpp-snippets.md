@@ -1619,6 +1619,24 @@ auto read_and_fill(T& container, int size) -> void
 }
 ```
 
+```cpp
+template<typename T>
+constexpr auto precision = T(0.000001);
+
+template<typename T>
+auto close_enough(T a, T b) -> bool
+{
+    if constexpr (std::is_floating_point_v<T>)
+    {
+        return std::abs(a - b) < precision<T>;
+    }
+    else
+    {
+        return a == b;
+    }
+}
+```
+
 </details>
 
 ## Type
