@@ -1583,6 +1583,28 @@ auto main() -> int
 ## Templates
 
 <details>
+<summary>Concepts</summary>
+
+```cpp
+template<class T>
+auto is_equal(T a, T b)
+{
+    return a == b;
+}
+
+template<class T>
+requires std::floating_point<T>
+auto is_equal(T a, T b)
+{
+    return std::abs(a - b) < static_cast<T>(0.000001);
+}
+```
+
+▶️[**Demo**](https://godbolt.org/z/6zra3KPea)
+
+</details>
+
+<details>
 <summary>if constexpr</summary>
 
 ```cpp
