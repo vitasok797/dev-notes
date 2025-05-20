@@ -86,6 +86,7 @@
 ## Operators
 * [(cppreference) Operator precedence](https://en.cppreference.com/w/cpp/language/operator_precedence)
 * [(cppreference) Operator overloading](https://en.cppreference.com/w/cpp/language/operators)
+* [(LearnCpp) Printing inherited classes using operator<<](https://www.learncpp.com/cpp-tutorial/printing-inherited-classes-using-operator/)
 
 ## Initialization
 * [(cppreference) Initialization](https://en.cppreference.com/w/cpp/language/initialization)
