@@ -230,10 +230,12 @@
 ## GUI
 * <https://www.qt.io/product/framework>
 * <https://www.wxwidgets.org/>
+* <https://github.com/ocornut/imgui>
 * <https://github.com/aui-framework/aui> (no vcpkg)
 
 ### GUI / Plot
 * <https://github.com/wxIshiko/wxCharts>
+* <https://github.com/epezent/implot>
 
 ## UUID
 * [Boost.Uuid](https://www.boost.org/doc/libs/latest/libs/uuid/doc/html/uuid.html)
