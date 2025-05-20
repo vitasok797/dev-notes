@@ -159,7 +159,8 @@
 ### Types / Reflection
 * <https://github.com/Neargye/nameof>
 * [Boost.Describe](https://www.boost.org/doc/libs/latest/libs/describe/doc/html/describe.html)
-* Boost.Core: [type\_name](https://www.boost.org/doc/libs/latest/libs/core/doc/html/core/type_name.html), [is\_same](https://www.boost.org/doc/libs/latest/libs/core/doc/html/core/is_same.html)
+* Boost.Core: [type\_name](https://www.boost.org/doc/libs/latest/libs/core/doc/html/core/type_name.html)
+* <https://github.com/felixguendling/cista> ([site](https://cista.rocks/#reflection))
 
 ### Types / Scope guard
 * [Boost.Scope](https://www.boost.org/doc/libs/latest/libs/scope/doc/html/index.html)
