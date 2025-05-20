@@ -93,6 +93,7 @@
 * <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
 * <https://github.com/stephenberry/glaze>
 * <https://github.com/danielaparker/jsoncons>
+* <https://github.com/open-source-parsers/jsoncpp>
 
 ### Formats / TOML
 * <https://github.com/marzer/tomlplusplus> ([site](https://marzer.github.io/tomlplusplus/))
@@ -179,6 +180,7 @@
 * [Boost.Process](https://www.boost.org/doc/libs/latest/doc/html/process.html)
 * [Boost.Interprocess](https://www.boost.org/doc/libs/latest/doc/html/interprocess.html)
 * POCO ([Processes](https://pocoproject.org/slides/150-Processes.pdf))
+* <https://github.com/DaanDeMeyer/reproc>
 
 ### System / File System
 * [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem)
@@ -287,6 +289,15 @@
   * <https://github.com/pybind/pybind11>
   * <https://github.com/wjakob/nanobind>
 
+## Scripting
+* Lua:
+  * <https://www.lua.org> ([vcpkg](https://vcpkg.io/en/package/lua))
+  * <https://github.com/LuaJIT/LuaJIT>
+  * <https://github.com/vinniefalco/LuaBridge>
+  * <https://github.com/kunitoki/LuaBridge3>
+  * <https://github.com/luau-lang/luau>
+  * 
+
 ## Error handling
 * [Boost.Optional](https://www.boost.org/doc/libs/latest/libs/optional/doc/html/index.html)
 * [Boost.Outcome](https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/index.html) ([standalone](https://github.com/ned14/outcome))
@@ -298,6 +309,7 @@
 ## Debug
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
 * <https://github.com/renatoGarcia/icecream-cpp>
+* <https://github.com/keithpotz/CrashCatch> (no vcpkg, header-only)
 
 ## Test
 * <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest))
