@@ -559,8 +559,8 @@ auto test(std::shared_ptr<std::string> ptr) -> void
 class PtrHolder
 {
 public:
-    PtrHolder(std::unique_ptr<std::string> ptr)
-        : ptr_(std::move(ptr))
+    PtrHolder(std::unique_ptr<std::string> ptr) :
+        ptr_(std::move(ptr))
     {}
 
     auto get_value() const & -> std::string&
@@ -579,7 +579,7 @@ private:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/P7Wj76Yh6)
+▶️[**Demo**](https://godbolt.org/z/E4c6Edzze)
 
 </details>
 
