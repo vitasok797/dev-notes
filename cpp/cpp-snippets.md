@@ -535,11 +535,13 @@ TD<decltype(x)> _;
 <summary>Pointers dereference</summary>
 
 ```cpp
+#include <vs/error.h>
+
 auto test(std::shared_ptr<std::string> ptr) -> void
 {
     if (!ptr)
     {
-        throw std::runtime_error("nullptr");
+        throw vs::nullptr_error();
     }
     // use: ptr.get());
 }
@@ -556,6 +558,8 @@ auto test(std::shared_ptr<std::string> ptr) -> void
 ```
 
 ```cpp
+#include <vs/error.h>
+
 class PtrHolder
 {
 public:
@@ -567,7 +571,7 @@ public:
     {
         if (!ptr_)
         {
-            throw std::runtime_error("nullptr");
+            throw vs::nullptr_error();
         }
         return *ptr_;
     }
@@ -579,7 +583,7 @@ private:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/E4c6Edzze)
+▶️[**Demo**](https://godbolt.org/z/fhfqb71WK) [[error.h](src/error.h)]
 
 </details>
 
