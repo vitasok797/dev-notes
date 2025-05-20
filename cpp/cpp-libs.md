@@ -122,7 +122,9 @@
 * <https://github.com/felixguendling/cista>
 * [Kaitai Struct (custom binary format)](https://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
 * Articles:
-  * [CPP serializers benchmark](https://github.com/fraillt/cpp_serializers_benchmark)
+  * [CPP serializers benchmark (bitsery)](https://github.com/fraillt/cpp_serializers_benchmark)
+  * [Benchmark comparing various data serialization libraries (thrift, protobuf etc.) for C++](https://github.com/thekvs/cpp-serializers)
+  * [Comparison of C++ Serialization Libraries for Graph Data (cista)](https://github.com/felixguendling/cpp-serialization-benchmark)
 
 ### Formats / Multiformat serialization
 * [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
