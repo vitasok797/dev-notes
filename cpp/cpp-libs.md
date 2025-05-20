@@ -298,6 +298,17 @@
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
 * <https://github.com/renatoGarcia/icecream-cpp>
 
+## Test
+* <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest))
+* <https://github.com/catchorg/Catch2>
+* <https://github.com/doctest/doctest>
+
+## Benchmark
+* <https://github.com/google/benchmark>
+* <https://github.com/martinus/nanobench>
+* <https://github.com/ivafanas/sltbench>
+* <https://github.com/DigitalInBlue/Celero>
+
 ## Var
 * <https://github.com/ericniebler/range-v3>
 * <https://github.com/Dobiasd/FunctionalPlus>
