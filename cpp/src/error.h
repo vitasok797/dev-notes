@@ -20,14 +20,14 @@ auto ptr_check(const T& ptr) -> void
 template<typename T>
 auto ptr_checked_deref(const T& ptr) -> auto&
 {
-    ptr_check(ptr);
+    if (!ptr) throw nullptr_error();
     return *ptr;
 }
 
 template<typename T>
 auto ptr_checked_get(const T& ptr) -> auto
 {
-    ptr_check(ptr);
+    if (!ptr) throw nullptr_error();
     return ptr.get();
 }
 
