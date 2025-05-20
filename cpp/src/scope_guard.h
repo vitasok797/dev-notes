@@ -1,6 +1,7 @@
 #ifndef VS_SCOPE_GUARD_H_
 #define VS_SCOPE_GUARD_H_
 
+#include <type_traits>
 #include <utility>
 
 #define VS_SCOPE_GUARD vs::ScopeGuard VS_SCOPE_GUARD_UNIQ_NAME(__LINE__) = [&]()
