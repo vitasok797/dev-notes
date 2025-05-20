@@ -296,7 +296,6 @@
   * <https://github.com/vinniefalco/LuaBridge>
   * <https://github.com/kunitoki/LuaBridge3>
   * <https://github.com/luau-lang/luau>
-  * 
 
 ## Error handling
 * [Boost.Optional](https://www.boost.org/doc/libs/latest/libs/optional/doc/html/index.html)
