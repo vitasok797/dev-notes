@@ -535,6 +535,48 @@ TD<decltype(x)> _;
 <summary>Pointers dereference</summary>
 
 ```cpp
+auto test(std::shared_ptr<std::string> ptr) -> void
+{
+    if (!ptr)
+    {
+        throw std::runtime_error("nullptr");
+    }
+    // use: ptr.get());
+}
+```
+
+```cpp
+auto test(std::shared_ptr<std::string> ptr) -> void
+{
+    if (ptr)
+    {
+        // use: ptr.get());
+    }
+}
+```
+
+```cpp
+class PtrHolder
+{
+public:
+    PtrHolder(std::unique_ptr<std::string> ptr)
+        : ptr_(std::move(ptr))
+    {}
+
+    auto get_value() const & -> std::string&
+    {
+        if (!ptr_)
+        {
+            throw std::runtime_error("nullptr");
+        }
+        return *ptr_;
+    }
+
+    auto get_value() const && = delete;
+
+private:
+   std::unique_ptr<std::string> ptr_;
+};
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/P7Wj76Yh6)
