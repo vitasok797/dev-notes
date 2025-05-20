@@ -291,9 +291,12 @@
 * [Boost.Outcome](https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/index.html) ([standalone](https://github.com/ned14/outcome))
 * [Boost.LEAF](https://www.boost.org/doc/libs/latest/libs/leaf/doc/html/index.html)
 * [Boost.System](https://www.boost.org/doc/libs/latest/libs/system/doc/html/system.html)
-* <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
 * <https://github.com/TartanLlama/expected> ([vcpkg](https://vcpkg.io/en/package/tl-expected))
 * <https://github.com/martinmoene/expected-lite>
+
+## Debug
+* <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
+* <https://github.com/renatoGarcia/icecream-cpp>
 
 ## Var
 * <https://github.com/ericniebler/range-v3>
