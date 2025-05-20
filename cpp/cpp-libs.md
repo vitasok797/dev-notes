@@ -274,6 +274,13 @@
 * [Boost.DLL](https://www.boost.org/doc/libs/latest/doc/html/boost_dll.html)
 * POCO ([SharedLibraries](https://pocoproject.org/slides/120-SharedLibraries.pdf))
 
+## Bindings
+* [SWIG](https://www.swig.org/)
+* Python:
+  * [Boost.Python](https://www.boost.org/doc/libs/latest/libs/python/doc/html/)
+  * <https://github.com/pybind/pybind11>
+  * <https://github.com/wjakob/nanobind>
+
 ## Error handling
 * [Boost.Optional](https://www.boost.org/doc/libs/latest/libs/optional/doc/html/index.html)
 * [Boost.Outcome](https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/index.html) ([standalone](https://github.com/ned14/outcome))
