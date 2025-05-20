@@ -109,6 +109,7 @@
 
 ### Formats / Binary serialization
 * <https://protobuf.dev/>
+* <https://github.com/PragmaTwice/protopuf>
 * <https://flatbuffers.dev/>
 * <https://github.com/capnproto/capnproto>
 * <https://github.com/eyalz800/zpp_bits> ([vcpkg](https://vcpkg.io/en/package/zpp-bits))
