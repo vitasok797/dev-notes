@@ -46,7 +46,8 @@
 * <https://github.com/ZimProjects/SRELL>
 * <https://github.com/hanickadot/compile-time-regular-expressions> ([vcpkg](https://vcpkg.io/en/package/ctre), [doc](https://compile-time-regular-expressions.readthedocs.io/))
 * <https://github.com/zemasoft/wildcards>
-* [(Habr) regexp — большие гонки](https://habr.com/ru/articles/812953/)
+* Articles:
+  * [(Habr) regexp — большие гонки](https://habr.com/ru/articles/812953/)
 
 ### Text / I18n
 * [Boost.Locale](https://www.boost.org/doc/libs/latest/libs/locale/doc/html/index.html)
@@ -83,7 +84,8 @@
 * POCO ([XML](https://pocoproject.org/slides/170-XML.pdf))
 * <https://github.com/zeux/pugixml>
 * <https://github.com/leethomason/tinyxml2>
-* [(StackOverflow) Choose XML library](https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c/9387612#9387612)
+* Articles:
+  * [(StackOverflow) Choose XML library](https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c/9387612#9387612)
 
 ### Formats / JSON
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
@@ -116,12 +118,16 @@
 * <https://github.com/capnproto/capnproto>
 * <https://github.com/eyalz800/zpp_bits> ([vcpkg](https://vcpkg.io/en/package/zpp-bits))
 * <https://github.com/fraillt/bitsery>
+* <https://github.com/p-ranav/alpaca>
+* <https://github.com/felixguendling/cista>
 * [Kaitai Struct (custom binary format)](https://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
-* [CPP serializers benchmark](https://github.com/fraillt/cpp_serializers_benchmark)
+* Articles:
+  * [CPP serializers benchmark](https://github.com/fraillt/cpp_serializers_benchmark)
 
 ### Formats / Multiformat serialization
 * [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
 * <https://github.com/injae/serdepp>
+* <https://github.com/USCiLab/cereal> (binary, JSON, XML)
 
 ### Formats / Base64
 * POCO ([Streams](https://pocoproject.org/slides/100-Streams.pdf))
@@ -133,7 +139,8 @@
 * <https://github.com/okdshin/PicoSHA2>
 * <https://github.com/weidai11/cryptopp>
 * <https://github.com/stbrumme/hash-library>
-* [Use Fast Algorithms](https://jolynch.github.io/posts/use_fast_data_algorithms/)
+* Articles:
+  * [Use Fast Algorithms](https://jolynch.github.io/posts/use_fast_data_algorithms/)
 
 ## Types
 
@@ -217,7 +224,8 @@
 * <https://github.com/abumq/easyloggingpp>
 * <https://github.com/log4cplus/log4cplus>
 * <https://logging.apache.org/log4cxx/>
-* [(Habr) Сравнение библиотек логирования](https://habr.com/ru/articles/313686/)
+* Articles:
+  * [(Habr) Сравнение библиотек логирования](https://habr.com/ru/articles/313686/)
 
 ## GUI
 * <https://www.qt.io/product/framework>
