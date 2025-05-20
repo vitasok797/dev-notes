@@ -529,6 +529,15 @@ TD<decltype(x)> _;
 
 </details>
 
+## Error handling
+
+### Pointers dereference
+
+```cpp
+```
+
+▶️[**Demo**](https://godbolt.org/z/P7Wj76Yh6)
+
 ## Functions
 
 <details>
