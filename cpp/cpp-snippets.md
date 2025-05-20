@@ -539,7 +539,8 @@ auto test(std::shared_ptr<std::string> sptr) -> void
 {
     if (sptr)
     {
-        // use: sptr.get());
+        // use: *sptr
+        // use: pass_raw_pointer(sptr.get())
     }
 }
 ```
@@ -550,7 +551,7 @@ auto test(std::shared_ptr<std::string> sptr) -> void
 auto test(std::shared_ptr<std::string> sptr) -> void
 {
     auto p = vs::ptr_checked_get(sptr);
-    print_value(p);
+    // use: pass_raw_pointer(p)
 }
 ```
 
