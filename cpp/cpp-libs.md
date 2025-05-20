@@ -265,6 +265,7 @@
 * <https://github.com/civetweb/civetweb>
 * <https://github.com/yhirose/cpp-httplib>
 * <https://github.com/CrowCpp/crow>
+* <https://github.com/drogonframework/drogon>
 
 ## Math
 * [Numerics library](https://en.cppreference.com/w/cpp/numeric)
@@ -277,6 +278,7 @@
 * POCO [Data (SQLite, MySQL/MariaDB, PostgreSQL)](https://docs.pocoproject.org/current/00200-DataUserManual.html)
 * <https://github.com/aminroosta/sqlite_modern_cpp> ([vcpkg](https://vcpkg.io/en/package/sqlite-modern-cpp))
 * <https://github.com/SRombauts/SQLiteCpp>
+* <https://github.com/bw-hro/sqlitemap> ([vcpkg](https://vcpkg.io/en/package/bw-sqlitemap))
 
 ## Shared Libraries
 * [Boost.DLL](https://www.boost.org/doc/libs/latest/doc/html/boost_dll.html)
