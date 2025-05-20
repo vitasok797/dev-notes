@@ -1478,6 +1478,8 @@ func(7);
 ```
 
 ```cpp
+#include <vs/util.h>
+
 auto func_nocopy(vs::optional_ref<const std::string> arg) -> void
 {
     if (arg)
