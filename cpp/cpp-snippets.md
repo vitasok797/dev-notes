@@ -531,12 +531,15 @@ TD<decltype(x)> _;
 
 ## Error handling
 
-### Pointers dereference
+<details>
+<summary>Pointers dereference</summary>
 
 ```cpp
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/P7Wj76Yh6)
+
+</details>
 
 ## Functions
 
