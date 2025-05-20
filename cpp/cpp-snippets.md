@@ -535,25 +535,22 @@ TD<decltype(x)> _;
 <summary>Pointers dereference</summary>
 
 ```cpp
-#include <vs/error.h>
-
-auto test(std::shared_ptr<std::string> ptr) -> void
+auto test(std::shared_ptr<std::string> sptr) -> void
 {
-    if (!ptr)
+    if (sptr)
     {
-        throw vs::nullptr_error();
+        // use: sptr.get());
     }
-    // use: ptr.get());
 }
 ```
 
 ```cpp
-auto test(std::shared_ptr<std::string> ptr) -> void
+#include <vs/error.h>
+
+auto test(std::shared_ptr<std::string> sptr) -> void
 {
-    if (ptr)
-    {
-        // use: ptr.get());
-    }
+    auto p = vs::ptr_checked_get(sptr);
+    print_value(p);
 }
 ```
 
@@ -563,27 +560,23 @@ auto test(std::shared_ptr<std::string> ptr) -> void
 class PtrHolder
 {
 public:
-    PtrHolder(std::unique_ptr<std::string> ptr) :
-        ptr_(std::move(ptr))
+    PtrHolder(std::unique_ptr<std::string> uptr) :
+        uptr_(std::move(uptr))
     {}
 
     auto get_value() const & -> std::string&
     {
-        if (!ptr_)
-        {
-            throw vs::nullptr_error();
-        }
-        return *ptr_;
+        return vs::ptr_checked_deref(uptr_);
     }
 
     auto get_value() const && = delete;
 
 private:
-   std::unique_ptr<std::string> ptr_;
+   std::unique_ptr<std::string> uptr_;
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/fhfqb71WK) [[error.h](src/error.h)]
+▶️[**Demo**](https://godbolt.org/z/c6Ev5Eoeo) [[error.h](src/error.h)]
 
 </details>
 
