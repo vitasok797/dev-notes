@@ -12,20 +12,20 @@ struct nullptr_error : public std::exception
 };
 
 template<typename T>
-auto ptr_check(const T& ptr) -> void
+auto check_ptr(const T& ptr) -> void
 {
     if (!ptr) throw nullptr_error();
 }
 
 template<typename T>
-auto ptr_checked_deref(const T& ptr) -> auto&
+auto checked_deref_ptr(const T& ptr) -> decltype(auto)
 {
     if (!ptr) throw nullptr_error();
     return *ptr;
 }
 
 template<typename T>
-auto ptr_checked_get(const T& ptr) -> auto
+auto checked_get_ptr(const T& ptr) -> decltype(auto)
 {
     if (!ptr) throw nullptr_error();
     return ptr.get();
