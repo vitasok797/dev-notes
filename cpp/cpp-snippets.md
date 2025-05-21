@@ -1155,8 +1155,10 @@ for (auto i = size_t{}; const auto& x : container)
 ```
 
 ```cpp
-for (const auto& el : get_struct().items()) {...}  // undefined behavior if get_struct() returns by value
-                                                   // https://pvs-studio.ru/ru/blog/posts/cpp/1149/#ID5FFD7E2F1C
+for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
+                                                   //   - get_struct() returns by value
+                                                   //   - items() returns by ref
+                                                   // see also: https://pvs-studio.ru/ru/blog/posts/cpp/1149/#ID5FFD7E2F1C
 for (const auto& s = get_struct(); const auto& el : s.items()) {...}  // OK
 ```
 
