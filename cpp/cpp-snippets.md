@@ -555,7 +555,7 @@ vs::check_ptr(shared_ptr);
 ```cpp
 #include <vs/error.h>
 
-auto[&] value = vs::checked_deref_ptr(shared_ptr);
+auto& value = vs::checked_deref_ptr(shared_ptr);
 
 // use value
 // pass_by_ref(value)
@@ -591,7 +591,7 @@ private:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/e3e84E77b) [[error.h](src/error.h)]
+▶️[**Demo**](https://godbolt.org/z/ev8Wqsdnn) [[error.h](src/error.h)]
 
 </details>
 
