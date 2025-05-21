@@ -989,8 +989,6 @@ auto get_data() -> std::tuple<int, double>
 <details>
 <summary>auto (AAA)</summary>
 
-💡 `auto` means "take exactly the type on the right-hand side, but strip off top-level const/volatile and &/&&"
-
 Syntax:
 ```cpp
 [static/inline] [const/constexpr] auto[&/&&/*] x = expr;
@@ -1000,6 +998,19 @@ Syntax:
 ```cpp
          auto  x = expr;  // removes cv/ref
 decltype(auto) x = expr;  // preserves cv/ref
+```
+
+Constness:
+```cpp
+const auto x = 0;
+auto x1 = x;
+auto& x2 = x;
+
+// converts to
+
+const int x = 0;
+int x1 = x;
+const int & x2 = x;
 ```
 
 Examples:
