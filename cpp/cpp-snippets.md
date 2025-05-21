@@ -535,39 +535,53 @@ TD<decltype(x)> _;
 <summary>Pointers dereference</summary>
 
 ```cpp
-auto test(std::shared_ptr<std::string> sptr) -> void
+// classic check
+if (shared_ptr)
 {
-    if (sptr)
-    {
-        // use: *sptr
-        // use: pass_raw_pointer(sptr.get())
-    }
+    // use *shared_ptr
+    // pass_by_ref(*shared_ptr)
 }
 ```
 
 ```cpp
 #include <vs/error.h>
 
-auto test(std::shared_ptr<std::string> sptr) -> void
-{
-    auto p = vs::ptr_checked_get(sptr);
-    // use: pass_raw_pointer(p)
-}
+vs::check_ptr(shared_ptr);
+
+// use *shared_ptr
+// pass_by_ref(*shared_ptr)
 ```
 
 ```cpp
 #include <vs/error.h>
 
-class PtrHolder
+auto[&] value = vs::checked_deref_ptr(shared_ptr);
+
+// use value
+// pass_by_ref(value)
+```
+
+```cpp
+#include <vs/error.h>
+
+auto non_optional_raw_ptr = vs::checked_get_ptr(shared_ptr);
+
+// pass_by_raw_ptr(non_optional_raw_ptr)
+```
+
+```cpp
+#include <vs/error.h>
+
+class SomeClass
 {
 public:
-    PtrHolder(std::unique_ptr<std::string> uptr) :
+    SomeClass(std::unique_ptr<std::string> uptr) :
         uptr_(std::move(uptr))
     {}
 
     auto get_value() const & -> std::string&
     {
-        return vs::ptr_checked_deref(uptr_);
+        return vs::checked_deref_ptr(uptr_);
     }
 
     auto get_value() const && = delete;
