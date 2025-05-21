@@ -1003,14 +1003,12 @@ decltype(auto) x = expr;  // preserves cv/ref
 Constness:
 ```cpp
 const auto x = 0;
+
 auto x1 = x;
-auto& x2 = x;
-
-// converts to
-
-const int x = 0;
 int x1 = x;
-const int & x2 = x;
+
+auto& x2 = x;
+const int& x2 = x;
 ```
 
 Examples:
