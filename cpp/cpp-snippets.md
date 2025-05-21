@@ -577,7 +577,7 @@ private:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/c6Ev5Eoeo) [[error.h](src/error.h)]
+▶️[**Demo**](https://godbolt.org/z/e3e84E77b) [[error.h](src/error.h)]
 
 </details>
 
