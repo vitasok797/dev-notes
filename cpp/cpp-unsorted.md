@@ -9,6 +9,17 @@
 * https://hackingcpp.com/cpp/std/range_views_intro.html
 * https://hackingcpp.com/cpp/std/range_views.png
 * https://stackoverflow.com/questions/67716780/is-it-possible-advisable-to-return-a-range
+* https://hannes.hauswedell.net/post/2019/11/30/range_intro/
+* Constness:
+  * https://godbolt.org/z/3rTz5dsvP
+  * https://ericniebler.github.io/range-v3/index.html#tutorial-quick-start
+  * https://en.cppreference.com/w/cpp/ranges/filter_view
+  * https://en.cppreference.com/w/cpp/ranges/reverse_view
+  * https://www.google.ru/search?q=c%2B%2B+view+range+argument+constness
+  * https://www.reddit.com/r/cpp_questions/comments/lnm5ty/taking_a_range_the_concept_as_a_function_argument/
+  * https://stackoverflow.com/questions/73444061/passing-stdrangesviews-as-parameters-in-c20/73444148
+  * https://github.com/microsoft/STL/issues/1942
+  * https://stackoverflow.com/questions/74806106/is-const-broken-with-stdviews
 
 ## Error Handling
 * https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/index.html
