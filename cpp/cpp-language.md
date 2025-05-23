@@ -228,7 +228,7 @@
 * [(Not) using std::thread](https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/)
 * [Synchronization with Atomics in C++20](https://www.modernescpp.com/index.php/synchronization-with-atomics-in-c-20/)
 
-### Multithreading / Async
+### Multithreading / Coroutines
 * [(Habr) Корутины в C++20: архитектура и практическое применение](https://habr.com/ru/articles/908386/)
 * [(Habr) Недостатки корутин в C++](https://habr.com/ru/companies/ruvds/articles/755246/)
 * [(Habr) Подробно о корутинах в C++](https://habr.com/ru/companies/piter/articles/491996/)
