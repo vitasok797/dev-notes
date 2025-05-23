@@ -226,6 +226,7 @@
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 2]](https://habr.com/ru/articles/182626/)
 * [C++ std::thread Event Loop with Message Queue and Timer](https://github.com/endurodave/StdWorkerThread)
 * [(Not) using std::thread](https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/)
+* [Synchronization with Atomics in C++20](https://www.modernescpp.com/index.php/synchronization-with-atomics-in-c-20/)
 
 ### Multithreading / Async
 * [(Habr) Корутины в C++20: архитектура и практическое применение](https://habr.com/ru/articles/908386/)
