@@ -65,7 +65,6 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 
 #### Trailing return type
 ```cpp
-[virtual] [static] [constexpr] TYPE member_func() [const] [&/&&] [noexcept]         [override/final]
 [virtual] [static] [constexpr] auto member_func() [const] [&/&&] [noexcept] -> TYPE [override/final]
 ```
 
