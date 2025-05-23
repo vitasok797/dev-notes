@@ -88,5 +88,13 @@
 * https://www.reddit.com/r/cpp/comments/q4mchr/overview_of_different_ways_of_passing_struct/
 * https://godbolt.org/z/9fr8Wvhvv
 
+## TODO
+* Improve ObjWatcher (thread id, port from old)
+* Dev games (Instagram)
+
 ## Var
 * https://hackingcpp.com/
+*	https://medium.com/techanic/how-to-properly-integrate-third-party-libraries-using-design-patterns-in-c-and-java-a6980f7184f8
+*	https://habr.com/ru/articles/683204/
+*	https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html
+*	https://pvs-studio.ru/ru/blog/posts/cpp/1129/
