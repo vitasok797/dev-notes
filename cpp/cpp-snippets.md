@@ -1184,8 +1184,6 @@ const auto [a, b, c] =
 
 auto& [a, b, c] =
 const auto& [a, b, c] =
-
-auto&& [a, b, c] =
 ```
 
 ```cpp
