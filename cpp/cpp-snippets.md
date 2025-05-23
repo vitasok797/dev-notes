@@ -1036,7 +1036,8 @@ auto get_data() -> std::tuple<int, double>
 <details>
 <summary>auto (AAA)</summary>
 
-Syntax:
+#### Syntax
+
 ```cpp
 [static/inline] [const/constexpr] auto[&/&&/*] x = expr;
 [static/inline] [const/constexpr] auto[&/&&/*] x = TYPE{expr};
@@ -1047,7 +1048,7 @@ Syntax:
 decltype(auto) x = expr;  // preserves cv/ref
 ```
 
-Constness:
+#### Constness
 ```cpp
 const auto x = 0;
 
@@ -1058,26 +1059,26 @@ auto& x2 = x;
 const int& x2 = x;
 ```
 
-Examples:
+#### Examples
 ```cpp
 auto i = int64_t{123};
 auto v = std::vector<int>{};
 auto get_size = [](const auto& x) { return x.size(); };
 ```
 
-Dynamic memory allocation:
+#### Dynamic memory allocation
 ```cpp
 auto w = new Widget{};
 auto w = std::make_unique<Widget>();
 ```
 
-Polymorphic smart pointers:
+#### Polymorphic smart pointers
 ```cpp
 auto base_shared_ptr = std::shared_ptr<Base>{ std::make_shared<Derived>() };
 auto base_unique_ptr = std::unique_ptr<Base>{ std::make_unique<Derived>() };
 ```
 
-Strings:
+#### Strings
 ```cpp
 using namespace std::literals;
 
@@ -1093,7 +1094,7 @@ auto x = std::string_view{"hello"};
 auto x = "hello"sv;
 ```
 
-Loop counter:
+#### Loop counter
 ```cpp
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
@@ -1101,20 +1102,20 @@ for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
-Range-based for loops element type:
+#### Range-based for loops element type
 ```cpp
 for (      auto  x : cont)  // when you want to modify copies of the elements
 for (      auto& x : cont)  // when you want to modify the original elements
 for (const auto& x : cont)  // otherwise (when you just need to view the original elements)
 ```
 
-Signed/unsigned cast with helpers:
+#### Signed/unsigned cast with helpers
 ```cpp
 auto x = vs::as_signed(integer_expr);
 auto x = vs::as_unsigned(integer_expr);
 ```
 
-Initialization by function return value:
+#### Initialization by function return value
 ```cpp
 Gadget get_gadget();
 
@@ -1123,7 +1124,7 @@ auto w = get_gadget();  // GOOD: no implicit conversion
 auto w = Widget{ get_gadget() };  // GOOD: implicit conversion with intent
 ```
 
-`std::initializer_list` issue:
+#### `std::initializer_list` issue
 ```cpp
 auto i = 3;    // int
 auto i(3);     // int
@@ -1224,6 +1225,8 @@ for (const auto& s = get_struct(); const auto& el : s.items()) {...}
 
 [(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
 
+#### Syntax
+
 ```cpp
 auto [a, b, c] =
 const auto [a, b, c] =
@@ -1236,7 +1239,7 @@ const auto& [a, b, c] =
 auto [_, b, c] =
 ```
 
-Unpacking a tuple:
+#### Unpacking a tuple
 ```cpp
 #include <tuple>
 
@@ -1245,7 +1248,7 @@ auto tuple = std::tuple{1, 'a', 2.3};
 auto [a, b, c] = tuple;
 ```
 
-Unpacking a struct:
+#### Unpacking a struct
 ```cpp
 struct Foo
 {
@@ -1259,7 +1262,7 @@ auto f = Foo{1, 'a', 2.3};
 auto [i, c, d] = f;
 ```
 
-Unpacking a map:
+#### Unpacking a map
 ```cpp
 #include <map>
 
