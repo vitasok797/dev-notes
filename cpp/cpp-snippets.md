@@ -1918,7 +1918,7 @@ auto main() -> int
 
 Libs: [magic_enum](https://github.com/Neargye/magic_enum)
 
-▶️[**Run**](https://godbolt.org/z/69fs8a7G6)
+▶️[**Run**](https://godbolt.org/z/Eo59bsvee)
 
 ```cpp
 #include <cstdint>
@@ -1927,20 +1927,20 @@ Libs: [magic_enum](https://github.com/Neargye/magic_enum)
 
 enum class Option : uint64_t
 {
-    OPT1 = uint64_t{1} << 0,
-    OPT2 = uint64_t{1} << 1,
-    OPT3 = uint64_t{1} << 2,
-    OPT4 = uint64_t{1} << 3,
+    opt1 = uint64_t{1} << 0,
+    opt2 = uint64_t{1} << 1,
+    opt3 = uint64_t{1} << 2,
+    opt4 = uint64_t{1} << 3,
 };
 using OptionFlags = magic_enum::containers::bitset<Option>;
 inline constexpr OptionFlags no_options{};
 
 enum class OtherOption : uint32_t
 {
-    OPT1 = 1 << 0,
-    OPT2 = 1 << 1,
-    OPT3 = 1 << 2,
-    OPT4 = 1 << 3,
+    opt1 = 1 << 0,
+    opt2 = 1 << 1,
+    opt3 = 1 << 2,
+    opt4 = 1 << 3,
 };
 using OtherOptionFlags = magic_enum::containers::bitset<OtherOption>;
 
@@ -1954,10 +1954,10 @@ using std::cout, std::endl;
 
 auto print_options(OptionFlags opt) -> void
 {
-    bool opt1_set = opt.test(Option::OPT1);
-    bool opt2_set = opt.test(Option::OPT2);
-    bool opt3_set = opt[Option::OPT3];
-    bool opt4_set = opt[Option::OPT4];
+    bool opt1_set = opt.test(Option::opt1);
+    bool opt2_set = opt.test(Option::opt2);
+    bool opt3_set = opt[Option::opt3];
+    bool opt4_set = opt[Option::opt4];
 
     bool all = opt.all();
     bool any = opt.any();
@@ -1994,11 +1994,11 @@ auto main() -> int
     print_options(opt);
 
     // create: from enum list
-    opt = OptionFlags{Option::OPT1, Option::OPT2};
+    opt = OptionFlags{Option::opt1, Option::opt2};
     print_options(opt);
 
     // create: from enum
-    opt = OptionFlags{Option::OPT1};
+    opt = OptionFlags{Option::opt1};
     print_options(opt);
 
     // create: empty
@@ -2006,19 +2006,19 @@ auto main() -> int
     print_options(opt);
 
     // set
-    opt.set(Option::OPT1);
-    opt |= OptionFlags{Option::OPT2, Option::OPT3};
+    opt.set(Option::opt1);
+    opt |= OptionFlags{Option::opt2, Option::opt3};
     print_options(opt);
 
     // toggle
-    opt[Option::OPT4] = !opt[Option::OPT4];
+    opt[Option::opt4] = !opt[Option::opt4];
     print_options(opt);
-    opt[Option::OPT4] = !opt[Option::OPT4];
+    opt[Option::opt4] = !opt[Option::opt4];
     print_options(opt);
 
     // reset
-    opt.set(Option::OPT3, false);
-    opt.reset(Option::OPT2);
+    opt.set(Option::opt3, false);
+    opt.reset(Option::opt2);
     print_options(opt);
 
     // inverse
@@ -2034,16 +2034,16 @@ auto main() -> int
     print_options(opt);
 
     // == != operators
-    OptionFlags opt_lhs{Option::OPT1, Option::OPT2};
-    OptionFlags opt_rhs_same{Option::OPT1, Option::OPT2};
-    OptionFlags opt_rhs_diff{Option::OPT1, Option::OPT3};
+    OptionFlags opt_lhs{Option::opt1, Option::opt2};
+    OptionFlags opt_rhs_same{Option::opt1, Option::opt2};
+    OptionFlags opt_rhs_diff{Option::opt1, Option::opt3};
     assert(opt_lhs == opt_rhs_same);
     assert(opt_lhs != opt_rhs_diff);
 
     // | operator
-    OptionFlags opt13{Option::OPT1, Option::OPT3};
-    OptionFlags opt2{Option::OPT2};
-    OptionFlags opt123{Option::OPT1, Option::OPT2, Option::OPT3};
+    OptionFlags opt13{Option::opt1, Option::opt3};
+    OptionFlags opt2{Option::opt2};
+    OptionFlags opt123{Option::opt1, Option::opt2, Option::opt3};
     assert(opt123 == (opt13 | opt2));
 
     // function args
@@ -2053,8 +2053,8 @@ auto main() -> int
         cout << "func: [" << opt << "]" << endl;
     };
     func(1);
-    func(1, OptionFlags{Option::OPT1, Option::OPT2});
-    func(1, {Option::OPT3, Option::OPT4});
+    func(1, OptionFlags{Option::opt1, Option::opt2});
+    func(1, {Option::opt3, Option::opt4});
     func(1, OptionFlags{}, 2);
     func(1, no_options, 2);
 
@@ -2062,10 +2062,10 @@ auto main() -> int
     // errors
     //-----------------
 
-    // OtherOptionFlags other_opt{OtherOption::OPT1, OtherOption::OPT2};
-    // other_opt.set(Option::OPT3);
+    // OtherOptionFlags other_opt{OtherOption::opt1, OtherOption::opt2};
+    // other_opt.set(Option::opt3);
 
-    // OtherOptionFlags other_opt{OtherOption::OPT1, OtherOption::OPT2};
+    // OtherOptionFlags other_opt{OtherOption::opt1, OtherOption::opt2};
     // print_options(other_opt);
 }
 ```
