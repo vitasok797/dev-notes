@@ -1918,12 +1918,14 @@ auto main() -> int
 
 Libs: [magic_enum](https://github.com/Neargye/magic_enum)
 
-▶️[**Run**](https://godbolt.org/z/Eo59bsvee)
+▶️[**Run**](https://godbolt.org/z/zecvsK9Mf)
 
 ```cpp
 #include <cstdint>
 
 #include <magic_enum/magic_enum_containers.hpp>
+
+// ----------------------------------------------------------------------------------------------
 
 enum class Option : uint64_t
 {
@@ -1933,7 +1935,7 @@ enum class Option : uint64_t
     opt4 = uint64_t{1} << 3,
 };
 using OptionFlags = magic_enum::containers::bitset<Option>;
-inline constexpr OptionFlags no_options{};
+inline constexpr auto no_options = OptionFlags{};
 
 enum class OtherOption : uint32_t
 {
@@ -1954,22 +1956,22 @@ using std::cout, std::endl;
 
 auto print_options(OptionFlags opt) -> void
 {
-    bool opt1_set = opt.test(Option::opt1);
-    bool opt2_set = opt.test(Option::opt2);
-    bool opt3_set = opt[Option::opt3];
-    bool opt4_set = opt[Option::opt4];
+    auto opt1_set = opt.test(Option::opt1);
+    auto opt2_set = opt.test(Option::opt2);
+    auto opt3_set = opt[Option::opt3];
+    auto opt4_set = opt[Option::opt4];
 
-    bool all = opt.all();
-    bool any = opt.any();
-    bool none = opt.none();
+    auto all = opt.all();
+    auto any = opt.any();
+    auto none = opt.none();
     assert(none == !any);
 
-    size_t total_flags_count = opt.size();
-    size_t set_flags_count = opt.count();
+    auto total_flags_count = opt.size();
+    auto set_flags_count = opt.count();
 
-    std::string as_str = opt.to_string();
-    std::string as_str_bin = opt.to_string({}, '0', '1');
-    unsigned long long as_raw = opt.to_ullong({});
+    auto as_str = opt.to_string();
+    auto as_str_bin = opt.to_string({}, '0', '1');
+    auto as_raw = opt.to_ullong({});
 
     cout << (opt1_set ? "+" : "o");
     cout << (opt2_set ? "+" : "o");
@@ -1986,10 +1988,10 @@ auto print_options(OptionFlags opt) -> void
 
 auto main() -> int
 {
-    OptionFlags opt;
+    auto opt = OptionFlags{};
 
     // create: from raw
-    int raw = 7;
+    auto raw = 7;
     opt = OptionFlags{{}, static_cast<unsigned long long>(raw)};
     print_options(opt);
 
@@ -2034,16 +2036,16 @@ auto main() -> int
     print_options(opt);
 
     // == != operators
-    OptionFlags opt_lhs{Option::opt1, Option::opt2};
-    OptionFlags opt_rhs_same{Option::opt1, Option::opt2};
-    OptionFlags opt_rhs_diff{Option::opt1, Option::opt3};
+    auto opt_lhs = OptionFlags{Option::opt1, Option::opt2};
+    auto opt_rhs_same = OptionFlags{Option::opt1, Option::opt2};
+    auto opt_rhs_not_same = OptionFlags{Option::opt1, Option::opt3};
     assert(opt_lhs == opt_rhs_same);
-    assert(opt_lhs != opt_rhs_diff);
+    assert(opt_lhs != opt_rhs_not_same);
 
     // | operator
-    OptionFlags opt13{Option::opt1, Option::opt3};
-    OptionFlags opt2{Option::opt2};
-    OptionFlags opt123{Option::opt1, Option::opt2, Option::opt3};
+    auto opt13 = OptionFlags{Option::opt1, Option::opt3};
+    auto opt2 = OptionFlags{Option::opt2};
+    auto opt123 = OptionFlags{Option::opt1, Option::opt2, Option::opt3};
     assert(opt123 == (opt13 | opt2));
 
     // function args
@@ -2062,10 +2064,10 @@ auto main() -> int
     // errors
     //-----------------
 
-    // OtherOptionFlags other_opt{OtherOption::opt1, OtherOption::opt2};
+    // auto other_opt = OtherOptionFlags{OtherOption::opt1, OtherOption::opt2};
     // other_opt.set(Option::opt3);
 
-    // OtherOptionFlags other_opt{OtherOption::opt1, OtherOption::opt2};
+    // auto other_opt = OtherOptionFlags{OtherOption::opt1, OtherOption::opt2};
     // print_options(other_opt);
 }
 ```
