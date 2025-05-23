@@ -68,6 +68,18 @@
 * gsl::narrow, gsl::narrow_cast
 * gsl::at
 
+## Structured Binding:
+* Snippets:
+  * Errors (typical) / auto&& and forward
+  * Initialization / Structured Binding
+  * Type / auto&& resolving
+* https://chat.deepseek.com/
+* https://jguegant.github.io/blogs/tech/structured-bindings.html
+* https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/
+* https://godbolt.org/z/TEnf33jrM
+* https://stackoverflow.com/questions/44695684/structured-bindings-when-something-looks-like-a-reference-and-behaves-similarly/44696826#44696826
+* https://stackoverflow.com/questions/44671697/what-are-the-types-of-identifiers-introduced-by-structured-bindings-in-c17/44672220#44672220
+
 ## Compare
 * https://stackoverflow.com/questions/47466358/what-is-the-spaceship-three-way-comparison-operator-in-c
 * https://habr.com/ru/companies/microsoft/articles/458242/
