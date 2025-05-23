@@ -595,6 +595,22 @@ private:
 
 </details>
 
+## Errors (typical)
+
+<details>
+<summary>🚧 auto&& and forward</summary>
+
+
+
+</details>
+
+<details>
+<summary>🚧 Dangling references</summary>
+
+
+
+</details>
+
 ## Functions
 
 <details>
