@@ -844,6 +844,18 @@ auto main() -> int
 
 <details>
 <summary>🚧 Dangling references</summary>
+
+[Нарушение lifetime объектов: синтаксический сахар с ложкой дёгтя (range-based for)](https://pvs-studio.ru/ru/blog/posts/cpp/1149/#ID5FFD7E2F1C)
+
+```cpp
+for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
+                                                   //   - get_struct() returns by value
+                                                   //   - items() returns by ref
+for (const auto& s = get_struct(); const auto& el : s.items()) {...}  // OK
+```
+
+▶️[**Demo**](https://godbolt.org/z/4hY99Kxjx)
+
 </details>
 
 ## Functions
@@ -1415,11 +1427,7 @@ for (auto i = size_t{}; const auto& x : container)
 ```
 
 ```cpp
-for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
-                                                   //   - get_struct() returns by value
-                                                   //   - items() returns by ref
-                                                   // see also: https://pvs-studio.ru/ru/blog/posts/cpp/1149/#ID5FFD7E2F1C
-for (const auto& s = get_struct(); const auto& el : s.items()) {...}  // OK
+for (const auto& s = get_struct(); const auto& el : s.items()) {...}
 ```
 
 </details>
