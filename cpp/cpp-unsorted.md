@@ -101,6 +101,19 @@
 * https://www.reddit.com/r/cpp/comments/q4mchr/overview_of_different_ways_of_passing_struct/
 * https://godbolt.org/z/9fr8Wvhvv
 
+## Parameter passing
+* https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
+* https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
+* https://hackingcpp.com/cpp/recipe/string_parameters.html
+* https://hackingcpp.com/cpp/design/function_interface_example1.html
+* Returning &&:
+  * Examples:
+    * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
+    * https://en.cppreference.com/w/cpp/utility/optional/value
+  * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref-ref
+  * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
+  * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
+
 ## TODO
 * https://www.learncpp.com/ (14+)
 * Improve ObjWatcher (thread id, port from old)
