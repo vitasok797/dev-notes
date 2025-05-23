@@ -224,9 +224,13 @@
 * [(Habr) std::atomic. Модель памяти C++ в примерах](https://habr.com/ru/articles/517918/)
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 1]](https://habr.com/ru/articles/182610/)
 * [(Habr) Потоки, блокировки и условные переменные в C++11 [Часть 2]](https://habr.com/ru/articles/182626/)
+* [(Habr) Топ 20 ошибок при работе с многопоточностью на С++ и способы избежать их](https://habr.com/ru/articles/443406/)
 * [C++ std::thread Event Loop with Message Queue and Timer](https://github.com/endurodave/StdWorkerThread)
 * [(Not) using std::thread](https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/)
 * [Synchronization with Atomics in C++20](https://www.modernescpp.com/index.php/synchronization-with-atomics-in-c-20/)
+
+### Multithreading / Concurrent
+* [(Habr) SObjectizer articles](https://habr.com/ru/users/eao197/articles/page1/)
 
 ### Multithreading / Coroutines
 * [(Habr) Корутины в C++20: архитектура и практическое применение](https://habr.com/ru/articles/908386/)
