@@ -67,5 +67,26 @@
 * gsl::narrow, gsl::narrow_cast
 * gsl::at
 
+## Compare
+* https://stackoverflow.com/questions/47466358/what-is-the-spaceship-three-way-comparison-operator-in-c
+* https://habr.com/ru/companies/microsoft/articles/458242/
+* https://brevzin.github.io/c++/2019/07/28/comparisons-cpp20/#new-operator-abilities
+* https://en.cppreference.com/w/cpp/utility#Three-way_comparison
+* https://en.cppreference.com/w/cpp/language/operator_comparison
+* https://en.cppreference.com/w/cpp/language/operator_comparison#Three-way_comparison
+* https://en.cppreference.com/w/cpp/language/default_comparisons
+* https://godbolt.org/z/bWcc9PoPx
+* Вопросы:
+  * Для чего еще может использоваться <=>
+  * Как сравниваются структуры
+
+## MACROS
+* https://www.fluentcpp.com/2019/05/14/3-types-of-macros-that-improve-c-code/
+* https://stackoverflow.com/questions/76558118/can-you-perfectly-forward-expressions-in-c23
+* https://www.reddit.com/r/cpp/comments/mgwfm8/will_we_ever_get_rid_of_macros_in_c/
+* https://vittorioromeo.info/index/blog/capturing_perfectly_forwarded_objects_in_lambdas.html
+* https://www.reddit.com/r/cpp/comments/q4mchr/overview_of_different_ways_of_passing_struct/
+* https://godbolt.org/z/9fr8Wvhvv
+
 ## Var
 * https://hackingcpp.com/
