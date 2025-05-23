@@ -1145,11 +1145,6 @@ auto i = {3};  // C++11: std::initializer_list<int>
 [virtual] [static] [constexpr] auto member_func() [const] [&/&&] [noexcept] -> TYPE [override/final]
 ```
 
-```cpp
-Person::PersonType Person::get_person_type()
-auto               Person::get_person_type() -> PersonType
-```
-
 #### Trailing return type (type deduction)
 
 ```cpp
@@ -1161,6 +1156,14 @@ auto               Person::get_person_type() -> PersonType
 ```cpp
 auto func() -> auto
 auto func()  // trailing auto can be omitted
+```
+
+#### Examples
+
+```cpp
+// Simplification
+Person::PersonType Person::get_person_type()
+auto               Person::get_person_type() -> PersonType
 ```
 
 </details>
