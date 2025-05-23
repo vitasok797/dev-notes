@@ -6,6 +6,7 @@
 <summary>Class: guide</summary>
 
 #### Structure
+
 ```cpp
 class MyClass [final]
 {
@@ -64,11 +65,13 @@ MyClass& operator=(MyClass&& other) noexcept {...}
 ```
 
 #### Trailing return type
+
 ```cpp
 [virtual] [static] [constexpr] auto member_func() [const] [&/&&] [noexcept] -> TYPE [override/final]
 ```
 
 #### Specifiers: virtual/override/final
+
 ```cpp
 struct A
 {
@@ -220,6 +223,7 @@ auto vector_of_unique_ptr() -> void
 <summary>Class: static/const fields</summary>
 
 #### Summary
+
 ```cpp
 struct Summary
 {
@@ -235,6 +239,7 @@ struct Summary
 ```
 
 #### Full
+
 ```cpp
 struct Static
 {
@@ -856,6 +861,7 @@ auto main() -> int
 <summary>🚧 Parameter passing</summary>
 
 #### Parameters
+
 * [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
 * [Language / Types / Passing parameters](cpp-language.md#types--passing-parameters)
 
@@ -892,6 +898,7 @@ From the caller's point of view, the value can be `std::move`ed if the parameter
 * `T&&`
 
 #### Returning
+
 ❓❓❓
 
 </details>
@@ -1049,6 +1056,7 @@ decltype(auto) x = expr;  // preserves cv/ref
 ```
 
 #### Constness
+
 ```cpp
 const auto x = 0;
 
@@ -1060,6 +1068,7 @@ const int& x2 = x;
 ```
 
 #### Examples
+
 ```cpp
 auto i = int64_t{123};
 auto v = std::vector<int>{};
@@ -1067,18 +1076,21 @@ auto get_size = [](const auto& x) { return x.size(); };
 ```
 
 #### Dynamic memory allocation
+
 ```cpp
 auto w = new Widget{};
 auto w = std::make_unique<Widget>();
 ```
 
 #### Polymorphic smart pointers
+
 ```cpp
 auto base_shared_ptr = std::shared_ptr<Base>{ std::make_shared<Derived>() };
 auto base_unique_ptr = std::unique_ptr<Base>{ std::make_unique<Derived>() };
 ```
 
 #### Strings
+
 ```cpp
 using namespace std::literals;
 
@@ -1095,6 +1107,7 @@ auto x = "hello"sv;
 ```
 
 #### Loop counter
+
 ```cpp
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
@@ -1103,6 +1116,7 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
 #### Range-based for loops element type
+
 ```cpp
 for (      auto  x : cont)  // when you want to modify copies of the elements
 for (      auto& x : cont)  // when you want to modify the original elements
@@ -1110,12 +1124,14 @@ for (const auto& x : cont)  // otherwise (when you just need to view the origina
 ```
 
 #### Signed/unsigned cast with helpers
+
 ```cpp
 auto x = vs::as_signed(integer_expr);
 auto x = vs::as_unsigned(integer_expr);
 ```
 
 #### Initialization by function return value
+
 ```cpp
 Gadget get_gadget();
 
@@ -1125,6 +1141,7 @@ auto w = Widget{ get_gadget() };  // GOOD: implicit conversion with intent
 ```
 
 #### `std::initializer_list` issue
+
 ```cpp
 auto i = 3;    // int
 auto i(3);     // int
@@ -1240,6 +1257,7 @@ auto [_, b, c] =
 ```
 
 #### Unpacking a tuple
+
 ```cpp
 #include <tuple>
 
@@ -1249,6 +1267,7 @@ auto [a, b, c] = tuple;
 ```
 
 #### Unpacking a struct
+
 ```cpp
 struct Foo
 {
@@ -1263,6 +1282,7 @@ auto [i, c, d] = f;
 ```
 
 #### Unpacking a map
+
 ```cpp
 #include <map>
 
@@ -1303,6 +1323,7 @@ auto main() -> int
 <summary>Signed/unsigned</summary>
 
 #### Loop counter
+
 ```cpp
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
@@ -1311,12 +1332,14 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 ```
 
 #### Demos
+
 ▶️[**Demo** (arithmetic)](https://godbolt.org/z/vcnarnYb6) [[util.h](src/util.h)] \
 ▶️[**Demo** (compare)](https://godbolt.org/z/nG9x3oEM3) [[util.h](src/util.h)] \
 ▶️[**Demo** (index)](https://godbolt.org/z/8PzeK8qKE) [[util.h](src/util.h)] \
 ▶️[**Demo** (accumulate)](https://godbolt.org/z/Tq3MW9zn4) [[util.h](src/util.h)]
 
 #### `-Wsign-compare` compiler option
+
 * Enabling:
   * GCC: `-Wsign-compare`, `-Wall`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
   * Clang: `-Wsign-compare`, `-Wextra` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
@@ -1330,6 +1353,7 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
   * Static analyzer configuration: do not flag on a mixed signed/unsigned comparison where one of the arguments is `sizeof` or a call to container `.size()` and the other is `ptrdiff_t` ([ES.100](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es100-dont-mix-signed-and-unsigned-arithmetic))
 
 #### `-Wtype-limits` compiler option
+
 * Enabling:
   * GCC: `-Wtype-limits`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
   * Clang: `-Wtype-limits` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
@@ -1496,6 +1520,7 @@ condition ? true_expression : false_expression
 <summary>std::optional</summary>
 
 #### Creating
+
 ```cpp
 // inplace
 auto opt = std::make_optional<Type>(1, 2);
@@ -1509,6 +1534,7 @@ auto opt = std::optional<Type>{type_inst};
 ```
 
 #### Returning
+
 ```cpp
 auto return_opt() -> std::optional<Type>
 {
@@ -1528,6 +1554,7 @@ auto return_opt() -> std::optional<Type>
 ```
 
 #### Passing as argument
+
 ```cpp
 auto func(std::optional<int> arg) -> void
 {
@@ -1561,6 +1588,7 @@ func_nocopy(s);
 ```
 
 #### Getting value
+
 ```cpp
 // opt.value() or *opt
 const auto& value = opt.value();             // const ref
@@ -1574,6 +1602,7 @@ auto value = std::move(opt).value_or(...);  // move
 ```
 
 #### Usage
+
 ```cpp
 auto opt = return_opt();
 
@@ -1615,6 +1644,7 @@ auto& value = *opt;
 <summary>std::tuple</summary>
 
 #### Creating
+
 ```cpp
 // inplace (single-arg ctor only)
 auto t = std::tuple<int, Watcher>{0, 1};
@@ -1625,6 +1655,7 @@ auto t = std::tuple<int, Watcher>{0, Watcher{1, 2}};
 ```
 
 #### Returning
+
 ```cpp
 // inplace (single-arg + non-explicit ctor only)
 auto return_tuple() -> std::tuple<int, Watcher> { return {0, 1}; }
@@ -2104,18 +2135,21 @@ auto main() -> int
 [(Reference) Type alias](https://en.cppreference.com/w/cpp/language/type_alias)
 
 #### Simple
+
 ```cpp
 using UserId = int;
 using UserAccounts = std::map<UserId, std::vector<Account>>;
 ```
 
 #### Template
+
 ```cpp
 template<typename T>
 using UserAccounts = std::map<UserId, std::vector<T>>;
 ```
 
 #### Nested
+
 ```cpp
 struct Shape
 {
@@ -2130,6 +2164,7 @@ auto MakeShape() -> Shape
 ```
 
 #### Function pointer
+
 ```cpp
 // Equivalent to: typedef void (*func)(int, int);
 using func = void (*) (int, int);
