@@ -60,6 +60,7 @@
 * https://godbolt.org/z/367zYbojs
 
 ## GSL
+* https://www.cppstories.com/2017/10/notnull/
 * GSL_SUPPRESS
 * Expects/Ensures
 * zstring
@@ -89,6 +90,7 @@
 * https://godbolt.org/z/9fr8Wvhvv
 
 ## TODO
+* https://www.learncpp.com/ (14+)
 * Improve ObjWatcher (thread id, port from old)
 * Dev games (Instagram)
 
@@ -98,3 +100,5 @@
 * https://habr.com/ru/articles/683204/
 * https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html
 * https://pvs-studio.ru/ru/blog/posts/cpp/1129/
+* https://scrutator.me/post/2014/01/29/objects_memory_layout_p1.aspx
+* https://dyzzet.ru/a/argument-dependent-lookup/ (советы, https://k0d.cc/storage/books/C/standarty_programmirovaniya_na_c.pdf)
