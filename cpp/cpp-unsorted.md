@@ -37,11 +37,35 @@
 * http://blog.think-async.com/2010/04/system-error-support-in-c0x-part-1.html ([google translate](https://blog-think--async-com.translate.goog/2010/04/system-error-support-in-c0x-part-1.html?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=ru))
 * http://blog.think-async.com/2010/04/system-error-support-in-c0x-part-2.html ([google translate](https://blog-think--async-com.translate.goog/2010/04/system-error-support-in-c0x-part-2.html?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=ru))
 
+## Concurrency
+* https://en.cppreference.com/w/cpp/thread
+* https://en.cppreference.com/w/cpp/language/coroutines
+* https://en.cppreference.com/w/cpp/coroutine
+* https://meetingcpp.com/mcpp/slides/2019/C20%20Coroutines.pdf
+* https://bartoszmilewski.com/2011/10/10/async-tasks-in-c11-not-quite-there-yet/
+
 ## Visit
 * https://github.com/Neargye/magic_enum/issues/199
 * https://raw.githubusercontent.com/Neargye/magic_enum/refs/heads/master/example/example_switch.cpp
 * https://en.cppreference.com/w/cpp/utility/variant/visit2
 * https://habr.com/ru/companies/otus/articles/546158/
+
+## CRTP
+* https://chat.deepseek.com/
+* https://github.com/rollbear/strong_type/blob/main/include/strong_type/type.hpp
+* https://scrutator.me/post/2014/06/26/crtp_demystified.aspx
+* https://nuancesprog.ru/p/15557/
+* https://stackoverflow.com/questions/4173254/what-is-the-curiously-recurring-template-pattern-crtp
+* https://en.cppreference.com/w/cpp/language/crtp
+* https://godbolt.org/z/367zYbojs
+
+## GSL
+* GSL_SUPPRESS
+* Expects/Ensures
+* zstring
+* final_action
+* gsl::narrow, gsl::narrow_cast
+* gsl::at
 
 ## Var
 * https://hackingcpp.com/
