@@ -215,6 +215,7 @@
 ### Multithreading / Concurrent
 * [TBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
 * <https://github.com/David-Haim/concurrencpp>
+* <https://github.com/Stiffstream/sobjectizer>
 
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
@@ -279,6 +280,7 @@
 * <https://github.com/yhirose/cpp-httplib>
 * <https://github.com/CrowCpp/crow>
 * <https://github.com/drogonframework/drogon>
+* <https://github.com/Stiffstream/restinio>
 
 ## Math
 * [Numerics library](https://en.cppreference.com/w/cpp/numeric)
