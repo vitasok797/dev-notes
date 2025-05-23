@@ -691,7 +691,7 @@ auto main() -> int
 <details>
 <summary>Function object</summary>
 
-▶️[**Run**](https://godbolt.org/z/bssqEqqMj)
+▶️[**Run**](https://godbolt.org/z/nooqb3Paz)
 
 ```cpp
 #include <iostream>
@@ -704,7 +704,7 @@ struct Compare
     }
 };
 
-inline constexpr Compare compare{};
+inline constexpr auto compare = Compare{};
 
 auto main() -> int
 {
