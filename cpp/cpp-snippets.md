@@ -601,9 +601,9 @@ private:
 <summary>🚧 auto&& and forward</summary>
 
 ```cpp
-for (auto&& el : my_range)
-auto&& [el, _] = my_tuple;
-auto&& [el, _] = my_struct;
+for (auto& el : my_range)
+auto& [el, _] = my_tuple;
+auto& [el, _] = my_struct;
 
 if constexpr (std::is_rvalue_reference_v<decltype(my_range)>)
 if constexpr (std::is_rvalue_reference_v<decltype(my_tuple)>)
