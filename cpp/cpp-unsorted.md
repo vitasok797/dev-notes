@@ -10,11 +10,6 @@
 * https://hackingcpp.com/cpp/std/range_views.png
 * https://stackoverflow.com/questions/67716780/is-it-possible-advisable-to-return-a-range
 
-## Style
-* https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/c++/c++.md
-* https://chromium.googlesource.com/chromium/src/+/HEAD/styleguide/c++/c++-dos-and-donts.md
-* https://chromium.googlesource.com/chromium/src/+/main/styleguide/c++/c++-features.md
-
 ## Error Handling
 * https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/index.html
 * https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/alternatives.html
@@ -35,4 +30,3 @@
 * https://habr.com/ru/companies/otus/articles/656363/
 * https://habr.com/ru/companies/otus/articles/546158/
 * https://hackingcpp.com/
-* https://hackingcpp.com/cpp/std/containers.html
