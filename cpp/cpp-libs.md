@@ -203,17 +203,17 @@
 * [Boost.Thread](https://www.boost.org/doc/libs/latest/doc/html/thread.html)
 * POCO ([Threads](https://pocoproject.org/slides/130-Threads.pdf), [NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
 
+### Multithreading / Concurrent
+* [TBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
+* <https://github.com/David-Haim/concurrencpp>
+* <https://github.com/Stiffstream/sobjectizer>
+
 ### Multithreading / Concurrent queues
 * <https://github.com/cameron314/concurrentqueue>
 * <https://github.com/cameron314/readerwriterqueue>
 * <https://github.com/rigtorp/MPMCQueue>
 * <https://github.com/rigtorp/SPSCQueue>
 * <https://github.com/max0x7ba/atomic_queue> ([vcpkg](https://vcpkg.io/en/package/atomic-queue))
-
-### Multithreading / Concurrent
-* [TBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
-* <https://github.com/David-Haim/concurrencpp>
-* <https://github.com/Stiffstream/sobjectizer>
 
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
