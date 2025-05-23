@@ -199,8 +199,6 @@
 * <https://github.com/p-ranav/glob> ([vcpkg](https://vcpkg.io/en/package/p-ranav-glob))
 
 ## Multithreading
-
-### Multithreading / Threads
 * [\<thread\>](https://en.cppreference.com/w/cpp/thread)
 * [Boost.Thread](https://www.boost.org/doc/libs/latest/doc/html/thread.html)
 * POCO ([Threads](https://pocoproject.org/slides/130-Threads.pdf), [NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
