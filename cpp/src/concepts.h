@@ -7,6 +7,12 @@
 namespace vs
 {
 
+template<typename Fn, typename... Args>
+concept callable = std::is_invocable_v<Fn, Args...>;
+
+template<typename Ret, typename Fn, typename... Args>
+concept callable_r = std::is_invocable_r_v<Ret, Fn, Args...>;
+
 template<typename T, typename U>
 concept same_type_as = std::same_as<std::decay_t<T>, U>;
 
