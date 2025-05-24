@@ -1765,7 +1765,24 @@ auto main() -> int
 <details>
 <summary>Concepts</summary>
 
+#### Syntax
+
 ```cpp
+template<typename T>
+requires std::floating_point<T>
+auto func([const] T[&/&&/*] x) -> void {}
+
+template<std::floating_point T>
+auto func([const] T[&/&&/*]  x) -> void {}
+
+auto func([const] std::floating_point auto[&/&&/*] x) -> void {}
+```
+
+#### Examples
+
+```cpp
+#include <concepts>
+
 template<typename T>
 auto is_equal(T a, T b)
 {
@@ -1780,26 +1797,7 @@ auto is_equal(T a, T b)
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/f4cn5861h)
-
-```cpp
-template<typename T>
-concept numeric = std::integral<T> || std::floating_point<T>;
-
-template<typename T>
-requires numeric<T>
-auto average(const std::vector<T>& vec) -> double
-```
-
-```cpp
-template<typename T, typename ... Variants>
-concept one_of_types = (std::is_same_v<std::decay_t<T>, Variants> || ...);
-
-auto my_abs(one_of_types<int, float, double> auto value)
-{
-    return value < 0 ? -value : value;
-}
-```
+▶️[**Demo**](https://godbolt.org/z/9P6oo5Tfo)
 
 </details>
 
