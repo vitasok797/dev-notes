@@ -916,11 +916,11 @@ From the caller's point of view, the value can be `std::move`ed if the parameter
 #include <concepts>
 
 template<std::convertible_to<double> T>
-auto convertible_to_double(T&& x) -> void {...}
+auto test(T&& x) -> void {...}
 
 template<typename T>
 requires std::convertible_to<T, std::string>
-auto convertible_to_string(T&& x) -> void {...}
+auto test(T&& x) -> void {...}
 ```
 
 ```cpp
@@ -928,7 +928,7 @@ auto convertible_to_string(T&& x) -> void {...}
 
 template<typename T>
 requires vs::same_type_as<T, std::string>
-auto same_type_as_string(T&& x) -> void {...}
+auto test(T&& x) -> void {...}
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/9MP9dMGqa) [[type_info.h](src/type_info.h), [concepts.h](src/concepts.h)]
