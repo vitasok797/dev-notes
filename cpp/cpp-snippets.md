@@ -924,7 +924,7 @@ auto convertible_to_string(T&& x) -> void {...}
 ```
 
 ```cpp
-#include <vs/util.h>
+#include <vs/concepts.h>
 
 template<typename T>
 requires vs::same_type_as<T, std::string>
@@ -943,22 +943,22 @@ auto same_type_as_string(T&& x) -> void {...}
 
 auto test(std::function<int(int, int)> f) -> void
 {
-    int res = f(1, 2);
+    auto res = f(1, 2);
 }
 ```
 
 ```cpp
-#include <type_traits>
+#include <vs/concepts.h>
 
 template<typename F>
-requires std::is_invocable_r_v<int, F, int, int>
+requires vs::callable_r<int, F, int, int>
 auto test(F f) -> void
 {
-    int res = f(1, 2);
+    auto res = f(1, 2);
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/n59PoPhfP)
+▶️[**Demo**](https://godbolt.org/z/rr9dz833h) [[concepts.h](src/concepts.h)]
 
 ```cpp
 //=============================================================================
