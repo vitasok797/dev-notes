@@ -925,7 +925,7 @@ requires vs::same_type_as<T, std::string>
 auto same_type_as_string(T&& x) -> void {...}
 ```
 
-▶️[**Demo**](https://godbolt.org/z/WMd5x3TfE) [[type_info.h](src/type_info.h), [util.h](src/util.h)]
+▶️[**Demo**](https://godbolt.org/z/9MP9dMGqa) [[type_info.h](src/type_info.h), [concepts.h](src/concepts.h)]
 
 </details>
 
