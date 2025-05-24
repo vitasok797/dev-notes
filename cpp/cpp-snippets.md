@@ -611,23 +611,29 @@ private:
 <summary>🚧 auto&& and forward</summary>
 
 ```cpp
-for (auto& el : my_range)
-auto& [el, _] = my_tuple;
-auto& [el, _] = my_struct;
+#include <vs/util.h>
 
-if constexpr (std::is_rvalue_reference_v<decltype(my_range)>)
-if constexpr (std::is_rvalue_reference_v<decltype(my_tuple)>)
-if constexpr (std::is_rvalue_reference_v<decltype(my_struct)>)
-{
-    vec.push_back(std::move(el));
-}
-else
-{
-    vec.push_back(el);
-}
+for (auto& el : my_range)
+    vec.push_back(vs::forward_like<decltype(my_range)>(el));
 ```
 
-▶️[**Demo**](https://godbolt.org/z/115M33ssG)
+```cpp
+#include <vs/util.h>
+
+auto& [el, _] = my_tuple;
+vec.push_back(vs::forward_like<decltype(my_tuple)>(el));
+```
+
+```cpp
+#include <vs/util.h>
+
+auto& [el, _] = my_struct;
+vec.push_back(vs::forward_like<decltype(my_struct)>(el));
+
+vec.push_back(FWD(my_struct).el_member);
+```
+
+▶️[**Demo**](https://godbolt.org/z/E445jjPfG) [[util.h](src/util.h)]
 
 </details>
 
