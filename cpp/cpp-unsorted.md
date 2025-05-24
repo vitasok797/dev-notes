@@ -122,9 +122,26 @@
   * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
 
 ## TODO
-* https://www.learncpp.com/ (14+)
 * Improve ObjWatcher (thread id, port from old)
 * Dev games (Instagram)
+
+## LearnCpp
+* https://www.learncpp.com/
+  * 14. Introduction to Classes
+  * 15. More on Classes
+  * 16. Dynamic arrays: std::vector
+  * 17. Fixed-size arrays: std::array and C-style arrays
+  * 18. Iterators and Algorithms
+  * 19. Dynamic Allocation
+  * 20. Functions
+  * 21. Operator Overloading
+  * 22. Move Semantics and Smart Pointers
+  * 23. Object Relationships
+  * 24. Inheritance
+  * 25. Virtual Functions
+  * 26. Templates and Classes
+  * 28. Input and Output (I/O)
+  * A. Miscellaneous Subjects
 
 ## Var
 * https://hackingcpp.com/
