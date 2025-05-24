@@ -5,6 +5,7 @@
 #include <functional>
 #include <optional>
 #include <type_traits>
+#include <utility>
 
 namespace vs
 {
@@ -23,6 +24,26 @@ constexpr auto signed_size(const T& t) -> SignedSize
 
 template<typename T>
 using optional_ref = std::optional<std::reference_wrapper<T>>;
+
+template<typename T, typename U>
+constexpr auto&& forward_like(U&& x) noexcept
+{
+    constexpr bool is_adding_const = std::is_const_v<std::remove_reference_t<T>>;
+    if constexpr (std::is_lvalue_reference_v<T&&>)
+    {
+        if constexpr (is_adding_const)
+            return std::as_const(x);
+        else
+            return static_cast<U&>(x);
+    }
+    else
+    {
+        if constexpr (is_adding_const)
+            return std::move(std::as_const(x));
+        else
+            return std::move(x);
+    }
+}
 
 }  // namespace vs
 
