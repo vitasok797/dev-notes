@@ -6,6 +6,10 @@
 
 namespace vs
 {
+
+template<typename T, typename U>
+concept same_type_as = std::same_as<std::decay_t<T>, U>;
+
 }  // namespace vs
 
 #endif  // VS_CONCEPTS_H_
