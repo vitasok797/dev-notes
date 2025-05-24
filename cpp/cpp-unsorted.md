@@ -68,6 +68,12 @@
 * gsl::narrow, gsl::narrow_cast
 * gsl::at
 
+## Type-erasure
+* https://akrzemi1.wordpress.com/2013/11/18/type-erasure-part-i/
+* https://akrzemi1.wordpress.com/2013/12/06/type-erasure-part-ii/
+* https://akrzemi1.wordpress.com/2013/12/11/type-erasure-part-iii/
+* https://akrzemi1.wordpress.com/2014/01/13/type-erasure-part-iv/
+
 ## Structured Binding:
 * Snippets:
   * Errors (typical) / auto&& and forward
