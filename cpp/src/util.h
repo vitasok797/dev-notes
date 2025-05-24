@@ -26,7 +26,7 @@ template<typename T>
 using optional_ref = std::optional<std::reference_wrapper<T>>;
 
 template<typename T, typename U>
-constexpr auto&& forward_like(U&& x) noexcept
+constexpr auto forward_like(U&& x) noexcept -> auto&&
 {
     constexpr bool is_adding_const = std::is_const_v<std::remove_reference_t<T>>;
     if constexpr (std::is_lvalue_reference_v<T&&>)
