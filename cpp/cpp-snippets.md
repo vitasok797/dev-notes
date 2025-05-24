@@ -1115,6 +1115,8 @@ auto x = "hello"sv;
 #### Loop counter
 
 ```cpp
+#include <vs/util.h>
+
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 
@@ -1132,6 +1134,8 @@ for (const auto& x : cont)  // otherwise (when you just need to view the origina
 #### Signed/unsigned cast with helpers
 
 ```cpp
+#include <vs/util.h>
+
 auto x = vs::as_signed(integer_expr);
 auto x = vs::as_unsigned(integer_expr);
 ```
@@ -1331,6 +1335,8 @@ auto main() -> int
 #### Loop counter
 
 ```cpp
+#include <vs/util.h>
+
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
 
