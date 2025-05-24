@@ -1773,7 +1773,7 @@ requires std::floating_point<T>
 auto func([const] T[&/&&/*] x) -> void {}
 
 template<std::floating_point T>
-auto func([const] T[&/&&/*]  x) -> void {}
+auto func([const] T[&/&&/*] x) -> void {}
 
 auto func([const] std::floating_point auto[&/&&/*] x) -> void {}
 ```
