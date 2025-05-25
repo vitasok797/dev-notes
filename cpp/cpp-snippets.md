@@ -661,7 +661,7 @@ auto func(T&& some_struct) -> void
 
 [Errors in object lifetime: a fly in the syntactic sugar (range-based for)](https://pvs-studio.com/en/blog/posts/cpp/1149/#ID313A10ACA8)
 
-How to avoid the *range-based for* issue?
+How to avoid the *range-based for* issue:
 * Never use any expression after a colon (:) in the loop header. Use only variables or its fields
 * In C++20, use the range-based for syntax with the initializer: for (auto cont = expr; auto x : cont)
 * Use std::ranges::for_each
