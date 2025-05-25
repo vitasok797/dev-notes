@@ -57,6 +57,7 @@
 * [(StackOverflow) How is std::swap implemented?](https://stackoverflow.com/questions/25286544/how-does-the-standard-library-implement-stdswap/25286610#25286610)
 * [(StackOverflow) Questions about the move assignment operator](https://stackoverflow.com/questions/9847860/questions-about-the-move-assignment-operator)
 * [(Habr) explicit в деталях](https://habr.com/ru/articles/436296/)
+* [(Habr) Краткий обзор нововведений C++23: deducing this](https://habr.com/ru/articles/722668/)
 
 ## Containers
 * [(cppreference) Containers library (containers, iterator invalidation)](https://en.cppreference.com/w/cpp/container)
