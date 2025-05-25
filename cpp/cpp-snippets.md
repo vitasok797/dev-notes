@@ -918,8 +918,7 @@ From the caller's point of view, the value can be `std::move`ed if the parameter
 template<std::convertible_to<double> T>
 auto test(T&& x) -> void {...}
 
-template<typename T>
-requires std::convertible_to<T, std::string>
+template<std::convertible_to<std::string> T>
 auto test(T&& x) -> void {...}
 ```
 
@@ -937,6 +936,26 @@ auto test(T&& x) -> void {...}
 
 <details>
 <summary>Function as argument</summary>
+
+```cpp
+//=============================================================================
+// Run func
+//-----------------------------------------------------------------------------
+// template<typename F>
+// const F&  f: NO (doesn't accept mutable lambdas/functors)
+//       F&  f: NO (doesn't accept rvalues)
+//       F&& f: NO (confusing if there is no forwarding)
+//       F   f: YES
+//=============================================================================
+// Store func
+//-----------------------------------------------------------------------------
+// template<typename F>
+// const F&  f: NO
+//       F&  f: NO
+//       F&& f: YES (pass by forwarding ref, then store by std::forward)
+//       F   f: YES (pass by value, then store by std::move)
+//=============================================================================
+```
 
 ```cpp
 #include <functional>
@@ -959,26 +978,6 @@ auto test(F f) -> void
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/rr9dz833h) [[concepts.h](src/concepts.h)]
-
-```cpp
-//=============================================================================
-// Run func
-//-----------------------------------------------------------------------------
-// template<typename F>
-// const F&  f: NO (doesn't accept mutable lambdas/functors)
-//       F&  f: NO (doesn't accept rvalues)
-//       F&& f: NO (confusing if there is no forwarding)
-//       F   f: YES
-//=============================================================================
-// Store func
-//-----------------------------------------------------------------------------
-// template<typename F>
-// const F&  f: NO
-//       F&  f: NO
-//       F&& f: YES (pass by forwarding ref, then store by std::forward)
-//       F   f: YES (pass by value, then store by std::move)
-//=============================================================================
-```
 
 </details>
 
