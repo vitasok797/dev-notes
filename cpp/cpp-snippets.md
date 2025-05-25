@@ -658,7 +658,11 @@ auto func(T&& some_struct) -> void
 <details>
 <summary>🚧 Dangling references</summary>
 
-[Нарушение lifetime объектов: синтаксический сахар с ложкой дёгтя (range-based for)](https://pvs-studio.ru/ru/blog/posts/cpp/1149/#ID5FFD7E2F1C)
+[Errors in object lifetime: a fly in the syntactic sugar (range-based for)](https://pvs-studio.com/en/blog/posts/cpp/1149/#ID313A10ACA8)
+
+* Never use any expression after a colon (:) in the loop header. Use only variables or its fields
+* In C++20, use the range-based for syntax with the initializer: for (auto cont = expr; auto x : cont)
+* Use std::ranges::for_each
 
 ```cpp
 for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
