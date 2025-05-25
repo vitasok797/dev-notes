@@ -1088,13 +1088,13 @@ decltype(auto) x = expr;  // preserves cv/ref
 #### Constness
 
 ```cpp
-const auto x = 0;
+const auto const_int = 0;
 
-auto x1 = x;
-int x1 = x;
+auto val = const_int;
+int  val = const_int;
 
-auto& x2 = x;
-const int& x2 = x;
+auto&      ref = const_int;
+const int& ref = const_int;
 ```
 
 #### Examples
