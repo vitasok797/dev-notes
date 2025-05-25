@@ -7,6 +7,8 @@
 #include <type_traits>
 #include <utility>
 
+#define FWD(x) std::forward<decltype(x)>(x)
+
 namespace vs
 {
 
