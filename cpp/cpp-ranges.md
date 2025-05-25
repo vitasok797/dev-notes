@@ -12,6 +12,7 @@
   * [Examples](https://ericniebler.github.io/range-v3/md_examples.html)
   * [Sources](https://github.com/ericniebler/range-v3/tree/master/include/range/v3)
 * [Microsoft std::ranges tutorial](https://learn.microsoft.com/en-us/cpp/standard-library/ranges)
+* [Cheat sheet](https://hackingcpp.com/cpp/std/range_views.png)
 
 ## Articles
 * [(Habr) Примеры C++ кода до и после Ranges](https://habr.com/ru/companies/otus/articles/456452/)
