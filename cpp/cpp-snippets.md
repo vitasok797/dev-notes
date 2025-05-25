@@ -1083,10 +1083,8 @@ auto get_data() -> std::tuple<int, double>
 #### decltype(auto)
 
 ```cpp
-auto x = expr;  // removes cv/ref
-decltype(auto) x = expr;  // preserves cv/ref
-                          //   xvalue -> T&&
-                          //   prvalue -> T
+         auto  x = expr;  // removes cv/ref
+decltype(auto) x = expr;  // preserves cv/ref (xvalue -> T&&, prvalue -> T)
 ```
 
 #### Constness
@@ -1211,7 +1209,7 @@ auto i = {3};  // C++11: std::initializer_list<int>
 ```cpp
 ... auto func() ... -> TYPE
 ... auto func() ... -> [const] auto[&/&&/*]
-                    -> decltype(auto)
+                    -> decltype(auto) // preserves cv/ref (xvalue -> T&&, prvalue -> T)
 ```
 
 ```cpp
