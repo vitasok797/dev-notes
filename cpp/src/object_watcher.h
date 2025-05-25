@@ -13,25 +13,25 @@ public:
     ObjWatcher() noexcept : index_(++counter_)
     {
         std::cout << "ObjWatcher: created (" << index_ << ")" << std::endl;
-    };
+    }
 
     ObjWatcher(const ObjWatcher& other) noexcept : index_(++counter_)
     {
         std::cout << "ObjWatcher: created (" << index_ << ") copy from (" << other.index_ << ")" << std::endl;
-    };
+    }
 
     ObjWatcher(ObjWatcher&& other) noexcept : index_(++counter_)
     {
         other.moved_ = true;
         std::cout << "ObjWatcher: created (" << index_ << ") move from (" << other.index_ << ")" << std::endl;
-    };
+    }
 
     ObjWatcher& operator=(const ObjWatcher& other) noexcept
     {
         moved_ = false;
         std::cout << "ObjWatcher: (" << index_ << ") copy assigned from (" << other.index_ << ")" << std::endl;
         return *this;
-    };
+    }
 
     ObjWatcher& operator=(ObjWatcher&& other) noexcept
     {
@@ -39,14 +39,14 @@ public:
         other.moved_ = true;
         std::cout << "ObjWatcher: (" << index_ << ") move assigned from (" << other.index_ << ")" << std::endl;
         return *this;
-    };
+    }
 
     ~ObjWatcher() noexcept
     {
         std::cout << "ObjWatcher: destroyed (" << index_ << ")";
         if (moved_) std::cout << " [moved]";
         std::cout << std::endl;
-    };
+    }
 
 private:
     static inline std::atomic<size_t> counter_ = 0;
@@ -57,12 +57,12 @@ private:
 class CtorWatcher final
 {
 public:
-    CtorWatcher() noexcept { std::cout << "ctor0" << std::endl; };
-    CtorWatcher(const int&) noexcept { std::cout << "ctor1" << std::endl; };
-    CtorWatcher(const int&, const int&) noexcept { std::cout << "ctor2" << std::endl; };
+    CtorWatcher() noexcept { std::cout << "ctor0" << std::endl; }
+    CtorWatcher(const int&) noexcept { std::cout << "ctor1" << std::endl; }
+    CtorWatcher(const int&, const int&) noexcept { std::cout << "ctor2" << std::endl; }
 
-    CtorWatcher(const CtorWatcher&) noexcept { std::cout << " COPY" << std::endl; };
-    CtorWatcher(CtorWatcher&&) noexcept { std::cout << " move" << std::endl; };
+    CtorWatcher(const CtorWatcher&) noexcept { std::cout << " COPY" << std::endl; }
+    CtorWatcher(CtorWatcher&&) noexcept { std::cout << " move" << std::endl; }
 
     CtorWatcher& operator=(const CtorWatcher&) = delete;
     CtorWatcher& operator=(CtorWatcher&&) = delete;
