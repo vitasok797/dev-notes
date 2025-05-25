@@ -1080,8 +1080,6 @@ auto get_data() -> std::tuple<int, double>
 [static/inline] [const/constexpr] auto[&/&&/*] x = TYPE{expr};
 ```
 
-#### decltype(auto)
-
 ```cpp
          auto  x = expr;  // removes cv/ref
 decltype(auto) x = expr;  // preserves cv/ref (xvalue -> T&&, prvalue -> T)
