@@ -1081,8 +1081,11 @@ auto get_data() -> std::tuple<int, double>
 ```
 
 ```cpp
-         auto  x = expr;  // removes cv/ref
+auto x = expr;  // removes cv/ref
+
 decltype(auto) x = expr;  // preserves cv/ref
+                          //   xvalue -> T&&
+                          //   prvalue -> T
 ```
 
 #### Constness
