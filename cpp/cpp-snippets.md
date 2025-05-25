@@ -1071,7 +1071,7 @@ auto get_data() -> std::tuple<int, double>
 ## Initialization
 
 <details>
-<summary>auto (AAA)</summary>
+<summary>auto (initialization)</summary>
 
 #### Syntax
 
@@ -1188,7 +1188,7 @@ auto i = {3};  // C++11: std::initializer_list<int>
 </details>
 
 <details>
-<summary>auto (trailing return type)</summary>
+<summary>auto (return type)</summary>
 
 #### Trailing return type
 
