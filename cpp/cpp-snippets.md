@@ -2207,6 +2207,13 @@ using func = void (*) (int, int);
 ## vs::
 
 <details>
+<summary>CopyProtector</summary>
+
+▶️[**Demo**](https://godbolt.org/z/nbdrfWTsj) [[copy_protector.h](src/copy_protector.h)]
+
+</details>
+
+<details>
 <summary>Scope guard</summary>
 
 ▶️[**Run**](https://godbolt.org/z/47hGf8qee) [[scope_guard.h](src/scope_guard.h)]
