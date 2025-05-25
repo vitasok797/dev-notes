@@ -613,27 +613,45 @@ private:
 ```cpp
 #include <vs/util.h>
 
-for (auto& el : my_range)
-    vec.push_back(vs::forward_like<decltype(my_range)>(el));
+template<typename T>
+auto func(T&& range) -> void
+{
+    for (auto& el : range)
+    {
+        vec.push_back(vs::forward_like<T>(el));
+    }
+}
 ```
 
 ```cpp
 #include <vs/util.h>
 
-auto& [el, _] = my_tuple;
-vec.push_back(vs::forward_like<decltype(my_tuple)>(el));
+template<typename T>
+auto func(T&& tuple) -> void
+{
+    auto& [el, _] = tuple;
+    vec.push_back(vs::forward_like<T>(el));
+}
 ```
 
 ```cpp
 #include <vs/util.h>
 
-auto& [el, _] = my_struct;
-vec.push_back(vs::forward_like<decltype(my_struct)>(el));
+template<typename T>
+auto func(T&& some_struct) -> void
+{
+    vec.push_back(FWD(some_struct).member);
+}
 
-vec.push_back(FWD(my_struct).el_member);
+template<typename T>
+auto func(T&& some_struct) -> void
+{
+    auto& [member, _] = some_struct;
+    vec.push_back(vs::forward_like<T>(member));
+}
 ```
 
-▶️[**Demo**](https://godbolt.org/z/E445jjPfG) [[util.h](src/util.h)]
+▶️[**Demo**](https://godbolt.org/z/zqfv5Ean1) [[util.h](src/util.h)]
 
 </details>
 
