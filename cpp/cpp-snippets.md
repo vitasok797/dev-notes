@@ -916,10 +916,10 @@ From the caller's point of view, the value can be `std::move`ed if the parameter
 #include <concepts>
 
 template<std::convertible_to<double> T>
-auto test(T&& x) -> void {...}
+auto func(T&& x) -> void {...}
 
 template<std::convertible_to<std::string> T>
-auto test(T&& x) -> void {...}
+auto func(T&& x) -> void {...}
 ```
 
 ```cpp
@@ -927,7 +927,7 @@ auto test(T&& x) -> void {...}
 
 template<typename T>
 requires vs::same_type_as<T, std::string>
-auto test(T&& x) -> void {...}
+auto func(T&& x) -> void {...}
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/9MP9dMGqa) [[type_info.h](src/type_info.h), [concepts.h](src/concepts.h)]
@@ -962,7 +962,7 @@ auto test(T&& x) -> void {...}
 
 auto test(std::function<int(int, int)> f) -> void
 {
-    auto res = f(1, 2);
+    int res = f(1, 2);
 }
 ```
 
@@ -973,7 +973,7 @@ template<typename F>
 requires vs::callable_r<int, F, int, int>
 auto test(F f) -> void
 {
-    auto res = f(1, 2);
+    int res = f(1, 2);
 }
 ```
 
