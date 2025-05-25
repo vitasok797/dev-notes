@@ -54,6 +54,40 @@ private:
     bool moved_ = false;
 };
 
+class CopyWatcher final
+{
+public:
+    CopyWatcher() = default;
+    CopyWatcher(int index) : index_(index) {}
+
+    CopyWatcher(const CopyWatcher& other) noexcept : index_(other.index_)
+    {
+        print_message("COPIED");
+    }
+
+    CopyWatcher& operator=(const CopyWatcher& other) noexcept
+    {
+        index_ = other.index_;
+        print_message("COPIED (ASSIGN)");
+        return *this;
+    }
+
+    CopyWatcher(CopyWatcher&&) noexcept = default;
+    CopyWatcher& operator=(CopyWatcher&&) noexcept = default;
+
+    ~CopyWatcher() = default;
+
+private:
+    auto print_message(const char* operation_desc) noexcept -> void
+    {
+        std::cout << ">>> " << operation_desc;
+        if (index_ > 0) std::cout << " [" << index_ << "]";
+        std::cout << std::endl;
+    }
+
+    int index_ = 0;
+};
+
 class CtorWatcher final
 {
 public:
