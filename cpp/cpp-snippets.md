@@ -107,7 +107,7 @@ public:
     {
         step1();
         step2();
-    };
+    }
 
     virtual auto step1() const -> void {...}
     virtual auto step2() const -> void {...}
@@ -122,7 +122,7 @@ public:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/7evMYToW4)
+▶️[**Demo**](https://godbolt.org/z/v3WsMEjbG)
 
 </details>
 
