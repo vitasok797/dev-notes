@@ -56,14 +56,6 @@ private:
 | ✔️ | ✔️ | Concrete<br>(base) | • destructor: `virtual`, user-defined/`default`<br>• rule of five (user-defined/`default`)<br>• risk of slicing ([C.67](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)) |
 | ✔️ | ✔️ | Concrete<br>(derived) | • (optional) `final` class<br>• rule of five/zero (mark destructor as `override`/`final`) |
 
-#### Tips
-
-⚠️ Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
-```cpp
-MyClass(MyClass&& other) noexcept {...}
-MyClass& operator=(MyClass&& other) noexcept {...}
-```
-
 #### Trailing return type
 
 ```cpp
@@ -90,6 +82,14 @@ struct C final : B
     ~C() final;
     auto foo() [const] [&/&&] [noexcept] -> void final;
 };
+```
+
+#### Tips
+
+⚠️ Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
+```cpp
+MyClass(MyClass&& other) noexcept {...}
+MyClass& operator=(MyClass&& other) noexcept {...}
 ```
 
 </details>
