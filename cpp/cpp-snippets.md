@@ -16,7 +16,8 @@ public:
 
     // Factory functions
 
-    // 💡 Constructors and assignment operators
+    // 💡 Constructors
+    // 💡 Special member functions (constructors and assignment operators)
     // 💡 Destructor
 
     // Functions
