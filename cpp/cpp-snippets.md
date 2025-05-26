@@ -39,8 +39,11 @@ private:
 #### Constructors
 
 ```cpp
-    MyClass() = default;
-    [explicit] MyClass(...) { }
+    [explicit] MyClass() = default;
+```
+
+```cpp
+    [explicit] MyClass() { }
 ```
 
 #### Special member functions (rule of five/zero)
