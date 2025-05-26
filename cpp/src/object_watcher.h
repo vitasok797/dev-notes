@@ -60,7 +60,7 @@ class CopyWatcher final
 {
 public:
     CopyWatcher() = default;
-    CopyWatcher(T marker) : marker_(marker) {}
+    CopyWatcher(T marker) noexcept : marker_(marker) {}
 
     CopyWatcher(const CopyWatcher& other) noexcept : marker_(other.marker_)
     {
