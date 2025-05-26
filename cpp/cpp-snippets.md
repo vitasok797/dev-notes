@@ -1085,6 +1085,13 @@ auto get_data() -> std::tuple<int, double>
 decltype(auto) x = expr;  // preserves cv/ref (xvalue -> T&&, prvalue -> T)
 ```
 
+| Value category | auto&& | decltype(auto) |
+|---|---|---|
+| lvalue | type& | type |
+| lvalue& | type& | type& |
+| xvalue | type&& | type&& |
+| prvalue | type&& | type |
+
 #### Constness
 
 ```cpp
