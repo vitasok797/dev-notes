@@ -6,6 +6,8 @@
 * [(Habr) Ошибки вычислений в окрестностях машинного нуля](https://habr.com/ru/articles/137000/)
 * [(Habr) Что нужно знать про арифметику с плавающей запятой](https://habr.com/ru/articles/112953/)
 * [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
+* [Floating-point complexities](https://randomascii.wordpress.com/2012/04/05/floating-point-complexities/)
+* [Comparing Floating Point Numbers, 2012 Edition](https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/)
 
 ## Trigonometric functions
 * <https://stackoverflow.com/questions/66030225/different-results-between-c-and-c-sharp-sin-function-with-large-values>
