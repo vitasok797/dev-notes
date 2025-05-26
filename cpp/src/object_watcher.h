@@ -102,6 +102,8 @@ public:
 
     CtorWatcher& operator=(const CtorWatcher&) = delete;
     CtorWatcher& operator=(CtorWatcher&&) = delete;
+
+    ~CtorWatcher() = default;
 };
 
 }  // namespace vs::debug
