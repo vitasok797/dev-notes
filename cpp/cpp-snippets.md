@@ -18,18 +18,6 @@ public:
     // Constructors and assignment operators
     // Destructor
 
-    MyClass() = default;
-
-    // --- Rule of five/zero ------------------------------
-    MyClass(const MyClass&) = default;
-    MyClass& operator=(const MyClass&) = default;
-
-    MyClass(MyClass&&) noexcept = default;
-    MyClass& operator=(MyClass&&) noexcept = default;
-
-    [virtual] ~MyClass() = default;
-    // ----------------------------------------------------
-
     // Functions
     // Data members
 
@@ -47,15 +35,36 @@ private:
 };
 ```
 
-#### Special member functions
+#### Constructors
 
 ```cpp
+public:
+    MyClass() = default;
+    [explicit] ...
+```
+
+#### Special member functions (rule of five/zero)
+
+```cpp
+public:
+    MyClass(const MyClass&) = default;
+    MyClass& operator=(const MyClass&) = default;
+
+    MyClass(MyClass&&) noexcept = default;
+    MyClass& operator=(MyClass&&) noexcept = default;
+
+    [virtual] ~MyClass() = default;
 ```
 
 ```cpp
-```
+public:
+    MyClass(const MyClass&) = default;
+    MyClass& operator=(const MyClass&) = default;
 
-```cpp
+    MyClass(MyClass&&) noexcept = default;
+    MyClass& operator=(MyClass&&) noexcept = default;
+
+    [virtual] ~MyClass() = default;
 ```
 
 #### Options
