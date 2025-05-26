@@ -609,7 +609,7 @@ private:
 ## Errors (typical)
 
 <details>
-<summary>🚧 auto&& and forward</summary>
+<summary>Forwarding "far" objects</summary>
 
 ```cpp
 #include <vs/util.h>
