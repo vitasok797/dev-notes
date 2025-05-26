@@ -70,7 +70,7 @@ public:
     CopyWatcher& operator=(const CopyWatcher& other) noexcept
     {
         marker_ = other.marker_;
-        print_message("COPIED=");
+        print_message("COPIED(=)");
         return *this;
     }
 
