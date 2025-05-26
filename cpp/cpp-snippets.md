@@ -1217,6 +1217,13 @@ auto i = {3};  // C++11: std::initializer_list<int>
                     -> decltype(auto) // preserves cv/ref (xvalue -> T&&, prvalue -> T)
 ```
 
+| Value category | auto&& | decltype(auto) |
+|---|---|---|
+| lvalue | type& | type |
+| lvalue& | type& | type& |
+| xvalue | type&& | type&& |
+| prvalue | type&& | type |
+
 ```cpp
 auto func() -> auto
 auto func()  // trailing auto can be omitted
