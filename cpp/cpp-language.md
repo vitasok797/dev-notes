@@ -244,7 +244,6 @@
 * <https://isocpp.org/wiki/faq/exceptions>
 * <https://yosefk.com/c++fqa/exceptions.html>
 * <https://learn.microsoft.com/en-us/cpp/cpp/errors-and-exception-handling-modern-cpp>
-* <https://habr.com/ru/articles/221723/comments/#comment_7555889>
 * <https://stroustrup.com/except.pdf>
 * <https://stackoverflow.com/questions/1989819/theory-on-error-handling>
 * <https://acodersjourney.com/top-15-c-exception-handling-mistakes-avoid/>
