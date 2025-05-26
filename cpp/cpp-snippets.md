@@ -38,7 +38,6 @@ private:
 #### Constructors
 
 ```cpp
-public:
     MyClass() = default;
     [explicit] ...
 ```
