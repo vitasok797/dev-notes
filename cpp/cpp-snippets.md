@@ -527,7 +527,7 @@ TD<decltype(x)> _;
 <details>
 <summary>Object Watcher</summary>
 
-▶️[**Demo** (CopyWatcher)](https://godbolt.org/z/7oaPxvdv9) [[object_watcher.h](src/object_watcher.h)] \
+▶️[**Demo** (CopyWatcher)](https://godbolt.org/z/Wa78Keecs) [[object_watcher.h](src/object_watcher.h)] \
 ▶️[**Demo** (CtorWatcher)](https://godbolt.org/z/f6r8obT7W) [[object_watcher.h](src/object_watcher.h)] \
 ▶️[**Demo** (ObjWatcher)](https://godbolt.org/z/zWoMMTdqz) [[object_watcher.h](src/object_watcher.h)]
 
