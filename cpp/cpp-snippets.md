@@ -611,7 +611,7 @@ private:
 <details>
 <summary>🚧 Dangling references</summary>
 
-#### range-based for
+#### Range-based for
 
 How to avoid the *range-based for* [issue](https://pvs-studio.com/en/blog/posts/cpp/1149/#ID313A10ACA8):
 * Never use any expression after a colon (:) in the loop header. Use only variables or its fields
