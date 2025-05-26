@@ -1082,15 +1082,15 @@ auto get_data() -> std::tuple<int, double>
 
 ```cpp
          auto  x = expr;  // removes cv/ref
-decltype(auto) x = expr;  // preserves cv/ref (xvalue -> T&&, prvalue -> T)
+decltype(auto) x = expr;  // preserves cv/ref
 ```
 
 | Value category | auto&& | decltype(auto) |
 |---|---|---|
-| lvalue | type& | type |
-| lvalue& | type& | type& |
-| xvalue | type&& | type&& |
-| prvalue | type&& | type |
+| lvalue | T& | T |
+| lvalue& | T& | T& |
+| xvalue | T&& | T&& |
+| prvalue | T&& | T |
 
 #### Constness
 
@@ -1214,15 +1214,15 @@ auto i = {3};  // C++11: std::initializer_list<int>
 ```cpp
 ... auto func() ... -> TYPE
 ... auto func() ... -> [const] auto[&/&&/*]
-                    -> decltype(auto) // preserves cv/ref (xvalue -> T&&, prvalue -> T)
+                    -> decltype(auto) // preserves cv/ref
 ```
 
 | Value category | auto&& | decltype(auto) |
 |---|---|---|
-| lvalue | type& | type |
-| lvalue& | type& | type& |
-| xvalue | type&& | type&& |
-| prvalue | type&& | type |
+| lvalue | T& | T |
+| lvalue& | T& | T& |
+| xvalue | T&& | T&& |
+| prvalue | T&& | T |
 
 ```cpp
 auto func() -> auto
