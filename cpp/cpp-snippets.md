@@ -46,7 +46,6 @@ public:
 #### Special member functions (rule of five/zero)
 
 ```cpp
-public:
     MyClass(const MyClass&) = default;
     MyClass& operator=(const MyClass&) = default;
 
@@ -54,17 +53,18 @@ public:
     MyClass& operator=(MyClass&&) noexcept = default;
 
     [virtual] ~MyClass() = default;
+    ❓ noexcept
 ```
 
 ```cpp
-public:
-    MyClass(const MyClass&) = default;
-    MyClass& operator=(const MyClass&) = default;
+    MyClass(const MyClass& other) {...}
+    MyClass& operator=(const MyClass& other) {...}
 
-    MyClass(MyClass&&) noexcept = default;
-    MyClass& operator=(MyClass&&) noexcept = default;
+    MyClass(MyClass&& other) noexcept {...}
+    MyClass& operator=(MyClass&& other) noexcept {...}
 
-    [virtual] ~MyClass() = default;
+    [virtual] ~MyClass() {...}
+    ❓ noexcept
 ```
 
 #### Options
@@ -109,7 +109,7 @@ struct C final : B
 
 #### Tips
 
-⚠️ Make explicit move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
+⚠️ Make ❓explicit❓ move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
 ```cpp
 MyClass(MyClass&& other) noexcept {...}
 MyClass& operator=(MyClass&& other) noexcept {...}
