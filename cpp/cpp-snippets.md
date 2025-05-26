@@ -631,7 +631,7 @@ for (const auto& s = get_struct(); const auto& el : s.items()) {...}  // OK
 </details>
 
 <details>
-<summary>Forwarding "far" objects</summary>
+<summary>"Far" objects forwarding</summary>
 
 ```cpp
 #include <vs/util.h>
