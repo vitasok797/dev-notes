@@ -3,6 +3,7 @@
 
 #include <atomic>
 #include <iostream>
+#include <optional>
 
 namespace vs::debug
 {
@@ -54,21 +55,22 @@ private:
     bool moved_ = false;
 };
 
+template<typename T = int>
 class CopyWatcher final
 {
 public:
     CopyWatcher() = default;
-    CopyWatcher(int index) : index_(index) {}
+    CopyWatcher(T marker) : marker_(marker) {}
 
-    CopyWatcher(const CopyWatcher& other) noexcept : index_(other.index_)
+    CopyWatcher(const CopyWatcher& other) noexcept : marker_(other.marker_)
     {
         print_message("COPIED");
     }
 
     CopyWatcher& operator=(const CopyWatcher& other) noexcept
     {
-        index_ = other.index_;
-        print_message("COPIED (ASSIGN)");
+        marker_ = other.marker_;
+        print_message("COPIED=");
         return *this;
     }
 
@@ -81,11 +83,11 @@ private:
     auto print_message(const char* operation_desc) noexcept -> void
     {
         std::cout << ">>> " << operation_desc;
-        if (index_ > 0) std::cout << " [" << index_ << "]";
+        if (marker_) std::cout << " [" << *marker_ << "]";
         std::cout << std::endl;
     }
 
-    int index_ = 0;
+    std::optional<T> marker_{};
 };
 
 class CtorWatcher final
