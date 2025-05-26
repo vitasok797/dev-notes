@@ -1212,9 +1212,8 @@ auto i = {3};  // C++11: std::initializer_list<int>
 #### Trailing return type (type deduction)
 
 ```cpp
-... auto func() ... -> TYPE
-... auto func() ... -> [const] auto[&/&&/*]
-                    -> decltype(auto) // preserves cv/ref
+-> [const] auto[&/&&/*]
+-> decltype(auto) // preserves cv/ref
 ```
 
 | Value category | auto&& | decltype(auto) |
