@@ -91,19 +91,19 @@ private:
 struct A
 {
     virtual ~A() = default;
-    virtual auto foo() [const] [&/&&] [noexcept] -> void = 0;
+    virtual auto foo() -> void = 0;
 };
 
 struct B : A
 {
     ~B() override;
-    auto foo() [const] [&/&&] [noexcept] -> void override;
+    auto foo() -> void override;
 };
 
 struct C final : B
 {
     ~C() final;
-    auto foo() [const] [&/&&] [noexcept] -> void final;
+    auto foo() -> void final;
 };
 ```
 
