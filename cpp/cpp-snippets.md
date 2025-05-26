@@ -1091,9 +1091,9 @@ decltype(auto) x = expr;  // preserves cv/ref (xvalue -> T&&, prvalue -> T)
 const auto const_int = 0;
 
 auto val = const_int;
-int  val = const_int;
+ int val = const_int;
 
-auto&      ref = const_int;
+     auto& ref = const_int;
 const int& ref = const_int;
 ```
 
