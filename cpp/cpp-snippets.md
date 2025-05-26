@@ -40,7 +40,7 @@ private:
 
 ```cpp
     MyClass() = default;
-    [explicit] MyClass(...) {...}
+    [explicit] MyClass(...) { }
 ```
 
 #### Special member functions (rule of five/zero)
@@ -57,13 +57,13 @@ private:
 ```
 
 ```cpp
-    MyClass(const MyClass& other) {...}
-    MyClass& operator=(const MyClass& other) {...}
+    MyClass(const MyClass& other) { }
+    MyClass& operator=(const MyClass& other) { }
 
-    MyClass(MyClass&& other) noexcept {...}
-    MyClass& operator=(MyClass&& other) noexcept {...}
+    MyClass(MyClass&& other) noexcept { }
+    MyClass& operator=(MyClass&& other) noexcept { }
 
-    [virtual] ~MyClass() {...}
+    [virtual] ~MyClass() { }
     ❓ noexcept
 ```
 
@@ -114,8 +114,8 @@ struct C final : B
 MyClass(MyClass&&) noexcept = default;
 MyClass& operator=(MyClass&&) noexcept = default;
 
-MyClass(MyClass&& other) noexcept {...}
-MyClass& operator=(MyClass&& other) noexcept {...}
+MyClass(MyClass&& other) noexcept { }
+MyClass& operator=(MyClass&& other) noexcept { }
 ```
 
 </details>
