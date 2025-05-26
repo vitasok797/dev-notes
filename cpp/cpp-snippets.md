@@ -613,6 +613,12 @@ private:
 
 #### Range-based for
 
+```cpp
+for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
+                                                   //   - get_struct() returns by value
+                                                   //   - items() returns by ref
+```
+
 How to avoid the *range-based for* [issue](https://pvs-studio.com/en/blog/posts/cpp/1149/#ID313A10ACA8):
 * Never use any expression after a colon (:) in the loop header. Use only variables or its fields
 * In C++20, use the range-based for syntax with the initializer: for (auto cont = expr; auto x : cont)
@@ -620,10 +626,11 @@ How to avoid the *range-based for* [issue](https://pvs-studio.com/en/blog/posts/
 * ❓ Never forget to do the rvalue overload for any const methods
 
 ```cpp
-for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
-                                                   //   - get_struct() returns by value
-                                                   //   - items() returns by ref
-for (const auto& s = get_struct(); const auto& el : s.items()) {...}  // OK
+for (const auto& s = get_struct(); const auto& el : s.items()) { func(el); }  // OK
+```
+
+```cpp
+ranges::for_each(get_struct().items(), func);  // OK
 ```
 
 #### Structured bindings
