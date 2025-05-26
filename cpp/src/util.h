@@ -15,11 +15,11 @@ namespace vs
 using Index = std::ptrdiff_t;
 using SignedSize = std::ptrdiff_t;
 
-template<typename T> constexpr auto as_signed(T t) { return std::make_signed_t<T>(t); }
-template<typename T> constexpr auto as_unsigned(T t) { return std::make_unsigned_t<T>(t); }
+template<typename T> constexpr auto as_signed(T t) noexcept { return std::make_signed_t<T>(t); }
+template<typename T> constexpr auto as_unsigned(T t) noexcept { return std::make_unsigned_t<T>(t); }
 
 template<typename T>
-constexpr auto signed_size(const T& t) -> SignedSize
+constexpr auto signed_size(const T& t) noexcept -> SignedSize
 {
     return static_cast<SignedSize>(as_signed(t.size()));
 }
