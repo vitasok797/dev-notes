@@ -40,7 +40,7 @@ private:
 
 ```cpp
     MyClass() = default;
-    [explicit] ...
+    [explicit] MyClass(...) {...}
 ```
 
 #### Special member functions (rule of five/zero)
