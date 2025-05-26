@@ -20,12 +20,15 @@ public:
 
     MyClass() = default;
 
-    // Rule of five/zero
+    // --- Rule of five/zero ------------------------------
     MyClass(const MyClass&) = default;
-    MyClass(MyClass&&) noexcept = default;
     MyClass& operator=(const MyClass&) = default;
+
+    MyClass(MyClass&&) noexcept = default;
     MyClass& operator=(MyClass&&) noexcept = default;
+
     [virtual] ~MyClass() = default;
+    // ----------------------------------------------------
 
     // Functions
     // Data members
