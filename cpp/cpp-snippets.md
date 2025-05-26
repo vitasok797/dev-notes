@@ -609,6 +609,28 @@ private:
 ## Errors (typical)
 
 <details>
+<summary>🚧 Dangling references</summary>
+
+[Errors in object lifetime: a fly in the syntactic sugar (range-based for)](https://pvs-studio.com/en/blog/posts/cpp/1149/#ID313A10ACA8)
+
+How to avoid the *range-based for* issue:
+* Never use any expression after a colon (:) in the loop header. Use only variables or its fields
+* In C++20, use the range-based for syntax with the initializer: for (auto cont = expr; auto x : cont)
+* Use std::ranges::for_each
+* ❓ Never forget to do the rvalue overload for any const methods
+
+```cpp
+for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
+                                                   //   - get_struct() returns by value
+                                                   //   - items() returns by ref
+for (const auto& s = get_struct(); const auto& el : s.items()) {...}  // OK
+```
+
+▶️[**Demo**](https://godbolt.org/z/xdf1x5rnx)
+
+</details>
+
+<details>
 <summary>Forwarding "far" objects</summary>
 
 ```cpp
@@ -653,28 +675,6 @@ auto func(T&& some_struct) -> void
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/zqfv5Ean1) [[util.h](src/util.h)]
-
-</details>
-
-<details>
-<summary>🚧 Dangling references</summary>
-
-[Errors in object lifetime: a fly in the syntactic sugar (range-based for)](https://pvs-studio.com/en/blog/posts/cpp/1149/#ID313A10ACA8)
-
-How to avoid the *range-based for* issue:
-* Never use any expression after a colon (:) in the loop header. Use only variables or its fields
-* In C++20, use the range-based for syntax with the initializer: for (auto cont = expr; auto x : cont)
-* Use std::ranges::for_each
-* ❓ Never forget to do the rvalue overload for any const methods
-
-```cpp
-for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
-                                                   //   - get_struct() returns by value
-                                                   //   - items() returns by ref
-for (const auto& s = get_struct(); const auto& el : s.items()) {...}  // OK
-```
-
-▶️[**Demo**](https://godbolt.org/z/xdf1x5rnx)
 
 </details>
 
