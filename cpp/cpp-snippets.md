@@ -47,6 +47,17 @@ private:
 };
 ```
 
+#### Special member functions
+
+```cpp
+```
+
+```cpp
+```
+
+```cpp
+```
+
 #### Options
 
 | Inheritance | Polymorphic<br>usage | Type | Class options |
