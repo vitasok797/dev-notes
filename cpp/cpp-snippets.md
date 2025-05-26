@@ -15,8 +15,9 @@ public:
     // Static constants
 
     // Factory functions
-    // Constructors and assignment operators
-    // Destructor
+
+    // 💡 Constructors and assignment operators
+    // 💡 Destructor
 
     // Functions
     // Data members
