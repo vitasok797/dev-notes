@@ -626,6 +626,12 @@ for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
 for (const auto& s = get_struct(); const auto& el : s.items()) {...}  // OK
 ```
 
+#### Structured bindings
+
+🚧
+
+#### Demo (complex)
+
 ▶️[**Demo**](https://godbolt.org/z/xdf1x5rnx)
 
 </details>
