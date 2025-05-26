@@ -16,8 +16,8 @@ public:
 
     // Factory functions
 
-    // 💡 Constructors
-    // 💡 Special member functions (two constructors, two assignment operators, destructor)
+    // Constructors
+    // Special member functions (two constructors, two assignment operators, destructor)
 
     // Functions
     // Data members
