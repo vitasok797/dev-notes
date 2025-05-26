@@ -674,6 +674,16 @@ auto func(T&& tuple) -> void
 #include <vs/util.h>
 
 template<typename T>
+auto func(T&& cont) -> void
+{
+    vec.push_back(vs::forward_like<T>(cont.at(0)));
+}
+```
+
+```cpp
+#include <vs/util.h>
+
+template<typename T>
 auto func(T&& some_struct) -> void
 {
     vec.push_back(FWD(some_struct).member);
@@ -687,7 +697,7 @@ auto func(T&& some_struct) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/zqfv5Ean1) [[util.h](src/util.h)]
+▶️[**Demo**](https://godbolt.org/z/485ccn568) [[util.h](src/util.h)]
 
 </details>
 
