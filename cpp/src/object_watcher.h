@@ -11,17 +11,17 @@ namespace vs::debug
 class ObjWatcher final
 {
 public:
-    ObjWatcher() noexcept : index_(++counter_)
+    ObjWatcher() noexcept : index_{++counter_}
     {
         std::cout << "ObjWatcher: created (" << index_ << ")" << std::endl;
     }
 
-    ObjWatcher(const ObjWatcher& other) noexcept : index_(++counter_)
+    ObjWatcher(const ObjWatcher& other) noexcept : index_{++counter_}
     {
         std::cout << "ObjWatcher: created (" << index_ << ") copy from (" << other.index_ << ")" << std::endl;
     }
 
-    ObjWatcher(ObjWatcher&& other) noexcept : index_(++counter_)
+    ObjWatcher(ObjWatcher&& other) noexcept : index_{++counter_}
     {
         other.moved_ = true;
         std::cout << "ObjWatcher: created (" << index_ << ") move from (" << other.index_ << ")" << std::endl;
@@ -60,9 +60,9 @@ class CopyWatcher final
 {
 public:
     CopyWatcher() = default;
-    CopyWatcher(T marker) noexcept : marker_(marker) {}
+    CopyWatcher(T marker) noexcept : marker_{std::move(marker)} {}
 
-    CopyWatcher(const CopyWatcher& other) noexcept : marker_(other.marker_)
+    CopyWatcher(const CopyWatcher& other) noexcept : marker_{other.marker_}
     {
         print_message("COPIED");
     }
