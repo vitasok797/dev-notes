@@ -234,7 +234,8 @@
 * [std::osyncstream](https://en.cppreference.com/w/cpp/io/basic_osyncstream)
 
 ### Multithreading / Concurrent
-* [(Habr) SObjectizer articles](https://habr.com/ru/users/eao197/articles/page1/)
+* [(Habr) SObjectizer: Articles](https://habr.com/ru/users/eao197/articles/page1/)
+* [(Habr) SObjectizer: Actors vs CSP vs Tasks](https://habr.com/ru/articles/430672/)
 
 ### Multithreading / Coroutines
 * [(Habr) Корутины в C++20: архитектура и практическое применение](https://habr.com/ru/articles/908386/)
