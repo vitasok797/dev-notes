@@ -70,6 +70,8 @@ private:
     ❓ noexcept
 ```
 
+⚠️ Make move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept))
+
 #### Options
 
 | Inheritance | Polymorphic<br>usage | Type | Class options |
@@ -108,17 +110,6 @@ struct C final : B
     ~C() final;
     auto foo() -> void final;
 };
-```
-
-#### Tips
-
-⚠️ Make move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)):
-```cpp
-MyClass(MyClass&&) noexcept = default;
-MyClass& operator=(MyClass&&) noexcept = default;
-
-MyClass(MyClass&& other) noexcept { }
-MyClass& operator=(MyClass&& other) noexcept { }
 ```
 
 </details>
