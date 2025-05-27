@@ -611,7 +611,7 @@ class SomeClass
 {
 public:
     SomeClass(std::unique_ptr<std::string> uptr) :
-        uptr_(std::move(uptr))
+        uptr_{std::move(uptr)}
     {}
 
     auto get_value() const & -> std::string&
@@ -626,7 +626,7 @@ private:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/ev8Wqsdnn) [[error.h](src/error.h)]
+▶️[**Demo**](https://godbolt.org/z/r44cbcEb4) [[error.h](src/error.h)]
 
 </details>
 
