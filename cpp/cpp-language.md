@@ -230,6 +230,9 @@
 * [(Not) using std::thread](https://akrzemi1.wordpress.com/2012/11/14/not-using-stdthread/)
 * [Synchronization with Atomics in C++20](https://www.modernescpp.com/index.php/synchronization-with-atomics-in-c-20/)
 
+### Multithreading / Async
+* [std::osyncstream](https://en.cppreference.com/w/cpp/io/basic_osyncstream)
+
 ### Multithreading / Concurrent
 * [(Habr) SObjectizer articles](https://habr.com/ru/users/eao197/articles/page1/)
 
