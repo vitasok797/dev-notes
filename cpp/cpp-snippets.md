@@ -17,7 +17,7 @@ public:
     // Factory functions
 
     // Constructors
-    // Special member functions (two constructors, two assignment operators, destructor)
+    // Special member functions (copy/move constructors, copy/move assignment operators, destructor)
 
     // Functions
     // Data members
