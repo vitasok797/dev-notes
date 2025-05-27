@@ -72,6 +72,8 @@ private:
 
 ⚠️ Make move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept))
 
+⚠️ ❓ Destructor (explicit/default) `noexcept`
+
 #### Options
 
 | Inheritance | Polymorphic<br>usage | Type | Class options |
