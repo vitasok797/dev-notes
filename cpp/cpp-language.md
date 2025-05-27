@@ -238,6 +238,9 @@
 * [(Habr) Недостатки корутин в C++](https://habr.com/ru/companies/ruvds/articles/755246/)
 * [(Habr) Подробно о корутинах в C++](https://habr.com/ru/companies/piter/articles/491996/)
 
+### Multithreading / Double-checked locking
+* [(Preshing) Double-Checked Locking is Fixed In C++11](https://preshing.com/20130930/double-checked-locking-is-fixed-in-cpp11/)
+
 ## Error handling
 * ⭐ [(ISO C++) Exceptions and Error Handling](https://isocpp.org/wiki/faq/exceptions)
 * [Boost.Outcome: Review of Error Handling Frameworks](https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/alternatives.html)
