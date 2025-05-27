@@ -203,6 +203,9 @@
 * [Boost.Thread](https://www.boost.org/doc/libs/latest/doc/html/thread.html)
 * POCO ([Threads](https://pocoproject.org/slides/130-Threads.pdf), [NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
 
+### Multithreading / Async
+* <https://github.com/Amanieu/asyncplusplus>
+
 ### Multithreading / Concurrent
 * [TBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
 * <https://github.com/David-Haim/concurrencpp>
