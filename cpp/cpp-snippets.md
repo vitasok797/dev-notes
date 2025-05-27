@@ -61,10 +61,10 @@ private:
 
 ```cpp
     MyClass(const MyClass& other) { }
-    MyClass& operator=(const MyClass& other) { }
+    MyClass& operator=(const MyClass& other) { return *this; }
 
     MyClass(MyClass&& other) noexcept { }
-    MyClass& operator=(MyClass&& other) noexcept { }
+    MyClass& operator=(MyClass&& other) noexcept { return *this; }
 
     [virtual] ~MyClass() { }
     ❓ noexcept
