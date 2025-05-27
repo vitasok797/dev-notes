@@ -102,7 +102,7 @@ struct C final : B
 };
 ```
 
-#### Options
+#### Class types
 
 | Inheritance | Polymorphic<br>usage | Type | Class options |
 |:---:|:---:|:---:|---|
