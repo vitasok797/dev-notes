@@ -74,7 +74,7 @@ private:
 
 ⚠️ ❓ Destructor (explicit/default) `noexcept`
 
-#### Trailing return type
+#### Member functions syntax
 
 ```cpp
 [virtual] [static] [constexpr] auto member_func() [const] [&/&&] [noexcept] -> TYPE [override/final]
