@@ -71,13 +71,11 @@ private:
     MyClass(MyClass&& other) noexcept { }
     MyClass& operator=(MyClass&& other) noexcept { return *this; }
 
-    [virtual] ~MyClass() { }
-    ❓ noexcept
+    [virtual] ~MyClass() noexcept { }
 ```
 
-⚠️ Make move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept))
-
-⚠️ ❓ Destructor (explicit/default) `noexcept`
+⚠️ Make user-defined/default move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)) \
+⚠️ Make user-defined destructors `noexcept` ([C.37](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c37-make-destructors-noexcept))
 
 #### Member functions syntax
 
