@@ -61,7 +61,6 @@ private:
     MyClass& operator=(MyClass&&) noexcept = default;
 
     [virtual] ~MyClass() = default;
-    ❓ noexcept
 ```
 
 ```cpp
