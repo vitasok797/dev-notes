@@ -19,7 +19,7 @@ public:
     [[nodiscard]] ScopeGuard(F&& f) noexcept : f_{std::move(f)} {}
 
     ScopeGuard(ScopeGuard&& other) noexcept
-        : f_(std::move(other.f_)), invoke_(std::exchange(other.invoke_, false))
+        : f_{std::move(other.f_)}, invoke_{std::exchange(other.invoke_, false)}
     {}
 
     ScopeGuard(const ScopeGuard&) = delete;
