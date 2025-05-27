@@ -238,7 +238,9 @@
 * [(Habr) Недостатки корутин в C++](https://habr.com/ru/companies/ruvds/articles/755246/)
 * [(Habr) Подробно о корутинах в C++](https://habr.com/ru/companies/piter/articles/491996/)
 
-### Multithreading / Double-checked locking
+### Multithreading / Thread-safe initialization
+* [Thread-Safe Initialization of Data](https://www.modernescpp.com/index.php/thread-safe-initialization-of-data/)
+* [Thread-Safe Initialization of a Singleton](http://www.modernescpp.com/index.php/thread-safe-initialization-of-a-singleton/)
 * [(Preshing) Double-Checked Locking is Fixed In C++11](https://preshing.com/20130930/double-checked-locking-is-fixed-in-cpp11/)
 
 ## Error handling
