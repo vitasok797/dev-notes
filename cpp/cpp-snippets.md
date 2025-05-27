@@ -93,13 +93,13 @@ struct A
 
 struct B : A
 {
-    ~B() override;
+    ~B() noexcept override;
     auto foo() -> void override;
 };
 
 struct C final : B
 {
-    ~C() final;
+    ~C() noexcept final;
     auto foo() -> void final;
 };
 ```
