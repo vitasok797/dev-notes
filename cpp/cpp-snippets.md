@@ -2278,7 +2278,7 @@ using func = void (*) (int, int);
 <details>
 <summary>Scope guard</summary>
 
-▶️[**Run**](https://godbolt.org/z/47hGf8qee) [[scope_guard.h](src/scope_guard.h)]
+▶️[**Run**](https://godbolt.org/z/sTadhb4Go) [[scope_guard.h](src/scope_guard.h)]
 
 ```cpp
 #include <iostream>
@@ -2302,7 +2302,7 @@ auto main() -> int
     {
         cout << "--- scope in 1 ---" << endl;
 
-        auto guard1 = ScopeGuard([]() { cout << "guard1" << endl; });
+        auto guard1 = ScopeGuard{[]() { cout << "guard1" << endl; }};
 
         auto lam2 = []() { cout << "guard2" << endl; };
         auto guard2 = make_scope_guard(lam2);
