@@ -428,13 +428,13 @@ public:
 <details>
 <summary>Template class constructors/methods with T&& args</summary>
 
-▶️[**Run**](https://godbolt.org/z/8TfPfE9nd) [[object_watcher.h](src/object_watcher.h)]
+▶️[**Run**](https://godbolt.org/z/Yjo8fzax3) [[debug.h](src/debug.h)]
 
 ```cpp
 #include <iostream>
 #include <utility>
 
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/object_watcher.h>
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/debug.h>
 
 using std::cout, std::endl;
 
