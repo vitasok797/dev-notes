@@ -149,15 +149,15 @@ private:
 inline auto get_thread_num() -> int
 {
     static auto mutex = std::mutex{};
-    auto scope_lock = std::scoped_lock(mutex);
-
-    static auto next_num = 0;
+    static auto next_thread_num = 0;
     static auto thread_nums = std::unordered_map<std::thread::id, int>{};
 
-    auto cur_id = std::this_thread::get_id();
-    auto [item, inserted] = thread_nums.insert({cur_id, next_num});
+    auto scope_lock = std::scoped_lock(mutex);
 
-    if (inserted) ++next_num;
+    auto cur_id = std::this_thread::get_id();
+    auto [item, inserted] = thread_nums.insert({cur_id, next_thread_num});
+
+    if (inserted) ++next_thread_num;
 
     return item->second;
 }
