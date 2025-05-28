@@ -38,11 +38,9 @@
 * http://blog.think-async.com/2010/04/system-error-support-in-c0x-part-2.html ([google translate](https://blog-think--async-com.translate.goog/2010/04/system-error-support-in-c0x-part-2.html?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=ru))
 
 ## Concurrency
-* https://en.cppreference.com/w/cpp/thread
 * https://en.cppreference.com/w/cpp/language/coroutines
 * https://en.cppreference.com/w/cpp/coroutine
 * https://meetingcpp.com/mcpp/slides/2019/C20%20Coroutines.pdf
-* https://bartoszmilewski.com/2011/10/10/async-tasks-in-c11-not-quite-there-yet/
 
 ## Visit
 * https://github.com/Neargye/magic_enum/issues/199
