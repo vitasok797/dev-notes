@@ -213,6 +213,7 @@
 * <https://github.com/Stiffstream/sobjectizer>
 
 ### Multithreading / Concurrent queues
+* POCO ([NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
 * <https://github.com/cameron314/concurrentqueue>
 * <https://github.com/cameron314/readerwriterqueue>
 * <https://github.com/rigtorp/MPMCQueue>
