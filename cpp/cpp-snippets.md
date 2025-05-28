@@ -1731,7 +1731,7 @@ auto& value = *opt;
 // use: value
 ```
 
-▶️[**Demo** (initialization)](https://godbolt.org/z/reexs7fG5) [[object_watcher.h](src/object_watcher.h)] \
+▶️[**Demo** (initialization)](https://godbolt.org/z/anY48edT4) [[debug.h](src/debug.h)] \
 ▶️[**Demo** (usage)](https://godbolt.org/z/3fzbzM8oo) [[util.h](src/util.h)]
 
 </details>
@@ -1764,7 +1764,7 @@ auto return_tuple() -> std::tuple<int, Watcher> { return {0, std::move(w)}; }
 auto return_tuple() -> std::tuple<int, Watcher> { return {0, Watcher{1, 2}}; }
 ```
 
-▶️[**Demo** (initialization)](https://godbolt.org/z/b9cPfqq5q) [[object_watcher.h](src/object_watcher.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/dKbTMfede) [[debug.h](src/debug.h)]
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
