@@ -16,6 +16,7 @@
 * [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
 * [SEI CERT C++ Coding Standard](https://wiki.sei.cmu.edu/confluence/pages/viewpage.action?pageId=88046682)
 * [Book: More C++ Idioms](https://en.wikibooks.org/wiki/Category:Book:More_C++_Idioms)
+* [Collaborative Collection of C++ Best Practices](https://github.com/cpp-best-practices/cppbestpractices)
 * ⚠️ [HackingCpp](https://hackingcpp.com)
 
 ## Blogs
