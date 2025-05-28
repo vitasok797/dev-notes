@@ -232,6 +232,7 @@
 
 ### Multithreading / Async
 * [(cppreference) std::osyncstream](https://en.cppreference.com/w/cpp/io/basic_osyncstream)
+* [The promises and challenges of std::async task-based parallelism in C++11](https://eli.thegreenplace.net/2016/the-promises-and-challenges-of-stdasync-task-based-parallelism-in-c11/)
 
 ### Multithreading / Concurrent
 * [(Habr) SObjectizer: Articles](https://habr.com/ru/users/eao197/articles/page1/)
