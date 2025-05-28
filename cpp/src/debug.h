@@ -146,7 +146,7 @@ private:
     bool moved_ = false;
 };
 
-inline auto get_cur_thread_num() -> int
+inline auto get_thread_num() -> int
 {
     static auto mutex = std::mutex{};
     auto scope_lock = std::scoped_lock(mutex);
