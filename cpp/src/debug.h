@@ -151,7 +151,7 @@ inline auto get_thread_num() -> int
     static auto mutex = std::mutex{};
     auto scope_lock = std::scoped_lock(mutex);
 
-    static auto next_num = 1;
+    static auto next_num = 0;
     static auto thread_nums = std::unordered_map<std::thread::id, int>{};
 
     auto cur_id = std::this_thread::get_id();
