@@ -560,7 +560,7 @@ TD<decltype(x)> _;
 <details>
 <summary>Type info (overload resolution test)</summary>
 
-▶️[**Demo** (overload resolution test)](https://godbolt.org/z/jGWMzWvE9) [[type_info.h](src/type_info.h)]
+▶️[**Demo** (overload resolution test)](https://godbolt.org/z/ToYMsfdjs) [[debug.h](src/debug.h)]
 
 </details>
 
@@ -1002,7 +1002,7 @@ requires vs::same_type_as<T, std::string>
 auto func(T&& x) -> void {}
 ```
 
-▶️[**Demo**](https://godbolt.org/z/9MP9dMGqa) [[type_info.h](src/type_info.h), [concepts.h](src/concepts.h)]
+▶️[**Demo**](https://godbolt.org/z/cWhrW96fz) [[concepts.h](src/concepts.h), [debug.h](src/debug.h)]
 
 </details>
 
