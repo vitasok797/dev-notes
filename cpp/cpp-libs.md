@@ -205,6 +205,7 @@
 
 ### Multithreading / Async
 * <https://github.com/Amanieu/asyncplusplus>
+* <https://github.com/alibaba/async_simple>
 
 ### Multithreading / Concurrent
 * [TBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
