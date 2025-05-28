@@ -141,11 +141,14 @@
   * 28 - Input and Output (I/O)
   *  A - Miscellaneous Subjects
 
+## CMake
+* https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html
+* https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
+* https://habr.com/ru/articles/683204/
+
 ## Var
 * https://hackingcpp.com/
 * https://medium.com/techanic/how-to-properly-integrate-third-party-libraries-using-design-patterns-in-c-and-java-a6980f7184f8
-* https://habr.com/ru/articles/683204/
-* https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html
 * https://pvs-studio.ru/ru/blog/posts/cpp/1129/
 * https://scrutator.me/post/2014/01/29/objects_memory_layout_p1.aspx
 * https://dyzzet.ru/a/argument-dependent-lookup/ (советы, https://k0d.cc/storage/books/C/standarty_programmirovaniya_na_c.pdf)
