@@ -97,7 +97,7 @@
 * [std::initializer_list in C++ 2/2](https://www.cppstories.com/2023/initializer_list_improvements/)
 * [(Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
 * [(Abseil Tips) Default vs Value Initialization](https://abseil.io/tips/146)
-  ((cppreference) [default](https://en.cppreference.com/w/cpp/language/default_initialization), [value](https://en.cppreference.com/w/cpp/language/value_initialization))
+  ([default](https://en.cppreference.com/w/cpp/language/default_initialization), [value](https://en.cppreference.com/w/cpp/language/value_initialization))
 
 ### Initialization / {}-initializer syntax
 * [GotW #1 Solution: Variable Initialization](https://herbsutter.com/2013/05/09/gotw-1-solution/)
@@ -282,6 +282,7 @@
 * [(Youtube) C++17, который мы заслужили](https://www.youtube.com/watch?v=I0oerm0MYQY)
 
 ## Var
+* [(cppreference) Attributes](https://en.cppreference.com/w/cpp/language/attributes)
 * [(Habr) Тонкости реализации кода библиотеки](https://habr.com/ru/articles/138085/)
 * [(Habr) Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
 * [(Habr) Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
@@ -289,7 +290,6 @@
 * ⚠️ [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
 * [Calling C Code from C++ with ‘extern “C”‘](https://arne-mertz.de/2018/10/calling-cpp-code-from-c-with-extern-c/)
 * [std::string is not a Container for Raw Data](https://arne-mertz.de/2018/11/string-not-for-raw-data/)
-* [(cppreference) Attributes](https://en.cppreference.com/w/cpp/language/attributes)
 * [Aggregate, POD, trivial type, standard layout class](https://andreasfertig.com/blog/2021/01/cpp20-aggregate-pod-trivial-type-standard-layout-class-what-is-what/)
 * [Embedding Lua in Modern C++](https://medium.com/@polgar.timo/embedding-lua-in-modern-c-84a9bb52109f)
 * [(Abseil Tips) Namespace Naming](https://abseil.io/tips/130)
