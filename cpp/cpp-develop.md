@@ -61,6 +61,9 @@
   * [(Habr) Выявление ошибок в работе с памятью в C и C++: Сравниваем Sanitizers и Valgrind](https://habr.com/ru/companies/otus/articles/801123/)
   * <https://github.com/google/sanitizers>
   * [Valgrind](https://valgrind.org/)
+  * [Clang UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
+  * [Clang AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
+  * [Clang hardware-assisted AddressSanitizer](https://clang.llvm.org/docs/HardwareAssistedAddressSanitizerDesign.html)
 
 ## Visual Studio
 * [Visual Studio 2022 Release History](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
