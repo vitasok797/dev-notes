@@ -97,7 +97,7 @@
 * [std::initializer_list in C++ 2/2](https://www.cppstories.com/2023/initializer_list_improvements/)
 * [(Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
 * [(Abseil Tips) Default vs Value Initialization](https://abseil.io/tips/146)
-  ([default](https://en.cppreference.com/w/cpp/language/default_initialization), [value](https://en.cppreference.com/w/cpp/language/value_initialization))
+  ((cppreference) [default](https://en.cppreference.com/w/cpp/language/default_initialization), [value](https://en.cppreference.com/w/cpp/language/value_initialization))
 
 ### Initialization / {}-initializer syntax
 * [GotW #1 Solution: Variable Initialization](https://herbsutter.com/2013/05/09/gotw-1-solution/)
@@ -187,8 +187,8 @@
 
 ### Types / Signed vs unsigned
 * std:
-  * [std::ssize](https://en.cppreference.com/w/cpp/iterator/size)
-  * [std::cmp_*](https://en.cppreference.com/w/cpp/utility/intcmp)
+  * [(cppreference) std::ssize](https://en.cppreference.com/w/cpp/iterator/size)
+  * [(cppreference) std::cmp_*](https://en.cppreference.com/w/cpp/utility/intcmp)
 * [(LearnCpp) Unsigned integers, and why to avoid them](https://www.learncpp.com/cpp-tutorial/unsigned-integers-and-why-to-avoid-them/)
 * [(LearnCpp) std::vector and the unsigned length and subscript problem](https://www.learncpp.com/cpp-tutorial/stdvector-and-the-unsigned-length-and-subscript-problem/)
 * [(LearnCpp) Arrays, loops, and sign challenge solutions](https://www.learncpp.com/cpp-tutorial/arrays-loops-and-sign-challenge-solutions/)
@@ -231,7 +231,7 @@
 * [Synchronization with Atomics in C++20](https://www.modernescpp.com/index.php/synchronization-with-atomics-in-c-20/)
 
 ### Multithreading / Async
-* [std::osyncstream](https://en.cppreference.com/w/cpp/io/basic_osyncstream)
+* [(cppreference) std::osyncstream](https://en.cppreference.com/w/cpp/io/basic_osyncstream)
 
 ### Multithreading / Concurrent
 * [(Habr) SObjectizer: Articles](https://habr.com/ru/users/eao197/articles/page1/)
@@ -289,7 +289,7 @@
 * ⚠️ [A brief introduction to C++’s model for type- and resource-safety](https://www.stroustrup.com/resource-model.pdf)
 * [Calling C Code from C++ with ‘extern “C”‘](https://arne-mertz.de/2018/10/calling-cpp-code-from-c-with-extern-c/)
 * [std::string is not a Container for Raw Data](https://arne-mertz.de/2018/11/string-not-for-raw-data/)
-* [Attributes](https://en.cppreference.com/w/cpp/language/attributes)
+* [(cppreference) Attributes](https://en.cppreference.com/w/cpp/language/attributes)
 * [Aggregate, POD, trivial type, standard layout class](https://andreasfertig.com/blog/2021/01/cpp20-aggregate-pod-trivial-type-standard-layout-class-what-is-what/)
 * [Embedding Lua in Modern C++](https://medium.com/@polgar.timo/embedding-lua-in-modern-c-84a9bb52109f)
 * [(Abseil Tips) Namespace Naming](https://abseil.io/tips/130)
