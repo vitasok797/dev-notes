@@ -7,7 +7,7 @@
 #include <type_traits>
 #include <utility>
 
-#define FWD(x) std::forward<decltype(x)>(x)
+#define FWD(...) std::forward<decltype(__VA_ARGS__)>(__VA_ARGS__)
 
 namespace vs
 {
