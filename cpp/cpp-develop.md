@@ -89,3 +89,4 @@
 * [Canonical Project Structure](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html)
 * [Ужасное состояние двоичной совместимости Linux](https://habr.com/ru/articles/893720/)
 * [How to mix C and C++](https://isocpp.org/wiki/faq/mixing-c-and-cpp)
+* [Ускорение сборки C и C++ проектов](https://pvs-studio.ru/ru/blog/posts/cpp/0549/)
