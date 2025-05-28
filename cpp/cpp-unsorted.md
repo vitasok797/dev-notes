@@ -100,12 +100,12 @@
   * Как сравниваются структуры
 
 ## MACROS
-* https://www.fluentcpp.com/2019/05/14/3-types-of-macros-that-improve-c-code/
-* https://stackoverflow.com/questions/76558118/can-you-perfectly-forward-expressions-in-c23
-* https://www.reddit.com/r/cpp/comments/mgwfm8/will_we_ever_get_rid_of_macros_in_c/
+* https://blog.tartanllama.xyz/passing-overload-sets/
 * https://vittorioromeo.info/index/blog/capturing_perfectly_forwarded_objects_in_lambdas.html
-* https://www.reddit.com/r/cpp/comments/q4mchr/overview_of_different_ways_of_passing_struct/
-* https://godbolt.org/z/9fr8Wvhvv
+* https://www.reddit.com/r/cpp/comments/mgwfm8/comment/gswydka/
+* https://www.reddit.com/r/cpp/comments/mgwfm8/comment/gsz49uj/
+* https://stackoverflow.com/questions/27501400/the-implementation-of-stdforward
+* https://github.com/rollbear/lift
 
 ## Parameter passing
 * https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
