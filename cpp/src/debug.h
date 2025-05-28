@@ -162,6 +162,13 @@ inline auto get_thread_num() -> int
     return item->second;
 }
 
+inline auto get_thread_unique_num() -> int
+{
+    static auto next_thread_num = std::atomic<int>{0};
+    static thread_local auto thread_num = next_thread_num.fetch_add(1);
+    return thread_num;
+}
+
 }  // namespace vs::debug
 
 #endif  // VS_DEBUG_H_
