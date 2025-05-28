@@ -7,10 +7,10 @@
 namespace vs
 {
 
-template<typename F, typename... Param>
-inline auto run_async(F&& f, Param&&... param)
+template<typename F, typename... Params>
+inline auto run_async(F&& f, Params&&... params)
 {
-    return std::async(std::launch::async, std::forward<F>(f), std::forward<Param>(param)...);
+    return std::async(std::launch::async, std::forward<F>(f), std::forward<Params>(params)...);
 }
 
 }  // namespace vs
