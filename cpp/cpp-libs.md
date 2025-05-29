@@ -203,16 +203,6 @@
 * [Boost.Thread](https://www.boost.org/doc/libs/latest/doc/html/thread.html)
 * POCO ([Threads](https://pocoproject.org/slides/130-Threads.pdf), [NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
 
-### Multithreading / Async
-* <https://github.com/Amanieu/asyncplusplus>
-* <https://github.com/alibaba/async_simple>
-
-### Multithreading / Concurrent
-* [TBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
-* <https://github.com/David-Haim/concurrencpp>
-* <https://github.com/lewissbaker/cppcoro>
-* <https://github.com/Stiffstream/sobjectizer>
-
 ### Multithreading / Concurrent queues
 * POCO ([NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
 * <https://github.com/cameron314/concurrentqueue>
@@ -222,7 +212,18 @@
 * <https://github.com/max0x7ba/atomic_queue> ([vcpkg](https://vcpkg.io/en/package/atomic-queue))
 
 ### Multithreading / Coroutines
+* <https://github.com/David-Haim/concurrencpp>
+* <https://github.com/lewissbaker/cppcoro>
 * <https://github.com/qcoro/qcoro>
+* <https://github.com/alibaba/async_simple>
+
+### Multithreading / Tasks (async)
+* [TBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
+* <https://github.com/David-Haim/concurrencpp>
+* <https://github.com/Amanieu/asyncplusplus>
+
+### Multithreading / Var
+* <https://github.com/Stiffstream/sobjectizer> (Actor and CSP models)
 
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
