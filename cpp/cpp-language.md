@@ -244,6 +244,7 @@
 * [(Habr) Корутины в C++20: архитектура и практическое применение](https://habr.com/ru/articles/908386/)
 * [(Habr) Недостатки корутин в C++](https://habr.com/ru/companies/ruvds/articles/755246/)
 * [(Habr) Подробно о корутинах в C++](https://habr.com/ru/companies/piter/articles/491996/)
+* [(Habr) Корутины C++ для чайников](https://habr.com/ru/articles/798935/)
 
 ### Multithreading / Thread-safe initialization
 * [Thread-Safe Initialization of Data](https://www.modernescpp.com/index.php/thread-safe-initialization-of-data/)
