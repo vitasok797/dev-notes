@@ -72,7 +72,7 @@
 * https://akrzemi1.wordpress.com/2013/12/11/type-erasure-part-iii/
 * https://akrzemi1.wordpress.com/2014/01/13/type-erasure-part-iv/
 
-## Structured Binding:
+## Structured Binding
 * Snippets:
   * Errors (typical) / "Far" objects forwarding
   * Initialization / Structured Binding
