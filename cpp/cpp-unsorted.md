@@ -33,7 +33,6 @@
 * https://www.boost.org/doc/libs/latest/libs/leaf/doc/html/index.html
 * https://www.boost.org/doc/libs/latest/libs/optional/doc/html/index.html
 * https://github.com/pdimov/expected/blob/master/doc/expected.md
-* https://habr.com/ru/articles/430690/
 * https://www.boost.org/doc/libs/latest/libs/system/doc/html/system.html
 * https://www.boost.org/doc/libs/latest/libs/variant2/doc/html/variant2.html
 * https://stackoverflow.com/questions/10176471/is-it-possible-to-convert-a-boostsystemerror-code-to-a-stderror-code
