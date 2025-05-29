@@ -1462,7 +1462,7 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 <details>
 <summary>std::async</summary>
 
-▶️[**Demo**](https://godbolt.org/z/sdEsWM6ze) [[async.h](src/async.h), [debug.h](src/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/hrEc1WrsW) [[async.h](src/async.h), [debug.h](src/debug.h)]
 
 </details>
 
