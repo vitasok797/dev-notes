@@ -8,7 +8,7 @@ namespace vs
 {
 
 template<typename F, typename... Params>
-inline auto run_async(F&& f, Params&&... params)
+auto run_async(F&& f, Params&&... params)
 {
     return std::async(std::launch::async, std::forward<F>(f), std::forward<Params>(params)...);
 }
