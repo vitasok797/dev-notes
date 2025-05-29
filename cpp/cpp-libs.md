@@ -218,7 +218,7 @@
 * <https://github.com/alibaba/async_simple>
 
 ### Multithreading / Tasks (async)
-* [TBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
+* [oneTBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
 * <https://github.com/David-Haim/concurrencpp>
 * <https://github.com/Amanieu/asyncplusplus>
 
