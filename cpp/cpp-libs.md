@@ -210,6 +210,7 @@
 ### Multithreading / Concurrent
 * [TBB](https://github.com/uxlfoundation/oneTBB) ([doc](https://uxlfoundation.github.io/oneTBB/))
 * <https://github.com/David-Haim/concurrencpp>
+* <https://github.com/lewissbaker/cppcoro>
 * <https://github.com/Stiffstream/sobjectizer>
 
 ### Multithreading / Concurrent queues
