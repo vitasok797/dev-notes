@@ -351,77 +351,10 @@ public:
 </details>
 
 <details>
-<summary>Constructors: inheritance (hierarchy)</summary>
+<summary>Initialization order</summary>
 
-▶️[**Run**](https://godbolt.org/z/Kdo6acEh7)
-
-```cpp
-#include <iostream>
-
-auto print(auto text) -> void
-{
-    std::cout << text << " ";
-}
-
-struct A
-{
-    A()
-    {
-        print("A");
-    }
-
-    A(int x)
-    {
-        print("Ai");
-    }
-};
-
-struct B : A
-{
-    B()
-    {
-        print("B");
-    }
-
-    B(int x)
-        : A(x)
-    {
-        print("Bi");
-    }
-};
-
-struct C : B
-{
-    C()
-    {
-        print("C");
-    }
-
-    C(int x)
-        : B(x)
-    {
-        print("Ci");
-    }
-
-    C(double x)
-    {
-        print("Cd");
-    }
-};
-
-auto main() -> int
-{
-    C();  // A B C
-
-    std::cout << std::endl;
-
-    C(1);  // Ai Bi Ci
-
-    std::cout << std::endl;
-
-    C(1.0);  // A B Cd
-}
-```
+▶️[**Demo** (Constructors and inheritance)](https://godbolt.org/z/Kdo6acEh7) \
+▶️[**Demo** (Members)](https://godbolt.org/z/1TM4c8b48)
 
 </details>
 
