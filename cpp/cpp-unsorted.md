@@ -74,7 +74,7 @@
 
 ## Structured Binding:
 * Snippets:
-  * Errors (typical) / auto&& and forward
+  * Errors (typical) / "Far" objects forwarding
   * Initialization / Structured Binding
   * Type / auto&& resolving
 * https://chat.deepseek.com/
