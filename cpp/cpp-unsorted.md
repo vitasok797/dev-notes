@@ -4,7 +4,7 @@
 * https://www.boost.org/doc/libs/latest/libs/numeric/conversion/doc/html/index.html
 * https://www.boost.org/doc/libs/latest/libs/convert/doc/html/index.html
 
-## Ingterval
+## Interval
 * https://chat.deepseek.com/
 * https://stackoverflow.com/questions/9255887/stl-function-to-test-whether-a-value-is-within-some-range
 * https://stackoverflow.com/questions/16339380/c-generic-way-to-check-a-value-in-a-range
