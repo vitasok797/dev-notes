@@ -247,6 +247,7 @@
 * [(Habr) Корутины C++ для чайников](https://habr.com/ru/articles/798935/)
 * [(Modernes C++) Coroutines](https://www.modernescpp.com/index.php/tag/coroutines/)
 * [C++ Coroutines posts](https://lewissbaker.github.io/)
+* [C++ Coroutines and Qt](https://meetingcpp.com/mcpp/slides/2021/meetingcpp-2021-cpp-coroutines-and-qt8937.pdf)
 
 ### Multithreading / Thread-safe initialization
 * [Thread-Safe Initialization of Data](https://www.modernescpp.com/index.php/thread-safe-initialization-of-data/)
