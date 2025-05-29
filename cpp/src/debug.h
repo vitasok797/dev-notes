@@ -6,6 +6,7 @@
 #include <mutex>
 #include <optional>
 #include <string_view>
+#include <syncstream>
 #include <thread>
 #include <type_traits>
 #include <unordered_map>
@@ -164,6 +165,19 @@ inline auto get_thread_unique_num() -> int
     static auto next_thread_num = std::atomic<int>{0};
     static thread_local auto thread_num = next_thread_num.fetch_add(1);
     return thread_num;
+}
+
+template<typename... Values>
+void println_sync(const Values&... values)
+{
+    auto os = std::osyncstream{std::cout};
+    os << "[" << get_thread_unique_num() << "] ";
+    if constexpr (sizeof...(values) > 0)
+    {
+        auto n = 0;
+        ((os << (n++ == 0 ? "" : " ") << values), ...);
+    }
+    os << std::endl;
 }
 
 }  // namespace vs::debug
