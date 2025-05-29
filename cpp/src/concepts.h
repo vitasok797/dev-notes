@@ -22,6 +22,9 @@ concept one_of_types = (std::same_as<std::decay_t<T>, Types> || ...);
 template<typename T, typename U>
 concept same_type_as = std::same_as<std::decay_t<T>, U>;
 
+template<typename T>
+concept ostream = requires(T os) { os << ""; };
+
 }  // namespace vs
 
 #endif  // VS_CONCEPTS_H_
