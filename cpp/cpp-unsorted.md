@@ -4,6 +4,12 @@
 * https://www.boost.org/doc/libs/latest/libs/numeric/conversion/doc/html/index.html
 * https://www.boost.org/doc/libs/latest/libs/convert/doc/html/index.html
 
+## Ingterval
+* https://chat.deepseek.com/
+* https://stackoverflow.com/questions/9255887/stl-function-to-test-whether-a-value-is-within-some-range
+* https://stackoverflow.com/questions/16339380/c-generic-way-to-check-a-value-in-a-range
+* https://labex.io/tutorials/cpp-how-to-detect-out-of-range-values-421164
+
 ## Ranges
 * https://www.walletfox.com/course/quickref_range_v3.php
 * https://hackingcpp.com/cpp/std/range_views_intro.html
