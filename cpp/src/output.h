@@ -6,8 +6,17 @@
 namespace vs
 {
 
-template<typename... Values>
-auto println(std::ostream& os, const Values&... values) -> void
+namespace details
+{
+
+template<typename T>
+concept ostream = requires(T os) { os << ""; };
+
+}
+
+template<typename OutputStream, typename... Values>
+requires details::ostream<OutputStream>
+auto println(OutputStream& os, const Values&... values) -> void
 {
     if constexpr (sizeof...(values) > 0)
     {
