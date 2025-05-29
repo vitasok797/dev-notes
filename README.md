@@ -8,11 +8,13 @@
 * [Julia](julia/julia.md)
 * [Python](python/python.md)
 
+## Topics
+* [Communication](comm/comm.md)
+
 ## Var
 * [Algorithms](var/algorithms.md)
 * [Architecture](var/architecture.md)
 * [Calc](var/calc.md)
-* [Communication](comm/comm.md)
 * [Develop](var/develop.md)
 * [Git](var/git.md)
 * [GUI](var/gui.md)
