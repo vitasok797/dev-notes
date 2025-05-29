@@ -221,6 +221,9 @@
 * <https://github.com/rigtorp/SPSCQueue>
 * <https://github.com/max0x7ba/atomic_queue> ([vcpkg](https://vcpkg.io/en/package/atomic-queue))
 
+### Multithreading / Coroutines
+* <https://github.com/qcoro/qcoro>
+
 ## Logging
 * [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
 * POCO ([Logging](https://pocoproject.org/slides/110-Logging.pdf))
