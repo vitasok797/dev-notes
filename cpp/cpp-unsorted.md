@@ -146,6 +146,8 @@
 * https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html
 * https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
 * https://habr.com/ru/articles/683204/
+* https://www.youtube.com/watch?v=sBP17HQAQjk
+* https://www.youtube.com/watch?v=_5weX5mx8hc
 
 ## Var
 * https://hackingcpp.com/
