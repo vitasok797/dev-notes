@@ -323,7 +323,7 @@ private:
 </details>
 
 <details>
-<summary>Constructors: inheritance (import)</summary>
+<summary>Constructors: import from base classes</summary>
 
 ```cpp
 struct A
