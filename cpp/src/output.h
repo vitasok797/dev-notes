@@ -19,11 +19,8 @@ template<typename OutputStream, typename... Values>
 requires details::ostream<OutputStream>
 auto println(OutputStream& os, const Values&... values) -> void
 {
-    if constexpr (sizeof...(values) > 0)
-    {
-        auto n = 0;
-        ((os << (n++ == 0 ? "" : " ") << values), ...);
-    }
+    auto n = 0;
+    ((os << (n++ == 0 ? "" : " ") << values), ...);
     os << std::endl;
 }
 
