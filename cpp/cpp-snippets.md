@@ -2285,6 +2285,13 @@ using func = void (*) (int, int);
 </details>
 
 <details>
+<summary>output</summary>
+
+▶️[**Demo**](https://godbolt.org/z/8WGzdas69) [[output.h](src/output.h)]
+
+</details>
+
+<details>
 <summary>Scope guard</summary>
 
 ▶️[**Run**](https://godbolt.org/z/sTadhb4Go) [[scope_guard.h](src/scope_guard.h)]
