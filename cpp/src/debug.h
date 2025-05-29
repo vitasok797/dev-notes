@@ -171,12 +171,8 @@ template<typename... Values>
 void println_sync(const Values&... values)
 {
     auto os = std::osyncstream{std::cout};
-    os << "[" << get_thread_unique_num() << "] ";
-    if constexpr (sizeof...(values) > 0)
-    {
-        auto n = 0;
-        ((os << (n++ == 0 ? "" : " ") << values), ...);
-    }
+    os << "[" << get_thread_unique_num() << "]";
+    ((os << " " << values), ...);
     os << std::endl;
 }
 
