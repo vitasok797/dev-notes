@@ -323,6 +323,34 @@ private:
 </details>
 
 <details>
+<summary>Constructors: inheritance (import)</summary>
+
+```cpp
+struct A
+{
+    explicit A(int x) {}
+};
+
+class B: public A
+{
+    using A::A;
+};
+```
+
+```cpp
+#include <vector>
+
+template<typename T>
+class my_vector : public std::vector<T>
+{
+public:
+    using std::vector<T>::std::vector;  // Takes all vector's constructors
+};
+```
+
+</details>
+
+<details>
 <summary>Constructors: inheritance (hierarchy)</summary>
 
 ▶️[**Run**](https://godbolt.org/z/Kdo6acEh7)
@@ -393,34 +421,6 @@ auto main() -> int
 
     C(1.0);  // A B Cd
 }
-```
-
-</details>
-
-<details>
-<summary>Constructors: inheritance (import)</summary>
-
-```cpp
-struct A
-{
-    explicit A(int x) {}
-};
-
-class B: public A
-{
-    using A::A;
-};
-```
-
-```cpp
-#include <vector>
-
-template<typename T>
-class my_vector : public std::vector<T>
-{
-public:
-    using std::vector<T>::std::vector;  // Takes all vector's constructors
-};
 ```
 
 </details>
