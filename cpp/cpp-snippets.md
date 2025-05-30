@@ -1052,9 +1052,33 @@ auto main() -> int
 }
 ```
 
+#### Using struct
+
+▶️[**Run**](https://godbolt.org/z/acEG3EPqn)
+
+```cpp
+#include <iostream>
+#include <string>
+
+struct FirstName { std::string value; };
+struct LastName { std::string value; };
+
+auto func(const FirstName& first_name, const LastName& last_name) -> void
+{
+    std::cout << "First name: " << first_name.value << std::endl;
+    std::cout << "Last name: " << last_name.value << std::endl;
+}
+
+auto main() -> int
+{
+    func(FirstName{"John"}, LastName{"Doe"});
+    func({"John"}, {"Doe"});  // allows
+}
+```
+
 #### Using designated initializers
 
-▶️[**Run**](https://godbolt.org/z/f1eTjbnT4)
+▶️[**Run**](https://godbolt.org/z/rv5zW5T8d)
 
 ```cpp
 #include <iostream>
