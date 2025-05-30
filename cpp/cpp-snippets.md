@@ -1892,7 +1892,7 @@ auto main() -> int
 <details>
 <summary>Class configuration: non-type template parameters</summary>
 
-▶️[**Run**](https://godbolt.org/z/sfcWKo96e)
+▶️[**Run**](https://godbolt.org/z/153ov4Y4K)
 
 ```cpp
 #include <iostream>
@@ -1901,7 +1901,7 @@ template<bool opt_enabled = false, int opt_value = 0>
 class ConfigurableClass1
 {
 public:
-    void test()
+    auto test() -> void
     {
         if constexpr (opt_enabled)
             std::cout << "ON ";
@@ -1921,7 +1921,7 @@ template<Options options = {}>
 class ConfigurableClass2
 {
 public:
-    void test()
+    auto test() -> void
     {
         if (options.opt_enabled)
             std::cout << "ON ";
