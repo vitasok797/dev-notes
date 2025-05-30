@@ -618,7 +618,7 @@ for (const auto& s = get_struct(); const auto& el : s.items()) { func(el); }  //
 ranges::for_each(get_struct().items(), func);  // OK
 ```
 
-#### Structured bindings
+#### Structured binding
 
 🚧
 
@@ -1293,7 +1293,7 @@ for (const auto& s = get_struct(); const auto& el : s.items()) {...}
 </details>
 
 <details>
-<summary>🚧 Structured Binding</summary>
+<summary>🚧 Structured binding</summary>
 
 [(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
 
