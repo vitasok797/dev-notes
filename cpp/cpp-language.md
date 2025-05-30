@@ -134,9 +134,8 @@
 
 ## Templates
 * [SFINAE. Как много в этом слове](https://scrutator.me/post/2016/12/12/sfinae.aspx)
-
-### Templates / CRTP (Curiously Recurring Template Pattern)
 * [Старая новая техника: CRTP](https://scrutator.me/post/2014/06/26/crtp_demystified.aspx)
+* [(Modernes C++) Policy](https://www.modernescpp.com/index.php/policy-and-traits/)
 
 ## Types
 * [(cppreference) Fundamental types](https://en.cppreference.com/w/cpp/language/types)
