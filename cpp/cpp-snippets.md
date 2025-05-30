@@ -1884,6 +1884,72 @@ auto main() -> int
 </details>
 
 <details>
+<summary>Class configuration: non-type template parameters</summary>
+
+▶️[**Run**](https://godbolt.org/z/sfcWKo96e)
+
+```cpp
+#include <iostream>
+
+template<bool opt_enabled = false, int opt_value = 0>
+class ConfigurableClass1
+{
+public:
+    void test()
+    {
+        if constexpr (opt_enabled)
+            std::cout << "ON ";
+        else
+            std::cout << "OFF ";
+        std::cout << opt_value << std::endl;
+    }
+};
+
+struct Options
+{
+    bool opt_enabled = false;
+    int opt_value = 0;
+};
+
+template<Options options = {}>
+class ConfigurableClass2
+{
+public:
+    void test()
+    {
+        if (options.opt_enabled)
+            std::cout << "ON ";
+        else
+            std::cout << "OFF ";
+        std::cout << options.opt_value << std::endl;
+    }
+};
+
+using Class1A = ConfigurableClass1<true, 42>;
+using Class1B = ConfigurableClass1<false>;
+using Class1C = ConfigurableClass1<>;
+
+using Class2A = ConfigurableClass2<{.opt_enabled=true, .opt_value=42}>;
+using Class2B = ConfigurableClass2<{false, -1}>;
+using Class2C = ConfigurableClass2<>;
+
+auto main() -> int
+{
+    Class1A{}.test();
+    Class1B{}.test();
+    Class1C{}.test();
+
+    std::cout << std::endl;
+
+    Class2A{}.test();
+    Class2B{}.test();
+    Class2C{}.test();
+}
+```
+
+</details>
+
+<details>
 <summary>Concepts</summary>
 
 #### Syntax
