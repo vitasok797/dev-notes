@@ -1216,12 +1216,10 @@ auto i = {3};  // C++11: std::initializer_list<int>
 #### Trailing return type
 
 ```cpp
-[static/inline] [constexpr] TYPE non_member_func() [noexcept]
 [static/inline] [constexpr] auto non_member_func() [noexcept] -> TYPE
 ```
 
 ```cpp
-[virtual] [static/inline] [constexpr] TYPE member_func() [const] [&/&&] [noexcept]         [override/final]
 [virtual] [static/inline] [constexpr] auto member_func() [const] [&/&&] [noexcept] -> TYPE [override/final]
 ```
 
