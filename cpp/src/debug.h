@@ -3,13 +3,10 @@
 
 #include <atomic>
 #include <iostream>
-#include <mutex>
 #include <optional>
 #include <string_view>
 #include <syncstream>
-#include <thread>
 #include <type_traits>
-#include <unordered_map>
 
 #define VS_REF_INFO(x) VS_IS_VALUE(x) << VS_IS_REF(x) << VS_IS_RVALUE_REF(x)
 #define VS_IS_VALUE(x) (std::is_reference_v<decltype(x)> ? "" : "VAL")
@@ -146,19 +143,6 @@ private:
     size_t index_;
     bool moved_ = false;
 };
-
-inline auto get_thread_num() -> int
-{
-    static auto mutex = std::mutex{};
-    static auto next_thread_num = 0;
-    static auto threads = std::unordered_map<std::thread::id, int>{};
-
-    auto thread_id = std::this_thread::get_id();
-    auto scope_lock = std::scoped_lock(mutex);
-    auto [item, inserted] = threads.insert({thread_id, next_thread_num});
-    if (inserted) ++next_thread_num;
-    return item->second;
-}
 
 inline auto get_thread_unique_num() -> int
 {
