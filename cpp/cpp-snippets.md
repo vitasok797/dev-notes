@@ -2445,7 +2445,7 @@ using func = void (*) (int, int);
 </details>
 
 <details>
-<summary>Scope guard</summary>
+<summary>ScopeGuard</summary>
 
 ▶️[**Run**](https://godbolt.org/z/sTadhb4Go) [[scope_guard.h](src/scope_guard.h)]
 
