@@ -1878,7 +1878,7 @@ auto main() -> int
 <details>
 <summary>Class configuration: policy</summary>
 
-▶️[**Run**](https://godbolt.org/z/1j7aee64E)
+▶️[**Run**](https://godbolt.org/z/Ya8E1sf19)
 
 ```cpp
 #include <iostream>
@@ -1891,7 +1891,7 @@ public:
     {
         // option 1: pass *this (more flexible, requires "friend Policy")
         // option 2: pass/return options or struct
-        Policy::configure(*this);
+        Policy{}.configure(*this);
     }
 
     auto test() const -> void
@@ -1912,7 +1912,7 @@ private:
 
 struct PolicyA
 {
-    static auto configure(ConfigurableClass<PolicyA>& self) -> void
+    auto configure(ConfigurableClass<PolicyA>& self) -> void
     {
         self.callback();
         self.option_ = 42;
@@ -1921,7 +1921,7 @@ struct PolicyA
 
 struct PolicyB
 {
-    static auto configure(ConfigurableClass<PolicyB>& self) -> void
+    auto configure(ConfigurableClass<PolicyB>& self) -> void
     {
         self.option_ = 333;
     }
