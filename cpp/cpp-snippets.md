@@ -121,6 +121,20 @@ struct C final : B
 <details>
 <summary>Class: abstract</summary>
 
+#### Structure
+
+```cpp
+class AbstractBase
+{
+public:
+    virtual ~AbstractBase() = 0;
+};
+
+inline AbstractBase::~AbstractBase() {}
+```
+
+#### Example
+
 ```cpp
 class AbstractBase
 {
@@ -153,13 +167,27 @@ public:
 <details>
 <summary>Class: interface</summary>
 
+#### Structure
+
+```cpp
+class IFace
+{
+public:
+    virtual ~IFace() = default;
+    virtual auto func1() [const] [&/&&] [noexcept] -> TYPE = 0;
+    virtual auto func2() [const] [&/&&] [noexcept] -> TYPE = 0;
+};
+```
+
+#### Example
+
 ```cpp
 class ITest
 {
 public:
+    virtual ~ITest() = default;
     virtual auto test1() const -> void = 0;
     virtual auto test2() const -> void = 0;
-    virtual ~ITest() = default;
 };
 
 class Test : public ITest
@@ -170,7 +198,7 @@ public:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/hsE9v5dEa)
+▶️[**Demo**](https://godbolt.org/z/PaYGjE49j)
 
 </details>
 
