@@ -183,9 +183,9 @@ public:
 class IFace
 {
 public:
-    virtual ~IFace() = default;
     virtual auto func1() [const] [&/&&] [noexcept] -> TYPE = 0;
     virtual auto func2() [const] [&/&&] [noexcept] -> TYPE = 0;
+    virtual ~IFace() = default;
 };
 ```
 
@@ -195,9 +195,9 @@ public:
 class ITest
 {
 public:
-    virtual ~ITest() = default;
     virtual auto test1() const -> void = 0;
     virtual auto test2() const -> void = 0;
+    virtual ~ITest() = default;
 };
 
 class Test : public ITest
@@ -208,7 +208,7 @@ public:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/PaYGjE49j)
+▶️[**Demo**](https://godbolt.org/z/9sh3defGq)
 
 </details>
 
