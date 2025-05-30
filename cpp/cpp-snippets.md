@@ -69,6 +69,20 @@ private:
     [virtual] ~MyClass() noexcept { }
 ```
 
+```cpp
+    MyClass(const MyClass&);
+    MyClass& operator=(const MyClass&);
+    MyClass(MyClass&&) noexcept;
+    MyClass& operator=(MyClass&&) noexcept;
+    [virtual] ~MyClass() noexcept;
+
+    [inline] MyClass::MyClass(const MyClass& other) { }
+    [inline] MyClass& MyClass::operator=(const MyClass& other) { return *this; }
+    [inline] MyClass::MyClass(MyClass&& other) noexcept { }
+    [inline] MyClass& MyClass::operator=(MyClass&& other) noexcept { return *this; }
+    [virtual] [inline] MyClass::~MyClass() noexcept { }
+```
+
 ⚠️ Make user-defined/default move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)) \
 ⚠️ Make user-defined destructors `noexcept` ([C.37](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c37-make-destructors-noexcept))
 
