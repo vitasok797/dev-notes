@@ -1027,7 +1027,7 @@ auto test(F f) -> void
 
 Libs: [strong_type](https://github.com/rollbear/strong_type)
 
-▶️[**Run**](https://godbolt.org/z/YEs7TYKsj)
+▶️[**Run**](https://godbolt.org/z/cae8zT3jT)
 
 ```cpp
 #include <iostream>
@@ -1040,8 +1040,8 @@ using LastName = strong::type<std::string, struct LastName_tag>;
 
 auto func(const FirstName& first_name, const LastName& last_name) -> void
 {
-    std::cout << "FirstName: " << value_of(first_name) << std::endl;
-    std::cout << "LastName: " << value_of(last_name) << std::endl;
+    std::cout << "First name: " << value_of(first_name) << std::endl;
+    std::cout << "Last name: " << value_of(last_name) << std::endl;
 }
 
 auto main() -> int
