@@ -1825,59 +1825,65 @@ auto main() -> int
 <details>
 <summary>Class configuration: policy</summary>
 
-▶️[**Run**](https://godbolt.org/z/abT4Phr5f)
+▶️[**Run**](https://godbolt.org/z/1j7aee64E)
 
 ```cpp
 #include <iostream>
 
 template<typename Policy>
-class Base
+class ConfigurableClass
 {
 public:
-    Base()
+    ConfigurableClass()
     {
         // option 1: pass *this (more flexible, requires "friend Policy")
-        // option 2: pass individual options
-        // option 3: pass/return struct
+        // option 2: pass/return options or struct
         Policy::configure(*this);
     }
 
-    auto print_option() const -> void
+    auto test() const -> void
     {
         std::cout << option_ << std::endl;
     }
 
 private:
+    auto callback() const -> void
+    {
+        std::cout << "callback" << std::endl;
+    }
+
     friend Policy;
+
     int option_ = 0;
 };
 
 struct PolicyA
 {
-    static auto configure(Base<PolicyA>& self) -> void
+    static auto configure(ConfigurableClass<PolicyA>& self) -> void
     {
+        self.callback();
         self.option_ = 42;
     }
 };
 
 struct PolicyB
 {
-    static auto configure(Base<PolicyB>& self) -> void
+    static auto configure(ConfigurableClass<PolicyB>& self) -> void
     {
         self.option_ = 333;
     }
 };
 
-using BaseWithPolicyA = Base<PolicyA>;
-using BaseWithPolicyB = Base<PolicyB>;
+using ClassA = ConfigurableClass<PolicyA>;
+using ClassB = ConfigurableClass<PolicyB>;
 
 auto main() -> int
 {
-    auto b1 = BaseWithPolicyA{};
-    b1.print_option();
+    ClassA{}.test();
 
-    auto b2 = BaseWithPolicyB{};
-    b2.print_option();
+    std::cout << std::endl;
+
+    ClassB{}.test();
 }
 ```
 
