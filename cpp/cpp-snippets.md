@@ -5,7 +5,7 @@
 <details>
 <summary>Class: guide</summary>
 
-#### Structure
+#### Prototype
 
 ```cpp
 class MyClass [final]
@@ -121,7 +121,7 @@ struct C final : B
 <details>
 <summary>Class: abstract</summary>
 
-#### Structure
+#### Prototype
 
 ```cpp
 class AbstractBase
@@ -167,7 +167,7 @@ public:
 <details>
 <summary>Class: interface</summary>
 
-#### Structure
+#### Prototype
 
 ```cpp
 class IFace
