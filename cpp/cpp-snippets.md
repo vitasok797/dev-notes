@@ -1054,7 +1054,7 @@ auto main() -> int
 
 #### Using designated initializers
 
-▶️[**Run**](https://godbolt.org/)
+▶️[**Run**](https://godbolt.org/z/f1eTjbnT4)
 
 ```cpp
 #include <iostream>
