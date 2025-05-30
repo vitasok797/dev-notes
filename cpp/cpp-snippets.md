@@ -1078,7 +1078,7 @@ auto main() -> int
 
 #### Using designated initializers
 
-▶️[**Run**](https://godbolt.org/z/rv5zW5T8d)
+▶️[**Run**](https://godbolt.org/z/W9E1rjfEz)
 
 ```cpp
 #include <iostream>
@@ -1099,6 +1099,7 @@ auto func(const Name& name) -> void
 auto main() -> int
 {
     func({.first_name="John", .last_name="Doe"});
+    func({"John", "Doe"});  // allows
 }
 ```
 
