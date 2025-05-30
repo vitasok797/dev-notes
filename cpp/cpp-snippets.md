@@ -510,18 +510,16 @@ TD<decltype(x)> _;
 </details>
 
 <details>
-<summary>Object Watcher</summary>
+<summary>Type info (overload resolution test)</summary>
 
-▶️[**Demo** (CopyWatcher)](https://godbolt.org/z/9Pa1Td9Wr) [[debug.h](src/debug.h)] \
-▶️[**Demo** (CtorWatcher)](https://godbolt.org/z/6cv9e6qeE) [[debug.h](src/debug.h)] \
-▶️[**Demo** (ObjWatcher)](https://godbolt.org/z/a3eMTP9r7) [[debug.h](src/debug.h)]
+▶️[**Demo** (overload resolution test)](https://godbolt.org/z/ToYMsfdjs) [[debug.h](src/debug.h)]
 
 </details>
 
 <details>
-<summary>Type info (overload resolution test)</summary>
+<summary>Watchers</summary>
 
-▶️[**Demo** (overload resolution test)](https://godbolt.org/z/ToYMsfdjs) [[debug.h](src/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/PEvzvdP19) [[debug.h](src/debug.h)]
 
 </details>
 
