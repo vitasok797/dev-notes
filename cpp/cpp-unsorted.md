@@ -120,7 +120,6 @@
   * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
 
 ## TODO
-* Improve ObjWatcher (thread id, port from old)
 * Dev games (Instagram)
 
 ## LearnCpp
