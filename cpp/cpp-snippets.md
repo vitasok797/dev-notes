@@ -80,7 +80,7 @@ private:
 [inline] MyClass& MyClass::operator=(const MyClass& other) { return *this; }
 [inline] MyClass::MyClass(MyClass&& other) noexcept { }
 [inline] MyClass& MyClass::operator=(MyClass&& other) noexcept { return *this; }
-[virtual] [inline] MyClass::~MyClass() noexcept { }
+[inline] MyClass::~MyClass() noexcept { }
 ```
 
 ⚠️ Make user-defined/default move operations `noexcept` ([C.66](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c66-make-move-operations-noexcept)) \
