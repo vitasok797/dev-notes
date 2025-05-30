@@ -56,20 +56,16 @@ private:
 ```cpp
     MyClass(const MyClass&) = default;
     MyClass& operator=(const MyClass&) = default;
-
     MyClass(MyClass&&) noexcept = default;
     MyClass& operator=(MyClass&&) noexcept = default;
-
     [virtual] ~MyClass() = default;
 ```
 
 ```cpp
     MyClass(const MyClass& other) { }
     MyClass& operator=(const MyClass& other) { return *this; }
-
     MyClass(MyClass&& other) noexcept { }
     MyClass& operator=(MyClass&& other) noexcept { return *this; }
-
     [virtual] ~MyClass() noexcept { }
 ```
 
