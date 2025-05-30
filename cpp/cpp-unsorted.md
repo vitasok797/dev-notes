@@ -59,6 +59,7 @@
 * https://www.fluentcpp.com/2017/05/12/curiously-recurring-template-pattern/
 * https://www.fluentcpp.com/2017/05/16/what-the-crtp-brings-to-code/
 * https://www.fluentcpp.com/2017/05/19/crtp-helper/
+* https://www.fluentcpp.com/2018/06/22/variadic-crtp-opt-in-for-class-features-at-compile-time/
 
 ## GSL
 * https://www.cppstories.com/2017/10/notnull/
