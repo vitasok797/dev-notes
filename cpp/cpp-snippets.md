@@ -1025,6 +1025,8 @@ auto test(F f) -> void
 <details>
 <summary>Named arguments</summary>
 
+#### Using strong_type library
+
 Libs: [strong_type](https://github.com/rollbear/strong_type)
 
 ▶️[**Run**](https://godbolt.org/z/cae8zT3jT)
@@ -1047,6 +1049,32 @@ auto func(const FirstName& first_name, const LastName& last_name) -> void
 auto main() -> int
 {
     func(FirstName{"John"}, LastName{"Doe"});
+}
+```
+
+#### Using designated initializers
+
+▶️[**Run**](https://godbolt.org/)
+
+```cpp
+#include <iostream>
+#include <string>
+
+struct Name
+{
+    std::string first_name;
+    std::string last_name;
+};
+
+auto func(const Name& name) -> void
+{
+    std::cout << "First name: " << name.first_name << std::endl;
+    std::cout << "Last name: " << name.last_name << std::endl;
+}
+
+auto main() -> int
+{
+    func({.first_name="John", .last_name="Doe"});
 }
 ```
 
