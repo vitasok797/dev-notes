@@ -1878,6 +1878,8 @@ auto main() -> int
 <details>
 <summary>Class configuration: policy</summary>
 
+[(Modernes C++) Policy](https://www.modernescpp.com/index.php/policy-and-traits/)
+
 ▶️[**Run**](https://godbolt.org/z/Ya8E1sf19)
 
 ```cpp
