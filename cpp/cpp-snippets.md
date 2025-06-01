@@ -389,10 +389,10 @@ public:
 </details>
 
 <details>
-<summary>Initialization order</summary>
+<summary>Initialization/destruction order</summary>
 
-▶️[**Demo** (Constructors and inheritance)](https://godbolt.org/z/Kdo6acEh7) \
-▶️[**Demo** (Members)](https://godbolt.org/z/1TM4c8b48)
+▶️[**Demo** (Constructors/destructors)](https://godbolt.org/z/v7KeTh3xY) \
+▶️[**Demo** (Members)](https://godbolt.org/z/3er9ehrYc)
 
 </details>
 
