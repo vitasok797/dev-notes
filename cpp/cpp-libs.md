@@ -156,6 +156,9 @@
 * <https://github.com/Neargye/magic_enum> ([vcpkg](https://vcpkg.io/en/package/magic-enum))
 * <https://github.com/fix8mt/conjure_enum> ([vcpkg](https://vcpkg.io/en/package/conjure-enum))
 
+### Types / Operators
+* [Boost.Operators (Utility)](https://www.boost.org/doc/libs/latest/libs/utility/doc/html/utility/utilities/operators.html) ([vcpkg](https://vcpkg.io/en/package/boost-utility))
+
 ### Types / Reflection
 * <https://github.com/Neargye/nameof>
 * [Boost.Describe](https://www.boost.org/doc/libs/latest/libs/describe/doc/html/describe.html)
