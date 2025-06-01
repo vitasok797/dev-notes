@@ -2052,7 +2052,7 @@ auto is_equal(T a, T b)
 <details>
 <summary>CRTP mixins</summary>
 
-▶️[**Run**](https://godbolt.org/z/ra5sfYaGn) [[util.h](src/util.h)]
+▶️[**Run**](https://godbolt.org/z/844brxrKe) [[util.h](src/util.h)]
 
 ```cpp
 #include <iostream>
@@ -2080,8 +2080,12 @@ public:
     {
         auto& und = vs::this_to<Underlying>(this);
         und.set_size(und.size()*2);
+        std::cout << "Size doubled" << std::endl;
     }
 };
+
+template<typename Underlying>
+class SizeOperations : public PrintSize<Underlying>, public DoubleSize<Underlying> {};
 
 // ----------------------------------------------------------------------------------------------
 
@@ -2102,6 +2106,7 @@ auto test1() -> void
     x.print_size();
     x.double_size();
     x.print_size();
+    std::cout << std::endl;
 }
 
 // ----------------------------------------------------------------------------------------------
@@ -2117,6 +2122,7 @@ private:
 };
 
 using Class2 = BaseClass2<PrintSize, DoubleSize>;
+using Class3 = BaseClass2<SizeOperations>;
 
 auto test2() -> void
 {
@@ -2124,6 +2130,16 @@ auto test2() -> void
     x.print_size();
     x.double_size();
     x.print_size();
+    std::cout << std::endl;
+}
+
+auto test3() -> void
+{
+    auto x = Class2{};
+    x.print_size();
+    x.double_size();
+    x.print_size();
+    std::cout << std::endl;
 }
 
 // ----------------------------------------------------------------------------------------------
@@ -2131,8 +2147,8 @@ auto test2() -> void
 auto main() -> int
 {
     test1();
-    std::cout << std::endl;
     test2();
+    test3();
 }
 ```
 
