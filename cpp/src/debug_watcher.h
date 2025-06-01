@@ -37,7 +37,7 @@ public:
         if (options.print_ctor_copy)
         {
             auto os = ostream();
-            os << " copy constructed";
+            os << " COPY constructed";
             os << " from (" << other.index_ << ")" << std::endl;
         }
     }
@@ -59,7 +59,7 @@ public:
         if (options.print_assign_copy)
         {
             auto os = ostream();
-            os << " copy assigned";
+            os << " COPY assigned";
             os << " from (" << other.index_ << ")" << std::endl;
         }
 
