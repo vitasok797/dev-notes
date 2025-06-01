@@ -134,8 +134,14 @@
 
 ## Templates
 * [SFINAE. Как много в этом слове](https://scrutator.me/post/2016/12/12/sfinae.aspx)
-* [Старая новая техника: CRTP](https://scrutator.me/post/2014/06/26/crtp_demystified.aspx)
 * [(Modernes C++) Policy](https://www.modernescpp.com/index.php/policy-and-traits/)
+
+### Templates / CRTP
+* [Старая новая техника: CRTP](https://scrutator.me/post/2014/06/26/crtp_demystified.aspx)
+* [(Fluent C++) The Curiously Recurring Template Pattern (CRTP)](https://www.fluentcpp.com/2017/05/12/curiously-recurring-template-pattern/)
+* [(Fluent C++) What the Curiously Recurring Template Pattern can bring to your code](https://www.fluentcpp.com/2017/05/16/what-the-crtp-brings-to-code/)
+* [(Fluent C++) An Implementation Helper For The Curiously Recurring Template Pattern](https://www.fluentcpp.com/2017/05/19/crtp-helper/)
+* [(Fluent C++) Variadic CRTP: An Opt-in for Class Features, at Compile Time](https://www.fluentcpp.com/2018/06/22/variadic-crtp-opt-in-for-class-features-at-compile-time/)
 
 ## Types
 * [(cppreference) Fundamental types](https://en.cppreference.com/w/cpp/language/types)
