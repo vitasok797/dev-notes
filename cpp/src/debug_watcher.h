@@ -28,7 +28,7 @@ public:
         if (options.print_ctor0)
         {
             auto os = std::osyncstream{std::cout};
-            os << "Watcher: created (" << index_ << ")" << std::endl;
+            os << "Watcher (" << index_ << ") constructed" << std::endl;
         }
     }
 
@@ -37,7 +37,8 @@ public:
         if (options.print_ctor_copy)
         {
             auto os = std::osyncstream{std::cout};
-            os << "Watcher: created (" << index_ << ") copy from (" << other.index_ << ")" << std::endl;
+            os << "Watcher (" << index_ << ") copy constructed";
+            os << " from (" << other.index_ << ")" << std::endl;
         }
     }
 
@@ -46,7 +47,8 @@ public:
         if (options.print_ctor_move)
         {
             auto os = std::osyncstream{std::cout};
-            os << "Watcher: created (" << index_ << ") move from (" << other.index_ << ")" << std::endl;
+            os << "Watcher (" << index_ << ") move constructed";
+            os << " from (" << other.index_ << ")" << std::endl;
         }
 
         other.moved_ = true;
@@ -57,7 +59,8 @@ public:
         if (options.print_assign_copy)
         {
             auto os = std::osyncstream{std::cout};
-            os << "Watcher: (" << index_ << ") copy assigned from (" << other.index_ << ")" << std::endl;
+            os << "Watcher (" << index_ << ") copy assigned";
+            os << " from (" << other.index_ << ")" << std::endl;
         }
 
         moved_ = false;
@@ -69,7 +72,8 @@ public:
         if (options.print_assign_move)
         {
             auto os = std::osyncstream{std::cout};
-            os << "Watcher: (" << index_ << ") move assigned from (" << other.index_ << ")" << std::endl;
+            os << "Watcher (" << index_ << ") move assigned";
+            os << " from (" << other.index_ << ")" << std::endl;
         }
 
         moved_ = false;
