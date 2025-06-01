@@ -48,19 +48,6 @@
 * https://en.cppreference.com/w/cpp/utility/variant/visit2
 * https://habr.com/ru/companies/otus/articles/546158/
 
-## CRTP
-* https://chat.deepseek.com/
-* https://github.com/rollbear/strong_type/blob/main/include/strong_type/type.hpp
-* https://scrutator.me/post/2014/06/26/crtp_demystified.aspx
-* https://nuancesprog.ru/p/15557/
-* https://stackoverflow.com/questions/4173254/what-is-the-curiously-recurring-template-pattern-crtp
-* https://en.cppreference.com/w/cpp/language/crtp
-* https://godbolt.org/z/367zYbojs
-* https://www.fluentcpp.com/2017/05/12/curiously-recurring-template-pattern/
-* https://www.fluentcpp.com/2017/05/16/what-the-crtp-brings-to-code/
-* https://www.fluentcpp.com/2017/05/19/crtp-helper/
-* https://www.fluentcpp.com/2018/06/22/variadic-crtp-opt-in-for-class-features-at-compile-time/
-
 ## GSL
 * https://www.cppstories.com/2017/10/notnull/
 * GSL_SUPPRESS
