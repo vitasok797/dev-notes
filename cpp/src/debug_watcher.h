@@ -27,8 +27,8 @@ public:
     {
         if (options.print_ctor0)
         {
-            auto os = std::osyncstream{std::cout};
-            os << "Watcher (" << index_ << ") constructed" << std::endl;
+            auto os = ostream();
+            os << " constructed" << std::endl;
         }
     }
 
@@ -36,8 +36,8 @@ public:
     {
         if (options.print_ctor_copy)
         {
-            auto os = std::osyncstream{std::cout};
-            os << "Watcher (" << index_ << ") copy constructed";
+            auto os = ostream();
+            os << " copy constructed";
             os << " from (" << other.index_ << ")" << std::endl;
         }
     }
@@ -46,8 +46,8 @@ public:
     {
         if (options.print_ctor_move)
         {
-            auto os = std::osyncstream{std::cout};
-            os << "Watcher (" << index_ << ") move constructed";
+            auto os = ostream();
+            os << " move constructed";
             os << " from (" << other.index_ << ")" << std::endl;
         }
 
@@ -58,8 +58,8 @@ public:
     {
         if (options.print_assign_copy)
         {
-            auto os = std::osyncstream{std::cout};
-            os << "Watcher (" << index_ << ") copy assigned";
+            auto os = ostream();
+            os << " copy assigned";
             os << " from (" << other.index_ << ")" << std::endl;
         }
 
@@ -71,8 +71,8 @@ public:
     {
         if (options.print_assign_move)
         {
-            auto os = std::osyncstream{std::cout};
-            os << "Watcher (" << index_ << ") move assigned";
+            auto os = ostream();
+            os << " move assigned";
             os << " from (" << other.index_ << ")" << std::endl;
         }
 
@@ -85,14 +85,21 @@ public:
     {
         if (options.print_destructor)
         {
-            auto os = std::osyncstream{std::cout};
-            os << "Watcher: destroyed (" << index_ << ")";
+            auto os = ostream();
+            os << " destroyed";
             if (moved_) os << " [moved]";
             os << std::endl;
         }
     }
 
 private:
+    auto ostream() -> std::osyncstream
+    {
+        auto os = std::osyncstream{std::cout};
+        os << "Watcher (" << index_ << ")";
+        return os;
+    }
+
     static inline std::atomic<size_t> counter_ = 0;
     size_t index_;
     bool moved_ = false;
