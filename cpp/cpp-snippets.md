@@ -2050,7 +2050,7 @@ auto is_equal(T a, T b)
 </details>
 
 <details>
-<summary>CRTP</summary>
+<summary>CRTP mixins</summary>
 
 ▶️[**Run**](https://godbolt.org/z/ra5sfYaGn) [[util.h](src/util.h)]
 
