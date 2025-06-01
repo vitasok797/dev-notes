@@ -2050,6 +2050,95 @@ auto is_equal(T a, T b)
 </details>
 
 <details>
+<summary>CRTP</summary>
+
+▶️[**Run**](https://godbolt.org/z/ra5sfYaGn) [[util.h](src/util.h)]
+
+```cpp
+#include <iostream>
+
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/util.h>
+
+// ----------------------------------------------------------------------------------------------
+
+template<typename Underlying>
+class PrintSize
+{
+public:
+    auto print_size() const -> void
+    {
+        auto& und = vs::this_to<Underlying>(this);
+        std::cout << "Size: " << und.size() << std::endl;
+    }
+};
+
+template<typename Underlying>
+class DoubleSize
+{
+public:
+    auto double_size() -> void
+    {
+        auto& und = vs::this_to<Underlying>(this);
+        und.set_size(und.size()*2);
+    }
+};
+
+// ----------------------------------------------------------------------------------------------
+
+class Class1 :
+    public PrintSize<Class1>,
+    public DoubleSize<Class1>
+{
+public:
+    auto size() const -> int { return size_; }
+    auto set_size(int size) -> void { size_ *= 2; }
+private:
+    int size_ = 7;
+};
+
+auto test1() -> void
+{
+    auto x = Class1{};
+    x.print_size();
+    x.double_size();
+    x.print_size();
+}
+
+// ----------------------------------------------------------------------------------------------
+
+template<template<typename> typename... Skills>
+class BaseClass2 : public Skills<BaseClass2<Skills...>>...
+{
+public:
+    auto size() const -> int { return size_; }
+    auto set_size(int size) -> void { size_ *= 2; }
+private:
+    int size_ = 42;
+};
+
+using Class2 = BaseClass2<PrintSize, DoubleSize>;
+
+auto test2() -> void
+{
+    auto x = Class2{};
+    x.print_size();
+    x.double_size();
+    x.print_size();
+}
+
+// ----------------------------------------------------------------------------------------------
+
+auto main() -> int
+{
+    test1();
+    std::cout << std::endl;
+    test2();
+}
+```
+
+</details>
+
+<details>
 <summary>if constexpr</summary>
 
 ```cpp
