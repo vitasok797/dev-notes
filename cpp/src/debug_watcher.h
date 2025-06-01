@@ -41,12 +41,12 @@ public:
 
     Watcher(Watcher&& other) noexcept : index_{++counter_}
     {
-        other.moved_ = true;
-
         if (options.print_ctor_move)
         {
             std::cout << "Watcher: created (" << index_ << ") move from (" << other.index_ << ")" << std::endl;
         }
+
+        other.moved_ = true;
     }
 
     Watcher& operator=(const Watcher& other) noexcept
