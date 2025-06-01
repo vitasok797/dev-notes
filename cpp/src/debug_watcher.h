@@ -27,7 +27,8 @@ public:
     {
         if (options.print_ctor0)
         {
-            std::cout << "Watcher: created (" << index_ << ")" << std::endl;
+            auto os = std::osyncstream{std::cout};
+            os << "Watcher: created (" << index_ << ")" << std::endl;
         }
     }
 
@@ -35,7 +36,8 @@ public:
     {
         if (options.print_ctor_copy)
         {
-            std::cout << "Watcher: created (" << index_ << ") copy from (" << other.index_ << ")" << std::endl;
+            auto os = std::osyncstream{std::cout};
+            os << "Watcher: created (" << index_ << ") copy from (" << other.index_ << ")" << std::endl;
         }
     }
 
@@ -43,7 +45,8 @@ public:
     {
         if (options.print_ctor_move)
         {
-            std::cout << "Watcher: created (" << index_ << ") move from (" << other.index_ << ")" << std::endl;
+            auto os = std::osyncstream{std::cout};
+            os << "Watcher: created (" << index_ << ") move from (" << other.index_ << ")" << std::endl;
         }
 
         other.moved_ = true;
@@ -53,7 +56,8 @@ public:
     {
         if (options.print_assign_copy)
         {
-            std::cout << "Watcher: (" << index_ << ") copy assigned from (" << other.index_ << ")" << std::endl;
+            auto os = std::osyncstream{std::cout};
+            os << "Watcher: (" << index_ << ") copy assigned from (" << other.index_ << ")" << std::endl;
         }
 
         moved_ = false;
@@ -64,7 +68,8 @@ public:
     {
         if (options.print_assign_move)
         {
-            std::cout << "Watcher: (" << index_ << ") move assigned from (" << other.index_ << ")" << std::endl;
+            auto os = std::osyncstream{std::cout};
+            os << "Watcher: (" << index_ << ") move assigned from (" << other.index_ << ")" << std::endl;
         }
 
         moved_ = false;
@@ -76,9 +81,10 @@ public:
     {
         if (options.print_destructor)
         {
-            std::cout << "Watcher: destroyed (" << index_ << ")";
-            if (moved_) std::cout << " [moved]";
-            std::cout << std::endl;
+            auto os = std::osyncstream{std::cout};
+            os << "Watcher: destroyed (" << index_ << ")";
+            if (moved_) os << " [moved]";
+            os << std::endl;
         }
     }
 
