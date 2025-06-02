@@ -2681,9 +2681,9 @@ using func = void (*) (int, int);
 ## vs::
 
 <details>
-<summary>CopyProtector</summary>
+<summary>NonCopyable</summary>
 
-▶️[**Demo**](https://godbolt.org/z/nbdrfWTsj) [[copy_protector.h](src/copy_protector.h)]
+▶️[**Demo**](https://godbolt.org/z/zncWPdjra) [[non_copyable.h](src/non_copyable.h)]
 
 </details>
 
