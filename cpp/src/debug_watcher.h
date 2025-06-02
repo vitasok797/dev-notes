@@ -17,7 +17,7 @@ struct WatcherOptions
     bool print_thread = true;
     bool print_identity = true;
     bool print_other = true;
-    bool print_ctor0 = true;
+    bool print_ctor = true;
     bool print_ctor_copy = true;
     bool print_ctor_move = true;
     bool print_assign_copy = true;
@@ -31,15 +31,31 @@ class Watcher final
 public:
     Watcher() noexcept : index_{++counter_}
     {
-        if (options.print_ctor0)
+        if (options.print_ctor)
         {
             print_event("constructed");
         }
     }
 
+    Watcher(int) noexcept : index_{++counter_}
+    {
+        if (options.print_ctor)
+        {
+            print_event("constructed ctor1");
+        }
+    }
+
+    Watcher(int, int) noexcept : index_{++counter_}
+    {
+        if (options.print_ctor)
+        {
+            print_event("constructed ctor2");
+        }
+    }
+
     Watcher(const std::string& marker) noexcept : marker_{marker}
     {
-        if (options.print_ctor0)
+        if (options.print_ctor)
         {
             print_event("constructed");
         }
