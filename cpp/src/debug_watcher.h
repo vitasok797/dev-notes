@@ -4,6 +4,7 @@
 #include <atomic>
 #include <iostream>
 #include <optional>
+#include <string_view>
 #include <syncstream>
 
 namespace vs::debug
@@ -27,8 +28,7 @@ public:
     {
         if (options.print_ctor0)
         {
-            auto os = ostream();
-            os << " constructed" << std::endl;
+            print_event("constructed");
         }
     }
 
@@ -36,9 +36,7 @@ public:
     {
         if (options.print_ctor_copy)
         {
-            auto os = ostream();
-            os << " COPY constructed";
-            os << " from (" << other.index_ << ")" << std::endl;
+            print_event("COPY constructed", &other);
         }
     }
 
@@ -46,9 +44,7 @@ public:
     {
         if (options.print_ctor_move)
         {
-            auto os = ostream();
-            os << " move constructed";
-            os << " from (" << other.index_ << ")" << std::endl;
+            print_event("move constructed", &other);
         }
 
         other.moved_ = true;
@@ -58,9 +54,7 @@ public:
     {
         if (options.print_assign_copy)
         {
-            auto os = ostream();
-            os << " COPY assigned";
-            os << " from (" << other.index_ << ")" << std::endl;
+            print_event("COPY assigned", &other);
         }
 
         moved_ = false;
@@ -71,9 +65,7 @@ public:
     {
         if (options.print_assign_move)
         {
-            auto os = ostream();
-            os << " move assigned";
-            os << " from (" << other.index_ << ")" << std::endl;
+            print_event("move assigned", &other);
         }
 
         moved_ = false;
@@ -85,19 +77,31 @@ public:
     {
         if (options.print_destructor)
         {
-            auto os = ostream();
-            os << " destroyed";
-            if (moved_) os << " [moved]";
-            os << std::endl;
+            print_event("destroyed");
         }
     }
 
 private:
-    auto ostream() -> std::osyncstream
+    auto print_event(std::string_view event_desc, const Watcher* other = nullptr) const -> void
     {
         auto os = std::osyncstream{std::cout};
-        os << "Watcher (" << index_ << ")";
-        return os;
+        os << "Watcher ";
+        output_identity(os);
+        os << " " << event_desc;
+        if (other)
+        {
+            os << " from ";
+            other->output_identity(os);
+        }
+        os << std::endl;
+    }
+
+    auto output_identity(std::osyncstream& os) const -> void
+    {
+        os << "(";
+        os << index_;
+        if (moved_) os << ", moved";
+        os << ")";
     }
 
     static inline std::atomic<size_t> counter_ = 0;
