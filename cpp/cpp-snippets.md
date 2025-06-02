@@ -361,6 +361,60 @@ private:
 </details>
 
 <details>
+<summary>Constructors: forward</summary>
+
+▶️[**Run**](https://godbolt.org/z/PT33TvsbP)
+
+```cpp
+#include <iostream>
+#include <utility>
+
+class Base
+{
+public:
+    Base()
+    {
+        std::cout << "Ctor: default" << std::endl;
+    }
+
+    Base(int)
+    {
+        std::cout << "Ctor: (int)" << std::endl;
+    }
+
+    Base(int, int)
+    {
+        std::cout << "Ctor: (int, int)" << std::endl;
+    }
+};
+
+class Derived: public Base
+{
+public:
+    template<typename... Args>
+    Derived(Args&&... args) : Base(std::forward<Args>(args)...)
+    {
+        std::cout << "Additional initialization" << std::endl;
+    }
+};
+
+auto main() -> int
+{
+    Derived{};
+
+    std::cout << std::endl;
+
+    Derived{1};
+
+    std::cout << std::endl;
+
+    Derived{1, 2};
+}
+```
+
+</details>
+
+<details>
 <summary>Constructors: import from base classes</summary>
 
 ```cpp
