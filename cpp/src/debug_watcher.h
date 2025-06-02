@@ -26,10 +26,10 @@ struct WatcherOptions
 };
 
 template<WatcherOptions options = {}>
-class Watcher final
+class WatcherBase final
 {
 public:
-    Watcher() noexcept : index_{++counter_}
+    WatcherBase() noexcept : index_{++counter_}
     {
         if (options.print_ctor)
         {
@@ -37,7 +37,7 @@ public:
         }
     }
 
-    Watcher(int) noexcept : index_{++counter_}
+    WatcherBase(int) noexcept : index_{++counter_}
     {
         if (options.print_ctor)
         {
@@ -45,7 +45,7 @@ public:
         }
     }
 
-    Watcher(int, int) noexcept : index_{++counter_}
+    WatcherBase(int, int) noexcept : index_{++counter_}
     {
         if (options.print_ctor)
         {
@@ -53,7 +53,7 @@ public:
         }
     }
 
-    Watcher(const std::string& marker) noexcept : marker_{marker}
+    WatcherBase(const std::string& marker) noexcept : marker_{marker}
     {
         if (options.print_ctor)
         {
@@ -61,7 +61,7 @@ public:
         }
     }
 
-    Watcher(const Watcher& other) noexcept :
+    WatcherBase(const WatcherBase& other) noexcept :
         index_{++counter_},
         marker_{other.marker_}
     {
@@ -71,7 +71,7 @@ public:
         }
     }
 
-    Watcher(Watcher&& other) noexcept :
+    WatcherBase(WatcherBase&& other) noexcept :
         index_{++counter_},
         marker_{other.marker_}
     {
@@ -83,7 +83,7 @@ public:
         other.moved_ = true;
     }
 
-    Watcher& operator=(const Watcher& other) noexcept
+    WatcherBase& operator=(const WatcherBase& other) noexcept
     {
         if (options.print_assign_copy)
         {
@@ -94,7 +94,7 @@ public:
         return *this;
     }
 
-    Watcher& operator=(Watcher&& other) noexcept
+    WatcherBase& operator=(WatcherBase&& other) noexcept
     {
         if (options.print_assign_move)
         {
@@ -106,7 +106,7 @@ public:
         return *this;
     }
 
-    ~Watcher() noexcept
+    ~WatcherBase() noexcept
     {
         if (options.print_destructor)
         {
@@ -115,7 +115,7 @@ public:
     }
 
 private:
-    auto print_event(std::string_view event_desc, const Watcher* other = nullptr) const -> void
+    auto print_event(std::string_view event_desc, const WatcherBase* other = nullptr) const -> void
     {
         auto os = std::osyncstream{std::cout};
 
@@ -166,6 +166,41 @@ private:
     std::optional<std::string> marker_{};
     bool moved_ = false;
 };
+
+namespace details
+{
+
+inline constexpr auto watcher_config = vs::debug::WatcherOptions
+{
+    .print_thread = false,
+};
+
+inline constexpr auto copy_watcher_config = vs::debug::WatcherOptions
+{
+    .print_thread = false,
+    .print_identity = false,
+    .print_ctor = false,
+    .print_ctor_move = false,
+    .print_assign_move = false,
+    .print_destructor = false,
+};
+
+inline constexpr auto ctor_watcher_config = vs::debug::WatcherOptions
+{
+    .print_thread = false,
+    .print_identity = false,
+    .print_other = false,
+    .print_assign_copy = false,
+    .print_assign_move = false,
+    .print_destructor = false,
+};
+
+}
+
+using Watcher = WatcherBase<details::watcher_config>;
+using CopyWatcher = WatcherBase<details::copy_watcher_config>;
+using CtorWatcher = WatcherBase<details::ctor_watcher_config>;
+using ThreadWatcher = WatcherBase<>;
 
 }  // namespace vs::debug
 
