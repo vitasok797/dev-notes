@@ -828,6 +828,28 @@ auto main() -> int
 </details>
 
 <details>
+<summary>Function alias</summary>
+
+```cpp
+namespace lib
+{
+auto target_func() -> void {}
+}
+
+namespace my_lib
+{
+inline constexpr auto func = lib::target_func;
+}
+
+auto main() -> int
+{
+    my_lib::func();
+}
+```
+
+</details>
+
+<details>
 <summary>Lambda generalized capture</summary>
 
 [(StackOverflow) What is a generalized lambda capture and why was it created?](https://stackoverflow.com/questions/41519450/what-is-a-generalized-lambda-capture-and-why-was-it-created/41520537#41520537)
