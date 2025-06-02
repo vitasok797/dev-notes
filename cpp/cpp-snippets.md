@@ -1132,7 +1132,7 @@ auto main() -> int
 
 #### Using designated initializers
 
-▶️[**Run**](https://godbolt.org/z/W9E1rjfEz)
+▶️[**Run**](https://godbolt.org/z/ej5Y8nc85)
 
 ```cpp
 #include <iostream>
@@ -1152,7 +1152,7 @@ auto func(const Name& name) -> void
 
 auto main() -> int
 {
-    func({.first_name="John", .last_name="Doe"});
+    func({.first_name = "John", .last_name = "Doe"});
     func({"John", "Doe"});  // allows
 }
 ```
@@ -2001,7 +2001,7 @@ auto main() -> int
 <details>
 <summary>Class configuration: non-type template parameters</summary>
 
-▶️[**Run**](https://godbolt.org/z/44vqq89aq)
+▶️[**Run**](https://godbolt.org/z/s7x6MxEb9)
 
 ```cpp
 #include <iostream>
@@ -2044,7 +2044,7 @@ using Class1A = ConfigurableClass1<true, 42>;
 using Class1B = ConfigurableClass1<false>;
 using Class1C = ConfigurableClass1<>;
 
-using Class2A = ConfigurableClass2<{.opt_enabled=true, .opt_value=42}>;
+using Class2A = ConfigurableClass2<{.opt_enabled = true, .opt_value = 42}>;
 using Class2B = ConfigurableClass2<{false, -1}>;
 using Class2C = ConfigurableClass2<>;
 
