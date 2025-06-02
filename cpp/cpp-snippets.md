@@ -1825,26 +1825,26 @@ auto& value = *opt;
 #### Creating
 
 ```cpp
-// inplace (single-arg ctor only)
-auto t = std::tuple<int, Watcher>{0, 1};
+// inplace Type creation (single-arg ctor only)
+auto t = std::tuple<int, Type>{0, 1};
 
 // move
-auto t = std::tuple<int, Watcher>{0, std::move(w)};
-auto t = std::tuple<int, Watcher>{0, Watcher{1, 2}};
+auto t = std::tuple<int, Type>{0, std::move(t)};
+auto t = std::tuple<int, Type>{0, Type{1, 2}};
 ```
 
 #### Returning
 
 ```cpp
-// inplace (single-arg + non-explicit ctor only)
-auto return_tuple() -> std::tuple<int, Watcher> { return {0, 1}; }
+// inplace Type creation (single-arg + non-explicit ctor only)
+auto return_tuple() -> std::tuple<int, Type> { return {0, 1}; }
 
-// inplace (single-arg ctor only)
-auto return_tuple() -> std::tuple<int, Watcher> { return std::tuple<int, Watcher>{0, 1}; }
+// inplace Type creation (single-arg ctor only)
+auto return_tuple() -> std::tuple<int, Type> { return std::tuple<int, Type>{0, 1}; }
 
 // move
-auto return_tuple() -> std::tuple<int, Watcher> { return {0, std::move(w)}; }
-auto return_tuple() -> std::tuple<int, Watcher> { return {0, Watcher{1, 2}}; }
+auto return_tuple() -> std::tuple<int, Type> { return {0, std::move(t)}; }
+auto return_tuple() -> std::tuple<int, Type> { return {0, Type{1, 2}}; }
 ```
 
 ▶️[**Demo** (initialization)](https://godbolt.org/z/dKbTMfede) [[debug.h](src/debug.h)]
