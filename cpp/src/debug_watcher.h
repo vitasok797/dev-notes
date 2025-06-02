@@ -13,8 +13,8 @@ namespace vs::debug
 
 struct WatcherOptions
 {
+    bool print_mark = true;
     bool print_thread = true;
-    bool print_header = true;
     bool print_identity = true;
     bool print_other = true;
     bool print_ctor0 = true;
@@ -103,14 +103,14 @@ private:
     {
         auto os = std::osyncstream{std::cout};
 
+        if (options.print_mark)
+        {
+            os << ">>> ";
+        }
+
         if (options.print_thread)
         {
             os << "[" << get_thread_unique_num() << "] ";
-        }
-
-        if (options.print_header)
-        {
-            os << "Watcher ";
         }
 
         if (options.print_identity)
