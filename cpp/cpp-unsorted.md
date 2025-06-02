@@ -123,7 +123,6 @@
   * 25 - Virtual Functions
   * 26 - Templates and Classes
   * 28 - Input and Output (I/O)
-  *  A - Miscellaneous Subjects
 
 ## CMake
 * https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html
