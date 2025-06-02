@@ -4,6 +4,7 @@
 #include <atomic>
 #include <iostream>
 #include <optional>
+#include <string>
 #include <string_view>
 #include <syncstream>
 
@@ -35,7 +36,17 @@ public:
         }
     }
 
-    Watcher(const Watcher& other) noexcept : index_{++counter_}
+    Watcher(const std::string& marker) noexcept : marker_{marker}
+    {
+        if (options.print_ctor0)
+        {
+            print_event("constructed");
+        }
+    }
+
+    Watcher(const Watcher& other) noexcept :
+        index_{++counter_},
+        marker_{other.marker_}
     {
         if (options.print_ctor_copy)
         {
@@ -43,7 +54,9 @@ public:
         }
     }
 
-    Watcher(Watcher&& other) noexcept : index_{++counter_}
+    Watcher(Watcher&& other) noexcept :
+        index_{++counter_},
+        marker_{other.marker_}
     {
         if (options.print_ctor_move)
         {
@@ -114,13 +127,21 @@ private:
     auto output_identity(std::osyncstream& os) const -> void
     {
         os << "(";
-        os << index_;
+        if (marker_)
+        {
+            os << "\"" << *marker_ << "\"";
+        }
+        else
+        {
+            os << index_;
+        }
         if (moved_) os << ", moved";
         os << ")";
     }
 
     static inline std::atomic<size_t> counter_ = 0;
-    size_t index_;
+    size_t index_ = 0;
+    std::optional<std::string> marker_{};
     bool moved_ = false;
 };
 
