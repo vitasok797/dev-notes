@@ -13,8 +13,9 @@ namespace vs::debug
 
 struct WatcherOptions
 {
-    bool print_header = true;
     bool print_thread = true;
+    bool print_header = true;
+    bool print_identity = true;
     bool print_other = true;
     bool print_ctor0 = true;
     bool print_ctor_copy = true;
@@ -112,8 +113,13 @@ private:
             os << "Watcher ";
         }
 
-        output_identity(os);
-        os << " " << event_desc;
+        if (options.print_identity)
+        {
+            output_identity(os);
+            os << " ";
+        }
+
+        os << event_desc;
 
         if (other && options.print_other)
         {
