@@ -583,7 +583,7 @@ TD<decltype(x)> _;
 <details>
 <summary>Watchers</summary>
 
-▶️[**Demo**](https://godbolt.org/z/PEvzvdP19) [[debug.h](src/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/nezeb5sKb) [[debug.h](src/debug.h)]
 
 </details>
 
