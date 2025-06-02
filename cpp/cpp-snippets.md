@@ -800,6 +800,28 @@ auto main() -> int
 </details>
 
 <details>
+<summary>Function alias</summary>
+
+```cpp
+namespace lib
+{
+auto target_func() -> void {}
+}
+
+namespace my_lib
+{
+inline constexpr auto func = lib::target_func;
+}
+
+auto main() -> int
+{
+    my_lib::func();
+}
+```
+
+</details>
+
+<details>
 <summary>Function object</summary>
 
 ▶️[**Run**](https://godbolt.org/z/nooqb3Paz)
@@ -822,28 +844,6 @@ auto main() -> int
     std::cout << compare(1, 2) << std::endl;
     std::cout << compare(2, 2) << std::endl;
     std::cout << compare(3, 2) << std::endl;
-}
-```
-
-</details>
-
-<details>
-<summary>Function alias</summary>
-
-```cpp
-namespace lib
-{
-auto target_func() -> void {}
-}
-
-namespace my_lib
-{
-inline constexpr auto func = lib::target_func;
-}
-
-auto main() -> int
-{
-    my_lib::func();
 }
 ```
 
