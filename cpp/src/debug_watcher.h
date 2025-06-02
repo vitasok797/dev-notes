@@ -12,6 +12,8 @@ namespace vs::debug
 
 struct WatcherOptions
 {
+    bool print_header = true;
+    bool print_other = true;
     bool print_ctor0 = true;
     bool print_ctor_copy = true;
     bool print_ctor_move = true;
@@ -85,14 +87,21 @@ private:
     auto print_event(std::string_view event_desc, const Watcher* other = nullptr) const -> void
     {
         auto os = std::osyncstream{std::cout};
-        os << "Watcher ";
+
+        if (options.print_header)
+        {
+            os << "Watcher ";
+        }
+
         output_identity(os);
         os << " " << event_desc;
-        if (other)
+
+        if (other && options.print_other)
         {
             os << " from ";
             other->output_identity(os);
         }
+
         os << std::endl;
     }
 
