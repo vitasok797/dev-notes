@@ -2246,7 +2246,7 @@ auto read_and_fill(T& container, int size) -> void
 <details>
 <summary>Initialization wrapper</summary>
 
-▶️[**Run**](https://godbolt.org/z/eo6coTqf4)
+▶️[**Run**](https://godbolt.org/z/hscdfc1sc)
 
 ```cpp
 #include <iostream>
@@ -2264,16 +2264,19 @@ class Main: public Base
 public:
     Main()
     {
-        std::cout << "Default ctor" << std::endl;
+        std::cout << "Ctor: default" << std::endl;
     }
-    Main(int i)
+
+    Main(int)
     {
-        std::cout << "(int i) ctor" << std::endl;
+        std::cout << "Ctor: (int)" << std::endl;
     }
-    Main(int i, int j)
+
+    Main(int, int)
     {
-        std::cout << "(int i, int j) ctor" << std::endl;
+        std::cout << "Ctor: (int, int)" << std::endl;
     }
+
     auto init_after_construction() -> void override
     {
         std::cout << "Initialized" << std::endl;
@@ -2285,7 +2288,7 @@ class Initializer: public T
 {
 public:
     template<typename... Args>
-    Initializer(Args&&... arg) : T(std::forward<Args>(arg)...)
+    Initializer(Args&&... args) : T(std::forward<Args>(args)...)
     {
         this->init_after_construction();
     }
@@ -2293,15 +2296,15 @@ public:
 
 auto main() -> int
 {
-    Initializer<Main> test1{};
+    Initializer<Main>{};
 
     std::cout << std::endl;
 
-    Initializer<Main> test2{1};
+    Initializer<Main>{1};
 
     std::cout << std::endl;
 
-    Initializer<Main> test3{1, 2};
+    Initializer<Main>{1, 2};
 }
 ```
 
