@@ -136,43 +136,6 @@ auto main() -> int
 </details>
 
 <details>
-<summary>String: to_string</summary>
-
-```cpp
-auto v = std::vector<int>{1, 2, 3};
-
-auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); });
-```
-
-</details>
-
-<details>
-<summary>String: trim and uppercase</summary>
-
-```cpp
-#include <iomanip>
-#include <iostream>
-#include <range/v3/all.hpp>
-
-auto main() -> int
-{
-    const auto text = std::string{"    Hello World "};
-
-    auto res = text | ranges::views::reverse
-                    | ranges::views::drop_while(::isspace)
-                    | ranges::views::reverse
-                    | ranges::views::drop_while(::isspace)
-                    | ranges::views::transform(::toupper)
-                    | ranges::to<std::string>();
-
-    std::cout << std::quoted(text) << std::endl;
-    std::cout << std::quoted(res) << std::endl;
-}
-```
-
-</details>
-
-<details>
 <summary>Contains</summary>
 
 ```cpp
@@ -196,19 +159,6 @@ for (const auto& [index, value] : ranges::views::enumerate(v))
 {
     std::cout << index << ": " << value << std::endl;
 }
-```
-
-</details>
-
-<details>
-<summary>Vector append</summary>
-
-```cpp
-auto v1 = std::vector<int>{1, 2, 3};
-auto v2 = std::vector<int>{4, -5, 6};
-
-v1 |= ranges::actions::push_back(v2);
-v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { return i < 0; }));
 ```
 
 </details>
@@ -388,6 +338,56 @@ auto main() -> int
     for (const auto& x : people | people_to_str_with_tag_view(proj))
         std::cout << x << std::endl;
 }
+```
+
+</details>
+
+<details>
+<summary>String: to_string</summary>
+
+```cpp
+auto v = std::vector<int>{1, 2, 3};
+
+auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); });
+```
+
+</details>
+
+<details>
+<summary>String: trim and uppercase</summary>
+
+```cpp
+#include <iomanip>
+#include <iostream>
+#include <range/v3/all.hpp>
+
+auto main() -> int
+{
+    const auto text = std::string{"    Hello World "};
+
+    auto res = text | ranges::views::reverse
+                    | ranges::views::drop_while(::isspace)
+                    | ranges::views::reverse
+                    | ranges::views::drop_while(::isspace)
+                    | ranges::views::transform(::toupper)
+                    | ranges::to<std::string>();
+
+    std::cout << std::quoted(text) << std::endl;
+    std::cout << std::quoted(res) << std::endl;
+}
+```
+
+</details>
+
+<details>
+<summary>Vector append</summary>
+
+```cpp
+auto v1 = std::vector<int>{1, 2, 3};
+auto v2 = std::vector<int>{4, -5, 6};
+
+v1 |= ranges::actions::push_back(v2);
+v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { return i < 0; }));
 ```
 
 </details>
