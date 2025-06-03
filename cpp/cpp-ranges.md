@@ -38,42 +38,6 @@
 ## Snippets
 
 <details>
-<summary>Range as argument</summary>
-
-```cpp
-auto func([const] auto[&/&&/*] rng) -> void {}
-```
-
-```cpp
-// Using concepts
-
-template<typename R>
-requires ranges::range<R>
-auto func([const] R[&/&&/*] rng) -> void {}
-
-template<ranges::range R>
-auto func([const] R[&/&&/*] rng) -> void {}
-
-auto func([const] ranges::range        auto[&/&&/*] rng) -> void {}
-auto func([const] ranges::output_range auto[&/&&/*] rng) -> void {}
-```
-
-▶️[**Demo**](https://godbolt.org/z/6z913s66d)
-
-</details>
-
-<details>
-<summary>Range from iterators</summary>
-
-```cpp
-auto v = std::vector<int>{1, 2, 3, 4, 5};
-
-auto rng = ranges::subrange(v.begin() + 2, v.end());
-```
-
-</details>
-
-<details>
 <summary>Filter</summary>
 
 ```cpp
@@ -338,6 +302,42 @@ auto main() -> int
     for (const auto& x : people | people_to_str_with_tag_view(proj))
         std::cout << x << std::endl;
 }
+```
+
+</details>
+
+<details>
+<summary>Range as argument</summary>
+
+```cpp
+auto func([const] auto[&/&&/*] rng) -> void {}
+```
+
+```cpp
+// Using concepts
+
+template<typename R>
+requires ranges::range<R>
+auto func([const] R[&/&&/*] rng) -> void {}
+
+template<ranges::range R>
+auto func([const] R[&/&&/*] rng) -> void {}
+
+auto func([const] ranges::range        auto[&/&&/*] rng) -> void {}
+auto func([const] ranges::output_range auto[&/&&/*] rng) -> void {}
+```
+
+▶️[**Demo**](https://godbolt.org/z/6z913s66d)
+
+</details>
+
+<details>
+<summary>Range from iterators</summary>
+
+```cpp
+auto v = std::vector<int>{1, 2, 3, 4, 5};
+
+auto rng = ranges::subrange(v.begin() + 2, v.end());
 ```
 
 </details>
