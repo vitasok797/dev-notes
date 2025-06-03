@@ -21,3 +21,4 @@
 * [Plot](var/plot.md)
 * [TDD](var/tdd.md)
 * [Tools](var/tools.md)
+* [Unicode](var/unicode.md)
