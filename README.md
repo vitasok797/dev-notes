@@ -2,11 +2,11 @@
 
 ## Languages
 * [C++](cpp/cpp.md)
-* [C#](csharp/csharp.md)
-* [Delphi](delphi/delphi.md)
-* [Fortran](fortran/fortran.md)
-* [Julia](julia/julia.md)
-* [Python](python/python.md)
+* [C#](languages/csharp.md)
+* [Delphi](languages/delphi.md)
+* [Fortran](languages/fortran.md)
+* [Julia](languages/julia.md)
+* [Python](languages/python.md)
 
 ## Var
 * [Algorithms](var/algorithms.md)
