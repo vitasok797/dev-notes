@@ -156,6 +156,78 @@ auto main() -> int
 </details>
 
 <details>
+<summary>Custom views</summary>
+
+▶️[**Run**](https://godbolt.org/z/xWhbK719d)
+
+```cpp
+#include <format>
+#include <iostream>
+#include <vector>
+#include <range/v3/all.hpp>
+
+struct Person
+{
+    std::string firstname;
+    std::string surname;
+    int year;
+
+    auto to_str() const -> std::string
+    {
+        return std::format("{} {} was born in {}", surname, firstname, year);
+    };
+};
+
+auto people_to_str_view()
+{
+    auto in_quotes = [](const std::string& s) { return std::format("\"{}\"", s); };
+    return ranges::views::transform(&Person::to_str) | ranges::views::transform(in_quotes);
+}
+
+auto people_to_str_with_tag_view(auto proj)
+{
+    auto to_str_with_tag = [proj=std::move(proj)](const Person& person) mutable
+    {
+        auto tag = std::invoke(proj, person);
+        return std::format("[{}] {}", tag, person.to_str());
+    };
+    return ranges::views::transform(to_str_with_tag);
+}
+
+auto main() -> int
+{
+    auto people = std::vector<Person>
+    {
+        {"Jared", "Kushner", 1981},
+        {"Donald", "Trump", 1946},
+        {"Melania", "Trump", 1970},
+        {"Ivana", "Trump", 1949},
+    };
+
+    for (const auto& x : people | people_to_str_view())
+        std::cout << x << std::endl;
+
+    std::cout << std::endl;
+
+    for (const auto& x : people | people_to_str_with_tag_view(&Person::surname))
+        std::cout << x << std::endl;
+
+    std::cout << std::endl;
+
+    for (const auto& x : people | people_to_str_with_tag_view(&Person::year))
+        std::cout << x << std::endl;
+
+    std::cout << std::endl;
+
+    auto proj = [i=1](const Person& person) mutable { return person.year + i++ * 10000000; };
+    for (const auto& x : people | people_to_str_with_tag_view(proj))
+        std::cout << x << std::endl;
+}
+```
+
+</details>
+
+<details>
 <summary>Projections</summary>
 
 ▶️[**Run**](https://godbolt.org/z/Wz66dqMGM)
@@ -229,78 +301,6 @@ auto main() -> int
 {
     demo1();
     demo2();
-}
-```
-
-</details>
-
-<details>
-<summary>Custom views</summary>
-
-▶️[**Run**](https://godbolt.org/z/xWhbK719d)
-
-```cpp
-#include <format>
-#include <iostream>
-#include <vector>
-#include <range/v3/all.hpp>
-
-struct Person
-{
-    std::string firstname;
-    std::string surname;
-    int year;
-
-    auto to_str() const -> std::string
-    {
-        return std::format("{} {} was born in {}", surname, firstname, year);
-    };
-};
-
-auto people_to_str_view()
-{
-    auto in_quotes = [](const std::string& s) { return std::format("\"{}\"", s); };
-    return ranges::views::transform(&Person::to_str) | ranges::views::transform(in_quotes);
-}
-
-auto people_to_str_with_tag_view(auto proj)
-{
-    auto to_str_with_tag = [proj=std::move(proj)](const Person& person) mutable
-    {
-        auto tag = std::invoke(proj, person);
-        return std::format("[{}] {}", tag, person.to_str());
-    };
-    return ranges::views::transform(to_str_with_tag);
-}
-
-auto main() -> int
-{
-    auto people = std::vector<Person>
-    {
-        {"Jared", "Kushner", 1981},
-        {"Donald", "Trump", 1946},
-        {"Melania", "Trump", 1970},
-        {"Ivana", "Trump", 1949},
-    };
-
-    for (const auto& x : people | people_to_str_view())
-        std::cout << x << std::endl;
-
-    std::cout << std::endl;
-
-    for (const auto& x : people | people_to_str_with_tag_view(&Person::surname))
-        std::cout << x << std::endl;
-
-    std::cout << std::endl;
-
-    for (const auto& x : people | people_to_str_with_tag_view(&Person::year))
-        std::cout << x << std::endl;
-
-    std::cout << std::endl;
-
-    auto proj = [i=1](const Person& person) mutable { return person.year + i++ * 10000000; };
-    for (const auto& x : people | people_to_str_with_tag_view(proj))
-        std::cout << x << std::endl;
 }
 ```
 
