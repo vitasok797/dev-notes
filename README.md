@@ -1,5 +1,3 @@
-# Develop link list
-
 ## Languages
 * [C++](cpp/cpp.md)
 * [C#](languages/csharp.md)
