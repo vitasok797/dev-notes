@@ -38,6 +38,20 @@
 ## Snippets
 
 <details>
+<summary>Enumerate</summary>
+
+```cpp
+auto v = std::vector<std::string>{"A", "B", "C"};
+
+for (const auto& [index, value] : ranges::views::enumerate(v))
+{
+    std::cout << index << ": " << value << std::endl;
+}
+```
+
+</details>
+
+<details>
 <summary>Filter</summary>
 
 ```cpp
@@ -109,20 +123,6 @@ std::cout << std::boolalpha;
 
 std::cout << ranges::contains(v, 2) << std::endl;
 std::cout << ranges::contains(v, 999) << std::endl;
-```
-
-</details>
-
-<details>
-<summary>Enumerate</summary>
-
-```cpp
-auto v = std::vector<std::string>{"A", "B", "C"};
-
-for (const auto& [index, value] : ranges::views::enumerate(v))
-{
-    std::cout << index << ": " << value << std::endl;
-}
 ```
 
 </details>
