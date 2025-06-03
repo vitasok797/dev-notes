@@ -38,82 +38,6 @@
 ## Snippets
 
 <details>
-<summary>Enumerate</summary>
-
-```cpp
-auto v = std::vector<std::string>{"A", "B", "C"};
-
-for (const auto& [index, value] : ranges::views::enumerate(v))
-{
-    std::cout << index << ": " << value << std::endl;
-}
-```
-
-</details>
-
-<details>
-<summary>Filter</summary>
-
-```cpp
-auto v = std::vector<int>{1, 2, 3, 4, 5, 6};
-
-auto is_even = [](int i) { return i % 2 == 0; };
-
-auto even_numbers = v | ranges::views::filter(is_even);
-auto odd_numbers = v | ranges::views::remove_if(is_even);
-```
-
-</details>
-
-<details>
-<summary>Group by</summary>
-
-▶️[**Run**](https://godbolt.org/z/xb6K58EhT)
-
-```cpp
-#include <iostream>
-#include <vector>
-#include <range/v3/all.hpp>
-
-struct Person
-{
-    std::string firstname;
-    std::string surname;
-    int year;
-};
-
-auto operator<<(std::ostream& os, const Person& person) -> std::ostream&
-{
-    os << person.surname << ", " << person.firstname << " was born in " << person.year;
-    return os;
-}
-
-auto main() -> int
-{
-    auto people = std::vector<Person>
-    {
-        {"Melania", "Trump", 1970},
-        {"Jared", "Kushner", 1981},
-        {"Donald", "Trump", 1946},
-        {"Ivana", "Trump", 1949},
-    };
-
-    ranges::sort(people, {}, &Person::surname);
-
-    auto surname_is_equal = [](const auto& p1, const auto& p2) { return p1.surname == p2.surname; };
-    auto groups = people | ranges::views::chunk_by(surname_is_equal);
-
-    for (const auto& group : groups)
-    {
-        std::cout << "-------" << std::endl;
-        ranges::copy(group, ranges::ostream_iterator<Person>(std::cout, "\n"));
-    }
-}
-```
-
-</details>
-
-<details>
 <summary>Contains</summary>
 
 ```cpp
@@ -222,6 +146,82 @@ auto main() -> int
     auto proj = [i=1](const Person& person) mutable { return person.year + i++ * 10000000; };
     for (const auto& x : people | people_to_str_with_tag_view(proj))
         std::cout << x << std::endl;
+}
+```
+
+</details>
+
+<details>
+<summary>Enumerate</summary>
+
+```cpp
+auto v = std::vector<std::string>{"A", "B", "C"};
+
+for (const auto& [index, value] : ranges::views::enumerate(v))
+{
+    std::cout << index << ": " << value << std::endl;
+}
+```
+
+</details>
+
+<details>
+<summary>Filter</summary>
+
+```cpp
+auto v = std::vector<int>{1, 2, 3, 4, 5, 6};
+
+auto is_even = [](int i) { return i % 2 == 0; };
+
+auto even_numbers = v | ranges::views::filter(is_even);
+auto odd_numbers = v | ranges::views::remove_if(is_even);
+```
+
+</details>
+
+<details>
+<summary>Group by</summary>
+
+▶️[**Run**](https://godbolt.org/z/xb6K58EhT)
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <range/v3/all.hpp>
+
+struct Person
+{
+    std::string firstname;
+    std::string surname;
+    int year;
+};
+
+auto operator<<(std::ostream& os, const Person& person) -> std::ostream&
+{
+    os << person.surname << ", " << person.firstname << " was born in " << person.year;
+    return os;
+}
+
+auto main() -> int
+{
+    auto people = std::vector<Person>
+    {
+        {"Melania", "Trump", 1970},
+        {"Jared", "Kushner", 1981},
+        {"Donald", "Trump", 1946},
+        {"Ivana", "Trump", 1949},
+    };
+
+    ranges::sort(people, {}, &Person::surname);
+
+    auto surname_is_equal = [](const auto& p1, const auto& p2) { return p1.surname == p2.surname; };
+    auto groups = people | ranges::views::chunk_by(surname_is_equal);
+
+    for (const auto& group : groups)
+    {
+        std::cout << "-------" << std::endl;
+        ranges::copy(group, ranges::ostream_iterator<Person>(std::cout, "\n"));
+    }
 }
 ```
 
