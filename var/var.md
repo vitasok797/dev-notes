@@ -1,5 +1,9 @@
 # Var
 
+## Algorithms
+* [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+* [Быстрая сортировка (интерактивная анимация)](https://dyzzet.ru/a/quicksort/)
+
 ## Articles
 * [What Every Programmer Should Know About Memory](https://akkadia.org/drepper/cpumemory.pdf)
 * [(Habr) Что должен знать о времени каждый программист](https://habr.com/ru/articles/123461/)
