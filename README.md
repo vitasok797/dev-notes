@@ -18,7 +18,6 @@
 * [Calc](var/calc.md)
 * [Communication](var/communication.md)
 * [Git](var/git.md)
-* [GUI](var/gui.md)
 * [Intel compilers](var/intel-compilers.md)
 * [Multithreading](var/multithreading.md)
 * [Plot](var/plot.md)
