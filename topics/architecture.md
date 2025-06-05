@@ -1,7 +1,7 @@
 # Architecture
 
 ## Tutorials
-* [Refactoring.Guru](https://refactoringu.ru/)
+* [Refactoring.Guru](https://refactoringguru.cn/ru)
 * [(Metanit) Паттерны проектирования в C# и .NET](https://metanit.com/sharp/patterns/)
 
 ## Patterns
