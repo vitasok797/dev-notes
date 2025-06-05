@@ -453,13 +453,13 @@ public:
 <details>
 <summary>Template class constructors/methods with T&& args</summary>
 
-▶️[**Run**](https://godbolt.org/z/Yjo8fzax3) [[debug.h](src/debug.h)]
+▶️[**Run**](https://godbolt.org/z/9K1e34dh8) [[debug.h](src/debug.h)]
 
 ```cpp
 #include <iostream>
 #include <utility>
 
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/debug.h>
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/src/debug.h>
 
 using std::cout, std::endl;
 
@@ -576,14 +576,14 @@ TD<decltype(x)> _;
 <details>
 <summary>Type info (overload resolution test)</summary>
 
-▶️[**Demo** (overload resolution test)](https://godbolt.org/z/ToYMsfdjs) [[debug.h](src/debug.h)]
+▶️[**Demo** (overload resolution test)](https://godbolt.org/z/scheYrndo) [[debug.h](src/debug.h)]
 
 </details>
 
 <details>
 <summary>Watchers</summary>
 
-▶️[**Demo**](https://godbolt.org/z/nezeb5sKb) [[debug.h](src/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/PMY79efzv) [[debug.h](src/debug.h)]
 
 </details>
 
@@ -649,7 +649,7 @@ private:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/r44cbcEb4) [[error.h](src/error.h)]
+▶️[**Demo**](https://godbolt.org/z/sr37j6crn) [[error.h](src/error.h)]
 
 </details>
 
@@ -744,7 +744,7 @@ auto func(T&& some_struct) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/485ccn568) [[util.h](src/util.h)]
+▶️[**Demo**](https://godbolt.org/z/Peb36P14c) [[util.h](src/util.h)]
 
 </details>
 
