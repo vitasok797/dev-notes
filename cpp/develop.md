@@ -41,6 +41,19 @@
 * [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
 * [(StackOverflow) How to generate an import library (LIB-file) from a DLL?](https://stackoverflow.com/questions/9946322/how-to-generate-an-import-library-lib-file-from-a-dll)
 
+## Mixing runtime libraries (dll boundaries)
+* [Mixing Multiple Visual Studio Versions in a Program is Evil](https://siomsystems.com/mixing-visual-studio-versions/)
+* [Microsoft C runtime library (CRT) reference: C runtime (CRT) and C++ standard library (STL) .lib files](https://learn.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features)
+* [Allocating and freeing memory across module boundaries](https://devblogs.microsoft.com/oldnewthing/20060915-04/?p=29723)
+* [How to Ensure Proper Dynamic Library Boundary Crossing for Objects using Smart Pointers' Custom Deleters](https://www.codeproject.com/Articles/594671/How-to-Ensure-Proper-Dynamic-Library-Boundary-Cros)
+* [(StackOverflow) ]()
+* [(StackOverflow) ]()
+* [(StackOverflow) ]()
+* [(StackOverflow) ]()
+* [(StackOverflow) ]()
+* [(StackOverflow) ]()
+* [(StackOverflow) ]()
+
 ## Linters and Analyzers
 * [Cppcheck](https://cppcheck.sourceforge.io/)
 * Clang:
