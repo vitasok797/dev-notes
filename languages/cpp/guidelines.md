@@ -1047,7 +1047,7 @@ requires vs::same_type_as<T, std::string>
 auto func(T&& x) -> void {}
 ```
 
-▶️[**Demo**](https://godbolt.org/z/cWhrW96fz) [[concepts.h](src/concepts.h), [debug.h](src/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/n5T5PfshK) [[concepts.h](src/concepts.h), [debug.h](src/debug.h)]
 
 </details>
 
@@ -1094,7 +1094,7 @@ auto test(F f) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/rr9dz833h) [[concepts.h](src/concepts.h)]
+▶️[**Demo**](https://godbolt.org/z/9YGM73aEE) [[concepts.h](src/concepts.h)]
 
 </details>
 
@@ -1505,7 +1505,7 @@ auto main() -> int
 
 [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
 
-▶️[**Demo**](https://godbolt.org/z/1orqxaq9d) [[math.h](src/math.h)]
+▶️[**Demo**](https://godbolt.org/z/qd8x7PYez) [[math.h](src/math.h)]
 
 </details>
 
@@ -1525,10 +1525,10 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 
 #### Demos
 
-▶️[**Demo** (arithmetic)](https://godbolt.org/z/vcnarnYb6) [[util.h](src/util.h)] \
-▶️[**Demo** (compare)](https://godbolt.org/z/nG9x3oEM3) [[util.h](src/util.h)] \
-▶️[**Demo** (index)](https://godbolt.org/z/8PzeK8qKE) [[util.h](src/util.h)] \
-▶️[**Demo** (accumulate)](https://godbolt.org/z/Tq3MW9zn4) [[util.h](src/util.h)]
+▶️[**Demo** (arithmetic)](https://godbolt.org/z/z3n1KGEcx) [[util.h](src/util.h)] \
+▶️[**Demo** (compare)](https://godbolt.org/z/fGc7eYYf4) [[util.h](src/util.h)] \
+▶️[**Demo** (index)](https://godbolt.org/z/qT61xKrnE) [[util.h](src/util.h)] \
+▶️[**Demo** (accumulate)](https://godbolt.org/z/xeaMnaMfE) [[util.h](src/util.h)]
 
 #### `-Wsign-compare` compiler option
 
