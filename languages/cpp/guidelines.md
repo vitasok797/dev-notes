@@ -2485,12 +2485,12 @@ auto is_equal(T a, T b)
 <details>
 <summary>CRTP mixins</summary>
 
-▶️[**Run**](https://godbolt.org/z/844brxrKe) [[util.h](src/util.h)]
+▶️[**Run**](https://godbolt.org/z/rM7Th3Gac) [[util.h](src/util.h)]
 
 ```cpp
 #include <iostream>
 
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/util.h>
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/src/util.h>
 
 // ----------------------------------------------------------------------------------------------
 
@@ -3040,26 +3040,26 @@ using func = void (*) (int, int);
 <details>
 <summary>NonCopyable</summary>
 
-▶️[**Demo**](https://godbolt.org/z/zncWPdjra) [[non_copyable.h](src/non_copyable.h)]
+▶️[**Demo**](https://godbolt.org/z/39r5acoTG) [[non_copyable.h](src/non_copyable.h)]
 
 </details>
 
 <details>
 <summary>output</summary>
 
-▶️[**Demo**](https://godbolt.org/z/8WGzdas69) [[output.h](src/output.h)]
+▶️[**Demo**](https://godbolt.org/z/EdvaKdzev) [[output.h](src/output.h)]
 
 </details>
 
 <details>
 <summary>ScopeGuard</summary>
 
-▶️[**Run**](https://godbolt.org/z/sTadhb4Go) [[scope_guard.h](src/scope_guard.h)]
+▶️[**Run**](https://godbolt.org/z/WsM83hqKP) [[scope_guard.h](src/scope_guard.h)]
 
 ```cpp
 #include <iostream>
 
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/cpp/src/scope_guard.h>
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/src/scope_guard.h>
 
 using std::cout, std::endl;
 
