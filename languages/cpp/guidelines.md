@@ -1558,7 +1558,7 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 <details>
 <summary>std::async</summary>
 
-▶️[**Demo**](https://godbolt.org/z/hrEc1WrsW) [[async.h](src/async.h), [debug.h](src/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/fKj44nsK3) [[async.h](src/async.h), [debug.h](src/debug.h)]
 
 </details>
 
@@ -2193,8 +2193,8 @@ auto& value = *opt;
 // use: value
 ```
 
-▶️[**Demo** (initialization)](https://godbolt.org/z/anY48edT4) [[debug.h](src/debug.h)] \
-▶️[**Demo** (usage)](https://godbolt.org/z/3fzbzM8oo) [[util.h](src/util.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/qevxqvzxW) [[debug.h](src/debug.h)] \
+▶️[**Demo** (usage)](https://godbolt.org/z/vdq6EzqY8) [[util.h](src/util.h)]
 
 </details>
 
@@ -2226,7 +2226,7 @@ auto return_tuple() -> std::tuple<int, Type> { return {0, std::move(t)}; }
 auto return_tuple() -> std::tuple<int, Type> { return {0, Type{1, 2}}; }
 ```
 
-▶️[**Demo** (initialization)](https://godbolt.org/z/dKbTMfede) [[debug.h](src/debug.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/jsrWEdvY3) [[debug.h](src/debug.h)]
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
