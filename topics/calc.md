@@ -8,9 +8,9 @@
 * [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
 * [Floating point math issues](https://wiki.seas.harvard.edu/geos-chem/index.php/Floating_point_math_issues)
 * [The pitfalls of verifying floating-point computations](https://hal.science/file/index/docid/281429/filename/floating-point-article.pdf)
-* [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://dl.acm.org/doi/pdf/10.1145/103162.103163)
 * [(Random ASCII) Floating-point complexities](https://randomascii.wordpress.com/2012/04/05/floating-point-complexities/)
 * [(Random ASCII) Comparing Floating Point Numbers, 2012 Edition](https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/)
+* [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
 
 ## Trigonometric functions
 * <https://stackoverflow.com/questions/66030225/different-results-between-c-and-c-sharp-sin-function-with-large-values>
