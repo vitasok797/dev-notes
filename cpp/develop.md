@@ -53,11 +53,9 @@
   * [Microsoft C runtime library (CRT) reference: C runtime (CRT) and C++ standard library (STL) .lib files](https://learn.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features)
 * [Mixing Multiple Visual Studio Versions in a Program is Evil](https://siomsystems.com/mixing-visual-studio-versions/)
 * [(StackOverflow) Do (statically linked) DLLs use a different heap than the main program?](https://stackoverflow.com/questions/10820114/do-statically-linked-dlls-use-a-different-heap-than-the-main-program/10820167)
-* [(StackOverflow) ]()
-* [(StackOverflow) ]()
-* [(StackOverflow) ]()
-* [(StackOverflow) ]()
-* [(StackOverflow) ]()
+* [(StackOverflow) Using C++ DLLs with different compiler versions](https://stackoverflow.com/questions/331045/using-c-dlls-with-different-compiler-versions)
+* [(StackOverflow) How to make consistent dll binaries across VS versions?](https://stackoverflow.com/questions/232926/how-to-make-consistent-dll-binaries-across-vs-versions)
+* [(StackOverflow) C++ test if two DLLs share the same heap](https://stackoverflow.com/questions/73973154/c-test-if-two-dlls-share-the-same-heap)
 
 ## Linters and Analyzers
 * [Cppcheck](https://cppcheck.sourceforge.io/)
