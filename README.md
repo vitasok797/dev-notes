@@ -1,11 +1,11 @@
 ## Languages
 * C++:
-  * [Develop](cpp/cpp-develop.md)
-  * [Guidelines](cpp/cpp-guidelines.md)
-  * [Language](cpp/cpp-language.md)
-  * [Libs](cpp/cpp-libs.md)
-  * [Ranges](cpp/cpp-ranges.md)
-  * [*Unsorted*](cpp/cpp-unsorted.md)
+  * [Develop](cpp/develop.md)
+  * [Guidelines](cpp/guidelines.md)
+  * [Language](cpp/language.md)
+  * [Libs](cpp/libs.md)
+  * [Ranges](cpp/ranges.md)
+  * [*Unsorted*](cpp/unsorted.md)
 * [C#](languages/csharp.md)
 * [Delphi](languages/delphi.md)
 * [Fortran](languages/fortran.md)
