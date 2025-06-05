@@ -1243,10 +1243,10 @@ decltype(auto) x = expr;  // preserves cv/ref
 const auto const_int = 0;
 
 auto val = const_int;
- int val = const_int;
+// auto >>> int
 
-     auto& ref = const_int;
-const int& ref = const_int;
+auto& ref = const_int;
+// auto& >>> const int&
 ```
 
 #### Examples
