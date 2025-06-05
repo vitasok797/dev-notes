@@ -2072,7 +2072,7 @@ v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { retur
 
 </details>
 
-## std::
+## std
 
 <details>
 <summary>std::optional</summary>
