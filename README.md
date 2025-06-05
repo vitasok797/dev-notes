@@ -1,5 +1,5 @@
 ## Languages
-* [C++](cpp)
+* [C++](languages/cpp)
 * [C#](languages/csharp.md)
 * [Delphi](languages/delphi.md)
 * [Fortran](languages/fortran.md)
