@@ -3035,7 +3035,7 @@ using func = void (*) (int, int);
 
 </details>
 
-## vs::
+## vs
 
 <details>
 <summary>NonCopyable</summary>
