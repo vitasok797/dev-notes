@@ -4,6 +4,11 @@
 * <https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/>
 * <https://google.github.io/styleguide/csharp-style.html>
 
+## GUI libs
+* [Avalonia](https://avaloniaui.net/)
+* [Uno Platform](https://platform.uno/)
+* [Qt Bridges](https://www.qt.io/qt-bridges)
+
 ## Functional
 * [(Habr) Язык C# почти функционален](https://habr.com/ru/companies/piter/articles/321546/)
 * [(Habr) Ваш C# уже «функциональный», просто позвольте ему это](https://habr.com/ru/articles/493484/)
