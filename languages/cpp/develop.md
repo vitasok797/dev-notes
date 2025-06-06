@@ -72,6 +72,9 @@
 ### Visual Studio / Extensions
 * Linters and Analyzers:
   * [Clang Power Tools](https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools) ([site](https://clangpowertools.com/))
+* Test adapters:
+  * [GoogleTest](https://marketplace.visualstudio.com/items?itemName=ChristianSoltenborn.GoogleTestAdapter)
+  * [Catch2](https://marketplace.visualstudio.com/items?itemName=JohnnyHendriks.ext01)
 * Productivity Power Tools
   [2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
   [2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2022)
