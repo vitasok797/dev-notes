@@ -13,7 +13,7 @@ namespace details
 template<typename T>
 concept ostream = requires(T os) { os << ""; };
 
-}
+}  // namespace details
 
 template<typename OutputStream, typename... Values>
 requires details::ostream<OutputStream>
