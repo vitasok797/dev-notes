@@ -228,20 +228,6 @@
 ### Multithreading / Var
 * <https://github.com/Stiffstream/sobjectizer> (Actor and CSP models)
 
-## Logging
-* [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
-* POCO ([Logging](https://pocoproject.org/slides/110-Logging.pdf))
-* [Abseil Logging](https://abseil.io/docs/cpp/guides/logging)
-* <https://github.com/google/glog>
-* <https://github.com/gabime/spdlog>
-* <https://github.com/odygrd/quill>
-* <https://github.com/SergiusTheBest/plog>
-* <https://github.com/abumq/easyloggingpp>
-* <https://github.com/log4cplus/log4cplus>
-* <https://logging.apache.org/log4cxx/>
-* Articles:
-  * [(Habr) Сравнение библиотек логирования](https://habr.com/ru/articles/313686/)
-
 ## GUI
 * <https://www.qt.io/product/framework>
 * <https://www.wxwidgets.org/>
@@ -332,6 +318,20 @@
 * [Boost.System](https://www.boost.org/doc/libs/latest/libs/system/doc/html/system.html)
 * <https://github.com/TartanLlama/expected> ([vcpkg](https://vcpkg.io/en/package/tl-expected))
 * <https://github.com/martinmoene/expected-lite>
+
+## Logging
+* [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
+* POCO ([Logging](https://pocoproject.org/slides/110-Logging.pdf))
+* [Abseil Logging](https://abseil.io/docs/cpp/guides/logging)
+* <https://github.com/google/glog>
+* <https://github.com/gabime/spdlog>
+* <https://github.com/odygrd/quill>
+* <https://github.com/SergiusTheBest/plog>
+* <https://github.com/abumq/easyloggingpp>
+* <https://github.com/log4cplus/log4cplus>
+* <https://logging.apache.org/log4cxx/>
+* Articles:
+  * [(Habr) Сравнение библиотек логирования](https://habr.com/ru/articles/313686/)
 
 ## Debugging
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
