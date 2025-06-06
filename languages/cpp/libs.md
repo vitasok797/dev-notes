@@ -7,10 +7,10 @@
 
 ## Frameworks
 * [Boost](https://www.boost.org/libraries/latest/categorized/)
-* [POCO](https://pocoproject.org/) ([doc](https://docs.pocoproject.org/current/index.html))
+* ⭐ [POCO](https://pocoproject.org/) ([doc](https://docs.pocoproject.org/current/index.html))
 * [Abseil](https://abseil.io/)
 * [Folly](https://github.com/facebook/folly)
-* [GSL](https://github.com/Microsoft/GSL) ([vcpkg](https://vcpkg.io/en/package/ms-gsl)), [gsl-lite](https://github.com/gsl-lite/gsl-lite/)
+* ⭐ [GSL](https://github.com/Microsoft/GSL) ([vcpkg](https://vcpkg.io/en/package/ms-gsl)), [gsl-lite](https://github.com/gsl-lite/gsl-lite/)
 
 ## Text
 
