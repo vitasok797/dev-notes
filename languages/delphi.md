@@ -25,5 +25,9 @@
 ([example.pas](https://github.com/FMXExpress/swig-delphi/blob/master/Examples/delphi/class/example.pas),
 [example_wrap.cxx](https://github.com/FMXExpress/swig-delphi/blob/master/Examples/delphi/class/example_wrap.cxx))
 
+## Parse
+* <https://github.com/gotthardsen/Delphi-ANTRL4-Grammar>
+* <https://github.com/Turbo87/DGrok>
+
 ## Var
 * [(StackOverflow) getting around circular references in Delphi](https://stackoverflow.com/questions/2644973/getting-around-circular-references-in-delphi)
