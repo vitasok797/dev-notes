@@ -592,11 +592,14 @@ TD<decltype(x)> _;
 <details>
 <summary>Pointers dereference</summary>
 
+#### Check and deref
+
 ```cpp
 // classic check
 if (shared_ptr)
 {
     // use *shared_ptr
+    // pass_by_const_ref(*shared_ptr)
     // pass_by_ref(*shared_ptr)
 }
 ```
@@ -607,24 +610,18 @@ if (shared_ptr)
 vs::check_ptr(shared_ptr);
 
 // use *shared_ptr
+// pass_by_const_ref(*shared_ptr)
 // pass_by_ref(*shared_ptr)
 ```
 
 ```cpp
 #include <vs/error.h>
 
-auto& value = vs::checked_deref_ptr(shared_ptr);
+auto[&] value = vs::checked_deref_ptr(shared_ptr);
 
 // use value
+// pass_by_const_ref(value)
 // pass_by_ref(value)
-```
-
-```cpp
-#include <vs/error.h>
-
-auto non_optional_raw_ptr = vs::checked_get_ptr(shared_ptr);
-
-// pass_by_raw_ptr(non_optional_raw_ptr)
 ```
 
 ```cpp
@@ -647,6 +644,16 @@ public:
 private:
    std::unique_ptr<std::string> uptr_;
 };
+```
+
+#### Check and get raw pointer
+
+```cpp
+#include <vs/error.h>
+
+auto non_optional_raw_ptr = vs::checked_get_ptr(shared_ptr);
+
+// pass_by_const_raw_ptr(non_optional_raw_ptr)
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/sr37j6crn) [[error.h](src/error.h)]
