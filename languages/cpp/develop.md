@@ -100,6 +100,12 @@
 * [(StackOverflow) How to make consistent dll binaries across VS versions?](https://stackoverflow.com/questions/232926/how-to-make-consistent-dll-binaries-across-vs-versions)
 * [(StackOverflow) C++ test if two DLLs share the same heap](https://stackoverflow.com/questions/73973154/c-test-if-two-dlls-share-the-same-heap)
 
+## Mixed compilers linkage
+* <https://gitlab.kitware.com/cmake/cmake/-/issues/25533>
+* <https://gitlab.kitware.com/cmake/cmake/-/issues/25598>
+* <https://gitlab.kitware.com/cmake/cmake/-/issues/25620>
+* <https://stackoverflow.com/questions/1867745/cmake-use-a-custom-linker>
+
 ## Var
 * [C++ developer Roadmap](https://roadmap.sh/cpp)
 * [Beautiful Native Libraries](https://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/)
