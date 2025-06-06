@@ -1,5 +1,12 @@
 # C++ / Develop
 
+## Style
+* <https://google.github.io/styleguide/cppguide.html>
+* <https://github.com/motine/cppstylelineup>
+* [(Habr) Руководство Google по стилю в C++](https://habr.com/ru/articles/480422/)
+* [(Habr) Руководство Google по стилю в C++ 2](https://habr.com/ru/articles/841552/)
+* [(Habr) 90 рекомендаций по стилю написания программ на C++](https://habr.com/ru/articles/172091/)
+
 ## VCPKG
 * <https://learn.microsoft.com/en-us/vcpkg/>
 * [(Issue) How do I use libraries of vcpkg with cmake?](https://github.com/microsoft/vcpkg/issues/14258#issuecomment-717579819)
@@ -29,13 +36,6 @@
 * [CMake presets](https://cmake.org/cmake/help/latest/manual/cmake-presets.7.html)
 * [CMake useful variables](https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/Useful-Variables)
 * [(StackOverflow) Difference between CMAKE_CURRENT_SOURCE_DIR and CMAKE_CURRENT_LIST_DIR](https://stackoverflow.com/questions/15662497/difference-between-cmake-current-source-dir-and-cmake-current-list-dir)
-
-## Style
-* <https://google.github.io/styleguide/cppguide.html>
-* <https://github.com/motine/cppstylelineup>
-* [(Habr) Руководство Google по стилю в C++](https://habr.com/ru/articles/480422/)
-* [(Habr) Руководство Google по стилю в C++ 2](https://habr.com/ru/articles/841552/)
-* [(Habr) 90 рекомендаций по стилю написания программ на C++](https://habr.com/ru/articles/172091/)
 
 ## DLL
 * [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
