@@ -37,26 +37,6 @@
 * [CMake useful variables](https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/Useful-Variables)
 * [(StackOverflow) Difference between CMAKE_CURRENT_SOURCE_DIR and CMAKE_CURRENT_LIST_DIR](https://stackoverflow.com/questions/15662497/difference-between-cmake-current-source-dir-and-cmake-current-list-dir)
 
-## DLL
-* [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
-* [(StackOverflow) How to generate an import library (LIB-file) from a DLL?](https://stackoverflow.com/questions/9946322/how-to-generate-an-import-library-lib-file-from-a-dll)
-
-## Mixing runtime libraries (dll boundaries)
-* Guides:
-  * [DLL dos and don’ts](http://rvelthuis.de/articles/articles-dlls.html)
-  * [Разработка API (контракта) для своей DLL](https://www.gunsmoker.ru/2019/06/developing-DLL-API.html)
-  * [Allocating and freeing memory across module boundaries](https://devblogs.microsoft.com/oldnewthing/20060915-04/?p=29723)
-  * [How to Ensure Proper Dynamic Library Boundary Crossing for Objects using Smart Pointers' Custom Deleters](https://www.codeproject.com/Articles/594671/How-to-Ensure-Proper-Dynamic-Library-Boundary-Cros)
-* MSVC:
-  * [C++ Binary Compatibility and Pain-Free Upgrades to Visual Studio 2019](https://devblogs.microsoft.com/cppblog/cpp-binary-compatibility-and-pain-free-upgrades-to-visual-studio-2019/)
-  * [C++ binary compatibility between Visual Studio versions](https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)
-  * [Microsoft C runtime library (CRT) reference: C runtime (CRT) and C++ standard library (STL) .lib files](https://learn.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features)
-* [Mixing Multiple Visual Studio Versions in a Program is Evil](https://siomsystems.com/mixing-visual-studio-versions/)
-* [(StackOverflow) Do (statically linked) DLLs use a different heap than the main program?](https://stackoverflow.com/questions/10820114/do-statically-linked-dlls-use-a-different-heap-than-the-main-program)
-* [(StackOverflow) Using C++ DLLs with different compiler versions](https://stackoverflow.com/questions/331045/using-c-dlls-with-different-compiler-versions)
-* [(StackOverflow) How to make consistent dll binaries across VS versions?](https://stackoverflow.com/questions/232926/how-to-make-consistent-dll-binaries-across-vs-versions)
-* [(StackOverflow) C++ test if two DLLs share the same heap](https://stackoverflow.com/questions/73973154/c-test-if-two-dlls-share-the-same-heap)
-
 ## Linters and Analyzers
 * [Cppcheck](https://cppcheck.sourceforge.io/)
 * Clang:
@@ -99,6 +79,26 @@
   [2019](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
   [2022](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespace64)
 * [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+
+## DLL
+* [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
+* [(StackOverflow) How to generate an import library (LIB-file) from a DLL?](https://stackoverflow.com/questions/9946322/how-to-generate-an-import-library-lib-file-from-a-dll)
+
+## Mixing runtime libraries (dll boundaries)
+* Guides:
+  * [DLL dos and don’ts](http://rvelthuis.de/articles/articles-dlls.html)
+  * [Разработка API (контракта) для своей DLL](https://www.gunsmoker.ru/2019/06/developing-DLL-API.html)
+  * [Allocating and freeing memory across module boundaries](https://devblogs.microsoft.com/oldnewthing/20060915-04/?p=29723)
+  * [How to Ensure Proper Dynamic Library Boundary Crossing for Objects using Smart Pointers' Custom Deleters](https://www.codeproject.com/Articles/594671/How-to-Ensure-Proper-Dynamic-Library-Boundary-Cros)
+* MSVC:
+  * [C++ Binary Compatibility and Pain-Free Upgrades to Visual Studio 2019](https://devblogs.microsoft.com/cppblog/cpp-binary-compatibility-and-pain-free-upgrades-to-visual-studio-2019/)
+  * [C++ binary compatibility between Visual Studio versions](https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)
+  * [Microsoft C runtime library (CRT) reference: C runtime (CRT) and C++ standard library (STL) .lib files](https://learn.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features)
+* [Mixing Multiple Visual Studio Versions in a Program is Evil](https://siomsystems.com/mixing-visual-studio-versions/)
+* [(StackOverflow) Do (statically linked) DLLs use a different heap than the main program?](https://stackoverflow.com/questions/10820114/do-statically-linked-dlls-use-a-different-heap-than-the-main-program)
+* [(StackOverflow) Using C++ DLLs with different compiler versions](https://stackoverflow.com/questions/331045/using-c-dlls-with-different-compiler-versions)
+* [(StackOverflow) How to make consistent dll binaries across VS versions?](https://stackoverflow.com/questions/232926/how-to-make-consistent-dll-binaries-across-vs-versions)
+* [(StackOverflow) C++ test if two DLLs share the same heap](https://stackoverflow.com/questions/73973154/c-test-if-two-dlls-share-the-same-heap)
 
 ## Var
 * [C++ developer Roadmap](https://roadmap.sh/cpp)
