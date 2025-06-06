@@ -350,7 +350,7 @@
 * <https://github.com/DigitalInBlue/Celero>
 
 ## Var
-* <https://github.com/ericniebler/range-v3>
+* ⭐ <https://github.com/ericniebler/range-v3>
 * <https://github.com/Dobiasd/FunctionalPlus>
 * <https://github.com/ryanhaining/cppitertools>
 * <https://github.com/CoolProp/CoolProp>
