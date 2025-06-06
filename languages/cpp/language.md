@@ -283,6 +283,10 @@
 
 ## Testing
 * [Testing tools in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019)
+* [Testing With CMake and CTest](https://cmake.org/cmake/help/book/mastering-cmake/chapter/Testing%20With%20CMake%20and%20CTest.html)
+* [Testing With CTest](https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Testing-With-CTest)
+* [Scripting Of CTest](https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Scripting-Of-CTest)
+* [Modern CMake: Testing](https://cliutils.gitlab.io/modern-cmake/chapters/testing.html)
 
 ## C++ nextgen
 * Carbon:
