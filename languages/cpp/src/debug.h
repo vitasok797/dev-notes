@@ -247,7 +247,7 @@ inline constexpr auto ctor_watcher_config = vs::debug::WatcherOptions
     .print_destructor = false,
 };
 
-}
+}  // namespace details
 
 using Watcher = WatcherBase<details::watcher_config>;
 using CopyWatcher = WatcherBase<details::copy_watcher_config>;
