@@ -342,6 +342,9 @@
 * <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest))
 * <https://github.com/catchorg/Catch2>
 * <https://github.com/doctest/doctest>
+* Mocking:
+  * <https://github.com/rollbear/trompeloeil>
+  * <https://github.com/eranpeer/FakeIt>
 
 ## Benchmarking
 * <https://github.com/google/benchmark>
