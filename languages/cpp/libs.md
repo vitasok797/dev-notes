@@ -339,7 +339,7 @@
 * <https://github.com/keithpotz/CrashCatch> (no vcpkg, header-only)
 
 ## Testing
-* <https://www.boost.org/doc/libs/latest/libs/test/doc/html/index.html>
+* [Boost.Test](https://www.boost.org/doc/libs/latest/libs/test/doc/html/index.html)
 * <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest), [doc](https://google.github.io/googletest/))
 * <https://github.com/catchorg/Catch2>
 * <https://github.com/doctest/doctest>
