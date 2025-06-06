@@ -287,6 +287,7 @@
 * [Testing With CTest](https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Testing-With-CTest)
 * [Scripting Of CTest](https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Scripting-Of-CTest)
 * [Modern CMake: Testing](https://cliutils.gitlab.io/modern-cmake/chapters/testing.html)
+* [How to automate testing with CMake, CTest, and gtest](https://cfd.university/learn/automating-cfd-solver-and-library-compilation-using-cmake/how-to-automate-testing-with-cmake-ctest-and-gtest/)
 
 ## C++ nextgen
 * Carbon:
