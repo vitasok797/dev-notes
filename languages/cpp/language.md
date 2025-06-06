@@ -281,6 +281,9 @@
 * <https://www.cppstories.com/2021/sphero-cpp-return/>
 * <https://www.cppstories.com/2024/expected-cpp23/>
 
+## Testing
+* [Testing tools in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019)
+
 ## C++ nextgen
 * Carbon:
   * <https://github.com/carbon-language/carbon-lang> ([doc](https://docs.carbon-lang.dev/))
