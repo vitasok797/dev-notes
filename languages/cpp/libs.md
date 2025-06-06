@@ -14,7 +14,7 @@
 
 ## Text
 
-### Text / Strings
+### Text / String processing
 * ⚠️ `Boost Locale?`
 * [Boost String Algorithms Library](https://www.boost.org/doc/libs/latest/doc/html/string_algo.html)
 * [Boost.Tokenizer](https://www.boost.org/doc/libs/latest/libs/tokenizer/doc/index.html)
@@ -33,7 +33,7 @@
 * ⚠️ [uni-algo](https://github.com/uni-algo/uni-algo)
 * ⚠️ [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
 
-### Text / Formating
+### Text / Formatting
 * ⭐ <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/), [cheatsheet](https://hackingcpp.com/cpp/libs/fmt.png))
 * <https://github.com/p-ranav/pprint>
 * <https://github.com/p-ranav/tabulate>
@@ -59,7 +59,7 @@
 * [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * POCO ([Configuration](https://pocoproject.org/slides/180-Configuration.pdf))
 
-### Configuration / Argument parser
+### Configuration / Argument parsers
 * [Boost.Program\_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * POCO ([Applications](https://pocoproject.org/slides/190-Applications.pdf))
 * [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
@@ -333,17 +333,17 @@
 * <https://github.com/TartanLlama/expected> ([vcpkg](https://vcpkg.io/en/package/tl-expected))
 * <https://github.com/martinmoene/expected-lite>
 
-## Debug
+## Debugging
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
 * <https://github.com/renatoGarcia/icecream-cpp>
 * <https://github.com/keithpotz/CrashCatch> (no vcpkg, header-only)
 
-## Test
+## Testing
 * <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest))
 * <https://github.com/catchorg/Catch2>
 * <https://github.com/doctest/doctest>
 
-## Benchmark
+## Benchmarking
 * <https://github.com/google/benchmark>
 * <https://github.com/martinus/nanobench>
 * <https://github.com/ivafanas/sltbench>
