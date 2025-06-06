@@ -339,12 +339,19 @@
 * <https://github.com/keithpotz/CrashCatch> (no vcpkg, header-only)
 
 ## Testing
-* <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest))
+* <https://www.boost.org/doc/libs/latest/libs/test/doc/html/index.html>
+* <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest), [doc](https://google.github.io/googletest/))
 * <https://github.com/catchorg/Catch2>
 * <https://github.com/doctest/doctest>
+* <https://github.com/boost-ext/ut> (no vcpkg, header-only)
+* <https://github.com/cpputest/cpputest>
+* <https://github.com/martinmoene/lest>
+* <https://github.com/snitch-org/snitch>
 * Mocking:
   * <https://github.com/rollbear/trompeloeil>
   * <https://github.com/eranpeer/FakeIt>
+* Articles:
+  * [Cpp Unit Testing And Mocking Comparison](https://github.com/dhelper/CppUnitTestingAndMockingComparison)
 
 ## Benchmarking
 * <https://github.com/google/benchmark>
