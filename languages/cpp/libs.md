@@ -34,7 +34,7 @@
 * ⚠️ [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
 
 ### Text / Formating
-* <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/), [cheatsheet](https://hackingcpp.com/cpp/libs/fmt.png))
+* ⭐ <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/), [cheatsheet](https://hackingcpp.com/cpp/libs/fmt.png))
 * <https://github.com/p-ranav/pprint>
 * <https://github.com/p-ranav/tabulate>
 
