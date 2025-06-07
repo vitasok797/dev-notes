@@ -71,7 +71,9 @@
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (1)](https://habr.com/ru/articles/762554/)
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (2)](https://habr.com/ru/articles/763024/)
 
-## Strings
+## Text
+
+### Text / String processing
 * [Six Handy Operations for String Processing in C++20/23 ](https://www.cppstories.com/2023/six-handy-ops-for-string-processing/)
 * [How to split a string in C++](https://www.fluentcpp.com/2017/04/21/how-to-split-a-string-in-c/)
 * [(StackOverflow) How to convert an instance of std::string to lower case](https://stackoverflow.com/questions/313970/how-to-convert-an-instance-of-stdstring-to-lower-case)
@@ -79,7 +81,7 @@
 * [char8\_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
 * [Parse CSV file with Boost Tokenizer](http://mybyteofcode.blogspot.com/2010/02/parse-csv-file-with-boost-tokenizer-in.html)
 
-## Encoding
+### Text / Encoding
 * ⚠️ [UTF-8 Everywhere](https://utf8everywhere.org/)
 * ⚠️ [The Wonderfully Terrible World of C and C++ Encoding APIs](https://thephd.dev/the-c-c++-rust-string-text-encoding-api-landscape)
 * ⚠️ [Doing UTF-8 in Windows](https://www.codeproject.com/Articles/5252037/Doing-UTF-8-in-Windows) ([github](https://github.com/neacsum/utf8))
