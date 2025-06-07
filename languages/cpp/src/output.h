@@ -7,16 +7,16 @@
 namespace vs
 {
 
-namespace details
+namespace detail
 {
 
 template<typename T>
 concept ostream = requires(T os) { os << ""; };
 
-}  // namespace details
+}  // namespace detail
 
 template<typename OutputStream, typename... Values>
-requires details::ostream<OutputStream>
+requires detail::ostream<OutputStream>
 auto println(OutputStream& os, const Values&... values) -> void
 {
     auto n = 0;
@@ -31,7 +31,7 @@ auto println(const Values&... values) -> void
 }
 
 template<typename OutputStream, typename... Values>
-requires details::ostream<OutputStream>
+requires detail::ostream<OutputStream>
 auto println_sync(OutputStream& os, const Values&... values) -> void
 {
     auto synced_os = std::osyncstream{os};
