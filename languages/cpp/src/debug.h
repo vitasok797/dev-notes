@@ -222,12 +222,12 @@ private:
 namespace detail
 {
 
-inline constexpr auto watcher_config = vs::debug::WatcherOptions
+inline constexpr auto watcher_config = WatcherOptions
 {
     .print_thread = false,
 };
 
-inline constexpr auto copy_watcher_config = vs::debug::WatcherOptions
+inline constexpr auto copy_watcher_config = WatcherOptions
 {
     .print_thread = false,
     .print_identity = false,
@@ -237,7 +237,7 @@ inline constexpr auto copy_watcher_config = vs::debug::WatcherOptions
     .print_destructor = false,
 };
 
-inline constexpr auto ctor_watcher_config = vs::debug::WatcherOptions
+inline constexpr auto ctor_watcher_config = WatcherOptions
 {
     .print_thread = false,
     .print_identity = false,
