@@ -3,6 +3,8 @@
 ## Algorithms and Data structures
 * [(Habr) Знай сложности алгоритмов](https://habr.com/ru/articles/188010/)
 * [(Habr) Как же все-таки правильно написать двоичный поиск?](https://habr.com/ru/articles/91698/)
+* [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (1)](https://habr.com/ru/articles/762554/)
+* [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (2)](https://habr.com/ru/articles/763024/)
 * [Sorting algorithms animations](https://www.toptal.com/developers/sorting-algorithms)
 * [Быстрая сортировка (интерактивная анимация)](https://dyzzet.ru/a/quicksort/)
 * ❓ [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
