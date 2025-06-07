@@ -1,7 +1,7 @@
 # Var
 
 ## Algorithms and Data structures
-* [(Habr) Знай сложности алгоритмов](https://habr.com/ru/articles/188010/)
+* [(Habr) Знай сложности алгоритмов](https://habr.com/ru/articles/188010/) ([source](https://www.bigocheatsheet.com/))
 * [(Habr) Как же все-таки правильно написать двоичный поиск?](https://habr.com/ru/articles/91698/)
 * [Sorting algorithms animations](https://www.toptal.com/developers/sorting-algorithms)
 * [Быстрая сортировка (интерактивная анимация)](https://dyzzet.ru/a/quicksort/)
