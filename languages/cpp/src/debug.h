@@ -219,7 +219,7 @@ private:
     bool moved_ = false;
 };
 
-namespace details
+namespace detail
 {
 
 inline constexpr auto watcher_config = vs::debug::WatcherOptions
@@ -247,11 +247,11 @@ inline constexpr auto ctor_watcher_config = vs::debug::WatcherOptions
     .print_destructor = false,
 };
 
-}  // namespace details
+}  // namespace detail
 
-using Watcher = WatcherBase<details::watcher_config>;
-using CopyWatcher = WatcherBase<details::copy_watcher_config>;
-using CtorWatcher = WatcherBase<details::ctor_watcher_config>;
+using Watcher = WatcherBase<detail::watcher_config>;
+using CopyWatcher = WatcherBase<detail::copy_watcher_config>;
+using CtorWatcher = WatcherBase<detail::ctor_watcher_config>;
 using ThreadWatcher = WatcherBase<>;
 
 }  // namespace vs::debug
