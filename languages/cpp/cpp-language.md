@@ -63,7 +63,6 @@
 ## Containers
 * [(cppreference) Containers library (containers, iterator invalidation)](https://en.cppreference.com/w/cpp/container)
 * [C++ Data Structures and Algorithms Cheat Sheet](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md)
-  ([complexity](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md#11-overview))
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
 * [12 Different Ways to Filter Containers in Modern C++](https://www.cppstories.com/2021/filter-cpp-containers/)
 * [(StackOverflow) Choosing between std::map and std::unordered_map](https://stackoverflow.com/questions/3902644/choosing-between-stdmap-and-stdunordered-map/3902729#3902729)
