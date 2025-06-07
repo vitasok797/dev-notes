@@ -2024,7 +2024,8 @@ auto func([const] ranges::output_range auto[&/&&/*] rng) -> void {}
 ```cpp
 auto v = std::vector<int>{1, 2, 3, 4, 5};
 
-auto rng = ranges::subrange(v.begin() + 2, v.end());
+auto from = ranges::find(v, 3);
+auto rng = ranges::subrange(from, v.end());
 ```
 
 </details>
