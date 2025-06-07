@@ -15,7 +15,7 @@
 * [(Habr) Абсолютный минимум об Unicode на 2023 год](https://habr.com/ru/companies/wunderfund/articles/777850/)
 
 ## GUI
-* ? [Multithreading with wxWidgets](https://cool-emerald.blogspot.com/2020/01/multithreading-with-wxwidgets.html)
+* [Multithreading with wxWidgets](https://cool-emerald.blogspot.com/2020/01/multithreading-with-wxwidgets.html)
 
 ## TDD
 * [(Youtube) Improving your Test Driven Development in 45 minutes](https://www.youtube.com/watch?v=2vEoL3Irgiw)
