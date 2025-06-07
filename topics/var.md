@@ -1,6 +1,7 @@
 # Var
 
 ## Algorithms and Data structures
+* (Wiki) Data_structures: [array](https://en.wikipedia.org/wiki/Array_(data_structure)#Comparison_with_other_data_structures), [associative array](https://en.wikipedia.org/wiki/Associative_array#Comparison)
 * [(Wiki) Sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm#Comparison_sorts)
 * [(Habr) Знай сложности алгоритмов](https://habr.com/ru/articles/188010/) ([source](https://www.bigocheatsheet.com/))
 * [(Habr) Как же все-таки правильно написать двоичный поиск?](https://habr.com/ru/articles/91698/)
