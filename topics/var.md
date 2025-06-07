@@ -1,6 +1,7 @@
 # Var
 
 ## Algorithms and Data structures
+* [(Wiki) Sorting algorithms](https://en.wikipedia.org/wiki/Sorting_algorithm#Comparison_sorts)
 * [(Habr) Знай сложности алгоритмов](https://habr.com/ru/articles/188010/) ([source](https://www.bigocheatsheet.com/))
 * [(Habr) Как же все-таки правильно написать двоичный поиск?](https://habr.com/ru/articles/91698/)
 * [Sorting algorithms animations](https://www.toptal.com/developers/sorting-algorithms)
