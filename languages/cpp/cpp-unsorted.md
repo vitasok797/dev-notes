@@ -47,6 +47,7 @@
 * https://raw.githubusercontent.com/Neargye/magic_enum/refs/heads/master/example/example_switch.cpp
 * https://en.cppreference.com/w/cpp/utility/variant/visit2
 * https://habr.com/ru/companies/otus/articles/546158/
+* https://habr.com/ru/articles/101114/
 
 ## GSL
 * https://www.cppstories.com/2017/10/notnull/
