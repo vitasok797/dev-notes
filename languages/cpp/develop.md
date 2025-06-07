@@ -75,6 +75,9 @@
 * Test adapters:
   * [GoogleTest](https://marketplace.visualstudio.com/items?itemName=ChristianSoltenborn.GoogleTestAdapter)
   * [Catch2](https://marketplace.visualstudio.com/items?itemName=JohnnyHendriks.ext01)
+* Qt Visual Studio Tools
+  [2019](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2019)
+  [2022](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2022)
 * Productivity Power Tools
   [2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
   [2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2022)
