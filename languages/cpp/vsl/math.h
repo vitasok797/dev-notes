@@ -1,9 +1,9 @@
-#ifndef VS_MATH_H_
-#define VS_MATH_H_
+#ifndef VSL_MATH_H_
+#define VSL_MATH_H_
 
 #include <cmath>
 
-namespace vs
+namespace vsl
 {
 
 inline auto almost_equal(double a, double b, double abs_epsilon) -> bool
@@ -16,6 +16,6 @@ inline auto almost_equal_rel(double a, double b, double rel_epsilon = 1e-6) -> b
     return std::abs(a - b) <= (std::fmax(std::abs(a), std::abs(b)) * rel_epsilon);
 }
 
-}  // namespace vs
+}  // namespace vsl
 
-#endif  // VS_MATH_H_
+#endif  // VSL_MATH_H_
