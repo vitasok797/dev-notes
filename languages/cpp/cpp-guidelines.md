@@ -453,13 +453,13 @@ public:
 <details>
 <summary>Template class constructors/methods with T&& args</summary>
 
-▶️[**Run**](https://godbolt.org/z/9K1e34dh8) [[debug.h](src/debug.h)]
+▶️[**Run**](https://godbolt.org/z/9K1e34dh8) [[debug.h](vsl/debug.h)]
 
 ```cpp
 #include <iostream>
 #include <utility>
 
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/src/debug.h>
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/vsl/debug.h>
 
 using std::cout, std::endl;
 
@@ -576,14 +576,14 @@ TD<decltype(x)> _;
 <details>
 <summary>Type info (overload resolution test)</summary>
 
-▶️[**Demo** (overload resolution test)](https://godbolt.org/z/scheYrndo) [[debug.h](src/debug.h)]
+▶️[**Demo** (overload resolution test)](https://godbolt.org/z/scheYrndo) [[debug.h](vsl/debug.h)]
 
 </details>
 
 <details>
 <summary>Watchers</summary>
 
-▶️[**Demo**](https://godbolt.org/z/PMY79efzv) [[debug.h](src/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/PMY79efzv) [[debug.h](vsl/debug.h)]
 
 </details>
 
@@ -656,7 +656,7 @@ auto non_optional_raw_ptr = vs::checked_get_ptr(shared_ptr);
 // pass_by_const_raw_ptr(non_optional_raw_ptr)
 ```
 
-▶️[**Demo**](https://godbolt.org/z/sr37j6crn) [[error.h](src/error.h)]
+▶️[**Demo**](https://godbolt.org/z/sr37j6crn) [[error.h](vsl/error.h)]
 
 </details>
 
@@ -751,7 +751,7 @@ auto func(T&& some_struct) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/Peb36P14c) [[util.h](src/util.h)]
+▶️[**Demo**](https://godbolt.org/z/Peb36P14c) [[util.h](vsl/util.h)]
 
 </details>
 
@@ -1054,7 +1054,7 @@ requires vs::same_type_as<T, std::string>
 auto func(T&& x) -> void {}
 ```
 
-▶️[**Demo**](https://godbolt.org/z/n5T5PfshK) [[concepts.h](src/concepts.h), [debug.h](src/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/n5T5PfshK) [[concepts.h](vsl/concepts.h), [debug.h](vsl/debug.h)]
 
 </details>
 
@@ -1101,7 +1101,7 @@ auto test(F f) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/9YGM73aEE) [[concepts.h](src/concepts.h)]
+▶️[**Demo**](https://godbolt.org/z/9YGM73aEE) [[concepts.h](vsl/concepts.h)]
 
 </details>
 
@@ -1512,7 +1512,7 @@ auto main() -> int
 
 [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
 
-▶️[**Demo**](https://godbolt.org/z/qd8x7PYez) [[math.h](src/math.h)]
+▶️[**Demo**](https://godbolt.org/z/qd8x7PYez) [[math.h](vsl/math.h)]
 
 </details>
 
@@ -1532,10 +1532,10 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 
 #### Demos
 
-▶️[**Demo** (arithmetic)](https://godbolt.org/z/z3n1KGEcx) [[util.h](src/util.h)] \
-▶️[**Demo** (compare)](https://godbolt.org/z/fGc7eYYf4) [[util.h](src/util.h)] \
-▶️[**Demo** (index)](https://godbolt.org/z/69h7az699) [[util.h](src/util.h)] \
-▶️[**Demo** (accumulate)](https://godbolt.org/z/xeaMnaMfE) [[util.h](src/util.h)]
+▶️[**Demo** (arithmetic)](https://godbolt.org/z/z3n1KGEcx) [[util.h](vsl/util.h)] \
+▶️[**Demo** (compare)](https://godbolt.org/z/fGc7eYYf4) [[util.h](vsl/util.h)] \
+▶️[**Demo** (index)](https://godbolt.org/z/69h7az699) [[util.h](vsl/util.h)] \
+▶️[**Demo** (accumulate)](https://godbolt.org/z/xeaMnaMfE) [[util.h](vsl/util.h)]
 
 #### `-Wsign-compare` compiler option
 
@@ -1565,7 +1565,7 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 <details>
 <summary>std::async</summary>
 
-▶️[**Demo**](https://godbolt.org/z/fKj44nsK3) [[async.h](src/async.h), [debug.h](src/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/fKj44nsK3) [[async.h](vsl/async.h), [debug.h](vsl/debug.h)]
 
 </details>
 
@@ -2201,8 +2201,8 @@ auto& value = *opt;
 // use: value
 ```
 
-▶️[**Demo** (initialization)](https://godbolt.org/z/qevxqvzxW) [[debug.h](src/debug.h)] \
-▶️[**Demo** (usage)](https://godbolt.org/z/vdq6EzqY8) [[util.h](src/util.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/qevxqvzxW) [[debug.h](vsl/debug.h)] \
+▶️[**Demo** (usage)](https://godbolt.org/z/vdq6EzqY8) [[util.h](vsl/util.h)]
 
 </details>
 
@@ -2234,7 +2234,7 @@ auto return_tuple() -> std::tuple<int, Type> { return {0, std::move(t)}; }
 auto return_tuple() -> std::tuple<int, Type> { return {0, Type{1, 2}}; }
 ```
 
-▶️[**Demo** (initialization)](https://godbolt.org/z/jsrWEdvY3) [[debug.h](src/debug.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/jsrWEdvY3) [[debug.h](vsl/debug.h)]
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
@@ -2493,12 +2493,12 @@ auto is_equal(T a, T b)
 <details>
 <summary>CRTP mixins</summary>
 
-▶️[**Run**](https://godbolt.org/z/rM7Th3Gac) [[util.h](src/util.h)]
+▶️[**Run**](https://godbolt.org/z/rM7Th3Gac) [[util.h](vsl/util.h)]
 
 ```cpp
 #include <iostream>
 
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/src/util.h>
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/vsl/util.h>
 
 // ----------------------------------------------------------------------------------------------
 
@@ -3048,26 +3048,26 @@ using func = void (*) (int, int);
 <details>
 <summary>NonCopyable</summary>
 
-▶️[**Demo**](https://godbolt.org/z/39r5acoTG) [[non_copyable.h](src/non_copyable.h)]
+▶️[**Demo**](https://godbolt.org/z/39r5acoTG) [[non_copyable.h](vsl/non_copyable.h)]
 
 </details>
 
 <details>
 <summary>output</summary>
 
-▶️[**Demo**](https://godbolt.org/z/EdvaKdzev) [[output.h](src/output.h)]
+▶️[**Demo**](https://godbolt.org/z/EdvaKdzev) [[output.h](vsl/output.h)]
 
 </details>
 
 <details>
 <summary>ScopeGuard</summary>
 
-▶️[**Run**](https://godbolt.org/z/WsM83hqKP) [[scope_guard.h](src/scope_guard.h)]
+▶️[**Run**](https://godbolt.org/z/WsM83hqKP) [[scope_guard.h](vsl/scope_guard.h)]
 
 ```cpp
 #include <iostream>
 
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/src/scope_guard.h>
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/vsl/scope_guard.h>
 
 using std::cout, std::endl;
 
