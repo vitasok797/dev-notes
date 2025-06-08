@@ -28,12 +28,10 @@ inline auto almost_equal_rel(double a, double b, double rel_epsilon = 1e-6) -> b
 inline auto ftrim(double value, std::pair<double, double> bounds) -> double
 {
     auto [lo, hi] = bounds;
-
     if (lo > hi)
     {
         throw std::logic_error{"ftrim bounds error (low > high)"};
     }
-
     return std::clamp(value, lo, hi);
 }
 
