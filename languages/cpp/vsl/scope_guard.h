@@ -1,14 +1,14 @@
-#ifndef VS_SCOPE_GUARD_H_
-#define VS_SCOPE_GUARD_H_
+#ifndef VSL_SCOPE_GUARD_H_
+#define VSL_SCOPE_GUARD_H_
 
 #include <type_traits>
 #include <utility>
 
-#define VS_SCOPE_GUARD vs::ScopeGuard VS_SCOPE_GUARD_UNIQ_NAME(__LINE__) = [&]()
-#define VS_SCOPE_GUARD_UNIQ_NAME(line) VS_SCOPE_GUARD_UNIQ_NAME2(line)
-#define VS_SCOPE_GUARD_UNIQ_NAME2(line) vs_scope_guard_##line
+#define VSL_SCOPE_GUARD vsl::ScopeGuard VSL_SCOPE_GUARD_UNIQ_NAME(__LINE__) = [&]()
+#define VSL_SCOPE_GUARD_UNIQ_NAME(line) VSL_SCOPE_GUARD_UNIQ_NAME2(line)
+#define VSL_SCOPE_GUARD_UNIQ_NAME2(line) vsl_scope_guard_##line
 
-namespace vs
+namespace vsl
 {
 
 template<typename F>
@@ -41,6 +41,6 @@ template<typename F>
     return ScopeGuard<std::decay_t<F>>{std::forward<F>(f)};
 }
 
-}  // namespace vs
+}  // namespace vsl
 
-#endif  // VS_SCOPE_GUARD_H_
+#endif  // VSL_SCOPE_GUARD_H_
