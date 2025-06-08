@@ -1552,9 +1552,9 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 <details>
 <summary>Trim</summary>
 
-#### vsl::ftrim
+#### Using vsl::ftrim
 
-▶️[**Run**](https://godbolt.org/z/Ev8dKsssx)
+▶️[**Run**](https://godbolt.org/z/Ev8dKsssx) [[math.h](vsl/math.h)]
 
 ```cpp
 #include <iostream>
@@ -1589,9 +1589,9 @@ auto main() -> int
 }
 ```
 
-#### std::clamp
+#### Using std::clamp
 
-▶️[**Run**]()
+▶️[**Run**](https://godbolt.org/z/6f5MMo6Wc)
 
 ```cpp
 #include <algorithm>
