@@ -1,5 +1,5 @@
-#ifndef VS_DEBUG_H_
-#define VS_DEBUG_H_
+#ifndef VSL_DEBUG_H_
+#define VSL_DEBUG_H_
 
 #include <atomic>
 #include <iostream>
@@ -9,20 +9,20 @@
 #include <syncstream>
 #include <type_traits>
 
-#define VS_REF_INFO(x) VS_IS_VALUE(x) << VS_IS_REF(x) << VS_IS_RVALUE_REF(x)
-#define VS_IS_VALUE(x) (std::is_reference_v<decltype(x)> ? "" : "VAL")
-#define VS_IS_REF(x) (std::is_lvalue_reference_v<decltype(x)> ? "REF" : "")
-#define VS_IS_RVALUE_REF(x) (std::is_rvalue_reference_v<decltype(x)> ? "RVAL_REF" : "")
+#define VSL_REF_INFO(x) VSL_IS_VALUE(x) << VSL_IS_REF(x) << VSL_IS_RVALUE_REF(x)
+#define VSL_IS_VALUE(x) (std::is_reference_v<decltype(x)> ? "" : "VAL")
+#define VSL_IS_REF(x) (std::is_lvalue_reference_v<decltype(x)> ? "REF" : "")
+#define VSL_IS_RVALUE_REF(x) (std::is_rvalue_reference_v<decltype(x)> ? "RVAL_REF" : "")
 
-#define VS_TYPE_INFO(x) vs::debug::get_type_info<decltype(x)>()
+#define VSL_TYPE_INFO(x) vsl::debug::get_type_info<decltype(x)>()
 
 #ifdef _MSC_VER
-#define VS_FUNC_INFO __FUNCSIG__
+#define VSL_FUNC_INFO __FUNCSIG__
 #else
-#define VS_FUNC_INFO __PRETTY_FUNCTION__
+#define VSL_FUNC_INFO __PRETTY_FUNCTION__
 #endif
 
-namespace vs::debug
+namespace vsl::debug
 {
 
 template<typename T>
@@ -31,15 +31,15 @@ constexpr auto get_type_info()
     std::string_view name, prefix, suffix;
 #ifdef __clang__
     name = __PRETTY_FUNCTION__;
-    prefix = "auto vs::debug::get_type_info() [T = ";
+    prefix = "auto vsl::debug::get_type_info() [T = ";
     suffix = "]";
 #elif defined(__GNUC__)
     name = __PRETTY_FUNCTION__;
-    prefix = "constexpr auto vs::debug::get_type_info() [with T = ";
+    prefix = "constexpr auto vsl::debug::get_type_info() [with T = ";
     suffix = "]";
 #elif defined(_MSC_VER)
     name = __FUNCSIG__;
-    prefix = "auto __cdecl vs::debug::get_type_info<";
+    prefix = "auto __cdecl vsl::debug::get_type_info<";
     suffix = ">(void)";
 #endif
     name.remove_prefix(prefix.size());
@@ -254,6 +254,6 @@ using CopyWatcher = WatcherBase<detail::copy_watcher_config>;
 using CtorWatcher = WatcherBase<detail::ctor_watcher_config>;
 using ThreadWatcher = WatcherBase<>;
 
-}  // namespace vs::debug
+}  // namespace vsl::debug
 
-#endif  // VS_DEBUG_H_
+#endif  // VSL_DEBUG_H_
