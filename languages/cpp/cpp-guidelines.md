@@ -1533,9 +1533,9 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 #### Demos
 
 ▶️[**Demo** (arithmetic)](https://godbolt.org/z/eThdxbf3M) [[util.h](vsl/util.h)] \
-▶️[**Demo** (compare)](https://godbolt.org/z/fGc7eYYf4) [[util.h](vsl/util.h)] \
-▶️[**Demo** (index)](https://godbolt.org/z/69h7az699) [[util.h](vsl/util.h)] \
-▶️[**Demo** (accumulate)](https://godbolt.org/z/xeaMnaMfE) [[util.h](vsl/util.h)]
+▶️[**Demo** (compare)](https://godbolt.org/z/ohTGxsqhf) [[util.h](vsl/util.h)] \
+▶️[**Demo** (index)](https://godbolt.org/z/7Kn67v4Gx) [[util.h](vsl/util.h)] \
+▶️[**Demo** (accumulate)](https://godbolt.org/z/EMnqPEsa9) [[util.h](vsl/util.h)]
 
 #### `-Wsign-compare` compiler option
 
@@ -1565,7 +1565,7 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 <details>
 <summary>std::async</summary>
 
-▶️[**Demo**](https://godbolt.org/z/fKj44nsK3) [[async.h](vsl/async.h), [debug.h](vsl/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/YhjhEW8nM) [[async.h](vsl/async.h), [debug.h](vsl/debug.h)]
 
 </details>
 
