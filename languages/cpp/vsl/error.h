@@ -1,9 +1,9 @@
-#ifndef VS_ERROR_H_
-#define VS_ERROR_H_
+#ifndef VSL_ERROR_H_
+#define VSL_ERROR_H_
 
 #include <exception>
 
-namespace vs
+namespace vsl
 {
 
 struct nullptr_error : public std::exception
@@ -31,6 +31,6 @@ auto checked_get_ptr(const T& ptr) -> decltype(auto)
     return ptr.get();
 }
 
-}  // namespace vs
+}  // namespace vsl
 
-#endif  // VS_ERROR_H_
+#endif  // VSL_ERROR_H_
