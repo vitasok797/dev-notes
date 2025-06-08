@@ -1534,7 +1534,7 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
 
 ▶️[**Demo** (arithmetic)](https://godbolt.org/z/z3n1KGEcx) [[util.h](src/util.h)] \
 ▶️[**Demo** (compare)](https://godbolt.org/z/fGc7eYYf4) [[util.h](src/util.h)] \
-▶️[**Demo** (index)](https://godbolt.org/z/qT61xKrnE) [[util.h](src/util.h)] \
+▶️[**Demo** (index)](https://godbolt.org/z/69h7az699) [[util.h](src/util.h)] \
 ▶️[**Demo** (accumulate)](https://godbolt.org/z/xeaMnaMfE) [[util.h](src/util.h)]
 
 #### `-Wsign-compare` compiler option
