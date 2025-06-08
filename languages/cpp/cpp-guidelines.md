@@ -605,7 +605,7 @@ if (shared_ptr)
 ```
 
 ```cpp
-#include <vs/error.h>
+#include <vsl/error.h>
 
 vs::check_ptr(shared_ptr);
 
@@ -615,7 +615,7 @@ vs::check_ptr(shared_ptr);
 ```
 
 ```cpp
-#include <vs/error.h>
+#include <vsl/error.h>
 
 auto[&] value = vs::checked_deref_ptr(shared_ptr);
 
@@ -625,7 +625,7 @@ auto[&] value = vs::checked_deref_ptr(shared_ptr);
 ```
 
 ```cpp
-#include <vs/error.h>
+#include <vsl/error.h>
 
 class SomeClass
 {
@@ -649,7 +649,7 @@ private:
 #### Check and get raw pointer
 
 ```cpp
-#include <vs/error.h>
+#include <vsl/error.h>
 
 auto non_optional_raw_ptr = vs::checked_get_ptr(shared_ptr);
 
@@ -701,7 +701,7 @@ ranges::for_each(get_struct().items(), func);  // OK
 <summary>"Far" objects forwarding</summary>
 
 ```cpp
-#include <vs/util.h>
+#include <vsl/util.h>
 
 template<typename T>
 auto func(T&& range) -> void
@@ -714,7 +714,7 @@ auto func(T&& range) -> void
 ```
 
 ```cpp
-#include <vs/util.h>
+#include <vsl/util.h>
 
 template<typename T>
 auto func(T&& tuple) -> void
@@ -725,7 +725,7 @@ auto func(T&& tuple) -> void
 ```
 
 ```cpp
-#include <vs/util.h>
+#include <vsl/util.h>
 
 template<typename T>
 auto func(T&& cont) -> void
@@ -735,7 +735,7 @@ auto func(T&& cont) -> void
 ```
 
 ```cpp
-#include <vs/util.h>
+#include <vsl/util.h>
 
 template<typename T>
 auto func(T&& some_struct) -> void
@@ -1047,7 +1047,7 @@ auto func(T&& x) -> void {}
 ```
 
 ```cpp
-#include <vs/concepts.h>
+#include <vsl/concepts.h>
 
 template<typename T>
 requires vs::same_type_as<T, std::string>
@@ -1091,7 +1091,7 @@ auto test(std::function<int(int, int)> f) -> void
 ```
 
 ```cpp
-#include <vs/concepts.h>
+#include <vsl/concepts.h>
 
 template<typename F>
 requires vs::callable_r<int, F, int, int>
@@ -1298,7 +1298,7 @@ auto x = "hello"sv;
 #### Loop counter
 
 ```cpp
-#include <vs/util.h>
+#include <vsl/util.h>
 
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
@@ -1317,7 +1317,7 @@ for (const auto& x : cont)  // otherwise (when you just need to view the origina
 #### Signed/unsigned cast with helpers
 
 ```cpp
-#include <vs/util.h>
+#include <vsl/util.h>
 
 auto x = vs::as_signed(integer_expr);
 auto x = vs::as_unsigned(integer_expr);
@@ -1522,7 +1522,7 @@ auto main() -> int
 #### Loop counter
 
 ```cpp
-#include <vs/util.h>
+#include <vsl/util.h>
 
 for (auto i = size_t{0}; i < v.size(); ++i)
 for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
@@ -2137,7 +2137,7 @@ func(7);
 ```
 
 ```cpp
-#include <vs/util.h>
+#include <vsl/util.h>
 
 auto func_nocopy(vs::optional_ref<const std::string> arg) -> void
 {
