@@ -96,13 +96,14 @@
 ## Initialization
 * [(cppreference) Initialization](https://en.cppreference.com/w/cpp/language/initialization)
 * [(Habr) Инициализация в современном C++](https://habr.com/ru/companies/jugru/articles/469465/)
-* [std::initializer_list in C++ 1/2](https://www.cppstories.com/2023/initializer_list_basics/)
-* [std::initializer_list in C++ 2/2](https://www.cppstories.com/2023/initializer_list_improvements/)
 * [(Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
 * [(Abseil Tips) Default vs Value Initialization](https://abseil.io/tips/146)
   ([default](https://en.cppreference.com/w/cpp/language/default_initialization), [value](https://en.cppreference.com/w/cpp/language/value_initialization))
 
 ### Initialization / {}-initializer syntax
+* [(cppreference) List-initialization](https://en.cppreference.com/w/cpp/language/list_initialization.html)
+* [std::initializer_list in C++ 1/2](https://www.cppstories.com/2023/initializer_list_basics/)
+* [std::initializer_list in C++ 2/2](https://www.cppstories.com/2023/initializer_list_improvements/)
 * [GotW #1 Solution: Variable Initialization](https://herbsutter.com/2013/05/09/gotw-1-solution/)
 * [The Knightmare of Initialization in C++](https://quuxplusone.github.io/blog/2019/02/18/knightmare-of-initialization/)
 * [(Abseil Tips) Best Practices for Initialization](https://abseil.io/tips/88)
