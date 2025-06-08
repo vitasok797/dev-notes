@@ -13,7 +13,7 @@ inline auto almost_equal(double a, double b, double abs_epsilon) -> bool
 
 inline auto almost_equal_rel(double a, double b, double rel_epsilon = 1e-6) -> bool
 {
-    return std::abs(a - b) <= (std::max(std::abs(a), std::abs(b)) * rel_epsilon);
+    return std::abs(a - b) <= (std::fmax(std::abs(a), std::abs(b)) * rel_epsilon);
 }
 
 }  // namespace vs
