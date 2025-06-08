@@ -576,7 +576,7 @@ TD<decltype(x)> _;
 <details>
 <summary>Type info (overload resolution test)</summary>
 
-▶️[**Demo** (overload resolution test)](https://godbolt.org/z/6Mdcx95o7) [[debug.h](vsl/debug.h)]
+▶️[**Demo** (overload resolution test)](https://godbolt.org/z/hqqeqW7qo) [[debug.h](vsl/debug.h)]
 
 </details>
 
