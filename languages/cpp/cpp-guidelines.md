@@ -3062,7 +3062,7 @@ using func = void (*) (int, int);
 <details>
 <summary>ScopeGuard</summary>
 
-▶️[**Run**](https://godbolt.org/z/WxfbzbfEG) [[scope_guard.h](vsl/scope_guard.h)]
+▶️[**Run**](https://godbolt.org/z/v7Yrh4j1n) [[scope_guard.h](vsl/scope_guard.h)]
 
 ```cpp
 #include <iostream>
@@ -3072,7 +3072,6 @@ using func = void (*) (int, int);
 using std::cout, std::endl;
 
 using vsl::ScopeGuard;
-using vsl::make_scope_guard;
 
 struct Resource
 {
@@ -3089,9 +3088,9 @@ auto main() -> int
         auto guard1 = ScopeGuard{[]() { cout << "guard1" << endl; }};
 
         auto lam2 = []() { cout << "guard2" << endl; };
-        auto guard2 = make_scope_guard(lam2);
+        auto guard2 = ScopeGuard{lam2};
 
-        auto guard3 = make_scope_guard([]() { cout << "guard3" << endl; });
+        auto guard3 = ScopeGuard{[]() { cout << "guard3" << endl; }};
         guard3.dismiss();
 
         cout << "--- scope out 1 ---" << endl;
