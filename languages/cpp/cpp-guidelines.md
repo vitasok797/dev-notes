@@ -453,7 +453,7 @@ public:
 <details>
 <summary>Template class constructors/methods with T&& args</summary>
 
-▶️[**Run**](https://godbolt.org/z/9K1e34dh8) [[debug.h](vsl/debug.h)]
+▶️[**Run**](https://godbolt.org/z/WWjjnoYMc) [[debug.h](vsl/debug.h)]
 
 ```cpp
 #include <iostream>
@@ -2493,7 +2493,7 @@ auto is_equal(T a, T b)
 <details>
 <summary>CRTP mixins</summary>
 
-▶️[**Run**](https://godbolt.org/z/rM7Th3Gac) [[util.h](vsl/util.h)]
+▶️[**Run**](https://godbolt.org/z/b8rMhh7Kv) [[util.h](vsl/util.h)]
 
 ```cpp
 #include <iostream>
@@ -3062,7 +3062,7 @@ using func = void (*) (int, int);
 <details>
 <summary>ScopeGuard</summary>
 
-▶️[**Run**](https://godbolt.org/z/WsM83hqKP) [[scope_guard.h](vsl/scope_guard.h)]
+▶️[**Run**](https://godbolt.org/z/WxfbzbfEG) [[scope_guard.h](vsl/scope_guard.h)]
 
 ```cpp
 #include <iostream>
@@ -3117,10 +3117,10 @@ auto main() -> int
     {
         cout << "--- scope in 3 ---" << endl;
 
-        VS_SCOPE_GUARD{ cout << "additional SCOPE_GUARD" << endl; };
+        VSL_SCOPE_GUARD{ cout << "additional SCOPE_GUARD" << endl; };
 
         auto resource = Resource{};
-        VS_SCOPE_GUARD{ resource.close(); };
+        VSL_SCOPE_GUARD{ resource.close(); };
 
         // ...
         resource.use();
