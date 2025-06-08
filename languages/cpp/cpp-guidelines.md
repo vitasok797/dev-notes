@@ -1552,6 +1552,47 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 <details>
 <summary>Trim</summary>
 
+#### vsl::ftrim
+
+▶️[**Run**](https://godbolt.org/z/Ev8dKsssx)
+
+```cpp
+#include <iostream>
+
+#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/vsl/math.h>
+
+using std::cout, std::endl;
+
+using vsl::ftrim;
+
+auto main() -> int
+{
+    cout << ftrim(-1.0, {0, 2.0}) << endl;
+    cout << ftrim( 1.0, {0, 2.0}) << endl;
+    cout << ftrim( 3.0, {0, 2.0}) << endl;
+
+    cout << endl;
+
+    cout << ftrim( 100.0, {0, INF}) << endl;
+    cout << ftrim(-100.0, {0, INF}) << endl;
+
+    cout << endl;
+
+    cout << ftrim( 100.0, {-INF, 0}) << endl;
+    cout << ftrim(-100.0, {-INF, 0}) << endl;
+
+    cout << endl;
+
+    cout << ftrim(5.0, {1.0, 1.0}) << endl;
+
+    // cout << ftrim(5.0, {1.0, -1.0}) << endl;  // throws logic_error
+}
+```
+
+#### std::clamp
+
+▶️[**Run**]()
+
 ```cpp
 #include <algorithm>
 #include <iostream>
