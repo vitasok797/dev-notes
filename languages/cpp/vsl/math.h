@@ -2,9 +2,13 @@
 #define VSL_MATH_H_
 
 #include <cmath>
+#include <limits>
 
 namespace vsl
 {
+
+inline constexpr auto double_max = std::numeric_limits<double>::max();
+inline constexpr auto double_max_neg = -std::numeric_limits<double>::max();
 
 inline auto almost_equal(double a, double b, double abs_epsilon) -> bool
 {
