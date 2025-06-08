@@ -1,10 +1,10 @@
-#ifndef VS_ASYNC_H_
-#define VS_ASYNC_H_
+#ifndef VSL_ASYNC_H_
+#define VSL_ASYNC_H_
 
 #include <future>
 #include <utility>
 
-namespace vs
+namespace vsl
 {
 
 template<typename F, typename... Params>
@@ -13,6 +13,6 @@ auto run_async(F&& f, Params&&... params)
     return std::async(std::launch::async, std::forward<F>(f), std::forward<Params>(params)...);
 }
 
-}  // namespace vs
+}  // namespace vsl
 
-#endif  // VS_ASYNC_H_
+#endif  // VSL_ASYNC_H_
