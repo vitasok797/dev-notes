@@ -126,7 +126,7 @@
 * [(LearnCpp) Struct aggregate initialization](https://www.learncpp.com/cpp-tutorial/struct-aggregate-initialization/)
 * [(LearnCpp) Default member initialization](https://www.learncpp.com/cpp-tutorial/default-member-initialization/)
 
-### Initialization / Structured bindings
+### Initialization / Structured binding
 * [Языковые новшества C++17. Часть 2. Constexpr и привязки](https://scrutator.me/post/2017/10/07/cpp17_lang_features_p2.aspx)
 
 ## ADL
