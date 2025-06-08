@@ -1,5 +1,5 @@
-#ifndef VS_UTIL_H_
-#define VS_UTIL_H_
+#ifndef VSL_UTIL_H_
+#define VSL_UTIL_H_
 
 #include <cstddef>
 #include <functional>
@@ -9,7 +9,7 @@
 
 #define FWD(...) std::forward<decltype(__VA_ARGS__)>(__VA_ARGS__)
 
-namespace vs
+namespace vsl
 {
 
 using Index = std::ptrdiff_t;
@@ -56,6 +56,6 @@ auto this_to(Ptr* this_ptr) -> decltype(auto)
     return static_cast<output_type>(*this_ptr);
 }
 
-}  // namespace vs
+}  // namespace vsl
 
-#endif  // VS_UTIL_H_
+#endif  // VSL_UTIL_H_
