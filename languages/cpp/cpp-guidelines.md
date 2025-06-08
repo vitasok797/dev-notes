@@ -3043,7 +3043,7 @@ using func = void (*) (int, int);
 
 </details>
 
-## vs
+## vsl
 
 <details>
 <summary>NonCopyable</summary>
