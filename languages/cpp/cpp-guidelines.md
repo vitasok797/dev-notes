@@ -3055,7 +3055,7 @@ using func = void (*) (int, int);
 <details>
 <summary>output</summary>
 
-▶️[**Demo**](https://godbolt.org/z/Yd18MEvMh) [[output.h](vsl/output.h)]
+▶️[**Demo**](https://godbolt.org/z/8E4KEe315) [[output.h](vsl/output.h)]
 
 </details>
 
