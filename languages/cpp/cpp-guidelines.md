@@ -1591,7 +1591,7 @@ auto main() -> int
 
 #### Using std::clamp
 
-▶️[**Run**](https://godbolt.org/z/6f5MMo6Wc)
+▶️[**Run**](https://godbolt.org/z/sfnYaeE7d)
 
 ```cpp
 #include <algorithm>
@@ -1599,9 +1599,9 @@ auto main() -> int
 
 auto main() -> int
 {
-    std::cout << std::clamp(0.5, 1.0, 2.0) << std::endl;  // 1
-    std::cout << std::clamp(1.5, 1.0, 2.0) << std::endl;  // 1.5
-    std::cout << std::clamp(2.5, 1.0, 2.0) << std::endl;  // 2
+    std::cout << std::clamp(5, 10, 20) << std::endl;  // 10
+    std::cout << std::clamp(15, 10, 20) << std::endl;  // 15
+    std::cout << std::clamp(25, 10, 20) << std::endl;  // 20
 }
 ```
 
