@@ -1054,7 +1054,7 @@ requires vsl::same_type_as<T, std::string>
 auto func(T&& x) -> void {}
 ```
 
-▶️[**Demo**](https://godbolt.org/z/n5T5PfshK) [[concepts.h](vsl/concepts.h), [debug.h](vsl/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/WW4Y1fYPv) [[concepts.h](vsl/concepts.h), [debug.h](vsl/debug.h)]
 
 </details>
 
@@ -1101,7 +1101,7 @@ auto test(F f) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/9YGM73aEE) [[concepts.h](vsl/concepts.h)]
+▶️[**Demo**](https://godbolt.org/z/Pn3c674d3) [[concepts.h](vsl/concepts.h)]
 
 </details>
 
@@ -1512,7 +1512,7 @@ auto main() -> int
 
 [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
 
-▶️[**Demo**](https://godbolt.org/z/qd8x7PYez) [[math.h](vsl/math.h)]
+▶️[**Demo**](https://godbolt.org/z/6ccfGq9YP) [[math.h](vsl/math.h)]
 
 </details>
 
@@ -1532,7 +1532,7 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 
 #### Demos
 
-▶️[**Demo** (arithmetic)](https://godbolt.org/z/z3n1KGEcx) [[util.h](vsl/util.h)] \
+▶️[**Demo** (arithmetic)](https://godbolt.org/z/eThdxbf3M) [[util.h](vsl/util.h)] \
 ▶️[**Demo** (compare)](https://godbolt.org/z/fGc7eYYf4) [[util.h](vsl/util.h)] \
 ▶️[**Demo** (index)](https://godbolt.org/z/69h7az699) [[util.h](vsl/util.h)] \
 ▶️[**Demo** (accumulate)](https://godbolt.org/z/xeaMnaMfE) [[util.h](vsl/util.h)]
