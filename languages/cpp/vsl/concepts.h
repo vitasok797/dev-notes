@@ -1,10 +1,10 @@
-#ifndef VS_CONCEPTS_H_
-#define VS_CONCEPTS_H_
+#ifndef VSL_CONCEPTS_H_
+#define VSL_CONCEPTS_H_
 
 #include <concepts>
 #include <type_traits>
 
-namespace vs
+namespace vsl
 {
 
 template<typename Fn, typename... Args>
@@ -25,6 +25,6 @@ concept same_type_as = std::same_as<std::decay_t<T>, U>;
 template<typename T>
 concept ostream = requires(T os) { os << ""; };
 
-}  // namespace vs
+}  // namespace vsl
 
-#endif  // VS_CONCEPTS_H_
+#endif  // VSL_CONCEPTS_H_
