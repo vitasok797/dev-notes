@@ -1,10 +1,10 @@
-#ifndef VS_OUTPUT_H_
-#define VS_OUTPUT_H_
+#ifndef VSL_OUTPUT_H_
+#define VSL_OUTPUT_H_
 
 #include <iostream>
 #include <syncstream>
 
-namespace vs
+namespace vsl
 {
 
 namespace detail
@@ -45,6 +45,6 @@ auto println_sync(const Values&... values) -> void
     println_sync(std::cout, values...);
 }
 
-}  // namespace vs
+}  // namespace vsl
 
-#endif  // VS_OUTPUT_H_
+#endif  // VSL_OUTPUT_H_
