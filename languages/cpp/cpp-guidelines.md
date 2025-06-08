@@ -1497,23 +1497,6 @@ for (const auto& [k, v] : mymap) {...}
 ## Math
 
 <details>
-<summary>Clamp</summary>
-
-```cpp
-#include <algorithm>
-#include <iostream>
-
-auto main() -> int
-{
-    std::cout << std::clamp(0.5, 1.0, 2.0) << std::endl;  // 1
-    std::cout << std::clamp(1.5, 1.0, 2.0) << std::endl;  // 1.5
-    std::cout << std::clamp(2.5, 1.0, 2.0) << std::endl;  // 2
-}
-```
-
-</details>
-
-<details>
 <summary>Floating point comparisons</summary>
 
 [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
@@ -1563,6 +1546,23 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
   * GCC: `-Wtype-limits`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
   * Clang: `-Wtype-limits` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
   * MSVC: `/W4`+`/w44296` ([C4296](https://learn.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-4-c4296)) ([doc](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-option-warning-level))
+
+</details>
+
+<details>
+<summary>Trim</summary>
+
+```cpp
+#include <algorithm>
+#include <iostream>
+
+auto main() -> int
+{
+    std::cout << std::clamp(0.5, 1.0, 2.0) << std::endl;  // 1
+    std::cout << std::clamp(1.5, 1.0, 2.0) << std::endl;  // 1.5
+    std::cout << std::clamp(2.5, 1.0, 2.0) << std::endl;  // 2
+}
+```
 
 </details>
 
