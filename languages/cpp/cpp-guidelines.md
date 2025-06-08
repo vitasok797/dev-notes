@@ -463,7 +463,7 @@ public:
 
 using std::cout, std::endl;
 
-using Watcher = vs::debug::CtorWatcher;
+using Watcher = vsl::debug::CtorWatcher;
 
 template<typename T>
 struct Test1
@@ -607,7 +607,7 @@ if (shared_ptr)
 ```cpp
 #include <vsl/error.h>
 
-vs::check_ptr(shared_ptr);
+vsl::check_ptr(shared_ptr);
 
 // use *shared_ptr
 // pass_by_const_ref(*shared_ptr)
@@ -617,7 +617,7 @@ vs::check_ptr(shared_ptr);
 ```cpp
 #include <vsl/error.h>
 
-auto[&] value = vs::checked_deref_ptr(shared_ptr);
+auto[&] value = vsl::checked_deref_ptr(shared_ptr);
 
 // use value
 // pass_by_const_ref(value)
@@ -636,7 +636,7 @@ public:
 
     auto get_value() const & -> std::string&
     {
-        return vs::checked_deref_ptr(uptr_);
+        return vsl::checked_deref_ptr(uptr_);
     }
 
     auto get_value() const && = delete;
@@ -651,7 +651,7 @@ private:
 ```cpp
 #include <vsl/error.h>
 
-auto non_optional_raw_ptr = vs::checked_get_ptr(shared_ptr);
+auto non_optional_raw_ptr = vsl::checked_get_ptr(shared_ptr);
 
 // pass_by_const_raw_ptr(non_optional_raw_ptr)
 ```
@@ -708,7 +708,7 @@ auto func(T&& range) -> void
 {
     for (auto& el : range)
     {
-        vec.push_back(vs::forward_like<T>(el));
+        vec.push_back(vsl::forward_like<T>(el));
     }
 }
 ```
@@ -720,7 +720,7 @@ template<typename T>
 auto func(T&& tuple) -> void
 {
     auto& [el, _] = tuple;
-    vec.push_back(vs::forward_like<T>(el));
+    vec.push_back(vsl::forward_like<T>(el));
 }
 ```
 
@@ -730,7 +730,7 @@ auto func(T&& tuple) -> void
 template<typename T>
 auto func(T&& cont) -> void
 {
-    vec.push_back(vs::forward_like<T>(cont.at(0)));
+    vec.push_back(vsl::forward_like<T>(cont.at(0)));
 }
 ```
 
@@ -747,7 +747,7 @@ template<typename T>
 auto func(T&& some_struct) -> void
 {
     auto& [member, _] = some_struct;
-    vec.push_back(vs::forward_like<T>(member));
+    vec.push_back(vsl::forward_like<T>(member));
 }
 ```
 
@@ -1050,7 +1050,7 @@ auto func(T&& x) -> void {}
 #include <vsl/concepts.h>
 
 template<typename T>
-requires vs::same_type_as<T, std::string>
+requires vsl::same_type_as<T, std::string>
 auto func(T&& x) -> void {}
 ```
 
@@ -1094,7 +1094,7 @@ auto test(std::function<int(int, int)> f) -> void
 #include <vsl/concepts.h>
 
 template<typename F>
-requires vs::callable_r<int, F, int, int>
+requires vsl::callable_r<int, F, int, int>
 auto test(F f) -> void
 {
     int res = f(1, 2);
@@ -1301,9 +1301,9 @@ auto x = "hello"sv;
 #include <vsl/util.h>
 
 for (auto i = size_t{0}; i < v.size(); ++i)
-for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
+for (auto i = vsl::Index{0}; i < vsl::signed_size(v); ++i)
 
-for (auto i = vs::signed_size(v)-1; i >= 0; --i)
+for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 ```
 
 #### Range-based for loops element type
@@ -1319,8 +1319,8 @@ for (const auto& x : cont)  // otherwise (when you just need to view the origina
 ```cpp
 #include <vsl/util.h>
 
-auto x = vs::as_signed(integer_expr);
-auto x = vs::as_unsigned(integer_expr);
+auto x = vsl::as_signed(integer_expr);
+auto x = vsl::as_unsigned(integer_expr);
 ```
 
 #### Initialization by function return value
@@ -1525,9 +1525,9 @@ auto main() -> int
 #include <vsl/util.h>
 
 for (auto i = size_t{0}; i < v.size(); ++i)
-for (auto i = vs::Index{0}; i < vs::signed_size(v); ++i)
+for (auto i = vsl::Index{0}; i < vsl::signed_size(v); ++i)
 
-for (auto i = vs::signed_size(v)-1; i >= 0; --i)
+for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 ```
 
 #### Demos
@@ -1543,7 +1543,7 @@ for (auto i = vs::signed_size(v)-1; i >= 0; --i)
   * GCC: `-Wsign-compare`, `-Wall`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
   * Clang: `-Wsign-compare`, `-Wextra` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
   * MSVC: `/W3`, `/W4` ([C4018](https://learn.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4018)) ([doc](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-option-warning-level))
-* Cons: false positive for code like `for (auto i = vs::Index{0}; i < sizeof(buf); i++)`
+* Cons: false positive for code like `for (auto i = vsl::Index{0}; i < sizeof(buf); i++)`
 * Solution:
   * Disable compiler option:
     * GCC/Clang: `-Wno-sign-compare`
@@ -2139,7 +2139,7 @@ func(7);
 ```cpp
 #include <vsl/util.h>
 
-auto func_nocopy(vs::optional_ref<const std::string> arg) -> void
+auto func_nocopy(vsl::optional_ref<const std::string> arg) -> void
 {
     if (arg)
     {
@@ -2508,7 +2508,7 @@ class PrintSize
 public:
     auto print_size() const -> void
     {
-        auto& und = vs::this_to<Underlying>(this);
+        auto& und = vsl::this_to<Underlying>(this);
         std::cout << "Size: " << und.size() << std::endl;
     }
 };
@@ -2519,7 +2519,7 @@ class DoubleSize
 public:
     auto double_size() -> void
     {
-        auto& und = vs::this_to<Underlying>(this);
+        auto& und = vsl::this_to<Underlying>(this);
         und.set_size(und.size()*2);
         std::cout << "Size doubled" << std::endl;
     }
@@ -3071,8 +3071,8 @@ using func = void (*) (int, int);
 
 using std::cout, std::endl;
 
-using vs::ScopeGuard;
-using vs::make_scope_guard;
+using vsl::ScopeGuard;
+using vsl::make_scope_guard;
 
 struct Resource
 {
