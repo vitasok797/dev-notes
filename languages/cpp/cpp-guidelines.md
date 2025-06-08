@@ -576,14 +576,14 @@ TD<decltype(x)> _;
 <details>
 <summary>Type info (overload resolution test)</summary>
 
-▶️[**Demo** (overload resolution test)](https://godbolt.org/z/scheYrndo) [[debug.h](vsl/debug.h)]
+▶️[**Demo** (overload resolution test)](https://godbolt.org/z/6Mdcx95o7) [[debug.h](vsl/debug.h)]
 
 </details>
 
 <details>
 <summary>Watchers</summary>
 
-▶️[**Demo**](https://godbolt.org/z/PMY79efzv) [[debug.h](vsl/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/EqEfYKoYn) [[debug.h](vsl/debug.h)]
 
 </details>
 
@@ -656,7 +656,7 @@ auto non_optional_raw_ptr = vsl::checked_get_ptr(shared_ptr);
 // pass_by_const_raw_ptr(non_optional_raw_ptr)
 ```
 
-▶️[**Demo**](https://godbolt.org/z/sr37j6crn) [[error.h](vsl/error.h)]
+▶️[**Demo**](https://godbolt.org/z/c4f6WaTYY) [[error.h](vsl/error.h)]
 
 </details>
 
@@ -751,7 +751,7 @@ auto func(T&& some_struct) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/Peb36P14c) [[util.h](vsl/util.h)]
+▶️[**Demo**](https://godbolt.org/z/EqYW8n4qe) [[util.h](vsl/util.h)]
 
 </details>
 
