@@ -1,7 +1,7 @@
-#ifndef VS_NON_COPYABLE_H_
-#define VS_NON_COPYABLE_H_
+#ifndef VSL_NON_COPYABLE_H_
+#define VSL_NON_COPYABLE_H_
 
-namespace vs
+namespace vsl
 {
 
 class NonCopyable
@@ -18,6 +18,6 @@ public:
     ~NonCopyable() = default;
 };
 
-}  // namespace vs
+}  // namespace vsl
 
-#endif  // VS_NON_COPYABLE_H_
+#endif  // VSL_NON_COPYABLE_H_
