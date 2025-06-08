@@ -1741,7 +1741,7 @@ std::cout << ranges::contains(v, 999) << std::endl;
 <details>
 <summary>Copy to ostream</summary>
 
-▶️[**Run**](https://godbolt.org/z/jYqhn5r6Y)
+▶️[**Run**](https://godbolt.org/z/ExKd483K5)
 
 ```cpp
 #include <iostream>
@@ -1756,11 +1756,11 @@ auto main() -> int
     std::cout << ranges::views::all(v) << std::endl;
 
     // 2
-    ranges::copy(v, ranges::ostream_iterator<int>(std::cout, "\n"));
+    ranges::copy(v, ranges::ostream_iterator<int>{std::cout, "\n"});
 
     // 3
     using T = ranges::range_value_t<decltype(v)>;
-    ranges::copy(v, ranges::ostream_iterator<T>(std::cout, "\n"));
+    ranges::copy(v, ranges::ostream_iterator<T>{std::cout, "\n"});
 }
 ```
 
