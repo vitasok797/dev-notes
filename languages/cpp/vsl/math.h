@@ -1,8 +1,12 @@
 #ifndef VSL_MATH_H_
 #define VSL_MATH_H_
 
+#include <algorithm>
 #include <cmath>
 #include <limits>
+#include <optional>
+#include <stdexcept>
+#include <utility>
 
 namespace vsl
 {
