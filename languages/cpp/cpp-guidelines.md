@@ -1554,7 +1554,7 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 
 #### Using vsl::ftrim
 
-▶️[**Run**](https://godbolt.org/z/Ev8dKsssx) [[math.h](vsl/math.h)]
+▶️[**Run**](https://godbolt.org/z/455WfGvfz) [[math.h](vsl/math.h)]
 
 ```cpp
 #include <iostream>
@@ -1567,23 +1567,23 @@ using vsl::ftrim;
 
 auto main() -> int
 {
-    cout << ftrim(-1.0, {0, 2.0}) << endl;
-    cout << ftrim( 1.0, {0, 2.0}) << endl;
-    cout << ftrim( 3.0, {0, 2.0}) << endl;
+    cout << ftrim(-1.0, {0, 2.0}) << endl;  // 0
+    cout << ftrim( 1.0, {0, 2.0}) << endl;  // 1.0
+    cout << ftrim( 3.0, {0, 2.0}) << endl;  // 2.0
 
     cout << endl;
 
-    cout << ftrim( 100.0, {0, INF}) << endl;
-    cout << ftrim(-100.0, {0, INF}) << endl;
+    cout << ftrim( 100.0, {0, INF}) << endl;  // 100.0
+    cout << ftrim(-100.0, {0, INF}) << endl;  // 0
 
     cout << endl;
 
-    cout << ftrim( 100.0, {-INF, 0}) << endl;
-    cout << ftrim(-100.0, {-INF, 0}) << endl;
+    cout << ftrim( 100.0, {-INF, 0}) << endl;  // 0
+    cout << ftrim(-100.0, {-INF, 0}) << endl;  // -100.0
 
     cout << endl;
 
-    cout << ftrim(5.0, {1.0, 1.0}) << endl;
+    cout << ftrim(5.0, {1.0, 1.0}) << endl;  // 1.0
 
     // cout << ftrim(5.0, {1.0, -1.0}) << endl;  // throws logic_error
 }
