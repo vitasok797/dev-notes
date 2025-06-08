@@ -1,7 +1,6 @@
 #ifndef VSL_SCOPE_GUARD_H_
 #define VSL_SCOPE_GUARD_H_
 
-#include <type_traits>
 #include <utility>
 
 #define VSL_SCOPE_GUARD vsl::ScopeGuard VSL_SCOPE_GUARD_UNIQ_NAME(__LINE__) = [&]()
@@ -34,12 +33,6 @@ private:
     F f_;
     bool invoke_ = true;
 };
-
-template<typename F>
-[[nodiscard]] auto make_scope_guard(F&& f) noexcept
-{
-    return ScopeGuard<std::decay_t<F>>{std::forward<F>(f)};
-}
 
 }  // namespace vsl
 
