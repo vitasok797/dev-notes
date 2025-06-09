@@ -131,6 +131,7 @@
 * https://habr.com/ru/articles/683204/
 * https://www.youtube.com/watch?v=sBP17HQAQjk
 * https://www.youtube.com/watch?v=_5weX5mx8hc
+* https://habr.com/ru/articles/916620/
 
 ## Var
 * https://hackingcpp.com/
