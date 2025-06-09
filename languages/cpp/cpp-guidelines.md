@@ -837,7 +837,7 @@ auto main() -> int
 <details>
 <summary>Function object</summary>
 
-▶️[**Run**](https://godbolt.org/z/nooqb3Paz)
+▶️[**Run**](https://godbolt.org/z/cbW5hGGKK)
 
 ```cpp
 #include <iostream>
@@ -850,6 +850,12 @@ struct Compare
     }
 };
 
+struct PrintValue
+{
+    auto operator()(int val) -> void { std::cout << "int: " << val << std::endl; }
+    auto operator()(double val) -> void { std::cout << "double: " << val << std::endl; }
+};
+
 inline constexpr auto compare = Compare{};
 
 auto main() -> int
@@ -857,6 +863,12 @@ auto main() -> int
     std::cout << compare(1, 2) << std::endl;
     std::cout << compare(2, 2) << std::endl;
     std::cout << compare(3, 2) << std::endl;
+
+    std::cout << std::endl;
+
+    auto printer = PrintValue{};
+    printer(1);
+    printer(1.0);
 }
 ```
 
