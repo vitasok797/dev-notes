@@ -239,7 +239,7 @@
 * <https://github.com/epezent/implot>
 
 ### GUI / Var
-* <https://github.com/simulton/QSchematic>
+* <https://github.com/simulton/QSchematic> (no vcpkg)
 
 ## UUID
 * [Boost.Uuid](https://www.boost.org/doc/libs/latest/libs/uuid/doc/html/uuid.html)
