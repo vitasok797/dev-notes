@@ -37,6 +37,17 @@
 * [CMake useful variables](https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/Useful-Variables)
 * [(StackOverflow) Difference between CMAKE_CURRENT_SOURCE_DIR and CMAKE_CURRENT_LIST_DIR](https://stackoverflow.com/questions/15662497/difference-between-cmake-current-source-dir-and-cmake-current-list-dir)
 
+## Testing
+* [GoogleTest: Building with CMake](http://google.github.io/googletest/quickstart-cmake.html)
+* [Testing tools in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019)
+* [Testing With CMake and CTest](https://cmake.org/cmake/help/book/mastering-cmake/chapter/Testing%20With%20CMake%20and%20CTest.html)
+* [Testing With CTest](https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Testing-With-CTest)
+* [Scripting Of CTest](https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Scripting-Of-CTest)
+* [Modern CMake: Testing](https://cliutils.gitlab.io/modern-cmake/chapters/testing.html)
+* [How to automate testing with CMake, CTest, and gtest](https://cfd.university/learn/automating-cfd-solver-and-library-compilation-using-cmake/how-to-automate-testing-with-cmake-ctest-and-gtest/)
+* [(Habr) Просто о сложном — пишем тесты с Google C++ Testing Framework (GTest, GMock)](https://habr.com/ru/articles/667880/)
+* [(Habr) Руководство по CMake для разработчиков C++ библиотек](https://habr.com/ru/articles/683204/)
+
 ## Linters and Analyzers
 * [Cppcheck](https://cppcheck.sourceforge.io/)
 * Clang:
