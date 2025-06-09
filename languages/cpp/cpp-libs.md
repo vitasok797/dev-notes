@@ -238,6 +238,9 @@
 * <https://github.com/wxIshiko/wxCharts>
 * <https://github.com/epezent/implot>
 
+### GUI / Var
+* <https://github.com/simulton/QSchematic>
+
 ## UUID
 * [Boost.Uuid](https://www.boost.org/doc/libs/latest/libs/uuid/doc/html/uuid.html)
 * POCO ([URIandUUID](https://pocoproject.org/slides/160-URIandUUID.pdf))
