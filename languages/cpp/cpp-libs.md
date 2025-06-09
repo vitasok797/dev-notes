@@ -138,6 +138,7 @@
 
 ### Formats / Hashing
 * POCO ([RandomCrypto](https://pocoproject.org/slides/060-RandomCrypto.pdf))
+* <https://github.com/Cyan4973/xxHash> ([site](https://xxhash.com/))
 * <https://github.com/okdshin/PicoSHA2>
 * <https://github.com/weidai11/cryptopp>
 * <https://github.com/stbrumme/hash-library>
