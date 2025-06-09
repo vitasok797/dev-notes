@@ -308,9 +308,6 @@
 * [(Reddit) Why should I have written ZeroMQ in C, not C++ (part I) 2](https://www.reddit.com/r/programming/comments/tggnn/why_should_i_have_written_zeromq_in_c_not_c/)
 * [Avoiding game crashes related to linked lists](https://www.codeofhonor.com/blog/avoiding-game-crashes-related-to-linked-lists)
 
-## Видео
-* [(Youtube) C++17, который мы заслужили](https://www.youtube.com/watch?v=I0oerm0MYQY)
-
 ## Var
 * [(cppreference) Attributes](https://en.cppreference.com/w/cpp/language/attributes)
 * [(Habr) Тонкости реализации кода библиотеки](https://habr.com/ru/articles/138085/)
