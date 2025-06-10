@@ -1017,11 +1017,11 @@ auto main() -> int
 |---|---|:---:|:---:|---|
 | Read | `CheapToCopyType` || `CheapToCopyType` ||
 | Read | `HeavyType` || `const HeavyType&` | See possible optimizations for retaining a "copy"<sup>✱</sup> |
-| Read/Write<br>Write | `AnyType` || `AnyType&` | ["Write" only case\] Prefer return values over out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
+| Read+Write<br>Write | `AnyType` || `AnyType&` | ["Write" only case\] Prefer return values over out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
 | ***<ins>Optional:</ins>*** |||||
 | Read | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
 | Read | `HeavyType` || `const HeavyType*` | No ownership transfer |
-| Read/Write<br>Write | `AnyType` || `AnyType*` | No ownership transfer |
+| Read+Write<br>Write | `AnyType` || `AnyType*` | No ownership transfer |
 | ***<ins>Move only types:</ins>*** |||||
 | Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType` | See possible optimizations<sup>✱✱</sup> |
 | ***<ins>Smart pointers:</ins>*** |||||
