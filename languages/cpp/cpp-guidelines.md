@@ -1042,9 +1042,9 @@ Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Small callable objects (functors, lambdas)
 
 From the caller's point of view, the value can be `std::move`-ed if the parameter type is:
-* `HeavyType`
 * `HeavyType&&`
 * `T&&`
+* `HeavyType`
 
 #### Returning
 
