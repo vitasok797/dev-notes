@@ -5,7 +5,7 @@
 
 ## Interoperability
 * [Interoperability with .NET](https://discourse.julialang.org/t/interoperability-with-net/19611/1)
-* [Julia C# Interoperation](https://github.com/ShuhuaGao/JuliaCSharp)
+* [Julia & C# interoperation via Julia embedding](https://github.com/ShuhuaGao/JuliaCSharp/tree/main/Embedding)
 
 ## Var
 * https://habr.com/ru/articles/423811/
