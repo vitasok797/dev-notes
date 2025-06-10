@@ -1,5 +1,5 @@
-#ifndef VSL_SCOPE_GUARD_H_
-#define VSL_SCOPE_GUARD_H_
+#ifndef VSL_SCOPE_GUARD_H
+#define VSL_SCOPE_GUARD_H
 
 #include <utility>
 
@@ -36,4 +36,4 @@ private:
 
 }  // namespace vsl
 
-#endif  // VSL_SCOPE_GUARD_H_
+#endif  // VSL_SCOPE_GUARD_H
