@@ -1016,7 +1016,7 @@ auto main() -> int
 | Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
 |---|---|:---:|:---:|---|
 | Read | `CheapToCopyType` || `CheapToCopyType` ||
-| Read | `HeavyType` || `const HeavyType&` | See possible optimizations for retaining a "copy"<sup>✱</sup> |
+| Read | `HeavyType` || `const HeavyType&` | See possible optimizations for retaining a rvalue "copy" ([demo](https://godbolt.org/z/r8q6ffoGr))<sup>✱</sup> |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | ["Write" only case\] Prefer return values over out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
 | ***<ins>Optional:</ins>*** |||||
 | Read | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
