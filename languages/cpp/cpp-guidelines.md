@@ -3194,9 +3194,15 @@ auto main() -> int
 ## Var
 
 <details>
-<summary>Order of includes</summary>
+<summary>🚧🚧🚧 Order of includes</summary>
+
+🚧
+
 </details>
 
 <details>
-<summary>Project organization</summary>
+<summary>🚧🚧🚧 Project organization</summary>
+
+🚧
+
 </details>
