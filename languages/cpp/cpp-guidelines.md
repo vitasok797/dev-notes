@@ -1018,10 +1018,11 @@ auto main() -> int
 | ***<ins>Base:</ins>*** |||||
 | Read | `CheapToCopyType` || `CheapToCopyType` ||
 | Read | `HeavyType` || `const HeavyType&` | See possible optimizations for retaining a "copy"<sup>✱</sup> |
-| Read <sub>from optional</sub> | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
-| Read <sub>from optional</sub> | `HeavyType` || `const HeavyType*` | No ownership transfer |
 | Read+Write<br>Write | `AnyType` || `AnyType&` | ["Write" only case\] Prefer return values over out parameters ([F.20](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f20-for-out-output-values-prefer-return-values-to-output-parameters)) |
 | Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType` | See possible optimizations<sup>✱✱</sup> |
+| ***<ins>Optional:</ins>*** |||||
+| Read <sub>from optional</sub> | `CheapToCopyType` || `std::optional<CheapToCopyType>` ||
+| Read <sub>from optional</sub> | `HeavyType` || `const HeavyType*` | No ownership transfer |
 | ***<ins>Smart pointers:</ins>*** |||||
 | Steal<br>(take ownership) | `std::unique_ptr` | ✔️ | `std::unique_ptr<>` ||
 | Share ownership | `std::shared_ptr` || `std::shared_ptr<>` ||
