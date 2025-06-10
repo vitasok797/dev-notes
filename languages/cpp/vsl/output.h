@@ -1,5 +1,5 @@
-#ifndef VSL_OUTPUT_H_
-#define VSL_OUTPUT_H_
+#ifndef VSL_OUTPUT_H
+#define VSL_OUTPUT_H
 
 #include <iostream>
 #include <syncstream>
@@ -47,4 +47,4 @@ auto println_sync(const Values&... values) -> void
 
 }  // namespace vsl
 
-#endif  // VSL_OUTPUT_H_
+#endif  // VSL_OUTPUT_H
