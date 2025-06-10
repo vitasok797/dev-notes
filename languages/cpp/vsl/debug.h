@@ -1,5 +1,5 @@
-#ifndef VSL_DEBUG_H_
-#define VSL_DEBUG_H_
+#ifndef VSL_DEBUG_H
+#define VSL_DEBUG_H
 
 #include <atomic>
 #include <iostream>
@@ -256,4 +256,4 @@ using ThreadWatcher = WatcherBase<>;
 
 }  // namespace vsl::debug
 
-#endif  // VSL_DEBUG_H_
+#endif  // VSL_DEBUG_H
