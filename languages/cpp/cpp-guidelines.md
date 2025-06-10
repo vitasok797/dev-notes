@@ -1434,8 +1434,6 @@ switch (auto ch = getnext(); ch)
 if (auto [it_elem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 ```
 
-</details>
-
 #### Range-based `for`
 
 ```cpp
