@@ -1,6 +1,6 @@
 # Julia
 
-## Articles
+## Var
 * https://habr.com/ru/articles/423811/
 * https://habr.com/ru/articles/429994/
 * https://habr.com/ru/articles/676278/
