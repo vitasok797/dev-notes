@@ -1,5 +1,5 @@
-#ifndef VSL_ASYNC_H_
-#define VSL_ASYNC_H_
+#ifndef VSL_ASYNC_H
+#define VSL_ASYNC_H
 
 #include <future>
 #include <utility>
@@ -15,4 +15,4 @@ auto run_async(F&& f, Params&&... params)
 
 }  // namespace vsl
 
-#endif  // VSL_ASYNC_H_
+#endif  // VSL_ASYNC_H
