@@ -1,5 +1,12 @@
 # Julia
 
+## Embedding
+* [Embedding Julia](https://docs.julialang.org/en/v1/manual/embedding/)
+
+## Interoperability
+* [Interoperability with .NET](https://discourse.julialang.org/t/interoperability-with-net/19611/1)
+* [Julia C# Interoperation](https://github.com/ShuhuaGao/JuliaCSharp)
+
 ## Var
 * https://habr.com/ru/articles/423811/
 * https://habr.com/ru/articles/429994/
