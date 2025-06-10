@@ -12,6 +12,8 @@
 namespace vsl
 {
 
+using cstring = const char*;
+
 using Index = std::ptrdiff_t;
 using SignedSize = std::ptrdiff_t;
 
