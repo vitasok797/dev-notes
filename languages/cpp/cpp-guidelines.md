@@ -3190,3 +3190,13 @@ auto main() -> int
 ```
 
 </details>
+
+## Var
+
+<details>
+<summary>Order of includes</summary>
+</details>
+
+<details>
+<summary>Project organization</summary>
+</details>
