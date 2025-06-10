@@ -1,5 +1,5 @@
-#ifndef VSL_MATH_H_
-#define VSL_MATH_H_
+#ifndef VSL_MATH_H
+#define VSL_MATH_H
 
 #include <algorithm>
 #include <cmath>
@@ -37,4 +37,4 @@ inline auto ftrim(double value, std::pair<double, double> bounds) -> double
 
 }  // namespace vsl
 
-#endif  // VSL_MATH_H_
+#endif  // VSL_MATH_H
