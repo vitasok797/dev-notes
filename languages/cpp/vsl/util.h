@@ -1,5 +1,5 @@
-#ifndef VSL_UTIL_H_
-#define VSL_UTIL_H_
+#ifndef VSL_UTIL_H
+#define VSL_UTIL_H
 
 #include <cstddef>
 #include <functional>
@@ -58,4 +58,4 @@ auto this_to(Ptr* this_ptr) -> decltype(auto)
 
 }  // namespace vsl
 
-#endif  // VSL_UTIL_H_
+#endif  // VSL_UTIL_H
