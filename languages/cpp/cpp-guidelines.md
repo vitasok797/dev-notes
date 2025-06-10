@@ -1034,7 +1034,7 @@ auto main() -> int
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `const HeavyType&`<br>`HeavyType&&` | Then `std::move` `HeavyType&&` |
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `T&&` | • Then `std::forward`<br>• Some type constraints can be added (see [concepts](https://en.cppreference.com/w/cpp/concepts#Core_language_concepts)) |
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `HeavyType` | • Then `std::move`<br>• See [by-value-then-move idiom](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)<br>• Assumed to be used only for constructors |
-| <sup>✱✱</sup>Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType&&` | • Then `std::move`<br>• Removes 1 of 2 move operations |
+| <sup>✱✱</sup>Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType&&` | • Then `std::move`<br>• Removes 1 of 2 move operations for xvalues |
 
 Cheap-to-copy types (≤ 2×sizeof(void\*)):
 * Fundamental types (integral, floating-point, bool, etc.)
