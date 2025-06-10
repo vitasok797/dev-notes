@@ -1,5 +1,5 @@
-#ifndef VSL_CONCEPTS_H_
-#define VSL_CONCEPTS_H_
+#ifndef VSL_CONCEPTS_H
+#define VSL_CONCEPTS_H
 
 #include <concepts>
 #include <type_traits>
@@ -27,4 +27,4 @@ concept ostream = requires(T os) { os << ""; };
 
 }  // namespace vsl
 
-#endif  // VSL_CONCEPTS_H_
+#endif  // VSL_CONCEPTS_H
