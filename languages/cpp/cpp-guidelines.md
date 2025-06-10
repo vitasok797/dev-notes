@@ -1409,7 +1409,9 @@ auto               Person::get_person_type() -> PersonType
 </details>
 
 <details>
-<summary>Statement with initializer: if</summary>
+<summary>Statement with initializer</summary>
+
+#### `if`
 
 [(Article) C++17 If statement with initializer](https://skebanga.github.io/if-with-initializer/)
 
@@ -1434,8 +1436,7 @@ if (auto [it_elem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 
 </details>
 
-<details>
-<summary>Statement with initializer: range-based for</summary>
+#### Range-based `for`
 
 ```cpp
 for (init; decl : expr)
