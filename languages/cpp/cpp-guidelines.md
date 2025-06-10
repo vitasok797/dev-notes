@@ -1435,7 +1435,7 @@ if (auto [it_elem, success] = mymap.insert(std::pair('a', 100)); success) {...}
 </details>
 
 <details>
-<summary>Statement with initializer: range-based for (C++20)</summary>
+<summary>Statement with initializer: range-based for</summary>
 
 ```cpp
 for (init; decl : expr)
