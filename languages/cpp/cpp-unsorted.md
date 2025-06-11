@@ -138,6 +138,14 @@
   * 26 - Templates and Classes
   * 28 - Input and Output (I/O)
 
+## ⚠️ Dangling references
+* https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
+* https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
+* https://en.cppreference.com/w/cpp/utility/optional/value
+* https://godbolt.org/z/8xbs9oYY6
+* https://godbolt.org/z/sKW846o7e
+* https://godbolt.org/z/dfjb6Kq9q https://cppinsights.io/
+
 ## ⚠️ Var (now)
 * https://en.cppreference.com/w/cpp/header/chrono.html
 * https://www.cppstories.com/2016/04/custom-deleters-for-c-smart-pointers/
