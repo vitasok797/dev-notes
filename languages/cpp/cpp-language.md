@@ -228,6 +228,7 @@
 
 ## Patterns
 * [(Habr) Техника избежания неопределённого поведения при обращении к синглтону](https://habr.com/ru/articles/455848/)
+* [Non-virtual interface pattern (NVI)](https://xakep.ru/2010/11/01/53649/#toc01.1)
 
 ## Files
 * [22 Common Filesystem Tasks in C++20](https://www.cppstories.com/2024/common-filesystem-cpp20/)
