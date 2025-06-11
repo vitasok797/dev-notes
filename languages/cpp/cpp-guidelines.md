@@ -764,7 +764,7 @@ auto func(T&& some_struct) -> void
 [C++ Python-like Class Member Decorators](https://github.com/TheMaverickProgrammer/C-Python-Like-Class-Member-Decorators) \
 [(reddit) Python function decorators in modern C++ (without magic macros)](https://www.reddit.com/r/cpp/comments/cm2g4l/python_function_decorators_in_modern_c_without/)
 
-▶️[**Demo**](https://godbolt.org/z/Y1Psnbrj3) [[util.h](vsl/util.h)]
+▶️[**Demo**](https://godbolt.org/z/rhP79dnsr) [[util.h](vsl/util.h)]
 
 </details>
 
