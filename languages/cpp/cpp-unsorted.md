@@ -55,7 +55,7 @@
 * gsl::narrow, gsl::narrow_cast
 * gsl::at
 
-## ⚠️ Structured Binding
+## Structured Binding
 * Snippets:
   * Errors (typical) / "Far" objects forwarding
   * Initialization / Structured Binding
