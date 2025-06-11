@@ -1268,9 +1268,9 @@ auto get_data() -> std::tuple<int, double>
 decltype(auto) x = expr;  // preserves cv/ref
 
 // "auto" constness removing exceptions
-auto& ref = const_int;   // const int&
+auto& ref =  const_int;  // const int&
 auto* ptr = &const_int;  // const int*
-auto ptr = &const_int;   // const int*
+auto  ptr = &const_int;  // const int*
 ```
 
 | Value category | auto&& | decltype(auto) |
