@@ -91,6 +91,7 @@
 * [(cppreference) Operator precedence](https://en.cppreference.com/w/cpp/language/operator_precedence)
 * [(cppreference) Operator overloading](https://en.cppreference.com/w/cpp/language/operators)
 * [(cppreference) User-defined conversion function](https://en.cppreference.com/w/cpp/language/cast_operator)
+* [Operator Overloading: Common Practice](https://arne-mertz.de/2015/01/operator-overloading-common-practice/)
 * [(LearnCpp) Printing inherited classes using operator<<](https://www.learncpp.com/cpp-tutorial/printing-inherited-classes-using-operator/)
 
 ## Initialization
