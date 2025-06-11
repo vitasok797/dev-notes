@@ -19,7 +19,7 @@
 * [How to use immutability in C#](https://www.infoworld.com/article/2258775/how-to-use-immutability-in-csharp.html)
 * [C# Immutable Types: Understanding the Attraction](https://blog.ndepend.com/c-sharp-immutable-types-understanding-attraction/)
 
-## Embedding
+## ⚠️ Embedding
 * [Write a custom .NET host to control the .NET runtime from your native code](https://learn.microsoft.com/en-us/dotnet/core/tutorials/netcore-hosting)
 * [Native hosting](https://github.com/dotnet/runtime/blob/main/docs/design/features/native-hosting.md)
 * [nethost vcpkg package](https://vcpkg.io/en/package/nethost)
@@ -33,6 +33,9 @@
 * [(Habr) Кроссплатформенное использование классов .Net в 1С через Native ВК. Или замена COM на Linux II](https://habr.com/ru/articles/307188/)
 * [(Habr) 1С,.Net Core. Динамическая компиляция класса обертки для получения событий .Net объекта в 1С](https://habr.com/ru/articles/309850/)
 * [Hosting .NET Core Components in Unmanaged C/C++ Process in Windows and Linux](https://www.codeproject.com/Articles/1276328/Hosting-NET-Core-Components-in-Unmanaged-C-Cpluspl)
+* [Hosting .NET Web Service in Unmanaged C/C++ Process in Windows and Linux](https://www.codeproject.com/Articles/5344732/Hosting-NET-Web-Service-in-Unmanaged-C-Cplusplus-P)
+* [Control .NET runtime from native code](https://dev.to/tvinko/control-net-runtime-from-native-code-473f)
+* [Using .NET 7 Native AOT to call .NET functionality in C++](https://joeysenna.com/posts/nativeaot-in-c-plus-plus)
 
 ## Var
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
