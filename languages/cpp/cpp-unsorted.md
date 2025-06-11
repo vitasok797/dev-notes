@@ -88,6 +88,24 @@
 * https://stackoverflow.com/questions/27501400/the-implementation-of-stdforward
 * https://github.com/rollbear/lift
 
+## CMake
+* https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html
+* https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
+* https://habr.com/ru/articles/683204/
+* https://www.youtube.com/watch?v=sBP17HQAQjk
+* https://www.youtube.com/watch?v=_5weX5mx8hc
+* https://habr.com/ru/articles/916620/
+* `-Wtype-limits`
+* `-ftrivial-auto-var-init=pattern`, `/RTC1`
+
+## Var
+* Dev games (Instagram)
+* https://hackingcpp.com/
+* https://medium.com/techanic/how-to-properly-integrate-third-party-libraries-using-design-patterns-in-c-and-java-a6980f7184f8
+* https://pvs-studio.ru/ru/blog/posts/cpp/1129/
+* https://scrutator.me/post/2014/01/29/objects_memory_layout_p1.aspx
+* https://dyzzet.ru/a/argument-dependent-lookup/ (советы, https://k0d.cc/storage/books/C/standarty_programmirovaniya_na_c.pdf)
+
 ## ⚠️ Parameter passing
 * https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
 * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
@@ -118,21 +136,3 @@
   * 25 - Virtual Functions
   * 26 - Templates and Classes
   * 28 - Input and Output (I/O)
-
-## CMake
-* https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html
-* https://pabloariasal.github.io/2018/02/19/its-time-to-do-cmake-right/
-* https://habr.com/ru/articles/683204/
-* https://www.youtube.com/watch?v=sBP17HQAQjk
-* https://www.youtube.com/watch?v=_5weX5mx8hc
-* https://habr.com/ru/articles/916620/
-* `-Wtype-limits`
-* `-ftrivial-auto-var-init=pattern`, `/RTC1`
-
-## Var
-* Dev games (Instagram)
-* https://hackingcpp.com/
-* https://medium.com/techanic/how-to-properly-integrate-third-party-libraries-using-design-patterns-in-c-and-java-a6980f7184f8
-* https://pvs-studio.ru/ru/blog/posts/cpp/1129/
-* https://scrutator.me/post/2014/01/29/objects_memory_layout_p1.aspx
-* https://dyzzet.ru/a/argument-dependent-lookup/ (советы, https://k0d.cc/storage/books/C/standarty_programmirovaniya_na_c.pdf)
