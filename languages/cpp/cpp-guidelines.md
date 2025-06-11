@@ -1266,6 +1266,11 @@ auto get_data() -> std::tuple<int, double>
 ```cpp
          auto  x = expr;  // removes cv/ref
 decltype(auto) x = expr;  // preserves cv/ref
+
+// "auto" constness removing exceptions
+auto& ref = const_int;   // const int&
+auto* ptr = &const_int;  // const int*
+auto ptr2 = &const_int;  // const int*
 ```
 
 | Value category | auto&& | decltype(auto) |
@@ -1275,17 +1280,7 @@ decltype(auto) x = expr;  // preserves cv/ref
 | xvalue | T&& | T&& |
 | prvalue | T&& | T |
 
-#### Constness
-
-```cpp
-const auto const_int = 0;
-
-auto val = const_int;
-// auto >>> int
-
-auto& ref = const_int;
-// auto& >>> const int&
-```
+▶️[**Demo**](https://godbolt.org/z/T47jnfK8b)
 
 #### Examples
 
