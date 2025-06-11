@@ -55,7 +55,7 @@
 * gsl::narrow, gsl::narrow_cast
 * gsl::at
 
-## Structured Binding
+## ⚠️ Structured Binding
 * Snippets:
   * Errors (typical) / "Far" objects forwarding
   * Initialization / Structured Binding
@@ -88,7 +88,7 @@
 * https://stackoverflow.com/questions/27501400/the-implementation-of-stdforward
 * https://github.com/rollbear/lift
 
-## Parameter passing
+## ⚠️ Parameter passing
 * https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
 * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
 * https://hackingcpp.com/cpp/recipe/string_parameters.html
@@ -102,10 +102,7 @@
   * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
   * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
 
-## TODO
-* Dev games (Instagram)
-
-## LearnCpp
+## ⚠️ LearnCpp
 * [LearnCpp](https://www.learncpp.com/)
   * 14 - Introduction to Classes
   * 15 - More on Classes
@@ -133,6 +130,7 @@
 * `-ftrivial-auto-var-init=pattern`, `/RTC1`
 
 ## Var
+* Dev games (Instagram)
 * https://hackingcpp.com/
 * https://medium.com/techanic/how-to-properly-integrate-third-party-libraries-using-design-patterns-in-c-and-java-a6980f7184f8
 * https://pvs-studio.ru/ru/blog/posts/cpp/1129/
