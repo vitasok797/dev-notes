@@ -107,20 +107,6 @@
 * [Поиск Кёнига (ADL)](https://dyzzet.ru/a/argument-dependent-lookup/ (советы, https://k0d.cc/storage/books/C/standarty_programmirovaniya_na_c.pdf))
 * [Understanding C++ Macros](https://madhawapolkotuwa.medium.com/understanding-c-macros-850ee3f316ca)
 
-## ⚠️ Parameter passing
-* https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
-* https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
-* https://hackingcpp.com/cpp/recipe/string_parameters.html
-* https://hackingcpp.com/cpp/design/function_interface_example1.html
-* https://hackingcpp.com/cpp/design/function_interface_advice.png
-* Returning &&:
-  * Examples:
-    * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
-    * https://en.cppreference.com/w/cpp/utility/optional/value
-  * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref-ref
-  * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
-  * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
-
 ## ⚠️ LearnCpp
 * [LearnCpp](https://www.learncpp.com/)
   * 14 - Introduction to Classes
@@ -137,6 +123,20 @@
   * 25 - Virtual Functions
   * 26 - Templates and Classes
   * 28 - Input and Output (I/O)
+
+## ⚠️ Parameter passing
+* https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
+* https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
+* https://hackingcpp.com/cpp/recipe/string_parameters.html
+* https://hackingcpp.com/cpp/design/function_interface_example1.html
+* https://hackingcpp.com/cpp/design/function_interface_advice.png
+* Returning &&:
+  * Examples:
+    * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
+    * https://en.cppreference.com/w/cpp/utility/optional/value
+  * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref-ref
+  * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
+  * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
 
 ## ⚠️ Dangling references
 * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
