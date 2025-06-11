@@ -26,7 +26,13 @@
 * [Qt/.NET — Hosting .NET code in a Qt application (1/3)](https://www.qt.io/blog/qt/.net-hosting-.net-code-in-a-qt-application) ([qtdotnet](https://github.com/qt-labs/qtdotnet))
 * [Embedding .Net core in C++](https://www.reddit.com/r/dotnet/comments/16kqaf9/embedding_net_core_in_c/)
 * [Import C# Dll in delphi 10.4](https://en.delphipraxis.net/topic/11493-import-c-dll-in-delphi-104/)
+* [Using a .NET Assembly via COM in Delphi](https://blogs.embarcadero.com/using-a-net-assembly-via-com-in-delphi/)
 * [Julia & C# interoperation via Julia embedding](https://github.com/ShuhuaGao/JuliaCSharp/tree/main/Embedding)
+* [(Habr) Кроссплатформенное использование классов .Net из неуправляемого кода. Или аналог IDispatch на Linux](https://habr.com/ru/articles/304482/)
+* [(Habr) Кроссплатформенное использование классов .Net в 1С через Native ВК. Или замена COM на Linux](https://habr.com/ru/articles/304542/)
+* [(Habr) Кроссплатформенное использование классов .Net в 1С через Native ВК. Или замена COM на Linux II](https://habr.com/ru/articles/307188/)
+* [(Habr) 1С,.Net Core. Динамическая компиляция класса обертки для получения событий .Net объекта в 1С](https://habr.com/ru/articles/309850/)
+* [Hosting .NET Core Components in Unmanaged C/C++ Process in Windows and Linux](https://www.codeproject.com/Articles/1276328/Hosting-NET-Core-Components-in-Unmanaged-C-Cpluspl)
 
 ## Var
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
