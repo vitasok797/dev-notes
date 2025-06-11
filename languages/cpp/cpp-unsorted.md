@@ -138,6 +138,11 @@
   * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
   * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
 
+## ⚠️ Narrow
+* https://github.com/cpp-ru/ideas/issues/575
+* https://userver.tech/d6/d84/namespaceutils.html#ac8b2fbae044283910eddaa269ddf5167
+* https://github.com/microsoft/GSL/blob/main/include/gsl/narrow
+
 ## ⚠️ Dangling references
 * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
 * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
