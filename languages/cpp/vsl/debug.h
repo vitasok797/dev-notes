@@ -231,6 +231,7 @@ inline constexpr auto copy_watcher_config = WatcherOptions
 {
     .print_thread = false,
     .print_identity = false,
+    .print_other = false,
     .print_ctor = false,
     .print_ctor_move = false,
     .print_assign_move = false,
