@@ -758,6 +758,16 @@ auto func(T&& some_struct) -> void
 ## Functions
 
 <details>
+<summary>🚧 Decorators</summary>
+
+[C++ Python-like Decorators](https://github.com/TheMaverickProgrammer/C-Python-like-Decorators) \
+[C++ Python-like Class Member Decorators](https://github.com/TheMaverickProgrammer/C-Python-Like-Class-Member-Decorators)
+
+▶️[**Demo**](https://godbolt.org/z/Y1Psnbrj3) [[util.h](vsl/util.h)]
+
+</details>
+
+<details>
 <summary>Dispatch table</summary>
 
 ▶️[**Run**](https://godbolt.org/z/dY9qeP87v)
