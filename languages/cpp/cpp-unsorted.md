@@ -161,3 +161,7 @@
 * https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Temporary_Proxy
 * https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Policy_Clone
 * https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Virtual_Constructor
+
+## ⚠️ Internet (at work)
+* Fortran bindings
+* C++ parse
