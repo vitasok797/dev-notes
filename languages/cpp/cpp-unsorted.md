@@ -105,6 +105,7 @@
 * https://pvs-studio.ru/ru/blog/posts/cpp/1129/
 * https://scrutator.me/post/2014/01/29/objects_memory_layout_p1.aspx
 * https://dyzzet.ru/a/argument-dependent-lookup/ (советы, https://k0d.cc/storage/books/C/standarty_programmirovaniya_na_c.pdf)
+* https://madhawapolkotuwa.medium.com/understanding-c-macros-850ee3f316ca
 
 ## ⚠️ Parameter passing
 * https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
