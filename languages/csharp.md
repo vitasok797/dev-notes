@@ -22,6 +22,7 @@
 ## ⚠️ Embedding
 * [Write a custom .NET host to control the .NET runtime from your native code](https://learn.microsoft.com/en-us/dotnet/core/tutorials/netcore-hosting)
 * [Native hosting](https://github.com/dotnet/runtime/blob/main/docs/design/features/native-hosting.md)
+* [.NET Hosting Sample](https://github.com/dotnet/samples/tree/main/core/hosting)
 * [nethost vcpkg package](https://vcpkg.io/en/package/nethost)
 * [Qt/.NET — Hosting .NET code in a Qt application (1/3)](https://www.qt.io/blog/qt/.net-hosting-.net-code-in-a-qt-application) ([qtdotnet](https://github.com/qt-labs/qtdotnet))
 * [Embedding .Net core in C++](https://www.reddit.com/r/dotnet/comments/16kqaf9/embedding_net_core_in_c/)
