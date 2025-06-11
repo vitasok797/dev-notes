@@ -71,6 +71,8 @@
   * [Clang UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html)
   * [Clang AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html)
   * [Clang hardware-assisted AddressSanitizer](https://clang.llvm.org/docs/HardwareAssistedAddressSanitizerDesign.html)
+* Includes optimization:
+  * [include-what-you-use](https://github.com/include-what-you-use/include-what-you-use)
 
 ## Visual Studio
 * [Visual Studio 2022 Release History](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
@@ -130,6 +132,7 @@
 
 ## Speed up build
 * [Ускорение сборки C и C++ проектов](https://pvs-studio.ru/ru/blog/posts/cpp/0549/)
+* [(Youtube) Why Is My C++ Build So Slow? Compilation Profiling and Visualization](https://www.youtube.com/watch?v=Oih3K-3eZ4Y)
 
 ## Var
 * [C++ developer Roadmap](https://roadmap.sh/cpp)
