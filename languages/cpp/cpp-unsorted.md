@@ -129,6 +129,8 @@
 * https://www.youtube.com/watch?v=sBP17HQAQjk
 * https://www.youtube.com/watch?v=_5weX5mx8hc
 * https://habr.com/ru/articles/916620/
+* `-Wtype-limits`
+* `-ftrivial-auto-var-init=pattern`, `/RTC1`
 
 ## Var
 * https://hackingcpp.com/
