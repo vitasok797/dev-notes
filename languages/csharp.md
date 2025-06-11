@@ -24,6 +24,7 @@
 * [Native hosting](https://github.com/dotnet/runtime/blob/main/docs/design/features/native-hosting.md)
 * [.NET Hosting Sample](https://github.com/dotnet/samples/tree/main/core/hosting)
 * [nethost vcpkg package](https://vcpkg.io/en/package/nethost)
+* [Interoperating with unmanaged code](https://learn.microsoft.com/en-us/dotnet/framework/interop/)
 * [Qt/.NET — Hosting .NET code in a Qt application (1/3)](https://www.qt.io/blog/qt/.net-hosting-.net-code-in-a-qt-application) ([qtdotnet](https://github.com/qt-labs/qtdotnet))
 * [Embedding .Net core in C++](https://www.reddit.com/r/dotnet/comments/16kqaf9/embedding_net_core_in_c/)
 * [Import C# Dll in delphi 10.4](https://en.delphipraxis.net/topic/11493-import-c-dll-in-delphi-104/)
