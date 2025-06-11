@@ -101,7 +101,12 @@
 * [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
 * [(StackOverflow) How to generate an import library (LIB-file) from a DLL?](https://stackoverflow.com/questions/9946322/how-to-generate-an-import-library-lib-file-from-a-dll)
 
-## Mixing runtime libraries (dll boundaries)
+## Mixing
+
+### Mixing / Languages
+* [How to mix C and C++](https://isocpp.org/wiki/faq/mixing-c-and-cpp)
+
+### Mixing / Runtime libraries (dll boundaries)
 * Guides:
   * [DLL dos and don’ts](http://rvelthuis.de/articles/articles-dlls.html)
   * [Разработка API (контракта) для своей DLL](https://www.gunsmoker.ru/2019/06/developing-DLL-API.html)
@@ -117,16 +122,17 @@
 * [(StackOverflow) How to make consistent dll binaries across VS versions?](https://stackoverflow.com/questions/232926/how-to-make-consistent-dll-binaries-across-vs-versions)
 * [(StackOverflow) C++ test if two DLLs share the same heap](https://stackoverflow.com/questions/73973154/c-test-if-two-dlls-share-the-same-heap)
 
-## Mixed compilers linkage
+### Mixing / Mixed compilers linkage
 * <https://gitlab.kitware.com/cmake/cmake/-/issues/25533>
 * <https://gitlab.kitware.com/cmake/cmake/-/issues/25598>
 * <https://gitlab.kitware.com/cmake/cmake/-/issues/25620>
 * <https://stackoverflow.com/questions/1867745/cmake-use-a-custom-linker>
+
+## Speed up build
+* [Ускорение сборки C и C++ проектов](https://pvs-studio.ru/ru/blog/posts/cpp/0549/)
 
 ## Var
 * [C++ developer Roadmap](https://roadmap.sh/cpp)
 * [Beautiful Native Libraries](https://lucumr.pocoo.org/2013/8/18/beautiful-native-libraries/)
 * [Canonical Project Structure](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2018/p1204r0.html)
 * [Ужасное состояние двоичной совместимости Linux](https://habr.com/ru/articles/893720/)
-* [How to mix C and C++](https://isocpp.org/wiki/faq/mixing-c-and-cpp)
-* [Ускорение сборки C и C++ проектов](https://pvs-studio.ru/ru/blog/posts/cpp/0549/)
