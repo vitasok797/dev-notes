@@ -1280,7 +1280,7 @@ auto  ptr = &const_int;  // const int*
 | xvalue | T&& | T&& |
 | prvalue | T&& | T |
 
-▶️[**Demo**](https://godbolt.org/z/hfMPfbeaf)
+▶️[**Demo**](https://godbolt.org/z/bcWW1oee7)
 
 #### Examples
 
