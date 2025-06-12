@@ -89,7 +89,7 @@ private:
 #### Member functions syntax
 
 ```cpp
-[virtual] [static/inline] [constexpr] auto member_func() [const] [&/&&] [noexcept] -> TYPE [override/final]
+[virtual] [static/inline] [constexpr] auto member_func() [const] [&/&&] [noexcept] [-> TYPE] [override/final]
 ```
 
 #### Specifiers: virtual/override/final
@@ -1378,11 +1378,11 @@ auto i = {3};  // C++11: std::initializer_list<int>
 #### Trailing return type
 
 ```cpp
-[static/inline] [constexpr] auto non_member_func() [noexcept] -> TYPE
+[static/inline] [constexpr] auto non_member_func() [noexcept] [-> TYPE]
 ```
 
 ```cpp
-[virtual] [static/inline] [constexpr] auto member_func() [const] [&/&&] [noexcept] -> TYPE [override/final]
+[virtual] [static/inline] [constexpr] auto member_func() [const] [&/&&] [noexcept] [-> TYPE] [override/final]
 ```
 
 #### Trailing return type (type deduction)
