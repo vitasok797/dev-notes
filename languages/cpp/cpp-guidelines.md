@@ -194,25 +194,6 @@ public:
 };
 ```
 
-#### Example
-
-```cpp
-class ITest
-{
-public:
-    virtual auto test1() const -> void = 0;
-    virtual auto test2() const -> void = 0;
-    virtual ~ITest() = default;
-};
-
-class Test : public ITest
-{
-public:
-    auto test1() const -> void override {...}
-    auto test2() const -> void override {...}
-};
-```
-
 ▶️[**Demo**](https://godbolt.org/z/9sh3defGq)
 
 </details>
