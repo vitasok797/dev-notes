@@ -138,35 +138,21 @@ class AbstractBase
 {
 public:
     virtual ~AbstractBase() = 0;
+
+    auto func1() [const] [&/&&] [noexcept] [-> TYPE] {...}
+    virtual auto func2() [const] [&/&&] [noexcept] -> TYPE {...}
+    virtual auto func3() [const] [&/&&] [noexcept] -> TYPE = 0;
 };
 
 inline AbstractBase::~AbstractBase() {}
 ```
 
-#### Example
-
 ```cpp
-class AbstractBase
+class Derived [final] : public AbstractBase
 {
 public:
-    virtual ~AbstractBase() = 0;
-
-    auto process() const -> void
-    {
-        step1();
-        step2();
-    }
-
-    virtual auto step1() const -> void {...}
-    virtual auto step2() const -> void {...}
-};
-
-inline AbstractBase::~AbstractBase() {}
-
-class Derived : public AbstractBase
-{
-public:
-    auto step2() const -> void override {...}
+    auto func2() [const] [&/&&] [noexcept] -> TYPE override/final {...}
+    auto func3() [const] [&/&&] [noexcept] -> TYPE override/final {...}
 };
 ```
 
@@ -189,7 +175,7 @@ public:
 ```
 
 ```cpp
-class Test : public ITest
+class Test [final] : public ITest
 {
 public:
     auto func() [const] [&/&&] [noexcept] -> TYPE override/final {...}
