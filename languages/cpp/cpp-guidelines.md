@@ -184,7 +184,7 @@ class ITest
 {
 public:
     virtual auto func() [const] [&/&&] [noexcept] -> TYPE = 0;
-    virtual ~IFace() = default;
+    virtual ~ITest() = default;
 };
 
 class Test : public ITest
