@@ -75,6 +75,7 @@ struct WatcherOptions
     bool print_assign_copy = true;
     bool print_assign_move = true;
     bool print_destructor = true;
+    bool print_full_operation_category = true;
 };
 
 template<WatcherOptions options = {}>
@@ -83,34 +84,26 @@ class WatcherBase final
 public:
     WatcherBase() noexcept : index_{++counter_}
     {
-        if (options.print_ctor)
-        {
-            print_event("constructed");
-        }
+        if (!options.print_ctor) return;
+        print_event("constructed");
     }
 
     WatcherBase(int) noexcept : index_{++counter_}
     {
-        if (options.print_ctor)
-        {
-            print_event("constructed ctor1");
-        }
+        if (!options.print_ctor) return;
+        print_event("constructed ctor1");
     }
 
     WatcherBase(int, int) noexcept : index_{++counter_}
     {
-        if (options.print_ctor)
-        {
-            print_event("constructed ctor2");
-        }
+        if (!options.print_ctor) return;
+        print_event("constructed ctor2");
     }
 
     WatcherBase(const std::string& marker) noexcept : marker_{marker}
     {
-        if (options.print_ctor)
-        {
-            print_event("constructed");
-        }
+        if (!options.print_ctor) return;
+        print_event("constructed");
     }
 
     WatcherBase(const WatcherBase& other) noexcept :
@@ -119,7 +112,8 @@ public:
     {
         if (options.print_ctor_copy)
         {
-            print_event("COPY constructed", &other);
+            auto message = options.print_full_operation_category ? "COPY constructed" : "COPY";
+            print_event(message, &other);
         }
     }
 
@@ -129,7 +123,8 @@ public:
     {
         if (options.print_ctor_move)
         {
-            print_event("move constructed", &other);
+            auto message = options.print_full_operation_category ? "move constructed" : "move";
+            print_event(message, &other);
         }
 
         other.moved_ = true;
@@ -139,7 +134,8 @@ public:
     {
         if (options.print_assign_copy)
         {
-            print_event("COPY assigned", &other);
+            auto message = options.print_full_operation_category ? "COPY assigned" : "COPY=";
+            print_event(message, &other);
         }
 
         moved_ = false;
@@ -150,7 +146,8 @@ public:
     {
         if (options.print_assign_move)
         {
-            print_event("move assigned", &other);
+            auto message = options.print_full_operation_category ? "move assigned" : "move=";
+            print_event(message, &other);
         }
 
         moved_ = false;
@@ -160,10 +157,8 @@ public:
 
     ~WatcherBase() noexcept
     {
-        if (options.print_destructor)
-        {
-            print_event("destroyed");
-        }
+        if (!options.print_destructor) return;
+        print_event("destroyed");
     }
 
 private:
@@ -236,6 +231,7 @@ inline constexpr auto copy_watcher_config = WatcherOptions
     .print_ctor_move = false,
     .print_assign_move = false,
     .print_destructor = false,
+    .print_full_operation_category = false,
 };
 
 inline constexpr auto ctor_watcher_config = WatcherOptions
@@ -246,6 +242,7 @@ inline constexpr auto ctor_watcher_config = WatcherOptions
     .print_assign_copy = false,
     .print_assign_move = false,
     .print_destructor = false,
+    .print_full_operation_category = false,
 };
 
 }  // namespace detail
