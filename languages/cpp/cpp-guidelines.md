@@ -180,12 +180,17 @@ public:
 #### Prototype
 
 ```cpp
-class IFace
+class ITest
 {
 public:
-    virtual auto func1() [const] [&/&&] [noexcept] -> TYPE = 0;
-    virtual auto func2() [const] [&/&&] [noexcept] -> TYPE = 0;
+    virtual auto func() [const] [&/&&] [noexcept] -> TYPE = 0;
     virtual ~IFace() = default;
+};
+
+class Test : public ITest
+{
+public:
+    auto func() [const] [&/&&] [noexcept] -> TYPE override/final {...}
 };
 ```
 
