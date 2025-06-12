@@ -186,7 +186,9 @@ public:
     virtual auto func() [const] [&/&&] [noexcept] -> TYPE = 0;
     virtual ~ITest() = default;
 };
+```
 
+```cpp
 class Test : public ITest
 {
 public:
