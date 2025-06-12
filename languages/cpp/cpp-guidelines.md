@@ -139,9 +139,9 @@ class AbstractBase
 public:
     virtual ~AbstractBase() = 0;
 
-    auto func1() [const] [&/&&] [noexcept] [-> TYPE] {...}
-    virtual auto func2() [const] [&/&&] [noexcept] -> TYPE {...}
-    virtual auto func3() [const] [&/&&] [noexcept] -> TYPE = 0;
+    auto func() [const] [&/&&] [noexcept] [-> TYPE] {...}        // non virtual
+    virtual auto func() [const] [&/&&] [noexcept] -> TYPE {...}  // virtual
+    virtual auto func() [const] [&/&&] [noexcept] -> TYPE = 0;   // pure virtual
 };
 
 inline AbstractBase::~AbstractBase() {}
@@ -151,8 +151,7 @@ inline AbstractBase::~AbstractBase() {}
 class Derived [final] : public AbstractBase
 {
 public:
-    auto func2() [const] [&/&&] [noexcept] -> TYPE override/final {...}
-    auto func3() [const] [&/&&] [noexcept] -> TYPE override/final {...}
+    auto func() [const] [&/&&] [noexcept] -> TYPE override/final {...}  // overriden virtual
 };
 ```
 
