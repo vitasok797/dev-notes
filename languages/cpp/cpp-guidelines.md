@@ -746,7 +746,7 @@ auto func(T&& some_struct) -> void
 <details>
 <summary>Dispatch table</summary>
 
-▶️[**Run**](https://godbolt.org/z/dY9qeP87v)
+▶️[**Run**](https://godbolt.org/z/1eaK9Kaj1)
 
 ```cpp
 #include <functional>
@@ -760,7 +760,7 @@ auto add(double a, double b) -> double
 
 struct Sub
 {
-    auto operator()(double a, double b) -> double
+    auto operator()(double a, double b) const -> double
     {
         return a - b;
     }
