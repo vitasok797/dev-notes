@@ -80,14 +80,14 @@ You can add text within a collapsed section.
 ## Directory tree
 
 ```
-[root]
-├── [dir]
-│   ├── [dir]
+root
+├── dir/
+│   ├── dir/
 │   │   ├── file.txt
 │   │   └── file.txt
 │   ├── file.txt
 │   └── file.txt
-├── [dir]
+├── dir/
 │   ├── file.txt
 │   └── file.txt
 ├── file.txt
@@ -95,14 +95,14 @@ You can add text within a collapsed section.
 ```
 
 ```
-[root]
-├─ [dir]
-│  ├─ [dir]
+root
+├─ dir/
+│  ├─ dir/
 │  │  ├─ file.txt
 │  │  └─ file.txt
 │  ├─ file.txt
 │  └─ file.txt
-├─ [dir]
+├─ dir/
 │  ├─ file.txt
 │  └─ file.txt
 ├─ file.txt
