@@ -3176,7 +3176,7 @@ auto main() -> int
 ## Var
 
 <details>
-<summary>🚧🚧🚧 Includes</summary>
+<summary>Includes</summary>
 
 #### Order of includes
 
@@ -3199,10 +3199,6 @@ auto main() -> int
 #include <initializer_list>
 #endif
 ```
-
-#### Form of includes
-
-🚧
 
 </details>
 
