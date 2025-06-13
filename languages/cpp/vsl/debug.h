@@ -47,7 +47,7 @@ constexpr auto get_type_info()
     return name;
 }
 
-inline auto get_thread_unique_num() -> int
+inline auto get_thread_unique_num() noexcept -> int
 {
     static auto next_thread_num = std::atomic<int>{0};
     static thread_local auto thread_num = next_thread_num.fetch_add(1);
