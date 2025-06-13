@@ -2,6 +2,7 @@
 #define VSL_UTIL_H
 
 #include <cstddef>
+#include <cstdint>
 #include <functional>
 #include <optional>
 #include <type_traits>
