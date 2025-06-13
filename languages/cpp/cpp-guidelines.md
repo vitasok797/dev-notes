@@ -3190,10 +3190,7 @@ auto main() -> int
 // Third party headers
 #include <range/v3/all.hpp>
 
-// C system headers
-#include <stdlib.h>
-
-// C++ system headers
+// System headers
 #include <iostream>
 #include <vector>
 ```
