@@ -76,3 +76,14 @@ You can add text within a collapsed section.
    print(f'val={x}')
 ```
 </details>
+
+## Directory tree
+
+```
+root
+├── dir
+│   ├── file.txt
+│   └── file.txt
+├── file.txt
+└── file.txt
+```
