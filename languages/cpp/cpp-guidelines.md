@@ -3197,7 +3197,9 @@ auto main() -> int
 │   ├── subdir/
 │   │   └── ...
 │   ├── detail/
-│   │   └── *.h
+│   │   ├── *.h
+│   │   ├── *.cpp
+│   │   └── *.test.cpp
 │   ├── *.h
 │   ├── *.cpp
 │   └── *.test.cpp
