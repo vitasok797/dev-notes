@@ -156,7 +156,7 @@ public:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/v3WsMEjbG)
+▶️[**Demo**](https://godbolt.org/z/jM6ddTdnf)
 
 </details>
 
@@ -183,7 +183,7 @@ public:
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/9sh3defGq)
+▶️[**Demo**](https://godbolt.org/z/hEhsjsjn3)
 
 </details>
 
