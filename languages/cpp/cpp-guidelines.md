@@ -3181,7 +3181,7 @@ auto main() -> int
 #### Order of includes
 
 ```cpp
-// Related header (if exists)
+// Corresponding header (if exists)
 #include <my_project/self.h>
 
 // Current project headers
