@@ -3189,8 +3189,30 @@ auto main() -> int
 </details>
 
 <details>
-<summary>🚧🚧🚧 Project organization</summary>
+<summary>Project organization</summary>
 
-🚧
+```
+project_name
+├── project_name/
+│   ├── detail/
+│   │   └── *.h
+│   ├── *.h
+│   ├── *.cpp
+│   └── *.test.cpp
+├── build/
+├── cmake/
+│   └── *.cmake
+├── doc/
+├── example/
+├── test/
+│   ├── subdir/
+│   │   └── *.cpp
+│   └── *.cpp
+├── CMakeLists.txt
+├── CMakePresets.json
+├── CMakeUserPresets.json
+├── vcpkg.json
+└── scripts
+```
 
 </details>
