@@ -3204,11 +3204,11 @@ project_name
 │   └── *.cmake
 ├── doc/
 ├── example/
+├── external/
 ├── test/
 │   ├── subdir/
 │   │   └── *.cpp
 │   └── *.cpp
-├── third_party/
 ├── CMakeLists.txt
 ├── CMakePresets.json
 ├── CMakeUserPresets.json
