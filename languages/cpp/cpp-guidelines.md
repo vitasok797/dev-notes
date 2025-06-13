@@ -2362,7 +2362,7 @@ auto main() -> int
 
 [(Modernes C++) Policy](https://www.modernescpp.com/index.php/policy-and-traits/)
 
-▶️[**Run**](https://godbolt.org/z/Ya8E1sf19)
+▶️[**Run**](https://godbolt.org/z/rhsTfbbP6)
 
 ```cpp
 #include <iostream>
@@ -2396,7 +2396,7 @@ private:
 
 struct PolicyA
 {
-    auto configure(ConfigurableClass<PolicyA>& self) -> void
+    auto configure(ConfigurableClass<PolicyA>& self) const -> void
     {
         self.callback();
         self.option_ = 42;
@@ -2405,7 +2405,7 @@ struct PolicyA
 
 struct PolicyB
 {
-    auto configure(ConfigurableClass<PolicyB>& self) -> void
+    auto configure(ConfigurableClass<PolicyB>& self) const -> void
     {
         self.option_ = 333;
     }
