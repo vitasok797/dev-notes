@@ -3221,7 +3221,7 @@ auto main() -> int
 ├── cmake/
 │   └── *.cmake
 ├── doc/
-├── examples/
+├── example/
 ├── external/
 ├── test/
 │   ├── subdir/
