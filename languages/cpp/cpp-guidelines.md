@@ -3208,6 +3208,7 @@ project_name
 │   ├── subdir/
 │   │   └── *.cpp
 │   └── *.cpp
+├── third_party/
 ├── CMakeLists.txt
 ├── CMakePresets.json
 ├── CMakeUserPresets.json
