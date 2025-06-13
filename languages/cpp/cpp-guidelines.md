@@ -3203,7 +3203,7 @@ project_name
 ├── cmake/
 │   └── *.cmake
 ├── doc/
-├── example/
+├── examples/
 ├── external/
 ├── test/
 │   ├── subdir/
