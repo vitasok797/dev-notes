@@ -3193,6 +3193,11 @@ auto main() -> int
 // Standard headers
 #include <iostream>
 #include <vector>
+
+// Conditional includes
+#ifdef LANG_CXX11
+#include <initializer_list>
+#endif
 ```
 
 #### Form of includes
