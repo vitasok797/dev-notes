@@ -3180,7 +3180,23 @@ auto main() -> int
 
 #### Order of includes
 
-🚧
+```cpp
+// Related header (if exists)
+#include <my_project/self.h>
+
+// Current project headers
+#include <my_project/other.h>
+
+// Third party headers
+#include <range/v3/all.hpp>
+
+// C system headers
+#include <stdlib.h>
+
+// C++ system headers
+#include <iostream>
+#include <vector>
+```
 
 #### Form of includes
 
