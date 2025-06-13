@@ -80,10 +80,31 @@ You can add text within a collapsed section.
 ## Directory tree
 
 ```
-root
-├── dir
+[root]
+├── [dir]
+│   ├── [dir]
+│   │   ├── file.txt
+│   │   └── file.txt
+│   ├── file.txt
+│   └── file.txt
+├── [dir]
 │   ├── file.txt
 │   └── file.txt
 ├── file.txt
 └── file.txt
+```
+
+```
+[root]
+├─ [dir]
+│  ├─ [dir]
+│  │  ├─ file.txt
+│  │  └─ file.txt
+│  ├─ file.txt
+│  └─ file.txt
+├─ [dir]
+│  ├─ file.txt
+│  └─ file.txt
+├─ file.txt
+└─ file.txt
 ```
