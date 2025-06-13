@@ -823,7 +823,7 @@ auto main() -> int
 <details>
 <summary>Function object</summary>
 
-▶️[**Run**](https://godbolt.org/z/cbW5hGGKK)
+▶️[**Run**](https://godbolt.org/z/Wzeesaq73)
 
 ```cpp
 #include <iostream>
@@ -838,8 +838,8 @@ struct Compare
 
 struct PrintValue
 {
-    auto operator()(int val) -> void { std::cout << "int: " << val << std::endl; }
-    auto operator()(double val) -> void { std::cout << "double: " << val << std::endl; }
+    auto operator()(int val) const -> void { std::cout << "int: " << val << std::endl; }
+    auto operator()(double val) const -> void { std::cout << "double: " << val << std::endl; }
 };
 
 inline constexpr auto compare = Compare{};
