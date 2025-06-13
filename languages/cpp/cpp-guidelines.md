@@ -151,6 +151,7 @@ inline AbstractBase::~AbstractBase() {}
 class Derived [final] : public AbstractBase
 {
 public:
+    auto func() [const] [&/&&] [noexcept] [-> TYPE] {...}               // non virtual
     auto func() [const] [&/&&] [noexcept] -> TYPE override/final {...}  // overriden virtual
 };
 ```
