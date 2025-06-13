@@ -3192,8 +3192,8 @@ auto main() -> int
 <summary>Project organization</summary>
 
 ```
-project_name
-├── project_name/
+<project_name>
+├── <project_name>/
 │   ├── detail/
 │   │   └── *.h
 │   ├── *.h
