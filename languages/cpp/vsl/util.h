@@ -52,7 +52,7 @@ constexpr auto forward_like(U&& x) noexcept -> auto&&
 
 // CRTP underlying type casting helper
 template<typename Und, typename Ptr>
-auto this_to(Ptr* this_ptr) -> decltype(auto)
+auto this_to(Ptr* this_ptr) noexcept -> decltype(auto)
 {
     using input_type = std::remove_pointer_t<Ptr>;
     using output_type = std::conditional_t<std::is_const_v<input_type>, const Und&, Und&>;
