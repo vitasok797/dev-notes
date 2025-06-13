@@ -3194,6 +3194,8 @@ auto main() -> int
 ```
 <project_name>
 ├── <project_name>/
+│   ├── subdir/
+│   │   └── ...
 │   ├── detail/
 │   │   └── *.h
 │   ├── *.h
