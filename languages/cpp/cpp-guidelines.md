@@ -3211,8 +3211,8 @@ auto main() -> int
 ├── external/
 ├── test/
 │   ├── subdir/
-│   │   └── *.cpp
-│   └── *.cpp
+│   │   └── *_test.cpp
+│   └── *_test.cpp
 ├── tools/
 ├── CMakeLists.txt
 ├── CMakePresets.json
