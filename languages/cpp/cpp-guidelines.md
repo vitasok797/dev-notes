@@ -1782,12 +1782,13 @@ std::cout << ranges::contains(v, 999) << std::endl;
 <details>
 <summary>Copy to ostream</summary>
 
-▶️[**Run**](https://godbolt.org/z/ExKd483K5)
+▶️[**Run**](https://godbolt.org/z/qxx3rqM1d)
 
 ```cpp
+#include <range/v3/all.hpp>
+
 #include <iostream>
 #include <vector>
-#include <range/v3/all.hpp>
 
 auto main() -> int
 {
@@ -1810,13 +1811,14 @@ auto main() -> int
 <details>
 <summary>Custom views</summary>
 
-▶️[**Run**](https://godbolt.org/z/xWhbK719d)
+▶️[**Run**](https://godbolt.org/z/YvW3TP1zs)
 
 ```cpp
+#include <range/v3/all.hpp>
+
 #include <format>
 #include <iostream>
 #include <vector>
-#include <range/v3/all.hpp>
 
 struct Person
 {
@@ -1910,12 +1912,13 @@ auto odd_numbers = v | ranges::views::remove_if(is_even);
 <details>
 <summary>Group by</summary>
 
-▶️[**Run**](https://godbolt.org/z/xb6K58EhT)
+▶️[**Run**](https://godbolt.org/z/c5chY953M)
 
 ```cpp
+#include <range/v3/all.hpp>
+
 #include <iostream>
 #include <vector>
-#include <range/v3/all.hpp>
 
 struct Person
 {
@@ -1958,12 +1961,13 @@ auto main() -> int
 <details>
 <summary>Projections</summary>
 
-▶️[**Run**](https://godbolt.org/z/Wz66dqMGM)
+▶️[**Run**](https://godbolt.org/z/33n5xEcGc)
 
 ```cpp
+#include <range/v3/all.hpp>
+
 #include <iostream>
 #include <vector>
-#include <range/v3/all.hpp>
 
 struct S
 {
@@ -2086,9 +2090,10 @@ auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); })
 <summary>String: trim and uppercase</summary>
 
 ```cpp
+#include <range/v3/all.hpp>
+
 #include <iomanip>
 #include <iostream>
-#include <range/v3/all.hpp>
 
 auto main() -> int
 {
