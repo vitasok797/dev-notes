@@ -1118,13 +1118,13 @@ auto test(F f) -> void
 
 Libs: [strong_type](https://github.com/rollbear/strong_type)
 
-▶️[**Run**](https://godbolt.org/z/cae8zT3jT)
+▶️[**Run**](https://godbolt.org/z/6KPs48xGM)
 
 ```cpp
+#include <strong_type/strong_type.hpp>
+
 #include <iostream>
 #include <string>
-
-#include <strong_type/strong_type.hpp>
 
 using FirstName = strong::type<std::string, struct FirstName_tag>;
 using LastName = strong::type<std::string, struct LastName_tag>;
@@ -2288,14 +2288,14 @@ auto return_tuple() -> std::tuple<int, Type> { return {0, Type{1, 2}}; }
 
 Libs: [fmt](https://github.com/fmtlib/fmt)
 
-▶️[**Run**](https://godbolt.org/z/T59E8f48n)
+▶️[**Run**](https://godbolt.org/z/odeEKh8df)
 
 ```cpp
-#include <string>
-#include <vector>
-
 #include <fmt/format.h>
 #include <fmt/ranges.h>
+
+#include <string>
+#include <vector>
 
 auto main() -> int
 {
@@ -2872,12 +2872,12 @@ auto main() -> int
 
 Libs: [magic_enum](https://github.com/Neargye/magic_enum)
 
-▶️[**Run**](https://godbolt.org/z/zecvsK9Mf)
+▶️[**Run**](https://godbolt.org/z/Gjb5n7jzz)
 
 ```cpp
-#include <cstdint>
-
 #include <magic_enum/magic_enum_containers.hpp>
+
+#include <cstdint>
 
 // ----------------------------------------------------------------------------------------------
 
