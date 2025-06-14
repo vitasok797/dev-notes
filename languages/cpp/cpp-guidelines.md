@@ -270,7 +270,7 @@ struct Summary
     // static const
     static inline const ...
 
-    // non-static const
+    // non-static const (implicitly deletes assignment operators)
     const ...
 };
 ```
@@ -302,12 +302,12 @@ struct NonStatic
     // non-static mutable
     std::string mutable_str{"non-static mutable str"};
 
-    // non-static const
+    // non-static const (implicitly deletes assignment operators)
     const std::string const_str{"non-static const str"};
 };
 ```
 
-▶️[**Demo**](https://godbolt.org/z/7bKoo59Mv)
+▶️[**Demo**](https://godbolt.org/z/8q7fT4YcT)
 
 </details>
 
