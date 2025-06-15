@@ -1515,10 +1515,10 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 
 #### Demos
 
-▶️[**Demo** (arithmetic)](https://godbolt.org/z/eThdxbf3M) [[util.h](vsl/util.h)] \
-▶️[**Demo** (compare)](https://godbolt.org/z/ohTGxsqhf) [[util.h](vsl/util.h)] \
-▶️[**Demo** (index)](https://godbolt.org/z/7Kn67v4Gx) [[util.h](vsl/util.h)] \
-▶️[**Demo** (accumulate)](https://godbolt.org/z/EMnqPEsa9) [[util.h](vsl/util.h)]
+▶️[**Demo** (arithmetic)](https://godbolt.org/z/ar9WcvhKd) [[util.h](vsl/util.h)] \
+▶️[**Demo** (compare)](https://godbolt.org/z/KbqTq6qK8) [[util.h](vsl/util.h)] \
+▶️[**Demo** (index)](https://godbolt.org/z/61bPdacfe) [[util.h](vsl/util.h)] \
+▶️[**Demo** (accumulate)](https://godbolt.org/z/bvEd7oMvd) [[util.h](vsl/util.h)]
 
 #### `-Wsign-compare` compiler option
 
