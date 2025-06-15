@@ -739,7 +739,7 @@ auto func(T&& some_struct) -> void
 [C++ Python-like Class Member Decorators](https://github.com/TheMaverickProgrammer/C-Python-Like-Class-Member-Decorators) \
 [(reddit) Python function decorators in modern C++ (without magic macros)](https://www.reddit.com/r/cpp/comments/cm2g4l/python_function_decorators_in_modern_c_without/)
 
-▶️[**Demo**](https://godbolt.org/z/rhP79dnsr) [[util.h](vsl/util.h)]
+▶️[**Demo**](https://godbolt.org/z/4oc67ech1) [[util.h](vsl/util.h)]
 
 </details>
 
@@ -1060,7 +1060,7 @@ requires vsl::same_type_as<T, std::string>
 auto func(T&& x) -> void {}
 ```
 
-▶️[**Demo**](https://godbolt.org/z/WW4Y1fYPv) [[concepts.h](vsl/concepts.h), [debug.h](vsl/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/nKG1TWb7E) [[concepts.h](vsl/concepts.h), [debug.h](vsl/debug.h)]
 
 </details>
 
@@ -1107,7 +1107,7 @@ auto test(F f) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/Pn3c674d3) [[concepts.h](vsl/concepts.h)]
+▶️[**Demo**](https://godbolt.org/z/r195Y13Tf) [[concepts.h](vsl/concepts.h)]
 
 </details>
 
@@ -1495,7 +1495,7 @@ for (const auto& [k, v] : mymap) {...}
 
 [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
 
-▶️[**Demo**](https://godbolt.org/z/6ccfGq9YP) [[math.h](vsl/math.h)]
+▶️[**Demo**](https://godbolt.org/z/fqxGa71fE) [[math.h](vsl/math.h)]
 
 </details>
 
