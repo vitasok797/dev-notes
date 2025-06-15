@@ -27,6 +27,18 @@
   * [nethost vcpkg package](https://vcpkg.io/en/package/nethost)
   * [Interoperating with unmanaged code](https://learn.microsoft.com/en-us/dotnet/framework/interop/)
   * [DNNE](https://github.com/AaronRobinsonMSFT/DNNE)
+* MS tickets:
+  * [Question / Suggestion: Allow managed exports (UnmanagedCallersOnly) in non AOT scenarios](https://github.com/dotnet/runtime/issues/90126)
+  * [Make DllExport attribute to be built-in into .net](https://github.com/dotnet/runtime/issues/37556)
+  * [Support PInvoke exports via regular LoadLibrary/etc. without setting up runtime first](https://github.com/dotnet/runtime/issues/3750)
+  * [Allow C# to export functions and constants to native code](https://github.com/dotnet/csharplang/discussions/308)
+  * [Support single-file distribution](https://github.com/dotnet/runtime/issues/11201)
+* StackOverflow:
+  * [Search Results: DNNE](https://stackoverflow.com/search?q=dnne)
+  * [UnmanagedCallersOnly and struct as return value](https://stackoverflow.com/questions/79381121/unmanagedcallersonly-and-struct-as-return-value)
+  * [How to call .NET DLL from Inno Setup using DNNE?](https://stackoverflow.com/questions/72415005/how-to-call-net-dll-from-inno-setup-using-dnne)
+  * [C# Delphi Interop handling of strings](https://stackoverflow.com/questions/79393500/c-sharp-delphi-interop-handling-of-strings)
+  * [C# DLL (using 3F DLLExport for exporting functions) not debuggable in Delphi application](https://stackoverflow.com/questions/78155240/c-sharp-dll-using-3f-dllexport-for-exporting-functions-not-debuggable-in-delph)
 * Reddit:
   * [Embedding .Net core in C++](https://www.reddit.com/r/dotnet/comments/16kqaf9/embedding_net_core_in_c/)
   * [Question: Native Exports .NET 5/6 with DNNE ](https://www.reddit.com/r/dotnet/comments/urkdxr/question_native_exports_net_56_with_dnne/)
