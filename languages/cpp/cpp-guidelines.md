@@ -1606,7 +1606,7 @@ auto main() -> int
 <details>
 <summary>std::async</summary>
 
-▶️[**Demo**](https://godbolt.org/z/YhjhEW8nM) [[async.h](vsl/async.h), [debug.h](vsl/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/ceocqE4Mj) [[async.h](vsl/async.h), [debug.h](vsl/debug.h)]
 
 </details>
 
@@ -2247,8 +2247,8 @@ auto& value = *opt;
 // use: value
 ```
 
-▶️[**Demo** (initialization)](https://godbolt.org/z/jzY5cafqh) [[debug.h](vsl/debug.h)] \
-▶️[**Demo** (usage)](https://godbolt.org/z/d148qf3vj) [[util.h](vsl/util.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/6h3zT7zKz) [[debug.h](vsl/debug.h)] \
+▶️[**Demo** (usage)](https://godbolt.org/z/eP9x3KzoK) [[util.h](vsl/util.h)]
 
 </details>
 
