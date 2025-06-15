@@ -26,8 +26,11 @@
   * [.NET Hosting Sample](https://github.com/dotnet/samples/tree/main/core/hosting)
   * [nethost vcpkg package](https://vcpkg.io/en/package/nethost)
   * [Interoperating with unmanaged code](https://learn.microsoft.com/en-us/dotnet/framework/interop/)
+  * [DNNE](https://github.com/AaronRobinsonMSFT/DNNE)
 * Reddit:
   * [Embedding .Net core in C++](https://www.reddit.com/r/dotnet/comments/16kqaf9/embedding_net_core_in_c/)
+  * [Question: Native Exports .NET 5/6 with DNNE ](https://www.reddit.com/r/dotnet/comments/urkdxr/question_native_exports_net_56_with_dnne/)
+  * [Question: .NET 5 Native Export / Export C# Function to C/C++](https://www.reddit.com/r/dotnet/comments/k7t6nb/question_net_5_native_export_export_c_function_to/)
 * Habr:
   * [Кроссплатформенное использование классов .Net из неуправляемого кода. Или аналог IDispatch на Linux](https://habr.com/ru/articles/304482/)
   * [Кроссплатформенное использование классов .Net в 1С через Native ВК. Или замена COM на Linux](https://habr.com/ru/articles/304542/)
@@ -37,6 +40,9 @@
   * [Import C# Dll in delphi 10.4](https://en.delphipraxis.net/topic/11493-import-c-dll-in-delphi-104/)
   * [Using a .NET Assembly via COM in Delphi](https://blogs.embarcadero.com/using-a-net-assembly-via-com-in-delphi/)
   * [Julia & C# interoperation via Julia embedding](https://github.com/ShuhuaGao/JuliaCSharp/tree/main/Embedding)
+* Libs:
+  * [Conari](https://github.com/3F/Conari)
+  * [bflat](https://github.com/bflattened/bflat)
 * [Qt/.NET — Hosting .NET code in a Qt application (1/3)](https://www.qt.io/blog/qt/.net-hosting-.net-code-in-a-qt-application) ([qtdotnet](https://github.com/qt-labs/qtdotnet))
 * [Hosting .NET Core Components in Unmanaged C/C++ Process in Windows and Linux](https://www.codeproject.com/Articles/1276328/Hosting-NET-Core-Components-in-Unmanaged-C-Cpluspl)
 * [Hosting .NET Web Service in Unmanaged C/C++ Process in Windows and Linux](https://www.codeproject.com/Articles/5344732/Hosting-NET-Web-Service-in-Unmanaged-C-Cplusplus-P)
