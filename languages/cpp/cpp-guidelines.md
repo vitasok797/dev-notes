@@ -2280,7 +2280,7 @@ auto return_tuple() -> std::tuple<int, Type> { return {0, std::move(t)}; }
 auto return_tuple() -> std::tuple<int, Type> { return {0, Type{1, 2}}; }
 ```
 
-▶️[**Demo** (initialization)](https://godbolt.org/z/xnvvT9ac5) [[debug.h](vsl/debug.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/doMjhh8j1) [[debug.h](vsl/debug.h)]
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
@@ -3094,14 +3094,14 @@ using func = void (*) (int, int);
 <details>
 <summary>NonCopyable</summary>
 
-▶️[**Demo**](https://godbolt.org/z/ah944x4ba) [[non_copyable.h](vsl/non_copyable.h)]
+▶️[**Demo**](https://godbolt.org/z/KMbP1z85j) [[non_copyable.h](vsl/non_copyable.h)]
 
 </details>
 
 <details>
 <summary>output</summary>
 
-▶️[**Demo**](https://godbolt.org/z/8E4KEe315) [[output.h](vsl/output.h)]
+▶️[**Demo**](https://godbolt.org/z/3qKsKz34e) [[output.h](vsl/output.h)]
 
 </details>
 
