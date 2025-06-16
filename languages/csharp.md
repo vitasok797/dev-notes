@@ -28,9 +28,14 @@
   * [Interoperating with unmanaged code](https://learn.microsoft.com/en-us/dotnet/framework/interop/)
   * [DNNE](https://github.com/AaronRobinsonMSFT/DNNE)
   * Native AOT:
-    [Using](https://github.com/dotnet/runtimelab/blob/feature/NativeAOT/docs/using-nativeaot/README.md),
-    [Deployment](https://github.com/dotnet/docs/blob/main/docs/core/deploying/native-aot/index.md),
-    [Sample](https://github.com/dotnet/samples/tree/main/core/nativeaot)
+    [using](https://github.com/dotnet/runtimelab/blob/feature/NativeAOT/docs/using-nativeaot/README.md),
+    [deployment](https://github.com/dotnet/docs/blob/main/docs/core/deploying/native-aot/index.md),
+    [sample](https://github.com/dotnet/samples/tree/main/core/nativeaot)
+  * Deployment models:
+    [overview](https://learn.microsoft.com/en-us/dotnet/core/deploying/),
+    [self-contained](https://learn.microsoft.com/en-us/dotnet/core/deploying/runtime-patch-selection),
+    [single-file](https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview),
+    [native code interop with Native AOT](https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/interop)
 * MS tickets:
   * [Question / Suggestion: Allow managed exports (UnmanagedCallersOnly) in non AOT scenarios](https://github.com/dotnet/runtime/issues/90126)
   * [Make DllExport attribute to be built-in into .net](https://github.com/dotnet/runtime/issues/37556)
