@@ -338,6 +338,7 @@
   * [(Habr) Сравнение библиотек логирования](https://habr.com/ru/articles/313686/)
 
 ## Debugging
+* [Boost.Stacktrace](https://www.boost.org/doc/libs/latest/doc/html/stacktrace.html)
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
 * <https://github.com/renatoGarcia/icecream-cpp>
 * <https://github.com/keithpotz/CrashCatch> (no vcpkg, header-only)
