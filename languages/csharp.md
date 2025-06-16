@@ -27,6 +27,10 @@
   * [nethost vcpkg package](https://vcpkg.io/en/package/nethost)
   * [Interoperating with unmanaged code](https://learn.microsoft.com/en-us/dotnet/framework/interop/)
   * [DNNE](https://github.com/AaronRobinsonMSFT/DNNE)
+  * Native AOT:
+    [Using](https://github.com/dotnet/runtimelab/blob/feature/NativeAOT/docs/using-nativeaot/README.md),
+    [Deployment](https://github.com/dotnet/docs/blob/main/docs/core/deploying/native-aot/index.md),
+    [Sample](https://github.com/dotnet/samples/tree/main/core/nativeaot)
 * MS tickets:
   * [Question / Suggestion: Allow managed exports (UnmanagedCallersOnly) in non AOT scenarios](https://github.com/dotnet/runtime/issues/90126)
   * [Make DllExport attribute to be built-in into .net](https://github.com/dotnet/runtime/issues/37556)
@@ -60,6 +64,7 @@
 * [Hosting .NET Web Service in Unmanaged C/C++ Process in Windows and Linux](https://www.codeproject.com/Articles/5344732/Hosting-NET-Web-Service-in-Unmanaged-C-Cplusplus-P)
 * [Control .NET runtime from native code](https://dev.to/tvinko/control-net-runtime-from-native-code-473f)
 * [Using .NET 7 Native AOT to call .NET functionality in C++](https://joeysenna.com/posts/nativeaot-in-c-plus-plus)
+* [Calling C# natively from Rust](https://medium.com/@chyyran/calling-c-natively-from-rust-1f92c506289d)
 
 ## Var
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
