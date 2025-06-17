@@ -221,7 +221,7 @@ namespace detail
     {
         .print_thread = false,
     };
-    
+
     inline constexpr auto copy_watcher_config = WatcherOptions
     {
         .print_thread = false,
@@ -233,7 +233,7 @@ namespace detail
         .print_destructor = false,
         .print_full_operation_category = false,
     };
-    
+
     inline constexpr auto ctor_watcher_config = WatcherOptions
     {
         .print_thread = false,
