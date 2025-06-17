@@ -342,6 +342,7 @@
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
 * <https://github.com/renatoGarcia/icecream-cpp>
 * <https://github.com/keithpotz/CrashCatch> (no vcpkg, header-only)
+* <https://github.com/bombela/backward-cpp>
 
 ## Testing
 * [Boost.Test](https://www.boost.org/doc/libs/latest/libs/test/doc/html/index.html)
