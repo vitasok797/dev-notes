@@ -567,7 +567,7 @@ TD<decltype(x)> _;
 <details>
 <summary>Assert</summary>
 
-▶️[**Demo**](https://godbolt.org/z/TaarEqG5s) [[debug.h](vsl/assert.h)]
+▶️[**Demo**](https://godbolt.org/z/TaarEqG5s) [[assert.h](vsl/assert.h)]
 
 </details>
 
