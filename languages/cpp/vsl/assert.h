@@ -1,6 +1,7 @@
 #ifndef VSL_ASSERT_H
 #define VSL_ASSERT_H
 
+#include <exception>
 #include <iostream>
 #include <source_location>
 
