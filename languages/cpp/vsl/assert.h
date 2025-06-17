@@ -5,7 +5,7 @@
 #include <iostream>
 #include <source_location>
 
-#define VSL_ASSERT(type, expr, ...) ((expr) ? static_cast<void>(0) : \
+#define VSL_ASSERT(type, expr, ...) (static_cast<bool>(expr) ? static_cast<void>(0) : \
     vsl::assert_fail(type, #expr, std::source_location::current() __VA_OPT__(,) __VA_ARGS__))
 
 #define VSL_EXPECTS(...) VSL_ASSERT("Expects", __VA_ARGS__)
