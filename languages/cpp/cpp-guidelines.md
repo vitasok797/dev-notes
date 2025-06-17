@@ -565,6 +565,13 @@ TD<decltype(x)> _;
 ## Error handling
 
 <details>
+<summary>Assert</summary>
+
+▶️[**Demo**](https://godbolt.org/z/TaarEqG5s) [[debug.h](vsl/assert.h)]
+
+</details>
+
+<details>
 <summary>Pointers dereference</summary>
 
 #### Check and deref
