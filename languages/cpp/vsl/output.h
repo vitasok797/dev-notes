@@ -10,9 +10,9 @@ namespace vsl
 namespace detail
 {
 
-// TODO: use vsl::ostream concept from vsl/concepts.h
-template<typename T>
-concept ostream = requires(T os) { os << ""; };
+    // TODO: use vsl::ostream concept from vsl/concepts.h
+    template<typename T>
+    concept ostream = requires(T os) { os << ""; };
 
 }  // namespace detail
 
