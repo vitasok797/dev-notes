@@ -2,10 +2,13 @@
 #define VSL_MATH_H
 
 #include <algorithm>
+#include <cassert>
 #include <cmath>
+#include <concepts>
 #include <limits>
 #include <numbers>
 #include <stdexcept>
+#include <type_traits>
 #include <utility>
 
 #define INF HUGE_VAL
@@ -34,6 +37,17 @@ inline auto ftrim(double value, std::pair<double, double> bounds) -> double
         throw std::logic_error{"ftrim bounds error (low > high)"};
     }
     return std::clamp(value, lo, hi);
+}
+
+template<typename A, typename B>
+requires std::signed_integral<A> && std::signed_integral<B>
+auto ceil_div(A a, B b) noexcept -> std::common_type_t<A, B>
+{
+    // TODO: use EXPECTS from vsl/assert.h
+    assert(a >= 0);
+    assert(b > 0);
+
+    return a / b + (a % b ? 1 : 0);
 }
 
 }  // namespace vsl
