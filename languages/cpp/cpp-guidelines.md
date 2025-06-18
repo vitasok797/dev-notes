@@ -1498,6 +1498,15 @@ for (const auto& [k, v] : mymap) {...}
 ## Math
 
 <details>
+<summary>Ceil division</summary>
+
+[(StackOverflow) Fast ceiling of an integer division](https://stackoverflow.com/questions/2745074/fast-ceiling-of-an-integer-division-in-c-c)
+
+▶️[**Demo**](https://godbolt.org/z/q6nabbb1T) [[math.h](vsl/math.h)]
+
+</details>
+
+<details>
 <summary>Floating point comparisons</summary>
 
 [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
