@@ -157,7 +157,6 @@
 ## ⚠️ Var (now)
 * https://en.cppreference.com/w/cpp/header/chrono.html
 * https://www.cppstories.com/2016/04/custom-deleters-for-c-smart-pointers/
-* https://habr.com/ru/articles/191018/
 * https://www.boost.org/doc/libs/latest/libs/locale/doc/html/collation.html
 * https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Execute-Around_Pointer
 * https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms/Expression-template
