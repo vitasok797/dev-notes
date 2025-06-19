@@ -225,6 +225,7 @@
 * [(Habr) Ох уж этот std::make_shared](https://habr.com/ru/articles/509004/)
 * [(Habr) Сказ об опасном std::enable_shared_from_this, или антипаттерн «Зомби»](https://habr.com/ru/articles/471326/)
 * [(Habr) Сказ об опасном std::enable_shared_from_this, или антипаттерн «Зомби» — разбор полётов](https://habr.com/ru/articles/478190/)
+* [(Habr) Пять подводных камней при использовании shared_ptr](https://habr.com/ru/articles/191018/)
 * [The Chromium Project Smart Pointer Guidelines](https://www.chromium.org/developers/smart-pointer-guidelines/)
 * [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
 * [Вероломные указатели](https://scrutator.me/post/2019/12/12/backstabbing_ptrs.aspx)
