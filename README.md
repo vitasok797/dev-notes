@@ -23,7 +23,6 @@
 * [Architecture](topics/architecture.md)
 * [Calc](topics/calc.md)
 * [Git](topics/git.md)
-* [Intel compilers](topics/intel-compilers.md)
 * [Multithreading](topics/multithreading.md)
 * [Plot](topics/plot.md)
 * [Var](topics/var.md)
