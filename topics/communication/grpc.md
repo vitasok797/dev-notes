@@ -24,6 +24,7 @@
 ## Doc
 * [Deadlines](https://grpc.io/blog/deadlines/)
 * [Keepalive User Guide](https://github.com/grpc/grpc/blob/master/doc/keepalive.md)
+* [Health Checking](https://grpc.io/docs/guides/health-checking/)
 * [Health Checking Protocol](https://github.com/grpc/grpc/blob/master/doc/health-checking.md)
 * [Name Resolution](https://github.com/grpc/grpc/blob/master/doc/naming.md)
 * [Server-side API for Authenticating Clients](https://github.com/grpc/grpc/blob/master/doc/server_side_auth.md)
