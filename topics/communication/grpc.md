@@ -2,10 +2,6 @@
 
 ## Auth
 * [gRPC – Authentication](https://grpc.io/docs/guides/auth/)
-* [JSON Web Token — Википедия](https://ru.wikipedia.org/wiki/JSON_Web_Token)
-* [grpc - gRCP intercept calls in C# - Stack Overflow](https://stackoverflow.com/questions/55630096/grcp-intercept-calls-in-c-sharp)
-* [Grpc plus TLS encryption and token authentication - Programmer Sought](http://www.programmersought.com/article/7290364277/)
-* [How to create a MetadataCredentialsPlugin in C# · Issue #19775 · grpc/grpc · GitHub](https://github.com/grpc/grpc/issues/19775)
 * [Use gRPC interceptor for authorization with JWT - DEV](https://dev.to/techschoolguru/use-grpc-interceptor-for-authorization-with-jwt-1c5h)
 
 ## Async
