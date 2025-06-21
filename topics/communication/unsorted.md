@@ -1,14 +1,5 @@
 # Communication / Unsorted
 
-* https://github.com/igorskh/flatbuffers-zmq-tutorial-cpp
-* https://brettviren.github.io/cppzmq-tour/index.html
-* https://stackoverflow.com/questions/47410801/sending-different-events-via-zeromq-using-flatbuffer-union
-* https://stackoverflow.com/questions/28999377/are-there-implications-to-reconnecting-a-zmq-socket-with-the-same-identity
-* https://stackoverflow.com/questions/40141120/simple-flatbuffers-over-zeromq-c-example-copy-struct-to-flatbuffer-over-zmq-an
-* https://stackoverflow.com/questions/40053351/simple-flatbuffer-over-zeromq-c-example-copying-struct-to-flatbuffer-over-zm
-* https://lucumr.pocoo.org/2012/6/26/disconnects-are-good-for-you/
-* https://stackoverflow.com/questions/27003212/why-does-zmq-router-sometimes-lose-messages
-*
 * https://zguide.zeromq.org/docs/chapter2/#High-Water-Marks
 * https://zguide.zeromq.org/docs/chapter4/#Designing-Reliability
 * https://libzmq.readthedocs.io/en/latest/zmq_socket.html
