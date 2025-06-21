@@ -38,7 +38,10 @@
 * [Protocol Buffers/gRPC Integration Into .NET Build](https://chromium.googlesource.com/external/github.com/grpc/grpc/+/HEAD/src/csharp/BUILD-INTEGRATION.md)
 
 ## Language support
+
+## Language support / .NET
 * [.NET Core](https://grpc.io/blog/grpc-on-dotnetcore/)
+* [(Metanit) Руководство по сервисам gRPC в приложении на C#](https://metanit.com/sharp/grpc/)
 
 ## Send files
 * [(StackOverflow) gRPC + Image Upload](https://stackoverflow.com/questions/34969446/grpc-image-upload/34982660)
