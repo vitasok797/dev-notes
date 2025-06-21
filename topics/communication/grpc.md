@@ -9,15 +9,15 @@
 * [Use gRPC interceptor for authorization with JWT - DEV](https://dev.to/techschoolguru/use-grpc-interceptor-for-authorization-with-jwt-1c5h)
 
 ## Async
-* [Асинхронные режимы фреймворка gRPC и принципы их работы в С++ / Хабр](https://habr.com/ru/post/340758/)
+* [(Habr) Асинхронные режимы фреймворка gRPC и принципы их работы в С++](https://habr.com/ru/post/340758/)
 * [Asynchronous-API Tutorial – gRPC](https://grpc.io/docs/languages/cpp/async/)
 * [gRPC and C# 8 Async stream - Laurent Kempé](https://laurentkempe.com/2019/09/18/gRPC-and-csharp-8-Async-stream/)
-* [Lessons learnt from writing asynchronous streaming gRPC services in C++ | G Research](https://www.gresearch.co.uk/article/lessons-learnt-from-writing-asynchronous-streaming-grpc-services-in-c/)
+* [Lessons learnt from writing asynchronous streaming gRPC services in C++](https://www.gresearch.com/news/lessons-learnt-from-writing-asynchronous-streaming-grpc-services-in-c/)
 
 ## Send files
-* [Send files 1](https://stackoverflow.com/questions/34969446/grpc-image-upload/34982660)
-* [Send files 2](https://ops.tips/blog/sending-files-via-grpc/)
-* [Upload file in chunks](https://dev.to/techschoolguru/upload-file-in-chunks-with-client-streaming-grpc-golang-4loc)
+* [(StackOverflow) gRPC + Image Upload](https://stackoverflow.com/questions/34969446/grpc-image-upload/34982660)
+* [Sending files via gRPC](https://ops.tips/blog/sending-files-via-grpc/)
+* [Upload file in chunks with client-streaming gRPC](https://dev.to/techschoolguru/upload-file-in-chunks-with-client-streaming-grpc-golang-4loc)
 
 ## Var
 * [An asynchronous non-blocking implementation of gRPC in Python](https://www.mo4tech.com/an-asynchronous-non-blocking-implementation-of-grpc-in-python.html)
