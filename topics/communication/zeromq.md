@@ -16,8 +16,8 @@
 ### Serialization / FlatBuffers
 * [FlatBuffers and ZeroMQ Sample in C++](https://github.com/igorskh/flatbuffers-zmq-tutorial-cpp)
 * [(StackOverflow) Sending different Events via ZeroMQ using Flatbuffer Union](https://stackoverflow.com/questions/47410801/sending-different-events-via-zeromq-using-flatbuffer-union)
-* [(StackOverflow) Simple Flatbuffers over ZeroMQ C example - Copy struct to flatbuffer over zmq and back to a struct again](https://stackoverflow.com/questions/40141120/simple-flatbuffers-over-zeromq-c-example-copy-struct-to-flatbuffer-over-zmq-an)
 * [(StackOverflow) Simple FlatBuffer over ZeroMQ C++ example - Copying struct to flatbuffer over zmq and back to a struct again](https://stackoverflow.com/questions/40053351/simple-flatbuffer-over-zeromq-c-example-copying-struct-to-flatbuffer-over-zm)
+* [(StackOverflow) Simple Flatbuffers over ZeroMQ C example - Copy struct to flatbuffer over zmq and back to a struct again](https://stackoverflow.com/questions/40141120/simple-flatbuffers-over-zeromq-c-example-copy-struct-to-flatbuffer-over-zmq-an)
 
 ## Var
 * [(StackOverflow) user3666197](https://stackoverflow.com/users/3666197/user3666197)
