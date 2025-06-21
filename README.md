@@ -14,9 +14,9 @@
 
 ## Topics
 * [Communication](topics/communication)
-  ([DDS](topics/communication/dds.md),
-  [gRPC](topics/communication/grpc.md),
-  [ZeroMQ](topics/communication/zeromq.md),
+  ([dds](topics/communication/dds.md),
+  [grpc](topics/communication/grpc.md),
+  [zeromq](topics/communication/zeromq.md),
   [var](topics/communication/var.md),
   [unsorted](topics/communication/unsorted.md))
 * [Compilers](topics/compilers) ([Intel](topics/compilers/intel.md))
