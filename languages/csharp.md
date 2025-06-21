@@ -7,7 +7,7 @@
 * [(MS) Configuration in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
 * [(Habr) Collections: Enumerable vs List](https://habr.com/ru/post/519150/)
 
-## ⚠️ASP.NET
+## ASP.NET
 * [(MS) Introduction to ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)
 * [(Metanit) Руководство по ASP.NET Core 9](https://metanit.com/sharp/aspnet6/)
 
@@ -31,7 +31,7 @@
 * [Errors instead of warnings for nullable reference types](https://www.tabsoverspaces.com/233764-switch-to-errors-instead-of-warnings-for-nullable-reference-types-in-csharp-8)
 * [Adapting Projects to Use C# 8 and Nullable Reference Types](https://www.infoq.com/articles/csharp-nullable-reference-case-study/)
 
-## ⚠️Functional
+## Functional
 * [(Habr) Язык C# почти функционален](https://habr.com/ru/companies/piter/articles/321546/)
 * [(Habr) Ваш C# уже «функциональный», просто позвольте ему это](https://habr.com/ru/articles/493484/)
 * [(Habr) Functional C#: Immutability](https://habr.com/ru/articles/266873/)
@@ -41,9 +41,7 @@
 * [Uno Platform](https://platform.uno/)
 * [Qt Bridges](https://www.qt.io/qt-bridges)
 
-## ⚠️Guides
-* [(MS) C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
-* [(MS) .NET documentation](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
+## Guides
 * [(Metanit) Полное руководство по языку программирования С# и платформе .NET](https://metanit.com/sharp/tutorial/)
 * [(Metanit) Дополнительное руководство по платформе .NET](https://metanit.com/sharp/dotnet/)
 * [(Metanit) Паттерны проектирования в C# и .NET](https://metanit.com/sharp/patterns/)
@@ -79,7 +77,8 @@
 * [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
 
 ## ⚠️Specs (MS)
-* [C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+* [C# documentation](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+* [.NET documentation](https://learn.microsoft.com/en-us/dotnet/fundamentals/)
 * [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
 * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * [Init only setters](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#init-only-setters)
