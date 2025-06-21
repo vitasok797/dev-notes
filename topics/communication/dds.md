@@ -1,5 +1,9 @@
 # Communication / DDS
 
+## Tutorials
+* [The Data Distribution Service Tutorial](https://www.researchgate.net/profile/Angelo-Corsaro/publication/273136749_The_Data_Distribution_Service_Tutorial/links/54f971d20cf28d6deca482a7/The-Data-Distribution-Service-Tutorial.pdf)
+* [The DDS Tutorial](https://download.zettascale.online/www/docs/OpenSplice/v6/pdfs/OpenSplice_DDSTutorial.pdf)
+
 ## Presentations
 * [DDS for Simulation](https://www.simulationinformation.com/wp-content/uploads/2019/04/rti-ncs-seminar.pdf)
 
