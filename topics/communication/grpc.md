@@ -21,6 +21,9 @@
 * [(StackOverflow) Integrate Google Protocol Buffers .proto files to Visual Studio](https://stackoverflow.com/questions/11447950/integrate-google-protocol-buffers-proto-files-to-visual-c-2010)
 * [Protocol Buffers/gRPC Integration Into .NET Build](https://chromium.googlesource.com/external/github.com/grpc/grpc/+/HEAD/src/csharp/BUILD-INTEGRATION.md)
 
+## Languages
+* [The gRPC Blog – .NET Core](https://grpc.io/blog/grpc-on-dotnetcore/)
+
 ## Send files
 * [(StackOverflow) gRPC + Image Upload](https://stackoverflow.com/questions/34969446/grpc-image-upload/34982660)
 * [Sending files via gRPC](https://ops.tips/blog/sending-files-via-grpc/)
@@ -31,9 +34,8 @@
 
 ## Unsorted
 * [Google API Design Guide](https://cloud.google.com/apis/design)
-* [Errors](https://cloud.google.com/apis/design/errors)
-* [The gRPC Blog – .NET Core ❤ gRPC](https://grpc.io/blog/grpc-on-dotnetcore/)
-* [The gRPC Blog – gRPC and Deadlines](https://grpc.io/blog/deadlines/)
+* [Google API Design Guide: errors](https://cloud.google.com/apis/design/errors)
+* [gRPC and Deadlines](https://grpc.io/blog/deadlines/)
 * [grpc/health-checking.md at v1.15.0 · grpc/grpc · GitHub](https://github.com/grpc/grpc/blob/v1.15.0/doc/health-checking.md)
 * [grpc/keepalive.md at master · grpc/grpc · GitHub](https://github.com/grpc/grpc/blob/master/doc/keepalive.md)
 * [grpc/compression.md at master · grpc/grpc · GitHub](https://github.com/grpc/grpc/blob/master/doc/compression.md)
