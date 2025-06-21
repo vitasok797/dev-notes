@@ -9,8 +9,7 @@
 
 ## ASP.NET
 * [Introduction to ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)
-* [(Metanit) ASP.NET Core 5](https://metanit.com/sharp/aspnet5/)
-* [(Metanit) ASP.NET Core 6](https://metanit.com/sharp/aspnet6/)
+* [(Metanit) Руководство по ASP.NET Core 9](https://metanit.com/sharp/aspnet6/)
 
 ## Async
 * [Parallel Programming in .NET | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
