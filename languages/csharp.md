@@ -73,3 +73,88 @@
 
 ## Var
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
+
+## Articles
+  * [NET Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/)
+  * [Collections: Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/guidelines-for-collections)
+  * [Collections: Enumerable vs List / Хабр](https://habr.com/ru/post/519150/)
+  * [Fundamentals of garbage collection](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
+  * [Configuration in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
+
+## ASP.NET
+  * [Introduction to ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)
+  * [ASP.NET Core 5](https://metanit.com/sharp/aspnet5/)
+  * [ASP.NET Core 6](https://metanit.com/sharp/aspnet6/)
+
+## Async
+  * [Parallel Programming in .NET | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
+  * [Asynchronous programming patterns | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
+  * [Async/await в C#: концепция, внутреннее устройство, полезные приемы / Хабр](https://habr.com/ru/post/470830/)
+  * [ConfigureAwait: часто задаваемые вопросы / Хабр](https://habr.com/ru/post/482354/)
+
+## Code Contracts
+  * [Основы Code Contracts](https://andrey.moveax.ru/post/csharp-code-contracts-basics)
+  * [Code contracts](https://docs.microsoft.com/en-us/dotnet/framework/debug-trace-profile/code-contracts)
+
+## DI
+  * [Simple Injector documentation](https://docs.simpleinjector.org/en/latest/index.html)
+  * [Dependency injection in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
+  * [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
+
+## Dispose
+  * [Implement a Dispose method](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose)
+  * [Implement IDisposable correctly](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1063?view=vs-2019)
+  * [Финализируемые объекты. Метод Dispose](https://metanit.com/sharp/tutorial/8.2.php)
+  * [Как и когда нужно имплементировать IDisposable](https://ru.stackoverflow.com/questions/486696/%D0%9A%D0%B0%D0%BA-%D0%B8-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B8%D0%BC%D0%BF%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-idisposable)
+  * [Как применять IDisposable и финализаторы: 3 простых правила / Хабр](https://habr.com/ru/post/89720/)
+
+## Errors
+  * [Решение проблемы с исключениями в C# / Хабр](https://habr.com/ru/company/vdsina/blog/523618/)
+  * [Nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references)
+  * [Update a codebase with nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-migration-strategies)
+  * [Errors instead of warnings for nullable reference types](https://www.tabsoverspaces.com/233764-switch-to-errors-instead-of-warnings-for-nullable-reference-types-in-csharp-8)
+  * [Adapting Projects to Use C# 8 and Nullable Reference Types](https://www.infoq.com/articles/csharp-nullable-reference-case-study/)
+  * [?? and ??= operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-coalescing-operator)
+
+## Guides
+  * [Учебник по языку С# и платформе .NET](https://metanit.com/sharp/tutorial/)
+  * [C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
+  * [.NET documentation](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
+
+## LINQ
+  * [System.Linq Namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq)
+  * [Standard Query Operators Overview (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/standard-query-operators-overview)
+
+## Logging
+  * [Logging in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging)
+  * [NLog - Allow other processes to read log file - Stack Overflow](https://stackoverflow.com/questions/56889663/nlog-allow-other-processes-to-read-log-file)
+  * [NLog Issue – file target keepFileOpen prevents another process from reading](https://github.com/NLog/NLog/issues/2967)
+  * [Serilog vs NLog](https://blog.elmah.io/serilog-vs-nlog/)
+  * [Страсти по Serilog / Хабр](https://habr.com/ru/post/550582/)
+  * [You are doing .NET logging wrong. Let's fix it - YouTube](https://www.youtube.com/watch?v=bnVfrd3lRv8)
+
+## Specs
+  * [C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+  * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
+  * [Init only setters](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#init-only-setters)
+  * [init keyword](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init)
+  * [Anonymous types 1](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/new-operator#instantiation-of-anonymous-types)
+  * [Anonymous types 2](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/anonymous-types)
+  * [Object and Collection Initializers](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers)
+  * [Object and Collection Initializers (initializers-with-anonymous-types)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/object-and-collection-initializers#object-initializers-with-anonymous-types)
+  * [Records](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/record)
+  * [readonly keyword](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/readonly)
+  * [Auto-Implemented Properties](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties)
+  * [Nullable value types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/nullable-value-types)
+  * [Nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references)
+  * [Tuple types](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/value-tuples)
+  * [Pattern matching](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/patterns)
+  * [Pattern matching tutorial](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/tutorials/pattern-matching)
+  * [Expression-bodied members](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members)
+  * [in parameter modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/in-parameter-modifier)
+
+## 001
+  * [c# - Returning a value from thread? - Stack Overflow](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
+  * [c# - Automating the InvokeRequired code pattern - Stack Overflow](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
+  * [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
+  * [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
