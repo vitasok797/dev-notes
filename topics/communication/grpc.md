@@ -22,17 +22,19 @@
 * <https://github.com/grpcmd/grpcmd>
 
 ## Doc
+* [gRPC and Deadlines](https://grpc.io/blog/deadlines/)
 * [Keepalive User Guide](https://github.com/grpc/grpc/blob/master/doc/keepalive.md)
+* [Health Checking Protocol](https://github.com/grpc/grpc/blob/master/doc/health-checking.md)
+* [Name Resolution](https://github.com/grpc/grpc/blob/master/doc/naming.md)
+* [Server-side API for Authenticating Clients](https://github.com/grpc/grpc/blob/master/doc/server_side_auth.md)
+* [Status codes](https://github.com/grpc/grpc/blob/master/doc/statuscodes.md)
 
 ## IDE integration
 * [(StackOverflow) Integrate Google Protocol Buffers .proto files to Visual Studio](https://stackoverflow.com/questions/11447950/integrate-google-protocol-buffers-proto-files-to-visual-c-2010)
 * [Protocol Buffers/gRPC Integration Into .NET Build](https://chromium.googlesource.com/external/github.com/grpc/grpc/+/HEAD/src/csharp/BUILD-INTEGRATION.md)
 
-## Languages
+## Language support
 * [.NET Core](https://grpc.io/blog/grpc-on-dotnetcore/)
-
-## Protocols
-* [Health Checking Protocol](https://github.com/grpc/grpc/blob/v1.15.0/doc/health-checking.md)
 
 ## Send files
 * [(StackOverflow) gRPC + Image Upload](https://stackoverflow.com/questions/34969446/grpc-image-upload/34982660)
@@ -41,5 +43,5 @@
 
 ## Var
 * [Awesome gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
+* [Health Checking Protocol](https://github.com/grpc/grpc/blob/v1.15.0/doc/health-checking.md)
 * [API на гугловом gRPC: чем хорош и сложности во время работы с ним](https://tproger.ru/articles/grpc-integration-experience/)
-* [gRPC and Deadlines](https://grpc.io/blog/deadlines/)
