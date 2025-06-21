@@ -12,7 +12,7 @@
 * [Julia](languages/julia.md)
 * [Python](languages/python.md)
 
-## Var
+## Topics
 * [Architecture](topics/architecture.md)
 * [Calc](topics/calc.md)
 * [Communication](topics/communication.md)
