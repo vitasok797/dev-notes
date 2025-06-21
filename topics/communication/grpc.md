@@ -24,6 +24,7 @@
 * [An asynchronous non-blocking implementation of gRPC in Python](https://www.mo4tech.com/an-asynchronous-non-blocking-implementation-of-grpc-in-python.html)
 
 ## Unsorted
+* [Awesome gRPC](https://github.com/grpc-ecosystem/awesome-grpc#tools)
 * [Google API Design Guide](https://cloud.google.com/apis/design)
 * [Errors](https://cloud.google.com/apis/design/errors)
 * [gRPC resources](https://github.com/grpc-ecosystem/awesome-grpc)
