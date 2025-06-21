@@ -7,8 +7,8 @@
 ## Presentations
 * [The DDS Tutorial. Part I](https://www.dds-foundation.org/sites/default/files/Tutorial-Part.I.pdf)
 * [The DDS Tutorial. Part II](https://www.dds-foundation.org/sites/default/files/Tutorial-Part.II_.pdf)
-* [The Present and Future of DDS](https://www.onem2m.org/images/ppt/TP-2017-0164-The_Present_and_Future_of_DDS.pdf)
 * [DDS Tutorial. Part II. Hands On](https://www.dds-foundation.org/sites/default/files/DDS_Tutorial_RTEW09.pdf)
+* [The Present and Future of DDS](https://www.onem2m.org/images/ppt/TP-2017-0164-The_Present_and_Future_of_DDS.pdf)
 * [Introduction to DDS](https://www.dds-foundation.org/sites/default/files/DDS_Introduction_Tutorial_00-T1_Pardo-Castellote.pdf)
 * [DDS for Simulation](https://www.simulationinformation.com/wp-content/uploads/2019/04/rti-ncs-seminar.pdf)
 
