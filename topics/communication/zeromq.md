@@ -7,9 +7,11 @@
 * [A tour of CPPZMQ, the C++ bindings to libzmq](https://brettviren.github.io/cppzmq-tour/index.html)
 
 ## Reliability
+* [Designing Reliability](https://zguide.zeromq.org/docs/chapter4/#Designing-Reliability)
 * [Disconnects are Good for You](https://lucumr.pocoo.org/2012/6/26/disconnects-are-good-for-you/)
 * [(StackOverflow) Why does ZMQ router sometimes lose messages?](https://stackoverflow.com/questions/27003212/why-does-zmq-router-sometimes-lose-messages)
 * [(StackOverflow) Are there implications to reconnecting a ZMQ socket with the same identity?](https://stackoverflow.com/questions/28999377/are-there-implications-to-reconnecting-a-zmq-socket-with-the-same-identity)
+* [(StackOverflow) Guaranteed delivery IPC between C++ and Python](https://stackoverflow.com/questions/31525250/guaranteed-delivery-ipc-between-c-and-python)
 
 ## Serialization
 
@@ -21,6 +23,7 @@
 
 ## Var
 * [(StackOverflow) user3666197](https://stackoverflow.com/users/3666197/user3666197)
+* [(StackOverflow) Correct pattern for ZeroMQ Server/Client type](https://stackoverflow.com/questions/53086791/correct-pattern-for-zeromq-server-client-type)
 * [(StackOverflow) Understanding advanced ZeroMQ socket types](https://stackoverflow.com/questions/25729055/understanding-advanced-zeromq-socket-types/25742744#25742744)
 * [(StackOverflow) How to control the source IP address of a ZeroMQ packet on a machine with multiple IPs?](https://stackoverflow.com/questions/46615141/how-to-control-the-source-ip-address-of-a-zeromq-packet-on-a-machine-with-multip/46620571#46620571)
 * [(StackOverflow) ZeroMQ: how to keep a connection of PAIR/PAIR between python and node?](https://stackoverflow.com/questions/53780065/zeromq-how-to-keep-a-connection-of-pair-pair-between-python-and-node)
