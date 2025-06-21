@@ -75,9 +75,7 @@
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
 
 <br>
-<hr>
-<hr>
-<hr>
+<hr><hr><hr>
 <br>
 
 ## Articles
