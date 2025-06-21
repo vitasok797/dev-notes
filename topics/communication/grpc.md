@@ -21,7 +21,7 @@
 * <https://github.com/Forest33/warthog>
 * <https://github.com/grpcmd/grpcmd>
 
-## Doc
+## Docs
 * [Deadlines](https://grpc.io/blog/deadlines/)
 * [Keepalive User Guide](https://github.com/grpc/grpc/blob/master/doc/keepalive.md)
 * [Health Checking](https://grpc.io/docs/guides/health-checking/)
