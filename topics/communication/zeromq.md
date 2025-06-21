@@ -3,6 +3,22 @@
 ## Docs
 * [ZeroMQ - The Guide](https://zguide.zeromq.org/)
 
+## Libs
+* [A tour of CPPZMQ, the C++ bindings to libzmq](https://brettviren.github.io/cppzmq-tour/index.html)
+
+## Reliability
+* [Disconnects are Good for You](https://lucumr.pocoo.org/2012/6/26/disconnects-are-good-for-you/)
+* [(StackOverflow) Why does ZMQ router sometimes lose messages?](https://stackoverflow.com/questions/27003212/why-does-zmq-router-sometimes-lose-messages)
+* [(StackOverflow) Are there implications to reconnecting a ZMQ socket with the same identity?](https://stackoverflow.com/questions/28999377/are-there-implications-to-reconnecting-a-zmq-socket-with-the-same-identity)
+
+## Serialization
+
+### Serialization / FlatBuffers
+* [FlatBuffers and ZeroMQ Sample in C++](https://github.com/igorskh/flatbuffers-zmq-tutorial-cpp)
+* [(StackOverflow) Sending different Events via ZeroMQ using Flatbuffer Union](https://stackoverflow.com/questions/47410801/sending-different-events-via-zeromq-using-flatbuffer-union)
+* [(StackOverflow) Simple Flatbuffers over ZeroMQ C example - Copy struct to flatbuffer over zmq and back to a struct again](https://stackoverflow.com/questions/40141120/simple-flatbuffers-over-zeromq-c-example-copy-struct-to-flatbuffer-over-zmq-an)
+* [(StackOverflow) Simple FlatBuffer over ZeroMQ C++ example - Copying struct to flatbuffer over zmq and back to a struct again](https://stackoverflow.com/questions/40053351/simple-flatbuffer-over-zeromq-c-example-copying-struct-to-flatbuffer-over-zm)
+
 ## Var
 * [(StackOverflow) user3666197](https://stackoverflow.com/users/3666197/user3666197)
 * [(StackOverflow) Understanding advanced ZeroMQ socket types](https://stackoverflow.com/questions/25729055/understanding-advanced-zeromq-socket-types/25742744#25742744)
