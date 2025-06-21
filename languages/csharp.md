@@ -52,7 +52,7 @@
 * [Qt Bridges](https://www.qt.io/qt-bridges)
 
 ## Guides
-* [(Metanit) Учебник по языку С# и платформе .NET](https://metanit.com/sharp/tutorial/)
+* [(Metanit) Полное руководство по языку программирования С# и платформе .NET](https://metanit.com/sharp/tutorial/)
 * [(MS) C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [(MS) .NET documentation](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
 
