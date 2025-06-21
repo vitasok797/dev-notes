@@ -31,7 +31,7 @@
 * [Implement a Dispose method](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose)
 * [Implement IDisposable correctly](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1063?view=vs-2019)
 * [Финализируемые объекты. Метод Dispose](https://metanit.com/sharp/tutorial/8.2.php)
-* [Как и когда нужно имплементировать IDisposable](https://ru.stackoverflow.com/questions/486696/%D0%9A%D0%B0%D0%BA-%D0%B8-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B8%D0%BC%D0%BF%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-idisposable)
+* [(StackOverflow) Как и когда нужно имплементировать IDisposable](https://ru.stackoverflow.com/questions/486696/%D0%9A%D0%B0%D0%BA-%D0%B8-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B8%D0%BC%D0%BF%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-idisposable)
 * [(Habr) Как применять IDisposable и финализаторы: 3 простых правила](https://habr.com/ru/post/89720/)
 
 ## Error handling
@@ -68,7 +68,7 @@
 
 ## Logging
 * [Logging in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging)
-* [NLog - Allow other processes to read log file - Stack Overflow](https://stackoverflow.com/questions/56889663/nlog-allow-other-processes-to-read-log-file)
+* [(StackOverflow) NLog - Allow other processes to read log file](https://stackoverflow.com/questions/56889663/nlog-allow-other-processes-to-read-log-file)
 * [NLog Issue – file target keepFileOpen prevents another process from reading](https://github.com/NLog/NLog/issues/2967)
 * [Serilog vs NLog](https://blog.elmah.io/serilog-vs-nlog/)
 * [(Habr) Страсти по Serilog](https://habr.com/ru/post/550582/)
@@ -151,8 +151,8 @@
 * [Calling C# natively from Rust](https://medium.com/@chyyran/calling-c-natively-from-rust-1f92c506289d)
 
 ## Unsorted
-* [c# - Returning a value from thread? - Stack Overflow](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
-* [c# - Automating the InvokeRequired code pattern - Stack Overflow](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
+* [(StackOverflow) c# - Returning a value from thread?](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
+* [(StackOverflow) c# - Automating the InvokeRequired code pattern](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
 * [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
 * [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
 
