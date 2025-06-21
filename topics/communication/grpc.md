@@ -5,6 +5,7 @@
 * [Asynchronous-API Tutorial – gRPC](https://grpc.io/docs/languages/cpp/async/)
 * [gRPC and C# 8 Async stream - Laurent Kempé](https://laurentkempe.com/2019/09/18/gRPC-and-csharp-8-Async-stream/)
 * [Lessons learnt from writing asynchronous streaming gRPC services in C++](https://www.gresearch.com/news/lessons-learnt-from-writing-asynchronous-streaming-grpc-services-in-c/)
+* [An asynchronous non-blocking implementation of gRPC in Python](https://www.mo4tech.com/an-asynchronous-non-blocking-implementation-of-grpc-in-python.html)
 
 ## Auth
 * [gRPC – Authentication](https://grpc.io/docs/guides/auth/)
@@ -22,7 +23,6 @@
 
 ## Var
 * [Awesome gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
-* [An asynchronous non-blocking implementation of gRPC in Python](https://www.mo4tech.com/an-asynchronous-non-blocking-implementation-of-grpc-in-python.html)
 
 ## Unsorted
 * [Google API Design Guide](https://cloud.google.com/apis/design)
