@@ -73,6 +73,11 @@
 * [Serilog vs NLog](https://blog.elmah.io/serilog-vs-nlog/)
 * [(YouTube) You are doing .NET logging wrong. Let's fix it](https://www.youtube.com/watch?v=bnVfrd3lRv8)
 
+## Multithreading
+* [(StackOverflow) Returning a value from thread?](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
+* [(StackOverflow) Automating the InvokeRequired code pattern](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
+* [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
+
 ## Specs (MS)
 * [C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 * [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
@@ -151,11 +156,6 @@
 * [Control .NET runtime from native code](https://dev.to/tvinko/control-net-runtime-from-native-code-473f)
 * [Using .NET 7 Native AOT to call .NET functionality in C++](https://joeysenna.com/posts/nativeaot-in-c-plus-plus)
 * [Calling C# natively from Rust](https://medium.com/@chyyran/calling-c-natively-from-rust-1f92c506289d)
-
-## Var (unsorted)
-* [(StackOverflow) Returning a value from thread?](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
-* [(StackOverflow) Automating the InvokeRequired code pattern](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
-* [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
 
 ## Var
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
