@@ -108,7 +108,8 @@
   * [Native hosting](https://github.com/dotnet/runtime/blob/main/docs/design/features/native-hosting.md)
   * [.NET Hosting Sample](https://github.com/dotnet/samples/tree/main/core/hosting)
   * [nethost vcpkg package](https://vcpkg.io/en/package/nethost)
-  * [Interoperating with unmanaged code](https://learn.microsoft.com/en-us/dotnet/framework/interop/)
+  * [Interoperating with unmanaged code (.NET Framework)](https://learn.microsoft.com/en-us/dotnet/framework/interop/)
+  * [Native interoperability](https://learn.microsoft.com/en-us/dotnet/csharp/advanced-topics/interop/)
   * [DNNE](https://github.com/AaronRobinsonMSFT/DNNE)
   * Native AOT:
     [using](https://github.com/dotnet/runtimelab/blob/feature/NativeAOT/docs/using-nativeaot/README.md),
