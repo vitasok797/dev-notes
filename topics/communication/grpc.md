@@ -1,14 +1,14 @@
 # Communication / gRPC
 
-## Auth
-* [gRPC – Authentication](https://grpc.io/docs/guides/auth/)
-* [Use gRPC interceptor for authorization with JWT - DEV](https://dev.to/techschoolguru/use-grpc-interceptor-for-authorization-with-jwt-1c5h)
-
 ## Async
 * [(Habr) Асинхронные режимы фреймворка gRPC и принципы их работы в С++](https://habr.com/ru/post/340758/)
 * [Asynchronous-API Tutorial – gRPC](https://grpc.io/docs/languages/cpp/async/)
 * [gRPC and C# 8 Async stream - Laurent Kempé](https://laurentkempe.com/2019/09/18/gRPC-and-csharp-8-Async-stream/)
 * [Lessons learnt from writing asynchronous streaming gRPC services in C++](https://www.gresearch.com/news/lessons-learnt-from-writing-asynchronous-streaming-grpc-services-in-c/)
+
+## Auth
+* [gRPC – Authentication](https://grpc.io/docs/guides/auth/)
+* [Use gRPC interceptor for authorization with JWT - DEV](https://dev.to/techschoolguru/use-grpc-interceptor-for-authorization-with-jwt-1c5h)
 
 ## Send files
 * [(StackOverflow) gRPC + Image Upload](https://stackoverflow.com/questions/34969446/grpc-image-upload/34982660)
