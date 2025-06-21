@@ -11,12 +11,6 @@
 * [(MS) Introduction to ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)
 * [(Metanit) Руководство по ASP.NET Core 9](https://metanit.com/sharp/aspnet6/)
 
-## ⚠️Async
-* [(MS) Parallel Programming in .NET](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
-* [(MS) Asynchronous programming patterns](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
-* [(Habr) Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/post/470830/)
-* [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
-
 ## ⚠️DI
 * [(MS) Dependency injection in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
 * [(MS) Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
@@ -77,6 +71,12 @@
 * [(StackOverflow) Returning a value from thread?](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
 * [(StackOverflow) Automating the InvokeRequired code pattern](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
 * [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
+
+### ⚠️Multithreading / Async
+* [(MS) Parallel Programming in .NET](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
+* [(MS) Asynchronous programming patterns](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
+* [(Habr) Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/post/470830/)
+* [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
 
 ## ⚠️Specs (MS)
 * [C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
