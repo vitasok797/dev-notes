@@ -8,11 +8,11 @@
 * [(Habr) 90 рекомендаций по стилю написания программ на C++](https://habr.com/ru/articles/172091/)
 
 ## VCPKG
-* <https://learn.microsoft.com/en-us/vcpkg/>
+* [(MS) vcpkg documentation](https://learn.microsoft.com/en-us/vcpkg/)
 * [(Issue) How do I use libraries of vcpkg with cmake?](https://github.com/microsoft/vcpkg/issues/14258#issuecomment-717579819)
 * [Using vcpkg in anger](https://codingnest.com/files/Using%20vcpkg%20In%20Anger.pdf)
 * [Managing dependencies in a C++ project with vcpkg](https://decovar.dev/blog/2022/10/30/cpp-dependencies-with-vcpkg/)
-* [Using Overlay Triplets: Building dynamic libraries on Linux](https://learn.microsoft.com/en-us/vcpkg/users/examples/overlay-triplets-linux-dynamic)
+* [(MS) Using Overlay Triplets: Building dynamic libraries on Linux](https://learn.microsoft.com/en-us/vcpkg/users/examples/overlay-triplets-linux-dynamic)
 
 <details>
 <summary>Configure overlay triplets in CMakePresets.json</summary>
@@ -39,7 +39,7 @@
 
 ## Testing
 * [GoogleTest: Building with CMake](http://google.github.io/googletest/quickstart-cmake.html)
-* [Testing tools in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019)
+* [(MS) Testing tools in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019)
 * [Testing With CMake and CTest](https://cmake.org/cmake/help/book/mastering-cmake/chapter/Testing%20With%20CMake%20and%20CTest.html)
 * [Testing With CTest](https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Testing-With-CTest)
 * [Scripting Of CTest](https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Scripting-Of-CTest)
@@ -60,10 +60,10 @@
   * [cpplint в Visual Studio (1)](https://demin.ws/blog/russian/2009/07/08/google-coding-standard-in-visual-studio/)
   * [cpplint в Visual Studio (2)](https://heaohan.github.io/blog/2017/12/01/he-aohan-apply-cpplint)
 * Visual Studio:
-  * [C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
-    * [Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
-    * [Use the C++ Core Guidelines checkers](https://learn.microsoft.com/en-us/cpp/code-quality/using-the-cpp-core-guidelines-checkers?view=msvc-160)
-  * [AddressSanitizer](https://learn.microsoft.com/en-us/cpp/sanitizers/asan)
+  * [(MS) C++ Code analysis in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/?view=msvc-160)
+    * [(MS) Using Clang-Tidy in Visual Studio](https://learn.microsoft.com/en-us/cpp/code-quality/clang-tidy?view=msvc-160)
+    * [(MS) Use the C++ Core Guidelines checkers](https://learn.microsoft.com/en-us/cpp/code-quality/using-the-cpp-core-guidelines-checkers?view=msvc-160)
+  * [(MS) AddressSanitizer](https://learn.microsoft.com/en-us/cpp/sanitizers/asan)
 * Sanitizers:
   * [(Habr) Выявление ошибок в работе с памятью в C и C++: Сравниваем Sanitizers и Valgrind](https://habr.com/ru/companies/otus/articles/801123/)
   * <https://github.com/google/sanitizers>
@@ -76,9 +76,9 @@
   * [cppclean](https://github.com/myint/cppclean)
 
 ## Visual Studio
-* [Visual Studio 2022 Release History](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
-* [C++ Binary Compatibility and Pain-Free Upgrades to Visual Studio 2019](https://devblogs.microsoft.com/cppblog/cpp-binary-compatibility-and-pain-free-upgrades-to-visual-studio-2019/)
-* [C++ binary compatibility between Visual Studio versions](https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)
+* [(MS) Visual Studio 2022 Release History](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-history)
+* [(MS) C++ Binary Compatibility and Pain-Free Upgrades to Visual Studio 2019](https://devblogs.microsoft.com/cppblog/cpp-binary-compatibility-and-pain-free-upgrades-to-visual-studio-2019/)
+* [(MS) C++ binary compatibility between Visual Studio versions](https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)
 * [Visual Studio version map](https://gist.github.com/RDCH106/40fe61f447df58c1b9c83a1781374bcd)
 * [Portable Build Tools](https://github.com/Data-Oriented-House/PortableBuildTools)
 * [(StackOverflow) Integrate Google Protocol Buffers .proto files to Visual Studio](https://stackoverflow.com/questions/11447950/integrate-google-protocol-buffers-proto-files-to-visual-c-2010)
@@ -113,12 +113,12 @@
 * Guides:
   * [DLL dos and don’ts](http://rvelthuis.de/articles/articles-dlls.html)
   * [Разработка API (контракта) для своей DLL](https://www.gunsmoker.ru/2019/06/developing-DLL-API.html)
-  * [Allocating and freeing memory across module boundaries](https://devblogs.microsoft.com/oldnewthing/20060915-04/?p=29723)
+  * [(MS) Allocating and freeing memory across module boundaries](https://devblogs.microsoft.com/oldnewthing/20060915-04/?p=29723)
   * [How to Ensure Proper Dynamic Library Boundary Crossing for Objects using Smart Pointers' Custom Deleters](https://www.codeproject.com/Articles/594671/How-to-Ensure-Proper-Dynamic-Library-Boundary-Cros)
 * MSVC:
-  * [C++ Binary Compatibility and Pain-Free Upgrades to Visual Studio 2019](https://devblogs.microsoft.com/cppblog/cpp-binary-compatibility-and-pain-free-upgrades-to-visual-studio-2019/)
-  * [C++ binary compatibility between Visual Studio versions](https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)
-  * [Microsoft C runtime library (CRT) reference: C runtime (CRT) and C++ standard library (STL) .lib files](https://learn.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features)
+  * [(MS) C++ Binary Compatibility and Pain-Free Upgrades to Visual Studio 2019](https://devblogs.microsoft.com/cppblog/cpp-binary-compatibility-and-pain-free-upgrades-to-visual-studio-2019/)
+  * [(MS) C++ binary compatibility between Visual Studio versions](https://learn.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=msvc-160)
+  * [(MS) Microsoft C runtime library (CRT) reference: C runtime (CRT) and C++ standard library (STL) .lib files](https://learn.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features)
 * [Mixing Multiple Visual Studio Versions in a Program is Evil](https://siomsystems.com/mixing-visual-studio-versions/)
 * [(StackOverflow) Do (statically linked) DLLs use a different heap than the main program?](https://stackoverflow.com/questions/10820114/do-statically-linked-dlls-use-a-different-heap-than-the-main-program)
 * [(StackOverflow) Using C++ DLLs with different compiler versions](https://stackoverflow.com/questions/331045/using-c-dlls-with-different-compiler-versions)
