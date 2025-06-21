@@ -1,12 +1,5 @@
 # Communication / Unsorted
 
-* https://zguide.zeromq.org/docs/chapter2/#High-Water-Marks
-* https://zguide.zeromq.org/docs/chapter4/#Designing-Reliability
-* https://libzmq.readthedocs.io/en/latest/zmq_socket.html
-* https://stackoverflow.com/questions/53086791/correct-pattern-for-zeromq-server-client-type
-* https://stackoverflow.com/questions/31525250/guaranteed-delivery-ipc-between-c-and-python
-* https://www.google.com/search?q=zeromq+reconnect+lost+messages
-*
 * https://nanomsg.org/documentation-zeromq.html
 * https://250bpm.com/toc/index.html
 * https://250bpm.com/blog:4/
