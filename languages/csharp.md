@@ -119,12 +119,12 @@
     [self-contained](https://learn.microsoft.com/en-us/dotnet/core/deploying/runtime-patch-selection),
     [single-file](https://learn.microsoft.com/en-us/dotnet/core/deploying/single-file/overview),
     [native code interop with Native AOT](https://learn.microsoft.com/en-us/dotnet/core/deploying/native-aot/interop)
-* MS tickets:
-  * [Question / Suggestion: Allow managed exports (UnmanagedCallersOnly) in non AOT scenarios](https://github.com/dotnet/runtime/issues/90126)
-  * [Make DllExport attribute to be built-in into .net](https://github.com/dotnet/runtime/issues/37556)
-  * [Support PInvoke exports via regular LoadLibrary/etc. without setting up runtime first](https://github.com/dotnet/runtime/issues/3750)
-  * [Allow C# to export functions and constants to native code](https://github.com/dotnet/csharplang/discussions/308)
-  * [Support single-file distribution](https://github.com/dotnet/runtime/issues/11201)
+  * Tickets:
+    * [Question / Suggestion: Allow managed exports (UnmanagedCallersOnly) in non AOT scenarios](https://github.com/dotnet/runtime/issues/90126)
+    * [Make DllExport attribute to be built-in into .net](https://github.com/dotnet/runtime/issues/37556)
+    * [Support PInvoke exports via regular LoadLibrary/etc. without setting up runtime first](https://github.com/dotnet/runtime/issues/3750)
+    * [Allow C# to export functions and constants to native code](https://github.com/dotnet/csharplang/discussions/308)
+    * [Support single-file distribution](https://github.com/dotnet/runtime/issues/11201)
 * StackOverflow:
   * [Search Results: DNNE](https://stackoverflow.com/search?q=dnne)
   * [UnmanagedCallersOnly and struct as return value](https://stackoverflow.com/questions/79381121/unmanagedcallersonly-and-struct-as-return-value)
