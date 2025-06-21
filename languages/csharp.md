@@ -3,7 +3,7 @@
 ## Articles
 * [NET Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/)
 * [Collections: Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/guidelines-for-collections)
-* [Collections: Enumerable vs List / Хабр](https://habr.com/ru/post/519150/)
+* [(Habr) Collections: Enumerable vs List](https://habr.com/ru/post/519150/)
 * [Fundamentals of garbage collection](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
 * [Configuration in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
 
@@ -15,8 +15,8 @@
 ## Async
 * [Parallel Programming in .NET | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
 * [Asynchronous programming patterns | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
-* [Async/await в C#: концепция, внутреннее устройство, полезные приемы / Хабр](https://habr.com/ru/post/470830/)
-* [ConfigureAwait: часто задаваемые вопросы / Хабр](https://habr.com/ru/post/482354/)
+* [(Habr) Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/post/470830/)
+* [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
 
 ## Code Contracts
 * [Основы Code Contracts](https://andrey.moveax.ru/post/csharp-code-contracts-basics)
@@ -32,10 +32,10 @@
 * [Implement IDisposable correctly](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1063?view=vs-2019)
 * [Финализируемые объекты. Метод Dispose](https://metanit.com/sharp/tutorial/8.2.php)
 * [Как и когда нужно имплементировать IDisposable](https://ru.stackoverflow.com/questions/486696/%D0%9A%D0%B0%D0%BA-%D0%B8-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B8%D0%BC%D0%BF%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-idisposable)
-* [Как применять IDisposable и финализаторы: 3 простых правила / Хабр](https://habr.com/ru/post/89720/)
+* [(Habr) Как применять IDisposable и финализаторы: 3 простых правила](https://habr.com/ru/post/89720/)
 
 ## Error handling
-* [Решение проблемы с исключениями в C# / Хабр](https://habr.com/ru/company/vdsina/blog/523618/)
+* [(Habr) Решение проблемы с исключениями в C#](https://habr.com/ru/company/vdsina/blog/523618/)
 * [Nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references)
 * [Update a codebase with nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-migration-strategies)
 * [Errors instead of warnings for nullable reference types](https://www.tabsoverspaces.com/233764-switch-to-errors-instead-of-warnings-for-nullable-reference-types-in-csharp-8)
@@ -71,7 +71,7 @@
 * [NLog - Allow other processes to read log file - Stack Overflow](https://stackoverflow.com/questions/56889663/nlog-allow-other-processes-to-read-log-file)
 * [NLog Issue – file target keepFileOpen prevents another process from reading](https://github.com/NLog/NLog/issues/2967)
 * [Serilog vs NLog](https://blog.elmah.io/serilog-vs-nlog/)
-* [Страсти по Serilog / Хабр](https://habr.com/ru/post/550582/)
+* [(Habr) Страсти по Serilog](https://habr.com/ru/post/550582/)
 * [You are doing .NET logging wrong. Let's fix it - YouTube](https://www.youtube.com/watch?v=bnVfrd3lRv8)
 
 ## Specs
