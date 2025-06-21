@@ -10,6 +10,9 @@
 * [gRPC – Authentication](https://grpc.io/docs/guides/auth/)
 * [Use gRPC interceptor for authorization with JWT - DEV](https://dev.to/techschoolguru/use-grpc-interceptor-for-authorization-with-jwt-1c5h)
 
+## Debug
+* [BloomRPC](https://github.com/uw-labs/bloomrpc)
+
 ## Send files
 * [(StackOverflow) gRPC + Image Upload](https://stackoverflow.com/questions/34969446/grpc-image-upload/34982660)
 * [Sending files via gRPC](https://ops.tips/blog/sending-files-via-grpc/)
@@ -29,7 +32,6 @@
 * [grpc/keepalive.md at master · grpc/grpc · GitHub](https://github.com/grpc/grpc/blob/master/doc/keepalive.md)
 * [grpc/compression.md at master · grpc/grpc · GitHub](https://github.com/grpc/grpc/blob/master/doc/compression.md)
 * [Построение микросервисов с gRPC](https://www.youtube.com/watch?v=zPbaKUIcFx0)
-* [BloomRPC](https://github.com/uw-labs/bloomrpc)
 * [Protocol Buffers/gRPC Integration Into .NET Build](https://chromium.googlesource.com/external/github.com/grpc/grpc/+/HEAD/src/csharp/BUILD-INTEGRATION.md)
 * [Integrate Google Protocol Buffers .proto files to Visual C++ 2010 - Stack Overflow](https://stackoverflow.com/questions/11447950/integrate-google-protocol-buffers-proto-files-to-visual-c-2010)
 * [API на гугловом gRPC: чем хорош и сложности во время работы с ним](https://tproger.ru/articles/grpc-integration-experience/)
