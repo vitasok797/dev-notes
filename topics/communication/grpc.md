@@ -17,6 +17,7 @@
 
 ## Debug
 * CLI ([list](https://github.com/grpc-ecosystem/awesome-grpc?tab=readme-ov-file#tools-cli)):
+  * [gRPC command line too](https://github.com/grpc/grpc/blob/master/doc/command_line_tool.md)
   * <https://github.com/grpcmd/grpcmd>
 * GUI ([list](https://github.com/grpc-ecosystem/awesome-grpc?tab=readme-ov-file#gui)):
   * <https://github.com/rogchap/wombat>
