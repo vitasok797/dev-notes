@@ -39,7 +39,7 @@
 
 ## Language support
 
-## Language support / .NET
+### Language support / .NET
 * [.NET Core](https://grpc.io/blog/grpc-on-dotnetcore/)
 * [(Metanit) Руководство по сервисам gRPC в приложении на C#](https://metanit.com/sharp/grpc/)
 
