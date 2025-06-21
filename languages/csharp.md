@@ -34,7 +34,7 @@
   * [Как и когда нужно имплементировать IDisposable](https://ru.stackoverflow.com/questions/486696/%D0%9A%D0%B0%D0%BA-%D0%B8-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B8%D0%BC%D0%BF%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-idisposable)
   * [Как применять IDisposable и финализаторы: 3 простых правила / Хабр](https://habr.com/ru/post/89720/)
 
-## Errors
+## Error handling
   * [Решение проблемы с исключениями в C# / Хабр](https://habr.com/ru/company/vdsina/blog/523618/)
   * [Nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references)
   * [Update a codebase with nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-migration-strategies)
@@ -98,12 +98,6 @@
 * <https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/>
 * <https://google.github.io/styleguide/csharp-style.html>
 
-## 001
-  * [c# - Returning a value from thread? - Stack Overflow](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
-  * [c# - Automating the InvokeRequired code pattern - Stack Overflow](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
-  * [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
-  * [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
-
 ## Embedding
 * MS:
   * [Write a custom .NET host to control the .NET runtime from your native code](https://learn.microsoft.com/en-us/dotnet/core/tutorials/netcore-hosting)
@@ -155,6 +149,12 @@
 * [Control .NET runtime from native code](https://dev.to/tvinko/control-net-runtime-from-native-code-473f)
 * [Using .NET 7 Native AOT to call .NET functionality in C++](https://joeysenna.com/posts/nativeaot-in-c-plus-plus)
 * [Calling C# natively from Rust](https://medium.com/@chyyran/calling-c-natively-from-rust-1f92c506289d)
+
+## Unsorted
+  * [c# - Returning a value from thread? - Stack Overflow](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
+  * [c# - Automating the InvokeRequired code pattern - Stack Overflow](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
+  * [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
+  * [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
 
 ## Var
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
