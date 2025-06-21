@@ -19,7 +19,7 @@
 * [How to use immutability in C#](https://www.infoworld.com/article/2258775/how-to-use-immutability-in-csharp.html)
 * [C# Immutable Types: Understanding the Attraction](https://blog.ndepend.com/c-sharp-immutable-types-understanding-attraction/)
 
-## ⚠️ Embedding
+## Embedding
 * MS:
   * [Write a custom .NET host to control the .NET runtime from your native code](https://learn.microsoft.com/en-us/dotnet/core/tutorials/netcore-hosting)
   * [Native hosting](https://github.com/dotnet/runtime/blob/main/docs/design/features/native-hosting.md)
