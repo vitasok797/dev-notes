@@ -18,13 +18,13 @@
 * [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
 
 ## Code Contracts
-* [Основы Code Contracts](https://andrey.moveax.ru/post/csharp-code-contracts-basics)
 * [(MS) Code contracts](https://docs.microsoft.com/en-us/dotnet/framework/debug-trace-profile/code-contracts)
+* [Основы Code Contracts](https://andrey.moveax.ru/post/csharp-code-contracts-basics)
 
 ## DI
+* [(MS) Dependency injection in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
+* [(MS) Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
 * [Simple Injector documentation](https://docs.simpleinjector.org/en/latest/index.html)
-* [Dependency injection in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
-* [Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
 
 ## Dispose
 * [(MS) Implement a Dispose method](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose)
@@ -34,10 +34,10 @@
 * [(Habr) Как применять IDisposable и финализаторы: 3 простых правила](https://habr.com/ru/post/89720/)
 
 ## Error handling
-* [(Habr) Решение проблемы с исключениями в C#](https://habr.com/ru/company/vdsina/blog/523618/)
 * [(MS) Nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references)
 * [(MS) Update a codebase with nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-migration-strategies)
 * [(MS) ?? and ??= operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-coalescing-operator)
+* [(Habr) Решение проблемы с исключениями в C#](https://habr.com/ru/company/vdsina/blog/523618/)
 * [Errors instead of warnings for nullable reference types](https://www.tabsoverspaces.com/233764-switch-to-errors-instead-of-warnings-for-nullable-reference-types-in-csharp-8)
 * [Adapting Projects to Use C# 8 and Nullable Reference Types](https://www.infoq.com/articles/csharp-nullable-reference-case-study/)
 
@@ -67,15 +67,15 @@
 
 ## LINQ
 * [(MS) System.Linq Namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq)
-* [(MS) Standard Query Operators Overview (C#)](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/standard-query-operators-overview)
+* [(MS) Standard Query Operators Overview](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/standard-query-operators-overview)
 
 ## Logging
 * [(MS) Logging in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging)
 * [(StackOverflow) NLog - Allow other processes to read log file](https://stackoverflow.com/questions/56889663/nlog-allow-other-processes-to-read-log-file)
+* [(Habr) Страсти по Serilog](https://habr.com/ru/post/550582/)
 * [NLog Issue – file target keepFileOpen prevents another process from reading](https://github.com/NLog/NLog/issues/2967)
 * [Serilog vs NLog](https://blog.elmah.io/serilog-vs-nlog/)
-* [(Habr) Страсти по Serilog](https://habr.com/ru/post/550582/)
-* [You are doing .NET logging wrong. Let's fix it - YouTube](https://www.youtube.com/watch?v=bnVfrd3lRv8)
+* [(YouTube) You are doing .NET logging wrong. Let's fix it](https://www.youtube.com/watch?v=bnVfrd3lRv8)
 
 ## Specs (MS)
 * [C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
@@ -154,9 +154,9 @@
 * [Using .NET 7 Native AOT to call .NET functionality in C++](https://joeysenna.com/posts/nativeaot-in-c-plus-plus)
 * [Calling C# natively from Rust](https://medium.com/@chyyran/calling-c-natively-from-rust-1f92c506289d)
 
-## Unsorted
-* [(StackOverflow) c# - Returning a value from thread?](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
-* [(StackOverflow) c# - Automating the InvokeRequired code pattern](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
+## Var (unsorted)
+* [(StackOverflow) Returning a value from thread?](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
+* [(StackOverflow) Automating the InvokeRequired code pattern](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
 * [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
 
 ## Var
