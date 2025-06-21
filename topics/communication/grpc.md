@@ -12,9 +12,10 @@
 * [Use gRPC interceptor for authorization with JWT - DEV](https://dev.to/techschoolguru/use-grpc-interceptor-for-authorization-with-jwt-1c5h)
 
 ## Debug
-* [BloomRPC](https://github.com/uw-labs/bloomrpc)
-* <https://github.com/fullstorydev/grpcui>
 * <https://github.com/rogchap/wombat>
+* <https://github.com/fullstorydev/grpcui>
+* <https://github.com/Forest33/warthog>
+* <https://github.com/grpcmd/grpcmd>
 
 ## Send files
 * [(StackOverflow) gRPC + Image Upload](https://stackoverflow.com/questions/34969446/grpc-image-upload/34982660)
