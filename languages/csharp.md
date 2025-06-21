@@ -52,9 +52,13 @@
 * [Qt Bridges](https://www.qt.io/qt-bridges)
 
 ## Guides
-* [(Metanit) Полное руководство по языку программирования С# и платформе .NET](https://metanit.com/sharp/tutorial/)
 * [(MS) C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [(MS) .NET documentation](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
+* [(Metanit) Полное руководство по языку программирования С# и платформе .NET](https://metanit.com/sharp/tutorial/)
+* [(Metanit) Дополнительное руководство по платформе .NET](https://metanit.com/sharp/dotnet/)
+* [(Metanit) Паттерны проектирования в C# и .NET](https://metanit.com/sharp/patterns/)
+* [(Metanit) Алгоритмы и структуры данных в C#](https://metanit.com/sharp/algoritm/)
+* [(Metanit) Руководство по Entity Framework Core 9](https://metanit.com/sharp/efcore/)
 
 ## Immutable
 * [(MS) Immutable Collections](https://learn.microsoft.com/en-us/archive/msdn-magazine/2017/march/net-framework-immutable-collections)
