@@ -74,6 +74,12 @@
 ## Var
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
 
+<br>
+<hr>
+<hr>
+<hr>
+<br>
+
 ## Articles
   * [NET Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/)
   * [Collections: Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/guidelines-for-collections)
