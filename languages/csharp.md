@@ -17,10 +17,6 @@
 * [(Habr) Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/post/470830/)
 * [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
 
-## Code Contracts
-* [(MS) Code contracts](https://docs.microsoft.com/en-us/dotnet/framework/debug-trace-profile/code-contracts)
-* [Основы Code Contracts](https://andrey.moveax.ru/post/csharp-code-contracts-basics)
-
 ## DI
 * [(MS) Dependency injection in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
 * [(MS) Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
