@@ -13,9 +13,15 @@
 * [Python](languages/python.md)
 
 ## Topics
+* [Communication](topics/communication)
+  ([DDS](topics/communication/dds.md),
+  [gRPC](topics/communication/grpc.md),
+  [ZeroMQ](topics/communication/zeromq.md),
+  [Var](topics/communication/var.md),
+  [Unsorted](topics/communication/unsorted.md))
+* [Compilers](topics/compilers) ([Intel](topics/compilers/intel.md))
 * [Architecture](topics/architecture.md)
 * [Calc](topics/calc.md)
-* [Communication](topics/communication.md)
 * [Git](topics/git.md)
 * [Intel compilers](topics/intel-compilers.md)
 * [Multithreading](topics/multithreading.md)
