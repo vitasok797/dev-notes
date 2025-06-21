@@ -148,6 +148,7 @@
 * Libs:
   * [Conari](https://github.com/3F/Conari)
   * [bflat](https://github.com/bflattened/bflat)
+* [(Habr) Путешествие в unmanaged code: туда и обратно](https://habr.com/ru/articles/543306/)
 * [Qt/.NET — Hosting .NET code in a Qt application (1/3)](https://www.qt.io/blog/qt/.net-hosting-.net-code-in-a-qt-application) ([qtdotnet](https://github.com/qt-labs/qtdotnet))
 * [Hosting .NET Core Components in Unmanaged C/C++ Process in Windows and Linux](https://www.codeproject.com/Articles/1276328/Hosting-NET-Core-Components-in-Unmanaged-C-Cpluspl)
 * [Hosting .NET Web Service in Unmanaged C/C++ Process in Windows and Linux](https://www.codeproject.com/Articles/5344732/Hosting-NET-Web-Service-in-Unmanaged-C-Cplusplus-P)
