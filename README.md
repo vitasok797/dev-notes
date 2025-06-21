@@ -17,8 +17,7 @@
   ([dds](topics/communication/dds.md),
   [grpc](topics/communication/grpc.md),
   [zeromq](topics/communication/zeromq.md),
-  [var](topics/communication/var.md),
-  [unsorted](topics/communication/unsorted.md))
+  [var](topics/communication/var.md))
 * [Compilers](topics/compilers) ([Intel](topics/compilers/intel.md))
 * [Architecture](topics/architecture.md)
 * [Calc](topics/calc.md)
