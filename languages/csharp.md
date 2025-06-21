@@ -9,8 +9,8 @@
 
 ## ASP.NET
 * [Introduction to ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)
-* [ASP.NET Core 5](https://metanit.com/sharp/aspnet5/)
-* [ASP.NET Core 6](https://metanit.com/sharp/aspnet6/)
+* [(Metanit) ASP.NET Core 5](https://metanit.com/sharp/aspnet5/)
+* [(Metanit) ASP.NET Core 6](https://metanit.com/sharp/aspnet6/)
 
 ## Async
 * [Parallel Programming in .NET | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
@@ -30,7 +30,7 @@
 ## Dispose
 * [Implement a Dispose method](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose)
 * [Implement IDisposable correctly](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1063?view=vs-2019)
-* [Финализируемые объекты. Метод Dispose](https://metanit.com/sharp/tutorial/8.2.php)
+* [(Metanit) Финализируемые объекты. Метод Dispose](https://metanit.com/sharp/tutorial/8.2.php)
 * [(StackOverflow) Как и когда нужно имплементировать IDisposable](https://ru.stackoverflow.com/questions/486696/%D0%9A%D0%B0%D0%BA-%D0%B8-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B8%D0%BC%D0%BF%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-idisposable)
 * [(Habr) Как применять IDisposable и финализаторы: 3 простых правила](https://habr.com/ru/post/89720/)
 
@@ -53,7 +53,7 @@
 * [Qt Bridges](https://www.qt.io/qt-bridges)
 
 ## Guides
-* [Учебник по языку С# и платформе .NET](https://metanit.com/sharp/tutorial/)
+* [(Metanit) Учебник по языку С# и платформе .NET](https://metanit.com/sharp/tutorial/)
 * [C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [.NET documentation](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
 
