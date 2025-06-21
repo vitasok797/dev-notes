@@ -77,8 +77,9 @@
 * [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
 
 ## ⚠️Specs (MS)
-* [C# documentation](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
-* [.NET documentation](https://learn.microsoft.com/en-us/dotnet/fundamentals/)
+* [**.NET documentation**](https://learn.microsoft.com/en-us/dotnet/fundamentals/)
+* [**C# documentation**](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+* [**C# language reference**](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
 * [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
 * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * [Init only setters](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#init-only-setters)
