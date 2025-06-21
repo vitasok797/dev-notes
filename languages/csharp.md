@@ -12,8 +12,8 @@
 * [(Metanit) Руководство по ASP.NET Core 9](https://metanit.com/sharp/aspnet6/)
 
 ## Async
-* [(MS) Parallel Programming in .NET | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
-* [(MS) Asynchronous programming patterns | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
+* [(MS) Parallel Programming in .NET](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
+* [(MS) Asynchronous programming patterns](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
 * [(Habr) Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/post/470830/)
 * [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
 
@@ -75,6 +75,7 @@
 
 ## Specs (MS)
 * [C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
+* [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
 * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * [Init only setters](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#init-only-setters)
 * [init keyword](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init)
@@ -94,8 +95,8 @@
 * [in parameter modifier](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/in-parameter-modifier)
 
 ## Style
-* <https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/>
-* <https://google.github.io/styleguide/csharp-style.html>
+* [(MS) Framework design guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/)
+* [C# at Google Style Guide](https://google.github.io/styleguide/csharp-style.html)
 
 ## Embedding
 * MS:
@@ -152,7 +153,6 @@
 ## Unsorted
 * [(StackOverflow) c# - Returning a value from thread?](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
 * [(StackOverflow) c# - Automating the InvokeRequired code pattern](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
-* [(MS) .NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
 * [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
 
 ## Var
