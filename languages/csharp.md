@@ -1,35 +1,35 @@
 # C#
 
-## Articles
+## ⚠️Articles
 * [(MS) NET Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/)
 * [(MS) Collections: Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/guidelines-for-collections)
 * [(MS) Fundamentals of garbage collection](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
 * [(MS) Configuration in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
 * [(Habr) Collections: Enumerable vs List](https://habr.com/ru/post/519150/)
 
-## ASP.NET
+## ⚠️ASP.NET
 * [(MS) Introduction to ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)
 * [(Metanit) Руководство по ASP.NET Core 9](https://metanit.com/sharp/aspnet6/)
 
-## Async
+## ⚠️Async
 * [(MS) Parallel Programming in .NET](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
 * [(MS) Asynchronous programming patterns](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
 * [(Habr) Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/post/470830/)
 * [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
 
-## DI
+## ⚠️DI
 * [(MS) Dependency injection in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
 * [(MS) Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
 * [Simple Injector documentation](https://docs.simpleinjector.org/en/latest/index.html)
 
-## Dispose
+## ⚠️Dispose
 * [(MS) Implement a Dispose method](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose)
 * [(MS) Implement IDisposable correctly](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1063?view=vs-2019)
 * [(Metanit) Финализируемые объекты. Метод Dispose](https://metanit.com/sharp/tutorial/8.2.php)
 * [(StackOverflow) Как и когда нужно имплементировать IDisposable](https://ru.stackoverflow.com/questions/486696/%D0%9A%D0%B0%D0%BA-%D0%B8-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B8%D0%BC%D0%BF%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-idisposable)
 * [(Habr) Как применять IDisposable и финализаторы: 3 простых правила](https://habr.com/ru/post/89720/)
 
-## Error handling
+## ⚠️Error handling
 * [(MS) Nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references)
 * [(MS) Update a codebase with nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-migration-strategies)
 * [(MS) ?? and ??= operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-coalescing-operator)
@@ -37,7 +37,7 @@
 * [Errors instead of warnings for nullable reference types](https://www.tabsoverspaces.com/233764-switch-to-errors-instead-of-warnings-for-nullable-reference-types-in-csharp-8)
 * [Adapting Projects to Use C# 8 and Nullable Reference Types](https://www.infoq.com/articles/csharp-nullable-reference-case-study/)
 
-## Functional
+## ⚠️Functional
 * [(Habr) Язык C# почти функционален](https://habr.com/ru/companies/piter/articles/321546/)
 * [(Habr) Ваш C# уже «функциональный», просто позвольте ему это](https://habr.com/ru/articles/493484/)
 * [(Habr) Functional C#: Immutability](https://habr.com/ru/articles/266873/)
@@ -47,7 +47,7 @@
 * [Uno Platform](https://platform.uno/)
 * [Qt Bridges](https://www.qt.io/qt-bridges)
 
-## Guides
+## ⚠️Guides
 * [(MS) C# documentation](https://docs.microsoft.com/en-us/dotnet/csharp/)
 * [(MS) .NET documentation](https://docs.microsoft.com/en-us/dotnet/fundamentals/)
 * [(Metanit) Полное руководство по языку программирования С# и платформе .NET](https://metanit.com/sharp/tutorial/)
@@ -56,16 +56,16 @@
 * [(Metanit) Алгоритмы и структуры данных в C#](https://metanit.com/sharp/algoritm/)
 * [(Metanit) Руководство по Entity Framework Core 9](https://metanit.com/sharp/efcore/)
 
-## Immutable
+## ⚠️Immutable
 * [(MS) Immutable Collections](https://learn.microsoft.com/en-us/archive/msdn-magazine/2017/march/net-framework-immutable-collections)
 * [How to use immutability in C#](https://www.infoworld.com/article/2258775/how-to-use-immutability-in-csharp.html)
 * [C# Immutable Types: Understanding the Attraction](https://blog.ndepend.com/c-sharp-immutable-types-understanding-attraction/)
 
-## LINQ
+## ⚠️LINQ
 * [(MS) System.Linq Namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq)
 * [(MS) Standard Query Operators Overview](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/standard-query-operators-overview)
 
-## Logging
+## ⚠️Logging
 * [(MS) Logging in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging)
 * [(StackOverflow) NLog - Allow other processes to read log file](https://stackoverflow.com/questions/56889663/nlog-allow-other-processes-to-read-log-file)
 * [(Habr) Страсти по Serilog](https://habr.com/ru/post/550582/)
@@ -73,12 +73,12 @@
 * [Serilog vs NLog](https://blog.elmah.io/serilog-vs-nlog/)
 * [(YouTube) You are doing .NET logging wrong. Let's fix it](https://www.youtube.com/watch?v=bnVfrd3lRv8)
 
-## Multithreading
+## ⚠️Multithreading
 * [(StackOverflow) Returning a value from thread?](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
 * [(StackOverflow) Automating the InvokeRequired code pattern](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
 * [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
 
-## Specs (MS)
+## ⚠️Specs (MS)
 * [C# Guide](https://docs.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 * [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
 * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
