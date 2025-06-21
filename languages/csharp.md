@@ -1,7 +1,6 @@
 # C#
 
 ## ⚠️Articles
-* [(MS) NET Design Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/)
 * [(MS) Collections: Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/guidelines-for-collections)
 * [(MS) Fundamentals of garbage collection](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
 * [(MS) Configuration in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
