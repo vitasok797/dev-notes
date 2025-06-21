@@ -12,4 +12,4 @@
 * [Controlling Heartbeats and Retries with DataWriterProtocol QosPolicy](https://community.rti.com/static/documentation/connext-dds/5.3.0/doc/manuals/connext_dds/html_files/RTI_ConnextDDS_CoreLibraries_UsersManual/Content/UsersManual/Controlling_Heartbeats_and_Retries.htm)
 
 ## Resources
-* [DDS Resources](https://www.dds-foundation.org/dds-resources/)
+* [DDS Foundation resource list](https://www.dds-foundation.org/dds-resources/)
