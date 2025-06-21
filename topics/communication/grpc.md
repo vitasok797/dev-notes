@@ -16,10 +16,12 @@
 * [Use gRPC interceptor for authorization with JWT](https://dev.to/techschoolguru/use-grpc-interceptor-for-authorization-with-jwt-1c5h)
 
 ## Debug
-* <https://github.com/rogchap/wombat>
-* <https://github.com/fullstorydev/grpcui>
-* <https://github.com/Forest33/warthog>
-* <https://github.com/grpcmd/grpcmd>
+* CLI ([list](https://github.com/grpc-ecosystem/awesome-grpc?tab=readme-ov-file#tools-cli)):
+  * <https://github.com/grpcmd/grpcmd>
+* GUI ([list](https://github.com/grpc-ecosystem/awesome-grpc?tab=readme-ov-file#gui)):
+  * <https://github.com/rogchap/wombat>
+  * <https://github.com/fullstorydev/grpcui>
+  * <https://github.com/Forest33/warthog>
 
 ## Docs
 * [Deadlines](https://grpc.io/blog/deadlines/)
