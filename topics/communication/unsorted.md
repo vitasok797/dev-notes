@@ -1,17 +1,5 @@
 # Communication / Unsorted
 
-* https://nanomsg.org/documentation-zeromq.html
-* https://250bpm.com/toc/index.html
-* https://250bpm.com/blog:4/
-* https://250bpm.com/blog:8/
-* https://github.com/nanomsg/nng/tree/master
-* https://github.com/nanomsg/nng/blob/master/docs/man/nng.7.adoc
-* https://github.com/nanomsg/nng/blob/master/docs/man/libnng.3.adoc
-* https://nng.nanomsg.org/man/v1.8.0/index.html
-* https://stackoverflow.com/questions/tagged/nanomsg
-* https://stackoverflow.com/questions/51011425/multiple-publishers-subscribers-in-nanomsg-nng
-* https://stackoverflow.com/questions/54636019/why-is-flatbuffers-and-nng-no-copy-is-slower-that-double-copy
-*
 * https://fast-dds.docs.eprosima.com/en/latest/fastddsgen/dataTypes/dataTypes.html
 * https://community.rti.com/forum-topic/point-point-rti-dds
 * https://community.rti.com/static/documentation/connext-dds/current/doc/manuals/connext_dds_professional/getting_started_guide/cpp11/before.html
