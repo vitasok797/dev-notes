@@ -59,7 +59,6 @@
 * [(MS) Logging in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging)
 * [(StackOverflow) NLog - Allow other processes to read log file](https://stackoverflow.com/questions/56889663/nlog-allow-other-processes-to-read-log-file)
 * [(Habr) Страсти по Serilog](https://habr.com/ru/post/550582/)
-* [NLog Issue – file target keepFileOpen prevents another process from reading](https://github.com/NLog/NLog/issues/2967)
 * [Serilog vs NLog](https://blog.elmah.io/serilog-vs-nlog/)
 * [(YouTube) You are doing .NET logging wrong. Let's fix it](https://www.youtube.com/watch?v=bnVfrd3lRv8)
 
