@@ -51,9 +51,9 @@
 * [How to use immutability in C#](https://www.infoworld.com/article/2258775/how-to-use-immutability-in-csharp.html)
 * [C# Immutable Types: Understanding the Attraction](https://blog.ndepend.com/c-sharp-immutable-types-understanding-attraction/)
 
-## ⚠️LINQ
+## LINQ
 * [(MS) System.Linq Namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq)
-* [(MS) Standard Query Operators Overview](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/standard-query-operators-overview)
+* [(MS) Standard Query Operators](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/standard-query-operators-overview)
 
 ## ⚠️Logging
 * [(MS) Logging in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging)
