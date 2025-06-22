@@ -10,9 +10,8 @@
 * [(MS) Introduction to ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)
 * [(Metanit) Руководство по ASP.NET Core 9](https://metanit.com/sharp/aspnet6/)
 
-## ⚠️DI
+## DI
 * [(MS) Dependency injection in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
-* [(MS) Dependency injection in ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection)
 * [Simple Injector documentation](https://docs.simpleinjector.org/en/latest/index.html)
 
 ## ⚠️Dispose
