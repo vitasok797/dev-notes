@@ -159,6 +159,11 @@
 * https://www.cppstories.com/2016/04/custom-deleters-for-c-smart-pointers/
 * https://www.boost.org/doc/libs/latest/libs/locale/doc/html/collation.html
 
+## ⚠️ vsl
+* noexcept
+* assert ([ftrim](https://godbolt.org/z/bsqGP99eK), nullptr_error, ...)
+* to separate repo: repo (struct), links to repo (cpp-libs.md, readme.md), guidelines headers direct links, godbolt includes, use vsl::assert, vsl::ostream join
+
 ## ⚠️ Internet (at work)
 * Fortran bindings
 * C++ parsing
