@@ -154,5 +154,8 @@
 * [Using .NET 7 Native AOT to call .NET functionality in C++](https://joeysenna.com/posts/nativeaot-in-c-plus-plus)
 * [Calling C# natively from Rust](https://medium.com/@chyyran/calling-c-natively-from-rust-1f92c506289d)
 
+## Video
+* [(Youtube) Channel: Nick Chapsas](https://www.youtube.com/c/Elfocrash/videos)
+
 ## Var
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
