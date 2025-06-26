@@ -62,12 +62,12 @@
 * [Serilog vs NLog](https://blog.elmah.io/serilog-vs-nlog/)
 * [(YouTube) You are doing .NET logging wrong. Let's fix it](https://www.youtube.com/watch?v=bnVfrd3lRv8)
 
-## ⚠️Multithreading
+## Multithreading
 * [(StackOverflow) Returning a value from thread?](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
 * [(StackOverflow) Automating the InvokeRequired code pattern](https://stackoverflow.com/questions/2367718/automating-the-invokerequired-code-pattern)
 * [Volatile, модели и барьеры памяти .NET](https://boyarincev.net/articles/dotnet/volatile-memory-barriers-models/)
 
-### ⚠️Multithreading / Async
+### Multithreading / Async
 * [(MS) Parallel Programming in .NET](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
 * [(MS) Asynchronous programming patterns](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
 * [(Habr) Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/post/470830/)
