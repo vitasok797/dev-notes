@@ -1,11 +1,5 @@
 # C#
 
-## ⚠️Articles
-* [(MS) Collections: Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/guidelines-for-collections)
-* [(MS) Fundamentals of garbage collection](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
-* [(MS) Configuration in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
-* [(Habr) Collections: Enumerable vs List](https://habr.com/ru/post/519150/)
-
 ## ASP.NET
 * [(MS) Introduction to ASP.NET Core](https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core)
 * [(Metanit) Руководство по ASP.NET Core 9](https://metanit.com/sharp/aspnet6/)
@@ -37,6 +31,12 @@
 * [Avalonia](https://avaloniaui.net/)
 * [Uno Platform](https://platform.uno/)
 * [Qt Bridges](https://www.qt.io/qt-bridges)
+
+## Guidelines
+* [(MS) Collections: Guidelines](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/guidelines-for-collections)
+* [(MS) Fundamentals of garbage collection](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/fundamentals)
+* [(MS) Configuration in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/configuration)
+* [(Habr) Collections: Enumerable vs List](https://habr.com/ru/post/519150/)
 
 ## Guides
 * [(Metanit) Полное руководство по языку программирования С# и платформе .NET](https://metanit.com/sharp/tutorial/)
@@ -72,7 +72,7 @@
 * [(Habr) Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/post/470830/)
 * [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
 
-## ⚠️Specs (MS)
+## Specs (MS)
 * [**.NET documentation**](https://learn.microsoft.com/en-us/dotnet/fundamentals/)
 * [**C# documentation**](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 * [**C# language reference**](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
