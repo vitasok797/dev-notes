@@ -54,12 +54,12 @@
 * [(MS) System.Linq Namespace](https://docs.microsoft.com/en-us/dotnet/api/system.linq)
 * [(MS) Standard Query Operators](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/standard-query-operators-overview)
 
-## ⚠️Logging
+## Logging
 * [(MS) Logging in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/logging)
-* [(StackOverflow) NLog - Allow other processes to read log file](https://stackoverflow.com/questions/56889663/nlog-allow-other-processes-to-read-log-file)
 * [(Habr) Страсти по Serilog](https://habr.com/ru/post/550582/)
 * [Serilog vs NLog](https://blog.elmah.io/serilog-vs-nlog/)
 * [(YouTube) You are doing .NET logging wrong. Let's fix it](https://www.youtube.com/watch?v=bnVfrd3lRv8)
+* [(StackOverflow) NLog - Allow other processes to read log file](https://stackoverflow.com/questions/56889663/nlog-allow-other-processes-to-read-log-file)
 
 ## Multithreading
 * [(StackOverflow) Returning a value from thread?](https://stackoverflow.com/questions/1314155/returning-a-value-from-thread)
@@ -76,7 +76,7 @@
 * [**.NET documentation**](https://learn.microsoft.com/en-us/dotnet/fundamentals/)
 * [**C# documentation**](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 * [**C# language reference**](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
-* [.NET Standard](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
+* [**.NET Standard**](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
 * [Lambda expressions](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions)
 * [Init only setters](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-9#init-only-setters)
 * [init keyword](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/init)
