@@ -45,7 +45,7 @@
 * [(Metanit) Алгоритмы и структуры данных в C#](https://metanit.com/sharp/algoritm/)
 * [(Metanit) Руководство по Entity Framework Core 9](https://metanit.com/sharp/efcore/)
 
-## ⚠️Immutable
+## Immutability
 * [(MS) Immutable Collections](https://learn.microsoft.com/en-us/archive/msdn-magazine/2017/march/net-framework-immutable-collections)
 * [How to use immutability in C#](https://www.infoworld.com/article/2258775/how-to-use-immutability-in-csharp.html)
 * [C# Immutable Types: Understanding the Attraction](https://blog.ndepend.com/c-sharp-immutable-types-understanding-attraction/)
