@@ -14,19 +14,18 @@
 * [(MS) Dependency injection in .NET](https://docs.microsoft.com/en-us/dotnet/core/extensions/dependency-injection)
 * [Simple Injector documentation](https://docs.simpleinjector.org/en/latest/index.html)
 
-## ⚠️Dispose
+## Dispose
 * [(MS) Implement a Dispose method](https://docs.microsoft.com/en-us/dotnet/standard/garbage-collection/implementing-dispose)
 * [(MS) Implement IDisposable correctly](https://docs.microsoft.com/en-us/dotnet/fundamentals/code-analysis/quality-rules/ca1063?view=vs-2019)
 * [(Metanit) Финализируемые объекты. Метод Dispose](https://metanit.com/sharp/tutorial/8.2.php)
 * [(StackOverflow) Как и когда нужно имплементировать IDisposable](https://ru.stackoverflow.com/questions/486696/%D0%9A%D0%B0%D0%BA-%D0%B8-%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0-%D0%BD%D1%83%D0%B6%D0%BD%D0%BE-%D0%B8%D0%BC%D0%BF%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-idisposable)
 * [(Habr) Как применять IDisposable и финализаторы: 3 простых правила](https://habr.com/ru/post/89720/)
 
-## ⚠️Error handling
+## Error handling
 * [(MS) Nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-references)
 * [(MS) Update a codebase with nullable reference types](https://docs.microsoft.com/en-us/dotnet/csharp/nullable-migration-strategies)
 * [(MS) ?? and ??= operators](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-coalescing-operator)
 * [(Habr) Решение проблемы с исключениями в C#](https://habr.com/ru/company/vdsina/blog/523618/)
-* [Errors instead of warnings for nullable reference types](https://www.tabsoverspaces.com/233764-switch-to-errors-instead-of-warnings-for-nullable-reference-types-in-csharp-8)
 * [Adapting Projects to Use C# 8 and Nullable Reference Types](https://www.infoq.com/articles/csharp-nullable-reference-case-study/)
 
 ## Functional
