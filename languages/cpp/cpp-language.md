@@ -178,6 +178,7 @@
 * [(CG) Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
 * [(CG) For general use, take T* or T& arguments rather than smart pointers](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f7-for-general-use-take-t-or-t-arguments-rather-than-smart-pointers)
 * [(CG) Prefer T* over T& when “no argument” is a valid option](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
+* [GotW #90 Solution: Factories](https://herbsutter.com/2013/05/30/gotw-90-solution-factories/)
 * [GotW #91 Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
 * [Should move-only types ever be passed by value?](http://scottmeyers.blogspot.com/2014/07/should-move-only-types-ever-be-passed.html)
 * [(HackingCpp) Function Parameters & Return Values](https://hackingcpp.com/cpp/design/function_interface_advice.png)
