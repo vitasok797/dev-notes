@@ -164,6 +164,8 @@
 * assert ([ftrim](https://godbolt.org/z/bsqGP99eK), nullptr_error, ...)
 * to separate repo: repo (struct), add links to repo (cpp-libs.md, readme.md), cpp-guidelines.md direct headers links, godbolt includes, use vsl::assert
 
-## ⚠️ Internet (at work)
-* Fortran bindings
-* C++ parsing
+## ⚠️ TODO
+* Visual Studio Settings
+* Internet:
+ * Fortran bindings
+ * C++ parsing
