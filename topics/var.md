@@ -26,6 +26,9 @@
 * [Pixel fonts](https://www.dafont.com/bitmap.php) ([5x5](https://www.dafont.com/5x5.font), [Pixeljosh6](https://www.dafont.com/pixeljosh6.font))
 * [LanguageTool](https://languagetool.org/ru)
 
+## SVN
+* [(StackOverflow) Resolve "Can't revert 'somedir' without reverting children" when reverting in svn](https://stackoverflow.com/questions/78648182/resolve-cant-revert-somedir-without-reverting-children-when-reverting-in-sv)
+
 ## Var
 * [Semantic Versioning 2.0.0](https://semver.org)
 * [Conventional Commits](https://www.conventionalcommits.org/)
