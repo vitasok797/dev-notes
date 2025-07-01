@@ -1045,10 +1045,10 @@ From the caller's point of view, the value can be `std::move`-ed if the paramete
 * Return `unique_ptr<T>` to transfer ownership (heap object)
 * Return `shared_ptr<T>` to share ownership (heap object)
 * Return by value
-* Return a `T&`:
-  * When copy is undesirable and "returning no object" isn’t needed
+* Return `T&`:
+  * When copy is undesirable and non-optional
   * From assignment operators
-* Return a `T*` to indicate a optional (nullptr) position ([F.42](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f42-return-a-t-to-indicate-a-position-only))
+* Return `T*` to indicate a optional (nullptr) position ([F.42](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f42-return-a-t-to-indicate-a-position-only))
 
 </details>
 
