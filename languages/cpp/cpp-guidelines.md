@@ -1042,12 +1042,12 @@ From the caller's point of view, the value can be `std::move`-ed if the paramete
 
 #### 🚧 Returning
 
-* `Polymorphic` or `NonMovableType`:
-  * Return `std::unique_ptr<T>` to transfer ownership
-  * Return `std::shared_ptr<T>` to share ownership
+* Factory for `Polymorphic` or `NonMovableType`:
+  * Return `std::unique_ptr` to transfer ownership
+  * Return `std::shared_ptr` to share ownership
 * Optional:
   * Return `std::optional<CheapToCopyType>`
-  * Return `HeavyType*` to indicate a optional position ([F.42](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f42-return-a-t-to-indicate-a-position-only))
+  * Return `HeavyType*` to indicate an optional position ([F.42](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f42-return-a-t-to-indicate-a-position-only))
 * Return `T&`:
   * When copy is undesirable
   * From assignment operators
