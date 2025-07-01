@@ -7,7 +7,7 @@
 * [(Habr) Как же все-таки правильно написать двоичный поиск?](https://habr.com/ru/articles/91698/)
 * [Sorting algorithms animations](https://www.toptal.com/developers/sorting-algorithms)
 * [Быстрая сортировка (интерактивная анимация)](https://dyzzet.ru/a/quicksort/)
-* ❓ [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+* [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
 ## GUI
 * [Multithreading with wxWidgets](https://cool-emerald.blogspot.com/2020/01/multithreading-with-wxwidgets.html)
