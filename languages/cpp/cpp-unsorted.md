@@ -154,11 +154,6 @@
 * https://godbolt.org/z/sKW846o7e
 * https://godbolt.org/z/dfjb6Kq9q https://cppinsights.io/
 
-## ⚠️ Var (now)
-* https://en.cppreference.com/w/cpp/header/chrono.html
-* https://www.cppstories.com/2016/04/custom-deleters-for-c-smart-pointers/
-* https://www.boost.org/doc/libs/latest/libs/locale/doc/html/collation.html
-
 ## ⚠️ vsl
 * noexcept
 * assert ([ftrim](https://godbolt.org/z/bsqGP99eK), nullptr_error, ...)
