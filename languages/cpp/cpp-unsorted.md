@@ -167,5 +167,5 @@
 ## ⚠️ TODO
 * Visual Studio Settings
 * Internet:
- * Fortran bindings
- * C++ parsing
+  * Fortran bindings
+  * C++ parsing
