@@ -9,6 +9,12 @@
 * [Быстрая сортировка (интерактивная анимация)](https://dyzzet.ru/a/quicksort/)
 * [Data Structure Visualizations](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
 
+## DB
+* [(Metanit) Руководство по проектированию реляционных баз данных](https://metanit.com/sql/tutorial/)
+* [(Metanit) Введение в SQLite](https://metanit.com/sql/sqlite/1.1.php)
+* [(Metanit) Руководство по PostgreSQL](https://metanit.com/sql/postgresql/)
+* [Руководство по SQL](https://proselyte.net/tutorials/sql/sql-transactions/)
+
 ## GUI
 * [Multithreading with wxWidgets](https://cool-emerald.blogspot.com/2020/01/multithreading-with-wxwidgets.html)
 
