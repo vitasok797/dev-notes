@@ -1001,10 +1001,10 @@ auto main() -> int
 <details>
 <summary>🚧 Parameter passing</summary>
 
-#### Parameters
-
 * [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
 * [Language / Types / Passing parameters](cpp-language.md#types--passing-parameters)
+
+#### Parameters
 
 | Function intent | Value type | Rvalue<br>only | Parameter type | Comment |
 |---|---|:---:|:---:|---|
