@@ -69,8 +69,11 @@
 ### Multithreading / Async
 * [(MS) Parallel Programming in .NET](https://docs.microsoft.com/en-us/dotnet/standard/parallel-programming/)
 * [(MS) Asynchronous programming patterns](https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/)
+* [(MS) ExecutionContext vs SynchronizationContext](https://devblogs.microsoft.com/dotnet/executioncontext-vs-synchronizationcontext/)
 * [(Habr) Async/await в C#: концепция, внутреннее устройство, полезные приемы](https://habr.com/ru/post/470830/)
 * [(Habr) ConfigureAwait: часто задаваемые вопросы](https://habr.com/ru/post/482354/)
+* [7 ways to start a Task in .NET C#](https://dotnetcodr.com/2014/01/01/5-ways-to-start-a-task-in-net-c/)
+* [C# Async Antipatterns](https://markheath.net/post/async-antipatterns)
 
 ## Specs (MS)
 * [**.NET documentation**](https://learn.microsoft.com/en-us/dotnet/fundamentals/)
