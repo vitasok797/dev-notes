@@ -128,17 +128,13 @@
   * 26 - Templates and Classes
   * 28 - Input and Output (I/O)
 
-## ⚠️ Parameter passing
-* https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
-* https://hackingcpp.com/cpp/recipe/string_parameters.html
-* https://hackingcpp.com/cpp/design/function_interface_example1.html
-* Returning &&:
-  * Examples:
-    * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
-    * https://en.cppreference.com/w/cpp/utility/optional/value
-  * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref-ref
-  * https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
-  * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
+## ⚠️ Returning &&
+* https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref-ref
+* https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
+* https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
+* Examples:
+  * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
+  * https://en.cppreference.com/w/cpp/utility/optional/value
 
 ## ⚠️ Dangling references
 * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
