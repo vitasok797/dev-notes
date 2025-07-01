@@ -150,9 +150,18 @@
 * https://github.com/microsoft/GSL/blob/main/include/gsl/narrow
 
 ## ⚠️ vsl
+* VSL repo:
+  * create and move sources
+  * cpp-libs.md, readme.md: add links to repo
+  * cpp-guidelines.md: headers links
+  * cpp-guidelines.md: godbolt includes
+  * merge headers: use vsl::assert (? godbolt)
+* use EXPECTS from vsl/assert.h:
+  * error.h (nullptr_error)
+  * math.h/ftrim (logic_error) [demo](https://godbolt.org/z/bsqGP99eK)
+  * math.h/ceil_div (assert)
+  * ...
 * noexcept
-* assert ([ftrim](https://godbolt.org/z/bsqGP99eK), nullptr_error, ...)
-* to separate repo: repo (struct), add links to repo (cpp-libs.md, readme.md), cpp-guidelines.md direct headers links, godbolt includes, use vsl::assert
 
 ## ⚠️ TODO
 * Visual Studio settings
