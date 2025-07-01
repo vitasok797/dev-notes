@@ -131,7 +131,6 @@
 * https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
 * https://hackingcpp.com/cpp/recipe/string_parameters.html
 * https://hackingcpp.com/cpp/design/function_interface_example1.html
-* https://hackingcpp.com/cpp/design/function_interface_advice.png
 * Returning &&:
   * Examples:
     * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
