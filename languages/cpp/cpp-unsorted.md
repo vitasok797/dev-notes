@@ -165,7 +165,7 @@
 * to separate repo: repo (struct), add links to repo (cpp-libs.md, readme.md), cpp-guidelines.md direct headers links, godbolt includes, use vsl::assert
 
 ## ⚠️ TODO
-* Visual Studio Settings
+* Visual Studio settings
 * Internet:
   * Fortran bindings
   * C++ parsing
