@@ -129,7 +129,6 @@
 
 ## ⚠️ Parameter passing
 * https://herbsutter.com/2013/05/30/gotw-90-solution-factories/
-* https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
 * https://hackingcpp.com/cpp/recipe/string_parameters.html
 * https://hackingcpp.com/cpp/design/function_interface_example1.html
 * https://hackingcpp.com/cpp/design/function_interface_advice.png
