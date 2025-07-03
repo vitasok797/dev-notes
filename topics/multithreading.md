@@ -34,6 +34,9 @@
 * [The Little Book of Semaphores](https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf)
 
 ## Var
+* [(Habr) Конкурентность: Параллелизм](https://habr.com/ru/articles/318374/)
+* [(Habr) Конкурентность: Кооперативность](https://habr.com/ru/articles/318786/)
+* [(Habr) Конкурентность: Асинхронность](https://habr.com/ru/articles/319350/)
 * [(Wiki) volatile](https://en.wikipedia.org/wiki/Volatile_(computer_programming))
 * [Synchronization and the Java Memory Model](https://gee.cs.oswego.edu/dl/cpj/jmm.html)
 * [Threading in C#: Part 4: Advanced Threading](https://www.albahari.com/threading/part4.aspx)
