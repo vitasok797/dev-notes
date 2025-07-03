@@ -1,5 +1,8 @@
 # Communication / Var
 
+## Message brokers
+* [RabbitMQ](https://www.rabbitmq.com/)
+
 ## Middleware
 * [Spread Toolkit](http://spread.org/docspread.html)
 * [Cactus](https://www.cactuscode.org/)
