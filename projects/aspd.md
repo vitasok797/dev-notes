@@ -61,11 +61,11 @@
 * [(Wiki) Document type definition](https://en.wikipedia.org/wiki/Document_type_definition)
 * [(MS) WdBuiltinStyle Enum (Microsoft.Office.Interop.Word)](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.wdbuiltinstyle?view=word-pia)
 * [The simplest way, using VBA, to reset part of a style definition (e.g. the font name), so it inherits the definition of the style it is based on](https://wordmvp.com/FAQs/MacrosVBA/ResetStyles.htm)
-* [(Stack Overflow) Cannot set Word Style's Base Style From C#](https://stackoverflow.com/questions/18547789/cannot-set-word-styles-base-style-from-c-sharp)
+* [(StackOverflow) Cannot set Word Style's Base Style From C#](https://stackoverflow.com/questions/18547789/cannot-set-word-styles-base-style-from-c-sharp)
 
 ## Var
-* [(Habr) Некоторые рекомендации по организации автонумерации при написании научных статей и диссертаций средствами Microsoft Word](https://habrahabr.ru/post/187398/)
-* [(Habr) Microsoft Office Automation: Еще одна лазейка для макровируса](https://habrahabr.ru/company/dsec/blog/335222/)
+* [(Habr) Некоторые рекомендации по организации автонумерации при написании научных статей и диссертаций средствами Microsoft Word](https://habr.com/ru/articles/187398/)
+* [(Habr) Microsoft Office Automation: Еще одна лазейка для макровируса](https://habr.com/ru/companies/dsec/articles/335222/)
 * [C# Code Snippet to Send an Email with Attachment from Outlook, Yahoo, HotMail, AOL and Gmail](https://www.codeproject.com/Tips/165548/Csharp-Code-Snippet-to-Send-an-Email-with-Attachme)
 * [Points, inches and Emus: Measuring units in Office Open XML](https://startbigthinksmall.wordpress.com/2010/01/04/points-inches-and-emus-measuring-units-in-office-open-xml/)
 * [Copying Styles (Microsoft Word)](https://wordribbon.tips.net/T004628_Copying_Styles.html)
