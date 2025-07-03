@@ -2,7 +2,7 @@
 
 ## Discovery
 
-### Discovery/Consul
+### Discovery / Consul
 * [(Habr) Consul.io Часть 1](https://habr.com/ru/articles/278085/)
 * [(Habr) Consul.io Часть 2](https://habr.com/ru/articles/278101/)
 * [(Habr) Consul: Service Discovery это просто, или прощаемся с конфиг-файлами](https://habr.com/ru/articles/266139/)
@@ -11,10 +11,10 @@
 * [Конфигурация сервисов c Consul Key-Value Store](https://dotsandbrackets.com/consul-key-value-store-configuration-ru/)
 * [Использование Consul для service discovery и других задач](https://eax.me/consul/)
 
-### Discovery/Zookeeper
+### Discovery / Zookeeper
 * [Zookeeper или как живётся работнику зоопарка](https://javarush.com/groups/posts/2162-zookeeper-ili-kak-zhivjetsja-rabotniku-zooparka)
 
-### Discovery/etcd
+### Discovery / etcd
 * [etcd](https://etcd.io/)
 
 ## InfiniBand
