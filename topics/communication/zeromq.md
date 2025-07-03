@@ -5,6 +5,7 @@
 
 ## Libs
 * [A tour of CPPZMQ, the C++ bindings to libzmq](https://brettviren.github.io/cppzmq-tour/index.html)
+* [Zyre - Local Area Clustering for Peer-to-Peer Applications](https://github.com/zeromq/zyre)
 
 ## Reliability
 * [Designing Reliability](https://zguide.zeromq.org/docs/chapter4/#Designing-Reliability)
