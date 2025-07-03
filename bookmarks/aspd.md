@@ -1,7 +1,7 @@
 # ASPD
 
 ## VSTO
-* [Microsoft.Office.Interop.Word](https://docs.microsoft.com/ru-ru/dotnet/api/microsoft.office.interop.word?view=word-pia)
+* [Microsoft.Office.Interop.Word](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word?view=word-pia)
 * [Registry entries for VSTO Add-ins](https://docs.microsoft.com/en-us/visualstudio/vsto/registry-entries-for-vsto-add-ins?view=vs-2019)
 * [How to: Programmatically add comments to text in documents - Visual Studio | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-programmatically-add-comments-to-text-in-documents?view=vs-2019)
 * [Custom XML parts overview - Visual Studio | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)
@@ -32,7 +32,7 @@
 * [Visual Studio Tools for Office runtime installation scenarios - Visual Studio | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/vsto/visual-studio-tools-for-office-runtime-installation-scenarios?view=vs-2019)
 * [Visual Studio Tools for Office runtime overview - Visual Studio | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/vsto/visual-studio-tools-for-office-runtime-overview?view=vs-2019)
 * [Run solutions in different versions of Microsoft Office - Visual Studio | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/vsto/running-solutions-in-different-versions-of-microsoft-office?view=vs-2019)
-* [System.Deployment.Application Namespace | Microsoft Docs](https://docs.microsoft.com/ru-ru/dotnet/api/system.deployment.application?view=netframework-4.8)
+* [System.Deployment.Application Namespace | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/system.deployment.application?view=netframework-4.8)
 * [Publishing a web project with MSBuild (with multiple configurations) - Christian Specht](https://christianspecht.de/2013/12/16/publishing-a-web-project-with-msbuild-with-multiple-configurations/)
 * [Building ClickOnce Applications from the Command Line - Visual Studio 2015 | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/deployment/building-clickonce-applications-from-the-command-line?view=vs-2015)
 * [Walkthrough: Manually Deploying a ClickOnce Application - Visual Studio 2015 | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-application?view=vs-2015)
@@ -67,8 +67,8 @@
 
 ## Styles
 * [Import Styles from Template(.dotx) to Word document(.docx)](https://social.msdn.microsoft.com/Forums/vstudio/en-US/b987fca3-2760-4ad8-91d1-0e2bab068531/import-styles-from-templatedotx-to-word-documentdocx?forum=vsto)
-* [TableStyle Interface (Microsoft.Office.Interop.Word) | Microsoft Docs](https://docs.microsoft.com/ru-ru/dotnet/api/microsoft.office.interop.word.tablestyle?view=word-pia)
-* [TableStyle Interface (Microsoft.Office.Interop.Word) | Microsoft Docs](https://docs.microsoft.com/ru-ru/dotnet/api/microsoft.office.interop.word.tablestyle?view=word-pia)
+* [TableStyle Interface (Microsoft.Office.Interop.Word) | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.tablestyle?view=word-pia)
+* [TableStyle Interface (Microsoft.Office.Interop.Word) | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.tablestyle?view=word-pia)
 * [Generate sample XML data from XSD using Visual Studio](https://www.vishalon.net/blog/generate-sample-xml-data-from-xsd-using-visual-studio)
 * [Introduction to XML Schema Creation in Visual Studio | Working with XML in Excel](https://flylib.com/books/en/2.53.1/introduction_to_xml_schema_creation_in_visual_studio.html)
 * [How to: Select the XML Schemas to Use - Visual Studio | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/xml-tools/how-to-select-the-xml-schemas-to-use?view=vs-2019)
@@ -77,7 +77,7 @@
 * [XML schema - Wikipedia](https://en.wikipedia.org/wiki/XML_schema)
 * [XML Schema (W3C) - Wikipedia](https://en.wikipedia.org/wiki/XML_Schema_(W3C))
 * [Document type definition - Wikipedia](https://en.wikipedia.org/wiki/Document_type_definition)
-* [WdBuiltinStyle Enum (Microsoft.Office.Interop.Word) | Microsoft Docs](https://docs.microsoft.com/ru-ru/dotnet/api/microsoft.office.interop.word.wdbuiltinstyle?view=word-pia)
+* [WdBuiltinStyle Enum (Microsoft.Office.Interop.Word) | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.wdbuiltinstyle?view=word-pia)
 * [The simplest way, using VBA, to reset part of a style definition (e.g. the font name), so it inherits the definition of the style it is based on](https://wordmvp.com/FAQs/MacrosVBA/ResetStyles.htm)
 * [Cannot set Word Style&#39;s Base Style From C# - Stack Overflow](https://stackoverflow.com/questions/18547789/cannot-set-word-styles-base-style-from-c-sharp)
 * [Using get_Style, set_Style, get_BaseStyle, set_BaseStyle, etc. in C#](https://social.msdn.microsoft.com/Forums/en-US/fc2db655-2bfe-4285-ba5c-1227de52a38a/using-getstyle-setstyle-getbasestyle-setbasestyle-etc-in-c?forum=worddev)
