@@ -49,7 +49,7 @@
 
 ## Unicode
 * [Таблица символов Unicode](http://foxtools.ru/Unicode)
-* [Таблица символов Юникода](https://unicode-table.com/ru/" ICON_URI="https://unicode-table.com/i/favicons/favicon-16x16.png" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAHlBMVEWKTZqJTZqKTJuJTZmJTZqITZqJTZqJTZr////IrNBb33FnAAAAB3RSTlNM3kri4OTl016x7gAAAAFiS0dECIbelXoAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfjDAUKJgf+B03uAAAAMUlEQVQI12NgLAcDIQZzCKOEoRwKkBgd5R1AgMYAQgKMDihjBoyBYXI4hC5mYIMwggCzSzu3PL991AAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOS0xMi0wNVQxMDozODowNyswMTowMNW5Y8YAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTktMTItMDVUMTA6Mzg6MDcrMDE6MDCk5Nt6AAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAFd6VFh0UmF3IHByb2ZpbGUgdHlwZSBpcHRjAAB4nOPyDAhxVigoyk/LzEnlUgADIwsuYwsTIxNLkxQDEyBEgDTDZAMjs1Qgy9jUyMTMxBzEB8uASKBKLgDqFxF08kI1lQAAAABJRU5ErkJggg==)
+* [Таблица символов Юникода](https://unicode-table.com/ru/)
 * [List of Unicode characters - Wikipedia](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
 * [Multiplication sign - Wikipedia](https://en.wikipedia.org/wiki/Multiplication_sign)
 * [Unicode Character &#39;DOT OPERATOR&#39; (U+22C5)](https://www.fileformat.info/info/unicode/char/22c5/index.htm)
