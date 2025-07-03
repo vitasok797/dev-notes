@@ -94,7 +94,7 @@
     * [Conduit](https://llnl-conduit.readthedocs.io/)
     * [ACE](http://www.dre.vanderbilt.edu/~schmidt/ACE.html)
     * [Zyre](https://github.com/zeromq/zyre)
-  * 001
+  * Var
     * [AMQP — Википедия](https://ru.wikipedia.org/wiki/AMQP)
     * [OMQ Guide – Discovery](https://zguide.zeromq.org/docs/chapter8/#Discovery)
     * [Messaging Technologies](https://www.omg.org/news/whitepapers/Messaging-Whitepaper%20v2.1.pdf)
@@ -106,7 +106,6 @@
     * [java - DDS Reader not dropping messages - Stack Overflow](https://stackoverflow.com/questions/60537723/dds-reader-not-dropping-messages)
     * [Restricting communication between robots - Next Generation ROS - ROS Discourse](https://discourse.ros.org/t/restricting-communication-between-robots/2931/34)
     * [Configuration of Eclipse Cyclone DDS](https://github.com/eclipse-cyclonedds/cyclonedds/blob/master/docs/manual/config.rst)
-  * 002
     * [RTI Connext DDS - Where Filtering is Applied](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/users_manual/index.htm#users_manual/Where_Filtering_is_Applied.htm#5.4.2_Where_Filtering_is_Applied%E2%80%94Publishing_vs._Subscribing_Side%3FTocPath%3DPart%25202%253A%2520Core%2520Concepts%7C5.%2520Working%2520with%2520Topics%7C5.4%2520ContentFilteredTopics%7C_____2)
     * [Configure RTI Connext DDS to not use Multicast](https://community.rti.com/howto/configure-rti-connext-dds-not-use-multicast)
     * [GitHub - eProsima/xtypes](https://github.com/eProsima/xtypes)
@@ -384,7 +383,7 @@
     * [Home · oleg-shilo/cs-script Wiki · GitHub](https://github.com/oleg-shilo/cs-script/wiki)
     * [Control .NET runtime from native code - DEV Community](https://dev.to/tvinko/control-net-runtime-from-native-code-473f)
 
-## 002
+## Var
 
   * [Детская ошибка в коде которую обожают делать новички | ЯЮниор - Школа Программирования | Дзен](https://dzen.ru/a/XsO4-r16bz0U8g35)
   * [Блог Александра Бындю: Domain-Driven Design: Repository](https://blog.byndyu.ru/2011/01/domain-driven-design-repository.html)
