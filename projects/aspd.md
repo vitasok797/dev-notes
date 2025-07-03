@@ -21,7 +21,7 @@
 ## Deploy
 * [(MS) Deploy an Office solution by using ClickOnce](https://docs.microsoft.com/en-us/visualstudio/vsto/deploying-an-office-solution-by-using-clickonce?view=vs-2019)
 * [(MS) Deploy your apps](https://docs.microsoft.com/en-us/visualstudio/deployment/?view=vs-2019)
-* [(MS) Deploying Applications, Services, and Components](https://docs.microsoft.com/en-us/visualstudio/deployment/deploying-applications-services-and-components?view=vs-2015)
+* [(MS) Deploying Applications, Services, and Components](https://docs.microsoft.com/en-us/visualstudio/deployment/deploying-applications-services-and-components?view=vs-2019)
 * [(MS) Office Solution Prerequisites for Deployment](https://docs.microsoft.com/en-us/previous-versions/bb608617(v=vs.110))
 * [(MS) How to: Install Prerequisites on End User Computers to Run Office Solutions](https://docs.microsoft.com/en-us/previous-versions/bb608608(v=vs.110))
 * [(MS) How to: Install the Visual Studio Tools for Office runtime redistributable](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-install-the-visual-studio-tools-for-office-runtime-redistributable?view=vs-2019)
@@ -30,8 +30,8 @@
 * [(MS) Visual Studio Tools for Office runtime overview](https://docs.microsoft.com/en-us/visualstudio/vsto/visual-studio-tools-for-office-runtime-overview?view=vs-2019)
 * [(MS) Run solutions in different versions of Microsoft Office](https://docs.microsoft.com/en-us/visualstudio/vsto/running-solutions-in-different-versions-of-microsoft-office?view=vs-2019)
 * [(MS) System.Deployment.Application Namespace](https://docs.microsoft.com/en-us/dotnet/api/system.deployment.application?view=netframework-4.8)
-* [(MS) Building ClickOnce Applications from the Command Line](https://docs.microsoft.com/en-us/visualstudio/deployment/building-clickonce-applications-from-the-command-line?view=vs-2015)
-* [(MS) Walkthrough: Manually Deploying a ClickOnce Application](https://docs.microsoft.com/en-us/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-application?view=vs-2015)
+* [(MS) Building ClickOnce Applications from the Command Line](https://docs.microsoft.com/en-us/visualstudio/deployment/building-clickonce-applications-from-the-command-line?view=vs-2019)
+* [(MS) Walkthrough: Manually Deploying a ClickOnce Application](https://docs.microsoft.com/en-us/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-application?view=vs-2019)
 * [Publishing a web project with MSBuild (with multiple configurations)](https://christianspecht.de/2013/12/16/publishing-a-web-project-with-msbuild-with-multiple-configurations/)
 
 ## Load issue
