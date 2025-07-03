@@ -19,6 +19,7 @@
 * [Multithreading with wxWidgets](https://cool-emerald.blogspot.com/2020/01/multithreading-with-wxwidgets.html)
 
 ## SVN
+* [(StackOverflow) TortoiseSVN icons overlay not showing after updating to Windows 10](https://stackoverflow.com/questions/31964627/tortoisesvn-icons-overlay-not-showing-after-updating-to-windows-10)
 * [(StackOverflow) Resolve "Can't revert 'somedir' without reverting children" when reverting in svn](https://stackoverflow.com/questions/78648182/resolve-cant-revert-somedir-without-reverting-children-when-reverting-in-sv)
 
 ## TDD
@@ -34,6 +35,9 @@
 * [What Every Programmer Should Know About Memory](https://akkadia.org/drepper/cpumemory.pdf)
 * [(Habr) Что должен знать о времени каждый программист](https://habr.com/ru/articles/123461/)
 * [(Habr) Абсолютный минимум об Unicode на 2023 год](https://habr.com/ru/companies/wunderfund/articles/777850/)
+
+## Windows CMD
+* [Batch parameters](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/call#batch-parameters)
 
 ## Var
 * [Semantic Versioning 2.0.0](https://semver.org)
