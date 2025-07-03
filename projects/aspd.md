@@ -10,9 +10,9 @@
 * [(MS) Creating Application-Level Smart Tags in VSTO](https://blogs.msdn.microsoft.com/eric_carter/2008/07/10/creating-application-level-smart-tags-in-vsto/)
 
 ## Ribbon
-* [(MS) Customizing the 2007 Office Fluent Ribbon for Developers (Part 1 of 3)](https://msdn.microsoft.com/en-us/library/aa338202(v=office.12).aspx)
-* [(MS) Customizing the 2007 Office Fluent Ribbon for Developers (Part 2 of 3)](https://msdn.microsoft.com/en-us/library/aa338199(v=office.12).aspx)
-* [(MS) Customizing the 2007 Office Fluent Ribbon for Developers (Part 3 of 3)](https://msdn.microsoft.com/en-us/library/aa722523(v=office.12).aspx)
+* [(MS) Customizing the 2007 Office Fluent Ribbon for Developers (1/3)](https://msdn.microsoft.com/en-us/library/aa338202(v=office.12).aspx)
+* [(MS) Customizing the 2007 Office Fluent Ribbon for Developers (2/3)](https://msdn.microsoft.com/en-us/library/aa338199(v=office.12).aspx)
+* [(MS) Customizing the 2007 Office Fluent Ribbon for Developers (3/3)](https://msdn.microsoft.com/en-us/library/aa722523(v=office.12).aspx)
 * [(MS) CUSTOMUI: Word 2007](https://msdn.microsoft.com/en-us/library/dd950659(v=office.12).aspx)
 * [(MS) CUSTOMUI: imageMso Table](https://msdn.microsoft.com/en-us/library/dd953682(v=office.12).aspx)
 * [Toggle Button idMsos](http://onlinehelp.ribboncreator.de/EN/_2hm0n9tvj.htm)
@@ -32,7 +32,7 @@
 * [(MS) System.Deployment.Application Namespace](https://docs.microsoft.com/en-us/dotnet/api/system.deployment.application?view=netframework-4.8)
 * [(MS) Building ClickOnce Applications from the Command Line](https://docs.microsoft.com/en-us/visualstudio/deployment/building-clickonce-applications-from-the-command-line?view=vs-2015)
 * [(MS) Walkthrough: Manually Deploying a ClickOnce Application](https://docs.microsoft.com/en-us/visualstudio/deployment/walkthrough-manually-deploying-a-clickonce-application?view=vs-2015)
-* [Publishing a web project with MSBuild (with multiple configurations) - Christian Specht](https://christianspecht.de/2013/12/16/publishing-a-web-project-with-msbuild-with-multiple-configurations/)
+* [Publishing a web project with MSBuild (with multiple configurations)](https://christianspecht.de/2013/12/16/publishing-a-web-project-with-msbuild-with-multiple-configurations/)
 
 ## Load issue
 * [(MS) Resolving performance issues with loading Office add-ins](https://blogs.msdn.microsoft.com/vsod/2012/05/18/resolving-performance-issues-with-loading-office-add-ins-vsto-add-ins-or-shared-add-ins/)
@@ -45,9 +45,9 @@
 * [(MS) ApplicationDeployment.CheckForUpdateAsync Method (System.Deployment.Application)](https://docs.microsoft.com/en-us/dotnet/api/system.deployment.application.applicationdeployment.checkforupdateasync?view=netframework-4.8)
 * [(MS) Click-Once forced updates in VSTO: Some things we don’t recommend using, that you might consider anyway](https://blogs.msdn.microsoft.com/krimakey/2008/04/10/click-once-forced-updates-in-vsto-some-things-we-dont-recommend-using-that-you-might-consider-anyway/)
 * [(MS) Click-Once forced updates in VSTO II: A fuller solution](https://blogs.msdn.microsoft.com/krimakey/2008/04/18/click-once-forced-updates-in-vsto-ii-a-fuller-solution/)
-* [VSTOContrib/UpdateResult.cs at master · JakeGinnivan/VSTOContrib · GitHub](https://github.com/JakeGinnivan/VSTOContrib/blob/master/src/VSTOContrib.Core/UpdateResult.cs)
-* [VSTOContrib/RegistryExtensions.cs at master · JakeGinnivan/VSTOContrib · GitHub](https://github.com/JakeGinnivan/VSTOContrib/blob/master/src/VSTOContrib.Core/Extensions/RegistryExtensions.cs)
-* [VSTOContrib/VstoClickOnceUpdater.cs at master · JakeGinnivan/VSTOContrib · GitHub](https://github.com/JakeGinnivan/VSTOContrib/blob/master/src/VSTOContrib.Core/VstoClickOnceUpdater.cs)
+* [VSTOContrib/UpdateResult.cs](https://github.com/JakeGinnivan/VSTOContrib/blob/master/src/VSTOContrib.Core/UpdateResult.cs)
+* [VSTOContrib/RegistryExtensions.cs](https://github.com/JakeGinnivan/VSTOContrib/blob/master/src/VSTOContrib.Core/Extensions/RegistryExtensions.cs)
+* [VSTOContrib/VstoClickOnceUpdater.cs](https://github.com/JakeGinnivan/VSTOContrib/blob/master/src/VSTOContrib.Core/VstoClickOnceUpdater.cs)
 
 ## Styles
 * [(MS) TableStyle Interface (Microsoft.Office.Interop.Word)](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.tablestyle?view=word-pia)
@@ -56,16 +56,16 @@
 * [(MS) How to: Select the XML Schemas to Use](https://docs.microsoft.com/en-us/visualstudio/xml-tools/how-to-select-the-xml-schemas-to-use?view=vs-2019)
 * [(MS) Create an XML Schema](https://docs.microsoft.com/en-us/visualstudio/xml-tools/how-to-create-an-xml-schema-from-an-xml-document?view=vs-2019)
 * [(MS) Inferring an XML Schema](https://docs.microsoft.com/en-us/dotnet/standard/data/xml/inferring-an-xml-schema)
-* [XML schema - Wikipedia](https://en.wikipedia.org/wiki/XML_schema)
-* [XML Schema (W3C) - Wikipedia](https://en.wikipedia.org/wiki/XML_Schema_(W3C))
-* [Document type definition - Wikipedia](https://en.wikipedia.org/wiki/Document_type_definition)
+* [(Wiki) XML schema](https://en.wikipedia.org/wiki/XML_schema)
+* [(Wiki) XML Schema (W3C)](https://en.wikipedia.org/wiki/XML_Schema_(W3C))
+* [(Wiki) Document type definition](https://en.wikipedia.org/wiki/Document_type_definition)
 * [(MS) WdBuiltinStyle Enum (Microsoft.Office.Interop.Word)](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.wdbuiltinstyle?view=word-pia)
 * [The simplest way, using VBA, to reset part of a style definition (e.g. the font name), so it inherits the definition of the style it is based on](https://wordmvp.com/FAQs/MacrosVBA/ResetStyles.htm)
-* [Cannot set Word Style&#39;s Base Style From C# - Stack Overflow](https://stackoverflow.com/questions/18547789/cannot-set-word-styles-base-style-from-c-sharp)
+* [(Stack Overflow) Cannot set Word Style's Base Style From C#](https://stackoverflow.com/questions/18547789/cannot-set-word-styles-base-style-from-c-sharp)
 
 ## Var
 * [(Habr) Некоторые рекомендации по организации автонумерации при написании научных статей и диссертаций средствами Microsoft Word](https://habrahabr.ru/post/187398/)
 * [(Habr) Microsoft Office Automation: Еще одна лазейка для макровируса](https://habrahabr.ru/company/dsec/blog/335222/)
-* [C# Code Snippet to Send an Email with Attachment from Outlook, Yahoo, HotMail, AOL and Gmail - CodeProject](https://www.codeproject.com/Tips/165548/Csharp-Code-Snippet-to-Send-an-Email-with-Attachme)
-* [Points, inches and Emus: Measuring units in Office Open XML – Lars Corneliussen](https://startbigthinksmall.wordpress.com/2010/01/04/points-inches-and-emus-measuring-units-in-office-open-xml/)
+* [C# Code Snippet to Send an Email with Attachment from Outlook, Yahoo, HotMail, AOL and Gmail](https://www.codeproject.com/Tips/165548/Csharp-Code-Snippet-to-Send-an-Email-with-Attachme)
+* [Points, inches and Emus: Measuring units in Office Open XML](https://startbigthinksmall.wordpress.com/2010/01/04/points-inches-and-emus-measuring-units-in-office-open-xml/)
 * [Copying Styles (Microsoft Word)](https://wordribbon.tips.net/T004628_Copying_Styles.html)
