@@ -1,5 +1,22 @@
 # Communication / Var
 
+## Discovery
+
+### Discovery/Consul
+* [(Habr) Consul.io Часть 1](https://habr.com/ru/articles/278085/)
+* [(Habr) Consul.io Часть 2](https://habr.com/ru/articles/278101/)
+* [(Habr) Consul: Service Discovery это просто, или прощаемся с конфиг-файлами](https://habr.com/ru/articles/266139/)
+* [(Habr) Обнаружение сервисов в Stripe](https://habr.com/ru/companies/slurm/articles/315468/)
+* [Поиск и регистрация сервисов с Consul](https://dotsandbrackets.com/using-consul-service-discovery-ru/)
+* [Конфигурация сервисов c Consul Key-Value Store](https://dotsandbrackets.com/consul-key-value-store-configuration-ru/)
+* [Использование Consul для service discovery и других задач](https://eax.me/consul/)
+
+### Discovery/Zookeeper
+* [Zookeeper или как живётся работнику зоопарка](https://javarush.com/groups/posts/2162-zookeeper-ili-kak-zhivjetsja-rabotniku-zooparka)
+
+### Discovery/etcd
+* [etcd](https://etcd.io/)
+
 ## InfiniBand
 * [Libfabric](https://ofiwg.github.io/libfabric/)
 * [IP Over InfiniBand](https://docs.oracle.com/cd/E19436-01/820-3522-10/ch4-linux.html)
