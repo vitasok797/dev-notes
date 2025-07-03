@@ -7,9 +7,6 @@
 * [Custom XML parts overview - Visual Studio | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019)
 * [How to: Create and modify custom document properties - Visual Studio | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-create-and-modify-custom-document-properties?view=vs-2019)
 * [Creating Application-Level Smart Tags in VSTO – .NET4Office](https://blogs.msdn.microsoft.com/eric_carter/2008/07/10/creating-application-level-smart-tags-in-vsto/)
-* [ThisDocument.cs - VSTO - Incorporating Smart Tags into a Word Document (.NET 4.0)](https://code.msdn.microsoft.com/VSTO-Incorporating-Smart-4852eb67/sourcecode?fileId=55492&pathId=1193856656)
-* [Office 2010: Replacing the Styles Parts in Word 2010 Documents в C#, VB.NET для Visual Studio 2010](https://code.msdn.microsoft.com/Office-2010-Replacing-the-f6d8c25d)
-* [Word 2010: Work with Nested Undo Records Using Word.NestedCustomUndoRecords в VB.NET](https://code.msdn.microsoft.com/Word-2010-Work-with-Nested-19fdccdf)
 * [How to: Show Add-in user interface errors - Visual Studio | Microsoft Docs](https://docs.microsoft.com/en-us/visualstudio/vsto/how-to-show-add-in-user-interface-errors?view=vs-2019)
 
 ## Ribbon
@@ -42,19 +39,7 @@
 * [You may get a service timeout from a signed .NET](https://blogs.msdn.microsoft.com/winsdk/2010/01/29/you-may-get-a-service-timeout-from-a-signed-net-managed-service-application-while-the-system-is-doing-a-revocation-check-of-the-certificate-over-the-internet/)
 
 ## Biblio
-* [Оформление библиографии](http://warrax.net/gost.html)
-* [BibWord](http://bibword.codeplex.com/releases/view/14646)
-* [Модификация списка использованной литературы в MS Word](http://msoffice-prowork.com/modifikaciya-spiska-ispolzovannoj-literatury-v-ms-word/)
-* [Библиография в Word&#39;е 2010 и 2013 по ГОСТ Р 7.0.5-2008](http://det-random.livejournal.com/28819.html)
-
-## Unicode
-* [Таблица символов Unicode](http://foxtools.ru/Unicode)
-* [Таблица символов Юникода](https://unicode-table.com/ru/)
-* [List of Unicode characters - Wikipedia](https://en.wikipedia.org/wiki/List_of_Unicode_characters)
-* [Multiplication sign - Wikipedia](https://en.wikipedia.org/wiki/Multiplication_sign)
-* [Unicode Character &#39;DOT OPERATOR&#39; (U+22C5)](https://www.fileformat.info/info/unicode/char/22c5/index.htm)
-* [The Unicode Standard, Version 12.1 - U2070.pdf](https://www.unicode.org/charts/PDF/U2070.pdf)
-* [Тире — Википедия](https://ru.wikipedia.org/wiki/%D0%A2%D0%B8%D1%80%D0%B5)
+* [Библиография в Word 2010 и 2013 по ГОСТ Р 7.0.5-2008](http://det-random.livejournal.com/28819.html)
 
 ## Update
 * [ApplicationSecurityManager.UserApplicationTrusts - Поиск в Google](https://www.google.com/search?client=firefox-b-d&q=ApplicationSecurityManager.UserApplicationTrusts)
@@ -66,8 +51,6 @@
 * [VSTOContrib/VstoClickOnceUpdater.cs at master · JakeGinnivan/VSTOContrib · GitHub](https://github.com/JakeGinnivan/VSTOContrib/blob/master/src/VSTOContrib.Core/VstoClickOnceUpdater.cs)
 
 ## Styles
-* [Import Styles from Template(.dotx) to Word document(.docx)](https://social.msdn.microsoft.com/Forums/vstudio/en-US/b987fca3-2760-4ad8-91d1-0e2bab068531/import-styles-from-templatedotx-to-word-documentdocx?forum=vsto)
-* [TableStyle Interface (Microsoft.Office.Interop.Word) | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.tablestyle?view=word-pia)
 * [TableStyle Interface (Microsoft.Office.Interop.Word) | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.tablestyle?view=word-pia)
 * [Generate sample XML data from XSD using Visual Studio](https://www.vishalon.net/blog/generate-sample-xml-data-from-xsd-using-visual-studio)
 * [Introduction to XML Schema Creation in Visual Studio | Working with XML in Excel](https://flylib.com/books/en/2.53.1/introduction_to_xml_schema_creation_in_visual_studio.html)
@@ -80,13 +63,10 @@
 * [WdBuiltinStyle Enum (Microsoft.Office.Interop.Word) | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.word.wdbuiltinstyle?view=word-pia)
 * [The simplest way, using VBA, to reset part of a style definition (e.g. the font name), so it inherits the definition of the style it is based on](https://wordmvp.com/FAQs/MacrosVBA/ResetStyles.htm)
 * [Cannot set Word Style&#39;s Base Style From C# - Stack Overflow](https://stackoverflow.com/questions/18547789/cannot-set-word-styles-base-style-from-c-sharp)
-* [Using get_Style, set_Style, get_BaseStyle, set_BaseStyle, etc. in C#](https://social.msdn.microsoft.com/Forums/en-US/fc2db655-2bfe-4285-ba5c-1227de52a38a/using-getstyle-setstyle-getbasestyle-setbasestyle-etc-in-c?forum=worddev)
 
 ## Var
-* [Некоторые рекомендации по организации автонумерации при написании научных статей и диссертаций средствами Microsoft Word / Хабрахабр](https://habrahabr.ru/post/187398/)
-* [Using Fields in Microsoft Word](http://www.addbalance.com/usersguide/fields.htm)
-* [BET: Microsoft Word Fields](https://www.bettersolutions.com/word/WOO733/ML647313532.htm)
-* [Microsoft Office Automation: Еще одна лазейка для макровируса](https://habrahabr.ru/company/dsec/blog/335222/)
+* [(Habr) Некоторые рекомендации по организации автонумерации при написании научных статей и диссертаций средствами Microsoft Word](https://habrahabr.ru/post/187398/)
+* [(Habr) Microsoft Office Automation: Еще одна лазейка для макровируса](https://habrahabr.ru/company/dsec/blog/335222/)
 * [C# Code Snippet to Send an Email with Attachment from Outlook, Yahoo, HotMail, AOL and Gmail - CodeProject](https://www.codeproject.com/Tips/165548/Csharp-Code-Snippet-to-Send-an-Email-with-Attachme)
 * [Points, inches and Emus: Measuring units in Office Open XML – Lars Corneliussen](https://startbigthinksmall.wordpress.com/2010/01/04/points-inches-and-emus-measuring-units-in-office-open-xml/)
 * [Copying Styles (Microsoft Word)](https://wordribbon.tips.net/T004628_Copying_Styles.html)
