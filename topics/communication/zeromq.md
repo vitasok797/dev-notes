@@ -29,3 +29,5 @@
 * [(StackOverflow) ZeroMQ: how to keep a connection of PAIR/PAIR between python and node?](https://stackoverflow.com/questions/53780065/zeromq-how-to-keep-a-connection-of-pair-pair-between-python-and-node)
 * [(StackOverflow) Which bi-directional ZeroMQ pattern should I use for multiple clients connecting to a single server?](https://stackoverflow.com/questions/39535973/which-bi-directional-zeromq-pattern-should-i-use-for-multiple-clients-connecting/39550614#39550614)
 * [(StackOverflow) Differences between ZeroMQ and WebSockets](https://stackoverflow.com/questions/26682634/differences-between-zeromq-and-websockets/26688152#26688152)
+* [ZeroMQ и Delphi](http://delphi-and-zeromq.blogspot.com/)
+* [The Architecture of Open Source Applications (Volume 2)](https://aosabook.org/en/v2/zeromq.html)
