@@ -333,7 +333,7 @@
     * [Еntity Framework Core 2.0. Создание моделей в EF Core. Урок 2 - YouTube](https://www.youtube.com/watch?v=9t9omEOtOIw)
     * [Еntity Framework Core 2.0. Отношения между моделями. Наследование. Урок 3 - YouTube](https://www.youtube.com/watch?v=jpBra476V3M)
     * [Еntity Framework Core 2.0. Запросы LINQ to Entities. Урок 4 - YouTube](https://www.youtube.com/watch?v=ezUdhNwV0_0)
-  * 001
+  * Var
     * [Индексы в MySQL](https://ruhighload.com/%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D1%8B+%D0%B2+mysql)
     * [Eager Loading, Lazy Loading And Explicit Loading In Entity Framework](https://www.c-sharpcorner.com/article/eager-loading-lazy-loading-and-explicit-loading-in-entity-framework/)
     * [Entity Framework: Code First Data Annotations](https://www.c-sharpcorner.com/UploadFile/ff2f08/entity-framework-code-first-data-annotations/)
@@ -346,7 +346,6 @@
     * [c# - Entity Framework core - Contains is case sensitive or case insensitive? - Stack Overflow](https://stackoverflow.com/questions/43277868/entity-framework-core-contains-is-case-sensitive-or-case-insensitive)
     * [Concurrency Tokens | Npgsql Documentation](https://www.npgsql.org/efcore/modeling/concurrency.html)
     * [Type mapping | Npgsql Documentation](https://www.npgsql.org/efcore/mapping/general.html?tabs=data-annotations)
-  * 002
     * [Auto-generated primary keys: UUID, serial or identity column? - Cybertec](https://www.cybertec-postgresql.com/en/uuid-serial-or-identity-columns-for-postgresql-auto-generated-primary-keys/)
     * [UUID Primary Keys in PostgreSQL](https://www.starkandwayne.com/blog/uuid-primary-keys-in-postgresql/)
     * [Версионная миграция структуры базы данных: основные подходы / Хабр](https://habr.com/ru/articles/121265/)
