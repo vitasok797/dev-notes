@@ -15,7 +15,7 @@
 * [(MS) Customizing the 2007 Office Fluent Ribbon for Developers (3/3)](https://msdn.microsoft.com/en-us/library/aa722523(v=office.12).aspx)
 * [(MS) CUSTOMUI: Word 2007](https://msdn.microsoft.com/en-us/library/dd950659(v=office.12).aspx)
 * [(MS) CUSTOMUI: imageMso Table](https://msdn.microsoft.com/en-us/library/dd953682(v=office.12).aspx)
-* [Toggle Button idMsos](http://onlinehelp.ribboncreator.de/EN/_2hm0n9tvj.htm)
+* [Toggle Button idMsos](https://onlinehelp.ribboncreator.de/EN/_2hm0n9tvj.htm)
 * [ImageMSO List](https://bert-toolkit.com/imagemso-list.html)
 
 ## Deploy
@@ -39,7 +39,7 @@
 * [(MS) You may get a service timeout from a signed .NET](https://blogs.msdn.microsoft.com/winsdk/2010/01/29/you-may-get-a-service-timeout-from-a-signed-net-managed-service-application-while-the-system-is-doing-a-revocation-check-of-the-certificate-over-the-internet/)
 
 ## Biblio
-* [Библиография в Word 2010 и 2013 по ГОСТ Р 7.0.5-2008](http://det-random.livejournal.com/28819.html)
+* [Библиография в Word 2010 и 2013 по ГОСТ Р 7.0.5-2008](https://det-random.livejournal.com/28819.html)
 
 ## Update
 * [(MS) ApplicationDeployment.CheckForUpdateAsync Method (System.Deployment.Application)](https://docs.microsoft.com/en-us/dotnet/api/system.deployment.application.applicationdeployment.checkforupdateasync?view=netframework-4.8)
