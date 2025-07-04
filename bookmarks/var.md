@@ -8,7 +8,7 @@
 * [Анимация схем в SCADA / Хабр](https://habr.com/ru/post/487738/)
 * [SCADA visualization for IoT projects [Free Library] / Хабр](https://habr.com/ru/post/462171/)
 * [ScadaPy — создание мнемосхем / Хабр](https://habr.com/ru/post/345938/)
-* [Web HMI Demos](http://www.genlogic.com/demos.html)
+* [Web HMI Demos](https://www.genlogic.com/demos.html)
 
 ## DB
 * PostgreSQL
@@ -56,8 +56,8 @@
 
 ## WSP
 * [CoolProp GitHub](https://github.com/CoolProp/CoolProp)
-* [CoolProp Home](http://www.coolprop.org/index.html)
-* [Freesteam](http://freesteam.sourceforge.net/)
+* [CoolProp Home](https://www.coolprop.org/index.html)
+* [Freesteam](https://freesteam.sourceforge.net/)
 * [GitHub - neutrium/thermo.eos.iapws97 (JS)](https://github.com/neutrium/thermo.eos.iapws97)
 * [GitHub - thermalogic/SEUIF97](https://github.com/thermalogic/SEUIF97)
 
