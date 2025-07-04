@@ -1,7 +1,6 @@
 # Rust
 
 ## Docs
-
 * [Book](https://doc.rust-lang.ru/book/)
 * [Book 2](https://rurust.github.io/rust_book_ru/)
 * [Reference](https://doc.rust-lang.org/reference/)
@@ -16,7 +15,6 @@
 * [Rustdoc](https://doc.rust-lang.org/rustdoc/)
 
 ## Notes
-
 * [Method call expressions](https://doc.rust-lang.org/reference/expressions/method-call-expr.html)
 * [Type coercions](https://doc.rust-lang.org/reference/type-coercions.html)
 * [Visibility and Privacy](https://doc.rust-lang.org/reference/visibility-and-privacy.html)
@@ -24,7 +22,6 @@
 * [Macros](https://doc.rust-lang.org/reference/macros-by-example.html)
 
 ## Guides
-
 * [Rust Guidelines](https://doc.rust-lang.org/1.0.0/style/README.html)
 * [Elegant Library APIs in Rust](https://deterministic.space/elegant-apis-in-rust.html)
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
@@ -40,7 +37,6 @@
 * [Rust Programming Tipz](https://github.com/ferrous-systems/elements-of-rust)
 
 ## Style guide
-
 * [Naming conventions](https://github.com/rust-lang/rfcs/blob/master/text/0430-finalizing-naming-conventions.md)
 * [Rust Style Guide](https://github.com/rust-dev-tools/fmt-rfcs/blob/master/guide/guide.md)
 * [Style](https://doc.rust-lang.org/1.0.0/style/style/README.html)
@@ -48,26 +44,22 @@
 * [Rust Style Guide | Rust Tutorial](https://rust.programmingpedia.net/en/tutorial/4620/rust-style-guide)
 
 ## Libs
-
 * [Diesel](http://diesel.rs/)
 * [itertools](https://crates.io/crates/itertools)
 * [FlatBuffers](https://google.github.io/flatbuffers/flatbuffers_guide_use_rust.html)
 
 ## Test
-
 * [Rust Mock Shootout! | Comparison of several Rust mocking libraries](https://asomers.github.io/mock_shootout/)
 * [mockall - Rust](https://docs.rs/mockall/0.7.2/mockall/)
 * [mockall - crates.io: Rust Package Registry](https://crates.io/crates/mockall)
 
 ## DI
-
 * [How do you implement Dependency Injection in Rust? - The Rust Programming Language Forum](https://users.rust-lang.org/t/how-do-you-implement-dependency-injection-in-rust/213)
 * [What is Rust's dependency injection story like so far?](https://www.reddit.com/r/rust/comments/61qx5k/what_is_rusts_dependency_injection_story_like_so/)
 * [Rivet: Dependency Injection in Rust - 8bd6c81d5ff64253647e2acfd5e9cc609d4a.pdf](https://pdfs.semanticscholar.org/23a5/8bd6c81d5ff64253647e2acfd5e9cc609d4a.pdf)
 * [Intro to Dependency Injection in Rust | by Vishwa Patel | Jul, 2020 | Medium](https://medium.com/@vishwa9n/intro-to-dependency-injection-in-rust-7aeb2bb54093)
 
 ## Errors
-
 * [Обработка ошибок в Rust / Хабр](https://habr.com/ru/post/270371/)
 * [Error Handling in Rust - Andrew Gallant's Blog](https://blog.burntsushi.net/rust-error-handling/)
 * [Обработка ошибок - Язык программирования Rust](https://rurust.github.io/rust_book_ru/error-handling.html)
@@ -84,14 +76,12 @@
 * [Thoughts on Error Handling in Rust · Lukas? Blog](https://lukaskalbertodt.github.io/2019/11/14/thoughts-on-error-handling-in-rust.html)
 
 ## Video
-
 * [Building on an unsafe foundation](https://www.youtube.com/watch?v=rTo2u13lVcQ)
 * [Demystifying unsafe code](https://www.youtube.com/watch?v=QAz-maaH0KM)
 * [Rust Concurrency Explained](https://www.youtube.com/watch?v=Dbytx0ivH7Q)
 * [Writing Idiomatic Libraries in Rust](https://www.youtube.com/watch?v=0zOg8_B71gE)
 
 ## VSCode
-
 * [Documentation](https://code.visualstudio.com/docs)
 * [Tasks](https://code.visualstudio.com/docs/editor/tasks)
 * [Snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
@@ -103,7 +93,6 @@
 * [rust-analyzer Manual](https://rust-analyzer.github.io/manual.html#assists-code-actions)
 
 ## gRPC
-
 * [Streaming gRPC with Rust](https://medium.com/@KevinHoffman/streaming-grpc-with-rust-d978fece5ef6)
 * [The state gRPC Rust : rust](https://www.reddit.com/r/rust/comments/aw1iog/the_state_grpc_rust/)
 * [Preferred library for grpc in rust](https://users.rust-lang.org/t/preferred-library-for-grpc-in-rust/37801)
@@ -112,7 +101,6 @@
 * [Rust gRPC: A beginners guide to gRPC with Rust - DEV](https://dev.to/anshulgoyal15/a-beginners-guide-to-grpc-with-rust-3c7o)
 
 ## MQ
-
 * [NNG - nanomsg-NG](https://nng.nanomsg.org/)
 * [GitHub - nanomsg/nng: nanomsg-next-generation -- light-weight brokerless messaging](https://github.com/nanomsg/nng)
 * [Rust FFI to NNG - DEV](https://dev.to/jeikabu/rust-ffi-to-nng-5ehk)
@@ -124,7 +112,6 @@
 * [Simple ZeroMQ IPC between Python and Rust : rust](https://www.reddit.com/r/rust/comments/609h7l/simple_zeromq_ipc_between_python_and_rust/)
 
 ## 001
-
 * [What's the "best" way to implement a doubly-linked list in Rust? - The Rust Programming Language Forum](https://users.rust-lang.org/t/whats-the-best-way-to-implement-a-doubly-linked-list-in-rust/27899)
 * [Writing a doubly linked list in Rust is easy : rust](https://www.reddit.com/r/rust/comments/7zsy72/writing_a_doubly_linked_list_in_rust_is_easy/)
 * [Why Writing a Doubly Linked List in (safe) Rust is So Damned Hard : programming](https://www.reddit.com/r/programming/comments/7zbi6s/why_writing_a_doubly_linked_list_in_safe_rust_is/dunjytf/?context=0)
@@ -138,14 +125,12 @@
 * [Как переписать код на Rust / Хабр](https://habr.com/ru/post/511478/)
 
 ## 002
-
 * [A little Rust with your C - The Embedded Rust Book](https://rust-embedded.github.io/book/interoperability/rust-with-c.html)
 * [Rust can create dll/so/dylib? - help - The Rust Programming Language Forum](https://users.rust-lang.org/t/rust-can-create-dll-so-dylib/7852)
 * [Linkage - The Rust Reference](https://doc.rust-lang.org/reference/linkage.html)
 * [Limit the use of unsafe Rust code · Issue #499 · stepancheg/rust-protobuf · GitHub](https://github.com/stepancheg/rust-protobuf/issues/499)
 
 ## 003
-
 * [Myths and Legends about Integer Overflow in Rust | Huon on the internet](http://huonw.github.io/blog/2016/04/myths-and-legends-about-integer-overflow-in-rust/)
 * [Мифы и легенды о переполнении целых чисел в Rust / Хабр](https://habr.com/ru/post/282958/)
 * [Бот для Starcraft на Rust, C и на любом другом языке / Хабр](https://habr.com/ru/post/416743/)
@@ -154,7 +139,6 @@
 * [5 Tips for Writing Small CLI Tools in Rust - Pascal’s Scribbles](https://deterministic.space/rust-cli-tips.html)
 
 ## 004
-
 * [Tokio](https://tokio.rs/)
 * [Миграция на инфраструктуру async-await в Rust / Хабр](https://habr.com/ru/post/475272/)
 * [Rust в деталях: пишем масштабируемый чат с нуля, часть 1 / Хабр](https://habr.com/ru/post/268609/)
@@ -166,7 +150,6 @@
 * [Async/Await | Writing an OS in Rust](https://os.phil-opp.com/async-await/)
 
 ## 005
-
 * [Cargo - Replacing sources](https://rurust.github.io/cargo-docs-ru/source-replacement.html)
 * [Cargo - Why do binaries have Cargo.lock in version control, but not libraries?](https://rurust.github.io/cargo-docs-ru/faq.html#why-do-binaries-have-cargolock-in-version-control-but-not-libraries)
 * [Understanding Closures in Rust.. fn, Fn, FnMut, FnOnce | by Andrew Pritchard | The Startup | Medium](https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759)
@@ -181,7 +164,6 @@
 * [patterns/builder.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/patterns/builder.md)
 
 ## 006
-
 * [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 * [Прогулка по быстрому, безопасному и почти законченному веб-сервису на Rust / Хабр](https://habr.com/ru/post/353990/)
 * [GitHub - rust-unofficial/patterns: A catalogue of Rust design patterns](https://github.com/rust-unofficial/patterns)
@@ -199,7 +181,6 @@
 * [Interior mutability patterns – Paul Dicker – Some random Rust-related thoughts](https://pitdicker.github.io/Interior-mutability-patterns/)
 
 ## 007
-
 * [dtolnay::\_01\_\_await\_a\_minute - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._01__await_a_minute.html)
 * [dtolnay::\_02\_\_reference\_types - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._02__reference_types.html)
 * [dtolnay::\_03\_\_soundness\_bugs - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._03__soundness_bugs.html)
@@ -216,7 +197,6 @@
 * [A Critique of Rust's `std::collections` · Ticki's blog](http://ticki.github.io/blog/horrible/)
 
 ## 008
-
 * [Rust container cheat sheet - Google Презентации](https://docs.google.com/presentation/d/1q-c7UAyrUlM-eZyTo1pd8SZ0qwA_wYxmPZVOQkoDmH4/edit#slide=id.p)
 * [Basics - Rust cheat sheet](https://upsuper.github.io/rust-cheatsheet/)
 * [Karol Kuczmarski's Blog – Taking string arguments in Rust](http://xion.io/post/code/rust-string-args.html)
