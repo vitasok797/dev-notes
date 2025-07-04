@@ -32,7 +32,7 @@
 * [(Habr) Неинициализированные переменные: ищем ошибки](https://habr.com/ru/companies/intel/articles/318494/)
 * [(Habr) «Нежданчики» языка Фортран](https://habr.com/ru/companies/intel/articles/254235/)
 * [Mistakes in Fortran 90 Programs That Might Surprise You](https://www.cs.rpi.edu/~szymansk/OOF90/bugs.html)
-* [Блог F-SEPS: СЛАУ](http://fseps.blogspot.com/search/label/%D0%A1%D0%9B%D0%90%D0%A3)
+* [Блог F-SEPS: СЛАУ](https://fseps.blogspot.com/search/label/%D0%A1%D0%9B%D0%90%D0%A3)
 * [(StackOverflow) How to increase array size on-the-fly in Fortran?](https://stackoverflow.com/questions/8384406/how-to-increase-array-size-on-the-fly-in-fortran)
 * [Compatibility of objects created in different versions of Intel Fortran](https://community.intel.com/t5/Intel-Fortran-Compiler/Compatibility-of-objects-created-in-different-versions-of-Intel/td-p/829454)
 * [Hacking Intel C++ compiler 2018 to work with VS 2019?](https://superuser.com/questions/1490012/hacking-intel-c-compiler-2018-to-work-with-vs-2019)
