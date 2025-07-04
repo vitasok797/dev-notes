@@ -40,7 +40,7 @@
 * [(Habr) Domain Driven Design на практике](https://habr.com/ru/articles/334126/)
 * [(Habr) Организация кода в микросервисах и мой подход применения гексагональной архитектуры и DDD](https://habr.com/ru/articles/493426/)
 * [(Habr) Domain-driven design, Hexagonal architecture of ports and adapters, Dependency injection и Python](https://habr.com/ru/articles/559560/)
-* [Domain Driven Design: введение ](http://merle-amber.blogspot.com/2009/01/domain-driven-design.html)
+* [Domain Driven Design: введение](http://merle-amber.blogspot.com/2009/01/domain-driven-design.html)
 
 ## GUI
 
