@@ -1,7 +1,6 @@
 # Var
 
 ## SCADA
-
 * [Пишем редактор мнемосхем для SCADA-системы на Fabric.js / Хабр](https://habr.com/ru/post/322990/)
 * [Пишем редактор мнемосхем для SCADA-системы на Fabric.js. Часть 2-я / Хабр](https://habr.com/ru/post/325640/)
 * [SCADA: в поисках идеала / Хабр](https://habr.com/ru/post/319318/)
@@ -12,7 +11,6 @@
 * [Web HMI Demos](http://www.genlogic.com/demos.html)
 
 ## DB
-
 * PostgreSQL
   * [PostgreSQ: Documentation](https://www.postgresql.org/docs/12/index.html)
   * [PostgreSQL Tutorial](https://www.tutorialspoint.com/postgresql/index.htm)
@@ -49,7 +47,6 @@
   * [Версионная миграция структуры базы данных: основные подходы / Хабр](https://habr.com/ru/articles/121265/)
 
 ## XML
-
 * [Google XML Document Format Style Guide](https://google.github.io/styleguide/xmlstyle.html)
 * [C# и .NET | Работа с XML](https://metanit.com/sharp/tutorial/16.1.php)
 * [XML Documents and Data | Microsoft Docs](https://docs.microsoft.com/en-US/dotnet/standard/data/xml/)
@@ -58,7 +55,6 @@
 * [XML Schema Definition Tool (Xsd.exe) | Microsoft Docs](https://docs.microsoft.com/en-US/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe)
 
 ## WSP
-
 * [CoolProp GitHub](https://github.com/CoolProp/CoolProp)
 * [CoolProp Home](http://www.coolprop.org/index.html)
 * [Freesteam](http://freesteam.sourceforge.net/)
@@ -66,7 +62,6 @@
 * [GitHub - thermalogic/SEUIF97](https://github.com/thermalogic/SEUIF97)
 
 ## Var
-
 * [Детская ошибка в коде которую обожают делать новички | ЯЮниор - Школа Программирования | Дзен](https://dzen.ru/a/XsO4-r16bz0U8g35)
 * [Блог Александра Бындю: Domain-Driven Design: Repository](https://blog.byndyu.ru/2011/01/domain-driven-design-repository.html)
 * [Блог Александра Бындю: Принцип инверсии зависимости](https://blog.byndyu.ru/2009/12/blog-post.html)
