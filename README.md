@@ -10,6 +10,7 @@
 * [Delphi](languages/delphi.md)
 * [Fortran](languages/fortran.md)
 * [Julia](languages/julia.md)
+* [Lua](languages/lua.md)
 * [Python](languages/python.md)
 
 ## Projects
