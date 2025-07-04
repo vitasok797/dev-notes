@@ -21,7 +21,7 @@
 * [DDS Foundation resource list](https://www.dds-foundation.org/dds-resources/)
 
 ## Unsorted
-* 001
+* 001:
   * https://fast-dds.docs.eprosima.com/en/latest/fastddsgen/dataTypes/dataTypes.html
   * https://community.rti.com/forum-topic/point-point-rti-dds
   * https://community.rti.com/static/documentation/connext-dds/current/doc/manuals/connext_dds_professional/getting_started_guide/cpp11/before.html
@@ -34,13 +34,13 @@
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/property_policies/ignore_local_endpoints.html
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html?highlight=GuidPrefix#key-concepts
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/dds_layer/domain/domainParticipant/partition.html
-* 002
+* 002:
   * https://www.omg.org/spec/DDS4CCM/1.1/PDF
   * https://www.omg.org/spec/DDS-DLRL/1.4/PDF
   * https://www.eprosima.com/developer-resources/whitepapers/rpc-over-dds
   * https://www.eprosima.com/middleware/tools/rpc-over-dds
   * https://github.com/eProsima/RPC
-* 003
+* 003:
   * https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/chart_panel_index.html
   * https://github.com/eProsima/Non-Intrusive-DDS-Recorder
   * https://community.rti.com/static/documentation/connext-dds/6.0.0/doc/manuals/connext_dds/getting_started_extras/html_files/RTI_ConnextDDS_CoreLibraries_GettingStarted_ExtensibleAddendum/Content/ExtensibleTypesAddendum/Data_Representation.htm
