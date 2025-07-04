@@ -41,6 +41,7 @@
 * [Batch parameters](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/call#batch-parameters)
 
 ## Var
+* ⚡ [Токсичные репозитории](https://toxic-repos.ru/)
 * [Semantic Versioning 2.0.0](https://semver.org)
 * [Conventional Commits](https://www.conventionalcommits.org/)
 * [Code Reviews (Part 1-5)](https://arne-mertz.de/2017/12/code-reviews-why/)
