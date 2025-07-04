@@ -75,6 +75,10 @@
 * [7 ways to start a Task in .NET C#](https://dotnetcodr.com/2014/01/01/5-ways-to-start-a-task-in-net-c/)
 * [C# Async Antipatterns](https://markheath.net/post/async-antipatterns)
 
+## Scripting
+* [(Habr) Скриптинг в C# или динамическое выполнение в runtime](https://habr.com/ru/articles/553310/)
+* [dotnet script](https://github.com/dotnet-script/dotnet-script)
+
 ## Specs (MS)
 * [**.NET documentation**](https://learn.microsoft.com/en-us/dotnet/fundamentals/)
 * [**C# documentation**](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
@@ -159,4 +163,3 @@
 
 ## Var
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
-* [dotnet script](https://github.com/dotnet-script/dotnet-script)
