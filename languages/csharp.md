@@ -78,6 +78,7 @@
 ## Scripting
 * [(Habr) Скриптинг в C# или динамическое выполнение в runtime](https://habr.com/ru/articles/553310/)
 * [CS-Script](https://www.cs-script.net/)
+* [DynamicExpresso](https://github.com/dynamicexpresso/DynamicExpresso)
 * [dotnet script](https://github.com/dotnet-script/dotnet-script)
 
 ## Specs (MS)
