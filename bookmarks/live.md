@@ -40,8 +40,6 @@
   * [RTI Connext DDS Introduction](https://www.youtube.com/watch?v=b-kwbVKfSF0)
   * [The Evolution of Connectivity](https://www.youtube.com/watch?v=cgbbs4hK0Pc)
   * [Admin Console](https://www.youtube.com/watch?v=Ob_weer8Om4)
-* Middleware
-    * [Zyre](https://github.com/zeromq/zyre)
 * Var
   * [OMQ Guide – Discovery](https://zguide.zeromq.org/docs/chapter8/#Discovery)
   * [Messaging Technologies](https://www.omg.org/news/whitepapers/Messaging-Whitepaper%20v2.1.pdf)
