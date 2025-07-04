@@ -1,16 +1,15 @@
 # Var
 
-## GUI
+## SCADA
 
-* SCADA
-  * [Пишем редактор мнемосхем для SCADA-системы на Fabric.js / Хабр](https://habr.com/ru/post/322990/)
-  * [Пишем редактор мнемосхем для SCADA-системы на Fabric.js. Часть 2-я / Хабр](https://habr.com/ru/post/325640/)
-  * [SCADA: в поисках идеала / Хабр](https://habr.com/ru/post/319318/)
-  * [Куда приводят поиски идеальной SCADA / Хабр](https://habr.com/ru/post/439468/)
-  * [Анимация схем в SCADA / Хабр](https://habr.com/ru/post/487738/)
-  * [SCADA visualization for IoT projects [Free Library] / Хабр](https://habr.com/ru/post/462171/)
-  * [ScadaPy — создание мнемосхем / Хабр](https://habr.com/ru/post/345938/)
-  * [Web HMI Demos](http://www.genlogic.com/demos.html)
+* [Пишем редактор мнемосхем для SCADA-системы на Fabric.js / Хабр](https://habr.com/ru/post/322990/)
+* [Пишем редактор мнемосхем для SCADA-системы на Fabric.js. Часть 2-я / Хабр](https://habr.com/ru/post/325640/)
+* [SCADA: в поисках идеала / Хабр](https://habr.com/ru/post/319318/)
+* [Куда приводят поиски идеальной SCADA / Хабр](https://habr.com/ru/post/439468/)
+* [Анимация схем в SCADA / Хабр](https://habr.com/ru/post/487738/)
+* [SCADA visualization for IoT projects [Free Library] / Хабр](https://habr.com/ru/post/462171/)
+* [ScadaPy — создание мнемосхем / Хабр](https://habr.com/ru/post/345938/)
+* [Web HMI Demos](http://www.genlogic.com/demos.html)
 
 ## DB
 
@@ -77,15 +76,10 @@
 * [Блог Александра Бындю: Принцип разделения интерфейса](https://blog.byndyu.ru/2009/11/blog-post_19.html)
 * [Блог Александра Бындю: Принцип открытости/закрытости](https://blog.byndyu.ru/2009/10/blog-post_14.html)
 * [Блог Александра Бындю: Принцип единственности ответственности](https://blog.byndyu.ru/2009/10/blog-post.html)
-* [Контракты для кода - .NET Framework | Microsoft Learn](https://learn.microsoft.com/ru-ru/dotnet/framework/debug-trace-profile/code-contracts)
-* [Andrey on .NET | Основы Code Contracts](https://andrey.moveax.ru/post/csharp-code-contracts-basics)
-* [Code Contracts C# | Программирование по контракту C# – CODE BLOG](https://shwanoff.ru/code-contracts/)
 * [Service Locator is an Anti-Pattern](https://blog.ploeh.dk/2010/02/03/ServiceLocatorisanAnti-Pattern/)
 * [Programming stuff: Статьи](http://sergeyteplyakov.blogspot.com/2013/10/articles.html#dependency_management)
 * [Programming stuff: DI Паттерны. Service Locator](http://sergeyteplyakov.blogspot.com/2013/03/di-service-locator.html)
 * [Programming stuff: Управление зависимостями](http://sergeyteplyakov.blogspot.com/2012/11/blog-post.html)
 * [Programming stuff: Наследование vs Композиция vs Агрегация](http://sergeyteplyakov.blogspot.com/2012/12/vs-vs.html)
 * [Programming stuff: Инверсия зависимостей на практике](http://sergeyteplyakov.blogspot.com/2013/01/blog-post.html#AmbientContext)
-* [Конкурентность: Асинхронность / Хабр](https://habr.com/ru/articles/319350/)
-* [Разница между nginx и apache с примерами / Хабр](https://habr.com/ru/articles/320710/)
 * [Блок-схема выбора оптимальной методологии разработки ПО / Хабр](https://habr.com/ru/articles/297612/)
