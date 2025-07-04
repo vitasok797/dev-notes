@@ -38,7 +38,7 @@
 * [(StackOverflow) Difference between CMAKE_CURRENT_SOURCE_DIR and CMAKE_CURRENT_LIST_DIR](https://stackoverflow.com/questions/15662497/difference-between-cmake-current-source-dir-and-cmake-current-list-dir)
 
 ## Testing
-* [GoogleTest: Building with CMake](http://google.github.io/googletest/quickstart-cmake.html)
+* [GoogleTest: Building with CMake](https://google.github.io/googletest/quickstart-cmake.html)
 * [(MS) Testing tools in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019)
 * [Testing With CMake and CTest](https://cmake.org/cmake/help/book/mastering-cmake/chapter/Testing%20With%20CMake%20and%20CTest.html)
 * [Testing With CTest](https://gitlab.kitware.com/cmake/community/-/wikis/doc/ctest/Testing-With-CTest)
