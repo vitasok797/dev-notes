@@ -44,7 +44,7 @@
 * [Rust Style Guide | Rust Tutorial](https://rust.programmingpedia.net/en/tutorial/4620/rust-style-guide)
 
 ## Libs
-* [Diesel](http://diesel.rs/)
+* [Diesel](https://diesel.rs/)
 * [itertools](https://crates.io/crates/itertools)
 * [FlatBuffers](https://google.github.io/flatbuffers/flatbuffers_guide_use_rust.html)
 
@@ -69,7 +69,7 @@
 * [Panicking | Learning Rust](https://learning-rust.github.io/docs/e2.panicking.html)
 * [Error handling | Rust Tutorial](https://rust.programmingpedia.net/en/tutorial/1762/error-handling)
 * [std::error::Error - Rust](https://doc.rust-lang.org/std/error/trait.Error.html)
-* [Beginner's guide to Error Handling in Rust](http://www.sheshbabu.com/posts/rust-error-handling/)
+* [Beginner's guide to Error Handling in Rust](https://www.sheshbabu.com/posts/rust-error-handling/)
 * [From failure to Fehler - Without boats, dreams dry up](https://without.boats/blog/failure-to-fehler/)
 * [Rust: Structuring and handling errors in 2020 - nick.groenen.me](https://nick.groenen.me/posts/rust-error-handling/)
 * [Error Handling Survey](https://blog.yoshuawuyts.com/error-handling-survey/)
