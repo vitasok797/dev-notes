@@ -33,6 +33,7 @@
 
 ## What every programmer should know
 * [What Every Programmer Should Know About Memory](https://lwn.net/Articles/250967/)
+* [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
 * [(Habr) Что должен знать о времени каждый программист](https://habr.com/ru/articles/123461/)
 * [(Habr) Абсолютный минимум об Unicode на 2023 год](https://habr.com/ru/companies/wunderfund/articles/777850/)
 
