@@ -1,7 +1,6 @@
 # Live
 
 ## Specs
-
 * [DDS](https://www.omg.org/spec/DDS/1.4/PDF)
 * [DDS RTPS](https://www.omg.org/spec/DDSI-RTPS/2.5/PDF)
 * [DDS IDL](https://www.omg.org/spec/IDL/4.2/PDF)
@@ -11,7 +10,6 @@
 * [DDS DLRL](https://www.omg.org/spec/DDS-DLRL/1.4/PDF)
 
 ## Guides
-
 * [OpenDDS Guide](https://download.objectcomputing.com/OpenDDS/OpenDDS-latest.pdf)
 * [Fast DDS Guide](https://fast-dds.docs.eprosima.com/en/latest/fastdds/getting_started/getting_started.html)
 * [Eclipse Cyclone DDS Guide](https://raw.githubusercontent.com/eclipse-cyclonedds/cyclonedds/assets/pdf/CycloneDDS-0.1.0.pdf)
@@ -23,7 +21,6 @@
 * [RTI Connext DDS Security Plugins](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_secure/getting_started_guide/cpp11/intro.html)
 
 ## Vendors
-
 * [OpenDDS](https://opendds.org/)
 * [Fast DDS](https://fast-dds.docs.eprosima.com/)
 * [Eclipse Cyclone DDS](https://projects.eclipse.org/projects/iot.cyclonedds)
@@ -31,7 +28,6 @@
 * [Vortex OpenSplice DDS GitHub](https://github.com/ADLINK-IST/opensplice)
 
 ## Articles
-
 * [The DDS Tutorial (Angelo Corsaro)](http://www.laas.fr/files/SLides-A_Corsaro.pdf)
 * [Introduction to DDS](http://portals.omg.org/dds/sites/default/files/GerardoPardo_RTI_Introductin_to_DDS_2.pdf)
 * [Using QoS to Solve Real-World Problems](https://www.omg.org/news/meetings/workshops/RT-2007/00-T5_Hunt-revised.pdf)
@@ -43,7 +39,6 @@
 * [Getting Started with DDS In C++](https://www.omg.org/news/meetings/workshops/RT-2012-presentations/01-T1-01_Corsaro.pdf)
 
 ## Video
-
 * [ROS 2 + DDS Interoperation](https://www.youtube.com/watch?v=GGqcrccWfeE)
 * [Консенсус в распределенной системе](https://www.youtube.com/watch?v=BX0Pwywen2k)
 * [RTI Connext DDS Introduction](https://www.youtube.com/watch?v=b-kwbVKfSF0)
@@ -51,7 +46,6 @@
 * [Admin Console](https://www.youtube.com/watch?v=Ob_weer8Om4)
 
 ## Var
-
 * [OMQ Guide – Discovery](https://zguide.zeromq.org/docs/chapter8/#Discovery)
 * [Messaging Technologies](https://www.omg.org/news/whitepapers/Messaging-Whitepaper%20v2.1.pdf)
 * [The Top 10 Reasons for Dropped DDS Messages](https://www.rti.com/blog/top-10-reasons-for-dropped-dds-messages)
