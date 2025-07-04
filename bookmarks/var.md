@@ -56,7 +56,7 @@
 
 ## WSP
 * [CoolProp GitHub](https://github.com/CoolProp/CoolProp)
-* [CoolProp Home](https://www.coolprop.org/index.html)
+* [CoolProp Home](https://coolprop.org/index.html)
 * [Freesteam](https://freesteam.sourceforge.net/)
 * [GitHub - neutrium/thermo.eos.iapws97 (JS)](https://github.com/neutrium/thermo.eos.iapws97)
 * [GitHub - thermalogic/SEUIF97](https://github.com/thermalogic/SEUIF97)
