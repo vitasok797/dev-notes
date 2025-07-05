@@ -131,7 +131,7 @@
 * [Limit the use of unsafe Rust code · Issue #499 · stepancheg/rust-protobuf · GitHub](https://github.com/stepancheg/rust-protobuf/issues/499)
 
 ## 003
-* [Myths and Legends about Integer Overflow in Rust | Huon on the internet](http://huonw.github.io/blog/2016/04/myths-and-legends-about-integer-overflow-in-rust/)
+* [Myths and Legends about Integer Overflow in Rust | Huon on the internet](https://huonw.github.io/blog/2016/04/myths-and-legends-about-integer-overflow-in-rust/)
 * [Мифы и легенды о переполнении целых чисел в Rust / Хабр](https://habr.com/ru/post/282958/)
 * [Бот для Starcraft на Rust, C и на любом другом языке / Хабр](https://habr.com/ru/post/416743/)
 * [Stacked Borrows: An Aliasing Model for Rust - paper.pdf](https://plv.mpi-sws.org/rustbelt/stacked-borrows/paper.pdf)
@@ -184,7 +184,7 @@
 * [dtolnay::\_01\_\_await\_a\_minute - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._01__await_a_minute.html)
 * [dtolnay::\_02\_\_reference\_types - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._02__reference_types.html)
 * [dtolnay::\_03\_\_soundness\_bugs - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._03__soundness_bugs.html)
-* [Introduction | 24 days of Rust](http://zsiciarz.github.io/24daysofrust/index.html)
+* [Introduction | 24 days of Rust](https://zsiciarz.github.io/24daysofrust/index.html)
 * [rustlings](https://github.com/rust-lang/rustlings)
 * [impl Trait for returning complex types with ease - The Edition Guide](https://doc.rust-lang.org/edition-guide/rust-2018/trait-system/impl-trait-for-returning-complex-types-with-ease.html)
 * [Don't use boxed trait objects for struct internals](https://bennetthardwick.com/blog/dont-use-boxed-trait-objects-for-struct-internals/)
@@ -194,13 +194,13 @@
 * [comparative review - Clone Vector in rust except at one index - Code Review Stack Exchange](https://codereview.stackexchange.com/questions/217277/clone-vector-in-rust-except-at-one-index)
 * [rust - Returning a closure from a function - Stack Overflow](https://stackoverflow.com/questions/25445761/returning-a-closure-from-a-function)
 * [Easy functional programming techniques in Rust for everyone | Technorage](https://deepu.tech/functional-programming-in-rust/)
-* [A Critique of Rust's `std::collections` · Ticki's blog](http://ticki.github.io/blog/horrible/)
+* [A Critique of Rust's `std::collections` · Ticki's blog](https://ticki.github.io/blog/horrible/)
 
 ## 008
 * [Rust container cheat sheet - Google Презентации](https://docs.google.com/presentation/d/1q-c7UAyrUlM-eZyTo1pd8SZ0qwA_wYxmPZVOQkoDmH4/edit#slide=id.p)
 * [Basics - Rust cheat sheet](https://upsuper.github.io/rust-cheatsheet/)
 * [Karol Kuczmarski's Blog – Taking string arguments in Rust](http://xion.io/post/code/rust-string-args.html)
-* [Rust pattern: Precise closure capture clauses](http://smallcultfollowing.com/babysteps/blog/2018/04/24/rust-pattern-precise-closure-capture-clauses/)
+* [Rust pattern: Precise closure capture clauses](https://smallcultfollowing.com/babysteps/blog/2018/04/24/rust-pattern-precise-closure-capture-clauses/)
 * [Creating a Rust function that returns a &str or String](https://hermanradtke.com/2015/05/29/creating-a-rust-function-that-returns-string-or-str.html)
 * [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/README.html)
 * [Karol Kuczmarski's Blog – Small Rust crates I (almost) always use](http://xion.io/post/code/rust-little-crates.html#rust-little-crates)
