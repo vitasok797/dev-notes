@@ -79,7 +79,7 @@
 * [(StackOverflow) How to convert an instance of std::string to lower case](https://stackoverflow.com/questions/313970/how-to-convert-an-instance-of-stdstring-to-lower-case)
 * [(StackOverflow) String to int/float](https://stackoverflow.com/questions/7663709/how-can-i-convert-a-stdstring-to-int/77079910#77079910)
 * [char8\_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
-* [Parse CSV file with Boost Tokenizer](http://mybyteofcode.blogspot.com/2010/02/parse-csv-file-with-boost-tokenizer-in.html)
+* [Parse CSV file with Boost Tokenizer](https://mybyteofcode.blogspot.com/2010/02/parse-csv-file-with-boost-tokenizer-in.html)
 
 ### Text / Encoding
 * ⚠️ [UTF-8 Everywhere](https://utf8everywhere.org/)
@@ -183,7 +183,7 @@
 * [(CG) Prefer T* over T& when “no argument” is a valid option](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f60-prefer-t-over-t-when-no-argument-is-a-valid-option)
 * [GotW #90 Solution: Factories](https://herbsutter.com/2013/05/30/gotw-90-solution-factories/)
 * [GotW #91 Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
-* [Should move-only types ever be passed by value?](http://scottmeyers.blogspot.com/2014/07/should-move-only-types-ever-be-passed.html)
+* [Should move-only types ever be passed by value?](https://scottmeyers.blogspot.com/2014/07/should-move-only-types-ever-be-passed.html)
 
 ### Types / Passing parameters by value, by-value-then-move idiom
 * [(Youtube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style"](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
@@ -272,7 +272,7 @@
 
 ### Multithreading / Thread-safe initialization
 * [Thread-Safe Initialization of Data](https://www.modernescpp.com/index.php/thread-safe-initialization-of-data/)
-* [Thread-Safe Initialization of a Singleton](http://www.modernescpp.com/index.php/thread-safe-initialization-of-a-singleton/)
+* [Thread-Safe Initialization of a Singleton](https://www.modernescpp.com/index.php/thread-safe-initialization-of-a-singleton/)
 * [(Preshing) Double-Checked Locking is Fixed In C++11](https://preshing.com/20130930/double-checked-locking-is-fixed-in-cpp11/)
 
 ## Error handling
