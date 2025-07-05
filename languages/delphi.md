@@ -8,7 +8,7 @@
 * [(ref) String Types](https://docwiki.embarcadero.com/RADStudio/Athens/en/String_Types_(Delphi))
 * [(ref) Character Sets](https://docwiki.embarcadero.com/RADStudio/Athens/en/Character_Sets)
 * [(ref) Unicode in RAD Studio](https://docwiki.embarcadero.com/RADStudio/Athens/en/Unicode_in_RAD_Studio)
-* [PChars: сами строки не включены ](https://www.transl-gunsmoker.ru/2009/09/pchars.html) ([eng](http://rvelthuis.de/articles/articles-pchars.html))
+* [PChars: сами строки не включены](https://www.transl-gunsmoker.ru/2009/09/pchars.html) ([eng](http://rvelthuis.de/articles/articles-pchars.html))
 * [(StackOverflow) Converting UnicodeString to AnsiString](https://stackoverflow.com/questions/26892449/converting-unicodestring-to-ansistring)
 * [Размер строки в байтах (вне зависимости от кодировки)](http://www.freepascal.ru/forum/viewtopic.php?f=5&t=9463)
 
