@@ -96,6 +96,7 @@
 * https://www.youtube.com/watch?v=_5weX5mx8hc
 * https://habr.com/ru/articles/916620/
 * Compiler options:
+  * See: [C++ / Guidelines](cpp-guidelines.md) / Signed/unsigned
   * [Compiler Options Hardening Guide for C and C++](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
   * `-Wtype-limits`
   * `-ftrivial-auto-var-init=pattern`, `/RTC1`
