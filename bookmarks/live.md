@@ -7,16 +7,6 @@
 * [RTI Connext DDS Recording Service](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/services/recording_service/index.html)
 * [RTI Connext DDS Security Plugins](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_secure/getting_started_guide/cpp11/intro.html)
 
-## Articles
-* [Introduction to DDS](https://portals.omg.org/dds/sites/default/files/GerardoPardo_RTI_Introductin_to_DDS_2.pdf)
-* [Using QoS to Solve Real-World Problems](https://www.omg.org/news/meetings/workshops/RT-2007/00-T5_Hunt-revised.pdf)
-* [DDS Presentations 2008](https://www.omg.org/news/meetings/workshops/Real-time_WS_Final_Presentations_2008/Tutorials/00-T1_Pardo-Castellote.pdf)
-* [Classical Distributed Algorithms with DDS](https://istkb.adlinktech.com/article/classical-distributed-algorithms-with-dds/)
-* [Advanced DDS Tutorial](https://www.omg.org/news/meetings/workshops/Real-time_WS_Final_Presentations_2008/Tutorials/00-T4_Corsaro.pdf)
-* [DDS Advanced Tutorial 2](https://www.omg.org/news/meetings/workshops/RT-2012-presentations/01-T1-02_Pardo.pdf)
-* [DDS QoS Unleashed](https://www.omg.org/news/meetings/workshops/RT-2010-Presentations/QoSUnleashedTutorial.pdf)
-* [Getting Started with DDS In C++](https://www.omg.org/news/meetings/workshops/RT-2012-presentations/01-T1-01_Corsaro.pdf)
-
 ## Var
 * [OMQ Guide – Discovery](https://zguide.zeromq.org/docs/chapter8/#Discovery)
 * [Messaging Technologies](https://www.omg.org/news/whitepapers/Messaging-Whitepaper%20v2.1.pdf)
