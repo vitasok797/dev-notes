@@ -29,6 +29,7 @@
 * [The Data Distribution Service Tutorial](https://www.researchgate.net/profile/Angelo-Corsaro/publication/273136749_The_Data_Distribution_Service_Tutorial/links/54f971d20cf28d6deca482a7/The-Data-Distribution-Service-Tutorial.pdf) (copy+open)
 * [The DDS Tutorial](https://download.zettascale.online/www/docs/OpenSplice/v6/pdfs/OpenSplice_DDSTutorial.pdf)
 * [OpenDDS Developer's Guide](https://downloads.opendds.org/OpenDDS/OpenDDS-latest.pdf)
+* [Eclipse Cyclone DDS documentation](https://cyclonedds.io/docs/cyclonedds/latest/)
 
 ## Vendors
 * [Fast DDS](https://github.com/eProsima/Fast-DDS) ([site](https://fast-dds.docs.eprosima.com/), [vcpkg](https://vcpkg.io/en/package/fastdds))
