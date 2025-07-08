@@ -31,10 +31,10 @@
 * [OpenDDS Developer's Guide](https://downloads.opendds.org/OpenDDS/OpenDDS-latest.pdf)
 
 ## Vendors
-* [Fast DDS](https://fast-dds.docs.eprosima.com/)
-* [OpenDDS](https://opendds.org/)
-* [Eclipse Cyclone DDS](https://projects.eclipse.org/projects/iot.cyclonedds)
+* [Fast DDS](https://github.com/eProsima/Fast-DDS) ([site](https://fast-dds.docs.eprosima.com/), [vcpkg](https://vcpkg.io/en/package/fastdds))
+* [Eclipse Cyclone DDS](https://github.com/eclipse-cyclonedds/cyclonedds) ([site](https://cyclonedds.io/), [vcpkg](https://vcpkg.io/en/package/cyclonedds-cxx))
 * [Vortex OpenSplice DDS](https://github.com/ADLINK-IST/opensplice)
+* [OpenDDS](https://github.com/OpenDDS/OpenDDS) ([site](https://opendds.org/))
 
 ## Video
 * [(Youtube) ROS 2 + DDS Interoperation](https://www.youtube.com/watch?v=GGqcrccWfeE)
