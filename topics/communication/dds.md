@@ -15,6 +15,15 @@
 ## Resources
 * [DDS Foundation resource list](https://www.dds-foundation.org/dds-resources/)
 
+## Specs
+* [DDS](https://www.omg.org/spec/DDS/1.4/PDF)
+* [DDS RTPS](https://www.omg.org/spec/DDSI-RTPS/2.5/PDF)
+* [DDS IDL](https://www.omg.org/spec/IDL/4.2/PDF)
+* [DDS Security](https://www.omg.org/spec/DDS-SECURITY/1.2/PDF)
+* [DDS XTypes](https://www.omg.org/spec/DDS-XTypes/1.3/PDF)
+* [DDS RPC](https://www.omg.org/spec/DDS-RPC/1.0/PDF)
+* [DDS DLRL](https://www.omg.org/spec/DDS-DLRL/1.4/PDF)
+
 ## Tutorials
 * [The Data Distribution Service Tutorial](https://www.researchgate.net/profile/Angelo-Corsaro/publication/273136749_The_Data_Distribution_Service_Tutorial/links/54f971d20cf28d6deca482a7/The-Data-Distribution-Service-Tutorial.pdf) (copy+open)
 * [The DDS Tutorial](https://download.zettascale.online/www/docs/OpenSplice/v6/pdfs/OpenSplice_DDSTutorial.pdf)
