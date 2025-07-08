@@ -1,14 +1,5 @@
 # Live
 
-## Specs
-* [DDS](https://www.omg.org/spec/DDS/1.4/PDF)
-* [DDS RTPS](https://www.omg.org/spec/DDSI-RTPS/2.5/PDF)
-* [DDS IDL](https://www.omg.org/spec/IDL/4.2/PDF)
-* [DDS Security](https://www.omg.org/spec/DDS-SECURITY/1.1/PDF)
-* [DDS XTypes](https://www.omg.org/spec/DDS-XTypes/1.3/PDF)
-* [DDS RPC](https://www.omg.org/spec/DDS-RPC/1.0/PDF)
-* [DDS DLRL](https://www.omg.org/spec/DDS-DLRL/1.4/PDF)
-
 ## Guides
 * [OpenDDS Guide](https://download.objectcomputing.com/OpenDDS/OpenDDS-latest.pdf)
 * [Fast DDS Guide](https://fast-dds.docs.eprosima.com/en/latest/fastdds/getting_started/getting_started.html)
@@ -19,13 +10,6 @@
 * [RTI Connext DDS Recording Service](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/services/recording_service/index.html)
 * [RTI Connext DDS Security Plugins](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_secure/getting_started_guide/cpp11/intro.html)
 
-## Vendors
-* [OpenDDS](https://opendds.org/)
-* [Fast DDS](https://fast-dds.docs.eprosima.com/)
-* [Eclipse Cyclone DDS](https://projects.eclipse.org/projects/iot.cyclonedds)
-* [Vortex Opensplice DDS Community Edition](https://www.adlinktech.com/en/dds-community-software-evaluation)
-* [Vortex OpenSplice DDS GitHub](https://github.com/ADLINK-IST/opensplice)
-
 ## Articles
 * [Introduction to DDS](https://portals.omg.org/dds/sites/default/files/GerardoPardo_RTI_Introductin_to_DDS_2.pdf)
 * [Using QoS to Solve Real-World Problems](https://www.omg.org/news/meetings/workshops/RT-2007/00-T5_Hunt-revised.pdf)
@@ -35,13 +19,6 @@
 * [DDS Advanced Tutorial 2](https://www.omg.org/news/meetings/workshops/RT-2012-presentations/01-T1-02_Pardo.pdf)
 * [DDS QoS Unleashed](https://www.omg.org/news/meetings/workshops/RT-2010-Presentations/QoSUnleashedTutorial.pdf)
 * [Getting Started with DDS In C++](https://www.omg.org/news/meetings/workshops/RT-2012-presentations/01-T1-01_Corsaro.pdf)
-
-## Video
-* [ROS 2 + DDS Interoperation](https://www.youtube.com/watch?v=GGqcrccWfeE)
-* [Консенсус в распределенной системе](https://www.youtube.com/watch?v=BX0Pwywen2k)
-* [RTI Connext DDS Introduction](https://www.youtube.com/watch?v=b-kwbVKfSF0)
-* [The Evolution of Connectivity](https://www.youtube.com/watch?v=cgbbs4hK0Pc)
-* [Admin Console](https://www.youtube.com/watch?v=Ob_weer8Om4)
 
 ## Var
 * [OMQ Guide – Discovery](https://zguide.zeromq.org/docs/chapter8/#Discovery)
