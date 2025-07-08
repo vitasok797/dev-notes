@@ -25,6 +25,7 @@
 * [DDS DLRL](https://www.omg.org/spec/DDS-DLRL/1.4/PDF)
 
 ## Tutorials
+* [Fast DDS Guide](https://fast-dds.docs.eprosima.com/en/latest/fastdds/getting_started/getting_started.html)
 * [The Data Distribution Service Tutorial](https://www.researchgate.net/profile/Angelo-Corsaro/publication/273136749_The_Data_Distribution_Service_Tutorial/links/54f971d20cf28d6deca482a7/The-Data-Distribution-Service-Tutorial.pdf) (copy+open)
 * [The DDS Tutorial](https://download.zettascale.online/www/docs/OpenSplice/v6/pdfs/OpenSplice_DDSTutorial.pdf)
 * [OpenDDS Developer's Guide](https://downloads.opendds.org/OpenDDS/OpenDDS-latest.pdf)
