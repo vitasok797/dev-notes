@@ -67,6 +67,12 @@
 
 ## Unsorted
 * 001:
+  * [RTI Connext DDS Core Libraries Manual (HTML)](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/users_manual/index.htm)
+  * [RTI Connext DDS Core Libraries Manual (PDF)](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/users_manual/RTI_ConnextDDS_CoreLibraries_UsersManual.pdf)
+  * [RTI Connext DDS Getting Started](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/getting_started_guide/cpp11/before.html)
+  * [RTI Connext DDS Recording Service](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/services/recording_service/index.html)
+  * [RTI Connext DDS Security Plugins](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_secure/getting_started_guide/cpp11/intro.html)
+* 002:
   * https://fast-dds.docs.eprosima.com/en/latest/fastddsgen/dataTypes/dataTypes.html
   * https://community.rti.com/forum-topic/point-point-rti-dds
   * https://community.rti.com/static/documentation/connext-dds/current/doc/manuals/connext_dds_professional/getting_started_guide/cpp11/before.html
@@ -79,13 +85,13 @@
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/property_policies/ignore_local_endpoints.html
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html?highlight=GuidPrefix#key-concepts
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/dds_layer/domain/domainParticipant/partition.html
-* 002:
+* 003:
   * https://www.omg.org/spec/DDS4CCM/1.1/PDF
   * https://www.omg.org/spec/DDS-DLRL/1.4/PDF
   * https://www.eprosima.com/developer-resources/whitepapers/rpc-over-dds
   * https://www.eprosima.com/middleware/tools/rpc-over-dds
   * https://github.com/eProsima/RPC
-* 003:
+* 004:
   * https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/chart_panel_index.html
   * https://github.com/eProsima/Non-Intrusive-DDS-Recorder
   * https://community.rti.com/static/documentation/connext-dds/6.0.0/doc/manuals/connext_dds/getting_started_extras/html_files/RTI_ConnextDDS_CoreLibraries_GettingStarted_ExtensibleAddendum/Content/ExtensibleTypesAddendum/Data_Representation.htm
