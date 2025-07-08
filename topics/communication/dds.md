@@ -33,7 +33,7 @@
 * [Fast DDS](https://fast-dds.docs.eprosima.com/)
 * [OpenDDS](https://opendds.org/)
 * [Eclipse Cyclone DDS](https://projects.eclipse.org/projects/iot.cyclonedds)
-* [Vortex OpenSplice DDS GitHub](https://github.com/ADLINK-IST/opensplice)
+* [Vortex OpenSplice DDS](https://github.com/ADLINK-IST/opensplice)
 
 ## Unsorted
 * 001:
