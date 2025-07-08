@@ -38,3 +38,4 @@
 * [A Comparison and Mapping of Data Distribution Service and High-Level Architecture](https://www.rti.com/hubfs/docs/Comparison-Mapping-DDS-HLA.pdf)
 * [В поисках утерянного гигабита или немного про окна в TCP](https://linkmeup.ru/blog/1230/)
 * [The C10K problem](https://www.kegel.com/c10k.html)
+* [(Youtube) Консенсус в распределенной системе](https://www.youtube.com/watch?v=BX0Pwywen2k)
