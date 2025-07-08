@@ -1,7 +1,6 @@
 # Live
 
 ## Guides
-* [Eclipse Cyclone DDS Guide](https://raw.githubusercontent.com/eclipse-cyclonedds/cyclonedds/assets/pdf/CycloneDDS-0.1.0.pdf)
 * [RTI Connext DDS Core Libraries Manual (HTML)](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/users_manual/index.htm)
 * [RTI Connext DDS Core Libraries Manual (PDF)](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/users_manual/RTI_ConnextDDS_CoreLibraries_UsersManual.pdf)
 * [RTI Connext DDS Getting Started](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/getting_started_guide/cpp11/before.html)
