@@ -48,6 +48,7 @@
 
 ## Vendors / Python
 * [eProsima/Fast-DDS-python](https://github.com/eProsima/Fast-DDS-python)
+* [Eclipse Cyclone DDS python binding](https://github.com/eclipse-cyclonedds/cyclonedds-python) ([pypi](https://pypi.org/project/cyclonedds/))
 * [Dust DDS](https://github.com/s2e-systems/dust-dds) ([site](https://www.s2e-systems.com/products/dust-dds/), [pypi](https://pypi.org/project/dust-dds/))
 
 ## Video
