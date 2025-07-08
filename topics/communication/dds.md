@@ -1,10 +1,5 @@
 # Communication / DDS
 
-## Tutorials
-* [The Data Distribution Service Tutorial](https://www.researchgate.net/profile/Angelo-Corsaro/publication/273136749_The_Data_Distribution_Service_Tutorial/links/54f971d20cf28d6deca482a7/The-Data-Distribution-Service-Tutorial.pdf) (copy+open)
-* [The DDS Tutorial](https://download.zettascale.online/www/docs/OpenSplice/v6/pdfs/OpenSplice_DDSTutorial.pdf)
-* [OpenDDS Developer's Guide](https://downloads.opendds.org/OpenDDS/OpenDDS-latest.pdf)
-
 ## Presentations
 * [The DDS Tutorial. Part I](https://www.dds-foundation.org/sites/default/files/Tutorial-Part.I.pdf)
 * [The DDS Tutorial. Part II](https://www.dds-foundation.org/sites/default/files/Tutorial-Part.II_.pdf)
@@ -19,6 +14,11 @@
 
 ## Resources
 * [DDS Foundation resource list](https://www.dds-foundation.org/dds-resources/)
+
+## Tutorials
+* [The Data Distribution Service Tutorial](https://www.researchgate.net/profile/Angelo-Corsaro/publication/273136749_The_Data_Distribution_Service_Tutorial/links/54f971d20cf28d6deca482a7/The-Data-Distribution-Service-Tutorial.pdf) (copy+open)
+* [The DDS Tutorial](https://download.zettascale.online/www/docs/OpenSplice/v6/pdfs/OpenSplice_DDSTutorial.pdf)
+* [OpenDDS Developer's Guide](https://downloads.opendds.org/OpenDDS/OpenDDS-latest.pdf)
 
 ## Unsorted
 * 001:
