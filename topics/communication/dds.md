@@ -32,15 +32,37 @@
 * [DDS for Simulation](https://www.simulationinformation.com/wp-content/uploads/2019/04/rti-ncs-seminar.pdf)
 
 ## Vendors
-* [Fast DDS](https://github.com/eProsima/Fast-DDS) ([site](https://fast-dds.docs.eprosima.com/), [vcpkg](https://vcpkg.io/en/package/fastdds))
+* [eProsima Fast DDS](https://github.com/eProsima/Fast-DDS) ([site](https://fast-dds.docs.eprosima.com/), [vcpkg](https://vcpkg.io/en/package/fastdds))
 * [Eclipse Cyclone DDS](https://github.com/eclipse-cyclonedds/cyclonedds) ([site](https://cyclonedds.io/), [vcpkg](https://vcpkg.io/en/package/cyclonedds-cxx))
 * [Vortex OpenSplice DDS](https://github.com/ADLINK-IST/opensplice)
 * [OpenDDS](https://github.com/OpenDDS/OpenDDS) ([site](https://opendds.org/))
+
+## Vendors / eProsima Fast DDS
+* [eProsima/xtypes](https://github.com/eProsima/xtypes)
+* [eProsima/RPC](https://github.com/eProsima/RPC)
+* [eProsima/Fast-DDS-spy](https://github.com/eProsima/Fast-DDS-spy)
+* [eProsima/Fast-DDS-monitor](https://github.com/eProsima/Fast-DDS-monitor)
+* [eProsima/DDS-Record-Replay](https://github.com/eProsima/DDS-Record-Replay)
+* [eProsima/Non-Intrusive-DDS-Recorder](https://github.com/eProsima/Non-Intrusive-DDS-Recorder)
+* [eProsima/Discovery-Server](https://github.com/eProsima/Discovery-Server)
+
+## Vendors / Python
+* [eProsima/Fast-DDS-python](https://github.com/eProsima/Fast-DDS-python)
+* [Dust DDS](https://github.com/s2e-systems/dust-dds) ([site](https://www.s2e-systems.com/products/dust-dds/), [pypi](https://pypi.org/project/dust-dds/))
 
 ## Video
 * [(Youtube) ROS 2 + DDS Interoperation](https://www.youtube.com/watch?v=GGqcrccWfeE)
 * [(Youtube) RTI Connext DDS Introduction](https://www.youtube.com/watch?v=b-kwbVKfSF0)
 * [(Youtube) Admin Console](https://www.youtube.com/watch?v=Ob_weer8Om4)
+
+## Var
+* [(StackOverflow) Given a DDS topic name, can the topic type information be determined at run-time?](https://stackoverflow.com/questions/47416153/given-a-dds-topic-name-can-the-topic-type-information-be-determined-at-run-time)
+* [(StackOverflow) Given a DDS topic name, can the topic type information be determined at run-time?](https://stackoverflow.com/questions/60537723/dds-reader-not-dropping-messages)
+* [The Top 10 Reasons for Dropped DDS Messages](https://www.rti.com/blog/top-10-reasons-for-dropped-dds-messages)
+* [Why isn't my reliable data reader receiving all data samples? | Data Distribution Service (DDS) Community RTI Connext Users](https://community.rti.com/kb/why-isnt-my-reliable-data-reader-receiving-all-data-samples)
+* [Restricting communication between robots - Next Generation ROS - ROS Discourse](https://discourse.ros.org/t/restricting-communication-between-robots/2931/34)
+* [RTI Connext DDS - Where Filtering is Applied](https://community.rti.com/static/documentation/connext-dds/7.5.0/doc/manuals/connext_dds_professional/users_manual/users_manual/Where_Filtering_is_Applied.htm)
+* [Configure RTI Connext DDS to not use Multicast](https://community.rti.com/howto/configure-rti-connext-dds-not-use-multicast)
 
 ## Unsorted
 * 001:
