@@ -29,6 +29,13 @@
 * [The DDS Tutorial](https://download.zettascale.online/www/docs/OpenSplice/v6/pdfs/OpenSplice_DDSTutorial.pdf)
 * [OpenDDS Developer's Guide](https://downloads.opendds.org/OpenDDS/OpenDDS-latest.pdf)
 
+## Vendors
+* [Fast DDS](https://fast-dds.docs.eprosima.com/)
+* [OpenDDS](https://opendds.org/)
+* [Eclipse Cyclone DDS](https://projects.eclipse.org/projects/iot.cyclonedds)
+* [Vortex Opensplice DDS Community Edition](https://www.adlinktech.com/en/dds-community-software-evaluation)
+* [Vortex OpenSplice DDS GitHub](https://github.com/ADLINK-IST/opensplice)
+
 ## Unsorted
 * 001:
   * https://fast-dds.docs.eprosima.com/en/latest/fastddsgen/dataTypes/dataTypes.html
