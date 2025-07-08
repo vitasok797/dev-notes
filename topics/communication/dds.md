@@ -35,6 +35,11 @@
 * [Eclipse Cyclone DDS](https://projects.eclipse.org/projects/iot.cyclonedds)
 * [Vortex OpenSplice DDS](https://github.com/ADLINK-IST/opensplice)
 
+## Video
+* [(Youtube) ROS 2 + DDS Interoperation](https://www.youtube.com/watch?v=GGqcrccWfeE)
+* [(Youtube) RTI Connext DDS Introduction](https://www.youtube.com/watch?v=b-kwbVKfSF0)
+* [(Youtube) Admin Console](https://www.youtube.com/watch?v=Ob_weer8Om4)
+
 ## Unsorted
 * 001:
   * https://fast-dds.docs.eprosima.com/en/latest/fastddsgen/dataTypes/dataTypes.html
