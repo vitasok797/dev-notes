@@ -1,8 +1,6 @@
 # Live
 
 ## Guides
-* [OpenDDS Guide](https://download.objectcomputing.com/OpenDDS/OpenDDS-latest.pdf)
-* [Fast DDS Guide](https://fast-dds.docs.eprosima.com/en/latest/fastdds/getting_started/getting_started.html)
 * [Eclipse Cyclone DDS Guide](https://raw.githubusercontent.com/eclipse-cyclonedds/cyclonedds/assets/pdf/CycloneDDS-0.1.0.pdf)
 * [RTI Connext DDS Core Libraries Manual (HTML)](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/users_manual/index.htm)
 * [RTI Connext DDS Core Libraries Manual (PDF)](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/users_manual/RTI_ConnextDDS_CoreLibraries_UsersManual.pdf)
