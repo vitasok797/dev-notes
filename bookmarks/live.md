@@ -8,15 +8,13 @@
 * [RTI Connext DDS Security Plugins](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_secure/getting_started_guide/cpp11/intro.html)
 
 ## Var
-* [OMQ Guide – Discovery](https://zguide.zeromq.org/docs/chapter8/#Discovery)
-* [Messaging Technologies](https://www.omg.org/news/whitepapers/Messaging-Whitepaper%20v2.1.pdf)
 * [The Top 10 Reasons for Dropped DDS Messages](https://www.rti.com/blog/top-10-reasons-for-dropped-dds-messages)
 * [Why isn't my reliable data reader receiving all data samples? | Data Distribution Service (DDS) Community RTI Connext Users](https://community.rti.com/kb/why-isnt-my-reliable-data-reader-receiving-all-data-samples)
-* [c++ - Given a DDS topic name, can the topic type information be determined at run-time? - Stack Overflow](https://stackoverflow.com/questions/47416153/given-a-dds-topic-name-can-the-topic-type-information-be-determined-at-run-time)
-* [java - DDS Reader not dropping messages - Stack Overflow](https://stackoverflow.com/questions/60537723/dds-reader-not-dropping-messages)
+* [(StackOverflow) Given a DDS topic name, can the topic type information be determined at run-time?](https://stackoverflow.com/questions/47416153/given-a-dds-topic-name-can-the-topic-type-information-be-determined-at-run-time)
+* [(StackOverflow) Given a DDS topic name, can the topic type information be determined at run-time?](https://stackoverflow.com/questions/60537723/dds-reader-not-dropping-messages)
 * [Restricting communication between robots - Next Generation ROS - ROS Discourse](https://discourse.ros.org/t/restricting-communication-between-robots/2931/34)
-* [Configuration of Eclipse Cyclone DDS](https://github.com/eclipse-cyclonedds/cyclonedds/blob/master/docs/manual/config.rst)
-* [RTI Connext DDS - Where Filtering is Applied](https://community.rti.com/static/documentation/connext-dds/6.1.0/doc/manuals/connext_dds_professional/users_manual/index.htm#users_manual/Where_Filtering_is_Applied.htm#5.4.2_Where_Filtering_is_Applied%E2%80%94Publishing_vs._Subscribing_Side%3FTocPath%3DPart%25202%253A%2520Core%2520Concepts%7C5.%2520Working%2520with%2520Topics%7C5.4%2520ContentFilteredTopics%7C_____2)
+* [RTI Connext DDS - Where Filtering is Applied](https://community.rti.com/static/documentation/connext-dds/7.5.0/doc/manuals/connext_dds_professional/users_manual/users_manual/Where_Filtering_is_Applied.htm)
 * [Configure RTI Connext DDS to not use Multicast](https://community.rti.com/howto/configure-rti-connext-dds-not-use-multicast)
+
 * [GitHub - eProsima/xtypes](https://github.com/eProsima/xtypes)
 * [GitHub - eProsima/RPC](https://github.com/eProsima/RPC)
