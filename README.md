@@ -12,6 +12,7 @@
 * [Julia](languages/julia.md)
 * [Lua](languages/lua.md)
 * [Python](languages/python.md)
+* [Rust](languages/rust.md)
 
 ## Projects
 * [ASPD](projects/aspd.md)
