@@ -10,6 +10,11 @@
 ## Resources
 * [DDS Foundation resource list](https://www.dds-foundation.org/dds-resources/)
 
+## RPC
+* [Introduction to RPC over DDS](https://www.eprosima.com/developer-resources/whitepapers/rpc-over-dds)
+* [eProsima RPC over DDS](https://www.eprosima.com/middleware/tools/rpc-over-dds)
+* [eProsima/RPC](https://github.com/eProsima/RPC)
+
 ## Specs
 * [DDS](https://www.omg.org/spec/DDS/1.4/PDF)
 * [DDS RTPS](https://www.omg.org/spec/DDSI-RTPS/2.5/PDF)
@@ -82,8 +87,6 @@
   * https://www.google.com/search?q=dds+read+write+same+topic
   * https://www.google.com/search?q=dds+read+write+same+topic+site:community.rti.com
 * 003:
-  * https://www.eprosima.com/developer-resources/whitepapers/rpc-over-dds
-  * https://www.eprosima.com/middleware/tools/rpc-over-dds
   * https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/chart_panel_index.html
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/property_policies/ignore_local_endpoints.html
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html?highlight=GuidPrefix#key-concepts
