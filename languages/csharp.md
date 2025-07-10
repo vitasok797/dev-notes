@@ -139,7 +139,7 @@
   * [C# DLL (using 3F DLLExport for exporting functions) not debuggable in Delphi application](https://stackoverflow.com/questions/78155240/c-sharp-dll-using-3f-dllexport-for-exporting-functions-not-debuggable-in-delph)
 * Reddit:
   * [Embedding .Net core in C++](https://www.reddit.com/r/dotnet/comments/16kqaf9/embedding_net_core_in_c/)
-  * [Question: Native Exports .NET 5/6 with DNNE ](https://www.reddit.com/r/dotnet/comments/urkdxr/question_native_exports_net_56_with_dnne/)
+  * [Question: Native Exports .NET 5/6 with DNNE](https://www.reddit.com/r/dotnet/comments/urkdxr/question_native_exports_net_56_with_dnne/)
   * [Question: .NET 5 Native Export / Export C# Function to C/C++](https://www.reddit.com/r/dotnet/comments/k7t6nb/question_net_5_native_export_export_c_function_to/)
 * Habr:
   * [Кроссплатформенное использование классов .Net из неуправляемого кода. Или аналог IDispatch на Linux](https://habr.com/ru/articles/304482/)
