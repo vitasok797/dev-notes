@@ -1,13 +1,13 @@
 # Var
 
 ## SCADA
-* [Пишем редактор мнемосхем для SCADA-системы на Fabric.js / Хабр](https://habr.com/ru/post/322990/)
-* [Пишем редактор мнемосхем для SCADA-системы на Fabric.js. Часть 2-я / Хабр](https://habr.com/ru/post/325640/)
-* [SCADA: в поисках идеала / Хабр](https://habr.com/ru/post/319318/)
-* [Куда приводят поиски идеальной SCADA / Хабр](https://habr.com/ru/post/439468/)
-* [Анимация схем в SCADA / Хабр](https://habr.com/ru/post/487738/)
-* [SCADA visualization for IoT projects [Free Library] / Хабр](https://habr.com/ru/post/462171/)
-* [ScadaPy — создание мнемосхем / Хабр](https://habr.com/ru/post/345938/)
+* [(Habr) Пишем редактор мнемосхем для SCADA-системы на Fabric.js](https://habr.com/ru/post/322990/)
+* [(Habr) Пишем редактор мнемосхем для SCADA-системы на Fabric.js. Часть 2-я](https://habr.com/ru/post/325640/)
+* [(Habr) SCADA: в поисках идеала](https://habr.com/ru/post/319318/)
+* [(Habr) Куда приводят поиски идеальной SCADA](https://habr.com/ru/post/439468/)
+* [(Habr) Анимация схем в SCADA](https://habr.com/ru/post/487738/)
+* [(Habr) SCADA visualization for IoT projects [Free Library]](https://habr.com/ru/post/462171/)
+* [(Habr) ScadaPy — создание мнемосхем](https://habr.com/ru/post/345938/)
 * [Web HMI Demos](https://www.genlogic.com/demos.html)
 
 ## DB
@@ -44,7 +44,7 @@
   * [Type mapping | Npgsql Documentation](https://www.npgsql.org/efcore/mapping/general.html?tabs=data-annotations)
   * [Auto-generated primary keys: UUID, serial or identity column? - Cybertec](https://www.cybertec-postgresql.com/en/uuid-serial-or-identity-columns-for-postgresql-auto-generated-primary-keys/)
   * [UUID Primary Keys in PostgreSQL](https://www.starkandwayne.com/blog/uuid-primary-keys-in-postgresql/)
-  * [Версионная миграция структуры базы данных: основные подходы / Хабр](https://habr.com/ru/articles/121265/)
+  * [(Habr) Версионная миграция структуры базы данных: основные подходы](https://habr.com/ru/articles/121265/)
 
 ## XML
 * [Google XML Document Format Style Guide](https://google.github.io/styleguide/xmlstyle.html)
@@ -77,4 +77,4 @@
 * [Programming stuff: Управление зависимостями](https://sergeyteplyakov.blogspot.com/2012/11/blog-post.html)
 * [Programming stuff: Наследование vs Композиция vs Агрегация](https://sergeyteplyakov.blogspot.com/2012/12/vs-vs.html)
 * [Programming stuff: Инверсия зависимостей на практике](https://sergeyteplyakov.blogspot.com/2013/01/blog-post.html#AmbientContext)
-* [Блок-схема выбора оптимальной методологии разработки ПО / Хабр](https://habr.com/ru/articles/297612/)
+* [(Habr) Блок-схема выбора оптимальной методологии разработки ПО](https://habr.com/ru/articles/297612/)
