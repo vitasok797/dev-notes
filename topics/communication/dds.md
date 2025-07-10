@@ -82,8 +82,6 @@
   * https://www.google.com/search?q=dds+read+write+same+topic
   * https://www.google.com/search?q=dds+read+write+same+topic+site:community.rti.com
 * 003:
-  * https://www.omg.org/spec/DDS4CCM/1.1/PDF
-  * https://www.omg.org/spec/DDSI-RTPS/2.2/PDF
   * https://www.eprosima.com/developer-resources/whitepapers/rpc-over-dds
   * https://www.eprosima.com/middleware/tools/rpc-over-dds
   * https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/chart_panel_index.html
