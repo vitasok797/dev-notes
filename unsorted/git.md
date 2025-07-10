@@ -1,0 +1,17 @@
+# Git
+
+* [(Habr) ХХ полезных советов для пользователей Git среднего уровня. Часть 1](https://habr.com/ru/articles/75728/)
+* [(Habr) ХХ полезных советов для пользователей Git среднего уровня. Часть 2](https://habr.com/ru/articles/76084/)
+* [(Habr) Ежедневный Git](https://habr.com/ru/articles/28268/)
+* [(Habr) Git Workflow](https://habr.com/ru/articles/60030/)
+* [(Habr) Git Wizardry](https://habr.com/ru/articles/60347/)
+* [(Habr) Про Git на пальцах (для переходящих с SVN)](https://habr.com/ru/articles/68341/)
+* [(Habr) Достаточно Git-а, чтобы быть (менее) опасным](https://habr.com/ru/post/268951/)
+* [(Stack Overflow) Git workflow and rebase vs merge questions](https://stackoverflow.com/questions/457927/git-workflow-and-rebase-vs-merge-questions)
+* [(Stack Overflow) Git - is it pull or rebase when working on branches with other people](https://stackoverflow.com/questions/96615/git-is-it-pull-or-rebase-when-working-on-branches-with-other-people)
+* [Git Community Book](https://book.git-scm.com/)
+* [The Thing About Git](https://tomayko.com/blog/2008/the-thing-about-git)
+* [Основы работы с Git](https://www.calculate-linux.ru/main/ru/git)
+* [How to use the subtree merge strategy](https://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html)
+* [git merge vs git rebase: Avoiding Rebase Hell](https://jarrodspillers.com/blog/git/2009-08-19-git-merge-vs-git-rebase-avoiding-rebase-hell/)
+* [The Lost and The Found](https://los-t.livejournal.com/tag/git%20guts)
