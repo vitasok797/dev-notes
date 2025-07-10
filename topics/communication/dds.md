@@ -49,7 +49,7 @@
 * [eProsima/xtypes](https://github.com/eProsima/xtypes)
 * [eProsima/RPC](https://github.com/eProsima/RPC)
 * [eProsima/Fast-DDS-spy](https://github.com/eProsima/Fast-DDS-spy)
-* [eProsima/Fast-DDS-monitor](https://github.com/eProsima/Fast-DDS-monitor)
+* [eProsima/Fast-DDS-monitor](https://github.com/eProsima/Fast-DDS-monitor) ([doc](https://fast-dds-monitor.readthedocs.io))
 * [eProsima/DDS-Record-Replay](https://github.com/eProsima/DDS-Record-Replay)
 * [eProsima/Non-Intrusive-DDS-Recorder](https://github.com/eProsima/Non-Intrusive-DDS-Recorder)
 * [eProsima/Discovery-Server](https://github.com/eProsima/Discovery-Server)
@@ -87,7 +87,6 @@
   * https://www.google.com/search?q=dds+read+write+same+topic
   * https://www.google.com/search?q=dds+read+write+same+topic+site:community.rti.com
 * 003:
-  * https://fast-dds-monitor.readthedocs.io/en/latest/rst/user_manual/chart_panel_index.html
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/property_policies/ignore_local_endpoints.html
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/discovery/discovery_server.html?highlight=GuidPrefix#key-concepts
   * https://fast-dds.docs.eprosima.com/en/latest/fastdds/dds_layer/domain/domainParticipant/partition.html
