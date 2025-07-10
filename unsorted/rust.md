@@ -60,7 +60,7 @@
 * [Intro to Dependency Injection in Rust | by Vishwa Patel | Jul, 2020 | Medium](https://medium.com/@vishwa9n/intro-to-dependency-injection-in-rust-7aeb2bb54093)
 
 ## Errors
-* [Обработка ошибок в Rust / Хабр](https://habr.com/ru/post/270371/)
+* [(Habr) Обработка ошибок в Rust](https://habr.com/ru/post/270371/)
 * [Error Handling in Rust - Andrew Gallant's Blog](https://blog.burntsushi.net/rust-error-handling/)
 * [Обработка ошибок - Язык программирования Rust](https://rurust.github.io/rust_book_ru/error-handling.html)
 * [Interoperability - Rust API Guidelines](https://rust-lang.github.io/api-guidelines/interoperability.html#c-good-err)
@@ -121,8 +121,8 @@
 * [Есть ли ООП в Rust? | rustycrate.ru | Сайт о языке программирования Rust](https://rustycrate.ru/%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/2017/06/11/oop-in-rust.html)
 * [Обсуждение статьи "Есть ли ООП в Rust?" - Статьи - Форум rustycrate.ru](https://forum.rustycrate.ru/t/obsuzhdenie-stati-est-li-oop-v-rust/220/8)
 * [figures/src/figures at master · mkpankov/figures · GitHub](https://github.com/mkpankov/figures/tree/master/src/figures)
-* [Как не переписать проект на Rust / Хабр](https://habr.com/ru/post/474666/)
-* [Как переписать код на Rust / Хабр](https://habr.com/ru/post/511478/)
+* [(Habr) Как не переписать проект на Rust](https://habr.com/ru/post/474666/)
+* [(Habr) Как переписать код на Rust](https://habr.com/ru/post/511478/)
 
 ## 002
 * [A little Rust with your C - The Embedded Rust Book](https://rust-embedded.github.io/book/interoperability/rust-with-c.html)
@@ -132,20 +132,20 @@
 
 ## 003
 * [Myths and Legends about Integer Overflow in Rust | Huon on the internet](https://huonw.github.io/blog/2016/04/myths-and-legends-about-integer-overflow-in-rust/)
-* [Мифы и легенды о переполнении целых чисел в Rust / Хабр](https://habr.com/ru/post/282958/)
-* [Бот для Starcraft на Rust, C и на любом другом языке / Хабр](https://habr.com/ru/post/416743/)
+* [(Habr) Мифы и легенды о переполнении целых чисел в Rust](https://habr.com/ru/post/282958/)
+* [(Habr) Бот для Starcraft на Rust, C и на любом другом языке](https://habr.com/ru/post/416743/)
 * [Stacked Borrows: An Aliasing Model for Rust - paper.pdf](https://plv.mpi-sws.org/rustbelt/stacked-borrows/paper.pdf)
 * [ALL the Clippy Lints](https://rust-lang.github.io/rust-clippy/master/index.html)
 * [5 Tips for Writing Small CLI Tools in Rust - Pascal’s Scribbles](https://deterministic.space/rust-cli-tips.html)
 
 ## 004
 * [Tokio](https://tokio.rs/)
-* [Миграция на инфраструктуру async-await в Rust / Хабр](https://habr.com/ru/post/475272/)
-* [Rust в деталях: пишем масштабируемый чат с нуля, часть 1 / Хабр](https://habr.com/ru/post/268609/)
-* [Rust в деталях, часть 2 / Хабр](https://habr.com/ru/post/278635/)
-* [Введение в futures-rs: асинхронщина на Rust [перевод] / Хабр](https://habr.com/ru/post/310234/)
-* [Взгляд на Tokio: как устроен этот асинхронный обработчик событий / Блог компании Bitfury Group / Хабр](https://habr.com/ru/company/bitfury/blog/351824/)
-* [Что такое Tokio и Async I/O и зачем это нужно? / Хабр](https://habr.com/ru/post/347726/)
+* [(Habr) Миграция на инфраструктуру async-await в Rust](https://habr.com/ru/post/475272/)
+* [(Habr) Rust в деталях: пишем масштабируемый чат с нуля, часть 1](https://habr.com/ru/post/268609/)
+* [(Habr) Rust в деталях, часть 2](https://habr.com/ru/post/278635/)
+* [(Habr) Введение в futures-rs: асинхронщина на Rust](https://habr.com/ru/post/310234/)
+* [(Habr) Взгляд на Tokio: как устроен этот асинхронный обработчик событий / Блог компании Bitfury Group](https://habr.com/ru/company/bitfury/blog/351824/)
+* [(Habr) Что такое Tokio и Async I/O и зачем это нужно?](https://habr.com/ru/post/347726/)
 * [Sam Sartor - Generalizing Coroutines in Rust](https://samsartor.com/coroutines-1/)
 * [Async/Await | Writing an OS in Rust](https://os.phil-opp.com/async-await/)
 
@@ -165,15 +165,15 @@
 
 ## 006
 * [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
-* [Прогулка по быстрому, безопасному и почти законченному веб-сервису на Rust / Хабр](https://habr.com/ru/post/353990/)
+* [(Habr) Прогулка по быстрому, безопасному и почти законченному веб-сервису на Rust](https://habr.com/ru/post/353990/)
 * [GitHub - rust-unofficial/patterns: A catalogue of Rust design patterns](https://github.com/rust-unofficial/patterns)
 * [patterns/pass-var-to-closure.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/idioms/pass-var-to-closure.md)
 * [patterns/temporary-mutability.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/idioms/temporary-mutability.md)
 * [patterns/visitor.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/patterns/visitor.md)
 * [Hand-Implementing PartialEq, Eq, Hash, PartialOrd and Ord in Rust • Phil's Blog](https://www.philipdaniels.com/blog/2019/rust-equality-and-ordering/)
-* [Traits из коробки / Хабр](https://habr.com/ru/post/277461/)
-* [Что делает Rust универсальным языком программирования / Хабр](https://habr.com/ru/post/504622/)
-* [Передача намерений / Хабр](https://habr.com/ru/post/326896/)
+* [(Habr) Traits из коробки](https://habr.com/ru/post/277461/)
+* [(Habr) Что делает Rust универсальным языком программирования](https://habr.com/ru/post/504622/)
+* [(Habr) Передача намерений](https://habr.com/ru/post/326896/)
 * [Convenient and idiomatic conversions in Rust](https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust)
 * [Interior mutability in Rust: what, why, how?](https://ricardomartins.cc/2016/06/08/interior-mutability)
 * [Interior mutability in Rust, part 2: thread safety](https://ricardomartins.cc/2016/06/25/interior-mutability-thread-safety)
@@ -204,5 +204,5 @@
 * [Creating a Rust function that returns a &str or String](https://hermanradtke.com/2015/05/29/creating-a-rust-function-that-returns-string-or-str.html)
 * [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/README.html)
 * [Karol Kuczmarski's Blog – Small Rust crates I (almost) always use](http://xion.io/post/code/rust-little-crates.html#rust-little-crates)
-* [Так ли токсичен синтаксис Rust? / Хабр](https://habr.com/ru/post/532660/)
+* [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
 * [Асинхронный Rust: проблемы и способы их решения | Nuances of programming | Яндекс Дзен](https://zen.yandex.ru/media/nuancesprog/asinhronnyi-rust-problemy-i-sposoby-ih-resheniia-60e5f4e9176288585b4cab91)
