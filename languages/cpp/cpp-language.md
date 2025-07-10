@@ -34,10 +34,10 @@
 
 ## Modern C++
 * [3 Simple C++17 Features That Will Make Your Code Simpler](https://www.fluentcpp.com/2018/06/19/3-simple-c17-features-that-will-make-your-code-simpler/)
-* [Spans, string_view, and Ranges - Four View types (C++17 to C++23) ](https://www.cppstories.com/2023/four-views-in-cpp23/)
+* [Spans, string_view, and Ranges - Four View types (C++17 to C++23)](https://www.cppstories.com/2023/four-views-in-cpp23/)
 * [How to use std::span from C++20](https://www.cppstories.com/2023/span-cpp20/)
 * [Enum Class Improvements for C++17, C++20 and C++23](https://www.cppstories.com/2024/enum-improvements/)
-* [Integer Conversions and Safe Comparisons in C++20 ](https://www.cppstories.com/2022/safe-int-cmp-cpp20/)
+* [Integer Conversions and Safe Comparisons in C++20](https://www.cppstories.com/2022/safe-int-cmp-cpp20/)
 * [Языковые новшества C++17. Часть 3. Порядок и спокойствие](https://scrutator.me/post/2018/04/28/cpp17_lang_features_p3.aspx)
 
 ### Modern C++ / Tutorials
@@ -74,7 +74,7 @@
 ## Text
 
 ### Text / String processing
-* [Six Handy Operations for String Processing in C++20/23 ](https://www.cppstories.com/2023/six-handy-ops-for-string-processing/)
+* [Six Handy Operations for String Processing in C++20/23](https://www.cppstories.com/2023/six-handy-ops-for-string-processing/)
 * [How to split a string in C++](https://www.fluentcpp.com/2017/04/21/how-to-split-a-string-in-c/)
 * [(StackOverflow) How to convert an instance of std::string to lower case](https://stackoverflow.com/questions/313970/how-to-convert-an-instance-of-stdstring-to-lower-case)
 * [(StackOverflow) String to int/float](https://stackoverflow.com/questions/7663709/how-can-i-convert-a-stdstring-to-int/77079910#77079910)
