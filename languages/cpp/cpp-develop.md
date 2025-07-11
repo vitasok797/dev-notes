@@ -25,11 +25,7 @@
 </details>
 
 ## CMake
-* <https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-160>
-* <https://learn.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=msvc-160>
-* <https://learn.microsoft.com/en-us/cpp/linux/?view=msvc-160>
 * [(Habr) Современный CMake: 10 советов по улучшению скриптов сборки](https://habr.com/ru/articles/330902/)
-* [CMake in Visual Studio](https://logins.github.io/programming/2020/05/17/CMakeInVisualStudio.html)
 * [An Introduction to Modern CMake](https://cliutils.gitlab.io/modern-cmake/)
 * [How to Use CMake Without the Agonizing Pain - Part 2](https://alexreinking.com/blog/how-to-use-cmake-without-the-agonizing-pain-part-2.html)
 * [Managing Compiler Warnings with CMake](https://www.foonathan.net/2018/10/cmake-warnings/)
@@ -83,6 +79,11 @@
 * [Portable Build Tools](https://github.com/Data-Oriented-House/PortableBuildTools)
 * [(StackOverflow) Integrate Google Protocol Buffers .proto files to Visual Studio](https://stackoverflow.com/questions/11447950/integrate-google-protocol-buffers-proto-files-to-visual-c-2010)
 
+### Visual Studio / Cmake
+* <https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-160>
+* <https://learn.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=msvc-160>
+* [CMake in Visual Studio](https://logins.github.io/programming/2020/05/17/CMakeInVisualStudio.html)
+
 ### Visual Studio / Extensions
 * Linters and Analyzers:
   * [Clang Power Tools](https://marketplace.visualstudio.com/items?itemName=caphyon.ClangPowerTools) ([site](https://clangpowertools.com/))
@@ -99,6 +100,9 @@
   [2019](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2019)
   [2022](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2022)
 * [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+
+### Visual Studio / Linux
+* <https://learn.microsoft.com/en-us/cpp/linux/?view=msvc-160>
 
 ## DLL
 * [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
