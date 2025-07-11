@@ -80,8 +80,8 @@
 * [(StackOverflow) Integrate Google Protocol Buffers .proto files to Visual Studio](https://stackoverflow.com/questions/11447950/integrate-google-protocol-buffers-proto-files-to-visual-c-2010)
 
 ### Visual Studio / Cmake
-* <https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-160>
-* <https://learn.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=msvc-160>
+* [(MS) CMake projects in Visual Studio](https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-160)
+* [(MS) Open Folder support for C++ build systems in Visual Studio](https://learn.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=msvc-160)
 * [CMake in Visual Studio](https://logins.github.io/programming/2020/05/17/CMakeInVisualStudio.html)
 
 ### Visual Studio / Extensions
@@ -102,7 +102,7 @@
 * [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
 
 ### Visual Studio / Linux
-* <https://learn.microsoft.com/en-us/cpp/linux/?view=msvc-160>
+* [(MS) Linux with Visual Studio C++](https://learn.microsoft.com/en-us/cpp/linux/?view=msvc-160)
 
 ## DLL
 * [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
