@@ -82,8 +82,8 @@
 ### Visual Studio / Cmake
 * [(MS) CMake projects in Visual Studio](https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-160)
 * [(MS) Open Folder support for C++ build systems in Visual Studio](https://learn.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=msvc-160)
-* [CMake in Visual Studio](https://logins.github.io/programming/2020/05/17/CMakeInVisualStudio.html)
 * [(MS) Clang/LLVM support in Visual Studio CMake projects](https://learn.microsoft.com/en-us/cpp/build/clang-support-cmake?view=msvc-160)
+* [CMake in Visual Studio](https://logins.github.io/programming/2020/05/17/CMakeInVisualStudio.html)
 
 ### Visual Studio / Extensions
 * Linters and Analyzers:
