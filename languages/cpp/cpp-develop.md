@@ -83,6 +83,7 @@
 * [(MS) CMake projects in Visual Studio](https://learn.microsoft.com/en-us/cpp/build/cmake-projects-in-visual-studio?view=msvc-160)
 * [(MS) Open Folder support for C++ build systems in Visual Studio](https://learn.microsoft.com/en-us/cpp/build/open-folder-projects-cpp?view=msvc-160)
 * [CMake in Visual Studio](https://logins.github.io/programming/2020/05/17/CMakeInVisualStudio.html)
+* [(MS) Clang/LLVM support in Visual Studio CMake projects](https://learn.microsoft.com/en-us/cpp/build/clang-support-cmake?view=msvc-160)
 
 ### Visual Studio / Extensions
 * Linters and Analyzers:
@@ -103,6 +104,9 @@
 
 ### Visual Studio / Linux
 * [(MS) Linux with Visual Studio C++](https://learn.microsoft.com/en-us/cpp/linux/?view=msvc-160)
+* [(MS) Tutorial: Create C++ cross-platform projects in Visual Studio](https://learn.microsoft.com/en-us/cpp/build/get-started-linux-cmake?view=msvc-160)
+* [(MS) Walkthrough: Build and debug C++ with WSL 2 and Visual Studio 2022](https://learn.microsoft.com/en-us/cpp/build/walkthrough-build-debug-wsl2?view=msvc-160)
+* [(MS) Tutorial: Debug a CMake project on a remote Windows machine](https://learn.microsoft.com/en-us/cpp/build/cmake-remote-debugging?view=msvc-160)
 
 ## DLL
 * [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
