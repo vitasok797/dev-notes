@@ -157,11 +157,19 @@
   * cpp-guidelines.md: headers links
   * cpp-guidelines.md: godbolt includes
   * merge headers: use vsl::assert (? godbolt)
-* use EXPECTS from vsl/assert.h:
-  * error.h (nullptr_error)
-  * math.h/ftrim (logic_error) [demo](https://godbolt.org/z/bsqGP99eK)
-  * math.h/ceil_div (assert)
-  * ...
+* Error handling:
+  * Options:
+    * assert
+    * gsl::Expects
+    * EXPECTS from vsl/assert.h
+    * throw "soft" exception
+    * throw "terminate" exception
+  * Headers:
+    * assert.h
+    * error.h (throw nullptr_error)
+    * math.h/ftrim (throw logic_error) [demo](https://godbolt.org/z/bsqGP99eK)
+    * math.h/ceil_div (assert)
+    * ...
 * noexcept
 
 ## ⚠️ TODO
