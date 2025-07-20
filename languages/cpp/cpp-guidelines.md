@@ -3258,6 +3258,8 @@ auto main() -> int
 ├── doc/
 ├── example/
 ├── external/
+├── out/
+│   └── build/
 ├── test/
 │   ├── subdir/
 │   │   └── *_test.cpp
@@ -3267,7 +3269,8 @@ auto main() -> int
 ├── CMakePresets.json
 ├── CMakeUserPresets.json
 ├── vcpkg.json
-└── <scripts>
+├── *.bat
+└── *.sh
 ```
 
 </details>
