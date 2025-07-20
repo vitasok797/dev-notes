@@ -3267,7 +3267,7 @@ auto main() -> int
 ├── CMakePresets.json
 ├── CMakeUserPresets.json
 ├── vcpkg.json
-└── scripts
+└── <scripts>
 ```
 
 </details>
