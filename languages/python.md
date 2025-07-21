@@ -3,6 +3,10 @@
 ## Async
 * [(Habr) Python 3.5; async/await](https://habr.com/ru/articles/266743/)
 
+## Calc
+* [(Habr) Применение языка Python в инженерной практике. Обзор модуля Pint](https://habr.com/ru/articles/682306/)
+* [(Habr) Применение языка Python в инженерной практике. Точность измерений и вычислений. Погрешности и неопределённости](https://habr.com/ru/articles/927224/)
+
 ## Libs
 * [pydantic: Data validation using Python type hints](https://github.com/pydantic/pydantic)
 
