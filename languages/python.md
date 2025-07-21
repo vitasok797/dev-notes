@@ -1,10 +1,15 @@
 # Python
 
+## Async
+* [(Habr) Python 3.5; async/await](https://habr.com/ru/articles/266743/)
+
 ## Libs
 * [pydantic: Data validation using Python type hints](https://github.com/pydantic/pydantic)
 
-## Async
-* [(Habr) Python 3.5; async/await](https://habr.com/ru/articles/266743/)
+## Package managers
+* [(Habr) Poetry — прекрасная альтернатива pip](https://habr.com/ru/articles/593529/)
+* [(Habr) Быстрый старт в мир Python окружений с uv](https://habr.com/ru/articles/875840/)
+* [UV reference](https://docs.astral.sh/uv/)
 
 ## Pandas
 * [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
@@ -13,11 +18,6 @@
 
 ## PyInstaller
 * <https://github.com/pyinstaller/pyinstaller/wiki/Recipe-subprocess>
-
-## Package managers
-* [(Habr) Poetry — прекрасная альтернатива pip](https://habr.com/ru/articles/593529/)
-* [(Habr) Быстрый старт в мир Python окружений с uv](https://habr.com/ru/articles/875840/)
-* [UV reference](https://docs.astral.sh/uv/)
 
 ## Var
 * [Python developer Roadmap](https://roadmap.sh/python)
