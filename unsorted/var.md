@@ -17,7 +17,7 @@
   * [Руководство по PostgreSQL](https://metanit.com/sql/postgresql/)
 * Entity
   * [Руководство по Entity Framework Core](https://metanit.com/sharp/entityframeworkcore/)
-  * [Overview of Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
+  * [(MS) Overview of Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/)
   * [What is Entity Framework?](https://www.entityframeworktutorial.net/what-is-entityframework.aspx)
   * [Entity Framework Core Tutorials](https://www.entityframeworktutorial.net/efcore/entity-framework-core.aspx)
 * Logging
@@ -25,34 +25,34 @@
   * [Logging in Entity Framework Core](https://www.entityframeworktutorial.net/efcore/logging-in-entityframework-core.aspx)
   * [Entity Framework Core | Логгирование операций](https://metanit.com/sharp/entityframeworkcore/2.12.php)
 * Video
-  * [Еntity Framework Core 2.0. Начало работы с EF Core. Урок 1 - YouTube](https://www.youtube.com/watch?v=zlVZWK9hxRs)
-  * [Еntity Framework Core 2.0. Создание моделей в EF Core. Урок 2 - YouTube](https://www.youtube.com/watch?v=9t9omEOtOIw)
-  * [Еntity Framework Core 2.0. Отношения между моделями. Наследование. Урок 3 - YouTube](https://www.youtube.com/watch?v=jpBra476V3M)
-  * [Еntity Framework Core 2.0. Запросы LINQ to Entities. Урок 4 - YouTube](https://www.youtube.com/watch?v=ezUdhNwV0_0)
+  * [(YouTube) Еntity Framework Core 2.0. Начало работы с EF Core. Урок 1](https://www.youtube.com/watch?v=zlVZWK9hxRs)
+  * [(YouTube) Еntity Framework Core 2.0. Создание моделей в EF Core. Урок 2](https://www.youtube.com/watch?v=9t9omEOtOIw)
+  * [(YouTube) Еntity Framework Core 2.0. Отношения между моделями. Наследование. Урок 3](https://www.youtube.com/watch?v=jpBra476V3M)
+  * [(YouTube) Еntity Framework Core 2.0. Запросы LINQ to Entities. Урок 4](https://www.youtube.com/watch?v=ezUdhNwV0_0)
 * Var
+  * [(Habr) Версионная миграция структуры базы данных: основные подходы](https://habr.com/ru/articles/121265/)
+  * [(StackOverflow) AsNoTracking using LINQ Query syntax instead of Method syntax](https://stackoverflow.com/questions/18122723/asnotracking-using-linq-query-syntax-instead-of-method-syntax)
+  * [(StackOverflow) The object cannot be deleted](https://stackoverflow.com/questions/15637965/the-object-cannot-be-deleted-because-it-was-not-found-in-the-objectstatemanager)
+  * [(StackOverflow) Entity Framework core - Contains is case sensitive or case insensitive?](https://stackoverflow.com/questions/43277868/entity-framework-core-contains-is-case-sensitive-or-case-insensitive)
   * [Индексы в MySQL](https://ruhighload.com/%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D1%8B+%D0%B2+mysql)
   * [Eager Loading, Lazy Loading And Explicit Loading In Entity Framework](https://www.c-sharpcorner.com/article/eager-loading-lazy-loading-and-explicit-loading-in-entity-framework/)
   * [Entity Framework: Code First Data Annotations](https://www.c-sharpcorner.com/UploadFile/ff2f08/entity-framework-code-first-data-annotations/)
   * [All The Steps For Query Execution In Entity Framework](https://www.c-sharpcorner.com/article/all-steps-about-query-execution-in-entity-framework/)
-  * [LINQ Tutorial with Examples | TAAGUNG](https://taagung.com/linq-tutorial-with-examples/)
-  * [Entity Framework Core database providers](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)
+  * [LINQ Tutorial with Examples](https://taagung.com/linq-tutorial-with-examples/)
+  * [(MS) Entity Framework Core database providers](https://docs.microsoft.com/en-us/ef/core/providers/?tabs=dotnet-core-cli)
   * [How to set an explicit value to id property in EF Core?](https://www.entityframeworktutorial.net/faq/how-to-set-explicit-value-to-id-property-in-ef-core.aspx)
-  * [(StackOverflow) AsNoTracking using LINQ Query syntax instead of Method syntax](https://stackoverflow.com/questions/18122723/asnotracking-using-linq-query-syntax-instead-of-method-syntax)
-  * [(StackOverflow) The object cannot be deleted](https://stackoverflow.com/questions/15637965/the-object-cannot-be-deleted-because-it-was-not-found-in-the-objectstatemanager)
-  * [(StackOverflow) Entity Framework core - Contains is case sensitive or case insensitive?](https://stackoverflow.com/questions/43277868/entity-framework-core-contains-is-case-sensitive-or-case-insensitive)
   * [Concurrency Tokens | Npgsql Documentation](https://www.npgsql.org/efcore/modeling/concurrency.html)
   * [Type mapping | Npgsql Documentation](https://www.npgsql.org/efcore/mapping/general.html?tabs=data-annotations)
-  * [Auto-generated primary keys: UUID, serial or identity column? - Cybertec](https://www.cybertec-postgresql.com/en/uuid-serial-or-identity-columns-for-postgresql-auto-generated-primary-keys/)
+  * [Auto-generated primary keys: UUID, serial or identity column?](https://www.cybertec-postgresql.com/en/uuid-serial-or-identity-columns-for-postgresql-auto-generated-primary-keys/)
   * [UUID Primary Keys in PostgreSQL](https://www.starkandwayne.com/blog/uuid-primary-keys-in-postgresql/)
-  * [(Habr) Версионная миграция структуры базы данных: основные подходы](https://habr.com/ru/articles/121265/)
 
 ## XML
+* [(StackOverflow) How to generate .NET 4.0 classes from xsd?](https://stackoverflow.com/questions/5217665/how-to-generate-net-4-0-classes-from-xsd)
+* [(MS) XML Schema Definition Tool (Xsd.exe)](https://docs.microsoft.com/en-US/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe)
+* [(MS) XML Documents and Data](https://docs.microsoft.com/en-US/dotnet/standard/data/xml/)
 * [Google XML Document Format Style Guide](https://google.github.io/styleguide/xmlstyle.html)
 * [C# и .NET | Работа с XML](https://metanit.com/sharp/tutorial/16.1.php)
-* [XML Documents and Data | Microsoft Docs](https://docs.microsoft.com/en-US/dotnet/standard/data/xml/)
 * [XML Schema Tutorial](https://www.w3schools.com/xml/schema_intro.asp)
-* [(StackOverflow) How to generate .NET 4.0 classes from xsd?](https://stackoverflow.com/questions/5217665/how-to-generate-net-4-0-classes-from-xsd)
-* [XML Schema Definition Tool (Xsd.exe) | Microsoft Docs](https://docs.microsoft.com/en-US/dotnet/standard/serialization/xml-schema-definition-tool-xsd-exe)
 
 ## WSP
 * [CoolProp GitHub](https://github.com/CoolProp/CoolProp)
@@ -62,7 +62,8 @@
 * [GitHub - thermalogic/SEUIF97](https://github.com/thermalogic/SEUIF97)
 
 ## Var
-* [Детская ошибка в коде которую обожают делать новички | ЯЮниор - Школа Программирования | Дзен](https://dzen.ru/a/XsO4-r16bz0U8g35)
+* [(Habr) Блок-схема выбора оптимальной методологии разработки ПО](https://habr.com/ru/articles/297612/)
+* [Детская ошибка в коде которую обожают делать новички](https://dzen.ru/a/XsO4-r16bz0U8g35)
 * [Блог Александра Бындю: Domain-Driven Design: Repository](https://blog.byndyu.ru/2011/01/domain-driven-design-repository.html)
 * [Блог Александра Бындю: Принцип инверсии зависимости](https://blog.byndyu.ru/2009/12/blog-post.html)
 * [Блог Александра Бындю: Command and Query Responsibility Segregation (CQRS) на практике](https://blog.byndyu.ru/2014/07/command-and-query-responsibility.html)
@@ -77,4 +78,3 @@
 * [Programming stuff: Управление зависимостями](https://sergeyteplyakov.blogspot.com/2012/11/blog-post.html)
 * [Programming stuff: Наследование vs Композиция vs Агрегация](https://sergeyteplyakov.blogspot.com/2012/12/vs-vs.html)
 * [Programming stuff: Инверсия зависимостей на практике](https://sergeyteplyakov.blogspot.com/2013/01/blog-post.html#AmbientContext)
-* [(Habr) Блок-схема выбора оптимальной методологии разработки ПО](https://habr.com/ru/articles/297612/)
