@@ -165,5 +165,5 @@
 * [(Youtube) Channel: Nick Chapsas](https://www.youtube.com/c/Elfocrash/videos)
 
 ## Var
-* [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
 * [(Habr) Nullable-аннотации: MaybeNull и NotNullWhen в C#](https://habr.com/ru/companies/otus/articles/928286/)
+* [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
