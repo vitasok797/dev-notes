@@ -23,6 +23,9 @@
 * [(StackOverflow) Resolve "Can't revert 'somedir' without reverting children" when reverting in svn](https://stackoverflow.com/questions/78648182/resolve-cant-revert-somedir-without-reverting-children-when-reverting-in-sv)
 
 ## TDD
+* [(Habr) Почему именно юнит-тесты: искусство укрощения кода маленькими шагами](https://habr.com/ru/articles/927596/)
+* [Testing private methods, TDD and Test-Driven Refactoring](https://caroli.org/en/testing-private-methods-tdd-and-test-driven-refactoring/)
+* [Still No Consensus On Testing Private Methods](https://jesseduffield.com/Testing-Private-Methods/)
 * [(Youtube) Improving your Test Driven Development in 45 minutes](https://www.youtube.com/watch?v=2vEoL3Irgiw)
 * [(Youtube) TDD: The Bad Parts](https://www.youtube.com/watch?v=xPL84vvLwXA)
 * [(Youtube) Does TDD Really Lead to Good Design?](https://www.youtube.com/watch?v=KyFVA4Spcgg)
