@@ -16,6 +16,7 @@
 * [Intel Fortran Reference: standard-semantics option](https://ahamodel.uib.no/intel/GUID-DB7BF3D1-3528-416F-BD49-CE5A3B5546DF.html)
 
 ### Interoperability / Bindings
+* [SWIG Fortran](https://github.com/swig-fortran/swig)
 * [fortwrap](https://github.com/mcfarljm/fortwrap)
 
 ### Interoperability / DLL
