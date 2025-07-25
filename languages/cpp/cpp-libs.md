@@ -292,6 +292,10 @@
 * [Boost.Interval](https://www.boost.org/doc/libs/latest/libs/numeric/interval/doc/interval.htm)
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
 
+## Time
+* [\<chrono\>](https://en.cppreference.com/w/cpp/chrono.html)
+* [Abseil Time](https://abseil.io/docs/cpp/guides/time)
+
 ## DB
 * POCO [Data (SQLite, MySQL/MariaDB, PostgreSQL)](https://docs.pocoproject.org/current/00200-DataUserManual.html)
 * <https://github.com/aminroosta/sqlite_modern_cpp> ([vcpkg](https://vcpkg.io/en/package/sqlite-modern-cpp))
