@@ -194,6 +194,7 @@
 * [Boost.Process](https://www.boost.org/doc/libs/latest/doc/html/process.html)
 * [Boost.Interprocess](https://www.boost.org/doc/libs/latest/doc/html/interprocess.html)
 * POCO ([Processes](https://pocoproject.org/slides/150-Processes.pdf))
+* Folly ([Subprocess.h](https://github.com/facebook/folly/blob/main/folly/Subprocess.h))
 * <https://github.com/DaanDeMeyer/reproc>
 
 ### System / File System
