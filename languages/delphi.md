@@ -22,7 +22,8 @@
 * [Pitfalls of converting](http://rvelthuis.de/articles/articles-convert.html)
 * [Implementing C++ libraries in Delphi for HPC](https://www.packtpub.com/en-ru/learning/how-to-tutorials/implementing-c-libraries-in-delphi-for-hpc-tutorial?fallbackPlaceholder=en-us%2Flearning%2Fhow-to-tutorials%2Fimplementing-c-libraries-in-delphi-for-hpc-tutorial)
 * [SWIG Delphi](https://github.com/FMXExpress/swig-delphi)
-([example.pas](https://github.com/FMXExpress/swig-delphi/blob/master/Examples/delphi/class/example.pas),
+([fork](https://github.com/FMXExpress/swig),
+[example.pas](https://github.com/FMXExpress/swig-delphi/blob/master/Examples/delphi/class/example.pas),
 [example_wrap.cxx](https://github.com/FMXExpress/swig-delphi/blob/master/Examples/delphi/class/example_wrap.cxx))
 
 ## Parsing
