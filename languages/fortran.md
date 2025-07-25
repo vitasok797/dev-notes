@@ -16,7 +16,7 @@
 * [Intel Fortran Reference: standard-semantics option](https://ahamodel.uib.no/intel/GUID-DB7BF3D1-3528-416F-BD49-CE5A3B5546DF.html)
 
 ### Interoperability / Bindings
-* SWIG Fortran: [fork](https://github.com/swig-fortran/swig), [branch](https://github.com/swig/swig/tree/fortran) ([flibcpp](https://github.com/swig-fortran/flibcpp) as example)
+* SWIG Fortran: [branch](https://github.com/swig/swig/tree/fortran), [fork](https://github.com/swig-fortran/swig) ([flibcpp](https://github.com/swig-fortran/flibcpp) as example)
 * [fortwrap](https://github.com/mcfarljm/fortwrap)
 
 ### Interoperability / DLL
