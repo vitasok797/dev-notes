@@ -308,6 +308,7 @@
 
 ## Bindings
 * [SWIG](https://www.swig.org/)
+* [Shroud](https://github.com/LLNL/shroud) ([doc](https://shroud.readthedocs.io/))
 * Python:
   * [Boost.Python](https://www.boost.org/doc/libs/latest/libs/python/doc/html/)
   * <https://github.com/pybind/pybind11>
