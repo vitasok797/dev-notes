@@ -201,6 +201,7 @@
 * [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem)
 * [Boost.Filesystem](https://www.boost.org/doc/libs/latest/libs/filesystem/doc/index.htm)
 * POCO ([Files](https://pocoproject.org/slides/080-Files.pdf))
+* Folly ([File.h](https://github.com/facebook/folly/blob/main/folly/File.h))
 * <https://github.com/p-ranav/glob> ([vcpkg](https://vcpkg.io/en/package/p-ranav-glob))
 
 ## Multithreading
