@@ -15,12 +15,12 @@
 * [(Habr) Fortran 2003: учим Фортран и С дружить](https://habr.com/ru/companies/intel/articles/255305/)
 * [Intel Fortran Reference: standard-semantics option](https://ahamodel.uib.no/intel/GUID-DB7BF3D1-3528-416F-BD49-CE5A3B5546DF.html)
 
+### Interoperability / Bindings
+* [fortwrap](https://github.com/mcfarljm/fortwrap)
+
 ### Interoperability / DLL
 * [GFortran: вызываем функции LAPACK из DLL динамически](https://fseps.blogspot.com/2017/03/gfortran-lapack-dll.html)
 * [Making and using a DLL from a Fortran procedure using Intel Fortran Compiler on Windows OS](https://www.cdslab.org/recipes/programming/fortran-dll-getsquare/fortran-dll-getsquare)
-
-### Interoperability / Bindings
-* [fortwrap](https://github.com/mcfarljm/fortwrap)
 
 ## Optimization
 * [Vectorization for Intel C++ & Fortran Compiler](https://indico.cern.ch/event/403113/contributions/1847260/attachments/1124417/1604772/07_Vectorization_for_Intel_C__Fortran_Compiler_.pdf)
