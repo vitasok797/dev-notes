@@ -24,7 +24,7 @@
 * [Making and using a DLL from a Fortran procedure using Intel Fortran Compiler on Windows OS](https://www.cdslab.org/recipes/programming/fortran-dll-getsquare/fortran-dll-getsquare)
 
 ## Libs
-* [flibcpp](https://github.com/swig-fortran/flibcpp)
+* [flibcpp](https://github.com/swig-fortran/flibcpp) ([doc](https://flibcpp.readthedocs.io/))
 
 ## Optimization
 * [Vectorization for Intel C++ & Fortran Compiler](https://indico.cern.ch/event/403113/contributions/1847260/attachments/1124417/1604772/07_Vectorization_for_Intel_C__Fortran_Compiler_.pdf)
