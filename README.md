@@ -4,8 +4,7 @@
    [guidelines](languages/cpp/cpp-guidelines.md),
    [language](languages/cpp/cpp-language.md),
    [libs](languages/cpp/cpp-libs.md),
-   [ranges](languages/cpp/cpp-ranges.md),
-   [unsorted](languages/cpp/cpp-unsorted.md))
+   [ranges](languages/cpp/cpp-ranges.md))
 * [C#](languages/csharp.md)
 * [Delphi](languages/delphi.md)
 * [Fortran](languages/fortran.md)
