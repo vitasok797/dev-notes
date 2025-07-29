@@ -5,7 +5,7 @@
 * https://www.boost.org/doc/libs/latest/libs/convert/doc/html/index.html
 
 ## Interval
-* https://chat.deepseek.com/
+* [(DeepSeek) Interval](https://chat.deepseek.com/a/chat/s/3456b75e-bbb8-4c40-8106-f070f9b6dff5)
 * https://stackoverflow.com/questions/9255887/stl-function-to-test-whether-a-value-is-within-some-range
 * https://stackoverflow.com/questions/16339380/c-generic-way-to-check-a-value-in-a-range
 * https://labex.io/tutorials/cpp-how-to-detect-out-of-range-values-421164
@@ -60,7 +60,7 @@
   * Errors (typical) / "Far" objects forwarding
   * Initialization / Structured Binding
   * Type / auto&& resolving
-* https://chat.deepseek.com/
+* [(DeepSeek) Structured Binding](https://chat.deepseek.com/a/chat/s/d5354b11-b48b-40b7-b17a-ed92b04c2700)
 * https://jguegant.github.io/blogs/tech/structured-bindings.html
 * https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/
 * https://godbolt.org/z/TEnf33jrM
