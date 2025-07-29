@@ -8,6 +8,10 @@
 * [(Wiki) Data access object (DAO)](https://en.wikipedia.org/wiki/Data_access_object)
 * [(Wiki) Active record](https://en.wikipedia.org/wiki/Active_record_pattern)
 
+### Patterns / Bridge
+* [(Habr) Еще раз про Bridge (в картинках)](https://habr.com/ru/articles/138585/)
+* [(Habr) Шаблон Bridge дополнительные штрихи](https://habr.com/ru/articles/138902/)
+
 ## Principles
 * [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
 * [DRY](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
