@@ -166,4 +166,5 @@
 
 ## Var
 * [(Habr) Nullable-аннотации: MaybeNull и NotNullWhen в C#](https://habr.com/ru/companies/otus/articles/928286/)
+* [(Habr) Особенности строк в .NET](https://habr.com/ru/articles/172627/)
 * [The 10 Most Common Mistakes in C# Programming](https://www.toptal.com/c-sharp/top-10-mistakes-that-c-sharp-programmers-make)
