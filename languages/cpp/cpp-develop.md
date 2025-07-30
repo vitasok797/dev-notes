@@ -140,7 +140,9 @@
 * <https://stackoverflow.com/questions/1867745/cmake-use-a-custom-linker>
 
 ## Speed up build
+* [CMake target_precompile_headers](https://cmake.org/cmake/help/latest/command/target_precompile_headers.html)
 * [Ускорение сборки C и C++ проектов](https://pvs-studio.ru/ru/blog/posts/cpp/0549/)
+* [(Habr) Ускорение сборки проекта на CMake+GCC: предварительная компиляция заголовочных файлов](https://habr.com/ru/articles/503302/)
 * [(Youtube) Why Is My C++ Build So Slow? Compilation Profiling and Visualization](https://www.youtube.com/watch?v=Oih3K-3eZ4Y)
 
 ## Var
