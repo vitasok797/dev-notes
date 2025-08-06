@@ -174,6 +174,4 @@
 
 ## ⚠️ TODO
 * Visual Studio settings
-* Internet:
-  * Fortran bindings
-  * C++ parsing
+* Google test
