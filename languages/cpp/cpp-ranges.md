@@ -18,8 +18,13 @@
 * [(Habr) Алгоритмы диапазонов C++20 — 7 немодифицирующих операций](https://habr.com/ru/companies/skillfactory/articles/706458/)
 * [(Habr) Алгоритмы диапазонов C++20 — 11 модифицирующих операций](https://habr.com/ru/companies/skillfactory/articles/707948/)
 * [(Habr) Алгоритмы диапазонов C++20 — сортировка, множества, обновления C++23 и прочее](https://habr.com/ru/companies/skillfactory/articles/707946/)
-* [A beginner's guide to C++ Ranges and Views](https://hannes.hauswedell.net/post/2019/11/30/range_intro/)
+* [(Hannes Hauswedell) A beginner's guide to C++ Ranges and Views](https://hannes.hauswedell.net/post/2019/11/30/range_intro/)
 * [A Gentle Introduction to Ranges v3](https://www.daixtrose.de/talks/gentle-intro-to-ranges/talk/A%20Gentle%20Introduction%20to%20Ranges%20v3.pdf)
+
+## Views
+* [(Hannes Hauswedell) Owning and non-owning C++ Ranges](https://hannes.hauswedell.net/post/2025/05/17/non-owning-range/)
+* [(Reddit) Owning and non-owning C++ Ranges // Hannes Hauswedell](https://www.reddit.com/r/cpp/comments/1ksyzs7/owning_and_nonowning_c_ranges_hannes_hauswedell/)
+* [What is a view?](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p2415r2.html)
 
 ## Iterators
 * [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
