@@ -245,6 +245,9 @@
 ### GUI / Var
 * <https://github.com/simulton/QSchematic> (no vcpkg)
 
+## Ranges
+* ⭐ [range-v3](https://github.com/ericniebler/range-v3)
+
 ## UUID
 * [Boost.Uuid](https://www.boost.org/doc/libs/latest/libs/uuid/doc/html/uuid.html)
 * POCO ([URIandUUID](https://pocoproject.org/slides/160-URIandUUID.pdf))
@@ -374,7 +377,6 @@
 * <https://github.com/DigitalInBlue/Celero>
 
 ## Var
-* ⭐ <https://github.com/ericniebler/range-v3>
 * <https://github.com/Dobiasd/FunctionalPlus>
 * <https://github.com/ryanhaining/cppitertools>
 * <https://github.com/CoolProp/CoolProp>
