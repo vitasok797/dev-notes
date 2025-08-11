@@ -1,5 +1,9 @@
 # Unsorted: Git
 
+## Useful sites
+* https://gitignore.io/
+
+## Var
 * [(Habr) ХХ полезных советов для пользователей Git среднего уровня. Часть 1](https://habr.com/ru/articles/75728/)
 * [(Habr) ХХ полезных советов для пользователей Git среднего уровня. Часть 2](https://habr.com/ru/articles/76084/)
 * [(Habr) Ежедневный Git](https://habr.com/ru/articles/28268/)
