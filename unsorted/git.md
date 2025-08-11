@@ -1,5 +1,16 @@
 # Unsorted: Git
 
+## Squash
+* https://jamescooke.info/git-to-squash-or-not-to-squash.html
+* https://www.git-tower.com/learn/git/faq/git-squash
+* https://stackoverflow.com/questions/2427238/what-is-the-difference-between-merge-squash-and-rebase/2427520#2427520
+* https://stackoverflow.com/questions/14321748/why-cant-i-use-git-merge-squash-with-no-ff
+* https://stackoverflow.com/questions/62728095/why-is-fast-forwarding-always-possible-with-squash-and-merge-at-github
+* https://stackoverflow.com/questions/41139783/gitflow-should-i-squash-commits-when-merging-from-a-release-branch-into-master
+* https://stackoverflow.com/questions/18584376/git-what-exactly-is-a-merge-commit-in-git
+* https://www.google.com/search?q=git+squash
+* https://www.google.com/search?q=git+squash+merge+rebase+fast-forward
+
 ## Useful sites
 * https://gitignore.io/
 
