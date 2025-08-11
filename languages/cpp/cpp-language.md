@@ -100,6 +100,7 @@
 * [(Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
 * [(Abseil Tips) Default vs Value Initialization](https://abseil.io/tips/146)
   ([default](https://en.cppreference.com/w/cpp/language/default_initialization), [value](https://en.cppreference.com/w/cpp/language/value_initialization))
+* [(LearnCpp) Variable assignment and initialization](https://www.learncpp.com/cpp-tutorial/variable-assignment-and-initialization/)
 
 ### Initialization / {}-initializer syntax
 * [(cppreference) List-initialization](https://en.cppreference.com/w/cpp/language/list_initialization.html)
