@@ -276,6 +276,10 @@
 * [Thread-Safe Initialization of a Singleton](https://www.modernescpp.com/index.php/thread-safe-initialization-of-a-singleton/)
 * [(Preshing) Double-Checked Locking is Fixed In C++11](https://preshing.com/20130930/double-checked-locking-is-fixed-in-cpp11/)
 
+## Allocators
+* [Custom memory allocators](https://github.com/mtrebi/memory-allocators)
+* [Custom Allocators in C++: High Performance Memory Management](https://johnfarrier.com/custom-allocators-in-c-high-performance-memory-management/)
+
 ## Error handling
 * ⭐ [(ISO C++) Exceptions and Error Handling](https://isocpp.org/wiki/faq/exceptions)
 * [Boost.Outcome: Review of Error Handling Frameworks](https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/alternatives.html)
