@@ -531,6 +531,13 @@ auto main() -> int
 ## Debug
 
 <details>
+<summary>DebugAllocator</summary>
+
+▶️[**Demo**](https://godbolt.org/z/rfqfebqcM) [[debug.h](vsl/debug.h)]
+
+</details>
+
+<details>
 <summary>Display type</summary>
 
 [(StackOverflow) Using 'auto' type deduction - how to find out what type the compiler deduced?](https://stackoverflow.com/questions/38820579/using-auto-type-deduction-how-to-find-out-what-type-the-compiler-deduced)
