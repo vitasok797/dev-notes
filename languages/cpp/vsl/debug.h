@@ -252,6 +252,48 @@ using CopyWatcher = WatcherBase<detail::copy_watcher_config>;
 using CtorWatcher = WatcherBase<detail::ctor_watcher_config>;
 using ThreadWatcher = WatcherBase<>;
 
+template<typename T>
+class DebugAllocator
+{
+public:
+    using value_type = T;
+
+    DebugAllocator() = default;
+    DebugAllocator(const std::string& tag) noexcept : tag_{tag} {};
+
+    template<typename U>
+    constexpr DebugAllocator(const DebugAllocator<U>&) noexcept {}
+
+    T* allocate(std::size_t n)
+    {
+        output("alloc", n);
+        return static_cast<T*>(::operator new(n * sizeof(T)));
+    }
+
+    void deallocate(T* p, std::size_t n) noexcept
+    {
+        output("dealloc", n);
+        ::operator delete(p);
+    }
+
+    friend bool operator==(const DebugAllocator&, const DebugAllocator&) { return true; }
+    friend bool operator!=(const DebugAllocator&, const DebugAllocator&) { return false; }
+
+private:
+    const std::string_view prompt_ = "ALLOCATOR";
+    std::string tag_;
+
+    auto output(std::string_view operation, std::size_t n) -> void
+    {
+        std::clog << "[" << prompt_;
+        if (!tag_.empty())
+            std::clog << ":" << tag_;
+        std::clog << "] " << operation << " ";
+        std::clog << n * sizeof(T) << " (" << n << " of size=" << sizeof(T) << ")";
+        std::clog << std::endl;
+    }
+};
+
 }  // namespace vsl::debug
 
 #endif  // VSL_DEBUG_H
