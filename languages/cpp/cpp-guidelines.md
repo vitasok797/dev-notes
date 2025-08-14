@@ -619,11 +619,11 @@ auto[&] value = vsl::checked_deref_ptr(shared_ptr);
 class SomeClass
 {
 public:
-    SomeClass(std::unique_ptr<std::string> uptr) :
+    SomeClass(std::unique_ptr<int> uptr) :
         uptr_{std::move(uptr)}
     {}
 
-    auto get_value() const & -> std::string&
+    auto get_value() const & -> int&
     {
         return vsl::checked_deref_ptr(uptr_);
     }
@@ -631,7 +631,7 @@ public:
     auto get_value() const && = delete;
 
 private:
-   std::unique_ptr<std::string> uptr_;
+   std::unique_ptr<int> uptr_;
 };
 ```
 
@@ -645,7 +645,7 @@ auto non_optional_raw_ptr = vsl::checked_get_ptr(shared_ptr);
 // pass_by_const_raw_ptr(non_optional_raw_ptr)
 ```
 
-▶️[**Demo**](https://godbolt.org/z/r1fGo3cE3) [[error.h](vsl/error.h)]
+▶️[**Demo**](https://godbolt.org/z/hnWYMbqY4) [[error.h](vsl/error.h)]
 
 </details>
 
