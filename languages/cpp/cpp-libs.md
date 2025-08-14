@@ -314,6 +314,7 @@
 ## Bindings
 * [SWIG](https://www.swig.org/)
 * [Shroud](https://github.com/LLNL/shroud) ([doc](https://shroud.readthedocs.io/))
+* [djinni-generator](https://github.com/cross-language-cpp/djinni-generator)
 * Python:
   * [Boost.Python](https://www.boost.org/doc/libs/latest/libs/python/doc/html/)
   * <https://github.com/pybind/pybind11>
