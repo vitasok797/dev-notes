@@ -682,7 +682,7 @@ ranges::for_each(get_struct().items(), func);  // OK
 
 #### Complex demo
 
-▶️[**Demo**](https://godbolt.org/z/xdf1x5rnx)
+▶️[**Demo**](https://godbolt.org/z/1qbb17q6c)
 
 </details>
 
