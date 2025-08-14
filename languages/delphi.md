@@ -31,6 +31,7 @@
 ## Parsing
 * <https://github.com/gotthardsen/Delphi-ANTRL4-Grammar>
 * <https://github.com/Turbo87/DGrok>
+* <https://tree-sitter.github.io/tree-sitter/>
 
 ## Var
 * [(StackOverflow) getting around circular references in Delphi](https://stackoverflow.com/questions/2644973/getting-around-circular-references-in-delphi)
