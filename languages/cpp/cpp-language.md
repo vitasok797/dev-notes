@@ -119,9 +119,11 @@
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
 * [The case against Almost Always auto (AAA)](https://gist.github.com/Eisenwave/5cca27867828743bf50ad95d526f5a6e)
 * [(Youtube) Embracing Trailing Return Types and auto Return SAFELY in Modern C++](https://www.youtube.com/watch?v=Tnl7FnwJ2Uw)
-* [(StackOverflow) Using auto in range-based for](https://stackoverflow.com/questions/15927033/what-is-the-correct-way-of-using-c11s-range-based-for/15927037#15927037)
-* [for (auto&& elt : range) Always Works](https://quuxplusone.github.io/blog/2018/12/15/autorefref-always-works/)
-* [for (auto&& elt : range) Still Always Works](https://quuxplusone.github.io/blog/2018/12/27/autorefref-still-always-works/)
+* Range-based for:
+  * [(StackOverflow) Using auto in range-based for](https://stackoverflow.com/questions/15927033/what-is-the-correct-way-of-using-c11s-range-based-for/15927037#15927037)
+  * [for (auto&& elt : range) Always Works](https://quuxplusone.github.io/blog/2018/12/15/autorefref-always-works/)
+  * [for (auto&& elt : range) Still Always Works](https://quuxplusone.github.io/blog/2018/12/27/autorefref-still-always-works/)
+  * [Auto Type Deduction in Range-Based For Loops](https://blog.petrzemek.net/2016/08/17/auto-type-deduction-in-range-based-for-loops/)
 
 ### Initialization / constexpr
 * [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
