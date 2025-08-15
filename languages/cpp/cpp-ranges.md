@@ -26,6 +26,7 @@
 * [(Hannes Hauswedell) Owning and non-owning C++ Ranges](https://hannes.hauswedell.net/post/2025/05/17/non-owning-range/)
 * [(Reddit) Owning and non-owning C++ Ranges // Hannes Hauswedell](https://www.reddit.com/r/cpp/comments/1ksyzs7/owning_and_nonowning_c_ranges_hannes_hauswedell/)
 * [What is a view?](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2021/p2415r2.html)
+* [What's so hard about views::enumerate?](https://brevzin.github.io/c++/2022/12/05/enumerate/)
 
 ## Iterators
 * [C++20’s Iterator Sentinels](https://www.foonathan.net/2020/03/iterator-sentinel/)
