@@ -135,6 +135,7 @@
 
 ### Initialization / Structured binding
 * [Языковые новшества C++17. Часть 2. Constexpr и привязки](https://scrutator.me/post/2017/10/07/cpp17_lang_features_p2.aspx)
+* [Structured Bindings Strike Again](https://brevzin.github.io/c++/2022/12/05/enumerate/#bonus-problem-structured-bindings-strike-again)
 
 ## ADL
 * [(Habr) Близкие контакты ADL-ной степени](https://habr.com/ru/companies/jugru/articles/447900/)
