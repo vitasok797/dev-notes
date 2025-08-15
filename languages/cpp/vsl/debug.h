@@ -65,17 +65,17 @@ void println_sync(const Values&... values)
 
 struct WatcherOptions
 {
-    bool print_mark = true;
-    bool print_thread = true;
-    bool print_identity = true;
-    bool print_other = true;
-    bool print_ctor = true;
-    bool print_ctor_copy = true;
-    bool print_ctor_move = true;
-    bool print_assign_copy = true;
-    bool print_assign_move = true;
-    bool print_destructor = true;
-    bool print_full_operation_category = true;
+    bool print_mark {true};
+    bool print_thread {true};
+    bool print_identity {true};
+    bool print_other {true};
+    bool print_ctor {true};
+    bool print_ctor_copy {true};
+    bool print_ctor_move {true};
+    bool print_assign_copy {true};
+    bool print_assign_move {true};
+    bool print_destructor {true};
+    bool print_full_operation_category {true};
 };
 
 template<WatcherOptions options = {}>
@@ -208,10 +208,10 @@ private:
         os << ")";
     }
 
-    static inline std::atomic<size_t> counter_ = 0;
-    size_t index_ = 0;
-    std::optional<std::string> marker_{};
-    bool moved_ = false;
+    static inline std::atomic<size_t> counter_ {0};
+    size_t index_ {0};
+    std::optional<std::string> marker_ {};
+    bool moved_ {false};
 };
 
 namespace detail
@@ -280,8 +280,8 @@ public:
     friend bool operator!=(const DebugAllocator&, const DebugAllocator&) { return false; }
 
 private:
-    const std::string_view prompt_ = "ALLOCATOR";
-    std::string tag_;
+    const std::string_view prompt_ {"ALLOCATOR"};
+    std::string tag_ {};
 
     auto output(std::string_view operation, std::size_t n) -> void
     {
