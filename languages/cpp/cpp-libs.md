@@ -37,7 +37,7 @@
 ### Text / Formatting
 * ⭐ <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/), [cheatsheet](https://hackingcpp.com/cpp/libs/fmt.png))
 * <https://github.com/p-ranav/pprint>
-* <https://github.com/p-ranav/tabulate>
+* ⭐ <https://github.com/p-ranav/tabulate>
 
 ### Text / Regex
 * ⚠️ `Boost`
