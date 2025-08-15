@@ -112,6 +112,13 @@
 * [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
 * [(StackOverflow) How to generate an import library (LIB-file) from a DLL?](https://stackoverflow.com/questions/9946322/how-to-generate-an-import-library-lib-file-from-a-dll)
 
+### DLL / Export
+* [Create dlls on Windows without declspec() using new CMake export all feature](https://www.kitware.com/create-dlls-on-windows-without-declspec-using-new-cmake-export-all-feature/)
+* [CMake GenerateExportHeader](https://cmake.org/cmake/help/latest/module/GenerateExportHeader.html)
+* [(StackOverflow) Error LNK1104: cannot open file 'Debug\MyProjectLib.lib'](https://stackoverflow.com/questions/40739061/error-lnk1104-cannot-open-file-debug-myprojectlib-lib/40743080#40743080)
+* [(StackOverflow) Export all symbols when creating a DLL](https://stackoverflow.com/questions/225432/export-all-symbols-when-creating-a-dll/32284832#32284832)
+* [(StackOverflow) CMake adds -Dlibname_EXPORTS compile definition](https://stackoverflow.com/questions/27429732/cmake-adds-dlibname-exports-compile-definition)
+
 ## Mixing
 
 ### Mixing / Languages
