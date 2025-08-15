@@ -30,8 +30,8 @@ public:
     auto dismiss() noexcept -> void { invoke_ = false; }
 
 private:
-    F f_;
-    bool invoke_ = true;
+    F f_ {};
+    bool invoke_ {true};
 };
 
 }  // namespace vsl
