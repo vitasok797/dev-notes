@@ -280,9 +280,6 @@ public:
     friend bool operator!=(const DebugAllocator&, const DebugAllocator&) { return false; }
 
 private:
-    const std::string_view prompt_ {"ALLOCATOR"};
-    std::string tag_ {};
-
     auto output(std::string_view operation, std::size_t n) -> void
     {
         std::clog << "[" << prompt_;
@@ -292,6 +289,9 @@ private:
         std::clog << n * sizeof(T) << " (" << n << " of size=" << sizeof(T) << ")";
         std::clog << std::endl;
     }
+
+    const std::string_view prompt_ {"ALLOCATOR"};
+    std::string tag_ {};
 };
 
 }  // namespace vsl::debug
