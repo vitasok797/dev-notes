@@ -247,7 +247,7 @@
 
 ## Ranges
 * ⭐ [range-v3](https://github.com/ericniebler/range-v3)
-* [TartanLlama's ranges](https://github.com/TartanLlama/ranges) ([vcpkg](https://vcpkg.io/en/package/tl-ranges))
+* ⭐ [TartanLlama's ranges](https://github.com/TartanLlama/ranges) ([vcpkg](https://vcpkg.io/en/package/tl-ranges))
 * <https://github.com/tcbrindle/flux>
 
 ## UUID
