@@ -217,33 +217,33 @@ private:
 namespace detail
 {
 
-    inline constexpr auto watcher_config = WatcherOptions
-    {
-        .print_thread = false,
-    };
+inline constexpr auto watcher_config = WatcherOptions
+{
+    .print_thread = false,
+};
 
-    inline constexpr auto copy_watcher_config = WatcherOptions
-    {
-        .print_thread = false,
-        .print_identity = false,
-        .print_other = false,
-        .print_ctor = false,
-        .print_ctor_move = false,
-        .print_assign_move = false,
-        .print_destructor = false,
-        .print_full_operation_category = false,
-    };
+inline constexpr auto copy_watcher_config = WatcherOptions
+{
+    .print_thread = false,
+    .print_identity = false,
+    .print_other = false,
+    .print_ctor = false,
+    .print_ctor_move = false,
+    .print_assign_move = false,
+    .print_destructor = false,
+    .print_full_operation_category = false,
+};
 
-    inline constexpr auto ctor_watcher_config = WatcherOptions
-    {
-        .print_thread = false,
-        .print_identity = false,
-        .print_other = false,
-        .print_assign_copy = false,
-        .print_assign_move = false,
-        .print_destructor = false,
-        .print_full_operation_category = false,
-    };
+inline constexpr auto ctor_watcher_config = WatcherOptions
+{
+    .print_thread = false,
+    .print_identity = false,
+    .print_other = false,
+    .print_assign_copy = false,
+    .print_assign_move = false,
+    .print_destructor = false,
+    .print_full_operation_category = false,
+};
 
 }  // namespace detail
 
