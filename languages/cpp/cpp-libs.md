@@ -33,6 +33,7 @@
 * ⚠️ [simdutf](https://github.com/simdutf/simdutf)
 * ⚠️ [uni-algo](https://github.com/uni-algo/uni-algo)
 * ⚠️ [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
+* ⚠️ [utf8proc](https://github.com/JuliaStrings/utf8proc)
 
 ### Text / Formatting
 * ⭐ <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/), [cheatsheet](https://hackingcpp.com/cpp/libs/fmt.png))
