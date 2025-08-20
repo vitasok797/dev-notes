@@ -47,7 +47,7 @@
 ## Linters and Analyzers
 * [Cppcheck](https://cppcheck.sourceforge.io/)
 * Clang:
-  * [Clang Format](https://clang.llvm.org/docs/ClangFormat.html)
+  * [Clang Format](https://clang.llvm.org/docs/ClangFormat.html) ([Clang-Format Style Options](https://clang.llvm.org/docs/ClangFormatStyleOptions.html))
   * [Clang Static Analyzer](https://clang-analyzer.llvm.org/)
   * [Clang-Tidy](https://clang.llvm.org/extra/clang-tidy/) ([habr](https://habr.com/ru/companies/auriga/articles/526486/))
 * [CodeChecker](https://pypi.org/project/codechecker/) ([habr](https://habr.com/ru/companies/yadro/articles/838878/))
