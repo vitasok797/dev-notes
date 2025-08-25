@@ -2,8 +2,8 @@
 
 ## Docs
 * std::ranges:
-  * [Ranges](https://en.cppreference.com/w/cpp/ranges)
-  * [Algorithms](https://en.cppreference.com/w/cpp/algorithm/ranges)
+  * [Ranges](https://en.cppreference.com/w/cpp/ranges.html)
+  * [Algorithms](https://en.cppreference.com/w/cpp/algorithm/ranges.html)
 * Range-v3:
   * [Reference](https://ericniebler.github.io/range-v3/)
     ([views](https://ericniebler.github.io/range-v3/index.html#autotoc_md23),
