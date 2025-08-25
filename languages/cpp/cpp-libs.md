@@ -293,7 +293,7 @@
 * <https://github.com/Stiffstream/restinio>
 
 ## Math
-* [Numerics library](https://en.cppreference.com/w/cpp/numeric)
+* [Numerics library](https://en.cppreference.com/w/cpp/numeric.html)
 * [Boost.Math](https://www.boost.org/doc/libs/latest/libs/math/doc/html/index.html)
 * [Boost.Icl (Interval Container Library)](https://www.boost.org/doc/libs/latest/libs/icl/doc/html/index.html)
 * [Boost.Interval](https://www.boost.org/doc/libs/latest/libs/numeric/interval/doc/interval.htm)
