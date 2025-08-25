@@ -3224,16 +3224,18 @@ auto main() -> int
 
 ```cpp
 // Corresponding header (if exists)
-#include <my_project/self.h>
+#include "self.h"
 
 // Current project headers
 #include <my_project/other.h>
 
 // Third party headers
+#include <fmt/format.h>
 #include <range/v3/all.hpp>
 
 // Standard headers
-#include <iostream>
+#include <atomic>
+#include <ctype.h>
 #include <vector>
 
 // Conditional includes
