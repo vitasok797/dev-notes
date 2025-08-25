@@ -46,7 +46,7 @@
 
 ## Classes
 * The rule of three/five/zero:
-  * [(cppreference) The rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three)
+  * [(cppreference) The rule of three/five/zero](https://en.cppreference.com/w/cpp/language/rule_of_three.html)
   * [(CG) If you can avoid defining default operations, do](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c20-if-you-can-avoid-defining-default-operations-do)
   * [(CG) If you define or =delete any copy, move, or destructor function, define or =delete them all](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c21-if-you-define-or-delete-any-copy-move-or-destructor-function-define-or-delete-them-all)
   * [(CG) A polymorphic class should suppress public copy/move](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#c67-a-polymorphic-class-should-suppress-public-copymove)
@@ -61,7 +61,7 @@
 * [(Habr) Краткий обзор нововведений C++23: deducing this](https://habr.com/ru/articles/722668/)
 
 ## Containers
-* [(cppreference) Containers library (containers, iterator invalidation)](https://en.cppreference.com/w/cpp/container)
+* [(cppreference) Containers library (containers, iterator invalidation)](https://en.cppreference.com/w/cpp/container.html)
 * [C++ Data Structures and Algorithms Cheat Sheet](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md)
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
 * [12 Different Ways to Filter Containers in Modern C++](https://www.cppstories.com/2021/filter-cpp-containers/)
@@ -88,18 +88,18 @@
 * [(Habr) Транслитерация кириллицы](https://habr.com/ru/articles/265455/comments/#comment_8552571)
 
 ## Operators
-* [(cppreference) Operator precedence](https://en.cppreference.com/w/cpp/language/operator_precedence)
-* [(cppreference) Operator overloading](https://en.cppreference.com/w/cpp/language/operators)
-* [(cppreference) User-defined conversion function](https://en.cppreference.com/w/cpp/language/cast_operator)
+* [(cppreference) Operator precedence](https://en.cppreference.com/w/cpp/language/operator_precedence.html)
+* [(cppreference) Operator overloading](https://en.cppreference.com/w/cpp/language/operators.html)
+* [(cppreference) User-defined conversion function](https://en.cppreference.com/w/cpp/language/cast_operator.html)
 * [Operator Overloading: Common Practice](https://arne-mertz.de/2015/01/operator-overloading-common-practice/)
 * [(LearnCpp) Printing inherited classes using operator<<](https://www.learncpp.com/cpp-tutorial/printing-inherited-classes-using-operator/)
 
 ## Initialization
-* [(cppreference) Initialization](https://en.cppreference.com/w/cpp/language/initialization)
+* [(cppreference) Initialization](https://en.cppreference.com/w/cpp/language/initialization.html)
 * [(Habr) Инициализация в современном C++](https://habr.com/ru/companies/jugru/articles/469465/)
 * [(Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
 * [(Abseil Tips) Default vs Value Initialization](https://abseil.io/tips/146)
-  ([default](https://en.cppreference.com/w/cpp/language/default_initialization), [value](https://en.cppreference.com/w/cpp/language/value_initialization))
+  ([default](https://en.cppreference.com/w/cpp/language/default_initialization.html), [value](https://en.cppreference.com/w/cpp/language/value_initialization.html))
 * [(LearnCpp) Variable assignment and initialization](https://www.learncpp.com/cpp-tutorial/variable-assignment-and-initialization/)
 
 ### Initialization / {}-initializer syntax
@@ -155,16 +155,16 @@
 * [(Fluent C++) Variadic CRTP: An Opt-in for Class Features, at Compile Time](https://www.fluentcpp.com/2018/06/22/variadic-crtp-opt-in-for-class-features-at-compile-time/)
 
 ## Types
-* [(cppreference) Fundamental types](https://en.cppreference.com/w/cpp/language/types)
+* [(cppreference) Fundamental types](https://en.cppreference.com/w/cpp/language/types.html)
 * [How to Find the Type of an Object in C++](https://www.delftstack.com/howto/cpp/cpp-find-object-type/)
 * [std::reference_wrapper](https://www.learncpp.com/cpp-tutorial/arrays-of-references-via-stdreference_wrapper/)
 * [(Habr) RVO и NRVO в C++17](https://habr.com/ru/companies/vk/articles/666330/)
 * [(Abseil Tips) Tag Types](https://abseil.io/tips/198)
 
 ### Types / Functional
-* [(cppreference) std::function](https://en.cppreference.com/w/cpp/utility/functional/function)
-* [(cppreference) std::invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke)
-* [(cppreference) std::apply](https://en.cppreference.com/w/cpp/utility/apply)
+* [(cppreference) std::function](https://en.cppreference.com/w/cpp/utility/functional/function.html)
+* [(cppreference) std::invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke.html)
+* [(cppreference) std::apply](https://en.cppreference.com/w/cpp/utility/apply.html)
 * [(cppreference) std::call_once](https://en.cppreference.com/w/cpp/thread/call_once.html)
 * [(Wiki) Function object](https://en.wikipedia.org/wiki/Function_object#In_C_and_C++)
 * [(StackOverflow) When to use functors over lambdas](https://stackoverflow.com/questions/27256062/when-to-use-functors-over-lambdas)
@@ -208,8 +208,8 @@
 
 ### Types / Signed vs unsigned
 * std:
-  * [(cppreference) std::ssize](https://en.cppreference.com/w/cpp/iterator/size)
-  * [(cppreference) std::cmp_*](https://en.cppreference.com/w/cpp/utility/intcmp)
+  * [(cppreference) std::ssize](https://en.cppreference.com/w/cpp/iterator/size.html)
+  * [(cppreference) std::cmp_*](https://en.cppreference.com/w/cpp/utility/intcmp.html)
 * [(LearnCpp) Unsigned integers, and why to avoid them](https://www.learncpp.com/cpp-tutorial/unsigned-integers-and-why-to-avoid-them/)
 * [(LearnCpp) std::vector and the unsigned length and subscript problem](https://www.learncpp.com/cpp-tutorial/stdvector-and-the-unsigned-length-and-subscript-problem/)
 * [(LearnCpp) Arrays, loops, and sign challenge solutions](https://www.learncpp.com/cpp-tutorial/arrays-loops-and-sign-challenge-solutions/)
@@ -258,7 +258,7 @@
 * [Synchronization with Atomics in C++20](https://www.modernescpp.com/index.php/synchronization-with-atomics-in-c-20/)
 
 ### Multithreading / Async
-* [(cppreference) std::osyncstream](https://en.cppreference.com/w/cpp/io/basic_osyncstream)
+* [(cppreference) std::osyncstream](https://en.cppreference.com/w/cpp/io/basic_osyncstream.html)
 * [The promises and challenges of std::async task-based parallelism in C++11](https://eli.thegreenplace.net/2016/the-promises-and-challenges-of-stdasync-task-based-parallelism-in-c11/)
 * [Async Tasks in C++11: Not Quite There Yet](https://bartoszmilewski.com/2011/10/10/async-tasks-in-c11-not-quite-there-yet/)
 
@@ -316,7 +316,7 @@
 * [Avoiding game crashes related to linked lists](https://www.codeofhonor.com/blog/avoiding-game-crashes-related-to-linked-lists)
 
 ## Var
-* [(cppreference) Attributes](https://en.cppreference.com/w/cpp/language/attributes)
+* [(cppreference) Attributes](https://en.cppreference.com/w/cpp/language/attributes.html)
 * [(Habr) Тонкости реализации кода библиотеки](https://habr.com/ru/articles/138085/)
 * [(Habr) Анонимные пространства имен vs. static в пространстве имен](https://habr.com/ru/companies/otus/articles/729144/)
 * [(Habr) Внутренняя и внешняя линковка в C++](https://habr.com/ru/companies/otus/articles/432834/)
