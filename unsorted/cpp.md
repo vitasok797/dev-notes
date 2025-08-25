@@ -19,8 +19,8 @@
 * Constness:
   * https://godbolt.org/z/3rTz5dsvP
   * https://ericniebler.github.io/range-v3/index.html#tutorial-quick-start
-  * https://en.cppreference.com/w/cpp/ranges/filter_view
-  * https://en.cppreference.com/w/cpp/ranges/reverse_view
+  * https://en.cppreference.com/w/cpp/ranges/filter_view.html
+  * https://en.cppreference.com/w/cpp/ranges/reverse_view.html
   * https://www.google.ru/search?q=c%2B%2B+view+range+argument+constness
   * https://www.reddit.com/r/cpp_questions/comments/lnm5ty/taking_a_range_the_concept_as_a_function_argument/
   * https://stackoverflow.com/questions/73444061/passing-stdrangesviews-as-parameters-in-c20/73444148
@@ -71,10 +71,10 @@
 * https://stackoverflow.com/questions/47466358/what-is-the-spaceship-three-way-comparison-operator-in-c
 * https://habr.com/ru/companies/microsoft/articles/458242/
 * https://brevzin.github.io/c++/2019/07/28/comparisons-cpp20/#new-operator-abilities
-* https://en.cppreference.com/w/cpp/utility#Three-way_comparison
-* https://en.cppreference.com/w/cpp/language/operator_comparison
-* https://en.cppreference.com/w/cpp/language/operator_comparison#Three-way_comparison
-* https://en.cppreference.com/w/cpp/language/default_comparisons
+* https://en.cppreference.com/w/cpp/utility.html#Three-way_comparison
+* https://en.cppreference.com/w/cpp/language/operator_comparison.html
+* https://en.cppreference.com/w/cpp/language/operator_comparison.html#Three-way_comparison
+* https://en.cppreference.com/w/cpp/language/default_comparisons.html
 * https://godbolt.org/z/bWcc9PoPx
 * Вопросы:
   * Для чего еще может использоваться <=>
@@ -135,12 +135,12 @@
 * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
 * Examples:
   * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
-  * https://en.cppreference.com/w/cpp/utility/optional/value
+  * https://en.cppreference.com/w/cpp/utility/optional/value.html
 
 ## ⚠️ Dangling references
 * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
 * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
-* https://en.cppreference.com/w/cpp/utility/optional/value
+* https://en.cppreference.com/w/cpp/utility/optional/value.html
 * https://godbolt.org/z/8xbs9oYY6
 * https://godbolt.org/z/sKW846o7e
 * https://godbolt.org/z/dfjb6Kq9q https://cppinsights.io/
