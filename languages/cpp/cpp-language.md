@@ -165,6 +165,7 @@
 * [(cppreference) std::function](https://en.cppreference.com/w/cpp/utility/functional/function)
 * [(cppreference) std::invoke](https://en.cppreference.com/w/cpp/utility/functional/invoke)
 * [(cppreference) std::apply](https://en.cppreference.com/w/cpp/utility/apply)
+* [(cppreference) std::call_once](https://en.cppreference.com/w/cpp/thread/call_once.html)
 * [(Wiki) Function object](https://en.wikipedia.org/wiki/Function_object#In_C_and_C++)
 * [(StackOverflow) When to use functors over lambdas](https://stackoverflow.com/questions/27256062/when-to-use-functors-over-lambdas)
 * [How to fix output parameters](https://www.foonathan.net/2016/10/output-parameter/)
