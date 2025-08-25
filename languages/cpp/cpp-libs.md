@@ -3,7 +3,7 @@
 ## Library lists
 * [Awesome C++](https://github.com/fffaraz/awesome-cpp)
 * [Awesome HPP](https://github.com/p-ranav/awesome-hpp)
-* [A list of open-source C++ libraries](https://en.cppreference.com/w/cpp/links/libs)
+* [A list of open-source C++ libraries](https://en.cppreference.com/w/cpp/links/libs.html)
 
 ## Frameworks
 * [Boost](https://www.boost.org/libraries/latest/categorized/)
@@ -200,14 +200,14 @@
 * <https://github.com/DaanDeMeyer/reproc>
 
 ### System / File System
-* [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem)
+* [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem.html)
 * [Boost.Filesystem](https://www.boost.org/doc/libs/latest/libs/filesystem/doc/index.htm)
 * POCO ([Files](https://pocoproject.org/slides/080-Files.pdf))
 * Folly ([File.h](https://github.com/facebook/folly/blob/main/folly/File.h))
 * <https://github.com/p-ranav/glob> ([vcpkg](https://vcpkg.io/en/package/p-ranav-glob))
 
 ## Multithreading
-* [\<thread\>](https://en.cppreference.com/w/cpp/thread)
+* [\<thread\>](https://en.cppreference.com/w/cpp/thread.html)
 * [Boost.Thread](https://www.boost.org/doc/libs/latest/doc/html/thread.html)
 * POCO ([Threads](https://pocoproject.org/slides/130-Threads.pdf), [NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
 
