@@ -1465,7 +1465,7 @@ for (const auto& s = get_struct(); const auto& el : s.items()) {...}
 <details>
 <summary>🚧 Structured binding</summary>
 
-[(Reference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding)
+[(cppreference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding.html)
 
 #### Syntax
 
@@ -1709,7 +1709,7 @@ namespace A::B::C
 <details>
 <summary>Using namespace</summary>
 
-[(Reference) Using namespace](https://en.cppreference.com/w/cpp/language/namespace#Using-directives)
+[(cppreference) Using namespace](https://en.cppreference.com/w/cpp/language/namespace.html#Using-directives)
 
 ```cpp
 namespace A {...}
@@ -1741,7 +1741,7 @@ using std::cout, std::endl;
 <details>
 <summary>Operator overloading</summary>
 
-[(Reference) Operator overloading](https://en.cppreference.com/w/cpp/language/operators)
+[(cppreference) Operator overloading](https://en.cppreference.com/w/cpp/language/operators.html)
 
 * Use member function:
   * Unary operators
@@ -3086,7 +3086,7 @@ auto main() -> int
 <details>
 <summary>Type alias</summary>
 
-[(Reference) Type alias](https://en.cppreference.com/w/cpp/language/type_alias)
+[(cppreference) Type alias](https://en.cppreference.com/w/cpp/language/type_alias.html)
 
 #### Simple
 
