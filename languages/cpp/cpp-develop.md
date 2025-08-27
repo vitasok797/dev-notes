@@ -100,7 +100,9 @@
 * Qt Visual Studio Tools
   [2019](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2019)
   [2022](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2022)
-* [CodeMaid](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+* CodeMaid
+  [2019](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+  [2022](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaidVS2022)
 
 ### Visual Studio / Linux
 * [(MS) Linux with Visual Studio C++](https://learn.microsoft.com/en-us/cpp/linux/?view=msvc-160)
