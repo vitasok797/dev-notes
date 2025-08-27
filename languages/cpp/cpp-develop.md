@@ -94,15 +94,15 @@
 * Productivity Power Tools
   [2017/2019](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2017)
   [2022](https://marketplace.visualstudio.com/items?itemName=VisualStudioPlatformTeam.ProductivityPowerPack2022)
+* CodeMaid
+  [2019](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
+  [2022](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaidVS2022)
 * Trailing Whitespace Visualizer
   [2019](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespaceVisualizer)
   [2022](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.TrailingWhitespace64)
 * Qt Visual Studio Tools
   [2019](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2019)
   [2022](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.QtVisualStudioTools2022)
-* CodeMaid
-  [2019](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaid)
-  [2022](https://marketplace.visualstudio.com/items?itemName=SteveCadwallader.CodeMaidVS2022)
 
 ### Visual Studio / Linux
 * [(MS) Linux with Visual Studio C++](https://learn.microsoft.com/en-us/cpp/linux/?view=msvc-160)
