@@ -53,11 +53,11 @@
   [username](https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git)
   and
   [email](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
-* [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
 * Line endings:
   * [Configuring Git to handle line endings](https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings)
   * [Git. Символы конца строки EOL](https://tokmakov.msk.ru/blog/item/710)
   * [Git attributes (checking_out_and_checking_in)](https://git-scm.com/docs/gitattributes#_checking_out_and_checking_in)
+* [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
 
 <details>
 <summary>💡 Setting username and email</summary>
