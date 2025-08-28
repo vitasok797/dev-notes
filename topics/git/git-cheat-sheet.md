@@ -3,9 +3,7 @@
 ## Other cheatsheets
 * [GitHub Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-## Actions
-
-### List files
+## List files
 [git-ls-files](https://git-scm.com/docs/git-ls-files)
 
 List files EOL:
@@ -18,7 +16,7 @@ Find CRLF files in repo:
 git ls-files --eol | grep "i/crlf"
 ```
 
-### Remote
+## Remote
 [git-remote](https://git-scm.com/docs/git-remote)
 
 Show remote URLs:
