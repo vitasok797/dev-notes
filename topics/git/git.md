@@ -46,6 +46,7 @@
   * [Git. Символы конца строки EOL](https://tokmakov.msk.ru/blog/item/710)
   * [Git attributes (checking_out_and_checking_in)](https://git-scm.com/docs/gitattributes#_checking_out_and_checking_in)
 * [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
+* [(Habr) Популярные конфигурационные опции для работы с git](https://habr.com/ru/articles/796119/)
 
 👉 [See "Git Cheat Sheet / Configuration"](git-cheat-sheet.md#configuration)
 
