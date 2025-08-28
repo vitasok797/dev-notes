@@ -60,7 +60,7 @@
   * [Git attributes (checking_out_and_checking_in)](https://git-scm.com/docs/gitattributes#_checking_out_and_checking_in)
 * [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
 
-👉 [see cheatsheet](git-cheat-sheet.md#configuration)
+👉 [See "Git Cheat Sheet / Configuration"](git-cheat-sheet.md#configuration)
 
 ## GUI Tools
 * [Windows GUI Clients](https://git-scm.com/downloads/guis?os=windows)
