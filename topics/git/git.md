@@ -6,7 +6,6 @@
 * [Git book](https://git-scm.com/book/ru/v2)
 * [LearnGitBranching](https://learngitbranching.js.org)
 * [Atlassian tutorials](https://www.atlassian.com/git/tutorials)
-* [Шпаргалка](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 
 ## Articles
 * [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
