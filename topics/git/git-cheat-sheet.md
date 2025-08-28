@@ -6,12 +6,16 @@
 * [Шпаргалка](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 
 ## Remote
+[doc](https://git-scm.com/docs/git-remote)
+
 Show remote URL:
 ```
 git remote -v
 ```
 
-## Files
+## List files
+[doc](https://git-scm.com/docs/git-ls-files)
+
 List files EOL:
 ```
 git ls-files --eol
