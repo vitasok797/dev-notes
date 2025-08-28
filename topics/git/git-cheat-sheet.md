@@ -1,7 +1,6 @@
 # Git Cheat Sheet
 
-## CheatSheets
-* [Шпаргалка](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
+[Шпаргалка](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 
 ## Remote
 [git-remote](https://git-scm.com/docs/git-remote)
