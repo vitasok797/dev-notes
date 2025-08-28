@@ -1,8 +1,11 @@
 # Git Cheat Sheet
 
-[GitHub Git cheatsheet](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
+## Other cheatsheets
+* [GitHub Git cheatsheet](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 
-## Remote
+## Actions
+
+### Remote
 [git-remote](https://git-scm.com/docs/git-remote)
 
 Show remote URLs:
@@ -10,7 +13,7 @@ Show remote URLs:
 git remote -v
 ```
 
-## List files
+### List files
 [git-ls-files](https://git-scm.com/docs/git-ls-files)
 
 List files EOL:
