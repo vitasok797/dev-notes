@@ -32,6 +32,10 @@
 * [(Habr) Feature Flags и фабрика ПО](https://habr.com/ru/articles/543420/)
 * [(Habr) Укрощение feature-флагов](https://habr.com/ru/companies/hh/articles/580736/)
 
+## Commits
+* ⭐ [Conventional Commits](https://www.conventionalcommits.org/)
+* [(Habr) Conventional Commits без лишних слов: ваша шпаргалка](https://habr.com/ru/articles/867012/)
+
 ## Configuration
 * Setting
   [username](https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git)
