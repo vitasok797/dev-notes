@@ -8,7 +8,7 @@
 ## Remote
 [git-remote](https://git-scm.com/docs/git-remote)
 
-Show remote URL:
+Show remote URLs:
 ```
 git remote -v
 ```
