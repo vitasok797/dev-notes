@@ -1,5 +1,7 @@
 # Git
 
+⭐ [Cheat Sheet](git-cheat-sheet.md)
+
 ## Tutorials
 * [Git book](https://git-scm.com/book/ru/v2)
 * [LearnGitBranching](https://learngitbranching.js.org)
