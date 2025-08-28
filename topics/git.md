@@ -49,7 +49,9 @@
 * [Правим историю Git с помощью интерактивного rebase](https://alexeykalina.github.io/technologies/git-rebase-interactive.html)
 
 ## Configuring Git
-* [Setting your username in Git](https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git)
+* Setting
+  [username](https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git)
+  [email](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address)
 * [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
 * Line endings:
   * [Configuring Git to handle line endings](https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings)
