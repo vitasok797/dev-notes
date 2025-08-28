@@ -1,7 +1,7 @@
 # Git Cheat Sheet
 
 ## Other cheatsheets
-* [GitHub Git cheatsheet](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
+* [GitHub Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ## Actions
 
