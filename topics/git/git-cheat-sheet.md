@@ -5,14 +5,6 @@
 
 ## Actions
 
-### Remote
-[git-remote](https://git-scm.com/docs/git-remote)
-
-Show remote URLs:
-```
-git remote -v
-```
-
 ### List files
 [git-ls-files](https://git-scm.com/docs/git-ls-files)
 
@@ -24,6 +16,14 @@ git ls-files --eol
 Find CRLF files in repo:
 ```
 git ls-files --eol | grep "i/crlf"
+```
+
+### Remote
+[git-remote](https://git-scm.com/docs/git-remote)
+
+Show remote URLs:
+```
+git remote -v
 ```
 
 ## Configuration
