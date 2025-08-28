@@ -60,32 +60,7 @@
   * [Git attributes (checking_out_and_checking_in)](https://git-scm.com/docs/gitattributes#_checking_out_and_checking_in)
 * [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
 
-<details>
-<summary>💡 Show configuration</summary>
-
-```
-git config --list --show-origin
-git config --list --show-scope
-```
-</details>
-
-<details>
-<summary>💡 Setting username and email</summary>
-
-```
-git config --global user.name "YOUR_USERNAME"
-git config --global user.email "YOUR_EMAIL"
-```
-</details>
-
-<details>
-<summary>💡 Disabling fast-forward merge</summary>
-
-```
-git config --global merge.ff false
-git config --global pull.ff true
-```
-</details>
+👉 [see cheatsheet](git-cheat-sheet.md#configuration)
 
 ## GUI Tools
 * [Windows GUI Clients](https://git-scm.com/downloads/guis?os=windows)
