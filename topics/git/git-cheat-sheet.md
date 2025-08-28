@@ -5,6 +5,12 @@
 ## External
 * [Шпаргалка](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 
+## Remote
+Show remote URL:
+```
+git remote -v
+```
+
 ## Files
 List files EOL:
 ```
