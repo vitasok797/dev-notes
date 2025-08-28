@@ -50,7 +50,7 @@
 * [(Habr) Git Rebase: руководство по использованию](https://habr.com/ru/articles/161009/)
 * [Правим историю Git с помощью интерактивного rebase](https://alexeykalina.github.io/technologies/git-rebase-interactive.html)
 
-## Configuring Git
+## Configuration
 * Setting
   [username](https://docs.github.com/en/get-started/git-basics/setting-your-username-in-git)
   and
