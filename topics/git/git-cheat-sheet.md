@@ -1,6 +1,6 @@
 # Git Cheat Sheet
 
-## External
+## CheatSheets
 * [Шпаргалка](https://training.github.com/downloads/ru/github-git-cheat-sheet/)
 
 ## Remote
@@ -33,7 +33,7 @@ git config --list --show-origin
 git config --list --show-scope
 ```
 
-Setting username and email:
+Set username and email:
 ```
 git config --global user.name "YOUR_USERNAME"
 ```
@@ -41,7 +41,7 @@ git config --global user.name "YOUR_USERNAME"
 git config --global user.email "YOUR_EMAIL"
 ```
 
-Disabling fast-forward merge:
+Disable fast-forward merge:
 ```
 git config --global merge.ff false
 ```
