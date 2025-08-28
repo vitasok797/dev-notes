@@ -60,6 +60,15 @@
 * [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
 
 <details>
+<summary>💡 Show configuration</summary>
+
+```
+git config --list --show-origin
+git config --list --show-scope
+```
+</details>
+
+<details>
 <summary>💡 Setting username and email</summary>
 
 ```
