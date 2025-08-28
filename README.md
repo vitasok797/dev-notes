@@ -20,14 +20,14 @@
 * [ASPD](projects/aspd.md)
 
 ## Topics
+* [Architecture](topics/architecture.md)
+* [Calc](topics/calc.md)
 * [Communication](topics/communication)
   ([dds](topics/communication/dds.md),
   [grpc](topics/communication/grpc.md),
   [zeromq](topics/communication/zeromq.md),
   [var](topics/communication/var.md))
 * [Compilers](topics/compilers) ([Intel](topics/compilers/intel.md))
-* [Architecture](topics/architecture.md)
-* [Calc](topics/calc.md)
 * [Git](topics/git/git.md) ([cheatsheet](topics/git/git-cheat-sheet.md))
 * [Multithreading](topics/multithreading.md)
 * [Plot](topics/plot.md)
