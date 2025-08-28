@@ -28,7 +28,7 @@
 * [Compilers](topics/compilers) ([Intel](topics/compilers/intel.md))
 * [Architecture](topics/architecture.md)
 * [Calc](topics/calc.md)
-* [Git](topics/git.md)
+* [Git](topics/git/git.md) ([cheatsheet](topics/git/git-cheat-sheet.md))
 * [Multithreading](topics/multithreading.md)
 * [Plot](topics/plot.md)
 * [TDD](topics/tdd.md)
