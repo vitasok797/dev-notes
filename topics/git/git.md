@@ -26,15 +26,15 @@
 * [Git branching strategies](https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-git-branch-approach/git-branching-strategies.html)
 * [Comparing Git workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
 
-### Branching / Naming convention
-* ⭐ [Conventional Branch](https://conventional-branch.github.io/)
-* [Git Branching Naming Convention: Best Practices to Follow](https://phoenixnap.com/kb/git-branch-name-convention)
-
 ### Branching / Feature flags
 * [Feature Toggles (aka Feature Flags)](https://www.martinfowler.com/articles/feature-toggles.html)
 * [(Habr) Стратегия ветвления ThreeFlow](https://habr.com/ru/companies/infopulse/articles/345826/)
 * [(Habr) Feature Flags и фабрика ПО](https://habr.com/ru/articles/543420/)
 * [(Habr) Укрощение feature-флагов](https://habr.com/ru/companies/hh/articles/580736/)
+
+### Branching / Naming convention
+* ⭐ [Conventional Branch](https://conventional-branch.github.io/)
+* [Git Branching Naming Convention: Best Practices to Follow](https://phoenixnap.com/kb/git-branch-name-convention)
 
 ## Commits
 * ⭐ [Conventional Commits](https://www.conventionalcommits.org/)
