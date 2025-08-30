@@ -24,6 +24,8 @@ git remote -v
 ```
 
 ## Working trees
+[git-worktree](https://git-scm.com/docs/git-worktree)
+
 🚧
 
 ## Configuration
