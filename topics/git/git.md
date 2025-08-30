@@ -3,7 +3,6 @@
 ⭐ [Cheat Sheet](git-cheat-sheet.md)
 
 ## Articles
-* ⭐ [(Habr) Git. Скачем между ветками как древесные лягушки](https://habr.com/ru/articles/826260/)
 * [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
 * [(Habr) Зачем пользователи GIT-а редактируют свои коммиты](https://habr.com/ru/articles/179045/)
 * [(Habr) Subversion vs. Git: Развенчивание мифов о развенчивании мифов](https://habr.com/ru/articles/320704/)
@@ -35,6 +34,9 @@
 ### Branching / Naming convention
 * ⭐ [Conventional Branch](https://conventional-branch.github.io/)
 * [Git Branching Naming Convention: Best Practices to Follow](https://phoenixnap.com/kb/git-branch-name-convention)
+
+### Branching / Working trees
+* [(Habr) Git. Скачем между ветками как древесные лягушки](https://habr.com/ru/articles/826260/)
 
 ## Commits
 * ⭐ [Conventional Commits](https://www.conventionalcommits.org/)
