@@ -1,7 +1,6 @@
 # Git Cheat Sheet
 
-## Other cheatsheets
-* [GitHub Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+[GitHub Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ## List files
 [git-ls-files](https://git-scm.com/docs/git-ls-files)
