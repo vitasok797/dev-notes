@@ -1,6 +1,6 @@
 # Git
 
-⭐ [Cheat Sheet](git-cheat-sheet.md)
+👉 [Cheat Sheet](git-cheat-sheet.md)
 
 ## Articles
 * [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
