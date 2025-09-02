@@ -61,11 +61,12 @@
 * [(Habr) GUI для Git: подборка популярных решений](https://habr.com/ru/articles/741016/)
 * [(Habr) Git — сравнение Visual Studio 2022 с MeGit/EGit и SourceTree](https://habr.com/ru/companies/ruvds/articles/683576/)
 * [(Habr) Текущее состояние инструментов. Взгляд пользователя (2011)](https://habr.com/ru/articles/112648/)
-* GUI Clients:
+* GUI clients:
   * [Sourcetree](https://www.sourcetreeapp.com/)
   * [Git Extensions](https://gitextensions.github.io/)
-  * [MeGit](https://github.com/eclipsesource/megit)
   * [TortoiseGit](https://tortoisegit.org/)
+  * [GitHub Desktop](https://github.com/apps/desktop)
+  * [SourceGit](https://sourcegit-scm.github.io/)
 
 ## Merge
 * [(StackOverflow) How do I safely merge a Git branch into master?](https://stackoverflow.com/questions/5601931/how-do-i-safely-merge-a-git-branch-into-master)
