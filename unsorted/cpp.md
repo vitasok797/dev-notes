@@ -42,10 +42,6 @@
 * http://blog.think-async.com/2010/04/system-error-support-in-c0x-part-1.html ([google translate](https://blog-think--async-com.translate.goog/2010/04/system-error-support-in-c0x-part-1.html?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=ru))
 * http://blog.think-async.com/2010/04/system-error-support-in-c0x-part-2.html ([google translate](https://blog-think--async-com.translate.goog/2010/04/system-error-support-in-c0x-part-2.html?_x_tr_sch=http&_x_tr_sl=en&_x_tr_tl=ru))
 
-## Visit
-* https://github.com/Neargye/magic_enum/issues/199
-* https://raw.githubusercontent.com/Neargye/magic_enum/refs/heads/master/example/example_switch.cpp
-
 ## GSL
 * https://www.cppstories.com/2017/10/notnull/
 * GSL_SUPPRESS
