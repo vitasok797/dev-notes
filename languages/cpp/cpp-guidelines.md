@@ -1459,7 +1459,7 @@ for (const auto& s = get_struct(); const auto& el : s.items()) {...}
 </details>
 
 <details>
-<summary>🚧 Structured binding</summary>
+<summary>Structured binding</summary>
 
 [(cppreference) Structured binding](https://en.cppreference.com/w/cpp/language/structured_binding.html)
 
