@@ -1006,7 +1006,7 @@ auto main() -> int
 ### Functions / Parameter passing
 
 <details>
-<summary>🚧 Parameter passing</summary>
+<summary>Parameter passing</summary>
 
 * [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
 * [Language / Types / Passing parameters](cpp-language.md#types--passing-parameters) 🔗
