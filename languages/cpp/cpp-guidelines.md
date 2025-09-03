@@ -747,7 +747,7 @@ auto func(T&& some_struct) -> void
 ## Functions
 
 <details>
-<summary>🚧 Decorators</summary>
+<summary>Decorators</summary>
 
 [C++ Python-like Decorators](https://github.com/TheMaverickProgrammer/C-Python-like-Decorators) \
 [C++ Python-like Class Member Decorators](https://github.com/TheMaverickProgrammer/C-Python-Like-Class-Member-Decorators) \
