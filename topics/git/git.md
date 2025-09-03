@@ -2,6 +2,11 @@
 
 🔗 [Cheat Sheet](git-cheat-sheet.md)
 
+## Tutorials 📌
+* [Git book](https://git-scm.com/book/ru/v2)
+* [LearnGitBranching](https://learngitbranching.js.org)
+* [Atlassian tutorials](https://www.atlassian.com/git/tutorials)
+
 ## Articles
 * [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
 * [(Habr) Зачем пользователи GIT-а редактируют свои коммиты](https://habr.com/ru/articles/179045/)
@@ -79,11 +84,6 @@
 * [(Habr) Введение в Git Merge и Git Rebase: зачем и когда их использовать](https://habr.com/ru/articles/432420/)
 * [(Habr) Git Rebase: руководство по использованию](https://habr.com/ru/articles/161009/)
 * [Правим историю Git с помощью интерактивного rebase](https://alexeykalina.github.io/technologies/git-rebase-interactive.html)
-
-## Tutorials
-* [Git book](https://git-scm.com/book/ru/v2)
-* [LearnGitBranching](https://learngitbranching.js.org)
-* [Atlassian tutorials](https://www.atlassian.com/git/tutorials)
 
 ## Video
 * [(Youtube) Git. Большой практический выпуск](https://www.youtube.com/watch?v=SEvR78OhGtw)
