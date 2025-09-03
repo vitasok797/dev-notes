@@ -3,7 +3,7 @@
 [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## Symbols
-* ⚠️⭐🚧🔒⚡💡📌⏳🔍🚀⛔☢️
+* ⚠️⭐🚧🔒⚡💡📌⏳🔍🚀⛔☢️🔗
 * ❓
 * ❌
 * ✔️
@@ -15,12 +15,8 @@
 * ⬜🟩🟨🟥🟦⬛
 * 🤍💚💛❤️💙🖤
 * 0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣
-* ▶️⏩➡️↪️
-* ★☆
-* ☐☒
-* ✓
-* ✱
-* ➜
+* ▶️⏩➡️↪️♾️
+* ★☆☐☒✱✓➜⤷
 * •
 
 ## Marks
