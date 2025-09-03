@@ -125,14 +125,6 @@
   * 26 - Templates and Classes
   * 28 - Input and Output (I/O)
 
-## ⚠️ Returning &&
-* https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref-ref
-* https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-return-ref
-* https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
-* Examples:
-  * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
-  * https://en.cppreference.com/w/cpp/utility/optional/value.html
-
 ## ⚠️ Dangling references
 * https://www.learncpp.com/cpp-tutorial/ref-qualifiers/
 * https://raw.githubusercontent.com/rollbear/strong_type/refs/heads/main/include/strong_type/type.hpp
