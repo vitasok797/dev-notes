@@ -1,6 +1,6 @@
 # Git
 
-📌 [Cheat Sheet](git-cheat-sheet.md)
+🔗 [Cheat Sheet](git-cheat-sheet.md)
 
 ## Articles
 * [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
@@ -54,7 +54,7 @@
 * [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
 * [(Habr) Популярные конфигурационные опции для работы с git](https://habr.com/ru/articles/796119/)
 
-📌 [See "Git Cheat Sheet / Configuration"](git-cheat-sheet.md#configuration)
+🔗 [See "Git Cheat Sheet / Configuration"](git-cheat-sheet.md#configuration)
 
 ## GUI Tools
 * [Windows GUI Clients](https://git-scm.com/downloads/guis?os=windows)
