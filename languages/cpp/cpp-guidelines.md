@@ -1047,24 +1047,20 @@ From the caller's point of view, the value can be `std::move`-ed if the paramete
 * `HeavyType&&`
 * `T&&`
 
-#### 🚧 Returning
+#### Returning
 
-* `Polymorphic` or `NonMovableType` factory:
+* `Polymorphic`, `NonMovable`, `ExpensiveToMove` types factory:
   * Return `std::unique_ptr` to transfer ownership
   * Return `std::shared_ptr` to share ownership
-* Optional:
-  * For `CheapToCopyType`: return `std::optional` (return cheap_to_copy_inst)
-  * For `CheapToMoveType`: return `std::optional` (return std::move(cheap_to_move_inst))
+* Optional (if not returning the object can be a normal result):
+  * For `CheapToCopyType`: return `std::optional` (`return value;`)
+  * For `CheapToMoveType`: return `std::optional` (`return std::move(value);`)
   * Return `T*` to indicate an optional position ([F.42](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f42-return-a-t-to-indicate-a-position-only))
 * Return `T&`:
   * When copy is undesirable
   * From assignment operators
   * Pass through reference
-* For `CheapToCopyType`, `CheapToMoveType`, `AnyType` (RVO):
-  * Return by value
-
-A factory that produces a non-reference type should return a value by default, and throw an exception if it fails to create the object. If not creating the object can be a normal result, return an optional<> value
-
+* Return by value
 </details>
 
 <details>
