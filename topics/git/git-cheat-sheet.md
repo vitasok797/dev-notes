@@ -1,5 +1,6 @@
 # Git Cheat Sheet
 
+[Reference](https://git-scm.com/docs) \
 [GitHub Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ## List files
