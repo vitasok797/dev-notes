@@ -1009,7 +1009,7 @@ auto main() -> int
 <summary>🚧 Parameter passing</summary>
 
 * [Prefer simple and conventional ways of passing information](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f15-prefer-simple-and-conventional-ways-of-passing-information)
-* [Language / Types / Passing parameters](cpp-language.md#types--passing-parameters)
+* 🔗 [Language / Types / Passing parameters](cpp-language.md#types--passing-parameters)
 
 #### Parameters
 
@@ -1033,7 +1033,7 @@ auto main() -> int
 | ***<ins>Optimizations:</ins>*** |||||
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `const HeavyType&`<br>`HeavyType&&` | Then `std::move` `HeavyType&&` |
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `T&&` | • Then `std::forward`<br>• Some type constraints can be added (see [concepts](https://en.cppreference.com/w/cpp/concepts.html#Core_language_concepts)) |
-| <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `HeavyType` | • Then `std::move`<br>• See [by-value-then-move idiom](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)<br>• Assumed to be used only for constructors |
+| <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `HeavyType` | • Then `std::move`<br>• See 🔗 [by-value-then-move idiom](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom)<br>• Assumed to be used only for constructors |
 | <sup>✱✱</sup>Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType&&` | • Then `std::move`<br>• Removes 1 of 2 move operations for xvalues |
 
 Cheap-to-copy types (≤ 2×sizeof(void\*)):
