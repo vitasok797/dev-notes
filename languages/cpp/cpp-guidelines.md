@@ -1057,9 +1057,14 @@ From the caller's point of view, the value can be `std::move`-ed if the paramete
   * For `CheapToMoveType`: return `std::optional` (`return std::move(value);`)
   * Return `T*` to indicate an optional position ([F.42](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f42-return-a-t-to-indicate-a-position-only))
 * Return `T&`:
-  * When copy is undesirable
+  * When copy is undesirable ([F.44](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f44-return-a-t-when-copy-is-undesirable-and-returning-no-object-isnt-needed))
   * From assignment operators
   * Pass through reference
+* Return `T&&`:
+  * From rvalue overloads
+    ([F.45](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#f45-dont-return-a-t),
+    [F.45 exception](https://github.com/isocpp/CppCoreGuidelines/issues/2124),
+    [Ref qualifiers](https://www.learncpp.com/cpp-tutorial/ref-qualifiers/))
 * Return by value
 </details>
 
