@@ -16,6 +16,16 @@ Find CRLF files in repo:
 git ls-files --eol | grep "i/crlf"
 ```
 
+## Merge
+[git-merge](https://git-scm.com/docs/git-merge)
+
+Fast-forward options:
+```
+--ff (fast-forward when possible)
+--no-ff
+--ff-only
+```
+
 ## Remote
 [git-remote](https://git-scm.com/docs/git-remote)
 
