@@ -67,11 +67,11 @@ See [Git Cheat Sheet / Configuration](git-cheat-sheet.md#configuration) 🔗
 * [(Habr) Git — сравнение Visual Studio 2022 с MeGit/EGit и SourceTree](https://habr.com/ru/companies/ruvds/articles/683576/)
 * [(Habr) Текущее состояние инструментов. Взгляд пользователя (2011)](https://habr.com/ru/articles/112648/)
 * GUI clients:
+  * ⭐ [TortoiseGit](https://tortoisegit.org/)
   * [Git Extensions](https://gitextensions.github.io/)
   * [GitHub Desktop](https://github.com/apps/desktop)
   * [SourceGit](https://sourcegit-scm.github.io/)
   * [Sourcetree](https://www.sourcetreeapp.com/)
-  * [TortoiseGit](https://tortoisegit.org/)
 
 ## Merge
 * [(StackOverflow) How do I safely merge a Git branch into master?](https://stackoverflow.com/questions/5601931/how-do-i-safely-merge-a-git-branch-into-master)
