@@ -1031,7 +1031,7 @@ auto main() -> int
 | Reassign pointer | `std::unique_ptr` || `std::unique_ptr<>&` ||
 | Reassign pointer | `std::shared_ptr` || `std::shared_ptr<>&` ||
 | ***<ins>Optimizations:</ins>*** |||||
-| <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `const HeavyType&`<br>`HeavyType&&` | Then `std::move` `HeavyType&&` |
+| <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `const HeavyType&`<br>`HeavyType&&` | For `HeavyType&&` overload:<br>• Use `std::move`<br>• Add `noexcept` |
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `T&&` | • Then `std::forward`<br>• Some type constraints can be added (see [concepts](https://en.cppreference.com/w/cpp/concepts.html#Core_language_concepts)) |
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `HeavyType` | • Then `std::move`<br>• See [by-value-then-move idiom](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom) 🔗<br>• Assumed to be used only for constructors |
 | <sup>✱✱</sup>Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType&&` | • Then `std::move`<br>• Removes 1 of 2 move operations for xvalues |
