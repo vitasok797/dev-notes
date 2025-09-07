@@ -34,6 +34,11 @@ Show remote URLs:
 git remote -v
 ```
 
+Show information about the remote:
+```
+git remote show origin
+```
+
 ## Working trees
 [git-worktree](https://git-scm.com/docs/git-worktree)
 
