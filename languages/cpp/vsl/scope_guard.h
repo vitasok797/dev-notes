@@ -13,25 +13,37 @@ namespace vsl
 template<typename F>
 class ScopeGuard final
 {
-public:
-    [[nodiscard]] ScopeGuard(const F& f) noexcept : f_{f} {}
-    [[nodiscard]] ScopeGuard(F&& f) noexcept : f_{std::move(f)} {}
+  public:
+    [[nodiscard]] ScopeGuard(const F& f) noexcept
+        : f_{f}
+    {}
+
+    [[nodiscard]] ScopeGuard(F&& f) noexcept
+        : f_{std::move(f)}
+    {}
 
     ScopeGuard(ScopeGuard&& other) noexcept
-        : f_{std::move(other.f_)}, invoke_{std::exchange(other.invoke_, false)}
+        : f_{std::move(other.f_)},
+          invoke_{std::exchange(other.invoke_, false)}
     {}
 
     ScopeGuard(const ScopeGuard&) = delete;
     ScopeGuard& operator=(const ScopeGuard&) = delete;
     ScopeGuard& operator=(ScopeGuard&&) = delete;
 
-    ~ScopeGuard() noexcept { if (invoke_) f_(); }
+    ~ScopeGuard() noexcept
+    {
+        if (invoke_) f_();
+    }
 
-    auto dismiss() noexcept -> void { invoke_ = false; }
+    auto dismiss() noexcept -> void
+    {
+        invoke_ = false;
+    }
 
-private:
-    F f_ {};
-    bool invoke_ {true};
+  private:
+    F f_{};
+    bool invoke_{true};
 };
 
 }  // namespace vsl

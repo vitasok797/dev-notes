@@ -18,12 +18,12 @@ namespace vsl
 {
 
 [[noreturn]]
-inline auto assert_fail(
-    const char* type,
-    const char* expr,
-    const auto& location,
-    const char* desc = nullptr
-    ) noexcept -> void
+inline auto assert_fail(        //
+    const char* type,           //
+    const char* expr,           //
+    const auto& location,       //
+    const char* desc = nullptr  //
+    ) noexcept -> void          //
 {
     std::cerr << "Assertion failed" << "\n";
     std::cerr << type << ": " << expr << "\n";

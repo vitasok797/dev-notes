@@ -9,9 +9,7 @@ namespace vsl
 {
 
 template<typename OutputStream, typename... Values>
-requires
-    std::same_as<OutputStream, std::ostream> ||
-    std::same_as<OutputStream, std::osyncstream>
+    requires std::same_as<OutputStream, std::ostream> || std::same_as<OutputStream, std::osyncstream>
 auto println(OutputStream& os, const Values&... values) -> void
 {
     auto n = 0;
@@ -26,7 +24,7 @@ auto println(const Values&... values) -> void
 }
 
 template<typename OutputStream, typename... Values>
-requires std::same_as<OutputStream, std::ostream>
+    requires std::same_as<OutputStream, std::ostream>
 auto println_sync(OutputStream& os, const Values&... values) -> void
 {
     auto synced_os = std::osyncstream{os};

@@ -8,7 +8,10 @@ namespace vsl
 
 struct nullptr_error : public std::exception
 {
-    auto what() const noexcept -> const char* override { return "nullptr_error"; }
+    auto what() const noexcept -> const char* override
+    {
+        return "nullptr_error";
+    }
 };
 
 template<typename T>

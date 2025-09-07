@@ -65,50 +65,54 @@ void println_sync(const Values&... values)
 
 struct WatcherOptions
 {
-    bool print_mark {true};
-    bool print_thread {true};
-    bool print_identity {true};
-    bool print_other {true};
-    bool print_ctor {true};
-    bool print_ctor_copy {true};
-    bool print_ctor_move {true};
-    bool print_assign_copy {true};
-    bool print_assign_move {true};
-    bool print_destructor {true};
-    bool print_full_operation_category {true};
+    bool print_mark{true};
+    bool print_thread{true};
+    bool print_identity{true};
+    bool print_other{true};
+    bool print_ctor{true};
+    bool print_ctor_copy{true};
+    bool print_ctor_move{true};
+    bool print_assign_copy{true};
+    bool print_assign_move{true};
+    bool print_destructor{true};
+    bool print_full_operation_category{true};
 };
 
 template<WatcherOptions options = {}>
 class WatcherBase final
 {
-public:
-    WatcherBase() noexcept : index_{++counter_}
+  public:
+    WatcherBase() noexcept
+        : index_{++counter_}
     {
         if (!options.print_ctor) return;
         print_event("constructed");
     }
 
-    WatcherBase(int) noexcept : index_{++counter_}
+    WatcherBase(int) noexcept
+        : index_{++counter_}
     {
         if (!options.print_ctor) return;
         print_event("constructed ctor1");
     }
 
-    WatcherBase(int, int) noexcept : index_{++counter_}
+    WatcherBase(int, int) noexcept
+        : index_{++counter_}
     {
         if (!options.print_ctor) return;
         print_event("constructed ctor2");
     }
 
-    WatcherBase(const std::string& marker) noexcept : marker_{marker}
+    WatcherBase(const std::string& marker) noexcept
+        : marker_{marker}
     {
         if (!options.print_ctor) return;
         print_event("constructed");
     }
 
-    WatcherBase(const WatcherBase& other) noexcept :
-        index_{++counter_},
-        marker_{other.marker_}
+    WatcherBase(const WatcherBase& other) noexcept
+        : index_{++counter_},
+          marker_{other.marker_}
     {
         if (options.print_ctor_copy)
         {
@@ -117,9 +121,9 @@ public:
         }
     }
 
-    WatcherBase(WatcherBase&& other) noexcept :
-        index_{++counter_},
-        marker_{other.marker_}
+    WatcherBase(WatcherBase&& other) noexcept
+        : index_{++counter_},
+          marker_{other.marker_}
     {
         if (options.print_ctor_move)
         {
@@ -161,7 +165,7 @@ public:
         print_event("destroyed");
     }
 
-private:
+  private:
     auto print_event(std::string_view event_desc, const WatcherBase* other = nullptr) const -> void
     {
         auto os = std::osyncstream{std::cout};
@@ -208,22 +212,20 @@ private:
         os << ")";
     }
 
-    static inline std::atomic<size_t> counter_ {0};
-    size_t index_ {0};
-    std::optional<std::string> marker_ {};
-    bool moved_ {false};
+    static inline std::atomic<size_t> counter_{0};
+    size_t index_{0};
+    std::optional<std::string> marker_{};
+    bool moved_{false};
 };
 
 namespace detail
 {
 
-inline constexpr auto watcher_config = WatcherOptions
-{
+inline constexpr auto watcher_config = WatcherOptions{
     .print_thread = false,
 };
 
-inline constexpr auto copy_watcher_config = WatcherOptions
-{
+inline constexpr auto copy_watcher_config = WatcherOptions{
     .print_thread = false,
     .print_identity = false,
     .print_other = false,
@@ -234,8 +236,7 @@ inline constexpr auto copy_watcher_config = WatcherOptions
     .print_full_operation_category = false,
 };
 
-inline constexpr auto ctor_watcher_config = WatcherOptions
-{
+inline constexpr auto ctor_watcher_config = WatcherOptions{
     .print_thread = false,
     .print_identity = false,
     .print_other = false,
@@ -255,14 +256,18 @@ using ThreadWatcher = WatcherBase<>;
 template<typename T>
 class DebugAllocator
 {
-public:
+  public:
     using value_type = T;
 
     DebugAllocator() = default;
-    DebugAllocator(const std::string& tag) noexcept : tag_{tag} {};
+
+    DebugAllocator(const std::string& tag) noexcept
+        : tag_{tag}
+    {}
 
     template<typename U>
-    constexpr DebugAllocator(const DebugAllocator<U>&) noexcept {}
+    constexpr DebugAllocator(const DebugAllocator<U>&) noexcept
+    {}
 
     T* allocate(std::size_t n)
     {
@@ -276,22 +281,28 @@ public:
         ::operator delete(p);
     }
 
-    friend bool operator==(const DebugAllocator&, const DebugAllocator&) { return true; }
-    friend bool operator!=(const DebugAllocator&, const DebugAllocator&) { return false; }
+    friend bool operator==(const DebugAllocator&, const DebugAllocator&)
+    {
+        return true;
+    }
 
-private:
+    friend bool operator!=(const DebugAllocator&, const DebugAllocator&)
+    {
+        return false;
+    }
+
+  private:
     auto output(std::string_view operation, std::size_t n) -> void
     {
         std::clog << "[" << prompt_;
-        if (!tag_.empty())
-            std::clog << ":" << tag_;
+        if (!tag_.empty()) std::clog << ":" << tag_;
         std::clog << "] " << operation << " ";
         std::clog << n * sizeof(T) << " (" << n << " of size=" << sizeof(T) << ")";
         std::clog << std::endl;
     }
 
-    const std::string_view prompt_ {"ALLOCATOR"};
-    std::string tag_ {};
+    const std::string_view prompt_{"ALLOCATOR"};
+    std::string tag_{};
 };
 
 }  // namespace vsl::debug

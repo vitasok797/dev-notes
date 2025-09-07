@@ -6,7 +6,7 @@ namespace vsl
 
 class NonCopyable
 {
-public:
+  public:
     NonCopyable() = default;
 
     NonCopyable(const NonCopyable&) = delete;
