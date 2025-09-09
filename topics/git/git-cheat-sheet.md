@@ -19,7 +19,7 @@ git ls-files --eol | grep "i/crlf"
 ## Maintenance
 [git-prune](https://git-scm.com/docs/git-prune)
 
-Remove all unreachable objects:
+Remove all unreachable objects (in most cases, users will not need to call git prune directly, but should instead call git gc):
 ```
 git prune
 ```
