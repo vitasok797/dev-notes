@@ -17,6 +17,13 @@ git ls-files --eol | grep "i/crlf"
 ```
 
 ## Maintenance
+[git-gc](https://git-scm.com/docs/git-gc)
+
+Cleanup unnecessary files and optimize the local repository:
+```
+git gc
+```
+
 [git-prune](https://git-scm.com/docs/git-prune)
 
 Remove all unreachable objects (in most cases, users will not need to call git prune directly, but should instead call git gc):
