@@ -70,7 +70,7 @@ Show information about the remote:
 git remote show <remote>
 ```
 
-Remove any remote-tracking references that no longer exist on the remotee:
+Remove any remote-tracking references that no longer exist on the remote:
 ```
 git remote prune <remote>
 ```
