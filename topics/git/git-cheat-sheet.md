@@ -109,3 +109,6 @@ Enable automatic fetch --prune:
 ```
 git config --global fetch.prune true
 ```
+```
+git config --global fetch.pruneTags true
+```
