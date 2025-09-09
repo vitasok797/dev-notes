@@ -26,6 +26,15 @@ Fast-forward options:
 --ff-only
 ```
 
+## Push
+[git-push](https://git-scm.com/docs/git-push)
+
+
+Push branch to specified remote and set upstream tracking (allows to pull/push without any argument):
+```
+git push -u <remote> <branch>
+```
+
 ## Remote
 [git-remote](https://git-scm.com/docs/git-remote)
 
