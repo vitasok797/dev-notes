@@ -16,6 +16,14 @@ Find CRLF files in repo:
 git ls-files --eol | grep "i/crlf"
 ```
 
+## Maintenance
+[git-prune](https://git-scm.com/docs/git-prune)
+
+Remove all unreachable objects:
+```
+git prune
+```
+
 ## Merge
 [git-merge](https://git-scm.com/docs/git-merge)
 
