@@ -11,9 +11,6 @@
 * https://www.google.com/search?q=git+squash
 * https://www.google.com/search?q=git+squash+merge+rebase+fast-forward
 
-## Useful sites
-* https://gitignore.io/
-
 ## Var
 * [(Habr) ХХ полезных советов для пользователей Git среднего уровня. Часть 1](https://habr.com/ru/articles/75728/)
 * [(Habr) ХХ полезных советов для пользователей Git среднего уровня. Часть 2](https://habr.com/ru/articles/76084/)
