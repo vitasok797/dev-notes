@@ -88,6 +88,7 @@ See [Git Cheat Sheet / Configuration](git-cheat-sheet.md#configuration) 🔗
 * [(Habr) Введение в Git Merge и Git Rebase: зачем и когда их использовать](https://habr.com/ru/articles/432420/)
 * [(Habr) Git Rebase: руководство по использованию](https://habr.com/ru/articles/161009/)
 * [Правим историю Git с помощью интерактивного rebase](https://alexeykalina.github.io/technologies/git-rebase-interactive.html)
+* [Merging vs. rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 ## Video
 * [(Youtube) Git. Большой практический выпуск](https://www.youtube.com/watch?v=SEvR78OhGtw)
