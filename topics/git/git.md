@@ -19,7 +19,7 @@
 * [(Habr) Удачная модель ветвления для Git](https://habr.com/ru/articles/106912/)
 * [(Habr) Пожалуйста, перестаньте рекомендовать Git Flow](https://habr.com/ru/companies/flant/articles/491320/)
 * [A succesful Git branching model considered harmful](https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful/)
-* [Trunk-Based Development site](https://trunkbaseddevelopment.com/)
+* ⭐ [Trunk-Based Development site](https://trunkbaseddevelopment.com/)
 * [What is Trunk-Based Development?](https://paulhammant.com/2013/04/05/what-is-trunk-based-development/)
 * [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)
 * [GitHub Flow](https://githubflow.github.io/)
