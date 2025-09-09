@@ -21,7 +21,6 @@
 * [(Habr) Достаточно Git-а, чтобы быть (менее) опасным](https://habr.com/ru/post/268951/)
 * [(StackOverflow) Git workflow and rebase vs merge questions](https://stackoverflow.com/questions/457927/git-workflow-and-rebase-vs-merge-questions)
 * [(StackOverflow) Git - is it pull or rebase when working on branches with other people](https://stackoverflow.com/questions/96615/git-is-it-pull-or-rebase-when-working-on-branches-with-other-people)
-* [Git Community Book](https://book.git-scm.com/)
 * [The Thing About Git](https://tomayko.com/blog/2008/the-thing-about-git)
 * [Основы работы с Git](https://www.calculate-linux.ru/main/ru/git)
 * [How to use the subtree merge strategy](https://www.kernel.org/pub/software/scm/git/docs/howto/using-merge-subtree.html)
