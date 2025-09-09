@@ -104,3 +104,8 @@ git config --global merge.ff false
 ```
 git config --global pull.ff true
 ```
+
+Enable automatic fetch --prune:
+```
+git config --global fetch.prune true
+```
