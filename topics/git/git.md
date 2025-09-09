@@ -57,7 +57,10 @@
   * [Configuring Git to handle line endings](https://docs.github.com/en/get-started/git-basics/configuring-git-to-handle-line-endings)
   * [Git. Символы конца строки EOL](https://tokmakov.msk.ru/blog/item/710)
   * [Git attributes (checking_out_and_checking_in)](https://git-scm.com/docs/gitattributes#_checking_out_and_checking_in)
-* [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
+* Ignoring files:
+  * [Ignoring files](https://docs.github.com/en/get-started/git-basics/ignoring-files)
+  * [github/gitignore](https://github.com/github/gitignore)
+  * [gitignore.io](https://gitignore.io/)
 * [(Habr) Популярные конфигурационные опции для работы с git](https://habr.com/ru/articles/796119/)
 
 See [Git Cheat Sheet / Configuration](git-cheat-sheet.md#configuration) 🔗
