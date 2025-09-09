@@ -3,6 +3,14 @@
 [Reference](https://git-scm.com/docs) \
 [GitHub Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
+## Fetch
+[git-fetch](https://git-scm.com/docs/git-fetch)
+
+Before fetching, remove any remote-tracking references that no longer exist on the remote:
+```
+git fetch --prune [remote]
+```
+
 ## List files
 [git-ls-files](https://git-scm.com/docs/git-ls-files)
 
@@ -60,6 +68,11 @@ git remote -v
 Show information about the remote:
 ```
 git remote show <remote>
+```
+
+Remove any remote-tracking references that no longer exist on the remotee:
+```
+git remote prune <remote>
 ```
 
 ## Working trees
