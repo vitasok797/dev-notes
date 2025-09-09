@@ -36,7 +36,7 @@ git remote -v
 
 Show information about the remote:
 ```
-git remote show origin
+git remote show <remote>
 ```
 
 ## Working trees
