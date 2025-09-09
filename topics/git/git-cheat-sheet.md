@@ -29,7 +29,6 @@ Fast-forward options:
 ## Push
 [git-push](https://git-scm.com/docs/git-push)
 
-
 Push branch to specified remote and set upstream tracking (allows to pull/push without any argument):
 ```
 git push -u <remote> <branch>
