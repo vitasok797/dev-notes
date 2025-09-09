@@ -29,6 +29,7 @@
 * [(Habr) Собираем свой flow для git с нуля](https://habr.com/ru/articles/493866/)
 * [Git branching strategies](https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-git-branch-approach/git-branching-strategies.html)
 * [Comparing Git workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
+* [Linus Torvalds: git pull](https://www.mail-archive.com/dri-devel@lists.sourceforge.net/msg39091.html)
 
 ### Branching / Feature flags
 * [Feature Toggles (aka Feature Flags)](https://www.martinfowler.com/articles/feature-toggles.html)
