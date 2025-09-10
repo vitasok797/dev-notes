@@ -5,6 +5,7 @@
 ## Reference 📌
 * [Reference topics](https://git-scm.com/docs)
 * [Revisions](https://git-scm.com/docs/gitrevisions)
+* [Reset, restore and revert](https://git-scm.com/docs/git#_reset_restore_and_revert)
 
 ## Fetch
 [git-fetch](https://git-scm.com/docs/git-fetch)
