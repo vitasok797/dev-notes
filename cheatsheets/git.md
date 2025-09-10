@@ -60,11 +60,9 @@ git prune
 [git-merge](https://git-scm.com/docs/git-merge)
 
 Fast-forward options:
-```
---ff (fast-forward when possible)
---no-ff
---ff-only
-```
+* `--no-ff`
+* `--ff` (fast-forward when possible)
+* `--ff-only`
 
 ## Push
 [git-push](https://git-scm.com/docs/git-push)
@@ -121,6 +119,11 @@ git config --global merge.ff false
 ```
 git config --global pull.ff true
 ```
+
+Fast-forward policy options:
+* `false` (`--no-ff`)
+* `true` (`--ff`, fast-forward when possible)
+* `only` (`--ff-only`)
 
 Enable automatic fetch --prune:
 ```
