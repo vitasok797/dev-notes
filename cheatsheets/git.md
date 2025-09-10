@@ -82,7 +82,7 @@ git remote prune <remote>
 
 🚧
 
-## Configuration
+## Configuration 📌
 Show configuration:
 ```
 git config --list --show-origin
