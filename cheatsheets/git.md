@@ -28,6 +28,18 @@ git ls-files --eol | grep "i/crlf"
 ```
 
 ## Maintenance
+[git-clean](https://git-scm.com/docs/git-clean)
+
+Clean the working tree (recursively, starting from the current directory):
+```
+git clean -f [-d] [-x|-X] [-i] [-n]
+```
+Items to remove:
+* No options: untracked files
+* d: + untracked dirs
+* x: + ignored files
+* X: ignored files only
+
 [git-gc](https://git-scm.com/docs/git-gc)
 
 Cleanup unnecessary files and optimize the local repository:
