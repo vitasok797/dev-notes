@@ -1,7 +1,9 @@
 # Git Cheat Sheet
 
-[Reference](https://git-scm.com/docs) \
 [GitHub Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+## Reference 📌
+[Reference topics](https://git-scm.com/docs)
 
 ## Fetch
 [git-fetch](https://git-scm.com/docs/git-fetch)
