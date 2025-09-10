@@ -4,6 +4,7 @@
 
 ## Reference 📌
 * [Reference topics](https://git-scm.com/docs)
+* [Git config](https://git-scm.com/docs/git-config)
 * [Revisions](https://git-scm.com/docs/gitrevisions)
 * [Reset, restore and revert](https://git-scm.com/docs/git#_reset_restore_and_revert)
 
