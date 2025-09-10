@@ -1,5 +1,8 @@
 ⚠️ [UNSORTED](unsorted)
 
+## Cheat Sheets
+* [Git](cheatsheets/git.md)
+
 ## Languages
 * [C++](languages/cpp)
   ([develop](languages/cpp/cpp-develop.md),
@@ -28,7 +31,7 @@
   [zeromq](topics/communication/zeromq.md),
   [var](topics/communication/var.md))
 * [Compilers](topics/compilers) ([Intel](topics/compilers/intel.md))
-* [Git](topics/git/git.md) ([cheatsheet](topics/git/git-cheat-sheet.md))
+* [Git](topics/git.md)
 * [Multithreading](topics/multithreading.md)
 * [Plot](topics/plot.md)
 * [TDD](topics/tdd.md)
