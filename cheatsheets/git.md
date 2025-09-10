@@ -4,6 +4,7 @@
 
 ## Reference 📌
 * [Reference topics](https://git-scm.com/docs)
+* [Revisions](https://git-scm.com/docs/gitrevisions)
 
 ## Fetch
 [git-fetch](https://git-scm.com/docs/git-fetch)
