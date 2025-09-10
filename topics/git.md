@@ -1,6 +1,6 @@
 # Git
 
-[Cheat Sheet](git-cheat-sheet.md) 🔗
+[Cheat Sheet](../cheatsheets/git.md) 🔗
 
 ## Tutorials 📌
 * [Git book](https://git-scm.com/book/ru/v2)
