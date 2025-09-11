@@ -30,6 +30,19 @@ Find CRLF files in repo:
 git ls-files --eol | grep "i/crlf"
 ```
 
+## Log
+[git-log](https://git-scm.com/docs/git-log)
+
+Show compact log:
+```
+git log --oneline
+```
+
+Show compact log (print ref names of any commits that are shown):
+```
+git log --oneline --decorate
+```
+
 ## Maintenance
 [git-clean](https://git-scm.com/docs/git-clean)
 
