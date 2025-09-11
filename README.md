@@ -1,7 +1,7 @@
 ⚠️ [UNSORTED](unsorted)
 
 ## Cheat Sheets
-* [Git](cheatsheets/git.md)
+* [Git cheatsheet](cheatsheets/git.md)
 
 ## Languages
 * [C++](languages/cpp)
