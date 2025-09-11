@@ -9,6 +9,14 @@
 * [Revisions](https://git-scm.com/docs/gitrevisions)
 * [Reset, restore and revert](https://git-scm.com/docs/git#_reset_restore_and_revert)
 
+## Branches
+[git-branch](https://git-scm.com/docs/git-branch)
+
+List branches (merged or not merged into the named commit):
+```
+git branch [--merged [commit]] [--no-merged [commit]]
+```
+
 ## Fetch
 [git-fetch](https://git-scm.com/docs/git-fetch)
 
