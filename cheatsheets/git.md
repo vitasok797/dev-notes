@@ -59,11 +59,6 @@ Show unique (not merged to master) commits in current branch ([git-log](https://
 git log master..HEAD
 ```
 
-Show merge commit parents ([git-log](https://git-scm.com/docs/git-log)):
-```
-git log -1 --format=raw <commit>
-```
-
 ## Maintenance
 Clean the working tree (recursively, starting from the current directory) ([git-clean](https://git-scm.com/docs/git-clean)):
 ```
@@ -95,6 +90,19 @@ git reset --hard ORIG_HEAD
 Check fast-forward merge possibility ([git-merge](https://git-scm.com/docs/git-merge), [git-reset](https://git-scm.com/docs/git-reset)):
 ```
 git merge --ff-only <branch> && git reset --hard ORIG_HEAD
+```
+
+Show merge commit parents ([git-log](https://git-scm.com/docs/git-log)):
+```
+git log -1 --format=raw <commit>
+```
+
+Show merge commit diff ([git-show](https://git-scm.com/docs/git-show), [git-diff](https://git-scm.com/docs/git-diff)):
+```
+git show -m <commit>
+```
+```
+git diff <commit>^n <commit>
 ```
 
 ## Pushing
