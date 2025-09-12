@@ -59,7 +59,7 @@ Options:
 * `--patch`, `-p`: show patch
 * `--merges`: show only merge commits
 
-Show unique (not merged) commits in current branch:
+Show unique (not merged to master) commits in current branch:
 ```
 git log master..HEAD
 ```
