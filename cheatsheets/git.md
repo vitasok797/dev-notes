@@ -45,8 +45,9 @@ git log [options]
 
 `git log` options:
 * Format:
-  * `--oneline`: compact
-  * `--format=medium`: medium
+  * `--oneline`
+  * `--format=medium`
+  * `--format=raw`
 * Diff:
   * `-p`: show diffs
   * `--dd`: show diffs, produce diff with respect to first parent (shortcut for `--diff-merges=first-parent -p`)
