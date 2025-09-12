@@ -14,7 +14,8 @@ List branches ([git-branch](https://git-scm.com/docs/git-branch)):
 ```
 git branch [options]
 ```
-Options:
+
+`git branch` options:
 * `-v`: verbose
 * `--merged [commit]`: merged into the commit (commit defaults to HEAD)
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
@@ -41,6 +42,7 @@ Show log ([git-log](https://git-scm.com/docs/git-log)):
 ```
 git log [options]
 ```
+
 `git log` options:
 * Format:
   * `--oneline`: compact
@@ -67,7 +69,8 @@ Clean the working tree (recursively, starting from the current directory) ([git-
 ```
 git clean -f [items_to_remove] [--interactive] [--dry-run]
 ```
-Items to remove:
+
+`git clean` items to remove:
 * Not set: untracked files
 * `-d`: + untracked dirs
 * `-x`: + ignored files
@@ -84,7 +87,7 @@ Fast-forward options:
 * `--ff` (fast-forward when possible)
 * `--ff-only`
 
-Undo merge [git-reset](https://git-scm.com/docs/git-reset):
+Undo merge ([git-reset](https://git-scm.com/docs/git-reset)):
 ```
 git reset --hard ORIG_HEAD
 ```
