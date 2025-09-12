@@ -58,7 +58,7 @@ Options:
 * `--graph`: draw a text-based graphical representation of the commit history
 * `--stat`: show diffstat
 * `--patch`, `-p`: show patch
-* `--merges`: show  only merge commits
+* `--merges`: show only merge commits
 
 ## Maintenance
 [git-clean](https://git-scm.com/docs/git-clean)
