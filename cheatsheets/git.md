@@ -146,12 +146,10 @@ git config --global user.name "YOUR_USERNAME"
 git config --global user.email "YOUR_EMAIL"
 ```
 
-Set fast-forward policy:
-❓
+⚠️❓ Set fast-forward policy:
 ```
 git config --global merge.ff false
 ```
-❓
 ```
 git config --global pull.ff true
 ```
