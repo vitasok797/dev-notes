@@ -10,9 +10,7 @@
 * [Reset, restore and revert](https://git-scm.com/docs/git#_reset_restore_and_revert)
 
 ## Branches
-[git-branch](https://git-scm.com/docs/git-branch)
-
-List branches:
+List branches ([git-branch](https://git-scm.com/docs/git-branch)):
 ```
 git branch [options]
 ```
@@ -21,35 +19,29 @@ Options:
 * `--merged [commit]`: merged into the commit (commit defaults to HEAD)
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
 
-## Fetch
-[git-fetch](https://git-scm.com/docs/git-fetch)
-
-Before fetching, remove any remote-tracking references that no longer exist on the remote:
+## Fetching
+Fetch and remove any remote-tracking references that no longer exist on the remote ([git-fetch](https://git-scm.com/docs/git-fetch)):
 ```
 git fetch --prune [remote]
 ```
 
 ## List files
-[git-ls-files](https://git-scm.com/docs/git-ls-files)
-
-List files EOL:
+List files EOL ([git-ls-files](https://git-scm.com/docs/git-ls-files)):
 ```
 git ls-files --eol
 ```
 
-Find CRLF files in repo:
+Find CRLF files in repo ([git-ls-files](https://git-scm.com/docs/git-ls-files)):
 ```
 git ls-files --eol | grep "i/crlf"
 ```
 
 ## Log
-[git-log](https://git-scm.com/docs/git-log)
-
-Show log:
+Show log ([git-log](https://git-scm.com/docs/git-log)):
 ```
 git log [options]
 ```
-Options:
+`git log` options:
 * Format:
   * `--oneline`: compact
   * `--format=medium`: medium
@@ -60,12 +52,12 @@ Options:
 * `--merges`: show only merge commits
 * `--first-parent`: follow only the first parent
 
-Show unique (not merged to master) commits in current branch:
+Show unique (not merged to master) commits in current branch ([git-log](https://git-scm.com/docs/git-log)):
 ```
 git log master..HEAD
 ```
 
-Show merge commit parents:
+Show merge commit parents ([git-log](https://git-scm.com/docs/git-log)):
 ```
 git log -1 --format=raw <commit>
 ```
