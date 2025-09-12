@@ -92,6 +92,11 @@ Fast-forward options:
 * `--ff` (fast-forward when possible)
 * `--ff-only`
 
+Undo merge:
+```
+git reset --hard ORIG_HEAD
+```
+
 ## Push
 [git-push](https://git-scm.com/docs/git-push)
 
