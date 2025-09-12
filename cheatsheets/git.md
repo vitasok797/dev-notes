@@ -63,9 +63,7 @@ git log -1 --format=raw <commit>
 ```
 
 ## Maintenance
-[git-clean](https://git-scm.com/docs/git-clean)
-
-Clean the working tree (recursively, starting from the current directory):
+Clean the working tree (recursively, starting from the current directory) ([git-clean](https://git-scm.com/docs/git-clean)):
 ```
 git clean -f [items_to_remove] [--interactive] [--dry-run]
 ```
@@ -75,35 +73,29 @@ Items to remove:
 * `-x`: + ignored files
 * `-X`: ignored files only
 
-[git-gc](https://git-scm.com/docs/git-gc)
-
-Cleanup unnecessary files and optimize the local repository:
+Cleanup unnecessary files and optimize the local repository ([git-gc](https://git-scm.com/docs/git-gc)):
 ```
 git gc
 ```
 
-## Merge
-[git-merge](https://git-scm.com/docs/git-merge)
-
+## Merging
 Fast-forward options:
 * `--no-ff`
 * `--ff` (fast-forward when possible)
 * `--ff-only`
 
-Undo merge:
+Undo merge [git-reset](https://git-scm.com/docs/git-reset):
 ```
 git reset --hard ORIG_HEAD
 ```
 
-Check fast-forward possibility:
+Check fast-forward merge possibility ([git-merge](https://git-scm.com/docs/git-merge), [git-reset](https://git-scm.com/docs/git-reset)):
 ```
 git merge --ff-only <branch> && git reset --hard ORIG_HEAD
 ```
 
-## Push
-[git-push](https://git-scm.com/docs/git-push)
-
-Push branch to specified remote and set upstream tracking (allows to pull/push without any argument):
+## Pushing
+Push branch to specified remote and set upstream tracking (allows to pull/push without any argument) ([git-push](https://git-scm.com/docs/git-push)):
 ```
 git push -u <remote> <branch>
 ```
