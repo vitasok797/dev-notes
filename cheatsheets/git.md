@@ -12,10 +12,14 @@
 ## Branches
 [git-branch](https://git-scm.com/docs/git-branch)
 
-List branches (merged or not merged into the named commit):
+List branches:
 ```
-git branch [--merged [commit]] [--no-merged [commit]]
+git branch [options]
 ```
+Options:
+* `-v`: verbose
+* `--merged [commit]`: merged into the commit (commit defaults to HEAD)
+* `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
 
 ## Fetch
 [git-fetch](https://git-scm.com/docs/git-fetch)
@@ -41,28 +45,28 @@ git ls-files --eol | grep "i/crlf"
 ## Log
 [git-log](https://git-scm.com/docs/git-log)
 
-Show compact log:
+Show log:
 ```
-git log --oneline
+git log [options]
 ```
-
-Show compact log (print ref names of any commits that are shown):
-```
-git log --oneline --decorate
-```
+Options:
+* `--oneline`: compact
+* `--decorate`: print ref names of any commits that are shown
+* `--all`: show all branches
+* `--graph`: draw a text-based graphical representation of the commit history
 
 ## Maintenance
 [git-clean](https://git-scm.com/docs/git-clean)
 
 Clean the working tree (recursively, starting from the current directory):
 ```
-git clean -f [-d] [-x|-X] [-i] [-n]
+git clean -f [items_to_remove] [--interactive] [--dry-run]
 ```
 Items to remove:
-* No options: untracked files
-* d: + untracked dirs
-* x: + ignored files
-* X: ignored files only
+* Not set: untracked files
+* `-d`: + untracked dirs
+* `-x`: + ignored files
+* `-X`: ignored files only
 
 [git-gc](https://git-scm.com/docs/git-gc)
 
