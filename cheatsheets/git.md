@@ -75,13 +75,6 @@ Cleanup unnecessary files and optimize the local repository:
 git gc
 ```
 
-[git-prune](https://git-scm.com/docs/git-prune)
-
-Remove all unreachable objects (in most cases, users will not need to call git prune directly, but should instead call git gc):
-```
-git prune
-```
-
 ## Merge
 [git-merge](https://git-scm.com/docs/git-merge)
 
