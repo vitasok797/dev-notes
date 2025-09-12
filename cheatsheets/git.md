@@ -95,9 +95,9 @@ Check fast-forward merge possibility ([git-merge](https://git-scm.com/docs/git-m
 git merge --ff-only <branch> && git reset --hard ORIG_HEAD
 ```
 
-Show merge commit parents ([git-log](https://git-scm.com/docs/git-log)):
+Show merge commit parents ([git-show](https://git-scm.com/docs/git-show)):
 ```
-git log -1 --format=raw <commit>
+git show --format=raw <commit>
 ```
 
 Show merge commit diff ([git-show](https://git-scm.com/docs/git-show), [git-diff](https://git-scm.com/docs/git-diff)):
