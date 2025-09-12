@@ -160,3 +160,6 @@ Set log format:
 ```
 git config --global format.pretty oneline
 ```
+```
+git config --global log.abbrevCommit true
+```
