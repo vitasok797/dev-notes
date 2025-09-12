@@ -98,6 +98,11 @@ Undo merge:
 git reset --hard ORIG_HEAD
 ```
 
+Check fast-forward possibility:
+```
+git merge --ff-only <branch> && git reset --hard ORIG_HEAD
+```
+
 ## Push
 [git-push](https://git-scm.com/docs/git-push)
 
