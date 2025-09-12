@@ -47,10 +47,12 @@ git log [options]
 * Format:
   * `--oneline`: compact
   * `--format=medium`: medium
+* Diff:
+  * `-p`: show diffs
+  * `--dd`: show diffs, produce diff with respect to first parent (shortcut for `--diff-merges=first-parent -p`)
 * `--all`: show all branches
 * `--graph`: draw a text-based graphical representation of the commit history
 * `--stat`: show diffstat
-* `--patch`, `-p`: show patch
 * `--merges`: show only merge commits
 * `--first-parent`: follow only the first parent
 
