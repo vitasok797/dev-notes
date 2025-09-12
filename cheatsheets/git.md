@@ -59,6 +59,11 @@ Options:
 * `--patch`, `-p`: show patch
 * `--merges`: show only merge commits
 
+Show unique (not merged) commits in current branch:
+```
+git log master..HEAD
+```
+
 ## Maintenance
 [git-clean](https://git-scm.com/docs/git-clean)
 
