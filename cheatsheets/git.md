@@ -50,7 +50,9 @@ Show log:
 git log [options]
 ```
 Options:
-* `--oneline`: compact
+* Format:
+  * `--oneline`: compact
+  * `--format=medium`: medium
 * `--decorate`: print ref names of any commits that are shown
 * `--all`: show all branches
 * `--graph`: draw a text-based graphical representation of the commit history
@@ -150,4 +152,9 @@ git config --global fetch.prune true
 ```
 ```
 git config --global fetch.pruneTags true
+```
+
+Set log format:
+```
+git config --global format.pretty oneline
 ```
