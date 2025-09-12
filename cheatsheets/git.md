@@ -58,6 +58,7 @@ Options:
 * `--stat`: show diffstat
 * `--patch`, `-p`: show patch
 * `--merges`: show only merge commits
+* `--first-parent`: follow only the first parent
 
 Show unique (not merged to master) commits in current branch:
 ```
