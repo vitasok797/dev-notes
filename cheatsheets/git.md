@@ -70,8 +70,8 @@ Clean the working tree (recursively, starting from the current directory) ([git-
 git clean -f [items_to_remove] [--interactive] [--dry-run]
 ```
 
-`git clean` items to remove:
-* Not set: untracked files
+`git clean` `items_to_remove` options:
+* not set: untracked files
 * `-d`: + untracked dirs
 * `-x`: + ignored files
 * `-X`: ignored files only
@@ -104,27 +104,23 @@ git push -u <remote> <branch>
 ```
 
 ## Remote
-[git-remote](https://git-scm.com/docs/git-remote)
-
-Show remote URLs:
+Show remote URLs ([git-remote](https://git-scm.com/docs/git-remote)):
 ```
 git remote -v
 ```
 
-Show information about the remote:
+Show information about the remote ([git-remote](https://git-scm.com/docs/git-remote)):
 ```
 git remote show <remote>
 ```
 
-Remove any remote-tracking references that no longer exist on the remote:
+Remove any remote-tracking references that no longer exist on the remote ([git-remote](https://git-scm.com/docs/git-remote)):
 ```
 git remote prune <remote>
 ```
 
 ## Working trees
-[git-worktree](https://git-scm.com/docs/git-worktree)
-
-🚧
+🚧 [git-worktree](https://git-scm.com/docs/git-worktree)
 
 ## Configuration 📌
 Show configuration:
