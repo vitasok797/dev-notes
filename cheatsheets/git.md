@@ -53,7 +53,6 @@ Options:
 * Format:
   * `--oneline`: compact
   * `--format=medium`: medium
-* `--decorate`: print ref names of any commits that are shown
 * `--all`: show all branches
 * `--graph`: draw a text-based graphical representation of the commit history
 * `--stat`: show diffstat
