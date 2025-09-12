@@ -56,6 +56,8 @@ Options:
 * `--decorate`: print ref names of any commits that are shown
 * `--all`: show all branches
 * `--graph`: draw a text-based graphical representation of the commit history
+* `--stat`: show diffstat
+* `--patch`, `-p`: show patch
 
 ## Maintenance
 [git-clean](https://git-scm.com/docs/git-clean)
