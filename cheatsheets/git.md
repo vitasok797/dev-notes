@@ -65,6 +65,11 @@ Show unique (not merged to master) commits in current branch:
 git log master..HEAD
 ```
 
+Show merge commit parents:
+```
+git log -1 --format=raw <commit>
+```
+
 ## Maintenance
 [git-clean](https://git-scm.com/docs/git-clean)
 
