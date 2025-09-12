@@ -28,7 +28,6 @@ git show [options]
 
 `git show` options:
 * Format:
-  * `--oneline`
   * `--format=medium`
   * `--format=raw`
 * Diff:
@@ -61,7 +60,6 @@ git log [options]
 
 `git log` options:
 * Format:
-  * `--oneline`
   * `--format=medium`
   * `--format=raw`
 * Diff:
