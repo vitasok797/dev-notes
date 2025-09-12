@@ -20,6 +20,22 @@ git branch [options]
 * `--merged [commit]`: merged into the commit (commit defaults to HEAD)
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
 
+## Commits
+Show commit info ([git-show](https://git-scm.com/docs/git-show)):
+```
+git show [options]
+```
+
+`git show` options:
+* Format:
+  * `--oneline`
+  * `--format=medium`
+  * `--format=raw`
+* Diff:
+  * `-p`: show diff
+  * `--dd`: show diff, produce diff with respect to first parent
+* `--stat`: show diffstat
+
 ## Fetching
 Fetch and remove any remote-tracking references that no longer exist on the remote ([git-fetch](https://git-scm.com/docs/git-fetch)):
 ```
