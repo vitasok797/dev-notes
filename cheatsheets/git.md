@@ -15,7 +15,7 @@
 git branch [options]
 ```
 
-`git branch` options:
+Options:
 * `-v`: verbose
 * `--merged [commit]`: merged into the commit (commit defaults to HEAD)
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
@@ -26,7 +26,7 @@ git branch [options]
 git show [options] <commit>
 ```
 
-`git show` options:
+Options:
 * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
 * `-p`: show diff
 * `--dd`: show diff to first parent (shortcut for `--diff-merges=first-parent -p`)
@@ -55,7 +55,7 @@ git ls-files --eol | grep "i/crlf"
 git log [options]
 ```
 
-`git log` options:
+Options:
 * Commit info:
   * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
   * `-p`: show diff
