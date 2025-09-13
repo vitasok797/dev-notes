@@ -94,7 +94,7 @@ Fast-forward options:
 * `--ff` (fast-forward when possible)
 * `--ff-only`
 
-Undo merge ([git-reset](https://git-scm.com/docs/git-reset)):
+Undo after merge commit ([git-reset](https://git-scm.com/docs/git-reset)):
 ```
 git reset --hard ORIG_HEAD
 ```
