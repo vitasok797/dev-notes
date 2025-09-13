@@ -27,9 +27,9 @@ git show [options] <commit>
 ```
 
 `git show` options:
-* `--format=<format>`: output format (`short`, `medium`, `full`, 'raw`)
+* `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
 * `-p`: show diff
-* `--dd`: show diff (produce diff with respect to first parent, shortcut for `--diff-merges=first-parent -p`)
+* `--dd`: show diff to first parent (shortcut for `--diff-merges=first-parent -p`)
 * `--stat`: show diffstat
 
 ## Fetching
@@ -57,9 +57,9 @@ git log [options]
 
 `git log` options:
 * Commit info:
-  * `--format=<format>`: output format (`short`, `medium`, `full`, 'raw`)
+  * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
   * `-p`: show diff
-  * `--dd`: show diff (produce diff with respect to first parent, shortcut for `--diff-merges=first-parent -p`)
+  * `--dd`: show diff to first parent (shortcut for `--diff-merges=first-parent -p`)
   * `--stat`: show diffstat
 * `--all`: show all branches
 * `--merges`: show only merge commits
