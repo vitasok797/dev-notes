@@ -77,7 +77,7 @@ git log master..HEAD
 git clean -f [items_to_remove] [--interactive] [--dry-run]
 ```
 
-`git clean` `items_to_remove` options:
+`items_to_remove`:
 * not set: untracked files
 * `-d`: + untracked dirs
 * `-x`: + ignored files
