@@ -72,6 +72,9 @@ Options:
 git log HEAD ^master
 ```
 ```
+git log master..HEAD
+```
+```
 git cherry -v master
 ```
 
