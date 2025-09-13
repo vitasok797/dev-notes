@@ -98,7 +98,12 @@ Fast-forward options:
 * `--ff` (fast-forward when possible)
 * `--ff-only`
 
-#### Undo after merge commit ([git-reset](https://git-scm.com/docs/git-reset))
+#### Preview merge ([git-merge](https://git-scm.com/docs/git-merge)):
+```
+git merge --no-commit --no-ff <branch>
+```
+
+#### Undo merge commit ([git-reset](https://git-scm.com/docs/git-reset))
 ```
 git reset --hard ORIG_HEAD
 ```
