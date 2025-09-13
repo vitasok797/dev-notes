@@ -102,6 +102,10 @@ Fast-forward options:
 ```
 git merge --no-commit --no-ff <branch>
 ```
+then:
+```
+git merge --abort
+```
 
 #### Undo merge commit ([git-reset](https://git-scm.com/docs/git-reset))
 ```
