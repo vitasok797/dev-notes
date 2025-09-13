@@ -23,16 +23,13 @@ git branch [options]
 ## Commits
 Show commit info ([git-show](https://git-scm.com/docs/git-show)):
 ```
-git show [options]
+git show [options] <commit>
 ```
 
 `git show` options:
-* Format:
-  * `--format=medium`
-  * `--format=raw`
-* Diff:
-  * `-p`: show diff
-  * `--dd`: show diff, produce diff with respect to first parent
+* `--format=<format>`: output format (`short`, `medium`, `full`, 'raw`)
+* `-p`: show diff
+* `--dd`: show diff (produce diff with respect to first parent, shortcut for `--diff-merges=first-parent -p`)
 * `--stat`: show diffstat
 
 ## Fetching
@@ -59,17 +56,15 @@ git log [options]
 ```
 
 `git log` options:
-* Format:
-  * `--format=medium`
-  * `--format=raw`
-* Diff:
-  * `-p`: show diffs
-  * `--dd`: show diffs, produce diff with respect to first parent (shortcut for `--diff-merges=first-parent -p`)
+* Commit info:
+  * `--format=<format>`: output format (`short`, `medium`, `full`, 'raw`)
+  * `-p`: show diff
+  * `--dd`: show diff (produce diff with respect to first parent, shortcut for `--diff-merges=first-parent -p`)
+  * `--stat`: show diffstat
 * `--all`: show all branches
-* `--graph`: draw a text-based graphical representation of the commit history
-* `--stat`: show diffstat
 * `--merges`: show only merge commits
 * `--first-parent`: follow only the first parent
+* `--graph`: draw a text-based graphical representation of the commit history
 
 Show unique (not merged to master) commits in current branch ([git-log](https://git-scm.com/docs/git-log)):
 ```
