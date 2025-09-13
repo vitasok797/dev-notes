@@ -10,9 +10,7 @@
 * [Reset, restore and revert](https://git-scm.com/docs/git#_reset_restore_and_revert)
 
 ## Branches
-#### List branches
-[git-branch](https://git-scm.com/docs/git-branch)
-
+#### List branches ([git-branch](https://git-scm.com/docs/git-branch))
 ```
 git branch [options]
 ```
@@ -23,9 +21,7 @@ git branch [options]
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
 
 ## Commits
-#### Show commit info
-[git-show](https://git-scm.com/docs/git-show)
-
+#### Show commit info ([git-show](https://git-scm.com/docs/git-show))
 ```
 git show [options] <commit>
 ```
@@ -37,24 +33,18 @@ git show [options] <commit>
 * `--stat`: show diffstat
 
 ## Fetching
-#### Fetch and remove any remote-tracking references that no longer exist on the remote
-[git-fetch](https://git-scm.com/docs/git-fetch)
-
+#### Fetch and remove any remote-tracking references that no longer exist on the remote ([git-fetch](https://git-scm.com/docs/git-fetch))
 ```
 git fetch --prune [remote]
 ```
 
 ## List files
-#### List files EOL
-[git-ls-files](https://git-scm.com/docs/git-ls-files)
-
+#### List files EOL ([git-ls-files](https://git-scm.com/docs/git-ls-files))
 ```
 git ls-files --eol
 ```
 
-#### Find CRLF files in repo
-[git-ls-files](https://git-scm.com/docs/git-ls-files)
-
+#### Find CRLF files in repo ([git-ls-files](https://git-scm.com/docs/git-ls-files))
 ```
 git ls-files --eol | grep "i/crlf"
 ```
