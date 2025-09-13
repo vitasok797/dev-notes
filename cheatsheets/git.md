@@ -68,7 +68,7 @@ Options:
 
 #### Show unique (not merged to master) commits in current branch ([git-log](https://git-scm.com/docs/git-log))
 ```
-git log master..HEAD
+git log HEAD ^master
 ```
 
 ## Maintenance
