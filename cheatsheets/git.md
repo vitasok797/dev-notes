@@ -89,7 +89,7 @@ git gc
 ```
 
 ## Merging
-#### Fast-forward options
+Fast-forward options:
 * `--no-ff`
 * `--ff` (fast-forward when possible)
 * `--ff-only`
@@ -170,7 +170,7 @@ git config --global merge.ff false
 git config --global pull.ff true
 ```
 
-#### Fast-forward policy options
+Fast-forward policy options:
 * `false` (`--no-ff`)
 * `true` (`--ff`, fast-forward when possible)
 * `only` (`--ff-only`)
