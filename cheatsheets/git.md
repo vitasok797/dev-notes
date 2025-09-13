@@ -70,6 +70,9 @@ Options:
 ```
 git log HEAD ^master
 ```
+```
+git cherry [-v] master
+```
 
 ## Maintenance
 #### Clean the working tree (recursively, starting from the current directory) ([git-clean](https://git-scm.com/docs/git-clean))
