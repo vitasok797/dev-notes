@@ -66,12 +66,12 @@ Options:
 * `--first-parent`: follow only the first parent
 * `--graph`: draw a text-based graphical representation of the commit history
 
-#### Show unique (not merged to master) commits in current branch ([git-log](https://git-scm.com/docs/git-log))
+#### Show unique (not merged to master) commits in current branch ([git-log](https://git-scm.com/docs/git-log), [git-cherry](https://git-scm.com/docs/git-cherry))
 ```
 git log HEAD ^master
 ```
 ```
-git cherry [-v] master
+git cherry -v master
 ```
 
 ## Maintenance
