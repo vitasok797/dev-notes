@@ -23,6 +23,22 @@ Options:
 * `--merged [commit]`: merged into the commit (commit defaults to HEAD)
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
 
+#### Delete remote branch
+Delete remote branch ([git-push](https://git-scm.com/docs/git-push)):
+```
+git push -d <remote> <branch>
+```
+
+Delete corresponding local branch ([git-branch](https://git-scm.com/docs/git-branch)):
+```
+git branch -d <branch>
+```
+
+Fetch on other machines to propagate changes ([git-fetch](https://git-scm.com/docs/git-fetch)):
+```
+git fetch --all --prune
+```
+
 ## Commits
 #### Show commit info ([git-show](https://git-scm.com/docs/git-show))
 ```
