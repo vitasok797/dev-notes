@@ -18,6 +18,7 @@ git branch [options]
 Options:
 * `-v`: verbose
 * `-vv`: verbose (prints linked worktree (if any) and upstream status)
+* `-a`: list both remote branches and local branches
 * `--merged [commit]`: merged into the commit (commit defaults to HEAD)
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
 
