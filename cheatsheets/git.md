@@ -52,6 +52,12 @@ Options:
   * `-m`: + show diff for merge commits
 * `--dd`: show diff to first-parent for both merge and regular commits
 
+## Diff
+#### Check for conflict markers or whitespace errors ([git-diff](https://git-scm.com/docs/git-diff))
+```
+git diff --check [--cached]
+```
+
 ## Fetching
 #### Download objects and refs from another repository ([git-fetch](https://git-scm.com/docs/git-fetch))
 ```
