@@ -154,18 +154,18 @@ git merge --ff-only <branch> && git reset --hard ORIG_HEAD
 git show --format=raw <commit>
 ```
 
-#### Show merge commit diff ([git-show](https://git-scm.com/docs/git-show), [git-diff](https://git-scm.com/docs/git-diff))
-Show diff with all parents:
+#### Show merge commit diff
+Show diff with all parents ([git-show](https://git-scm.com/docs/git-show)):
 ```
 git show -p -m <commit>
 ```
 
-Show diff with first parent:
+Show diff with first parent ([git-show](https://git-scm.com/docs/git-show)):
 ```
 git show --dd <commit>
 ```
 
-Show diff with selected parent:
+Show diff with selected parent ([git-diff](https://git-scm.com/docs/git-diff)):
 ```
 git diff <commit>^n <commit>
 ```
