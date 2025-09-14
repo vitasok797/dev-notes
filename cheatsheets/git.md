@@ -85,6 +85,11 @@ git log master..HEAD
 git cherry -v master
 ```
 
+#### Show unique (not pulled) commits in remote branch (after fetch) ([git-log](https://git-scm.com/docs/git-log))
+```
+git log <branch>..<remote/branch>
+```
+
 ## Maintenance
 #### Clean the working tree (recursively, starting from the current directory) ([git-clean](https://git-scm.com/docs/git-clean))
 ```
