@@ -35,10 +35,13 @@ Options:
 * `--dd`: show diff to first-parent for both merge and regular commits
 
 ## Fetching
-#### Fetch and remove any remote-tracking references that no longer exist on the remote ([git-fetch](https://git-scm.com/docs/git-fetch))
+#### Download objects and refs from another repository ([git-fetch](https://git-scm.com/docs/git-fetch))
 ```
-git fetch --prune [remote]
+git fetch [options] [remote]
 ```
+
+Options:
+* `--prune`: before fetching, remove any remote-tracking references that no longer exist on the remote
 
 ## List files
 #### List files EOL ([git-ls-files](https://git-scm.com/docs/git-ls-files))
