@@ -155,6 +155,11 @@ git push -u <remote> <branch>
 ```
 
 ## Remote
+#### Show remotes ([git-remote](https://git-scm.com/docs/git-remote))
+```
+git remote
+```
+
 #### Show remote URLs ([git-remote](https://git-scm.com/docs/git-remote))
 ```
 git remote -v
