@@ -59,6 +59,7 @@ git fetch [options] [remote]
 ```
 
 Options:
+* `--all`: fetch all remotes
 * `--prune`: before fetching, remove any remote-tracking references that no longer exist on the remote
 
 ## List files
