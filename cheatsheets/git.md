@@ -29,7 +29,7 @@ git show [options] <commit>
 Options:
 * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
 * `-p`: show diff
-* `--dd`: show diff to first parent (shortcut for `--diff-merges=first-parent -p`)
+* `--dd`: show diff (including merge commits diff to first parent)
 * `--stat`: show diffstat
 
 ## Fetching
@@ -59,7 +59,7 @@ Options:
 * Commit info:
   * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
   * `-p`: show diff
-  * `--dd`: show diff to first parent (shortcut for `--diff-merges=first-parent -p`)
+  * `--dd`: show diff (including merge commits diff to first parent)
   * `--stat`: show diffstat
 * `--all`: show all branches
 * `--merges`: show only merge commits
