@@ -126,12 +126,17 @@ git show --format=raw <commit>
 ```
 
 #### Show merge commit diff ([git-show](https://git-scm.com/docs/git-show), [git-diff](https://git-scm.com/docs/git-diff))
+Show diff with all parents:
+```
+git show -p -m <commit>
+```
+
+Show diff with first parent:
 ```
 git show --dd <commit>
 ```
-```
-git show -m <commit>
-```
+
+Show diff with selected parent:
 ```
 git diff <commit>^n <commit>
 ```
