@@ -29,10 +29,9 @@ git show [options] <commit>
 Options:
 * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
 * `--stat`: show diffstat
-* Diff:
-  * `-p`: show diff for regular commits
-    * `-m`: + show diff for merge commits
-  * `--dd`: show diff to first-parent for both merge and regular commits
+* `-p`: show diff for regular commits
+  * `-m`: + show diff for merge commits
+* `--dd`: show diff to first-parent for both merge and regular commits
 
 ## Fetching
 #### Fetch and remove any remote-tracking references that no longer exist on the remote ([git-fetch](https://git-scm.com/docs/git-fetch))
@@ -61,10 +60,9 @@ Options:
 * Commit info:
   * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
   * `--stat`: show diffstat
-  * Diff:
-    * `-p`: show diff for regular commits
-      * `-m`: + show diff for merge commits
-    * `--dd`: show diff to first-parent for both merge and regular commits
+  * `-p`: show diff for regular commits
+    * `-m`: + show diff for merge commits
+  * `--dd`: show diff to first-parent for both merge and regular commits
 * `--all`: show all branches
 * `--merges`: show only merge commits
 * `--first-parent`: follow only the first parent
