@@ -11,7 +11,6 @@
 * [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
 * [(Habr) Зачем пользователи GIT-а редактируют свои коммиты](https://habr.com/ru/articles/179045/)
 * [(Habr) Git happens! 6 типичных ошибок Git и как их исправить](https://habr.com/ru/companies/flant/articles/419733/)
-* [(Habr) Git снизу вверх](https://habr.com/ru/companies/intel/articles/344962/)
 
 ## Branching
 * [(Habr) Удачная модель ветвления для Git](https://habr.com/ru/articles/106912/)
