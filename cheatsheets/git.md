@@ -55,7 +55,7 @@ Options:
 ## Diff
 #### Check for conflict markers or whitespace errors ([git-diff](https://git-scm.com/docs/git-diff))
 ```
-git diff --check [--cached]
+git diff --check [--staged]
 ```
 
 ## Fetching
