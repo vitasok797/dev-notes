@@ -18,7 +18,6 @@
 * [(Habr) Git Workflow](https://habr.com/ru/articles/60030/)
 * [(Habr) Git Wizardry](https://habr.com/ru/articles/60347/)
 * [(Habr) Про Git на пальцах (для переходящих с SVN)](https://habr.com/ru/articles/68341/)
-* [(Habr) Достаточно Git-а, чтобы быть (менее) опасным](https://habr.com/ru/post/268951/)
 * [(StackOverflow) Git workflow and rebase vs merge questions](https://stackoverflow.com/questions/457927/git-workflow-and-rebase-vs-merge-questions)
 * [(StackOverflow) Git - is it pull or rebase when working on branches with other people](https://stackoverflow.com/questions/96615/git-is-it-pull-or-rebase-when-working-on-branches-with-other-people)
 * [The Thing About Git](https://tomayko.com/blog/2008/the-thing-about-git)
