@@ -207,10 +207,10 @@ git remote prune <remote>
 ## Restore
 Restore files:
 ```
-git restore [options] <files>
+git restore [restore_location] <files>
 ```
 
-Options:
+restore_location:
 * default: restore worktree
 * `-W`, `--worktree`: restore worktree
 * `-S`, `--staged`: restore index
