@@ -132,6 +132,8 @@ git gc
 ```
 
 ## Merging
+[How to resolve conflicts](https://git-scm.com/docs/git-merge#_how_to_resolve_conflicts)
+
 Fast-forward options:
 * `--no-ff`
 * `--ff` (fast-forward when possible)
