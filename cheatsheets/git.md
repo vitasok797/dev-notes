@@ -205,12 +205,12 @@ git remote prune <remote>
 ```
 
 ## Restore
-Restore files:
+#### Restore files ([git-restore](https://git-scm.com/docs/git-restore))
 ```
 git restore [restore_location] <files>
 ```
 
-restore_location:
+`restore_location`:
 * default: restore worktree
 * `-W`, `--worktree`: restore worktree
 * `-S`, `--staged`: restore index
