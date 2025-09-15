@@ -121,7 +121,7 @@ git clean -f [items_to_remove] [--interactive] [--dry-run]
 ```
 
 `items_to_remove`:
-* not set: untracked files
+* default: untracked files
 * `-d`: + untracked dirs
 * `-x`: + ignored files
 * `-X`: ignored files only
@@ -203,6 +203,17 @@ git remote show <remote>
 ```
 git remote prune <remote>
 ```
+
+## Restore
+Restore files:
+```
+git restore [options] <files>
+```
+
+Options:
+* default: restore worktree
+* `-W`, `--worktree`: restore worktree
+* `-S`, `--staged`: restore index
 
 ## Working trees
 🚧 [git-worktree](https://git-scm.com/docs/git-worktree)
