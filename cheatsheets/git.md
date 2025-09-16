@@ -218,13 +218,12 @@ git remote prune <remote>
 ## Restore
 #### Restore files ([git-restore](https://git-scm.com/docs/git-restore))
 ```
-git restore [restore_location] <files>
+git restore [options] <files>
 ```
 
-`restore_location`:
-* default: restore worktree
-* `-W`, `--worktree`: restore worktree
-* `-S`, `--staged`: restore index
+Options:
+* `-W`, `--worktree`: restore worktree from index (default)
+* `-S`, `--staged`: restore index from HEAD
 
 ## Working trees
 🚧 [git-worktree](https://git-scm.com/docs/git-worktree)
