@@ -229,6 +229,11 @@ Options:
 🚧 [git-worktree](https://git-scm.com/docs/git-worktree)
 
 ## Configuration 📌
+Scope options:
+* --system
+* --global
+* --local
+
 #### Show configuration
 ```
 git config --list --show-origin
@@ -239,18 +244,18 @@ git config --list --show-scope
 
 #### Set username and email
 ```
-git config --global user.name "YOUR_USERNAME"
+git config <scope> user.name "YOUR_USERNAME"
 ```
 ```
-git config --global user.email "YOUR_EMAIL"
+git config <scope> user.email "YOUR_EMAIL"
 ```
 
 #### ⚠️❓ Set fast-forward policy
 ```
-git config --global merge.ff false
+git config <scope> merge.ff false
 ```
 ```
-git config --global pull.ff true
+git config <scope> pull.ff true
 ```
 
 Fast-forward policy options:
@@ -260,16 +265,16 @@ Fast-forward policy options:
 
 #### Enable automatic fetch --prune
 ```
-git config --global fetch.prune true
+git config <scope> fetch.prune true
 ```
 ```
-git config --global fetch.pruneTags true
+git config <scope> fetch.pruneTags true
 ```
 
 #### Set log format
 ```
-git config --global format.pretty oneline
+git config <scope> format.pretty oneline
 ```
 ```
-git config --global log.abbrevCommit true
+git config <scope> log.abbrevCommit true
 ```
