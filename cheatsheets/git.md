@@ -110,7 +110,10 @@ git log master..HEAD
 git cherry -v master
 ```
 
-#### Show unique (not pulled) commits in remote branch (after fetch) ([git-log](https://git-scm.com/docs/git-log))
+#### Show unique (not merged to local branch) commits in remote branch (after fetch) ([git-log](https://git-scm.com/docs/git-log))
+```
+git log <remote/branch> ^<branch>
+```
 ```
 git log <branch>..<remote/branch>
 ```
