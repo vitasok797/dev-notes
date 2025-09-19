@@ -185,10 +185,15 @@ git diff <commit>^n <commit>
 ```
 
 #### Show merge commit conficts ([git-merge-tree](https://git-scm.com/docs/git-merge-tree), [git-diff](https://git-scm.com/docs/git-diff))
+Create merge tree:
 ```
 git merge-tree <merge-commit>^1 <merge-commit>^2
 ```
-then:
+then check merge result status:
+```
+case $? in 0) echo "OK";; 1) echo "CONFLICTS";; *) echo "ERROR";; esac
+```
+then show diff:
 ```
 git diff <new-merge-tree> <merge-commit>
 ```
