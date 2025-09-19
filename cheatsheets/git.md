@@ -282,3 +282,14 @@ git config <scope> format.pretty oneline
 ```
 git config <scope> log.abbrevCommit true
 ```
+
+#### Set Winmerge as diff GUI tool
+```
+git config <scope> diff.guitool winmerge
+```
+```
+git config <scope> difftool.winmerge.cmd "'C:\\Program Files\\WinMerge\\WinMergeU.exe' //u //fl //wr //e \"\$LOCAL\" \"\$REMOTE\""
+```
+```
+git config <scope> difftool.prompt false
+```
