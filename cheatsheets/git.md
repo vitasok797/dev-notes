@@ -194,16 +194,18 @@ git show --cc <merge-commit>
 git show --remerge-diff <merge-commit>
 ```
 
-#### Show merge commit conficts ([git-merge-tree](https://git-scm.com/docs/git-merge-tree), [git-diff](https://git-scm.com/docs/git-diff))
-Create merge tree:
+#### View merge conflict resolving changes
+Create merge tree ([git-merge-tree](https://git-scm.com/docs/git-merge-tree)):
 ```
 git merge-tree <merge-commit>^1 <merge-commit>^2
 ```
+
 then check merge result status:
 ```
 case $? in 0) echo "OK";; 1) echo "CONFLICTS";; *) echo "ERROR";; esac
 ```
-then show conflict resolving changes:
+
+then show conflict resolving changes ([git-diff](https://git-scm.com/docs/git-diff), [git-difftool](https://git-scm.com/docs/git-difftool)):
 ```
 git diff <new-merge-tree> <merge-commit>
 git difftool <new-merge-tree> <merge-commit>
