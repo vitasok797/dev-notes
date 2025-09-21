@@ -212,6 +212,27 @@ Options:
 * `--theirs`: use "theirs" file version
 * `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
 
+#### View diffs (while resolving)
+Show "dense-combined" (`--cc`) diff:
+```
+git diff
+```
+
+Show "combined" diff:
+```
+git diff -c
+```
+
+Show full changes:
+```
+git diff HEAD
+```
+
+Show conflict resolving changes:
+```
+git diff AUTO_MERGE
+```
+
 ## Pushing
 #### Push branch to specified remote and set upstream tracking (allows to pull/push without any argument) ([git-push](https://git-scm.com/docs/git-push))
 ```
