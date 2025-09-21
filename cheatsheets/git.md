@@ -170,7 +170,7 @@ git reset --hard ORIG_HEAD
 git show --format=raw <commit>
 ```
 
-#### Show merge commit diff
+#### Show merge commit changes
 Show diff with all parents ([git-show](https://git-scm.com/docs/git-show)):
 ```
 git show -p -m <commit>
