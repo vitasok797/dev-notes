@@ -122,10 +122,10 @@ git log <branch>..<remote/branch>
 ## Maintenance
 #### Clean the working tree (recursively, starting from the current directory) ([git-clean](https://git-scm.com/docs/git-clean))
 ```
-git clean -f [items_to_remove] [--interactive] [--dry-run]
+git clean -f [items-to-remove] [--interactive] [--dry-run]
 ```
 
-`items_to_remove`:
+`items-to-remove`:
 * default: untracked files
 * `-d`: + untracked dirs
 * `-x`: + ignored files
@@ -165,19 +165,15 @@ then:
 git merge --abort
 ```
 
-#### View diff between branchB and its common ancestor with branch branchA ([git-diff](https://git-scm.com/docs/git-diff))
+#### View diff between `branch1` and its common ancestor with branch `branch2` ([git-diff](https://git-scm.com/docs/git-diff))
 ```
-git diff <branchA>...<branchB> [pathspec]
+git diff <branch2>...<branch1> [pathspec]
 ```
 
 #### List commits on the respective side of a symmetric difference ([git-log](https://git-scm.com/docs/git-log))
 ```
-git log <--left-only|--right-only> <branchA>...<branchB>
+git log <--left-only|--right-only> <branch-left>...<branch-right>
 ```
-
-where:
-* `branchA` is left
-* `branchB` is right
 
 ### Merging / Exploring existing merge commits
 
@@ -304,7 +300,7 @@ git remote prune <remote>
 ## Restore
 #### Restore files ([git-restore](https://git-scm.com/docs/git-restore))
 ```
-git restore [options] <files>
+git restore [options] <pathspec>
 ```
 
 options:
