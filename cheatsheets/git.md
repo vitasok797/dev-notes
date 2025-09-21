@@ -224,7 +224,7 @@ options:
 * `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
 
 #### View changes ([git-diff](https://git-scm.com/docs/git-diff))
-Show "dense-combined" (`--cc`) diff:
+Show conflicts ("dense-combined" diff, `--cc`):
 ```
 git diff
 ```
@@ -239,7 +239,7 @@ Show staged changes:
 git diff --staged
 ```
 
-Show full changes:
+Show full diff:
 ```
 git diff HEAD
 ```
