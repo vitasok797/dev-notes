@@ -214,14 +214,12 @@ case $? in 0) echo "OK";; 1) echo "CONFLICTS";; *) echo "ERROR";; esac
 
 then show merge result changes (including conflicts) ([git-diff](https://git-scm.com/docs/git-diff), [git-difftool](https://git-scm.com/docs/git-difftool)):
 ```
-git diff <merge-commit>^ <new-merge-tree>
-git difftool <merge-commit>^ <new-merge-tree>
+git diff[tool] <merge-commit>^ <new-merge-tree>
 ```
 
 then show conflict resolving changes ([git-diff](https://git-scm.com/docs/git-diff), [git-difftool](https://git-scm.com/docs/git-difftool)):
 ```
-git diff <new-merge-tree> <merge-commit>
-git difftool <new-merge-tree> <merge-commit>
+git diff[tool] <new-merge-tree> <merge-commit>
 ```
 
 ### Merging / Resolving conflicts
