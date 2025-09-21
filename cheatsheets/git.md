@@ -165,7 +165,7 @@ then:
 git merge --abort
 ```
 
-#### View diff between branch and its common ancestor with another branch ([git-diff](https://git-scm.com/docs/git-diff))
+#### View diff between branchB and its common ancestor with branch branchA ([git-diff](https://git-scm.com/docs/git-diff))
 ```
 git diff <branchA>...<branchB> [pathspec]
 ```
