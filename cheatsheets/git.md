@@ -165,6 +165,11 @@ then:
 git merge --abort
 ```
 
+#### View diff between branch and its common ancestor with another branch ([git-diff](https://git-scm.com/docs/git-diff))
+```
+git diff <branchA>...<branchB> [pathspec]
+```
+
 ### Merging / Exploring existing merge commits
 
 #### Show merge commit parents ([git-show](https://git-scm.com/docs/git-show))
