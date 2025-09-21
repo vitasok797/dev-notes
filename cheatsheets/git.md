@@ -195,7 +195,7 @@ then check merge result status:
 ```
 case $? in 0) echo "OK";; 1) echo "CONFLICTS";; *) echo "ERROR";; esac
 ```
-then show diff:
+then show conflict resolving changes:
 ```
 git diff <new-merge-tree> <merge-commit>
 ```
