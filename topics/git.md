@@ -98,3 +98,4 @@ See [Git Cheat Sheet / Configuration](git-cheat-sheet.md#configuration) 🔗
 * [(StackOverflow) How do I clone a subdirectory only of a Git repository?](https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository)
 * [(StackOverflow) What are commit-ish and tree-ish in Git?](https://stackoverflow.com/questions/23303549/what-are-commit-ish-and-tree-ish-in-git/23303550#23303550)
 * [(StackOverflow) What's the difference between 'git switch' and 'git checkout'](https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch/70454786#70454786)
+* [(StackOverflow) What are the differences between double-dot ".." and triple-dot "..." (log, diff)](https://stackoverflow.com/questions/7251477/what-are-the-differences-between-double-dot-and-triple-dot-in-git-dif/7256391#7256391)
