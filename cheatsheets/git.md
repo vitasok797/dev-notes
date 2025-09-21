@@ -255,16 +255,12 @@ git config --list --show-scope
 #### Set username and email
 ```
 git config <scope> user.name "YOUR_USERNAME"
-```
-```
 git config <scope> user.email "YOUR_EMAIL"
 ```
 
 #### ⚠️❓ Set fast-forward policy
 ```
 git config <scope> merge.ff false
-```
-```
 git config <scope> pull.ff true
 ```
 
@@ -276,16 +272,12 @@ Fast-forward policy options:
 #### Enable automatic fetch --prune
 ```
 git config <scope> fetch.prune true
-```
-```
 git config <scope> fetch.pruneTags true
 ```
 
 #### Set log format
 ```
 git config <scope> format.pretty oneline
-```
-```
 git config <scope> log.abbrevCommit true
 ```
 
