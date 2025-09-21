@@ -170,6 +170,11 @@ git merge --abort
 git diff <branchA>...<branchB> [pathspec]
 ```
 
+#### List commits on the respective side of a symmetric difference ([git-log](https://git-scm.com/docs/git-log))
+```
+git log <--left-only|--right-only> <branchA>...<branchB>
+```
+
 ### Merging / Exploring existing merge commits
 
 #### Show merge commit parents ([git-show](https://git-scm.com/docs/git-show))
