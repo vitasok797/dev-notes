@@ -204,8 +204,13 @@ git diff <new-merge-tree> <merge-commit>
 
 #### Overwrite the contents of the conflicted files ([git-checkout](https://git-scm.com/docs/git-checkout))
 ```
-git checkout [--ours|--theirs|--merge] <pathspec>
+git checkout <options> <pathspec>
 ```
+
+Options:
+* `--ours`: use "ours" file version
+* `--theirs`: use "theirs" file version
+* `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
 
 ## Pushing
 #### Push branch to specified remote and set upstream tracking (allows to pull/push without any argument) ([git-push](https://git-scm.com/docs/git-push))
