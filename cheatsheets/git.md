@@ -240,9 +240,9 @@ Options:
 
 ## Configuration 📌
 Scope options:
-* --system
-* --global
-* --local
+* `--system`
+* `--global`
+* `--local`
 
 #### Show configuration
 ```
