@@ -175,6 +175,10 @@ git diff <branchA>...<branchB> [pathspec]
 git log <--left-only|--right-only> <branchA>...<branchB>
 ```
 
+where:
+* `branchA` is left
+* `branchB` is right
+
 ### Merging / Exploring existing merge commits
 
 #### Show merge commit parents ([git-show](https://git-scm.com/docs/git-show))
