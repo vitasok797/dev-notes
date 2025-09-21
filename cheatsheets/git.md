@@ -198,6 +198,7 @@ case $? in 0) echo "OK";; 1) echo "CONFLICTS";; *) echo "ERROR";; esac
 then show conflict resolving changes:
 ```
 git diff <new-merge-tree> <merge-commit>
+git difftool <new-merge-tree> <merge-commit>
 ```
 
 ### Merging / Resolving conflicts
