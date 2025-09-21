@@ -223,6 +223,11 @@ Show "combined" diff:
 git diff -c
 ```
 
+Show staged changes:
+```
+git diff --staged
+```
+
 Show full changes:
 ```
 git diff HEAD
