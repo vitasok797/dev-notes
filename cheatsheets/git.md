@@ -213,7 +213,7 @@ options:
 * `--theirs`: use "theirs" file version
 * `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
 
-#### View changes (while resolving conflicts) ([git-diff](https://git-scm.com/docs/git-diff))
+#### View changes ([git-diff](https://git-scm.com/docs/git-diff))
 Show "dense-combined" (`--cc`) diff:
 ```
 git diff
@@ -237,6 +237,11 @@ git diff HEAD
 Show conflict resolving changes:
 ```
 git diff AUTO_MERGE
+```
+
+#### View commits touching conflicted paths ([git-log](https://git-scm.com/docs/git-log))
+```
+git log --merge -p [path]
 ```
 
 ## Pushing
