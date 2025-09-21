@@ -299,3 +299,6 @@ git config <scope> difftool.winmerge.cmd "'C:\\Program Files\\WinMerge\\WinMerge
 ```
 git config <scope> difftool.prompt false
 ```
+```
+git config <scope> difftool.guiDefault true
+```
