@@ -93,7 +93,7 @@ options:
     * `-m`: + show diff for merge commits
   * `--dd`: show diff to first-parent for both merge and regular commits
 * `--all`: show all refs
-* `--branches[=<pattern>]`: show all branches
+* `--branches[=<pattern>]`: show all local branches
 * `--merges`: show only merge commits
 * `--no-merges`: do not print commits with more than one parent
 * `--first-parent`: follow only the first parent
