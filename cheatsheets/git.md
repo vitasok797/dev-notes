@@ -15,7 +15,7 @@
 git branch [options]
 ```
 
-Options:
+options:
 * `-v`: verbose
 * `-vv`: verbose (prints linked worktree (if any) and upstream status)
 * `-a`: list both remote branches and local branches
@@ -45,7 +45,7 @@ git fetch --all --prune
 git show [options] <commit>
 ```
 
-Options:
+options:
 * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
 * `--stat`: show diffstat
 * `-p`: show diff for regular commits
@@ -64,7 +64,7 @@ git diff --check [--staged]
 git fetch [options] [remote]
 ```
 
-Options:
+options:
 * `--all`: fetch all remotes
 * `--prune`: before fetching, remove any remote-tracking references that no longer exist on the remote
 
@@ -85,7 +85,7 @@ git ls-files --eol | grep "i/crlf"
 git log [options]
 ```
 
-Options:
+options:
 * Commit info:
   * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
   * `--stat`: show diffstat
@@ -207,7 +207,7 @@ git diff <new-merge-tree> <merge-commit>
 git checkout <options> <pathspec>
 ```
 
-Options:
+options:
 * `--ours`: use "ours" file version
 * `--theirs`: use "theirs" file version
 * `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
@@ -266,7 +266,7 @@ git remote prune <remote>
 git restore [options] <files>
 ```
 
-Options:
+options:
 * `-W`, `--worktree`: restore worktree from index (default)
 * `-S`, `--staged`: restore index from HEAD
 
