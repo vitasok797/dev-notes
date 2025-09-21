@@ -100,25 +100,6 @@ options:
 * `--graph`: draw a text-based graphical representation of the commit history
 * `--topo-order`: topological order
 
-#### Show unique (not merged to master) commits in current branch ([git-log](https://git-scm.com/docs/git-log), [git-cherry](https://git-scm.com/docs/git-cherry))
-```
-git log HEAD ^master
-```
-```
-git log master..HEAD
-```
-```
-git cherry -v master
-```
-
-#### Show unique (not merged to local branch) commits in remote branch (after fetch) ([git-log](https://git-scm.com/docs/git-log))
-```
-git log <remote/branch> ^<branch>
-```
-```
-git log <branch>..<remote/branch>
-```
-
 ## Maintenance
 #### Clean the working tree (recursively, starting from the current directory) ([git-clean](https://git-scm.com/docs/git-clean))
 ```
@@ -170,9 +151,28 @@ git merge --abort
 git diff <branch2>...<branch1> [pathspec]
 ```
 
-#### List commits on the respective side of a symmetric difference ([git-log](https://git-scm.com/docs/git-log))
+#### ⚠️ List commits on the respective side of a symmetric difference ([git-log](https://git-scm.com/docs/git-log))
 ```
 git log <--left-only|--right-only> <branch-left>...<branch-right>
+```
+
+#### ⚠️ Show unique (not merged to master) commits in current branch ([git-log](https://git-scm.com/docs/git-log), [git-cherry](https://git-scm.com/docs/git-cherry))
+```
+git log HEAD ^master
+```
+```
+git log master..HEAD
+```
+```
+git cherry -v master
+```
+
+#### ⚠️ Show unique (not merged to local branch) commits in remote branch (after fetch) ([git-log](https://git-scm.com/docs/git-log))
+```
+git log <remote/branch> ^<branch>
+```
+```
+git log <branch>..<remote/branch>
 ```
 
 ### Merging / Exploring existing merge commits
