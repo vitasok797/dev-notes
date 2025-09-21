@@ -163,6 +163,8 @@ git merge --abort
 git reset --hard ORIG_HEAD
 ```
 
+### Merging / Exploring merge commits
+
 #### Show merge commit parents ([git-show](https://git-scm.com/docs/git-show))
 ```
 git show --format=raw <commit>
@@ -197,6 +199,8 @@ then show diff:
 ```
 git diff <new-merge-tree> <merge-commit>
 ```
+
+### Merging / Resolving conflicts
 
 #### Overwrite the contents of the conflicted files ([git-checkout](https://git-scm.com/docs/git-checkout))
 ```
