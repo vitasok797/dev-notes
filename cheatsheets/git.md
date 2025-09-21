@@ -289,7 +289,7 @@ git config <scope> format.pretty oneline
 git config <scope> log.abbrevCommit true
 ```
 
-#### Set Winmerge as diff GUI tool
+#### Set Winmerge as diff tool
 ```
 git config <scope> diff.guitool winmerge
 git config <scope> difftool.prompt false
@@ -297,7 +297,7 @@ git config <scope> difftool.guiDefault true
 git config <scope> difftool.winmerge.cmd "'C:\\Program Files\\WinMerge\\WinMergeU.exe' -u -fl -wr -e \"\$LOCAL\" \"\$REMOTE\""
 ```
 
-#### Set TortoiseMerge as merge GUI tool
+#### Set TortoiseMerge as merge tool
 ```
 git config <scope> merge.guitool tortoisemerge
 git config <scope> mergetool.prompt false
