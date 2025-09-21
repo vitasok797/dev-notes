@@ -297,7 +297,7 @@ git config <scope> difftool.guiDefault true
 git config <scope> difftool.winmerge.cmd "'C:\\Program Files\\WinMerge\\WinMergeU.exe' -u -fl -wr -e \"\$LOCAL\" \"\$REMOTE\""
 ```
 
-#### Set XXX as merge GUI tool
+#### Set TortoiseMerge as merge GUI tool
 ```
 git config <scope> merge.guitool tortoisemerge
 git config <scope> mergetool.prompt false
