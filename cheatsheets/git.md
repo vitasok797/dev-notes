@@ -165,7 +165,7 @@ then:
 git merge --abort
 ```
 
-### Merging / Exploring merge commits
+### Merging / Exploring existing merge commits
 
 #### Show merge commit parents ([git-show](https://git-scm.com/docs/git-show))
 ```
