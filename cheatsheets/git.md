@@ -223,7 +223,7 @@ options:
 * `--theirs`: use "theirs" file version
 * `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
 
-#### View changes ([git-diff](https://git-scm.com/docs/git-diff))
+#### View changes during conflicts resolution ([git-diff](https://git-scm.com/docs/git-diff))
 Show conflicts ("dense-combined" diff, `--cc`):
 ```
 git diff
