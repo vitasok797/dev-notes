@@ -186,6 +186,14 @@ Show diff with selected parent ([git-diff](https://git-scm.com/docs/git-diff)):
 git diff <commit>^n <commit>
 ```
 
+Show conflict resolving changes ([git-show](https://git-scm.com/docs/git-show)):
+```
+git show --cc <merge-commit>
+```
+```
+git show --remerge-diff <merge-commit>
+```
+
 #### Show merge commit conficts ([git-merge-tree](https://git-scm.com/docs/git-merge-tree), [git-diff](https://git-scm.com/docs/git-diff))
 Create merge tree:
 ```
