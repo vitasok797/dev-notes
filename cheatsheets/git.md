@@ -154,15 +154,15 @@ git diff <branch2>...<branch1> [pathspec]
 #### Show unique (not merged) commits in branch
 Option 1 ([git-log](https://git-scm.com/docs/git-log)):
 ```
-git log <--left-only|--right-only> <branch-left>...<branch-right>
+git log [--no-merges] <--left-only|--right-only> <branch-left>...<branch-right>
 ```
 
 Option 2 ([git-log](https://git-scm.com/docs/git-log)):
 ```
-git log <branch1> ^<branch2>
+git log [--no-merges] <branch1> ^<branch2>
 ```
 ```
-git log <branch2>..<branch1>
+git log [--no-merges] <branch2>..<branch1>
 ```
 
 Option 3 ([git-cherry](https://git-scm.com/docs/git-cherry)):
