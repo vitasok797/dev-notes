@@ -322,10 +322,10 @@ git config <scope> user.name "YOUR_USERNAME"
 git config <scope> user.email "YOUR_EMAIL"
 ```
 
-#### ⚠️❓ Set fast-forward policy
+#### Set fast-forward policy
 ```
 git config <scope> merge.ff false
-git config <scope> pull.ff true
+git config <scope> pull.ff only
 ```
 
 Fast-forward policy options:
