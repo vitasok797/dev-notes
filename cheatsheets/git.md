@@ -167,7 +167,7 @@ git log <branch2>..<branch1>
 
 Option 3 ([git-cherry](https://git-scm.com/docs/git-cherry)):
 ```
-git cherry -v master
+git cherry -v [upstream [head]]
 ```
 
 ### Merging / Exploring existing merge commits
