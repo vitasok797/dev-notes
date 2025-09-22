@@ -259,7 +259,7 @@ git diff AUTO_MERGE
 
 #### View commits touching conflicted paths ([git-log](https://git-scm.com/docs/git-log))
 ```
-git log --merge -p [path]
+git log --merge [-p] [--left-only|--right-only] [pathspec]
 ```
 
 ## Pushing
