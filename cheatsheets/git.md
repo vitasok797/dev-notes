@@ -360,3 +360,9 @@ git config <scope> mergetool.prompt false
 git config <scope> mergetool.guiDefault true
 git config <scope> mergetool.keepBackup false
 ```
+
+#### Set proxy
+```
+git config <scope> http.proxy <proxy>
+git config <scope> http.schannelcheckrevoke false
+```
