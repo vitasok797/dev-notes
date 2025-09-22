@@ -151,18 +151,21 @@ git merge --abort
 git diff <branch2>...<branch1> [pathspec]
 ```
 
-#### ⚠️ List commits on the respective side of a symmetric difference ([git-log](https://git-scm.com/docs/git-log))
+#### Show unique (not merged) commits in branch
+Option 1 ([git-log](https://git-scm.com/docs/git-log)):
 ```
 git log <--left-only|--right-only> <branch-left>...<branch-right>
 ```
 
-#### ⚠️ Show unique (not merged to master) commits in current branch ([git-log](https://git-scm.com/docs/git-log), [git-cherry](https://git-scm.com/docs/git-cherry))
+Option 2 ([git-log](https://git-scm.com/docs/git-log)):
 ```
-git log HEAD ^master
+git log <branch1> ^<branch2>
 ```
 ```
-git log master..HEAD
+git log <branch2>..<branch1>
 ```
+
+Option 3 ([git-cherry](https://git-scm.com/docs/git-cherry)):
 ```
 git cherry -v master
 ```
