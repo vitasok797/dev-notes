@@ -4,8 +4,9 @@
 * [GitHub Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 ## Reference 📌
-* [Reference topics](https://git-scm.com/docs)
-* [Git config](https://git-scm.com/docs/git-config)
+* [Reference](https://git-scm.com/docs)
+* [Config](https://git-scm.com/docs/git-config)
+* [Ignore](https://git-scm.com/docs/gitignore)
 * [Revisions](https://git-scm.com/docs/gitrevisions)
 * [Reset, restore and revert](https://git-scm.com/docs/git#_reset_restore_and_revert)
 
