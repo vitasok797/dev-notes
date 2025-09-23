@@ -70,12 +70,15 @@ options:
 * `--prune`: before fetching, remove any remote-tracking references that no longer exist on the remote
 
 ## List files
-#### List files EOL ([git-ls-files](https://git-scm.com/docs/git-ls-files))
+#### List files EOL and text/binary autodetection status ([git-ls-files](https://git-scm.com/docs/git-ls-files))
 ```
-git ls-files --eol [--others]
+git ls-files --eol [options]
 ```
 
-#### Find CRLF files in repo ([git-ls-files](https://git-scm.com/docs/git-ls-files))
+options:
+* `--others`: show untracked files in the output
+
+#### Find CRLF files in repository ([git-ls-files](https://git-scm.com/docs/git-ls-files))
 ```
 git ls-files --eol | grep "i/crlf"
 ```
