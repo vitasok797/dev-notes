@@ -72,7 +72,7 @@ options:
 ## List files
 #### List files EOL ([git-ls-files](https://git-scm.com/docs/git-ls-files))
 ```
-git ls-files --eol
+git ls-files --eol [--others]
 ```
 
 #### Find CRLF files in repo ([git-ls-files](https://git-scm.com/docs/git-ls-files))
