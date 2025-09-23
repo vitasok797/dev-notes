@@ -6,7 +6,8 @@
 ## Reference 📌
 * [Reference](https://git-scm.com/docs)
 * [Config](https://git-scm.com/docs/git-config)
-* [Ignore](https://git-scm.com/docs/gitignore)
+* [gitignore](https://git-scm.com/docs/gitignore)
+* [gitattributes](https://git-scm.com/docs/gitattributes)
 * [Revisions](https://git-scm.com/docs/gitrevisions)
 * [Reset, restore and revert](https://git-scm.com/docs/git#_reset_restore_and_revert)
 
