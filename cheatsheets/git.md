@@ -323,8 +323,8 @@ git config --list --show-scope
 #### Set options
 ```
 # Username and email
-git config <scope> user.name "YOUR_USERNAME"
-git config <scope> user.email "YOUR_EMAIL"
+git config <scope> user.name "<username>"
+git config <scope> user.email "<email>"
 
 # Fast-forward policy
 git config <scope> merge.ff false
@@ -342,7 +342,7 @@ git config <scope> log.abbrevCommit true
 git config <scope> diff.guitool winmerge
 git config <scope> difftool.prompt false
 git config <scope> difftool.guiDefault true
-git config <scope> difftool.winmerge.cmd "'C:\\Program Files\\WinMerge\\WinMergeU.exe' -u -fl -wr -e \"\$LOCAL\" \"\$REMOTE\""
+git config <scope> difftool.winmerge.cmd "'C:\\path\\to\\WinMergeU.exe' -u -fl -wr -e \"\$LOCAL\" \"\$REMOTE\""
 
 # Set TortoiseMerge as merge tool
 git config <scope> merge.guitool tortoisemerge
