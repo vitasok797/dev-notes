@@ -316,6 +316,11 @@ Scope options:
 * `--global`
 * `--local`
 
+Fast-forward policy options (for `merge.ff`, `pull.ff`):
+* `false` (`--no-ff`)
+* `true` (`--ff`, fast-forward when possible)
+* `only` (`--ff-only`)
+
 #### Show configuration
 ```
 git config --list --show-origin
@@ -335,11 +340,6 @@ git config <scope> user.email "YOUR_EMAIL"
 git config <scope> merge.ff false
 git config <scope> pull.ff only
 ```
-
-Fast-forward policy options:
-* `false` (`--no-ff`)
-* `true` (`--ff`, fast-forward when possible)
-* `only` (`--ff-only`)
 
 #### Enable automatic fetch --prune
 ```
