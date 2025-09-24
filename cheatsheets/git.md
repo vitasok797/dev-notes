@@ -240,7 +240,7 @@ options:
 * `--theirs`: use "theirs" file version
 * `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
 
-#### View changes during conflicts resolution ([git-diff](https://git-scm.com/docs/git-diff))
+#### View changes during conflicts resolution ([git-diff](https://git-scm.com/docs/git-diff), [git-difftool](https://git-scm.com/docs/git-difftool))
 Show conflicts ("dense-combined" diff, `--cc`):
 ```
 git diff
@@ -253,17 +253,17 @@ git diff -c
 
 Show staged changes:
 ```
-git diff --staged
+git diff[tool] --staged
 ```
 
 Show full diff:
 ```
-git diff HEAD
+git diff[tool] HEAD
 ```
 
 Show conflict resolving changes:
 ```
-git diff AUTO_MERGE
+git diff[tool] AUTO_MERGE
 ```
 
 #### View commits touching conflicted paths ([git-log](https://git-scm.com/docs/git-log))
