@@ -327,6 +327,7 @@ git config <scope> user.name "<username>"
 git config <scope> user.email "<email>"
 
 # EOL conversion
+git config <scope> core.eol native
 git config <scope> core.autocrlf true
 
 # Fast-forward policy
