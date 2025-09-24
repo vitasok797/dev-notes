@@ -326,6 +326,9 @@ git config --list --show-scope
 git config <scope> user.name "<username>"
 git config <scope> user.email "<email>"
 
+# EOL conversion
+git config <scope> core.autocrlf true
+
 # Fast-forward policy
 git config <scope> merge.ff false
 git config <scope> pull.ff only
@@ -355,10 +358,14 @@ git config <scope> http.proxy <proxy>
 git config <scope> http.schannelcheckrevoke false
 ```
 
-Scope options:
+`<scope>` options:
 * `--system`
 * `--global`
 * `--local`
+
+`core.autocrlf` options:
+* `input`: Git will convert CRLF to LF during commit (Linux, Windows)
+* `true`: Git will convert CRLF to LF during commit and LF to CRLF during checkout (Windows)
 
 Fast-forward policy options (for `merge.ff`, `pull.ff`):
 * `false` (`--no-ff`)
