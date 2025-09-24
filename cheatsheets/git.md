@@ -194,9 +194,9 @@ Show diff with first parent ([git-show](https://git-scm.com/docs/git-show)):
 git show --dd <commit>
 ```
 
-Show diff with selected parent ([git-diff](https://git-scm.com/docs/git-diff)):
+Show diff with selected parent ([git-diff](https://git-scm.com/docs/git-diff), [git-difftool](https://git-scm.com/docs/git-difftool)):
 ```
-git diff <commit>^n <commit>
+git diff[tool] <commit>^n <commit>
 ```
 
 Show conflict resolving changes ([git-show](https://git-scm.com/docs/git-show)):
