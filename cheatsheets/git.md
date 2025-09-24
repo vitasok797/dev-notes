@@ -152,9 +152,9 @@ then:
 git merge --abort
 ```
 
-#### View diff between `branch1` and its common ancestor with branch `branch2` ([git-diff](https://git-scm.com/docs/git-diff))
+#### View diff between `branch1` and its common ancestor with branch `branch2` ([git-diff](https://git-scm.com/docs/git-diff), [git-difftool](https://git-scm.com/docs/git-difftool))
 ```
-git diff <branch2>...<branch1> [pathspec]
+git diff[tool] <branch2>...<branch1> [pathspec]
 ```
 
 #### Show unique (not merged) commits in branch
