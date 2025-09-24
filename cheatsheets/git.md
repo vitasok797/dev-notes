@@ -329,48 +329,36 @@ git config --list --show-origin
 git config --list --show-scope
 ```
 
-#### Set username and email
 ```
+#### Set username and email
 git config <scope> user.name "YOUR_USERNAME"
 git config <scope> user.email "YOUR_EMAIL"
-```
 
 #### Set fast-forward policy
-```
 git config <scope> merge.ff false
 git config <scope> pull.ff only
-```
 
 #### Enable automatic fetch --prune
-```
 git config <scope> fetch.prune true
 git config <scope> fetch.pruneTags true
-```
 
 #### Set log format
-```
 git config <scope> format.pretty oneline
 git config <scope> log.abbrevCommit true
-```
 
 #### Set Winmerge as diff tool
-```
 git config <scope> diff.guitool winmerge
 git config <scope> difftool.prompt false
 git config <scope> difftool.guiDefault true
 git config <scope> difftool.winmerge.cmd "'C:\\Program Files\\WinMerge\\WinMergeU.exe' -u -fl -wr -e \"\$LOCAL\" \"\$REMOTE\""
-```
 
 #### Set TortoiseMerge as merge tool
-```
 git config <scope> merge.guitool tortoisemerge
 git config <scope> mergetool.prompt false
 git config <scope> mergetool.guiDefault true
 git config <scope> mergetool.keepBackup false
-```
 
 #### Set proxy
-```
 git config <scope> http.proxy <proxy>
 git config <scope> http.schannelcheckrevoke false
 ```
