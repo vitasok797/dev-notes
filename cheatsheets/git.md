@@ -7,8 +7,10 @@
 * [Reference](https://git-scm.com/docs)
 * [Revisions](https://git-scm.com/docs/gitrevisions)
 * [Reset, restore and revert](https://git-scm.com/docs/git#_reset_restore_and_revert)
-* [gitignore](https://git-scm.com/docs/gitignore)
+
+## Repository configuration 📌
 * [gitattributes](https://git-scm.com/docs/gitattributes)
+* [gitignore](https://git-scm.com/docs/gitignore)
 
 ## Branches
 #### List branches ([git-branch](https://git-scm.com/docs/git-branch))
