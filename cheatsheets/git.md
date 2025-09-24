@@ -321,22 +321,12 @@ git config --list --show-scope
 ```
 
 #### Set options
-Scope options:
-* `--system`
-* `--global`
-* `--local`
-
-Fast-forward policy options (for `merge.ff`, `pull.ff`):
-* `false` (`--no-ff`)
-* `true` (`--ff`, fast-forward when possible)
-* `only` (`--ff-only`)
-
 ```
-# Set username and email
+# Username and email
 git config <scope> user.name "YOUR_USERNAME"
 git config <scope> user.email "YOUR_EMAIL"
 
-# Set fast-forward policy
+# Fast-forward policy
 git config <scope> merge.ff false
 git config <scope> pull.ff only
 
@@ -344,7 +334,7 @@ git config <scope> pull.ff only
 git config <scope> fetch.prune true
 git config <scope> fetch.pruneTags true
 
-# Set log format
+# Log format
 git config <scope> format.pretty oneline
 git config <scope> log.abbrevCommit true
 
@@ -360,7 +350,17 @@ git config <scope> mergetool.prompt false
 git config <scope> mergetool.guiDefault true
 git config <scope> mergetool.keepBackup false
 
-# Set proxy
+# Proxy
 git config <scope> http.proxy <proxy>
 git config <scope> http.schannelcheckrevoke false
 ```
+
+Scope options:
+* `--system`
+* `--global`
+* `--local`
+
+Fast-forward policy options (for `merge.ff`, `pull.ff`):
+* `false` (`--no-ff`)
+* `true` (`--ff`, fast-forward when possible)
+* `only` (`--ff-only`)
