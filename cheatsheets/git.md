@@ -344,6 +344,10 @@ git config <scope> fetch.pruneTags true
 git config <scope> format.pretty oneline
 git config <scope> log.abbrevCommit true
 
+# Status format
+git config <scope> status.short true
+git config <scope> status.branch true
+
 # Set Winmerge as diff tool
 git config <scope> diff.guitool winmerge
 git config <scope> difftool.prompt false
