@@ -5,7 +5,6 @@
 
 ## Reference 📌
 * [Reference](https://git-scm.com/docs)
-* [Config](https://git-scm.com/docs/git-config)
 * [Revisions](https://git-scm.com/docs/gitrevisions)
 * [Reset, restore and revert](https://git-scm.com/docs/git#_reset_restore_and_revert)
 * [gitignore](https://git-scm.com/docs/gitignore)
@@ -311,6 +310,17 @@ options:
 🚧 [git-worktree](https://git-scm.com/docs/git-worktree)
 
 ## Configuration 📌
+[git-config](https://git-scm.com/docs/git-config)
+
+#### Show configuration
+```
+git config --list --show-origin
+```
+```
+git config --list --show-scope
+```
+
+#### Set options
 Scope options:
 * `--system`
 * `--global`
@@ -321,44 +331,36 @@ Fast-forward policy options (for `merge.ff`, `pull.ff`):
 * `true` (`--ff`, fast-forward when possible)
 * `only` (`--ff-only`)
 
-#### Show configuration
 ```
-git config --list --show-origin
-```
-```
-git config --list --show-scope
-```
-
-```
-#### Set username and email
+# Set username and email
 git config <scope> user.name "YOUR_USERNAME"
 git config <scope> user.email "YOUR_EMAIL"
 
-#### Set fast-forward policy
+# Set fast-forward policy
 git config <scope> merge.ff false
 git config <scope> pull.ff only
 
-#### Enable automatic fetch --prune
+# Enable automatic fetch --prune
 git config <scope> fetch.prune true
 git config <scope> fetch.pruneTags true
 
-#### Set log format
+# Set log format
 git config <scope> format.pretty oneline
 git config <scope> log.abbrevCommit true
 
-#### Set Winmerge as diff tool
+# Set Winmerge as diff tool
 git config <scope> diff.guitool winmerge
 git config <scope> difftool.prompt false
 git config <scope> difftool.guiDefault true
 git config <scope> difftool.winmerge.cmd "'C:\\Program Files\\WinMerge\\WinMergeU.exe' -u -fl -wr -e \"\$LOCAL\" \"\$REMOTE\""
 
-#### Set TortoiseMerge as merge tool
+# Set TortoiseMerge as merge tool
 git config <scope> merge.guitool tortoisemerge
 git config <scope> mergetool.prompt false
 git config <scope> mergetool.guiDefault true
 git config <scope> mergetool.keepBackup false
 
-#### Set proxy
+# Set proxy
 git config <scope> http.proxy <proxy>
 git config <scope> http.schannelcheckrevoke false
 ```
