@@ -50,10 +50,15 @@ git show [options] <commit>
 
 options:
 * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
-* `--stat`: show diffstat
-* `-p`: show diff for regular commits
-  * `-m`: + show diff for merge commits
-* `--dd`: show diff to first-parent for both merge and regular commits
+* Show diffstat:
+  * `--stat`
+  * `--dirstat-by-file`
+  * `--name-only`
+  * `--name-status`
+* Show diff:
+  * `-p`: show diff for regular commits
+    * `-m`: + show diff for merge commits
+  * `--dd`: show diff to first-parent for both merge and regular commits
 
 ## Diff
 #### Check for conflict markers or whitespace errors ([git-diff](https://git-scm.com/docs/git-diff))
@@ -94,16 +99,22 @@ git log [options]
 options:
 * Commit info:
   * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
-  * `--stat`: show diffstat
-  * `-p`: show diff for regular commits
-    * `-m`: + show diff for merge commits
-  * `--dd`: show diff to first-parent for both merge and regular commits
+  * Show diffstat:
+    * `--stat`
+    * `--dirstat-by-file`
+    * `--name-only`
+    * `--name-status`
+  * Show diff:
+    * `-p`: show diff for regular commits
+      * `-m`: + show diff for merge commits
+    * `--dd`: show diff to first-parent for both merge and regular commits
 * `--all`: show all refs
 * `--branches[=<pattern>]`: show all local branches
 * `--merges`: show only merge commits
 * `--no-merges`: do not print commits with more than one parent
 * `--first-parent`: follow only the first parent
 * `--graph`: draw a text-based graphical representation of the commit history
+* `--boundary`: output excluded boundary commits
 * `--topo-order`: topological order
 
 ## Maintenance
