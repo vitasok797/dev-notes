@@ -332,9 +332,10 @@ git config <scope> user.email "<email>"
 git config <scope> core.eol native
 git config <scope> core.autocrlf true
 
-# Fast-forward policy
+# Fast-forward and rebase policy
 git config <scope> merge.ff false
 git config <scope> pull.ff only
+git config <scope> pull.rebase false
 
 # Enable automatic fetch --prune
 git config <scope> fetch.prune true
