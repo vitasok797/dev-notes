@@ -171,7 +171,7 @@ git diff[tool] <branch2>...<branch1> [pathspec]
 #### Show unique (not merged) commits in branch
 Option 1 ([git-log](https://git-scm.com/docs/git-log)):
 ```
-git log [--no-merges] <--left-only|--right-only> <branch-left>...<branch-right>
+git log [--boundary --graph] [--left-only|--right-only] [--no-merges] [--stat|--name-status|-p] <branch-left>...<branch-right>
 ```
 
 Option 2 ([git-log](https://git-scm.com/docs/git-log)):
