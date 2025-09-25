@@ -49,7 +49,7 @@ git show [options] <commit>
 ```
 
 options:
-* `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
+* `--format=<format>`: output format (`short`, `medium`, `full`, `fuller`, `raw`)
 * Show diffstat:
   * `--stat`
   * `--name-only`
@@ -98,7 +98,7 @@ git log [options]
 
 options:
 * Commit info:
-  * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
+  * `--format=<format>`: output format (`short`, `medium`, `full`, `fuller`, `raw`)
   * Show diffstat:
     * `--stat`
     * `--name-only`
