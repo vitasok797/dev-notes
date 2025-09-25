@@ -52,9 +52,9 @@ options:
 * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
 * Show diffstat:
   * `--stat`
-  * `--dirstat-by-file`
   * `--name-only`
   * `--name-status`
+  * `--dirstat-by-file`
 * Show diff:
   * `-p`: show diff for regular commits
     * `-m`: + show diff for merge commits
@@ -101,9 +101,9 @@ options:
   * `--format=<format>`: output format (`short`, `medium`, `full`, `raw`)
   * Show diffstat:
     * `--stat`
-    * `--dirstat-by-file`
     * `--name-only`
     * `--name-status`
+    * `--dirstat-by-file`
   * Show diff:
     * `-p`: show diff for regular commits
       * `-m`: + show diff for merge commits
