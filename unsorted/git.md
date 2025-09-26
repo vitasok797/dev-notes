@@ -15,7 +15,6 @@
 * [(Habr) ХХ полезных советов для пользователей Git среднего уровня. Часть 1](https://habr.com/ru/articles/75728/)
 * [(Habr) ХХ полезных советов для пользователей Git среднего уровня. Часть 2](https://habr.com/ru/articles/76084/)
 * [(Habr) Ежедневный Git](https://habr.com/ru/articles/28268/)
-* [(Habr) Git Workflow](https://habr.com/ru/articles/60030/)
 * [(Habr) Git Wizardry](https://habr.com/ru/articles/60347/)
 * [(Habr) Про Git на пальцах (для переходящих с SVN)](https://habr.com/ru/articles/68341/)
 * [(StackOverflow) Git workflow and rebase vs merge questions](https://stackoverflow.com/questions/457927/git-workflow-and-rebase-vs-merge-questions)
