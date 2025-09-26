@@ -26,6 +26,17 @@ options:
 * `--merged [commit]`: merged into the commit (commit defaults to HEAD)
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
 
+#### Create a local branch that tracks a remote branch
+```
+git switch <remote-branch-name>
+```
+```
+git switch -c <local-branch-name> <remote>/<remote-branch-name>
+```
+```
+git branch --track <local-branch-name> <remote>/<remote-branch-name>
+```
+
 #### Push branch to specified remote and set upstream tracking ([git-push](https://git-scm.com/docs/git-push))
 ```
 git push -u <remote> <branch>
