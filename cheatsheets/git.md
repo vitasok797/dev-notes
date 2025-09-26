@@ -26,6 +26,11 @@ options:
 * `--merged [commit]`: merged into the commit (commit defaults to HEAD)
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
 
+#### Push branch to specified remote and set upstream tracking ([git-push](https://git-scm.com/docs/git-push))
+```
+git push -u <remote> <branch>
+```
+
 #### Delete remote branch
 Delete remote branch ([git-push](https://git-scm.com/docs/git-push)):
 ```
@@ -280,12 +285,6 @@ git diff[tool] AUTO_MERGE
 #### View commits touching conflicted paths ([git-log](https://git-scm.com/docs/git-log))
 ```
 git log --merge [-p] [--left-only|--right-only] [pathspec]
-```
-
-## Pushing
-#### Push branch to specified remote and set upstream tracking (allows to pull/push without any argument) ([git-push](https://git-scm.com/docs/git-push))
-```
-git push -u <remote> <branch>
 ```
 
 ## Remote
