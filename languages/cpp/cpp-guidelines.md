@@ -656,25 +656,45 @@ auto non_optional_raw_ptr = vsl::checked_get_ptr(shared_ptr);
 
 #### Range-based `for`
 
+Error example 1:
 ```cpp
-for (const auto& el : get_struct().get_vector()) {...}
-```
+for (const auto& el : get_struct().get_vector())
+{
+    // use el
+}
 
-Undefined behavior if:
-* `get_struct()` returns by value
-* `get_vector()` returns by ref
-
-Internals:
-```cpp
+// internals
 const std::vector<int, std::allocator<int>> & __range = static_cast<const S &&>(get_struct()).get_vector();
 __gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __begin = __range.begin();
 __gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __end = __range.end();
 for(; !__gnu_cxx::operator==(__begin, __end); __begin.operator++())
 {
     const int & el = __begin.operator*();
-    ...
+    // use el
 }
 ```
+
+Error example 2:
+```cpp
+for (auto el : get_struct().get_vector())
+{
+    // use el
+}
+
+// internals
+const std::vector<int, std::allocator<int>> & __range = static_cast<const S &&>(get_struct()).get_vector();
+__gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __begin = __range.begin();
+__gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __end = __range.end();
+for(; !__gnu_cxx::operator==(__begin, __end); __begin.operator++())
+{
+    int el = __begin.operator*();
+    // use el
+}
+```
+
+Undefined behavior if:
+* `get_struct()` returns by value
+* `get_vector()` returns by ref
 
 How to avoid the *range-based* `for` [issue](https://pvs-studio.com/en/blog/posts/cpp/1149/#ID313A10ACA8):
 * Never use any expression after a colon (:) in the loop header. Use only variables or its fields
