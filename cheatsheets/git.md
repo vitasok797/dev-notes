@@ -286,7 +286,7 @@ git diff[tool] AUTO_MERGE
 
 #### View commits touching conflicted paths ([git-log](https://git-scm.com/docs/git-log))
 ```
-git log --merge [-p] [--left-only|--right-only] [pathspec]
+git log --merge [--boundary --graph] [--left-only|--right-only] [--stat|--name-status|-p] [pathspec]
 ```
 
 #### View information about unmerged files ([git-ls-files](https://git-scm.com/docs/git-ls-files))
