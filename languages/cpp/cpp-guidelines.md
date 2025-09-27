@@ -654,7 +654,7 @@ auto non_optional_raw_ptr = vsl::checked_get_ptr(shared_ptr);
 <details>
 <summary>🚧 Dangling references</summary>
 
-#### Range-based for
+#### Range-based `for`
 
 ```cpp
 for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
@@ -662,18 +662,20 @@ for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
                                                    //   - items() returns by ref
 ```
 
-How to avoid the *range-based for* [issue](https://pvs-studio.com/en/blog/posts/cpp/1149/#ID313A10ACA8):
+How to avoid the *range-based* `for` [issue](https://pvs-studio.com/en/blog/posts/cpp/1149/#ID313A10ACA8):
 * Never use any expression after a colon (:) in the loop header. Use only variables or its fields
 * In C++20, use the range-based for syntax with the initializer: for (auto cont = expr; auto x : cont)
 * Use std::ranges::for_each
 * ❓ Never forget to do the rvalue overload for any const methods
 
+Solution 1:
 ```cpp
-for (const auto& s = get_struct(); const auto& el : s.items()) { func(el); }  // OK
+for (const auto& s = get_struct(); const auto& el : s.items()) { func(el); }
 ```
 
+Solution 2:
 ```cpp
-ranges::for_each(get_struct().items(), func);  // OK
+std::ranges::for_each(get_struct().items(), func);
 ```
 
 #### Structured binding
@@ -682,7 +684,7 @@ ranges::for_each(get_struct().items(), func);  // OK
 
 #### Complex demo
 
-▶️[**Demo**](https://godbolt.org/z/1qbb17q6c)
+▶️[**Demo**](https://godbolt.org/z/YsEjsbEWK)
 
 </details>
 
