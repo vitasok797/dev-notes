@@ -652,7 +652,7 @@ auto non_optional_raw_ptr = vsl::checked_get_ptr(shared_ptr);
 ## Errors (typical)
 
 <details>
-<summary>🚧 Dangling references</summary>
+<summary>Dangling references</summary>
 
 #### Range-based `for`
 
@@ -664,12 +664,12 @@ for (const auto& el : get_struct().get_vector())
 }
 
 // internals
-const std::vector<int, std::allocator<int>> & __range = static_cast<const S &&>(get_struct()).get_vector();
-__gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __begin = __range.begin();
-__gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __end = __range.end();
-for(; !__gnu_cxx::operator==(__begin, __end); __begin.operator++())
+const std::vector<int> & __range = static_cast<const S &&>(get_struct()).get_vector();
+... __begin = __range.begin();
+... __end = __range.end();
+for(; !(__begin == __end); ++__begin)
 {
-    const int & el = __begin.operator*();
+    const int & el = *__begin;
     // use el
 }
 ```
@@ -682,12 +682,12 @@ for (auto el : get_struct().get_vector())
 }
 
 // internals
-const std::vector<int, std::allocator<int>> & __range = static_cast<const S &&>(get_struct()).get_vector();
-__gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __begin = __range.begin();
-__gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __end = __range.end();
-for(; !__gnu_cxx::operator==(__begin, __end); __begin.operator++())
+const std::vector<int> & __range = static_cast<const S &&>(get_struct()).get_vector();
+... __begin = __range.begin();
+... __end = __range.end();
+for(; !(__begin == __end); ++__begin)
 {
-    int el = __begin.operator*();
+    int el = *__begin;
     // use el
 }
 ```
@@ -721,8 +721,8 @@ const auto& [a, b] = get_struct().get_tuple();
 
 // internals
 const std::tuple<std::vector<int, std::allocator<int>>, int> & __tuple = static_cast<const S &&>(get_struct()).get_tuple();
-const std::vector<int, std::allocator<int>> & a = std::get<0UL>(__tuple);
-const int & b = std::get<1UL>(__tuple);
+const std::vector<int> & a = std::get<0>(__tuple);
+const int & b = std::get<1>(__tuple);
 // use a
 ```
 
@@ -743,9 +743,9 @@ const auto [a, b] = get_struct().get_tuple();
 // use a
 
 // internals
-const std::tuple<std::vector<int, std::allocator<int>>, int> __tuple = std::tuple<std::vector<int, std::allocator<int>>, int>(static_cast<const S &&>(get_struct()).get_tuple());
-const std::vector<int, std::allocator<int>> && a = std::get<0UL>(static_cast<const std::tuple<std::vector<int, std::allocator<int>>, int> &&>(__tuple));
-const int && b = std::get<1UL>(static_cast<const std::tuple<std::vector<int, std::allocator<int>>, int> &&>(__tuple));
+const std::tuple<std::vector<int, std::allocator<int>>, int> __tuple = std::tuple<std::vector<int>, int>(static_cast<const S &&>(get_struct()).get_tuple());
+const std::vector<int> && a = std::get<0>(static_cast<const std::tuple<std::vector<int>, int> &&>(__tuple));
+const int && b = std::get<1>(static_cast<const std::tuple<std::vector<int>, int> &&>(__tuple));
 // use a
 ```
 
