@@ -257,16 +257,6 @@ git diff[tool] <new-merge-tree> <merge-commit>
 
 ### Merging / Resolving conflicts
 
-#### Overwrite the contents of the conflicted files ([git-checkout](https://git-scm.com/docs/git-checkout))
-```
-git checkout <options> <pathspec>
-```
-
-options:
-* `--ours`: use "ours" file version
-* `--theirs`: use "theirs" file version
-* `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
-
 #### View changes during conflicts resolution ([git-diff](https://git-scm.com/docs/git-diff), [git-difftool](https://git-scm.com/docs/git-difftool))
 Show conflicts ("dense-combined" diff, `--cc`):
 ```
@@ -297,6 +287,16 @@ git diff[tool] AUTO_MERGE
 ```
 git log --merge [-p] [--left-only|--right-only] [pathspec]
 ```
+
+#### Overwrite the contents of the conflicted files ([git-checkout](https://git-scm.com/docs/git-checkout))
+```
+git checkout <options> <pathspec>
+```
+
+options:
+* `--ours`: use "ours" file version
+* `--theirs`: use "theirs" file version
+* `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
 
 ## Remote
 #### Show remotes ([git-remote](https://git-scm.com/docs/git-remote))
