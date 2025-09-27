@@ -288,6 +288,11 @@ git diff[tool] AUTO_MERGE
 git log --merge [-p] [--left-only|--right-only] [pathspec]
 ```
 
+#### View unmerged file stages ([git-ls-files](https://git-scm.com/docs/git-ls-files))
+```
+git ls-files --unmerged
+```
+
 #### Overwrite the contents of the conflicted files ([git-checkout](https://git-scm.com/docs/git-checkout))
 ```
 git checkout <options> <pathspec>
