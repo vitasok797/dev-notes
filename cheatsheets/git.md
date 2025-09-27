@@ -164,7 +164,7 @@ Fast-forward options:
 git reset --hard ORIG_HEAD
 ```
 
-### Merging / Before merge
+### Merging / Before merge state
 
 #### Check fast-forward merge possibility ([git-merge](https://git-scm.com/docs/git-merge), [git-reset](https://git-scm.com/docs/git-reset))
 ```
