@@ -660,6 +660,12 @@ auto non_optional_raw_ptr = vsl::checked_get_ptr(shared_ptr);
 for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
                                                    //   - get_struct() returns by value
                                                    //   - items() returns by ref
+
+// internals
+const std::vector<int, std::allocator<int>> & __range1 = static_cast<const S &&>(get_struct()).items();
+__gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __begin1 = __range1.begin();
+__gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __end1 = __range1.end();
+for(; !__gnu_cxx::operator==(__begin1, __end1); __begin1.operator++()) {...}
 ```
 
 How to avoid the *range-based* `for` [issue](https://pvs-studio.com/en/blog/posts/cpp/1149/#ID313A10ACA8):
