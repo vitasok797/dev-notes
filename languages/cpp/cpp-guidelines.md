@@ -660,7 +660,7 @@ Error example 1:
 ```cpp
 for (const auto& el : get_struct().get_vector())
 {
-    // use el
+    use_element(el);
 }
 
 // internals
@@ -670,7 +670,7 @@ const std::vector<int> & __range = static_cast<const S &&>(get_struct()).get_vec
 for(; !(__begin == __end); ++__begin)
 {
     const int & el = *__begin;
-    // use el
+    use_element(el);
 }
 ```
 
@@ -678,7 +678,7 @@ Error example 2:
 ```cpp
 for (auto el : get_struct().get_vector())
 {
-    // use el
+    use_element(el);
 }
 
 // internals
@@ -688,7 +688,7 @@ const std::vector<int> & __range = static_cast<const S &&>(get_struct()).get_vec
 for(; !(__begin == __end); ++__begin)
 {
     int el = *__begin;
-    // use el
+    use_element(el);
 }
 ```
 
@@ -704,12 +704,15 @@ How to avoid the *range-based* `for` [issue](https://pvs-studio.com/en/blog/post
 
 Solution 1:
 ```cpp
-for (const auto& s = get_struct(); const auto& el : s.get_vector()) { func(el); }
+for (const auto& s = get_struct(); const auto& el : s.get_vector())
+{
+use_element(el);
+}
 ```
 
 Solution 2:
 ```cpp
-std::ranges::for_each(get_struct().get_vector(), func);
+std::ranges::for_each(get_struct().get_vector(), use_element);
 ```
 
 #### Structured binding
@@ -717,13 +720,13 @@ std::ranges::for_each(get_struct().get_vector(), func);
 Error example 1:
 ```cpp
 const auto& [a, b] = get_struct().get_tuple();
-// use a
+use_tuple_elements(a, b);
 
 // internals
 const std::tuple<std::vector<int, std::allocator<int>>, int> & __tuple = static_cast<const S &&>(get_struct()).get_tuple();
 const std::vector<int> & a = std::get<0>(__tuple);
 const int & b = std::get<1>(__tuple);
-// use a
+use_tuple_elements(a, b);
 ```
 
 Undefined behavior if:
@@ -734,19 +737,19 @@ Solution 1:
 ```cpp
 const auto& s = get_struct();
 const auto& [a, b] = s.get_tuple();
-// use a
+use_tuple_elements(a, b);
 ```
 
 Solution 2:
 ```cpp
 const auto [a, b] = get_struct().get_tuple();
-// use a
+use_tuple_elements(a, b);
 
 // internals
 const std::tuple<std::vector<int, std::allocator<int>>, int> __tuple = std::tuple<std::vector<int>, int>(static_cast<const S &&>(get_struct()).get_tuple());
 const std::vector<int> && a = std::get<0>(static_cast<const std::tuple<std::vector<int>, int> &&>(__tuple));
 const int && b = std::get<1>(static_cast<const std::tuple<std::vector<int>, int> &&>(__tuple));
-// use a
+use_tuple_elements(a, b);
 ```
 
 #### Complex demo
