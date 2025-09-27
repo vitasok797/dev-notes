@@ -7,6 +7,7 @@
 * [Reference](https://git-scm.com/docs)
 * [Revisions](https://git-scm.com/docs/gitrevisions)
 * [Reset, restore and revert](https://git-scm.com/docs/git#_reset_restore_and_revert)
+* [Status short output format](https://git-scm.com/docs/git-status#_short_format)
 
 ## Repository configuration 📌
 * [gitattributes](https://git-scm.com/docs/gitattributes)
