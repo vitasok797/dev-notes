@@ -290,7 +290,7 @@ git log --merge [-p] [--left-only|--right-only] [pathspec]
 
 #### View information about unmerged files ([git-ls-files](https://git-scm.com/docs/git-ls-files))
 ```
-git ls-files --unmerged
+git ls-files [-u|--unmerged]
 ```
 
 #### Overwrite the contents of the conflicted files ([git-checkout](https://git-scm.com/docs/git-checkout))
