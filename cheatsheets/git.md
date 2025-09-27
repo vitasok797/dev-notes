@@ -288,7 +288,7 @@ git diff[tool] AUTO_MERGE
 git log --merge [-p] [--left-only|--right-only] [pathspec]
 ```
 
-#### View unmerged file stages ([git-ls-files](https://git-scm.com/docs/git-ls-files))
+#### View information about unmerged files ([git-ls-files](https://git-scm.com/docs/git-ls-files))
 ```
 git ls-files --unmerged
 ```
