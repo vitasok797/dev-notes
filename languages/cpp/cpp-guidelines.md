@@ -714,7 +714,35 @@ std::ranges::for_each(get_struct().get_vector(), func);
 
 #### Structured binding
 
+Error example 1:
+```cpp
+const auto& [a, b] = get_struct().get_tuple();
+// use a
 
+// internals
+const std::tuple<std::vector<int, std::allocator<int>>, int> & __tuple = static_cast<const S &&>(get_struct()).get_tuple();
+const std::vector<int, std::allocator<int>> & a = std::get<0UL>(__tuple);
+const int & b = std::get<1UL>(__tuple);
+// use a
+```
+
+Error example 2:
+```cpp
+```
+
+Undefined behavior if:
+* `get_struct()` returns by value
+* `get_tuple()` returns by ref
+
+Solution 1:
+```cpp
+const auto& s = create_struct();
+const auto& [vg2, _g2] = s.get_tuple();
+```
+
+Solution 2:
+```cpp
+```
 
 #### Complex demo
 
