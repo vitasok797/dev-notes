@@ -726,22 +726,27 @@ const int & b = std::get<1UL>(__tuple);
 // use a
 ```
 
-Error example 2:
-```cpp
-```
-
 Undefined behavior if:
 * `get_struct()` returns by value
 * `get_tuple()` returns by ref
 
 Solution 1:
 ```cpp
-const auto& s = create_struct();
-const auto& [vg2, _g2] = s.get_tuple();
+const auto& s = get_struct();
+const auto& [a, b] = s.get_tuple();
+// use a
 ```
 
 Solution 2:
 ```cpp
+const auto [a, b] = get_struct().get_tuple();
+// use a
+
+// internals
+const std::tuple<std::vector<int, std::allocator<int>>, int> __tuple = std::tuple<std::vector<int, std::allocator<int>>, int>(static_cast<const S &&>(get_struct()).get_tuple());
+const std::vector<int, std::allocator<int>> && a = std::get<0UL>(static_cast<const std::tuple<std::vector<int, std::allocator<int>>, int> &&>(__tuple));
+const int && b = std::get<1UL>(static_cast<const std::tuple<std::vector<int, std::allocator<int>>, int> &&>(__tuple));
+// use a
 ```
 
 #### Complex demo
