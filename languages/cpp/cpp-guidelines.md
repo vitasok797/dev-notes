@@ -660,8 +660,10 @@ auto non_optional_raw_ptr = vsl::checked_get_ptr(shared_ptr);
 for (const auto& el : get_struct().items()) {...}  // undefined behavior if:
                                                    //   - get_struct() returns by value
                                                    //   - items() returns by ref
+```
 
-// internals
+Internals:
+```cpp
 const std::vector<int, std::allocator<int>> & __range1 = static_cast<const S &&>(get_struct()).items();
 __gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __begin1 = __range1.begin();
 __gnu_cxx::__normal_iterator<const int *, std::vector<int, std::allocator<int>>> __end1 = __range1.end();
