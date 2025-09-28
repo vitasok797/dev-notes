@@ -91,7 +91,7 @@ See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
   * [git-igitt](https://github.com/mlange-42/git-igitt)
 * VSCode extensions:
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-  * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) ([Git Graph v3](https://marketplace.visualstudio.com/items?itemName=Gxl.git-graph-3))
+  * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) ([fork](https://marketplace.visualstudio.com/items?itemName=Gxl.git-graph-3))
   * [Git Blame](https://marketplace.visualstudio.com/items?itemName=solomonkinard.git-blame)
   * [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
 
