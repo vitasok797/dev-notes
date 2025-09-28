@@ -62,17 +62,20 @@
 
 See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
 
-## GUI Tools
+## Tools
 * [Windows GUI Clients](https://git-scm.com/downloads/guis?os=windows)
 * [(Habr) GUI для Git: подборка популярных решений](https://habr.com/ru/articles/741016/)
 * [(Habr) Git — сравнение Visual Studio 2022 с MeGit/EGit и SourceTree](https://habr.com/ru/companies/ruvds/articles/683576/)
 * [(Habr) Текущее состояние инструментов. Взгляд пользователя (2011)](https://habr.com/ru/articles/112648/)
-* GUI clients:
+* GUI:
   * ⭐ [SourceGit](https://sourcegit-scm.github.io/)
   * ⭐ [TortoiseGit](https://tortoisegit.org/)
   * [Git Extensions](https://gitextensions.github.io/)
   * [GitHub Desktop](https://github.com/apps/desktop)
   * [Sourcetree](https://www.sourcetreeapp.com/)
+* TUI:
+  * [git-graph](https://github.com/mlange-42/git-graph)
+  * [git-igitt](https://github.com/mlange-42/git-igitt)
 
 ## Merge
 * [(StackOverflow) How do I safely merge a Git branch into master?](https://stackoverflow.com/questions/5601931/how-do-i-safely-merge-a-git-branch-into-master)
