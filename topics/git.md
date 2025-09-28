@@ -25,9 +25,9 @@
 * [Git branching strategies](https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-git-branch-approach/git-branching-strategies.html)
 * [Comparing Git workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
 * [Linus Torvalds: git pull](https://www.mail-archive.com/dri-devel@lists.sourceforge.net/msg39091.html)
-* [(Paul Hammant) Articles](https://paulhammant.com/categories#Branch_by_Abstraction,_etc)
-* [(Paul Hammant) What is Trunk-Based Development?](https://paulhammant.com/2013/04/05/what-is-trunk-based-development/)
 * ⭐ [Trunk-Based Development site](https://trunkbaseddevelopment.com/)
+* [(Paul Hammant) Trunk-Based development articles](https://paulhammant.com/categories#Branch_by_Abstraction,_etc)
+* [(Paul Hammant) What is Trunk-Based Development?](https://paulhammant.com/2013/04/05/what-is-trunk-based-development/)
 
 ### Branching and workflow / Branch by abstraction
 * [(Martin Fowler) Branch By Abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
