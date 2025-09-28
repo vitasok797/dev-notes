@@ -85,15 +85,18 @@ See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
 * [(Habr) GUI для Git: подборка популярных решений](https://habr.com/ru/articles/741016/)
 * [(Habr) Git — сравнение Visual Studio 2022 с MeGit/EGit и SourceTree](https://habr.com/ru/companies/ruvds/articles/683576/)
 * [(Habr) Текущее состояние инструментов. Взгляд пользователя (2011)](https://habr.com/ru/articles/112648/)
-* GUI:
+* GUI clients:
   * ⭐ [SourceGit](https://sourcegit-scm.github.io/)
   * ⭐ [TortoiseGit](https://tortoisegit.org/)
   * [Git Extensions](https://gitextensions.github.io/)
   * [GitHub Desktop](https://github.com/apps/desktop)
   * [Sourcetree](https://www.sourcetreeapp.com/)
-* TUI:
+* Console tools:
   * [git-graph](https://github.com/mlange-42/git-graph)
   * [git-igitt](https://github.com/mlange-42/git-igitt)
+* Diff tools:
+  * [WinMerge](https://winmerge.org/)
+  * [delta](https://github.com/dandavison/delta)
 * VSCode extensions:
   * [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
   * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) ([fork](https://marketplace.visualstudio.com/items?itemName=Gxl.git-graph-3))
