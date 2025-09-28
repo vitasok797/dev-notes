@@ -100,7 +100,9 @@ git ls-files --eol [options]
 ```
 
 options:
-* `--others`: show untracked files in the output
+* default: index files
+* `--other --exclude-standard`: untracked files
+* `--other --ignored --exclude-standard`: ignored files
 
 #### Find CRLF files in repository ([git-ls-files](https://git-scm.com/docs/git-ls-files))
 ```
