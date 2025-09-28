@@ -395,15 +395,15 @@ git config <scope> http.proxy <proxy>
 git config <scope> http.schannelcheckrevoke false
 
 # Aliases
-git config <scope> alias.st "status"
 git config <scope> alias.br "branch -vv"
-git config <scope> alias.lg "log --all --graph"
-git config <scope> alias.lgf "log --all --graph --first-parent"
 git config <scope> alias.df "difftool -d"
 git config <scope> alias.dfs "difftool -d --staged"
+git config <scope> alias.lg "log --all --graph"
+git config <scope> alias.lgf "log --all --graph --first-parent"
 git config <scope> alias.ls-i "ls-files --eol"
 git config <scope> alias.ls-un "ls-files --eol --other --exclude-standard"
 git config <scope> alias.ls-ig "ls-files --other --exclude-standard --ignored"
+git config <scope> alias.st "status"
 ```
 
 `<scope>` options:
