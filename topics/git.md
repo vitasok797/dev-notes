@@ -62,6 +62,19 @@
 
 See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
 
+## Merge
+* [(StackOverflow) How do I safely merge a Git branch into master?](https://stackoverflow.com/questions/5601931/how-do-i-safely-merge-a-git-branch-into-master)
+
+## Rebase
+* [(Habr) Руководство по Git. Часть №2: золотое правило и другие основы rebase](https://habr.com/ru/companies/vk/articles/493818/)
+* [(Habr) Чем опасен rebase, или как получилось, что 2*3=5](https://habr.com/ru/articles/179123/)
+* [(Habr) Почему нужно перестать использовать Git rebase](https://habr.com/ru/companies/vk/articles/340558/)
+* [(Habr) Золотое правило git rebase](https://habr.com/ru/companies/otus/articles/352640/)
+* [(Habr) Введение в Git Merge и Git Rebase: зачем и когда их использовать](https://habr.com/ru/articles/432420/)
+* [(Habr) Git Rebase: руководство по использованию](https://habr.com/ru/articles/161009/)
+* [Правим историю Git с помощью интерактивного rebase](https://alexeykalina.github.io/technologies/git-rebase-interactive.html)
+* [Merging vs. rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
+
 ## Tools
 * [Windows GUI Clients](https://git-scm.com/downloads/guis?os=windows)
 * [(Habr) GUI для Git: подборка популярных решений](https://habr.com/ru/articles/741016/)
@@ -76,19 +89,6 @@ See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
 * TUI:
   * [git-graph](https://github.com/mlange-42/git-graph)
   * [git-igitt](https://github.com/mlange-42/git-igitt)
-
-## Merge
-* [(StackOverflow) How do I safely merge a Git branch into master?](https://stackoverflow.com/questions/5601931/how-do-i-safely-merge-a-git-branch-into-master)
-
-## Rebase
-* [(Habr) Руководство по Git. Часть №2: золотое правило и другие основы rebase](https://habr.com/ru/companies/vk/articles/493818/)
-* [(Habr) Чем опасен rebase, или как получилось, что 2*3=5](https://habr.com/ru/articles/179123/)
-* [(Habr) Почему нужно перестать использовать Git rebase](https://habr.com/ru/companies/vk/articles/340558/)
-* [(Habr) Золотое правило git rebase](https://habr.com/ru/companies/otus/articles/352640/)
-* [(Habr) Введение в Git Merge и Git Rebase: зачем и когда их использовать](https://habr.com/ru/articles/432420/)
-* [(Habr) Git Rebase: руководство по использованию](https://habr.com/ru/articles/161009/)
-* [Правим историю Git с помощью интерактивного rebase](https://alexeykalina.github.io/technologies/git-rebase-interactive.html)
-* [Merging vs. rebasing](https://www.atlassian.com/git/tutorials/merging-vs-rebasing)
 
 ## Video
 * [(Youtube) Git. Большой практический выпуск](https://www.youtube.com/watch?v=SEvR78OhGtw)
