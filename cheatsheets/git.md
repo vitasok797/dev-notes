@@ -398,7 +398,8 @@ git config <scope> http.schannelcheckrevoke false
 git config <scope> alias.st "status"
 git config <scope> alias.br "branch -vv"
 git config <scope> alias.ls "ls-files --eol"
-git config <scope> alias.lso "ls-files --eol --others"
+git config <scope> alias.lsu "ls-files --eol --other --exclude-standard"
+git config <scope> alias.lsi "ls-files --other --exclude-standard --ignored"
 ```
 
 `<scope>` options:
