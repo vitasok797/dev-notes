@@ -12,11 +12,10 @@
 * [(Habr) Зачем пользователи GIT-а редактируют свои коммиты](https://habr.com/ru/articles/179045/)
 * [(Habr) Git happens! 6 типичных ошибок Git и как их исправить](https://habr.com/ru/companies/flant/articles/419733/)
 
-## Branching (flow)
+## Branching and workflow
 * [(Habr) Удачная модель ветвления для Git](https://habr.com/ru/articles/106912/)
 * [(Habr) Пожалуйста, перестаньте рекомендовать Git Flow](https://habr.com/ru/companies/flant/articles/491320/)
 * [A succesful Git branching model considered harmful](https://barro.github.io/2016/02/a-succesful-git-branching-model-considered-harmful/)
-* ⭐ [Trunk-Based Development site](https://trunkbaseddevelopment.com/)
 * [GitHub Flow](https://docs.github.com/en/get-started/using-github/github-flow)
 * [GitHub Flow](https://githubflow.github.io/)
 * [(Habr) GitLab Flow](https://habr.com/ru/companies/softmart/articles/316686/)
@@ -28,22 +27,23 @@
 * [Linus Torvalds: git pull](https://www.mail-archive.com/dri-devel@lists.sourceforge.net/msg39091.html)
 * [(Paul Hammant) Articles](https://paulhammant.com/categories#Branch_by_Abstraction,_etc)
 * [(Paul Hammant) What is Trunk-Based Development?](https://paulhammant.com/2013/04/05/what-is-trunk-based-development/)
+* ⭐ [Trunk-Based Development site](https://trunkbaseddevelopment.com/)
 
-### Branching / Branch by abstraction
+### Branching and workflow / Branch by abstraction
 * [(Martin Fowler) Branch By Abstraction](https://martinfowler.com/bliki/BranchByAbstraction.html)
 * [Make Large Scale Changes Incrementally with Branch By Abstraction](https://continuousdelivery.com/2011/05/make-large-scale-changes-incrementally-with-branch-by-abstraction/)
 
-### Branching / Feature flags
+### Branching and workflow / Feature flags
 * [(Martin Fowler) Feature Toggles (aka Feature Flags)](https://www.martinfowler.com/articles/feature-toggles.html)
 * [(Habr) Стратегия ветвления ThreeFlow](https://habr.com/ru/companies/infopulse/articles/345826/)
 * [(Habr) Feature Flags и фабрика ПО](https://habr.com/ru/articles/543420/)
 * [(Habr) Укрощение feature-флагов](https://habr.com/ru/companies/hh/articles/580736/)
 
-### Branching / Naming convention
+### Branching and workflow / Naming convention
 * ⭐ [Conventional Branch](https://conventional-branch.github.io/)
 * [Git Branching Naming Convention: Best Practices to Follow](https://phoenixnap.com/kb/git-branch-name-convention)
 
-### Branching / Working trees
+### Branching and workflow / Working trees
 * [(Habr) Git. Скачем между ветками как древесные лягушки](https://habr.com/ru/articles/826260/)
 
 ## Commits
