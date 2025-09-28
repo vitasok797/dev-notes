@@ -400,6 +400,8 @@ git config <scope> alias.br "branch -vv"
 git config <scope> alias.ls "ls-files --eol"
 git config <scope> alias.lsu "ls-files --eol --other --exclude-standard"
 git config <scope> alias.lsi "ls-files --other --exclude-standard --ignored"
+git config <scope> alias.df "difftool -d"
+git config <scope> alias.dff "difftool -d --staged"
 ```
 
 `<scope>` options:
