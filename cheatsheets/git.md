@@ -378,7 +378,7 @@ git config <scope> log.abbrevCommit true
 git config <scope> status.short true
 git config <scope> status.branch true
 
-# Set Winmerge as diff tool
+# Set WinMerge as diff tool
 git config <scope> diff.guitool winmerge
 git config <scope> difftool.prompt false
 git config <scope> difftool.guiDefault true
@@ -415,3 +415,8 @@ Fast-forward policy options (for `merge.ff`, `pull.ff`):
 * `false` (`--no-ff`)
 * `true` (`--ff`, fast-forward when possible)
 * `only` (`--ff-only`)
+
+#### Set WinMerge as TortoiseGit/SVN diff tool
+```
+"C:\path\to\WinMergeU.exe" /u /fl /wr /e /dl %bname /dr %yname %base %mine
+```
