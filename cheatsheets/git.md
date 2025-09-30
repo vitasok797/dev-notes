@@ -382,7 +382,7 @@ git config <scope> status.branch true
 git config <scope> diff.guitool winmerge
 git config <scope> difftool.prompt false
 git config <scope> difftool.guiDefault true
-git config <scope> difftool.winmerge.cmd "'<C:\\path\\to\\>WinMergeU.exe' -u -fl -wr -e \"\$LOCAL\" \"\$REMOTE\""
+git config <scope> difftool.winmerge.cmd "'<C:\\path\\to\\WinMergeU.exe>' -u -fl -wr -e \"\$LOCAL\" \"\$REMOTE\""
 
 # Set TortoiseMerge as merge tool
 git config <scope> merge.guitool tortoisemerge
