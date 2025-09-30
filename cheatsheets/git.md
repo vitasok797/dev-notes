@@ -352,7 +352,7 @@ git config --list --show-scope
 ```
 
 #### Set options
-```
+```bash
 # Username and email
 git config <scope> user.name "<username>"
 git config <scope> user.email "<email>"
