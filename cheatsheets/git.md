@@ -351,7 +351,7 @@ git config --list --show-origin
 git config --list --show-scope
 ```
 
-#### Set options
+#### Common options
 ```bash
 # Username and email
 git config <scope> user.name "<username>"
@@ -390,10 +390,6 @@ git config <scope> mergetool.prompt false
 git config <scope> mergetool.guiDefault true
 git config <scope> mergetool.keepBackup false
 
-# Proxy
-git config <scope> http.proxy <proxy>
-git config <scope> http.schannelcheckrevoke false
-
 # Aliases
 git config <scope> alias.br "branch -vv"
 git config <scope> alias.df "difftool -d"
@@ -419,6 +415,12 @@ Fast-forward policy options (for `merge.ff`, `pull.ff`):
 * `false` (`--no-ff`)
 * `true` (`--ff`, fast-forward when possible)
 * `only` (`--ff-only`)
+
+#### Set proxy
+```bash
+git config <scope> http.proxy <proxy>
+git config <scope> http.schannelcheckrevoke false
+```
 
 #### Set WinMerge as TortoiseGit/SVN diff tool
 ```
