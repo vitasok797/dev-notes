@@ -359,7 +359,7 @@ git config <scope> user.email <email>
 
 # EOL conversion
 git config <scope> core.eol native
-git config <scope> core.autocrlf <true|input>
+git config <scope> core.autocrlf <input|true>
 
 # Fast-forward and rebase policy
 git config <scope> merge.ff false
