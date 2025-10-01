@@ -359,7 +359,7 @@ git config <scope> user.email <email>
 
 # EOL conversion
 git config <scope> core.eol native
-git config <scope> core.autocrlf true
+git config <scope> core.autocrlf <true|input>
 
 # Fast-forward and rebase policy
 git config <scope> merge.ff false
@@ -416,7 +416,7 @@ Fast-forward policy options (for `merge.ff`, `pull.ff`):
 * `true` (`--ff`, fast-forward when possible)
 * `only` (`--ff-only`)
 
-#### Set proxy
+#### Set proxy options
 ```bash
 git config <scope> http.proxy <proxy>
 git config <scope> http.schannelcheckrevoke false
