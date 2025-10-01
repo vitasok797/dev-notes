@@ -411,7 +411,7 @@ git config <scope> alias.st "status"
 * `input`: Git will convert CRLF to LF during commit (Linux, Windows)
 * `true`: Git will convert CRLF to LF during commit and LF to CRLF during checkout (Windows)
 
-Fast-forward policy options (for `merge.ff`, `pull.ff`):
+`merge.ff`/`pull.ff` fast-forward policy options:
 * `false` (`--no-ff`)
 * `true` (`--ff`, fast-forward when possible)
 * `only` (`--ff-only`)
