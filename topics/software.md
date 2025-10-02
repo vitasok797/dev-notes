@@ -28,6 +28,13 @@
 | :--- | :--- |
 | Git for Windows | <https://git-scm.com/downloads/win><br><https://github.com/git-for-windows/git/releases/> |
 
+### Version control / Diff tools
+
+| Name | Link |
+| :--- | :--- |
+| Winmerge | <https://winmerge.org/downloads/><br><https://github.com/WinMerge/winmerge/releases> |
+| delta | <https://github.com/dandavison/delta/releases> |
+
 ### Version control / GUI clients
 
 | Name | Link |
@@ -36,13 +43,6 @@
 | TortoiseGit | <https://tortoisegit.org/download/> |
 | SourceGit | <https://github.com/sourcegit-scm/sourcegit/releases/> |
 | Sourcetree | <https://www.sourcetreeapp.com/> |
-
-### Version control / Diff tools
-
-| Name | Link |
-| :--- | :--- |
-| Winmerge | <https://winmerge.org/downloads/><br><https://github.com/WinMerge/winmerge/releases> |
-| delta | <https://github.com/dandavison/delta/releases> |
 
 ## Var
 
