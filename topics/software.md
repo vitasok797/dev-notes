@@ -4,7 +4,7 @@
 
 | Name | Link |
 | :--- | :--- |
-| CMake | <https://cmake.org/download/> |
+| CMake | <https://cmake.org/download/><br><https://github.com/Kitware/CMake/releases> |
 | ninja | <xxx> |
 | llvm (Windows)<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
 
@@ -28,16 +28,14 @@
 | Name | Link |
 | :--- | :--- |
 | Winmerge | <https://winmerge.org/downloads/><br><https://github.com/WinMerge/winmerge/releases> |
-| delta | <xxx> |
-
-* delta https://github.com/dandavison/delta
+| delta | <https://github.com/dandavison/delta/releases> |
 
 ## Python
 
 | Name | Link |
 | :--- | :--- |
-| Anaconda | <xxx> |
-| Ruff | <xxx> |
+| Anaconda | <https://www.anaconda.com/download/success> |
+| Ruff | <https://github.com/astral-sh/ruff/releases><br><https://pypi.org/project/ruff/#files> |
 
 ### Python / IDE
 
@@ -50,6 +48,6 @@
 
 | Name | Link |
 | :--- | :--- |
-| 7-zip | <xxx> |
+| 7-zip | <https://www.7-zip.org/download.html><br><https://github.com/ip7z/7zip/releases> |
 | draw-io | <xxx> |
 | Notepad++ | <xxx> |
