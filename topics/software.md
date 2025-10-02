@@ -35,7 +35,7 @@
 | Name | Link |
 | :--- | :--- |
 | Anaconda | <https://www.anaconda.com/download/success> |
-| Ruff | <https://github.com/astral-sh/ruff/releases><br><https://pypi.org/project/ruff/#files> |
+| Ruff | <https://github.com/astral-sh/ruff/releases><br><https://pypi.org/project/ruff/> |
 
 ### Python / IDE
 
