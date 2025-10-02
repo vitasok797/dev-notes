@@ -18,7 +18,7 @@
 
 | Name | Link |
 | :--- | :--- |
-| Anaconda | <https://www.anaconda.com/download/success> |
+| Anaconda | <https://www.anaconda.com/download/success><br><https://repo.anaconda.com/archive/> |
 | Ruff | <https://github.com/astral-sh/ruff/releases><br><https://pypi.org/project/ruff/> |
 
 ### Python / IDE
@@ -39,7 +39,7 @@
 | Name | Link |
 | :--- | :--- |
 | delta | <https://github.com/dandavison/delta/releases> |
-| Winmerge | <https://winmerge.org/downloads/><br><https://github.com/WinMerge/winmerge/releases> |
+| WinMerge | <https://winmerge.org/downloads/><br><https://github.com/WinMerge/winmerge/releases> |
 
 ### Version control / GUI clients
 
