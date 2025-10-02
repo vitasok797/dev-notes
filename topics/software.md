@@ -5,8 +5,8 @@
 | Name | Link |
 | :--- | :--- |
 | CMake | <https://cmake.org/download/><br><https://github.com/Kitware/CMake/releases> |
-| Ninja | <https://github.com/ninja-build/ninja/releases> |
 | LLVM for Windows<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
+| Ninja | <https://github.com/ninja-build/ninja/releases> |
 
 ## Compilers
 
@@ -25,8 +25,8 @@
 
 | Name | Link |
 | :--- | :--- |
-| PyCharm CE | <https://www.jetbrains.com/pycharm/download/other.html> |
 | OpenIDE | <https://openide.ru/download/> |
+| PyCharm CE | <https://www.jetbrains.com/pycharm/download/other.html> |
 
 ## Version control
 
@@ -38,17 +38,17 @@
 
 | Name | Link |
 | :--- | :--- |
-| Winmerge | <https://winmerge.org/downloads/><br><https://github.com/WinMerge/winmerge/releases> |
 | delta | <https://github.com/dandavison/delta/releases> |
+| Winmerge | <https://winmerge.org/downloads/><br><https://github.com/WinMerge/winmerge/releases> |
 
 ### Version control / GUI clients
 
 | Name | Link |
 | :--- | :--- |
-| TortoiseSVN | <https://tortoisesvn.net/downloads.html> |
-| TortoiseGit | <https://tortoisegit.org/download/> |
 | SourceGit | <https://github.com/sourcegit-scm/sourcegit/releases/> |
-| Sourcetree | <https://www.sourcetreeapp.com/> |
+| SourceTree | <https://www.sourcetreeapp.com/> |
+| TortoiseGit | <https://tortoisegit.org/download/> |
+| TortoiseSVN | <https://tortoisesvn.net/downloads.html> |
 
 ## Var
 
