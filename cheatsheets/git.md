@@ -341,7 +341,8 @@ options:
 🚧 [git-worktree](https://git-scm.com/docs/git-worktree)
 
 ## Configuration 📌
-[git-config](https://git-scm.com/docs/git-config)
+* [My Git configs](https://github.com/vitasok797/dev-utils/tree/main/settings/git) 🔗
+* [git-config](https://git-scm.com/docs/git-config)
 
 #### Show configuration
 ```
