@@ -23,6 +23,8 @@
 * <https://numpy.org/doc/stable/reference/generated/numpy.round.html>
 * <https://stackoverflow.com/questions/20388071/what-are-the-under-the-hood-differences-between-round-and-numpy-round>
 * <https://stackoverflow.com/questions/73951309/rounding-to-the-nearest-nth-decimal-place-with-numpy>
+* [(Real Python) How to Round Numbers in Python](https://realpython.com/python-rounding/)
+* [Банковское округление в Python](https://shultais.education/blog/banking-rounding)
 
 ## Time series
 * <https://towardsdatascience.com/time-series-forecast-error-metrics-you-should-know-cc88b8c67f27>
