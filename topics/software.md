@@ -4,35 +4,32 @@
 
 | Name | Link |
 | :--- | :--- |
-| CMake | <xxx> |
+| CMake | <https://cmake.org/download/> |
 | ninja | <xxx> |
-| llvm<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
+| llvm (Windows)<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
 
 ## Version control
 
 | Name | Link |
 | :--- | :--- |
-| Git | <xxx> |
+| Git (Windows) | <https://git-scm.com/downloads/win><br><https://github.com/git-for-windows/git/releases/> |
 
 ### Version control / GUI clients
 
 | Name | Link |
 | :--- | :--- |
-| TortoiseSVN | <xxx> |
-| TortoiseGit | <xxx> |
+| TortoiseSVN | <https://tortoisesvn.net/downloads.html> |
+| TortoiseGit | <https://tortoisegit.org/download/> |
 | SourceGit | <https://github.com/sourcegit-scm/sourcegit/releases/> |
 | Sourcetree | <https://www.sourcetreeapp.com/> |
-
-* TortoiseGit https://tortoisegit.org/
 
 ### Version control / Diff tools
 
 | Name | Link |
 | :--- | :--- |
-| Winmerge | <xxx> |
+| Winmerge | <https://winmerge.org/downloads/><br><https://github.com/WinMerge/winmerge/releases> |
 | delta | <xxx> |
 
-* Winmerge https://winmerge.org/
 * delta https://github.com/dandavison/delta
 
 ## Python
