@@ -5,8 +5,8 @@
 | Name | Link |
 | :--- | :--- |
 | CMake | <https://cmake.org/download/><br><https://github.com/Kitware/CMake/releases> |
-| ninja | <xxx> |
-| llvm (Windows)<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
+| Ninja | <https://github.com/ninja-build/ninja/releases> |
+| LLVM (Windows)<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
 
 ## Version control
 
@@ -41,13 +41,13 @@
 
 | Name | Link |
 | :--- | :--- |
-| xxx | <xxx> |
-| xxx | <xxx> |
+| PyCharm CE | <https://www.jetbrains.com/pycharm/download/other.html> |
+| OpenIDE | <https://openide.ru/download/> |
 
 ## Var
 
 | Name | Link |
 | :--- | :--- |
 | 7-zip | <https://www.7-zip.org/download.html><br><https://github.com/ip7z/7zip/releases> |
-| draw-io | <xxx> |
-| Notepad++ | <xxx> |
+| draw.io | <https://github.com/jgraph/drawio-desktop/releases> |
+| Notepad++ | <https://notepad-plus-plus.org/downloads/><br><https://github.com/notepad-plus-plus/notepad-plus-plus/releases> |
