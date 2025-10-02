@@ -34,5 +34,6 @@
 * [Git](topics/git.md)
 * [Multithreading](topics/multithreading.md)
 * [Plot](topics/plot.md)
+* [Software](topics/software.md)
 * [TDD](topics/tdd.md)
 * [Var](topics/var.md)
