@@ -8,6 +8,20 @@
 | Ninja | <https://github.com/ninja-build/ninja/releases> |
 | LLVM for Windows<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
 
+## Python
+
+| Name | Link |
+| :--- | :--- |
+| Anaconda | <https://www.anaconda.com/download/success> |
+| Ruff | <https://github.com/astral-sh/ruff/releases><br><https://pypi.org/project/ruff/> |
+
+### Python / IDE
+
+| Name | Link |
+| :--- | :--- |
+| PyCharm CE | <https://www.jetbrains.com/pycharm/download/other.html> |
+| OpenIDE | <https://openide.ru/download/> |
+
 ## Version control
 
 | Name | Link |
@@ -29,20 +43,6 @@
 | :--- | :--- |
 | Winmerge | <https://winmerge.org/downloads/><br><https://github.com/WinMerge/winmerge/releases> |
 | delta | <https://github.com/dandavison/delta/releases> |
-
-## Python
-
-| Name | Link |
-| :--- | :--- |
-| Anaconda | <https://www.anaconda.com/download/success> |
-| Ruff | <https://github.com/astral-sh/ruff/releases><br><https://pypi.org/project/ruff/> |
-
-### Python / IDE
-
-| Name | Link |
-| :--- | :--- |
-| PyCharm CE | <https://www.jetbrains.com/pycharm/download/other.html> |
-| OpenIDE | <https://openide.ru/download/> |
 
 ## Var
 
