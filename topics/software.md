@@ -25,7 +25,6 @@
 
 * TortoiseGit https://tortoisegit.org/
 
-
 ### Version control / Diff tools
 
 | Name | Link |
