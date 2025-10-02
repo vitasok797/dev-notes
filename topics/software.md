@@ -8,6 +8,12 @@
 | Ninja | <https://github.com/ninja-build/ninja/releases> |
 | LLVM for Windows<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
 
+## Compilers
+
+| Name | Link |
+| :--- | :--- |
+| Intel toolsets | [compilers/intel.md](compilers/intel.md) 🔗 |
+
 ## Python
 
 | Name | Link |
