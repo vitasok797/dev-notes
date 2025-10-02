@@ -6,13 +6,13 @@
 | :--- | :--- |
 | CMake | <https://cmake.org/download/><br><https://github.com/Kitware/CMake/releases> |
 | Ninja | <https://github.com/ninja-build/ninja/releases> |
-| LLVM (Windows)<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
+| LLVM for Windows<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
 
 ## Version control
 
 | Name | Link |
 | :--- | :--- |
-| Git (Windows) | <https://git-scm.com/downloads/win><br><https://github.com/git-for-windows/git/releases/> |
+| Git for Windows | <https://git-scm.com/downloads/win><br><https://github.com/git-for-windows/git/releases/> |
 
 ### Version control / GUI clients
 
