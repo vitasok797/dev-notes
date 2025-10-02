@@ -84,9 +84,9 @@ See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
 * GUI clients:
   * ⭐ [SourceGit](https://sourcegit-scm.github.io/)
   * ⭐ [TortoiseGit](https://tortoisegit.org/)
-  * [Git Extensions](https://gitextensions.github.io/)
-  * [GitHub Desktop](https://github.com/apps/desktop)
   * [Sourcetree](https://www.sourcetreeapp.com/)
+  * [GitHub Desktop](https://github.com/apps/desktop)
+  * [Git Extensions](https://gitextensions.github.io/)
 * Console tools:
   * [git-graph](https://github.com/mlange-42/git-graph)
   * [git-igitt](https://github.com/mlange-42/git-igitt)
