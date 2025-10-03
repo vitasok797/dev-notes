@@ -431,7 +431,7 @@ public:
 ▶️[**Run**](https://godbolt.org/z/Kd6Kerd49) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
 
 ```cpp
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/vsl/debug.h>
+#include <https://raw.githubusercontent.com/vitasok797/cpp-vsl/refs/heads/main/vsl/debug.h>
 
 #include <iostream>
 #include <utility>
@@ -1661,7 +1661,7 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 ▶️[**Run**](https://godbolt.org/z/Eh93397YE) [[math.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/math.h)]
 
 ```cpp
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/vsl/math.h>
+#include <https://raw.githubusercontent.com/vitasok797/cpp-vsl/refs/heads/main/vsl/math.h>
 
 #include <iostream>
 
@@ -2652,7 +2652,7 @@ auto is_equal(T a, T b)
 ▶️[**Run**](https://godbolt.org/z/G46s933vE) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
 
 ```cpp
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/vsl/util.h>
+#include <https://raw.githubusercontent.com/vitasok797/cpp-vsl/refs/heads/main/vsl/util.h>
 
 #include <iostream>
 
@@ -3221,7 +3221,7 @@ using func = void (*) (int, int);
 ▶️[**Run**](https://godbolt.org/z/b9n3naE14) [[scope_guard.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/scope_guard.h)]
 
 ```cpp
-#include <https://raw.githubusercontent.com/vitasok797/dev-notes/refs/heads/main/languages/cpp/vsl/scope_guard.h>
+#include <https://raw.githubusercontent.com/vitasok797/cpp-vsl/refs/heads/main/vsl/scope_guard.h>
 
 #include <iostream>
 
