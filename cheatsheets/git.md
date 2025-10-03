@@ -372,7 +372,7 @@ git config <scope> fetch.prune true
 git config <scope> fetch.pruneTags true
 
 # Log format
-git config <scope> format.pretty "%C(yellow)%h%Cred%d %Cblue%as (%ar) %Cgreen%an %Creset%s"
+git config <scope> format.pretty "%C(yellow)%h%C(auto)%d %Cblue%as (%ar) %Cgreen%an %Creset%s"
 
 # Status format
 git config <scope> status.short true
