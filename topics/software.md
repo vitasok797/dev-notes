@@ -12,7 +12,7 @@
 
 | Name | Link |
 | :--- | :--- |
-| Intel toolsets | [compilers/intel.md](topics/compilers/intel.md) 🔗 |
+| Intel toolsets | [topics/compilers/intel.md](compilers/intel.md) 🔗 |
 
 ## Python
 
