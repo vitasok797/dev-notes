@@ -156,10 +156,10 @@
 * [Andrew’s Notepad. | notepad](https://andymac-2.github.io/notepad/)
 * [(StackOverflow) What is the difference between iter and into_iter?](https://stackoverflow.com/questions/34733811/what-is-the-difference-between-iter-and-into-iter)
 * [Effectively Using Iterators In Rust](https://hermanradtke.com/2015/06/22/effectively-using-iterators-in-rust.html)
-* [(StackOverflow) Understanding and relationship between Box, ref, & and \*](https://stackoverflow.com/questions/31949579/understanding-and-relationship-between-box-ref-and?rq=1)
+* [(StackOverflow) Understanding and relationship between Box, ref, & and *](https://stackoverflow.com/questions/31949579/understanding-and-relationship-between-box-ref-and?rq=1)
 * [Strategies for Returning References in Rust](https://bryce.fisher-fleig.org/strategies-for-returning-references-in-rust/)
 * [Rust Patterns: Using traits for function overloading | by Jonathan Reem | Medium](https://medium.com/@jreem/advanced-rust-using-traits-for-argument-overloading-c6a6c8ba2e17)
-* [derive\_builder - crates.io: Rust Package Registry](https://crates.io/crates/derive_builder)
+* [derive_builder - crates.io: Rust Package Registry](https://crates.io/crates/derive_builder)
 * [The builder pattern](https://doc.rust-lang.org/1.0.0/style/ownership/builders.html)
 * [patterns/builder.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/patterns/builder.md)
 
@@ -181,9 +181,9 @@
 * [Interior mutability patterns – Paul Dicker – Some random Rust-related thoughts](https://pitdicker.github.io/Interior-mutability-patterns/)
 
 ## 007
-* [dtolnay::\_01\_\_await\_a\_minute - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._01__await_a_minute.html)
-* [dtolnay::\_02\_\_reference\_types - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._02__reference_types.html)
-* [dtolnay::\_03\_\_soundness\_bugs - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._03__soundness_bugs.html)
+* [dtolnay::_01__await_a_minute - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._01__await_a_minute.html)
+* [dtolnay::_02__reference_types - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._02__reference_types.html)
+* [dtolnay::_03__soundness_bugs - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._03__soundness_bugs.html)
 * [Introduction | 24 days of Rust](https://zsiciarz.github.io/24daysofrust/index.html)
 * [rustlings](https://github.com/rust-lang/rustlings)
 * [impl Trait for returning complex types with ease - The Edition Guide](https://doc.rust-lang.org/edition-guide/rust-2018/trait-system/impl-trait-for-returning-complex-types-with-ease.html)
