@@ -19,8 +19,9 @@
 * [Multithreading with wxWidgets](https://cool-emerald.blogspot.com/2020/01/multithreading-with-wxwidgets.html)
 
 ## Guidelines
-* [Semantic Versioning 2.0.0](https://semver.org)
+* [Conventional Branch](https://conventional-branch.github.io/)
 * [Conventional Commits](https://www.conventionalcommits.org/)
+* [Semantic Versioning 2.0.0](https://semver.org)
 * [TODO.md file format](https://github.com/todomd/todo.md)
 
 ## SVN
