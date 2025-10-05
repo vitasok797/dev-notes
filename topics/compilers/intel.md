@@ -17,15 +17,15 @@
 ## Дистрибутивы
 
 > [!NOTE]
-> Источник ссылок на дистрибутивы:\
+> Источник ссылок на дистрибутивы: \
 > <https://github.com/oneapi-src/oneapi-ci>
 
 > [!NOTE]
-> Установка под ОС Linux:\
+> Установка под ОС Linux: \
 > `[sudo] ./intel-oneapi-xxxxx-toolkit-xxxxx_offline.sh -a --silent --cli --eula accept`
 
 > [!NOTE]
-> Определение переменных окружения под ОС Linux в sh скрипте:\
+> Определение переменных окружения под ОС Linux в sh скрипте: \
 > `. /opt/intel/oneapi/<toolkit-version>/oneapi-vars.sh`
 
 ### Версия 2025
