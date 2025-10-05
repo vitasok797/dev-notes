@@ -39,4 +39,5 @@
 * ⚡ [Токсичные репозитории](https://toxic-repos.ru/)
 * [Semantic Versioning 2.0.0](https://semver.org)
 * [Conventional Commits](https://www.conventionalcommits.org/)
+* [TODO.md file format](https://github.com/todomd/todo.md)
 * [Code Reviews (Part 1-5)](https://arne-mertz.de/2017/12/code-reviews-why/)
