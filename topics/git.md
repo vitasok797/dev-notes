@@ -2,11 +2,6 @@
 
 [Git Cheat Sheet](../cheatsheets/git.md) 🔗
 
-## Tutorials 📌
-* [Git book](https://git-scm.com/book/ru/v2)
-* [LearnGitBranching](https://learngitbranching.js.org)
-* [Atlassian tutorials](https://www.atlassian.com/git/tutorials)
-
 ## Branching and workflow
 * [(Habr) Удачная модель ветвления для Git](https://habr.com/ru/articles/106912/)
 * [(Habr) Пожалуйста, перестаньте рекомендовать Git Flow](https://habr.com/ru/companies/flant/articles/491320/)
@@ -93,6 +88,11 @@ See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
   * [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph) ([fork](https://marketplace.visualstudio.com/items?itemName=Gxl.git-graph-3))
   * [Git Blame](https://marketplace.visualstudio.com/items?itemName=solomonkinard.git-blame)
   * [Conventional Commits](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits)
+
+## Tutorials
+* [Git book](https://git-scm.com/book/ru/v2)
+* [LearnGitBranching](https://learngitbranching.js.org)
+* [Atlassian tutorials](https://www.atlassian.com/git/tutorials)
 
 ## Video
 * [(Youtube) Git. Большой практический выпуск](https://www.youtube.com/watch?v=SEvR78OhGtw)
