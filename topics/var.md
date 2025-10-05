@@ -21,6 +21,7 @@
 ## Guidelines
 * [Conventional Branch](https://conventional-branch.github.io/)
 * [Conventional Commits](https://www.conventionalcommits.org/)
+* [Keep a Changelog](https://keepachangelog.com/)
 * [Semantic Versioning 2.0.0](https://semver.org)
 * [TODO.md](https://github.com/todomd/todo.md)
 
