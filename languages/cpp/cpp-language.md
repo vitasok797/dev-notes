@@ -78,7 +78,7 @@
 * [How to split a string in C++](https://www.fluentcpp.com/2017/04/21/how-to-split-a-string-in-c/)
 * [(StackOverflow) How to convert an instance of std::string to lower case](https://stackoverflow.com/questions/313970/how-to-convert-an-instance-of-stdstring-to-lower-case)
 * [(StackOverflow) String to int/float](https://stackoverflow.com/questions/7663709/how-can-i-convert-a-stdstring-to-int/77079910#77079910)
-* [char8\_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
+* [char8_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
 * [Parse CSV file with Boost Tokenizer](https://mybyteofcode.blogspot.com/2010/02/parse-csv-file-with-boost-tokenizer-in.html)
 
 ### Text / Encoding
