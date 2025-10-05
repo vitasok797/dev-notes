@@ -18,6 +18,11 @@
 ## GUI
 * [Multithreading with wxWidgets](https://cool-emerald.blogspot.com/2020/01/multithreading-with-wxwidgets.html)
 
+## Guidelines
+* [Semantic Versioning 2.0.0](https://semver.org)
+* [Conventional Commits](https://www.conventionalcommits.org/)
+* [TODO.md file format](https://github.com/todomd/todo.md)
+
 ## SVN
 * [(StackOverflow) TortoiseSVN icons overlay not showing after updating to Windows 10](https://stackoverflow.com/questions/31964627/tortoisesvn-icons-overlay-not-showing-after-updating-to-windows-10)
 * [(StackOverflow) Resolve "Can't revert 'somedir' without reverting children" when reverting in svn](https://stackoverflow.com/questions/78648182/resolve-cant-revert-somedir-without-reverting-children-when-reverting-in-sv)
@@ -37,7 +42,4 @@
 
 ## Var
 * ⚡ [Токсичные репозитории](https://toxic-repos.ru/)
-* [Semantic Versioning 2.0.0](https://semver.org)
-* [Conventional Commits](https://www.conventionalcommits.org/)
-* [TODO.md file format](https://github.com/todomd/todo.md)
 * [Code Reviews (Part 1-5)](https://arne-mertz.de/2017/12/code-reviews-why/)
