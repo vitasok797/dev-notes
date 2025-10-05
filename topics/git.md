@@ -7,11 +7,6 @@
 * [LearnGitBranching](https://learngitbranching.js.org)
 * [Atlassian tutorials](https://www.atlassian.com/git/tutorials)
 
-## Articles
-* [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
-* [(Habr) Зачем пользователи GIT-а редактируют свои коммиты](https://habr.com/ru/articles/179045/)
-* [(Habr) Git happens! 6 типичных ошибок Git и как их исправить](https://habr.com/ru/companies/flant/articles/419733/)
-
 ## Branching and workflow
 * [(Habr) Удачная модель ветвления для Git](https://habr.com/ru/articles/106912/)
 * [(Habr) Пожалуйста, перестаньте рекомендовать Git Flow](https://habr.com/ru/companies/flant/articles/491320/)
@@ -106,6 +101,9 @@ See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
 * [(Youtube) Never* use git pull](https://www.youtube.com/watch?v=xN1-2p06Urc)
 
 ## Var
+* [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)
+* [(Habr) Зачем пользователи GIT-а редактируют свои коммиты](https://habr.com/ru/articles/179045/)
+* [(Habr) Git happens! 6 типичных ошибок Git и как их исправить](https://habr.com/ru/companies/flant/articles/419733/)
 * [(StackOverflow) What's the difference between git clone --mirror and git clone --bare](https://stackoverflow.com/questions/3959924/whats-the-difference-between-git-clone-mirror-and-git-clone-bare)
 * [(StackOverflow) How do I clone a subdirectory only of a Git repository?](https://stackoverflow.com/questions/600079/how-do-i-clone-a-subdirectory-only-of-a-git-repository)
 * [(StackOverflow) What are commit-ish and tree-ish in Git?](https://stackoverflow.com/questions/23303549/what-are-commit-ish-and-tree-ish-in-git/23303550#23303550)
