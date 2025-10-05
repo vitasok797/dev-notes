@@ -22,7 +22,7 @@
 * [Conventional Branch](https://conventional-branch.github.io/)
 * [Conventional Commits](https://www.conventionalcommits.org/)
 * [Semantic Versioning 2.0.0](https://semver.org)
-* [TODO.md file format](https://github.com/todomd/todo.md)
+* [TODO.md](https://github.com/todomd/todo.md)
 
 ## SVN
 * [(StackOverflow) TortoiseSVN icons overlay not showing after updating to Windows 10](https://stackoverflow.com/questions/31964627/tortoisesvn-icons-overlay-not-showing-after-updating-to-windows-10)
