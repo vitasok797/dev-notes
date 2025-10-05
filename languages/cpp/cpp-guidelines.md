@@ -1108,7 +1108,7 @@ auto main() -> int
 | <sup>✱</sup>Read <sub>retain "copy"</sub> | `HeavyType` || `HeavyType` | • Then `std::move`<br>• See [by-value-then-move idiom](cpp-language.md#types--passing-parameters-by-value-by-value-then-move-idiom) 🔗<br>• Assumed to be used only for constructors |
 | <sup>✱✱</sup>Steal | `MoveOnlyType` | ✔️ | `MoveOnlyType&&` | • Then `std::move`<br>• Removes 1 of 2 move operations for xvalues |
 
-Cheap-to-copy types (≤ 2×sizeof(void\*)):
+Cheap-to-copy types (≤ 2×sizeof(void*)):
 * Fundamental types (integral, floating-point, bool, etc.)
 * Iterators
 * View/span types (std::string_view, std::span)
