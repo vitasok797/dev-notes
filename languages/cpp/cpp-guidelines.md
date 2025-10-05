@@ -428,7 +428,7 @@ public:
 <details>
 <summary>Template class constructors/methods with T&& args</summary>
 
-▶️[**Run**](https://godbolt.org/z/Kd6Kerd49) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+▶️[**Run**](https://godbolt.org/z/aMW68sdMT) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
 
 ```cpp
 #include <https://raw.githubusercontent.com/vitasok797/cpp-vsl/refs/heads/main/vsl/debug.h>
@@ -533,7 +533,7 @@ auto main() -> int
 <details>
 <summary>DebugAllocator</summary>
 
-▶️[**Demo**](https://godbolt.org/z/rfqfebqcM) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/EfYGE8nqb) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
 
 </details>
 
@@ -558,14 +558,14 @@ TD<decltype(x)> _;
 <details>
 <summary>Type info (overload resolution test)</summary>
 
-▶️[**Demo** (overload resolution test)](https://godbolt.org/z/jc3dEabEv) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+▶️[**Demo** (overload resolution test)](https://godbolt.org/z/3ooWEeMf5) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
 
 </details>
 
 <details>
 <summary>Watchers</summary>
 
-▶️[**Demo**](https://godbolt.org/z/WPKfsEq98) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/3Kce37zv6) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
 
 </details>
 
@@ -574,7 +574,7 @@ TD<decltype(x)> _;
 <details>
 <summary>Assert</summary>
 
-▶️[**Demo**](https://godbolt.org/z/TaarEqG5s) [[assert.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/assert.h)]
+▶️[**Demo**](https://godbolt.org/z/oT69McbEo) [[assert.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/assert.h)]
 
 </details>
 
@@ -645,7 +645,7 @@ auto non_optional_raw_ptr = vsl::checked_get_ptr(shared_ptr);
 // pass_by_const_raw_ptr(non_optional_raw_ptr)
 ```
 
-▶️[**Demo**](https://godbolt.org/z/hnWYMbqY4) [[error.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/error.h)]
+▶️[**Demo**](https://godbolt.org/z/a64b6fhv8) [[error.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/error.h)]
 
 </details>
 
@@ -812,7 +812,7 @@ auto func(T&& some_struct) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/nrcjnxaqo) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
+▶️[**Demo**](https://godbolt.org/z/rhdn7oM51) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
 
 </details>
 
@@ -825,7 +825,7 @@ auto func(T&& some_struct) -> void
 [C++ Python-like Class Member Decorators](https://github.com/TheMaverickProgrammer/C-Python-Like-Class-Member-Decorators) \
 [(Reddit) Python function decorators in modern C++ (without magic macros)](https://www.reddit.com/r/cpp/comments/cm2g4l/python_function_decorators_in_modern_c_without/)
 
-▶️[**Demo**](https://godbolt.org/z/4oc67ech1) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
+▶️[**Demo**](https://godbolt.org/z/vv7zzjznd) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
 
 </details>
 
@@ -1161,7 +1161,7 @@ requires vsl::same_type_as<T, std::string>
 auto func(T&& x) -> void {}
 ```
 
-▶️[**Demo**](https://godbolt.org/z/nKG1TWb7E) [[concepts.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/concepts.h), [debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/5hKsz8bx7) [[concepts.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/concepts.h), [debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
 
 </details>
 
@@ -1208,7 +1208,7 @@ auto test(F f) -> void
 }
 ```
 
-▶️[**Demo**](https://godbolt.org/z/r195Y13Tf) [[concepts.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/concepts.h)]
+▶️[**Demo**](https://godbolt.org/z/E9qTad3Wc) [[concepts.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/concepts.h)]
 
 </details>
 
@@ -1596,7 +1596,7 @@ for (const auto& [k, v] : mymap) {...}
 
 [(StackOverflow) Fast ceiling of an integer division](https://stackoverflow.com/questions/2745074/fast-ceiling-of-an-integer-division-in-c-c)
 
-▶️[**Demo**](https://godbolt.org/z/q6nabbb1T) [[math.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/math.h)]
+▶️[**Demo**](https://godbolt.org/z/j8qj5PazK) [[math.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/math.h)]
 
 </details>
 
@@ -1605,7 +1605,7 @@ for (const auto& [k, v] : mymap) {...}
 
 [(LearnCpp) Relational operators and floating point comparisons](https://www.learncpp.com/cpp-tutorial/relational-operators-and-floating-point-comparisons/)
 
-▶️[**Demo**](https://godbolt.org/z/fqxGa71fE) [[math.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/math.h)]
+▶️[**Demo**](https://godbolt.org/z/o5a76bYn5) [[math.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/math.h)]
 
 </details>
 
@@ -1625,10 +1625,10 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 
 #### Demos
 
-▶️[**Demo** (arithmetic)](https://godbolt.org/z/ar9WcvhKd) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)] \
-▶️[**Demo** (compare)](https://godbolt.org/z/KbqTq6qK8) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)] \
-▶️[**Demo** (index)](https://godbolt.org/z/61bPdacfe) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)] \
-▶️[**Demo** (accumulate)](https://godbolt.org/z/bvEd7oMvd) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
+▶️[**Demo** (arithmetic)](https://godbolt.org/z/a6xMEqc86) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)] \
+▶️[**Demo** (compare)](https://godbolt.org/z/zoGvs1orb) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)] \
+▶️[**Demo** (index)](https://godbolt.org/z/6TPbhTj79) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)] \
+▶️[**Demo** (accumulate)](https://godbolt.org/z/7aojj86Yq) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
 
 #### `-Wsign-compare` compiler option
 
@@ -1658,7 +1658,7 @@ for (auto i = vsl::signed_size(v)-1; i >= 0; --i)
 
 #### Using vsl::ftrim
 
-▶️[**Run**](https://godbolt.org/z/Eh93397YE) [[math.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/math.h)]
+▶️[**Run**](https://godbolt.org/z/5vvGsza1q) [[math.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/math.h)]
 
 ```cpp
 #include <https://raw.githubusercontent.com/vitasok797/cpp-vsl/refs/heads/main/vsl/math.h>
@@ -1716,7 +1716,7 @@ auto main() -> int
 <details>
 <summary>std::async</summary>
 
-▶️[**Demo**](https://godbolt.org/z/ceocqE4Mj) [[async.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/async.h), [debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/7a41Tsbfo) [[async.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/async.h), [debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
 
 </details>
 
@@ -2357,8 +2357,8 @@ auto& value = *opt;
 // use: value
 ```
 
-▶️[**Demo** (initialization)](https://godbolt.org/z/6h3zT7zKz) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)] \
-▶️[**Demo** (usage)](https://godbolt.org/z/eP9x3KzoK) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/h4sbTxsGq) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)] \
+▶️[**Demo** (usage)](https://godbolt.org/z/v6MWh54o7) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
 
 </details>
 
@@ -2390,7 +2390,7 @@ auto return_tuple() -> std::tuple<int, Type> { return {0, std::move(t)}; }
 auto return_tuple() -> std::tuple<int, Type> { return {0, Type{1, 2}}; }
 ```
 
-▶️[**Demo** (initialization)](https://godbolt.org/z/doMjhh8j1) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+▶️[**Demo** (initialization)](https://godbolt.org/z/3q8xeaqP4) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
 
 [(StackOverflow) Why do I not get guaranteed copy elision with std::tuple?](https://stackoverflow.com/questions/63560015/why-do-i-not-get-guaranteed-copy-elision-with-stdtuple/63560206#63560206)
 
@@ -2649,7 +2649,7 @@ auto is_equal(T a, T b)
 <details>
 <summary>CRTP mixins</summary>
 
-▶️[**Run**](https://godbolt.org/z/G46s933vE) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
+▶️[**Run**](https://godbolt.org/z/PrMebqnMM) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
 
 ```cpp
 #include <https://raw.githubusercontent.com/vitasok797/cpp-vsl/refs/heads/main/vsl/util.h>
@@ -3204,21 +3204,21 @@ using func = void (*) (int, int);
 <details>
 <summary>NonCopyable</summary>
 
-▶️[**Demo**](https://godbolt.org/z/KMbP1z85j) [[non_copyable.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/non_copyable.h)]
+▶️[**Demo**](https://godbolt.org/z/s6vxdWzKz) [[non_copyable.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/non_copyable.h)]
 
 </details>
 
 <details>
 <summary>output</summary>
 
-▶️[**Demo**](https://godbolt.org/z/3qKsKz34e) [[output.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/output.h)]
+▶️[**Demo**](https://godbolt.org/z/jPox9rW99) [[output.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/output.h)]
 
 </details>
 
 <details>
 <summary>ScopeGuard</summary>
 
-▶️[**Run**](https://godbolt.org/z/b9n3naE14) [[scope_guard.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/scope_guard.h)]
+▶️[**Run**](https://godbolt.org/z/jPYW1dfW8) [[scope_guard.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/scope_guard.h)]
 
 ```cpp
 #include <https://raw.githubusercontent.com/vitasok797/cpp-vsl/refs/heads/main/vsl/scope_guard.h>
