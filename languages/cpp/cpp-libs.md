@@ -57,12 +57,12 @@
 ## Configuration
 
 ### Configuration / Multisource
-* [Boost.Program\_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
+* [Boost.Program_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * POCO ([Configuration](https://pocoproject.org/slides/180-Configuration.pdf))
 
 ### Configuration / Argument parsers
-* [Boost.Program\_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
+* [Boost.Program_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * POCO ([Applications](https://pocoproject.org/slides/190-Applications.pdf))
 * [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
 * <https://github.com/jarro2783/cxxopts>
@@ -74,7 +74,7 @@
 * <https://github.com/CLIUtils/CLI11>
 
 ### Configuration / Environment
-* [Boost.Program\_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
+* [Boost.Program_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * POCO ([PlatformAndEnvironment](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
 * <https://github.com/ph3at/libenvpp>
 * <https://github.com/p-ranav/envy> (no vcpkg, header-only)
@@ -151,7 +151,7 @@
 
 ### Types / Container
 * [Boost.Container](https://www.boost.org/doc/libs/latest/doc/html/container.html)
-* [Boost.Circular\_Buffer](https://www.boost.org/doc/libs/latest/doc/html/circular_buffer.html)
+* [Boost.Circular_Buffer](https://www.boost.org/doc/libs/latest/doc/html/circular_buffer.html)
 * [Boost.MultiArray](https://www.boost.org/doc/libs/latest/libs/multi_array/doc/index.html)
 * <https://github.com/kokkos/mdspan>
 
@@ -165,7 +165,7 @@
 ### Types / Reflection
 * <https://github.com/Neargye/nameof>
 * [Boost.Describe](https://www.boost.org/doc/libs/latest/libs/describe/doc/html/describe.html)
-* Boost.Core: [type\_name](https://www.boost.org/doc/libs/latest/libs/core/doc/html/core/type_name.html)
+* Boost.Core: [type_name](https://www.boost.org/doc/libs/latest/libs/core/doc/html/core/type_name.html)
 * <https://github.com/felixguendling/cista> ([site](https://cista.rocks/#reflection))
 
 ### Types / Scope guard
