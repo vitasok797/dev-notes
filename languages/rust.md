@@ -48,6 +48,9 @@
 * [itertools](https://crates.io/crates/itertools)
 * [FlatBuffers](https://google.github.io/flatbuffers/flatbuffers_guide_use_rust.html)
 
+## Interoperability
+* [(Habr) Rust + C++ через FFI: как подружить два мира и не сойти с ума](https://habr.com/ru/articles/953524/)
+
 ## Test
 * [Rust Mock Shootout! | Comparison of several Rust mocking libraries](https://asomers.github.io/mock_shootout/)
 * [mockall - Rust](https://docs.rs/mockall/0.7.2/mockall/)
