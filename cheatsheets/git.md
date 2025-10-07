@@ -355,8 +355,8 @@ git config --list --show-scope
 #### Common options
 ```bash
 # Username and email
-git config <scope> user.name <username>
-git config <scope> user.email <email>
+git config <scope> user.name "<username>"
+git config <scope> user.email "<email>"
 
 # EOL conversion
 git config <scope> core.eol native
