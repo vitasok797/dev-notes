@@ -1,19 +1,17 @@
 # Compilers / Intel
 
-## Дистрибутивы
+## Intel oneAPI toolkits
 
 > [!NOTE]
-> Источник ссылок на дистрибутивы: \
+> Source of links to distributions: \
 > <https://github.com/oneapi-src/oneapi-ci>
 
-## Install
-
 > [!NOTE]
-> Linux: \
+> Installation under Linux OS: \
 > `[sudo] ./intel-oneapi-xxxxx-toolkit-xxxxx_offline.sh -a --silent --cli --eula accept`
 
 > [!NOTE]
-> Определение переменных окружения под ОС Linux в sh скрипте: \
+> Defining environment variables under Linux in a sh script: \
 > `. /opt/intel/oneapi/<toolkit-version>/oneapi-vars.sh`
 
 ### Version: 2025 (2025.0.1)
