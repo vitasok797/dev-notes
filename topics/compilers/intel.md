@@ -4,9 +4,18 @@
 
 ### Distributions
 
-#### Version: 2025 (2025.0.1)
+#### Version: 2025 (2025.2.1)
 
 Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2025.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html)
+
+* [Windows/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/f5881e61-dcdc-40f1-9bd9-717081ac623c/intel-oneapi-base-toolkit-2025.2.1.46_offline.exe) \
+  (SHA384 )
+* [Windows/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/e63ac2b4-8a9a-4768-979a-399a8b6299de/intel-oneapi-hpc-toolkit-2025.2.1.46_offline.exe) \
+  (SHA384 )
+* [Linux/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/3b7a16b3-a7b0-460f-be16-de0d64fa6b1e/intel-oneapi-base-toolkit-2025.2.1.44_offline.sh) \
+  (SHA384 )
+* [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/2d2a6686-ff06-44ce-baf0-ab84f8dafa89/intel-oneapi-hpc-toolkit-2025.2.1.44_offline.sh) \
+  (SHA384 )
 
 * [Windows/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/ae29263e-38b9-4d43-86c3-376d6e0668e7/intel-oneapi-base-toolkit-2025.0.1.47_offline.exe) \
   (SHA384 82ca9a1848a5f92b81b57449ef5eec0d1f2933bacd46097e5f1ef8b99eea0de2f8f4b13bc75deb680f26ded424ee3008)
