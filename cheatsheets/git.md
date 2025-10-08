@@ -187,7 +187,7 @@ git merge --abort
 git diff[tool] <branch2>...<branch1> [pathspec]
 ```
 
-#### Show unique (not merged) commits in branch
+#### View unique (not merged) commits in branch
 Option 1 ([git-log](https://git-scm.com/docs/git-log)):
 ```
 git log [--boundary --graph] [--left-only|--right-only] [--no-merges] [--name-status|-p] <branch-left>...<branch-right>
@@ -208,12 +208,12 @@ git cherry -v [upstream [head]]
 
 ### Merging / Exploring existing merge commits
 
-#### Show merge commit parents ([git-show](https://git-scm.com/docs/git-show))
+#### View merge commit parents ([git-show](https://git-scm.com/docs/git-show))
 ```
 git show --format=raw <commit>
 ```
 
-#### Show merge commit changes
+#### View merge commit changes
 Show diff with all parents ([git-show](https://git-scm.com/docs/git-show)):
 ```
 git show -p -m <commit>
