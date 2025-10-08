@@ -2,18 +2,6 @@
 
 ## Intel oneAPI toolkits
 
-> [!NOTE]
-> Source of links to distributions: \
-> <https://github.com/oneapi-src/oneapi-ci>
-
-> [!NOTE]
-> Installation on Linux: \
-> `[sudo] ./intel-oneapi-xxxxx-toolkit-xxxxx_offline.sh -a --silent --cli --eula accept`
-
-> [!NOTE]
-> Defining environment variables on Linux in a sh script: \
-> `. /opt/intel/oneapi/<toolkit-version>/oneapi-vars.sh`
-
 ### Version: 2025 (2025.0.1)
 
 Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2025.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html)
@@ -66,3 +54,15 @@ Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles
 * [Windows/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18247/w_HPCKit_p_2021.4.0.3340_offline.exe)
 * [Linux/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18236/l_BaseKit_p_2021.4.0.3422_offline.sh)
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18211/l_HPCKit_p_2021.4.0.3347_offline.sh)
+
+> [!NOTE]
+> Source of links to distributions: \
+> <https://github.com/oneapi-src/oneapi-ci>
+
+> [!NOTE]
+> Installation on Linux: \
+> `[sudo] ./intel-oneapi-xxxxx-toolkit-xxxxx_offline.sh -a --silent --cli --eula accept`
+
+> [!NOTE]
+> Defining environment variables on Linux in a sh script: \
+> `. /opt/intel/oneapi/<toolkit-version>/oneapi-vars.sh`
