@@ -68,10 +68,10 @@ git show [options] <commit>
 options:
 * `--format=<format>`: output format (`short`, `medium`, `full`, `fuller`, `raw`)
 * Show diffstat:
-  * `--stat`
-  * `--name-only`
   * `--name-status`
+  * `--name-only`
   * `--dirstat-by-file`
+  * `--stat`
 * Show diff:
   * `-p`: show diff for regular commits
     * `-m`: + show diff for merge commits
@@ -119,10 +119,10 @@ options:
 * Commit info:
   * `--format=<format>`: output format (`short`, `medium`, `full`, `fuller`, `raw`)
   * Show diffstat:
-    * `--stat`
-    * `--name-only`
     * `--name-status`
+    * `--name-only`
     * `--dirstat-by-file`
+    * `--stat`
   * Show diff:
     * `-p`: show diff for regular commits
       * `-m`: + show diff for merge commits
@@ -190,7 +190,7 @@ git diff[tool] <branch2>...<branch1> [pathspec]
 #### Show unique (not merged) commits in branch
 Option 1 ([git-log](https://git-scm.com/docs/git-log)):
 ```
-git log [--boundary --graph] [--left-only|--right-only] [--no-merges] [--stat|--name-status|-p] <branch-left>...<branch-right>
+git log [--boundary --graph] [--left-only|--right-only] [--no-merges] [--name-status|-p] <branch-left>...<branch-right>
 ```
 
 Option 2 ([git-log](https://git-scm.com/docs/git-log)):
@@ -288,7 +288,7 @@ git diff[tool] AUTO_MERGE
 
 #### View commits touching conflicted paths ([git-log](https://git-scm.com/docs/git-log))
 ```
-git log --merge [--boundary --graph] [--left-only|--right-only] [--stat|--name-status|-p] [pathspec]
+git log --merge [--boundary --graph] [--left-only|--right-only] [--name-status|-p] [pathspec]
 ```
 
 #### View information about unmerged files ([git-ls-files](https://git-scm.com/docs/git-ls-files))
