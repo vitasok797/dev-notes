@@ -1,21 +1,5 @@
 # Compilers / Intel
 
-## Intel oneAPI toolkits release notes
-
-### Base Toolkit
-* [2025](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2025.html)
-* [2024](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2024.html)
-* [2023](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2023.html)
-* [2022](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2022.html)
-* [2021](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2021.html)
-
-### HPC Toolkit
-* [2025](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html)
-* [2024](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2024.html)
-* [2023](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2023.html)
-* [2022](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2022.html)
-* [2021](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2021.html)
-
 ## Дистрибутивы
 
 > [!NOTE]
@@ -32,7 +16,9 @@
 > Определение переменных окружения под ОС Linux в sh скрипте: \
 > `. /opt/intel/oneapi/<toolkit-version>/oneapi-vars.sh`
 
-### Version 2025 (2025.0.1)
+### Version: 2025 (2025.0.1)
+
+Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2025.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html)
 
 * [Windows/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/ae29263e-38b9-4d43-86c3-376d6e0668e7/intel-oneapi-base-toolkit-2025.0.1.47_offline.exe) \
   (SHA384 82ca9a1848a5f92b81b57449ef5eec0d1f2933bacd46097e5f1ef8b99eea0de2f8f4b13bc75deb680f26ded424ee3008)
@@ -43,7 +29,9 @@
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/b7f71cf2-8157-4393-abae-8cea815509f7/intel-oneapi-hpc-toolkit-2025.0.1.47_offline.sh) \
   (SHA384 be217e7242c19d23698bf3055ecd992e9e1a469a8e23dc9de62767d985171c311db130c46f6cf979299e428c8c7c6f37)
 
-### Version 2024 (2024.2.1)
+### Version: 2024 (2024.2.1)
+
+Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2024.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2024.html)
 
 * [Windows/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d91caaa0-7306-46ea-a519-79a0423e1903/w_BaseKit_p_2024.2.1.101_offline.exe) \
   (SHA384 930be6d98abcdec3f233ac09b4d17c7d839be8d4356fd54344fbcee476f4c69d389b5b52013c3dc3fd99994d43ce2334)
@@ -54,21 +42,27 @@
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d461a695-6481-426f-a22f-b5644cd1fa8b/l_HPCKit_p_2024.2.1.79_offline.sh) \
   (SHA384 bb14c2005a9fb6d34a3bfeec2d7a6aa03600c3b87e34bd28e8e682ac358ed636a6715c8f57105d422c7c0add83a15a0c)
 
-### Version 2023 (2023.2.0)
+### Version: 2023 (2023.2.0)
+
+Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2023.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2023.html)
 
 * [Windows/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/f96c71db-2c6c-45d9-8c1f-0348ef5885cf/w_BaseKit_p_2023.2.0.49396_offline.exe)
 * [Windows/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/438527fc-7140-422c-a851-389f2791816b/w_HPCKit_p_2023.2.0.49441_offline.exe)
 * [Linux/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/992857b9-624c-45de-9701-f6445d845359/l_BaseKit_p_2023.2.0.49397_offline.sh)
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/0722521a-34b5-4c41-af3f-d5d14e88248d/l_HPCKit_p_2023.2.0.49440_offline.sh)
 
-### Version 2022 (2022.3.1)
+### Version: 2022 (2022.3.1)
+
+Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2022.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2022.html)
 
 * [Windows/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18969/w_BaseKit_p_2022.3.1.19798_offline.exe)
 * [Windows/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18976/w_HPCKit_p_2022.3.1.19755_offline.exe)
 * [Linux/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18970/l_BaseKit_p_2022.3.1.17310_offline.sh)
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18975/l_HPCKit_p_2022.3.1.16997_offline.sh)
 
-### Version 2021 (2021.4.0)
+### Version: 2021 (2021.4.0)
+
+Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2021.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2021.html)
 
 * [Windows/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18195/w_BaseKit_p_2021.4.0.3421_offline.exe)
 * [Windows/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18247/w_HPCKit_p_2021.4.0.3340_offline.exe)
