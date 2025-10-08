@@ -27,7 +27,7 @@ options:
 * `--merged [commit]`: merged into the commit (commit defaults to HEAD)
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
 
-#### Create a local branch that tracks a remote branch
+#### Create a local branch that tracks a remote branch ([git-switch](https://git-scm.com/docs/git-switch), [git-branch](https://git-scm.com/docs/git-branch))
 ```
 git switch <remote-branch-name>
 ```
