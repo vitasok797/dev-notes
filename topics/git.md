@@ -107,3 +107,4 @@ See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
 * [(StackOverflow) What are commit-ish and tree-ish in Git?](https://stackoverflow.com/questions/23303549/what-are-commit-ish-and-tree-ish-in-git/23303550#23303550)
 * [(StackOverflow) What's the difference between 'git switch' and 'git checkout'](https://stackoverflow.com/questions/57265785/whats-the-difference-between-git-switch-and-git-checkout-branch/70454786#70454786)
 * [(StackOverflow) What are the differences between double-dot ".." and triple-dot "..." (log, diff)](https://stackoverflow.com/questions/7251477/what-are-the-differences-between-double-dot-and-triple-dot-in-git-dif/7256391#7256391)
+* [When to Use Each of the Git Diff Algorithms](https://luppeng.wordpress.com/2020/10/10/when-to-use-each-of-the-git-diff-algorithms/)
