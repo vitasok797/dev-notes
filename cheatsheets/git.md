@@ -75,7 +75,10 @@ options:
 * Show diff:
   * `-p`: show diff for regular commits
     * `-m`: + show diff for merge commits
-  * `--dd`: show diff to first-parent for both merge and regular commits
+  * `-c`: show combined diff output for merge commits
+  * `--cc`: show dense combined diff output for merge commits
+  * `--dd`: show diff with respect to first parent for both merge and regular commits
+  * `-U<n>`: generate diffs with <n> lines of context
 
 ## Diff
 #### Check for conflict markers or whitespace errors ([git-diff](https://git-scm.com/docs/git-diff))
@@ -126,7 +129,10 @@ options:
   * Show diff:
     * `-p`: show diff for regular commits
       * `-m`: + show diff for merge commits
-    * `--dd`: show diff to first-parent for both merge and regular commits
+    * `-c`: show combined diff output for merge commits
+    * `--cc`: show dense combined diff output for merge commits
+    * `--dd`: show diff with respect to first parent for both merge and regular commits
+    * `-U<n>`: generate diffs with <n> lines of context
 * `--all`: show all refs
 * `--branches[=<pattern>]`: show all local branches
 * `--merges`: show only merge commits
