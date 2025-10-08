@@ -22,12 +22,12 @@ git branch [options]
 options:
 * `-v`: verbose
 * `-vv`: verbose (prints linked worktree (if any) and upstream status)
-* `-a`: list both remote branches and local branches
-* `-r`: list only remote branches
+* `-a`: list both remote-tracking branches and local branches
+* `-r`: list only remote-tracking branches
 * `--merged [commit]`: merged into the commit (commit defaults to HEAD)
 * `--no-merged [commit]`: not merged into the commit (commit defaults to HEAD)
 
-#### Create a local branch that tracks a remote branch ([git-switch](https://git-scm.com/docs/git-switch), [git-branch](https://git-scm.com/docs/git-branch))
+#### Create a local branch that "tracks" a remote-tracking branch ([git-switch](https://git-scm.com/docs/git-switch), [git-branch](https://git-scm.com/docs/git-branch))
 ```
 git switch <remote-branch-name>
 ```
@@ -38,7 +38,7 @@ git switch -c <local-branch-name> <remote>/<remote-branch-name>
 git branch --track <local-branch-name> <remote>/<remote-branch-name>
 ```
 
-#### Push branch to specified remote and set upstream tracking ([git-push](https://git-scm.com/docs/git-push))
+#### Push branch to specified remote and set "upstream" tracking ([git-push](https://git-scm.com/docs/git-push))
 ```
 git push -u <remote> <branch>
 ```
