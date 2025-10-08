@@ -1,15 +1,15 @@
 # Compilers / Intel
 
-## Release Notes
+## Intel oneAPI toolkits release Notes
 
-### Base Toolkit Release Notes
+### Base Toolkit
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes.html
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2024.html
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2023.html
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2022.html
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/intel-oneapi-toolkit-release-notes-2021.html
 
-### HPC Toolkit Release Notes
+### HPC Toolkit
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2024.html
 * https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2023.html
