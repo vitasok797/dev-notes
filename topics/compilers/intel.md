@@ -7,11 +7,11 @@
 > <https://github.com/oneapi-src/oneapi-ci>
 
 > [!NOTE]
-> Installation under Linux OS: \
+> Installation on Linux: \
 > `[sudo] ./intel-oneapi-xxxxx-toolkit-xxxxx_offline.sh -a --silent --cli --eula accept`
 
 > [!NOTE]
-> Defining environment variables under Linux in a sh script: \
+> Defining environment variables on Linux in a sh script: \
 > `. /opt/intel/oneapi/<toolkit-version>/oneapi-vars.sh`
 
 ### Version: 2025 (2025.0.1)
