@@ -398,6 +398,7 @@ git config <scope> mergetool.keepBackup false
 
 # Aliases
 git config <scope> alias.br "branch -vv"
+git config <scope> alias.ch "diff --check"
 git config <scope> alias.dt "difftool -d"
 git config <scope> alias.dt-s "difftool -d --staged"
 git config <scope> alias.lg "log --all --graph"
