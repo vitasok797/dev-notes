@@ -146,6 +146,7 @@
   * [Кроссплатформенное использование классов .Net в 1С через Native ВК. Или замена COM на Linux](https://habr.com/ru/articles/304542/)
   * [Кроссплатформенное использование классов .Net в 1С через Native ВК. Или замена COM на Linux II](https://habr.com/ru/articles/307188/)
   * [1С,.Net Core. Динамическая компиляция класса обертки для получения событий .Net объекта в 1С](https://habr.com/ru/articles/309850/)
+  * [Плагины на C# без рантайма: NativeAOT-экспорт и вызов из Rust/Python](https://habr.com/ru/companies/otus/articles/950462/)
 * Languages:
   * [Import C# Dll in delphi 10.4](https://en.delphipraxis.net/topic/11493-import-c-dll-in-delphi-104/)
   * [Using a .NET Assembly via COM in Delphi](https://blogs.embarcadero.com/using-a-net-assembly-via-com-in-delphi/)
