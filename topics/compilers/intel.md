@@ -8,7 +8,7 @@
 
 * [oneAPI Base Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html)
 * [oneAPI HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit-download.html)
-* [Stand-Alone Tools](https://www.intel.com/content/www/us/en/docs/oneapi/installation-guide-windows/2025-2/install-standalone-tools.html):
+* [Stand-Alone Tools](https://www.intel.com/content/www/us/en/developer/articles/tool/oneapi-standalone-components.html):
   * [Intel Fortran Compiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler-download.html)
   * [Intel Math Kernel Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl-download.html)
   * [Intel MPI Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library-download.html)
