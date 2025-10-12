@@ -11,6 +11,9 @@
   * [Intel Math Kernel Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl-download.html)
   * [Intel MPI Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library-download.html)
 * [oneapi-ci](https://github.com/oneapi-src/oneapi-ci)
+* Spack package manager (linux versions only):
+  * [intel_oneapi_compilers](https://github.com/spack/spack-packages/blob/develop/repos/spack_repo/builtin/packages/intel_oneapi_compilers/package.py)
+  * [intel_oneapi_compilers_classic](https://github.com/spack/spack-packages/blob/develop/repos/spack_repo/builtin/packages/intel_oneapi_compilers_classic/package.py)
 
 ### Distributions
 
@@ -39,6 +42,12 @@ Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles
   (SHA384 f4f2e85113743716c0d30e84c6fb8fc1aff8b5aaecdf59918b16134a020a5b79c6a32e27ca347d7f990d731ba9e40943)
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d461a695-6481-426f-a22f-b5644cd1fa8b/l_HPCKit_p_2024.2.1.79_offline.sh) \
   (SHA384 bb14c2005a9fb6d34a3bfeec2d7a6aa03600c3b87e34bd28e8e682ac358ed636a6715c8f57105d422c7c0add83a15a0c)
+
+##### Fortran
+
+* [Windows](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/ea23d696-a77f-4a4a-8996-20d02cdbc48f/w_fortran-compiler_p_2024.2.1.81_offline.exe)
+* [Linux](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/5e7b0f1c-6f25-4cc8-94d7-3a527e596739/l_fortran-compiler_p_2024.2.1.80_offline.sh) \
+  (SHA256 6f6dab82a88082a7a39f6feb699343c521f58c6481a1bb87edba7e2550995b6d)
 
 #### Version: 2023 (2023.2.0)
 
