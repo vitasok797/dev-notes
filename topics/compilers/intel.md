@@ -67,7 +67,9 @@ Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles
 * [Linux/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18236/l_BaseKit_p_2021.4.0.3422_offline.sh)
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18211/l_HPCKit_p_2021.4.0.3347_offline.sh)
 
-### Usage notes
+### Info
+
+[Intel Toolkit Version to Compiler Version Mapping](https://www.intel.com/content/www/us/en/developer/articles/technical/oneapi-toolkit-version-to-compiler-version-mapping.html)
 
 > Installation on Linux: \
 > `[sudo] ./intel-oneapi-xxxxx-toolkit-xxxxx_offline.sh -a --silent --cli --eula accept`
