@@ -38,15 +38,12 @@ Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles
   (SHA384 930be6d98abcdec3f233ac09b4d17c7d839be8d4356fd54344fbcee476f4c69d389b5b52013c3dc3fd99994d43ce2334)
 * [Windows/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/745e923a-3f85-4e1e-b6dd-637c0e9ccba6/w_HPCKit_p_2024.2.1.80_offline.exe) \
   (SHA384 67eb3dcfe07fc5de2d2dbd1955e5f8d39a27305be3b663610c3841cd41c3556196f077486b00a0c1ab476f9b0d322314)
+* [Windows/Fortran](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/ea23d696-a77f-4a4a-8996-20d02cdbc48f/w_fortran-compiler_p_2024.2.1.81_offline.exe)
 * [Linux/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/e6ff8e9c-ee28-47fb-abd7-5c524c983e1c/l_BaseKit_p_2024.2.1.100_offline.sh) \
   (SHA384 f4f2e85113743716c0d30e84c6fb8fc1aff8b5aaecdf59918b16134a020a5b79c6a32e27ca347d7f990d731ba9e40943)
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/d461a695-6481-426f-a22f-b5644cd1fa8b/l_HPCKit_p_2024.2.1.79_offline.sh) \
   (SHA384 bb14c2005a9fb6d34a3bfeec2d7a6aa03600c3b87e34bd28e8e682ac358ed636a6715c8f57105d422c7c0add83a15a0c)
-
-##### Fortran
-
-* [Windows](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/ea23d696-a77f-4a4a-8996-20d02cdbc48f/w_fortran-compiler_p_2024.2.1.81_offline.exe)
-* [Linux](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/5e7b0f1c-6f25-4cc8-94d7-3a527e596739/l_fortran-compiler_p_2024.2.1.80_offline.sh) \
+* [Linux/Fortran](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/5e7b0f1c-6f25-4cc8-94d7-3a527e596739/l_fortran-compiler_p_2024.2.1.80_offline.sh) \
   (SHA256 6f6dab82a88082a7a39f6feb699343c521f58c6481a1bb87edba7e2550995b6d)
 
 #### Version: 2023 (2023.2.0)
