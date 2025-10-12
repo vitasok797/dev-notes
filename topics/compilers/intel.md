@@ -4,6 +4,15 @@
 
 ### Distributions
 
+#### Download links
+
+* [oneAPI Base Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html)
+* [oneAPI HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit-download.html)
+* [Stand-Alone Tools](https://www.intel.com/content/www/us/en/docs/oneapi/installation-guide-windows/2025-2/install-standalone-tools.html):
+  * [Intel Fortran Compiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler-download.html)
+  * [Intel Math Kernel Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl-download.html)
+  * [Intel MPI Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library-download.html)
+
 #### Version: 2025 (2025.2.1)
 
 Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2025.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html)
