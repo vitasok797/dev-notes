@@ -1,8 +1,6 @@
 # Compilers / Intel
 
-## Intel oneAPI toolkits
-
-### Source of distributions
+## Source of distributions
 
 * [oneAPI Base Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html)
 * [oneAPI HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit-download.html)
@@ -15,9 +13,9 @@
   * [intel_oneapi_compilers](https://github.com/spack/spack-packages/blob/develop/repos/spack_repo/builtin/packages/intel_oneapi_compilers/package.py)
   * [intel_oneapi_compilers_classic](https://github.com/spack/spack-packages/blob/develop/repos/spack_repo/builtin/packages/intel_oneapi_compilers_classic/package.py)
 
-### Distributions
+## Distributions
 
-#### Version: 2025 (2025.2.1)
+### Version: 2025 (2025.2.1)
 
 Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2025.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html)
 
@@ -30,7 +28,7 @@ Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/2d2a6686-ff06-44ce-baf0-ab84f8dafa89/intel-oneapi-hpc-toolkit-2025.2.1.44_offline.sh) \
   (SHA384 db4e9929a384d5c42d809e3781ef75e5de3d58ebb3069d94f98bda0814020310d9077a7e3fe0c888927fc35de3dff613)
 
-#### Version: 2024 (2024.2.1)
+### Version: 2024 (2024.2.1)
 
 Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2024.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2024.html)
 
@@ -46,7 +44,7 @@ Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles
 * [Linux/Fortran](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/5e7b0f1c-6f25-4cc8-94d7-3a527e596739/l_fortran-compiler_p_2024.2.1.80_offline.sh) \
   (SHA256 6f6dab82a88082a7a39f6feb699343c521f58c6481a1bb87edba7e2550995b6d)
 
-#### Version: 2023 (2023.2.0)
+### Version: 2023 (2023.2.0)
 
 Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2023.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2023.html)
 
@@ -55,7 +53,7 @@ Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles
 * [Linux/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/992857b9-624c-45de-9701-f6445d845359/l_BaseKit_p_2023.2.0.49397_offline.sh)
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/0722521a-34b5-4c41-af3f-d5d14e88248d/l_HPCKit_p_2023.2.0.49440_offline.sh)
 
-#### Version: 2022 (2022.3.1)
+### Version: 2022 (2022.3.1)
 
 Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2022.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2022.html)
 
@@ -64,7 +62,7 @@ Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles
 * [Linux/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18970/l_BaseKit_p_2022.3.1.17310_offline.sh)
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18975/l_HPCKit_p_2022.3.1.16997_offline.sh)
 
-#### Version: 2021 (2021.4.0)
+### Version: 2021 (2021.4.0)
 
 Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2021.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2021.html)
 
@@ -73,7 +71,7 @@ Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles
 * [Linux/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18236/l_BaseKit_p_2021.4.0.3422_offline.sh)
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18211/l_HPCKit_p_2021.4.0.3347_offline.sh)
 
-### Info
+## Info
 
 [Intel Toolkit Version to Compiler Version Mapping](https://www.intel.com/content/www/us/en/developer/articles/technical/oneapi-toolkit-version-to-compiler-version-mapping.html)
 
