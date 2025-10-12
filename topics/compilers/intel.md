@@ -2,9 +2,7 @@
 
 ## Intel oneAPI toolkits
 
-### Distributions
-
-#### Source of distributions
+### Source of distributions
 
 * [oneAPI Base Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html)
 * [oneAPI HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit-download.html)
@@ -13,6 +11,8 @@
   * [Intel Math Kernel Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl-download.html)
   * [Intel MPI Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library-download.html)
 * [oneapi-ci](https://github.com/oneapi-src/oneapi-ci)
+
+### Distributions
 
 #### Version: 2025 (2025.2.1)
 
