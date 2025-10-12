@@ -4,7 +4,7 @@
 
 ### Distributions
 
-#### Download links
+#### Source of distributions
 
 * [oneAPI Base Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/base-toolkit-download.html)
 * [oneAPI HPC Toolkit](https://www.intel.com/content/www/us/en/developer/tools/oneapi/hpc-toolkit-download.html)
@@ -12,6 +12,7 @@
   * [Intel Fortran Compiler](https://www.intel.com/content/www/us/en/developer/tools/oneapi/fortran-compiler-download.html)
   * [Intel Math Kernel Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onemkl-download.html)
   * [Intel MPI Library](https://www.intel.com/content/www/us/en/developer/tools/oneapi/mpi-library-download.html)
+* [oneapi-ci](https://github.com/oneapi-src/oneapi-ci)
 
 #### Version: 2025 (2025.2.1)
 
@@ -67,9 +68,6 @@ Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/18211/l_HPCKit_p_2021.4.0.3347_offline.sh)
 
 ### Notes
-
-> Source of links to distributions: \
-> <https://github.com/oneapi-src/oneapi-ci>
 
 > Installation on Linux: \
 > `[sudo] ./intel-oneapi-xxxxx-toolkit-xxxxx_offline.sh -a --silent --cli --eula accept`
