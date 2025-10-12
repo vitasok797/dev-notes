@@ -9,13 +9,13 @@
 Release notes: [Base](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-base-toolkit/2025.html), [HPC](https://www.intel.com/content/www/us/en/developer/articles/release-notes/oneapi-hpc-toolkit/2025.html)
 
 * [Windows/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/f5881e61-dcdc-40f1-9bd9-717081ac623c/intel-oneapi-base-toolkit-2025.2.1.46_offline.exe) \
-  (SHA384 )
+  (SHA384 9b476ced66e01b1545029dcd727aec0730dff3185622027f18aa645b4cd6789087a0ac72cde644b5ca6cf1d4adccef72)
 * [Windows/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/e63ac2b4-8a9a-4768-979a-399a8b6299de/intel-oneapi-hpc-toolkit-2025.2.1.46_offline.exe) \
-  (SHA384 )
+  (SHA384 4a848f1653828ac76f4962264db3a2aa6ffaa4950cf0442fa2b37f4ebda85be403f97afad9036e3500b4e689e70f2fd5)
 * [Linux/Base](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/3b7a16b3-a7b0-460f-be16-de0d64fa6b1e/intel-oneapi-base-toolkit-2025.2.1.44_offline.sh) \
-  (SHA384 )
+  (SHA384 70c259c5a113e0ade58d3b3c33e5917ff2e2057a1ac52772323d241c90b8885b386bd328d6e94a7a3f06ee3c2ca52106)
 * [Linux/HPC](https://registrationcenter-download.intel.com/akdlm/IRC_NAS/2d2a6686-ff06-44ce-baf0-ab84f8dafa89/intel-oneapi-hpc-toolkit-2025.2.1.44_offline.sh) \
-  (SHA384 )
+  (SHA384 db4e9929a384d5c42d809e3781ef75e5de3d58ebb3069d94f98bda0814020310d9077a7e3fe0c888927fc35de3dff613)
 
 #### Version: 2024 (2024.2.1)
 
