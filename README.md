@@ -22,6 +22,9 @@
 ## Projects
 * [ASPD](projects/aspd.md)
 
+## Prompts
+* [C++ requirements](prompts/cpp-requirements.md)
+
 ## Topics
 * [Architecture](topics/architecture.md)
 * [Calc](topics/calc.md)
