@@ -9,8 +9,7 @@
    [guidelines](languages/cpp/cpp-guidelines.md),
    [language](languages/cpp/cpp-language.md),
    [libs](languages/cpp/cpp-libs.md),
-   [ranges](languages/cpp/cpp-ranges.md)),
-   [VSL](languages/cpp/vsl)
+   [ranges](languages/cpp/cpp-ranges.md))
 * [C#](languages/csharp.md)
 * [Delphi](languages/delphi.md)
 * [Fortran](languages/fortran.md)
