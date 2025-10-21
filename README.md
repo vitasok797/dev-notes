@@ -22,6 +22,7 @@
 * [ASPD](projects/aspd.md)
 
 ## Prompts
+* [Prompts](prompts/prompts.md)
 * [C++ requirements](prompts/cpp-requirements.md)
 
 ## Topics
