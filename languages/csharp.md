@@ -87,6 +87,7 @@
 * [**C# documentation**](https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/)
 * [**C# language reference**](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/)
 * [**.NET Standard**](https://docs.microsoft.com/en-us/dotnet/standard/net-standard)
+* [**.NET sources**](https://github.com/dotnet/runtime/tree/main/src/libraries)
 * [Anonymous types](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/types/anonymous-types)
 * [Auto-Implemented Properties](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/auto-implemented-properties)
 * [Expression-bodied members](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/statements-expressions-operators/expression-bodied-members)
