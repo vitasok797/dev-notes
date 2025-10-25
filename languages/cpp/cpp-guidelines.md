@@ -1110,11 +1110,11 @@ auto main() -> int
 
 Cheap-to-copy types (`sizeof(T) <= 2 * sizeof(void*)`):
 * Fundamental types (integral, floating-point, bool, etc.)
-* Iterators
-* std::reference_wrapper
 * View/span types (std::string_view, std::span)
 * Small callable objects (functors, lambdas)
+* Iterators
 * std::pair, std::optional, std::expected with elements of fundamental types
+* std::reference_wrapper
 
 From the caller's point of view, the value can be `std::move`-ed if the parameter type is:
 * `HeavyType`
