@@ -198,6 +198,7 @@
 ### Types / Passing parameters by value, by-value-then-move idiom
 * [(Youtube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style" (1:03:46)](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
 * [Передача по ссылке или по значению?](https://scrutator.me/post/2018/07/30/value_vs_reference.aspx)
+* [(LearnCpp) Pass by const lvalue reference](https://www.learncpp.com/cpp-tutorial/pass-by-const-lvalue-reference/)
 * [(StackOverflow) Advantages of pass-by-value and std::move over pass-by-reference](https://stackoverflow.com/questions/51705967/advantages-of-pass-by-value-and-stdmove-over-pass-by-reference)
 * [(StackOverflow) Is the pass-by-value-and-then-move construct a bad idiom?](https://stackoverflow.com/questions/21035417/is-the-pass-by-value-and-then-move-construct-a-bad-idiom)
 * [(Habr) Три причины передавать std::string_view по значению](https://habr.com/ru/companies/otus/articles/726620/)
