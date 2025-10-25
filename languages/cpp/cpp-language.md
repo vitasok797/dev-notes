@@ -160,6 +160,8 @@
 * [std::reference_wrapper](https://www.learncpp.com/cpp-tutorial/arrays-of-references-via-stdreference_wrapper/)
 * [(Habr) RVO и NRVO в C++17](https://habr.com/ru/companies/vk/articles/666330/)
 * [(Abseil Tips) Tag Types](https://abseil.io/tips/198)
+* [C++ List of ScopeGuard](https://blog.rnstlr.ch/c-list-of-scopeguard.html)
+* [(LearnCpp) Explicit type conversion (casting) and static_cast](https://www.learncpp.com/cpp-tutorial/explicit-type-conversion-casting-and-static-cast/)
 
 ### Types / Functional
 * [(cppreference) std::function](https://en.cppreference.com/w/cpp/utility/functional/function.html)
@@ -202,9 +204,6 @@
 * [(Habr) std::move vs. std::forward](https://habr.com/ru/articles/568306/)
 * [Universal References in C++11](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
 * [(Wiki) Прямая передача](https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D1%8F%D0%BC%D0%B0%D1%8F_%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D1%87%D0%B0_(C%2B%2B))
-
-### Types / Scope guard
-* [C++ List of ScopeGuard](https://blog.rnstlr.ch/c-list-of-scopeguard.html)
 
 ### Types / Signed vs unsigned
 * std:
