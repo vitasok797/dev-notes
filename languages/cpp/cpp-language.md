@@ -192,12 +192,14 @@
 * [GotW #91 Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
 * [Should move-only types ever be passed by value?](https://scottmeyers.blogspot.com/2014/07/should-move-only-types-ever-be-passed.html)
 
+### Types / Passing parameters (string)
+* [(StackOverflow) Constructor taking std::string_view vs std::string and move](https://stackoverflow.com/questions/62411152/constructor-taking-stdstring-view-vs-stdstring-and-move/62411757#62411757)
+
 ### Types / Passing parameters by value, by-value-then-move idiom
-* [(Youtube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style"](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
+* [(Youtube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style" (1:03:46)](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
 * [Передача по ссылке или по значению?](https://scrutator.me/post/2018/07/30/value_vs_reference.aspx)
 * [(StackOverflow) Advantages of pass-by-value and std::move over pass-by-reference](https://stackoverflow.com/questions/51705967/advantages-of-pass-by-value-and-stdmove-over-pass-by-reference)
 * [(StackOverflow) Is the pass-by-value-and-then-move construct a bad idiom?](https://stackoverflow.com/questions/21035417/is-the-pass-by-value-and-then-move-construct-a-bad-idiom)
-* [(StackOverflow) Constructor taking std::string_view vs std::string and move](https://stackoverflow.com/questions/62411152/constructor-taking-stdstring-view-vs-stdstring-and-move/62411757#62411757)
 * [(Habr) Три причины передавать std::string_view по значению](https://habr.com/ru/companies/otus/articles/726620/)
 
 ### Types / Rvalue and Forwarding references
