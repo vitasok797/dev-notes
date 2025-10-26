@@ -192,9 +192,6 @@
 * [GotW #91 Solution: Smart Pointer Parameters](https://herbsutter.com/2013/06/05/gotw-91-solution-smart-pointer-parameters/)
 * [Should move-only types ever be passed by value?](https://scottmeyers.blogspot.com/2014/07/should-move-only-types-ever-be-passed.html)
 
-### Types / Passing parameters (string)
-* [(StackOverflow) Constructor taking std::string_view vs std::string and move](https://stackoverflow.com/questions/62411152/constructor-taking-stdstring-view-vs-stdstring-and-move/62411757#62411757)
-
 ### Types / Passing parameters by value, by-value-then-move idiom
 * [(Youtube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style" (1:03:46)](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
 * [Передача по ссылке или по значению?](https://scrutator.me/post/2018/07/30/value_vs_reference.aspx)
@@ -219,6 +216,11 @@
 * [My battle against signed/unsigned comparison: the most usual violations](https://www.sandordargo.com/blog/2023/10/18/signed-unsigned-comparison-the-most-usual-violations)
 * [(libtorrent.org) Unsigned integers](https://blog.libtorrent.org/2016/05/unsigned-integers/)
 * [-Wsign-compare is garbage](https://staticthinking.wordpress.com/2023/07/25/wsign-compare-is-garbage/)
+
+### Text / String view
+* [(LearnCpp) A quick guide on when to use std::string vs std::string_view](https://www.learncpp.com/cpp-tutorial/stdstring_view-part-2/#stringvsstringview)
+* [(LearnCpp) For function parameters, prefer std::string_view over const std::string& in most cases](https://www.learncpp.com/cpp-tutorial/pass-by-const-lvalue-reference/#stringparameter)
+* [(StackOverflow) Constructor taking std::string_view vs std::string and move](https://stackoverflow.com/questions/62411152/constructor-taking-stdstring-view-vs-stdstring-and-move/62411757#62411757)
 
 ### Types / Type Erasure
 * [Type Erasure](https://www.modernescpp.com/index.php/type-erasure/)
