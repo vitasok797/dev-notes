@@ -217,7 +217,7 @@
 * [(libtorrent.org) Unsigned integers](https://blog.libtorrent.org/2016/05/unsigned-integers/)
 * [-Wsign-compare is garbage](https://staticthinking.wordpress.com/2023/07/25/wsign-compare-is-garbage/)
 
-### Text / String view
+### Types / String view
 * [(LearnCpp) A quick guide on when to use std::string vs std::string_view](https://www.learncpp.com/cpp-tutorial/stdstring_view-part-2/#stringvsstringview)
 * [(LearnCpp) For function parameters, prefer std::string_view over const std::string& in most cases](https://www.learncpp.com/cpp-tutorial/pass-by-const-lvalue-reference/#stringparameter)
 * [(StackOverflow) Constructor taking std::string_view vs std::string and move](https://stackoverflow.com/questions/62411152/constructor-taking-stdstring-view-vs-stdstring-and-move/62411757#62411757)
