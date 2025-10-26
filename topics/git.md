@@ -55,6 +55,7 @@ See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
 
 ## Merge
 * [(StackOverflow) How do I safely merge a Git branch into master?](https://stackoverflow.com/questions/5601931/how-do-i-safely-merge-a-git-branch-into-master)
+* [Merge vs. Rebase vs. Squash](https://gist.github.com/mitchellh/319019b1b8aac9110fcfb1862e0c97fb)
 
 ## Rebase
 * [(Habr) Руководство по Git. Часть №2: золотое правило и другие основы rebase](https://habr.com/ru/companies/vk/articles/493818/)
