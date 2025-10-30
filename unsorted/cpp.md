@@ -132,18 +132,8 @@
 * https://godbolt.org/z/sKW846o7e
 * https://godbolt.org/z/dfjb6Kq9q https://cppinsights.io/
 
-## ⚠️ Narrow
-* https://github.com/cpp-ru/ideas/issues/575
-* https://userver.tech/d6/d84/namespaceutils.html#ac8b2fbae044283910eddaa269ddf5167
-* https://github.com/microsoft/GSL/blob/main/include/gsl/narrow
-
 ## ⚠️ vsl
-* VSL repo:
-  * create and move sources
-  * cpp-libs.md, readme.md: add links to repo
-  * cpp-guidelines.md: headers links
-  * cpp-guidelines.md: godbolt includes
-  * merge headers: use vsl::assert (? godbolt)
+* Add narrow_cast and narrow (https://github.com/microsoft/GSL/blob/main/include/gsl/util, https://github.com/microsoft/GSL/blob/main/include/gsl/narrow)
 * Error handling:
   * Options:
     * assert
