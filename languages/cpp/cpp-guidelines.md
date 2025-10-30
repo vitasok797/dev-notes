@@ -3358,3 +3358,27 @@ auto main() -> int
 ```
 
 </details>
+
+<details>
+<summary>Simple ScopeGuard</summary>
+
+▶️[**Run**](https://godbolt.org/z/3P6YE988z)
+
+```cpp
+#include <iostream>
+
+auto main() -> int
+{
+    struct Cleaner
+    {
+        ~Cleaner()
+        {
+             std::cout << "cleanup" << std::endl;
+        }
+    } cleaner;
+
+    std::cout << "---" << std::endl;
+}
+```
+
+</details>
