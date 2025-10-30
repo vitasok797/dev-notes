@@ -99,7 +99,6 @@
   * `-fsanitize=signed-integer-overflow`, `-fsanitize=unsigned-integer-overflow`
 
 ## Var
-* Dev games (Instagram)
 * https://hackingcpp.com/
 * [How to properly integrate third party libraries using design patterns in C++ and Java](https://medium.com/techanic/how-to-properly-integrate-third-party-libraries-using-design-patterns-in-c-and-java-a6980f7184f8)
 * [Путеводитель C++ программиста по неопределённому поведению](https://pvs-studio.ru/ru/blog/posts/cpp/1129/)
@@ -159,7 +158,3 @@
     * math.h/ceil_div (assert)
     * ...
 * noexcept
-
-## ⚠️ TODO
-* Visual Studio settings
-* Google test
