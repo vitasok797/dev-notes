@@ -11,3 +11,7 @@
 ```
 Требования к коду на языке C++ приведены в файле `cpp-requirements.md`.
 ```
+
+## Tools
+
+* [Gitingest](https://gitingest.com/)
