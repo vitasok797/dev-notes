@@ -101,6 +101,7 @@
 * [(Abseil Tips) Default vs Value Initialization](https://abseil.io/tips/146)
   ([default](https://en.cppreference.com/w/cpp/language/default_initialization.html), [value](https://en.cppreference.com/w/cpp/language/value_initialization.html))
 * [(LearnCpp) Variable assignment and initialization](https://www.learncpp.com/cpp-tutorial/variable-assignment-and-initialization/)
+* [(LearnCpp) In-Place Construction for std::any, std::variant and std::optional](https://www.cppstories.com/2018/07/in-place-cpp17/)
 
 ### Initialization / {}-initializer syntax
 * [(cppreference) List-initialization](https://en.cppreference.com/w/cpp/language/list_initialization.html)
