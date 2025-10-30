@@ -2243,7 +2243,7 @@ v1 |= ranges::actions::push_back(v2 | ranges::views::remove_if([](int i) { retur
 <details>
 <summary>std::optional</summary>
 
-[(LearnCpp) In-Place Construction for std::any, std::variant and std::optional](https://www.cppstories.com/2018/07/in-place-cpp17/)
+[In-Place Construction for std::any, std::variant and std::optional](https://www.cppstories.com/2018/07/in-place-cpp17/)
 
 #### Creating
 
