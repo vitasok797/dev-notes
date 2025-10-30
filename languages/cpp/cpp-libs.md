@@ -72,6 +72,7 @@
 * <https://github.com/muellan/clipp>
 * <https://github.com/adishavit/argh>
 * <https://github.com/CLIUtils/CLI11>
+* <https://github.com/mshenoda/argy> (no vcpkg, header-only)
 
 ### Configuration / Environment
 * [Boost.Program_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
@@ -112,6 +113,7 @@
 * <https://github.com/p-ranav/csv2> ([vcpkg](https://vcpkg.io/en/package/p-ranav-csv2))
 * <https://github.com/stephenberry/glaze> ([CSV](https://github.com/stephenberry/glaze/blob/main/docs/csv.md))
 * <https://github.com/danielaparker/jsoncons> ([CSV](https://github.com/danielaparker/jsoncons/blob/master/doc/ref/csv/csv.md))
+* <https://github.com/liquidaty/zsv> (no vcpkg)
 
 ### Formats / Binary serialization
 * <https://protobuf.dev/>
@@ -308,6 +310,7 @@
 * <https://github.com/aminroosta/sqlite_modern_cpp> ([vcpkg](https://vcpkg.io/en/package/sqlite-modern-cpp))
 * <https://github.com/SRombauts/SQLiteCpp>
 * <https://github.com/bw-hro/sqlitemap> ([vcpkg](https://vcpkg.io/en/package/bw-sqlitemap))
+* <https://github.com/getml/sqlgen>
 
 ## Shared Libraries
 * [Boost.DLL](https://www.boost.org/doc/libs/latest/doc/html/boost_dll.html)
