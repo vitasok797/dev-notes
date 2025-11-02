@@ -1493,6 +1493,28 @@ auto               Person::get_person_type() -> PersonType
 </details>
 
 <details>
+<summary>Immediately Invoked Lambda Expression (IILE)</summary>
+
+[ES.28: Use lambdas for complex initialization, especially of const variables](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es28-use-lambdas-for-complex-initialization-especially-of-const-variables)
+
+```cpp
+const auto value = [](){ return 42; }();
+```
+
+```cpp
+const auto value = [&]()
+{
+    if (case_a) return std::string{"Value A"};
+    if (case_b) return std::string{"Value B"};
+    return std::string{"Value C"};
+}();
+```
+
+▶️[**Demo**](https://godbolt.org/z/GP5z4njbj)
+
+</details>
+
+<details>
 <summary>Statement with initializer</summary>
 
 #### `if`
