@@ -7,13 +7,17 @@
 ## Patterns
 * [(Wiki) Data access object (DAO)](https://en.wikipedia.org/wiki/Data_access_object)
 * [(Wiki) Active record](https://en.wikipedia.org/wiki/Active_record_pattern)
+* [Martin Fowler: Development of Further Patterns of Enterprise Application Architecture](https://martinfowler.com/eaaDev/)
+* [Справочник «Паттерны проектирования»](https://design-pattern.ru/patterns/)
 
 ### Patterns / Bridge
 * [(Habr) Еще раз про Bridge (в картинках)](https://habr.com/ru/articles/138585/)
 * [(Habr) Шаблон Bridge дополнительные штрихи](https://habr.com/ru/articles/138902/)
 
 ## Principles
-* [SOLID](https://ru.wikipedia.org/wiki/SOLID_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
+* SOLID:
+  [1](https://ru.wikipedia.org/wiki/SOLID_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
+  [2](https://igor.quatrocode.com/2008/09/solid-top-5.html)
 * [DRY](https://ru.wikipedia.org/wiki/Don%E2%80%99t_repeat_yourself)
 * [KISS](https://ru.wikipedia.org/wiki/KISS_(%D0%BF%D1%80%D0%B8%D0%BD%D1%86%D0%B8%D0%BF))
 * [YAGNI](https://ru.wikipedia.org/wiki/YAGNI)
@@ -45,6 +49,7 @@
 * [(Habr) Организация кода в микросервисах и мой подход применения гексагональной архитектуры и DDD](https://habr.com/ru/articles/493426/)
 * [(Habr) Domain-driven design, Hexagonal architecture of ports and adapters, Dependency injection и Python](https://habr.com/ru/articles/559560/)
 * [Domain Driven Design: введение](https://merle-amber.blogspot.com/2009/01/domain-driven-design.html)
+* [Блог Александра Бындю: DDD](https://blog.byndyu.ru/search/label/ddd)
 
 ## GUI
 
