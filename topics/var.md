@@ -29,6 +29,11 @@
 * [(StackOverflow) TortoiseSVN icons overlay not showing after updating to Windows 10](https://stackoverflow.com/questions/31964627/tortoisesvn-icons-overlay-not-showing-after-updating-to-windows-10)
 * [(StackOverflow) Resolve "Can't revert 'somedir' without reverting children" when reverting in svn](https://stackoverflow.com/questions/78648182/resolve-cant-revert-somedir-without-reverting-children-when-reverting-in-sv)
 
+## Time 
+* [(Habr) Что должен знать о времени каждый программист](https://habr.com/ru/articles/123461/)
+* [(Habr) Работаем с таймзонами правильно](https://habr.com/ru/companies/vk/articles/242645/)
+* [(Habr) Работаем с таймзонами в Python](https://habr.com/ru/companies/vk/articles/242615/)
+
 ## Tools
 * [Pixel fonts](https://www.dafont.com/bitmap.php) ([5x5](https://www.dafont.com/5x5.font), [Pixeljosh6](https://www.dafont.com/pixeljosh6.font))
 * [LanguageTool](https://languagetool.org/ru)
