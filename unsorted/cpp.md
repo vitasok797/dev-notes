@@ -133,7 +133,9 @@
 * https://godbolt.org/z/dfjb6Kq9q https://cppinsights.io/
 
 ## ⚠️ vsl
-* Add narrow_cast and narrow (https://github.com/microsoft/GSL/blob/main/include/gsl/util, https://github.com/microsoft/GSL/blob/main/include/gsl/narrow)
+* Add narrow_cast and narrow:
+  * https://github.com/microsoft/GSL/blob/main/include/gsl/util
+  * https://github.com/microsoft/GSL/blob/main/include/gsl/narrow
 * Error handling:
   * Options:
     * assert
