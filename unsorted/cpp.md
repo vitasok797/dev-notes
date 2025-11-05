@@ -47,8 +47,6 @@
 * GSL_SUPPRESS
 * Expects/Ensures
 * zstring
-* final_action
-* gsl::narrow, gsl::narrow_cast
 * gsl::at
 
 ## Structured Binding
@@ -83,6 +81,7 @@
 * https://www.reddit.com/r/cpp/comments/mgwfm8/comment/gsz49uj/
 * https://stackoverflow.com/questions/27501400/the-implementation-of-stdforward
 * https://github.com/rollbear/lift
+* https://madhawapolkotuwa.medium.com/understanding-c-macros-850ee3f316ca
 
 ## CMake
 * https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html
@@ -104,8 +103,6 @@
 * [Путеводитель C++ программиста по неопределённому поведению](https://pvs-studio.ru/ru/blog/posts/cpp/1129/)
 * [Размещение объектов. Часть 1: Основы](https://scrutator.me/post/2014/01/29/objects_memory_layout_p1.aspx)
 * [Поиск Кёнига (ADL)](https://dyzzet.ru/a/argument-dependent-lookup/ (советы, https://k0d.cc/storage/books/C/standarty_programmirovaniya_na_c.pdf))
-* [Understanding C++ Macros](https://madhawapolkotuwa.medium.com/understanding-c-macros-850ee3f316ca)
-* [(Habr) Статья 1: Введение в MV шаблоны](https://habr.com/ru/articles/922980/)
 
 ## ⚠️ LearnCpp
 * [LearnCpp](https://www.learncpp.com/)
@@ -133,9 +130,6 @@
 * https://godbolt.org/z/dfjb6Kq9q https://cppinsights.io/
 
 ## ⚠️ vsl
-* Add narrow_cast and narrow:
-  * https://github.com/microsoft/GSL/blob/main/include/gsl/util
-  * https://github.com/microsoft/GSL/blob/main/include/gsl/narrow
 * Error handling:
   * Options:
     * assert
@@ -149,4 +143,3 @@
     * math.h/ftrim (throw logic_error) [demo](https://godbolt.org/z/bsqGP99eK)
     * math.h/ceil_div (assert)
     * ...
-* noexcept
