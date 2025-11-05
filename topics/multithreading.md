@@ -30,6 +30,7 @@
 * [(Preshing) Acquire and Release Fences](https://preshing.com/20130922/acquire-and-release-fences/)
 * [(Preshing) Acquire and Release Fences Don't Work the Way You'd Expect](https://preshing.com/20131125/acquire-and-release-fences-dont-work-the-way-youd-expect/)
 * [(Preshing) Can Reordering of Release/Acquire Operations Introduce Deadlock?](https://preshing.com/20170612/can-reordering-of-release-acquire-operations-introduce-deadlock/)
+* [(Субъективный объективизм) Взаимоотношения с памятью. Мультипроцессор](https://scrutator.me/post/2015/04/05/cpu_memory_inter_multiprocessor.aspx)
 * [(Субъективный объективизм) Барьеры памяти](https://scrutator.me/post/2015/05/16/memory_barriers.aspx)
 * [The Little Book of Semaphores](https://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf)
 
