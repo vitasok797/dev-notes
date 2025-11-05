@@ -78,3 +78,4 @@
 * [Programming stuff: Управление зависимостями](https://sergeyteplyakov.blogspot.com/2012/11/blog-post.html)
 * [Programming stuff: Наследование vs Композиция vs Агрегация](https://sergeyteplyakov.blogspot.com/2012/12/vs-vs.html)
 * [Programming stuff: Инверсия зависимостей на практике](https://sergeyteplyakov.blogspot.com/2013/01/blog-post.html#AmbientContext)
+* [(Habr) Статья 1: Введение в MV шаблоны](https://habr.com/ru/articles/922980/)
