@@ -30,6 +30,7 @@ public:
 protected:
     // Types and type aliases (typedef, using, enum, nested structs/classes)
     // Static constants
+    // Factory functions, Constructors and Special member functions
     // Functions (static, non-static)
     // Data members
 
@@ -37,6 +38,7 @@ private:
     // Friend types
     // Types and type aliases (typedef, using, enum, nested structs/classes)
     // Static constants
+    // Factory functions, Constructors and Special member functions
     // Functions (static, non-static)
     // Friend functions
     // Data members
