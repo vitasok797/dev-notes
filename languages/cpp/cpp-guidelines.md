@@ -11,7 +11,7 @@
 class MyClass [final]
 {
 public:
-    // Types and type aliases (typedef, using, enum, nested structs/classes, friend types)
+    // Types and type aliases (typedef, using, enum, nested structs/classes)
     // Static constants
 
     // Factory functions
@@ -24,19 +24,21 @@ public:
     //   - move assignment operator
     //   - destructor
 
-    // Functions (static, non-static, friend)
+    // Functions (static, non-static)
     // Data members
 
 protected:
-    // Types and type aliases
+    // Types and type aliases (typedef, using, enum, nested structs/classes)
     // Static constants
-    // Functions (static, non-static, friend)
+    // Functions (static, non-static)
     // Data members
 
 private:
-    // Types and type aliases (typedef, using, enum, nested structs/classes, friend types)
+    // Friend types
+    // Types and type aliases (typedef, using, enum, nested structs/classes)
     // Static constants
-    // Functions (static, non-static, friend)
+    // Functions (static, non-static)
+    // Friend functions
     // Data members
 };
 ```
