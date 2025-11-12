@@ -2393,6 +2393,23 @@ auto& value = *opt;
 </details>
 
 <details>
+<summary>🚧 std::pair</summary>
+
+#### Creating
+
+```cpp
+```
+
+#### Returning
+
+```cpp
+```
+
+▶️[**Demo** (initialization)](https://godbolt.org/z/vcdodEPaj) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+
+</details>
+
+<details>
 <summary>std::tuple</summary>
 
 #### Creating
