@@ -2398,27 +2398,14 @@ auto& value = *opt;
 #### Creating
 
 ```cpp
-```
-
-#### Returning
-
-```cpp
-```
-
-▶️[**Demo** (initialization)](https://godbolt.org/z/vcdodEPaj) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
-
-</details>
-
-<details>
-<summary>std::tuple</summary>
-
-#### Creating
-
-```cpp
 // inplace Type creation (single-arg ctor only)
 auto t = std::tuple<int, Type>{0, 1};
 
-// move
+// inplace Type creation (multiple-arg ctors)
+std::pair<int, Type>{std::piecewise_construct, std::tuple{0}, std::tuple{1, 2}};
+std::pair<int, Type>{std::piecewise_construct, std::tuple{0}, std::forward_as_tuple(arg1_as_ref, arg2_as_ref)};
+
+// move Type
 auto t = std::tuple<int, Type>{0, std::move(t)};
 auto t = std::tuple<int, Type>{0, Type{1, 2}};
 ```
@@ -2432,7 +2419,44 @@ auto return_tuple() -> std::tuple<int, Type> { return {0, 1}; }
 // inplace Type creation (single-arg ctor only)
 auto return_tuple() -> std::tuple<int, Type> { return std::tuple<int, Type>{0, 1}; }
 
-// move
+// inplace Type creation (multiple-arg ctors)
+auto return_tuple() -> std::pair<int, Type> { return {std::piecewise_construct, std::tuple{0}, std::tuple{1, 2}}; }
+auto return_tuple() -> std::pair<int, Type> { return std::pair<int, Type>{std::piecewise_construct, std::tuple{0}, std::tuple{1, 2}}; }
+auto return_tuple() -> std::pair<int, Type> { return std::pair<int, Type>{std::piecewise_construct, std::tuple{0}, std::forward_as_tuple(arg1_as_ref, arg2_as_ref)}; }
+
+// move Type
+auto return_tuple() -> std::tuple<int, Type> { return {0, std::move(t)}; }
+auto return_tuple() -> std::tuple<int, Type> { return {0, Type{1, 2}}; }
+```
+
+▶️[**Demo** (initialization)](https://godbolt.org/z/51Kh6ddMj) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+
+</details>
+
+<details>
+<summary>std::tuple</summary>
+
+#### Creating
+
+```cpp
+// inplace Type creation (single-arg ctor only)
+auto t = std::tuple<int, Type>{0, 1};
+
+// move Type
+auto t = std::tuple<int, Type>{0, std::move(t)};
+auto t = std::tuple<int, Type>{0, Type{1, 2}};
+```
+
+#### Returning
+
+```cpp
+// inplace Type creation (single-arg + non-explicit ctor only)
+auto return_tuple() -> std::tuple<int, Type> { return {0, 1}; }
+
+// inplace Type creation (single-arg ctor only)
+auto return_tuple() -> std::tuple<int, Type> { return std::tuple<int, Type>{0, 1}; }
+
+// move Type
 auto return_tuple() -> std::tuple<int, Type> { return {0, std::move(t)}; }
 auto return_tuple() -> std::tuple<int, Type> { return {0, Type{1, 2}}; }
 ```
