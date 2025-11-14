@@ -36,7 +36,7 @@
 * ⚠️ [utf8proc](https://github.com/JuliaStrings/utf8proc)
 
 ### Text / Formatting
-* ⭐ <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/), [hackingcpp](https://hackingcpp.com/cpp/libs/fmt.html), [hackingcpp cheatsheet](https://hackingcpp.com/cpp/libs/fmt.png))
+* ⭐ <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/), [hackingcpp](https://hackingcpp.com/cpp/libs/fmt.html), [cheatsheet](https://hackingcpp.com/cpp/libs/fmt.png))
 * <https://github.com/p-ranav/pprint>
 * ⭐ <https://github.com/p-ranav/tabulate>
 
