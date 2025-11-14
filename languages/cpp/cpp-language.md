@@ -244,6 +244,7 @@
 * [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
 * [Вероломные указатели](https://scrutator.me/post/2019/12/12/backstabbing_ptrs.aspx)
 * [Зачем нужны owner_before и owner_less (std::shared_ptr)](https://dyzzet.ru/a/owner_before-and-owner_less/)
+* [Custom Deleters for C++ Smart Pointers](https://www.cppstories.com/2016/04/custom-deleters-for-c-smart-pointers/)
 
 ## Patterns
 * [(Habr) Техника избежания неопределённого поведения при обращении к синглтону](https://habr.com/ru/articles/455848/)
