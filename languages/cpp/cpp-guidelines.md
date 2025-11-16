@@ -3273,6 +3273,13 @@ using func = void (*) (int, int);
 ## vsl
 
 <details>
+<summary>is_one_of</summary>
+
+▶️[**Demo**](https://godbolt.org/z/rvcrPf9Ta) [[util.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/util.h)]
+
+</details>
+
+<details>
 <summary>NonCopyable</summary>
 
 ▶️[**Demo**](https://godbolt.org/z/s6vxdWzKz) [[non_copyable.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/non_copyable.h)]
