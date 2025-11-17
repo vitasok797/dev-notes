@@ -114,6 +114,9 @@
 * [zmq - crates.io: Rust Package Registry](https://crates.io/crates/zmq)
 * [Simple ZeroMQ IPC between Python and Rust : rust](https://www.reddit.com/r/rust/comments/609h7l/simple_zeromq_ipc_between_python_and_rust/)
 
+## Interoperability
+* [A tour of the Rust and C++ interoperability ecosystem](https://eshard.com/posts/Rust-Cxx-interop)
+
 ## 001
 * [What's the "best" way to implement a doubly-linked list in Rust? - The Rust Programming Language Forum](https://users.rust-lang.org/t/whats-the-best-way-to-implement-a-doubly-linked-list-in-rust/27899)
 * [Writing a doubly linked list in Rust is easy : rust](https://www.reddit.com/r/rust/comments/7zsy72/writing_a_doubly_linked_list_in_rust_is_easy/)
