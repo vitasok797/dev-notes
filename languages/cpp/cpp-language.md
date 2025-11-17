@@ -67,7 +67,7 @@
 * [12 Different Ways to Filter Containers in Modern C++](https://www.cppstories.com/2021/filter-cpp-containers/)
 * [(StackOverflow) Choosing between std::map and std::unordered_map](https://stackoverflow.com/questions/3902644/choosing-between-stdmap-and-stdunordered-map/3902729#3902729)
 * [Mastering C++ reserve()](https://fastcode.guru/posts/mastering-c++-reserve/)
-* [(Youtube) Программирование на C++. Итераторы](https://www.youtube.com/watch?v=pY2XSekwqJo)
+* [(YouTube) Программирование на C++. Итераторы](https://www.youtube.com/watch?v=pY2XSekwqJo)
 
 ## Algorithms
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (1)](https://habr.com/ru/articles/762554/)
@@ -121,7 +121,7 @@
 * [Almost Always const auto&](https://huixie90.github.io/Almost-always-const-auto-ref/)
 * [When auto Seemingly Deduces a Reference in C++](https://blog.petrzemek.net/2017/12/08/when-auto-seemingly-deduces-a-reference-in-cpp/)
 * [The case against Almost Always auto (AAA)](https://gist.github.com/Eisenwave/5cca27867828743bf50ad95d526f5a6e)
-* [(Youtube) Embracing Trailing Return Types and auto Return SAFELY in Modern C++](https://www.youtube.com/watch?v=Tnl7FnwJ2Uw)
+* [(YouTube) Embracing Trailing Return Types and auto Return SAFELY in Modern C++](https://www.youtube.com/watch?v=Tnl7FnwJ2Uw)
 * Range-based for:
   * [(StackOverflow) Using auto in range-based for](https://stackoverflow.com/questions/15927033/what-is-the-correct-way-of-using-c11s-range-based-for/15927037#15927037)
   * [for (auto&& elt : range) Always Works](https://quuxplusone.github.io/blog/2018/12/15/autorefref-always-works/)
@@ -196,7 +196,7 @@
 * [Should move-only types ever be passed by value?](https://scottmeyers.blogspot.com/2014/07/should-move-only-types-ever-be-passed.html)
 
 ### Types / Passing parameters by value, by-value-then-move idiom
-* [(Youtube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style" (1:03:46)](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
+* [(YouTube) CppCon 2014: Herb Sutter "Back to the Basics! Essentials of Modern C++ Style" (1:03:46)](https://www.youtube.com/watch?v=xnqTKD8uD64&t=3826s)
 * [Передача по ссылке или по значению?](https://scrutator.me/post/2018/07/30/value_vs_reference.aspx)
 * [(LearnCpp) Pass by const lvalue reference](https://www.learncpp.com/cpp-tutorial/pass-by-const-lvalue-reference/)
 * [(StackOverflow) Advantages of pass-by-value and std::move over pass-by-reference](https://stackoverflow.com/questions/51705967/advantages-of-pass-by-value-and-stdmove-over-pass-by-reference)
@@ -315,7 +315,7 @@
   * <https://github.com/carbon-language/carbon-lang> ([doc](https://docs.carbon-lang.dev/))
 * Cpp2:
   * <https://github.com/hsutter/cppfront> ([doc](https://hsutter.github.io/cppfront/))
-  * [(Youtube) Can C++ be 10x Simpler & Safer? - Herb Sutter - CppCon 2022](https://www.youtube.com/watch?v=ELeZAKCN4tY)
+  * [(YouTube) Can C++ be 10x Simpler & Safer? - Herb Sutter - CppCon 2022](https://www.youtube.com/watch?v=ELeZAKCN4tY)
 
 ## C++ vs C
 * [Why should I have written ZeroMQ in C, not C++ (part I)](https://250bpm.com/blog:4/)

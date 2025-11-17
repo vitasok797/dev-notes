@@ -60,9 +60,9 @@
 * [Dust DDS](https://github.com/s2e-systems/dust-dds/tree/main/bindings/python) ([pypi](https://pypi.org/project/dust-dds/))
 
 ## Video
-* [(Youtube) ROS 2 + DDS Interoperation](https://www.youtube.com/watch?v=GGqcrccWfeE)
-* [(Youtube) RTI Connext DDS Introduction](https://www.youtube.com/watch?v=b-kwbVKfSF0)
-* [(Youtube) Admin Console](https://www.youtube.com/watch?v=Ob_weer8Om4)
+* [(YouTube) ROS 2 + DDS Interoperation](https://www.youtube.com/watch?v=GGqcrccWfeE)
+* [(YouTube) RTI Connext DDS Introduction](https://www.youtube.com/watch?v=b-kwbVKfSF0)
+* [(YouTube) Admin Console](https://www.youtube.com/watch?v=Ob_weer8Om4)
 
 ## Var
 * [(StackOverflow) Given a DDS topic name, can the topic type information be determined at run-time?](https://stackoverflow.com/questions/47416153/given-a-dds-topic-name-can-the-topic-type-information-be-determined-at-run-time)

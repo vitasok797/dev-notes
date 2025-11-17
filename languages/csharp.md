@@ -164,7 +164,7 @@
 * [Calling C# natively from Rust](https://medium.com/@chyyran/calling-c-natively-from-rust-1f92c506289d)
 
 ## Video
-* [(Youtube) Channel: Nick Chapsas](https://www.youtube.com/c/Elfocrash/videos)
+* [(YouTube) Channel: Nick Chapsas](https://www.youtube.com/c/Elfocrash/videos)
 
 ## Var
 * [(Habr) Три ошибки в C#, которые лучше не допускать](https://habr.com/ru/companies/otus/articles/932888/)

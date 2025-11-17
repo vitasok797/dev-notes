@@ -17,7 +17,7 @@
 
 ## Pandas
 * [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
-* [(Youtube) Time-Series Data Manipulation with Pandas](https://www.youtube.com/watch?v=VLGptwMRIVQ)
+* [(YouTube) Time-Series Data Manipulation with Pandas](https://www.youtube.com/watch?v=VLGptwMRIVQ)
 * [(Habr) Чем опасен apply() и почему его стоит заменить](https://habr.com/ru/companies/otus/articles/913742/)
 
 ## PyInstaller

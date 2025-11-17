@@ -96,8 +96,8 @@ See [Git Cheat Sheet / Configuration](../cheatsheets/git.md#configuration-) 🔗
 * [Atlassian tutorials](https://www.atlassian.com/git/tutorials)
 
 ## Video
-* [(Youtube) Git. Большой практический выпуск](https://www.youtube.com/watch?v=SEvR78OhGtw)
-* [(Youtube) So You Think You Know Git](https://www.youtube.com/watch?v=aolI_Rz0ZqY)
+* [(YouTube) Git. Большой практический выпуск](https://www.youtube.com/watch?v=SEvR78OhGtw)
+* [(YouTube) So You Think You Know Git](https://www.youtube.com/watch?v=aolI_Rz0ZqY)
 
 ## Var
 * [(Habr) Ещё раз о «Mercurial против Git» (с картинками)](https://habr.com/ru/articles/123700/)

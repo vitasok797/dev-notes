@@ -65,15 +65,15 @@
 * [(Habr) Реализация паттерна MVP на основе ApplicationController и IoC в WinForms приложении](https://habr.com/ru/articles/502358/)
 
 ## Video
-* [(Youtube) Uncle Bob: Clean Code / Lesson 1](https://www.youtube.com/watch?v=7EmboKQH8lM)
-* [(Youtube) Uncle Bob: Clean Code / Lesson 2](https://www.youtube.com/watch?v=2a_ytyt9sf8)
-* [(Youtube) Uncle Bob: Clean Code / Lesson 4](https://www.youtube.com/watch?v=58jGpV2Cg50)
-* [(Youtube) Uncle Bob: SOLID principles](https://www.youtube.com/watch?v=zHiWqnTWsn4)
-* [(Youtube) Uncle Bob: Clean Architecture and Design](https://www.youtube.com/watch?v=Nsjsiz2A9mg)
-* [(Youtube) Uncle Bob: The S.O.L.I.D. Principles of OO & Agile Design](https://www.youtube.com/watch?v=t86v3N4OshQ)
-* [(Youtube) Uncle Bob: Expecting Professionalism](https://www.youtube.com/watch?v=BSaAMQVq01E)
-* [(Youtube) Введение в Чистую Архитектуру. Артур Бадретдинов](https://www.youtube.com/watch?v=MYXt_9d_2ps)
-* [(Youtube) Эти страшные буквы MV*](https://www.youtube.com/watch?v=5WgsKtlHUls)
+* [(YouTube) Uncle Bob: Clean Code / Lesson 1](https://www.youtube.com/watch?v=7EmboKQH8lM)
+* [(YouTube) Uncle Bob: Clean Code / Lesson 2](https://www.youtube.com/watch?v=2a_ytyt9sf8)
+* [(YouTube) Uncle Bob: Clean Code / Lesson 4](https://www.youtube.com/watch?v=58jGpV2Cg50)
+* [(YouTube) Uncle Bob: SOLID principles](https://www.youtube.com/watch?v=zHiWqnTWsn4)
+* [(YouTube) Uncle Bob: Clean Architecture and Design](https://www.youtube.com/watch?v=Nsjsiz2A9mg)
+* [(YouTube) Uncle Bob: The S.O.L.I.D. Principles of OO & Agile Design](https://www.youtube.com/watch?v=t86v3N4OshQ)
+* [(YouTube) Uncle Bob: Expecting Professionalism](https://www.youtube.com/watch?v=BSaAMQVq01E)
+* [(YouTube) Введение в Чистую Архитектуру. Артур Бадретдинов](https://www.youtube.com/watch?v=MYXt_9d_2ps)
+* [(YouTube) Эти страшные буквы MV*](https://www.youtube.com/watch?v=5WgsKtlHUls)
 
 ## Var
 * [Ковариантность и контравариантность](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_%D0%B8_%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B0%D0%BD%D1%82%D0%BD%D0%BE%D1%81%D1%82%D1%8C_(%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5))
