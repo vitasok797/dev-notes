@@ -3308,6 +3308,13 @@ using func = void (*) (int, int);
 </details>
 
 <details>
+<summary>OS</summary>
+
+▶️[**Demo**](https://godbolt.org/z/sn317M4nT) [[output.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/os.h)]
+
+</details>
+
+<details>
 <summary>ScopeGuard</summary>
 
 ▶️[**Run**](https://godbolt.org/z/jPYW1dfW8) [[scope_guard.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/scope_guard.h)]
