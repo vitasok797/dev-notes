@@ -3310,7 +3310,7 @@ using func = void (*) (int, int);
 <details>
 <summary>OS</summary>
 
-▶️[**Demo**](https://godbolt.org/z/sn317M4nT) [[output.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/os.h)]
+▶️[**Demo**](https://godbolt.org/z/sn317M4nT) [[os.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/os.h)]
 
 </details>
 
