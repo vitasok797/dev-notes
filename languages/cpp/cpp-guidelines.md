@@ -1907,6 +1907,8 @@ condition ? true_expression : false_expression
 <summary>Contains</summary>
 
 ```cpp
+#include <range/v3/all.hpp>
+
 auto v = std::vector<int>{1, 2, 3};
 
 std::cout << std::boolalpha;
@@ -2023,6 +2025,8 @@ auto main() -> int
 <summary>Enumerate</summary>
 
 ```cpp
+#include <range/v3/all.hpp>
+
 auto v = std::vector<std::string>{"A", "B", "C"};
 
 for (const auto& [index, value] : ranges::views::enumerate(v))
@@ -2037,6 +2041,8 @@ for (const auto& [index, value] : ranges::views::enumerate(v))
 <summary>Filter</summary>
 
 ```cpp
+#include <range/v3/all.hpp>
+
 auto v = std::vector<int>{1, 2, 3, 4, 5, 6};
 
 auto is_even = [](int i) { return i % 2 == 0; };
@@ -2186,6 +2192,8 @@ auto func([const] auto[&/&&/*] rng) -> void {}
 ```cpp
 // Using concepts
 
+#include <range/v3/all.hpp>
+
 template<typename R>
 requires ranges::range<R>
 auto func([const] R[&/&&/*] rng) -> void {}
@@ -2205,6 +2213,8 @@ auto func([const] ranges::output_range auto[&/&&/*] rng) -> void {}
 <summary>Range from iterators</summary>
 
 ```cpp
+#include <range/v3/all.hpp>
+
 auto v = std::vector<int>{1, 2, 3, 4, 5};
 
 auto from = ranges::find(v, 3);
@@ -2217,6 +2227,8 @@ auto rng = ranges::subrange(from, v.end());
 <summary>String: to_string</summary>
 
 ```cpp
+#include <range/v3/all.hpp>
+
 auto v = std::vector<int>{1, 2, 3};
 
 auto rng = v | ranges::views::transform([](int i) { return std::to_string(i); });
@@ -2255,6 +2267,8 @@ auto main() -> int
 <summary>Vector append</summary>
 
 ```cpp
+#include <range/v3/all.hpp>
+
 auto v1 = std::vector<int>{1, 2, 3};
 auto v2 = std::vector<int>{4, -5, 6};
 
