@@ -285,6 +285,8 @@
   * <https://github.com/cwzx/nngpp>
 * DDS:
   * <https://github.com/eProsima/Fast-DDS> ([vcpkg](https://vcpkg.io/en/package/fastdds))
+* Var:
+  * <https://github.com/zeroc-ice/ice> ([vcpkg](https://vcpkg.io/en/package/zeroc-ice), GPL)
 
 ## HTTP servers
 * POCO ([Network](https://pocoproject.org/slides/200-Network.pdf))
