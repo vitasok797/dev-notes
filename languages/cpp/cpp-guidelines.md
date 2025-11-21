@@ -1221,9 +1221,7 @@ auto test(F f) -> void
 <details>
 <summary>Named arguments</summary>
 
-#### Using strong_type library
-
-Libs: [strong_type](https://github.com/rollbear/strong_type)
+#### Using strong type ([strong_type](https://github.com/rollbear/strong_type) library)
 
 ▶️[**Run**](https://godbolt.org/z/6KPs48xGM)
 
@@ -1248,7 +1246,7 @@ auto main() -> int
 }
 ```
 
-#### Using struct
+#### Using strong type (struct)
 
 ▶️[**Run**](https://godbolt.org/z/acEG3EPqn)
 
