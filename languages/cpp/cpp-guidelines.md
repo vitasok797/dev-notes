@@ -1297,6 +1297,41 @@ auto main() -> int
 }
 ```
 
+#### Using enum for bool argument
+
+▶️[**Run**](https://godbolt.org/z/njYsEndEz)
+
+```cpp
+#include <iostream>
+
+enum class EnableOption
+{
+    YES,
+    NO,
+};
+
+auto func(EnableOption enable_option) -> void
+{
+    std::cout << "Enable option: ";
+    if (enable_option == EnableOption::YES)
+    {
+        std::cout << "Yes" << std::endl;
+    }
+    else
+    {
+        std::cout << "No" << std::endl;
+    }
+}
+
+auto main() -> int
+{
+    func(EnableOption::YES);
+    func(EnableOption::NO);
+    // func(0);  // not allowed
+    // func(true);  // not allowed
+}
+```
+
 </details>
 
 <details>
