@@ -3317,6 +3317,46 @@ using func = void (*) (int, int);
 
 </details>
 
+<details>
+<summary>Type alias (strong)</summary>
+
+▶️[**Run**](https://godbolt.org/z/4qh1TMjxn)
+
+```cpp
+#include <iostream>
+#include <cstdint>
+#include <type_traits>
+
+struct size64_t
+{
+    using value = uint64_t;
+};
+
+struct size32_t
+{
+    using value = uint32_t;
+};
+
+template<typename T, typename... Types>
+concept one_of = (std::same_as<std::decay_t<T>, Types> || ...);
+
+template<typename SizeType>
+    requires one_of<SizeType, size64_t, size32_t>
+auto func() -> void
+{
+    std::cout << sizeof(typename SizeType::value) << std::endl;
+}
+
+auto main() -> int
+{
+    func<size64_t>();
+    func<size32_t>();
+    // func<uint32_t>();  // not allowed
+}
+```
+
+</details>
+
 ## vsl
 
 <details>
