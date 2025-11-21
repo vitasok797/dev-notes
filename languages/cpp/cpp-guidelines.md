@@ -3320,7 +3320,7 @@ using func = void (*) (int, int);
 <details>
 <summary>Type alias (strong)</summary>
 
-▶️[**Run**](https://godbolt.org/z/GxeYdesPK)
+▶️[**Run**](https://godbolt.org/z/5zYvPPGMs)
 
 ```cpp
 #include <concepts>
@@ -3330,12 +3330,12 @@ using func = void (*) (int, int);
 
 struct size64_t
 {
-    using value = uint64_t;
+    using type = uint64_t;
 };
 
 struct size32_t
 {
-    using value = uint32_t;
+    using type = uint32_t;
 };
 
 template<typename T, typename... Types>
@@ -3345,7 +3345,7 @@ template<typename SizeType>
     requires one_of<SizeType, size64_t, size32_t>
 auto func() -> void
 {
-    std::cout << sizeof(typename SizeType::value) << std::endl;
+    std::cout << sizeof(typename SizeType::type) << std::endl;
 }
 
 auto main() -> int
