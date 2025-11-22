@@ -3473,7 +3473,7 @@ auto main() -> int
 #include "self.h"
 
 // Current project headers (relative path)
-#include "../other.h"
+#include "other.h"
 
 // Current project headers
 #include <my_project/other.h>
