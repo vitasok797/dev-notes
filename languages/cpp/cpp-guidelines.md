@@ -3469,8 +3469,11 @@ auto main() -> int
 #### Order of includes
 
 ```cpp
-// Corresponding header for self.cpp or self.test.cpp (if exists)
+// Corresponding header for self.cpp or self.test.cpp
 #include "self.h"
+
+// Current project headers (relative path)
+#include "../other.h"
 
 // Current project headers
 #include <my_project/other.h>
