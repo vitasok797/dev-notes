@@ -89,6 +89,7 @@
 * https://habr.com/ru/articles/683204/
 * https://www.youtube.com/watch?v=sBP17HQAQjk
 * https://www.youtube.com/watch?v=_5weX5mx8hc
+* https://www.youtube.com/watch?v=K5Kg8TOTKjU
 * https://habr.com/ru/articles/916620/
 * Compiler options:
   * See: [C++ / Guidelines](cpp-guidelines.md) / Signed/unsigned
