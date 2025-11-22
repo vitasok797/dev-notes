@@ -60,6 +60,9 @@
 * [(Habr) explicit в деталях](https://habr.com/ru/articles/436296/)
 * [(Habr) Краткий обзор нововведений C++23: deducing this](https://habr.com/ru/articles/722668/)
 
+### PIMPL
+* [The Pimpl Pattern - what you should know](https://www.cppstories.com/2018/01/pimpl/)
+
 ## Containers
 * [(cppreference) Containers library (containers, iterator invalidation)](https://en.cppreference.com/w/cpp/container.html)
 * [C++ Data Structures and Algorithms Cheat Sheet](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md)
