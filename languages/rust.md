@@ -50,6 +50,8 @@
 
 ## Interoperability
 * [(Habr) Rust + C++ через FFI: как подружить два мира и не сойти с ума](https://habr.com/ru/articles/953524/)
+* [A tour of the Rust and C++ interoperability ecosystem](https://eshard.com/posts/Rust-Cxx-interop)
+* [(YouTube) Simplified Rust/C++ Integration](https://www.youtube.com/watch?v=k_sp5wvoEVM)
 
 ## Test
 * [Rust Mock Shootout! | Comparison of several Rust mocking libraries](https://asomers.github.io/mock_shootout/)
@@ -113,9 +115,6 @@
 * [GitHub - rsocket/rsocket-rust: RSocket Rust Implementation using Tokio](https://github.com/rsocket/rsocket-rust)
 * [zmq - crates.io: Rust Package Registry](https://crates.io/crates/zmq)
 * [Simple ZeroMQ IPC between Python and Rust : rust](https://www.reddit.com/r/rust/comments/609h7l/simple_zeromq_ipc_between_python_and_rust/)
-
-## Interoperability
-* [A tour of the Rust and C++ interoperability ecosystem](https://eshard.com/posts/Rust-Cxx-interop)
 
 ## 001
 * [What's the "best" way to implement a doubly-linked list in Rust? - The Rust Programming Language Forum](https://users.rust-lang.org/t/whats-the-best-way-to-implement-a-doubly-linked-list-in-rust/27899)
