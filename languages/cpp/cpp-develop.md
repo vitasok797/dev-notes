@@ -158,6 +158,7 @@
 ## Compiler options
 * [Compiler Options Hardening Guide for C and C++](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
 * [(YouTube) Как внедрять современные проверки С++](https://www.youtube.com/watch?v=cPI437vi44w)
+* [(YouTube) Three Cool Things in C++26: Safety, Reflection & std::execution - Herb Sutter - C++ on Sea 2025](https://www.youtube.com/watch?v=kKbT0Vg3ISw)
 
 <details>
 <summary>Compiler options</summary>
@@ -182,6 +183,9 @@
   * GCC: `-Wtype-limits`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
   * Clang: `-Wtype-limits` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
   * MSVC: `/W4`+`/w44296` ([C4296](https://learn.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-4-c4296)) ([doc](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-option-warning-level))
+
+#### `-ftrivial-auto-var-init=pattern`, `/RTC1`
+#### `-fsanitize=signed-integer-overflow`, `-fsanitize=unsigned-integer-overflow`
 
 </details>
 
