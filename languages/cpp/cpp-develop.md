@@ -155,9 +155,35 @@
 * [(Habr) Ускорение сборки проекта на CMake+GCC: предварительная компиляция заголовочных файлов](https://habr.com/ru/articles/503302/)
 * [(YouTube) Why Is My C++ Build So Slow? Compilation Profiling and Visualization](https://www.youtube.com/watch?v=Oih3K-3eZ4Y)
 
-## Hardening
+## Compiler options
 * [Compiler Options Hardening Guide for C and C++](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
 * [(YouTube) Как внедрять современные проверки С++](https://www.youtube.com/watch?v=cPI437vi44w)
+
+<details>
+<summary>Compiler options</summary>
+
+#### `-Wsign-compare`
+
+* Enabling:
+  * GCC: `-Wsign-compare`, `-Wall`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
+  * Clang: `-Wsign-compare`, `-Wextra` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
+  * MSVC: `/W3`, `/W4` ([C4018](https://learn.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4018)) ([doc](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-option-warning-level))
+* Cons: false positive for code like `for (auto i = vsl::Index{0}; i < sizeof(buf); i++)`
+* Solution:
+  * Disable compiler option:
+    * GCC/Clang: `-Wno-sign-compare`
+    * MSVC: `/wd4018`
+  * Enable a similar option in the static analyzer
+  * Static analyzer configuration: do not flag on a mixed signed/unsigned comparison where one of the arguments is `sizeof` or a call to container `.size()` and the other is `ptrdiff_t` ([ES.100](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es100-dont-mix-signed-and-unsigned-arithmetic))
+
+#### `-Wtype-limits`
+
+* Enabling:
+  * GCC: `-Wtype-limits`, `-Wextra` ([doc](https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html))
+  * Clang: `-Wtype-limits` ([doc](https://clang.llvm.org/docs/DiagnosticsReference.html))
+  * MSVC: `/W4`+`/w44296` ([C4296](https://learn.microsoft.com/en-us/cpp/error-messages/compiler-warnings/compiler-warning-level-4-c4296)) ([doc](https://learn.microsoft.com/en-us/cpp/build/reference/compiler-option-warning-level))
+
+</details>
 
 ## Var
 * [C++ Compiler Support Status](https://cppstat.dev/)
