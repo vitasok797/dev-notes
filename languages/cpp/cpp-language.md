@@ -73,6 +73,7 @@
 * [(YouTube) Программирование на C++. Итераторы](https://www.youtube.com/watch?v=pY2XSekwqJo)
 * [(Habr) Неклассические контейнеры в C++](https://habr.com/ru/articles/664044/)
 * [(Habr) Гетерогенный поиск в ассоциативных контейнерах на C++](https://habr.com/ru/articles/523668/)
+* [(Abseil Tips) Heterogeneous Lookup in Associative Containers](https://abseil.io/tips/144)
 
 ## Algorithms
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (1)](https://habr.com/ru/articles/762554/)
