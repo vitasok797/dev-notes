@@ -33,11 +33,11 @@
 * [Субъективный объективизм](https://scrutator.me/)
 
 ## Modern C++
-* [3 Simple C++17 Features That Will Make Your Code Simpler](https://www.fluentcpp.com/2018/06/19/3-simple-c17-features-that-will-make-your-code-simpler/)
-* [Spans, string_view, and Ranges - Four View types (C++17 to C++23)](https://www.cppstories.com/2023/four-views-in-cpp23/)
-* [How to use std::span from C++20](https://www.cppstories.com/2023/span-cpp20/)
-* [Enum Class Improvements for C++17, C++20 and C++23](https://www.cppstories.com/2024/enum-improvements/)
-* [Integer Conversions and Safe Comparisons in C++20](https://www.cppstories.com/2022/safe-int-cmp-cpp20/)
+* [(Fluent C++) 3 Simple C++17 Features That Will Make Your Code Simpler](https://www.fluentcpp.com/2018/06/19/3-simple-c17-features-that-will-make-your-code-simpler/)
+* [(C++ Stories) Spans, string_view, and Ranges - Four View types (C++17 to C++23)](https://www.cppstories.com/2023/four-views-in-cpp23/)
+* [(C++ Stories) How to use std::span from C++20](https://www.cppstories.com/2023/span-cpp20/)
+* [(C++ Stories) Enum Class Improvements for C++17, C++20 and C++23](https://www.cppstories.com/2024/enum-improvements/)
+* [(C++ Stories) Integer Conversions and Safe Comparisons in C++20](https://www.cppstories.com/2022/safe-int-cmp-cpp20/)
 * [Языковые новшества C++17. Часть 3. Порядок и спокойствие](https://scrutator.me/post/2018/04/28/cpp17_lang_features_p3.aspx)
 
 ### Modern C++ / Tutorials
@@ -61,13 +61,13 @@
 * [(Habr) Краткий обзор нововведений C++23: deducing this](https://habr.com/ru/articles/722668/)
 
 ### PIMPL
-* [The Pimpl Pattern - what you should know](https://www.cppstories.com/2018/01/pimpl/)
+* [(C++ Stories) The Pimpl Pattern - what you should know](https://www.cppstories.com/2018/01/pimpl/)
 
 ## Containers
 * [(cppreference) Containers library (containers, iterator invalidation)](https://en.cppreference.com/w/cpp/container.html)
 * [C++ Data Structures and Algorithms Cheat Sheet](https://github.com/gibsjose/cpp-cheat-sheet/blob/master/Data%20Structures%20and%20Algorithms.md)
 * [Erase-remove idiom](https://en.wikipedia.org/wiki/Erase%E2%80%93remove_idiom)
-* [12 Different Ways to Filter Containers in Modern C++](https://www.cppstories.com/2021/filter-cpp-containers/)
+* [(C++ Stories) 12 Different Ways to Filter Containers in Modern C++](https://www.cppstories.com/2021/filter-cpp-containers/)
 * [(StackOverflow) Choosing between std::map and std::unordered_map](https://stackoverflow.com/questions/3902644/choosing-between-stdmap-and-stdunordered-map/3902729#3902729)
 * [Mastering C++ reserve()](https://fastcode.guru/posts/mastering-c++-reserve/)
 * [(YouTube) Программирование на C++. Итераторы](https://www.youtube.com/watch?v=pY2XSekwqJo)
@@ -76,7 +76,7 @@
 ### Heterogeneous Lookup
 * [(Habr) Гетерогенный поиск в ассоциативных контейнерах на C++](https://habr.com/ru/articles/523668/)
 * [(Abseil Tips) Heterogeneous Lookup in Associative Containers](https://abseil.io/tips/144)
-* [C++20: Heterogeneous Lookup in (Un)ordered Containers](https://www.cppstories.com/2021/heterogeneous-access-cpp20/)
+* [(C++ Stories) C++20: Heterogeneous Lookup in (Un)ordered Containers](https://www.cppstories.com/2021/heterogeneous-access-cpp20/)
 * [(Fluent C++) is_transparent: How to search a C++ set with another type than its key](https://www.fluentcpp.com/2017/06/09/search-set-another-type-key/)
 
 ## Algorithms
@@ -86,8 +86,8 @@
 ## Text
 
 ### Text / String processing
-* [Six Handy Operations for String Processing in C++20/23](https://www.cppstories.com/2023/six-handy-ops-for-string-processing/)
-* [How to split a string in C++](https://www.fluentcpp.com/2017/04/21/how-to-split-a-string-in-c/)
+* [(C++ Stories) Six Handy Operations for String Processing in C++20/23](https://www.cppstories.com/2023/six-handy-ops-for-string-processing/)
+* [(Fluent C++) How to split a string in C++](https://www.fluentcpp.com/2017/04/21/how-to-split-a-string-in-c/)
 * [(StackOverflow) How to convert an instance of std::string to lower case](https://stackoverflow.com/questions/313970/how-to-convert-an-instance-of-stdstring-to-lower-case)
 * [(StackOverflow) String to int/float](https://stackoverflow.com/questions/7663709/how-can-i-convert-a-stdstring-to-int/77079910#77079910)
 * [char8_t backward compatibility remediation](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1423r2.html)
@@ -109,16 +109,16 @@
 ## Initialization
 * [(cppreference) Initialization](https://en.cppreference.com/w/cpp/language/initialization.html)
 * [(Habr) Инициализация в современном C++](https://habr.com/ru/companies/jugru/articles/469465/)
-* [(Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
+* [(C++ Stories) (Non) Static Data Members Initialization, from C++11 till C++20](https://www.cppstories.com/2015/02/non-static-data-members-initialization/)
 * [(Abseil Tips) Default vs Value Initialization](https://abseil.io/tips/146)
   ([default](https://en.cppreference.com/w/cpp/language/default_initialization.html), [value](https://en.cppreference.com/w/cpp/language/value_initialization.html))
 * [(LearnCpp) Variable assignment and initialization](https://www.learncpp.com/cpp-tutorial/variable-assignment-and-initialization/)
-* [In-Place Construction for std::any, std::variant and std::optional](https://www.cppstories.com/2018/07/in-place-cpp17/)
+* [(C++ Stories) In-Place Construction for std::any, std::variant and std::optional](https://www.cppstories.com/2018/07/in-place-cpp17/)
 
 ### Initialization / {}-initializer syntax
 * [(cppreference) List-initialization](https://en.cppreference.com/w/cpp/language/list_initialization.html)
-* [std::initializer_list in C++ 1/2](https://www.cppstories.com/2023/initializer_list_basics/)
-* [std::initializer_list in C++ 2/2](https://www.cppstories.com/2023/initializer_list_improvements/)
+* [(C++ Stories) std::initializer_list in C++ 1/2](https://www.cppstories.com/2023/initializer_list_basics/)
+* [(C++ Stories) std::initializer_list in C++ 2/2](https://www.cppstories.com/2023/initializer_list_improvements/)
 * [GotW #1 Solution: Variable Initialization](https://herbsutter.com/2013/05/09/gotw-1-solution/)
 * [The Knightmare of Initialization in C++](https://quuxplusone.github.io/blog/2019/02/18/knightmare-of-initialization/)
 * [(Abseil Tips) Best Practices for Initialization](https://abseil.io/tips/88)
@@ -139,7 +139,7 @@
   * [Auto Type Deduction in Range-Based For Loops](https://blog.petrzemek.net/2016/08/17/auto-type-deduction-in-range-based-for-loops/)
 
 ### Initialization / constexpr
-* [const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
+* [(C++ Stories) const vs constexpr vs consteval vs constinit in C++20](https://www.cppstories.com/2022/const-options-cpp20/)
 * [Just how constexpr is C++20’s std::string?](https://quuxplusone.github.io/blog/2023/09/08/constexpr-string-firewall/)
 
 ### Initialization / Struct
@@ -245,7 +245,7 @@
 * [Type erasure — Part IV](https://akrzemi1.wordpress.com/2014/01/13/type-erasure-part-iv/)
 
 ## Pointers
-* [Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
+* [(Fluent C++) Smart developers use smart pointers (1/7)](https://www.fluentcpp.com/2017/08/22/smart-developers-use-smart-pointers-smart-pointers-basics/)
 * [(Habr) Долой указатели](https://habr.com/ru/companies/otus/articles/669532/)
 * [(Habr) Ох уж этот std::make_shared](https://habr.com/ru/articles/509004/)
 * [(Habr) Сказ об опасном std::enable_shared_from_this, или антипаттерн «Зомби»](https://habr.com/ru/articles/471326/)
@@ -256,14 +256,14 @@
 * [(Wiki) Smart pointer](https://en.wikipedia.org/wiki/Smart_pointer)
 * [Вероломные указатели](https://scrutator.me/post/2019/12/12/backstabbing_ptrs.aspx)
 * [Зачем нужны owner_before и owner_less (std::shared_ptr)](https://dyzzet.ru/a/owner_before-and-owner_less/)
-* [Custom Deleters for C++ Smart Pointers](https://www.cppstories.com/2016/04/custom-deleters-for-c-smart-pointers/)
+* [(C++ Stories) Custom Deleters for C++ Smart Pointers](https://www.cppstories.com/2016/04/custom-deleters-for-c-smart-pointers/)
 
 ## Patterns
 * [(Habr) Техника избежания неопределённого поведения при обращении к синглтону](https://habr.com/ru/articles/455848/)
 * [Non-virtual interface pattern (NVI)](https://xakep.ru/2010/11/01/53649/#toc01.1)
 
 ## Files
-* [22 Common Filesystem Tasks in C++20](https://www.cppstories.com/2024/common-filesystem-cpp20/)
+* [(C++ Stories) 22 Common Filesystem Tasks in C++20](https://www.cppstories.com/2024/common-filesystem-cpp20/)
 * [Understanding is_open() in C++: A Comprehensive Guide](https://medium.com/@ryan_forrester_/understanding-is-open-in-c-a-comprehensive-guide-a8e8f6b731ef) ([rus](https://nuancesprog.ru/p/28233/))
 
 ## Multithreading
