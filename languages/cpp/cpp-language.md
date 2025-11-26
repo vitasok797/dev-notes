@@ -72,8 +72,12 @@
 * [Mastering C++ reserve()](https://fastcode.guru/posts/mastering-c++-reserve/)
 * [(YouTube) Программирование на C++. Итераторы](https://www.youtube.com/watch?v=pY2XSekwqJo)
 * [(Habr) Неклассические контейнеры в C++](https://habr.com/ru/articles/664044/)
+
+### Heterogeneous Lookup
 * [(Habr) Гетерогенный поиск в ассоциативных контейнерах на C++](https://habr.com/ru/articles/523668/)
 * [(Abseil Tips) Heterogeneous Lookup in Associative Containers](https://abseil.io/tips/144)
+* [C++20: Heterogeneous Lookup in (Un)ordered Containers](https://www.cppstories.com/2021/heterogeneous-access-cpp20/)
+* [(Fluent C++) is_transparent: How to search a C++ set with another type than its key](https://www.fluentcpp.com/2017/06/09/search-set-another-type-key/)
 
 ## Algorithms
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (1)](https://habr.com/ru/articles/762554/)
