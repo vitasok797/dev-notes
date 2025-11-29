@@ -537,7 +537,33 @@ auto main() -> int
 <details>
 <summary>DebugAllocator</summary>
 
-▶️[**Demo**](https://godbolt.org/z/EfYGE8nqb) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+▶️[**Demo**](https://godbolt.org/z/fTEj4EdKn) [[debug.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/debug.h)]
+
+</details>
+
+<details>
+<summary>Debug allocations (new/delete)</summary>
+
+```cpp
+#include <cstdlib>
+#include <iostream>
+
+void* operator new(size_t size)
+{
+    void* ptr = std::malloc(size);
+    if (ptr) std::clog << "Allocated " << size << " bytes at " << ptr << std::endl;
+    return ptr;
+}
+
+void operator delete(void* ptr) noexcept
+{
+    if (!ptr) return;
+    std::clog << "Deallocation at " << ptr << std::endl;
+    std::free(ptr);
+}
+```
+
+▶️[**Demo**](https://godbolt.org/z/ExjnTP1sd)
 
 </details>
 
