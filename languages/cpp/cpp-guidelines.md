@@ -425,7 +425,7 @@ public:
 <summary>Initialization/destruction order</summary>
 
 ▶️[**Demo** (Constructors/destructors)](https://godbolt.org/z/v7KeTh3xY) \
-▶️[**Demo** (Members)](https://godbolt.org/z/3er9ehrYc)
+▶️[**Demo** (Members)](https://godbolt.org/z/8M9cr4evc)
 
 </details>
 
