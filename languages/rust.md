@@ -35,6 +35,7 @@
 * [Idiomatic Rust](https://github.com/mre/idiomatic-rust)
 * [Cheat Sheet](https://cheats.rs/)
 * [Rust Programming Tipz](https://github.com/ferrous-systems/elements-of-rust)
+* [How not to learn Rust](https://dystroy.org/blog/how-not-to-learn-rust/)
 
 ## Style guide
 * [Naming conventions](https://github.com/rust-lang/rfcs/blob/master/text/0430-finalizing-naming-conventions.md)
@@ -85,6 +86,7 @@
 * [Demystifying unsafe code](https://www.youtube.com/watch?v=QAz-maaH0KM)
 * [Rust Concurrency Explained](https://www.youtube.com/watch?v=Dbytx0ivH7Q)
 * [Writing Idiomatic Libraries in Rust](https://www.youtube.com/watch?v=0zOg8_B71gE)
+* [Let's Get Rusty](https://www.youtube.com/@letsgetrusty/videos)
 
 ## VSCode
 * [Documentation](https://code.visualstudio.com/docs)
@@ -211,3 +213,4 @@
 * [Karol Kuczmarski's Blog – Small Rust crates I (almost) always use](http://xion.io/post/code/rust-little-crates.html#rust-little-crates)
 * [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
 * [Асинхронный Rust: проблемы и способы их решения | Nuances of programming | Яндекс Дзен](https://zen.yandex.ru/media/nuancesprog/asinhronnyi-rust-problemy-i-sposoby-ih-resheniia-60e5f4e9176288585b4cab91)
+* [Vector instantiation: macro vs function](https://www.reddit.com/r/rust/comments/rq65ca/vector_instantiation_macro_vs_function/)
