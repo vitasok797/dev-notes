@@ -302,6 +302,7 @@
 * [Boost.Icl (Interval Container Library)](https://www.boost.org/doc/libs/latest/libs/icl/doc/html/index.html)
 * [Boost.Interval](https://www.boost.org/doc/libs/latest/libs/numeric/interval/doc/interval.htm)
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
+* <https://github.com/codeplea/tinyexpr>
 
 ## Time
 * [\<chrono\>](https://en.cppreference.com/w/cpp/chrono.html)
