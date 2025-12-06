@@ -65,7 +65,7 @@
 * [Rivet: Dependency Injection in Rust - 8bd6c81d5ff64253647e2acfd5e9cc609d4a.pdf](https://pdfs.semanticscholar.org/23a5/8bd6c81d5ff64253647e2acfd5e9cc609d4a.pdf)
 * [Intro to Dependency Injection in Rust | by Vishwa Patel | Jul, 2020 | Medium](https://medium.com/@vishwa9n/intro-to-dependency-injection-in-rust-7aeb2bb54093)
 
-## Errors
+## Error handling
 * [(Habr) Обработка ошибок в Rust](https://habr.com/ru/post/270371/)
 * [Error Handling in Rust - Andrew Gallant's Blog](https://blog.burntsushi.net/rust-error-handling/)
 * [Обработка ошибок - Язык программирования Rust](https://rurust.github.io/rust_book_ru/error-handling.html)
@@ -80,6 +80,8 @@
 * [Rust: Structuring and handling errors in 2020 - nick.groenen.me](https://nick.groenen.me/posts/rust-error-handling/)
 * [Error Handling Survey](https://blog.yoshuawuyts.com/error-handling-survey/)
 * [Thoughts on Error Handling in Rust · Lukas? Blog](https://lukaskalbertodt.github.io/2019/11/14/thoughts-on-error-handling-in-rust.html)
+* [Crate anyhow](https://docs.rs/anyhow/latest/anyhow/)
+* [Crate thiserror](https://docs.rs/thiserror/latest/thiserror/)
 
 ## Video
 * [Building on an unsafe foundation](https://www.youtube.com/watch?v=rTo2u13lVcQ)
