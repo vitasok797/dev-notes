@@ -51,6 +51,9 @@
 * Articles:
   * [(Habr) regexp — большие гонки](https://habr.com/ru/articles/812953/)
 
+### Text / To numeric
+* <https://github.com/fastfloat/fast_float>
+
 ### Text / I18n
 * [Boost.Locale](https://www.boost.org/doc/libs/latest/libs/locale/doc/html/index.html)
 
