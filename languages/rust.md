@@ -216,3 +216,4 @@
 * [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
 * [Асинхронный Rust: проблемы и способы их решения | Nuances of programming | Яндекс Дзен](https://zen.yandex.ru/media/nuancesprog/asinhronnyi-rust-problemy-i-sposoby-ih-resheniia-60e5f4e9176288585b4cab91)
 * [Vector instantiation: macro vs function](https://www.reddit.com/r/rust/comments/rq65ca/vector_instantiation_macro_vs_function/)
+* [(Habr) Что не так в Расте :: впечатления вкатуна](https://habr.com/ru/articles/973938/)
