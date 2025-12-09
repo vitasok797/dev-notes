@@ -169,6 +169,7 @@
 
 ### Types / Reflection
 * <https://github.com/Neargye/nameof>
+* [Boost.TypeIndex](https://www.boost.org/doc/libs/latest/doc/html/boost_typeindex.html)
 * [Boost.Describe](https://www.boost.org/doc/libs/latest/libs/describe/doc/html/describe.html)
 * Boost.Core: [type_name](https://www.boost.org/doc/libs/latest/libs/core/doc/html/core/type_name.html)
 * <https://github.com/felixguendling/cista> ([site](https://cista.rocks/#reflection))
