@@ -27,6 +27,7 @@
 
 ## Topics
 * [Architecture](topics/architecture.md)
+* [Bindings](topics/bindings.md)
 * [Calc](topics/calc.md)
 * [Communication](topics/communication)
   ([dds](topics/communication/dds.md),
