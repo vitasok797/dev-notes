@@ -161,7 +161,7 @@
 * [(YouTube) Three Cool Things in C++26: Safety, Reflection & std::execution - Herb Sutter - C++ on Sea 2025](https://www.youtube.com/watch?v=kKbT0Vg3ISw)
 
 <details>
-<summary>Compiler options</summary>
+<summary>⚠️ Compiler options</summary>
 
 #### `-Wsign-compare`
 
