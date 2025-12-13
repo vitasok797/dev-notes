@@ -35,7 +35,10 @@
 * [Idiomatic Rust](https://github.com/mre/idiomatic-rust)
 * [Cheat Sheet](https://cheats.rs/)
 * [Rust Programming Tipz](https://github.com/ferrous-systems/elements-of-rust)
+
+## How to learn
 * [How not to learn Rust](https://dystroy.org/blog/how-not-to-learn-rust/)
+* [(Habr) Про Rust — просто. Что читать в каком порядке?](https://habr.com/ru/companies/bitrix/articles/878912/)
 
 ## Style guide
 * [Naming conventions](https://github.com/rust-lang/rfcs/blob/master/text/0430-finalizing-naming-conventions.md)
