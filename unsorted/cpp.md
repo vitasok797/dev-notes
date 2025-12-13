@@ -97,6 +97,7 @@
 * [Путеводитель C++ программиста по неопределённому поведению](https://pvs-studio.ru/ru/blog/posts/cpp/1129/)
 * [Размещение объектов. Часть 1: Основы](https://scrutator.me/post/2014/01/29/objects_memory_layout_p1.aspx)
 * [Поиск Кёнига (ADL)](https://dyzzet.ru/a/argument-dependent-lookup/ (советы, https://k0d.cc/storage/books/C/standarty_programmirovaniya_na_c.pdf))
+* [Effective C++](https://blog.ycshao.com/tags/Effective-C/)
 
 ## ⚠️ LearnCpp
 * [LearnCpp](https://www.learncpp.com/)
