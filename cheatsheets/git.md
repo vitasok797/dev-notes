@@ -69,7 +69,6 @@ options:
 * `--format=<format>`: output format (`short`, `medium`, `full`, `fuller`, `raw`)
 * Show diffstat:
   * `--name-status`
-  * `--name-only`
   * `--dirstat-by-file`
   * `--stat`
 * Show diff:
@@ -123,7 +122,6 @@ options:
   * `--format=<format>`: output format (`short`, `medium`, `full`, `fuller`, `raw`)
   * Show diffstat:
     * `--name-status`
-    * `--name-only`
     * `--dirstat-by-file`
     * `--stat`
   * Show diff:
