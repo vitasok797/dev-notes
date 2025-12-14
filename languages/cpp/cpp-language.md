@@ -70,8 +70,11 @@
 * [(C++ Stories) 12 Different Ways to Filter Containers in Modern C++](https://www.cppstories.com/2021/filter-cpp-containers/)
 * [(StackOverflow) Choosing between std::map and std::unordered_map](https://stackoverflow.com/questions/3902644/choosing-between-stdmap-and-stdunordered-map/3902729#3902729)
 * [Mastering C++ reserve()](https://fastcode.guru/posts/mastering-c++-reserve/)
-* [(YouTube) Программирование на C++. Итераторы](https://www.youtube.com/watch?v=pY2XSekwqJo)
 * [(Habr) Неклассические контейнеры в C++](https://habr.com/ru/articles/664044/)
+
+### Iterators
+* [(YouTube) Программирование на C++. Итераторы](https://www.youtube.com/watch?v=pY2XSekwqJo)
+* [(YouTube) Iterators and Ranges: Comparing C++ to D, Rust, and Others](https://www.youtube.com/watch?v=95uT0RhMGwA)
 
 ### Heterogeneous Lookup
 * [(Habr) Гетерогенный поиск в ассоциативных контейнерах на C++](https://habr.com/ru/articles/523668/)
