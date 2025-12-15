@@ -13,6 +13,12 @@
 * [gitattributes](https://git-scm.com/docs/gitattributes)
 * [gitignore](https://git-scm.com/docs/gitignore)
 
+## Add
+#### An entry to the index with no content ([git-add](https://git-scm.com/docs/git-add))
+```
+git add -N [options] <pathspec>
+```
+
 ## Branches
 #### List branches ([git-branch](https://git-scm.com/docs/git-branch))
 ```
