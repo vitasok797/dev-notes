@@ -14,7 +14,7 @@
 * [gitignore](https://git-scm.com/docs/gitignore)
 
 ## Add
-#### An entry to the index with no content ([git-add](https://git-scm.com/docs/git-add))
+#### Add file to the index with no content ([git-add](https://git-scm.com/docs/git-add))
 ```
 git add -N [options] <pathspec>
 ```
