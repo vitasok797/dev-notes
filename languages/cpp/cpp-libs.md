@@ -116,7 +116,7 @@
 * <https://github.com/p-ranav/csv2> ([vcpkg](https://vcpkg.io/en/package/p-ranav-csv2))
 * <https://github.com/stephenberry/glaze> ([CSV](https://github.com/stephenberry/glaze/blob/main/docs/csv.md))
 * <https://github.com/danielaparker/jsoncons> ([CSV](https://github.com/danielaparker/jsoncons/blob/master/doc/ref/csv/csv.md))
-* <https://github.com/liquidaty/zsv> (no vcpkg)
+* <https://github.com/liquidaty/zsv> (~~VCPKG~~)
 
 ### Formats / Binary serialization
 * <https://protobuf.dev/>
@@ -243,14 +243,14 @@
 * <https://www.qt.io/product/framework>
 * <https://www.wxwidgets.org/>
 * <https://github.com/ocornut/imgui>
-* <https://github.com/aui-framework/aui> (no vcpkg)
+* <https://github.com/aui-framework/aui> (~~VCPKG~~)
 
 ### GUI / Plot
 * <https://github.com/wxIshiko/wxCharts>
 * <https://github.com/epezent/implot>
 
 ### GUI / Var
-* <https://github.com/simulton/QSchematic> (no vcpkg)
+* <https://github.com/simulton/QSchematic> (~~VCPKG~~)
 
 ## Ranges
 * ⭐ [range-v3](https://github.com/ericniebler/range-v3)
