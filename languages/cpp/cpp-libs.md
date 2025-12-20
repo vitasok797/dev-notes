@@ -71,17 +71,17 @@
 * <https://github.com/jarro2783/cxxopts>
 * <https://github.com/p-ranav/argparse>
 * <https://github.com/mmahnic/argumentum>
-* <https://github.com/p-ranav/structopt> (~~VCPKG~~ :page_facing_up:)
+* <https://github.com/p-ranav/structopt> (~~vcpkg~~ :page_facing_up:)
 * <https://github.com/muellan/clipp>
 * <https://github.com/adishavit/argh>
 * <https://github.com/CLIUtils/CLI11>
-* <https://github.com/mshenoda/argy> (~~VCPKG~~ :page_facing_up:)
+* <https://github.com/mshenoda/argy> (~~vcpkg~~ :page_facing_up:)
 
 ### Configuration / Environment
 * [Boost.Program_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * POCO ([PlatformAndEnvironment](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
 * <https://github.com/ph3at/libenvpp>
-* <https://github.com/p-ranav/envy> (~~VCPKG~~ :page_facing_up:)
+* <https://github.com/p-ranav/envy> (~~vcpkg~~ :page_facing_up:)
 
 ## Formats
 
@@ -116,7 +116,7 @@
 * <https://github.com/p-ranav/csv2> ([vcpkg](https://vcpkg.io/en/package/p-ranav-csv2))
 * <https://github.com/stephenberry/glaze> ([CSV](https://github.com/stephenberry/glaze/blob/main/docs/csv.md))
 * <https://github.com/danielaparker/jsoncons> ([CSV](https://github.com/danielaparker/jsoncons/blob/master/doc/ref/csv/csv.md))
-* <https://github.com/liquidaty/zsv> (~~VCPKG~~)
+* <https://github.com/liquidaty/zsv> (~~vcpkg~~)
 
 ### Formats / Binary serialization
 * <https://protobuf.dev/>
@@ -178,15 +178,15 @@
 * [Boost.Scope](https://www.boost.org/doc/libs/latest/libs/scope/doc/html/index.html)
 * [GSL final_action](https://github.com/microsoft/GSL/blob/main/include/gsl/util)
 * <https://github.com/ricab/scope_guard> ([vcpkg](https://vcpkg.io/en/package/scope-guard))
-* <https://github.com/Neargye/scope_guard> (~~VCPKG~~ :page_facing_up:)
+* <https://github.com/Neargye/scope_guard> (~~vcpkg~~ :page_facing_up:)
 
 ### Types / Strong type
 * ⭐ <https://github.com/rollbear/strong_type> ([vcpkg](https://vcpkg.io/en/package/strong-type))
 * <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe), [article1](https://www.foonathan.net/2016/10/type-safe/), [article2](https://www.foonathan.net/2016/10/strong-typedefs/))
-* <https://github.com/joboccara/NamedType> (dead?, ~~VCPKG~~ :page_facing_up:, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
+* <https://github.com/joboccara/NamedType> (dead?, ~~vcpkg~~ :page_facing_up:, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
 
 ### Types / Type Erasure
-* <https://github.com/kelbon/AnyAny> (~~VCPKG~~ :page_facing_up:)
+* <https://github.com/kelbon/AnyAny> (~~vcpkg~~ :page_facing_up:)
 
 ### Types / Units
 * [Boost.Units](https://www.boost.org/doc/libs/latest/doc/html/boost_units.html)
@@ -243,14 +243,14 @@
 * <https://www.qt.io/product/framework>
 * <https://www.wxwidgets.org/>
 * <https://github.com/ocornut/imgui>
-* <https://github.com/aui-framework/aui> (~~VCPKG~~)
+* <https://github.com/aui-framework/aui> (~~vcpkg~~)
 
 ### GUI / Plot
 * <https://github.com/wxIshiko/wxCharts>
 * <https://github.com/epezent/implot>
 
 ### GUI / Var
-* <https://github.com/simulton/QSchematic> (~~VCPKG~~)
+* <https://github.com/simulton/QSchematic> (~~vcpkg~~)
 
 ## Ranges
 * ⭐ [range-v3](https://github.com/ericniebler/range-v3)
@@ -368,7 +368,7 @@
 * [Boost.Stacktrace](https://www.boost.org/doc/libs/latest/doc/html/stacktrace.html)
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
 * <https://github.com/renatoGarcia/icecream-cpp>
-* <https://github.com/keithpotz/CrashCatch> (~~VCPKG~~ :page_facing_up:)
+* <https://github.com/keithpotz/CrashCatch> (~~vcpkg~~ :page_facing_up:)
 * <https://github.com/bombela/backward-cpp>
 
 ## Testing
@@ -376,7 +376,7 @@
 * <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest), [doc](https://google.github.io/googletest/))
 * <https://github.com/catchorg/Catch2>
 * <https://github.com/doctest/doctest>
-* <https://github.com/boost-ext/ut> (~~VCPKG~~ :page_facing_up:)
+* <https://github.com/boost-ext/ut> (~~vcpkg~~ :page_facing_up:)
 * <https://github.com/cpputest/cpputest>
 * <https://github.com/martinmoene/lest>
 * <https://github.com/snitch-org/snitch>
@@ -399,5 +399,5 @@
 ## Var
 * <https://github.com/Dobiasd/FunctionalPlus>
 * <https://github.com/ryanhaining/cppitertools>
-* [cpp-validator](https://github.com/evgeniums/cpp-validator) (~~VCPKG~~ :page_facing_up:, [article](https://habr.com/ru/articles/525204/))
+* [cpp-validator](https://github.com/evgeniums/cpp-validator) (~~vcpkg~~ :page_facing_up:, [article](https://habr.com/ru/articles/525204/))
 * [match(it): Pattern-matching library](https://github.com/BowenFu/matchit.cpp) ([vcpkg](https://vcpkg.io/en/package/matchit))
