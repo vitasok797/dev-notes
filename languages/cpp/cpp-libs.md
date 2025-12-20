@@ -263,9 +263,10 @@
 * <https://github.com/mariusbancila/stduuid>
 
 ## Terminal
+* UI:
+  * <https://github.com/ArthurSonzogni/FTXUI>
+  * <https://github.com/magiblot/tvision>
 * <https://github.com/p-ranav/indicators>
-* <https://github.com/ArthurSonzogni/FTXUI>
-* <https://github.com/magiblot/tvision>
 
 ## Signals, Events
 * [Boost.Signals2](https://www.boost.org/doc/libs/latest/doc/html/signals2.html)
