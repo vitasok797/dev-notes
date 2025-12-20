@@ -262,7 +262,7 @@
 * POCO ([URIandUUID](https://pocoproject.org/slides/160-URIandUUID.pdf))
 * <https://github.com/mariusbancila/stduuid>
 
-## CLI
+## Terminal
 * <https://github.com/p-ranav/indicators>
 * <https://github.com/ArthurSonzogni/FTXUI>
 * <https://github.com/magiblot/tvision>
