@@ -266,10 +266,15 @@
 * UI:
   * <https://github.com/ArthurSonzogni/FTXUI>
   * <https://github.com/magiblot/tvision>
+  * <https://github.com/ggerganov/imtui> (~~vcpkg~~)
+  * <https://github.com/a-n-t-h-o-n-y/TermOx> (~~vcpkg~~)
 * Progress:
   * <https://github.com/p-ranav/indicators>
   * <https://github.com/oir/barkeep>
   * <https://github.com/gipert/progressbar> (~~vcpkg~~ :page_facing_up:)
+* <https://github.com/sakhmatd/rogueutil> (~~vcpkg~~ :page_facing_up:)
+* <https://github.com/jupyter-xeus/cpp-terminal> (~~vcpkg~~)
+* <https://github.com/Cubified/tuibox> (~~vcpkg~~ :page_facing_up:)
 
 ## Signals, Events
 * [Boost.Signals2](https://www.boost.org/doc/libs/latest/doc/html/signals2.html)
