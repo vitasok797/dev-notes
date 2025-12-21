@@ -266,7 +266,10 @@
 * UI:
   * <https://github.com/ArthurSonzogni/FTXUI>
   * <https://github.com/magiblot/tvision>
-* <https://github.com/p-ranav/indicators>
+* Progress:
+  * <https://github.com/p-ranav/indicators>
+  * <https://github.com/oir/barkeep>
+  * <https://github.com/gipert/progressbar> (~~vcpkg~~ :page_facing_up:)
 
 ## Signals, Events
 * [Boost.Signals2](https://www.boost.org/doc/libs/latest/doc/html/signals2.html)
