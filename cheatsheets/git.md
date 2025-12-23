@@ -347,6 +347,32 @@ options:
 * `-W`, `--worktree`: restore worktree from index (default)
 * `-S`, `--staged`: restore index from HEAD
 
+## Submodules
+[Book: Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+
+#### Add submodule ([git-submodule](https://git-scm.com/docs/git-submodule)):
+```
+git submodule add <repository> [path]
+```
+
+#### Show the status of the submodules ([git-submodule](https://git-scm.com/docs/git-submodule)):
+```
+git submodule status [--recursive]
+```
+
+#### Init submodules ([git-submodule](https://git-scm.com/docs/git-submodule)):
+```
+git submodule update --init [--recursive] [path]
+```
+```
+git clone --recurse-submodules ...
+```
+
+#### Pulling in upstream changes from the submodule remote ([git-submodule](https://git-scm.com/docs/git-submodule)):
+```
+git submodule update --remote [path]
+```
+
 ## Working trees
 🚧 [git-worktree](https://git-scm.com/docs/git-worktree)
 
