@@ -360,7 +360,11 @@ git submodule add <repository> [path]
 git submodule status [--recursive]
 ```
 
-#### Init submodules ([git-submodule](https://git-scm.com/docs/git-submodule)):
+#### Init submodules ([git-submodule](https://git-scm.com/docs/git-submodule), [git-clone](https://git-scm.com/docs/git-clone)):
+```
+git submodule init [path]
+git submodule update [--recursive] [path]
+```
 ```
 git submodule update --init [--recursive] [path]
 ```
