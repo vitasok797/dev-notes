@@ -347,7 +347,7 @@ options:
 * `-W`, `--worktree`: restore worktree from index (default)
 * `-S`, `--staged`: restore index from HEAD
 
-## Submodules
+## ⚠️ Submodules
 [Book: Git Tools - Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
 
 #### Add submodule ([git-submodule](https://git-scm.com/docs/git-submodule)):
@@ -360,7 +360,7 @@ git submodule add <repository> [path]
 git submodule status [--recursive]
 ```
 
-#### Init submodules ([git-submodule](https://git-scm.com/docs/git-submodule), [git-clone](https://git-scm.com/docs/git-clone)):
+#### Init submodules ([git-submodule](https://git-scm.com/docs/git-submodule), [git-pull](https://git-scm.com/docs/git-pull), [git-clone](https://git-scm.com/docs/git-clone)):
 ```
 git submodule init [path]
 git submodule update [--recursive] [path]
@@ -369,8 +369,14 @@ git submodule update [--recursive] [path]
 git submodule update --init [--recursive] [path]
 ```
 ```
+git pull --recurse-submodules
+```
+```
 git clone --recurse-submodules ...
 ```
+
+> [!NOTE]
+> You can set the configuration option submodule.recurse to true. This option will make Git use the --recurse-submodules flag for all commands that support it (except clone)
 
 #### Pulling in upstream changes from the submodule remote ([git-submodule](https://git-scm.com/docs/git-submodule)):
 ```
