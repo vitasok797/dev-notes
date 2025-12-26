@@ -29,3 +29,4 @@
 * [(Habr) Работаем с таймзонами в Python](https://habr.com/ru/companies/vk/articles/242615/)
 * [3 инструмента Python, которые вам стоит использовать при написании кода при работе с данными](https://dzen.ru/a/YjYZKTwU9GwI0BYG)
 * [PEP 526 – Syntax for Variable Annotations: Class and instance variable annotations](https://peps.python.org/pep-0526/#class-and-instance-variable-annotations)
+* [Don't wrap instance methods with 'functools.lru_cache' decorator](https://rednafi.com/python/lru-cache-on-methods/)
