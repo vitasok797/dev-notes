@@ -317,7 +317,7 @@ options:
 * `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
 
 ## Remote
-#### Show remotes with URLs ([git-remote](https://git-scm.com/docs/git-remote))
+#### Show remotes with URL ([git-remote](https://git-scm.com/docs/git-remote))
 ```
 git remote -v
 ```
