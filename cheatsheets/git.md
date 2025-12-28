@@ -91,6 +91,11 @@ options:
 git diff --check [--staged]
 ```
 
+#### Show changes from last '--amend' commit ([git-diff](https://git-scm.com/docs/git-diff))
+```
+git diff HEAD@{1}
+```
+
 ## Fetching
 #### Download objects and refs from another repository ([git-fetch](https://git-scm.com/docs/git-fetch))
 ```
