@@ -321,6 +321,15 @@ options:
 * `--theirs`: use "theirs" file version
 * `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
 
+## Path
+#### Create formatted patches ([git-format-patch](https://git-scm.com/docs/git-format-patch))
+```
+git format-patch <since_rev>
+```
+```
+git format-patch <rev1>..<rev2>
+```
+
 ## Remote
 #### Show remotes with URL ([git-remote](https://git-scm.com/docs/git-remote))
 ```
