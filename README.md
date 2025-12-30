@@ -12,12 +12,12 @@
    [ranges](languages/cpp/cpp-ranges.md))
 * [Rust](languages/rust)
   ([OLD](languages/rust/rust-OLD.md),
-  [develop](languages/rust/rust-develop.md),
-  [guidelines](languages/rust/rust-guidelines.md),
-  [language](languages/rust/rust-language.md),
-  [learn](languages/rust/rust-learn.md),
-  [libs](languages/rust/rust-libs.md),
-  [video](languages/rust/rust-video.md))
+   [develop](languages/rust/rust-develop.md),
+   [guidelines](languages/rust/rust-guidelines.md),
+   [language](languages/rust/rust-language.md),
+   [learn](languages/rust/rust-learn.md),
+   [libs](languages/rust/rust-libs.md),
+   [video](languages/rust/rust-video.md))
 * [C#](languages/csharp.md)
 * [Delphi](languages/delphi.md)
 * [Fortran](languages/fortran.md)
