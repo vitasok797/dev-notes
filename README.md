@@ -14,6 +14,7 @@
   ([OLD](languages/rust/rust-OLD.md),
    [develop](languages/rust/rust-develop.md),
    [guidelines](languages/rust/rust-guidelines.md),
+   [interoperability](languages/rust/rust-interoperability.md),
    [language](languages/rust/rust-language.md),
    [learn](languages/rust/rust-learn.md),
    [libs](languages/rust/rust-libs.md),
