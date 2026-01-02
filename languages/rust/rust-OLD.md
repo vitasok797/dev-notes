@@ -1,16 +1,10 @@
 # Rust / OLD
 
 ## Docs
-* [Book](https://doc.rust-lang.ru/book/)
-* [Book 2](https://rurust.github.io/rust_book_ru/)
 * [Reference](https://doc.rust-lang.org/reference/)
-* [Rust на примерах](https://doc.rust-lang.ru/stable/rust-by-example/)
-* [Cargo Book](https://doc.rust-lang.org/cargo/)
-* [Standard Library](https://doc.rust-lang.org/std/)
 * [Bindgen](https://rust-lang.github.io/rust-bindgen/)
 * [Embedded Book](https://doc.rust-lang.org/stable/embedded-book/)
 * [API Guidelines](https://rust-lang.github.io/api-guidelines/)
-* [Rustonomicon](https://doc.rust-lang.org/nomicon/)
 * [Async Book](https://rust-lang.github.io/async-book/)
 * [Rustdoc](https://doc.rust-lang.org/rustdoc/)
 
@@ -47,11 +41,6 @@
 * [PingCAP Style Guide](https://pingcap.github.io/style-guide/rust/)
 * [Rust Style Guide | Rust Tutorial](https://rust.programmingpedia.net/en/tutorial/4620/rust-style-guide)
 
-## Libs
-* [Diesel](https://diesel.rs/)
-* [itertools](https://crates.io/crates/itertools)
-* [FlatBuffers](https://google.github.io/flatbuffers/flatbuffers_guide_use_rust.html)
-
 ## Interoperability
 * [(Habr) Rust + C++ через FFI: как подружить два мира и не сойти с ума](https://habr.com/ru/articles/953524/)
 * [A tour of the Rust and C++ interoperability ecosystem](https://eshard.com/posts/Rust-Cxx-interop)
@@ -83,15 +72,12 @@
 * [Rust: Structuring and handling errors in 2020 - nick.groenen.me](https://nick.groenen.me/posts/rust-error-handling/)
 * [Error Handling Survey](https://blog.yoshuawuyts.com/error-handling-survey/)
 * [Thoughts on Error Handling in Rust · Lukas? Blog](https://lukaskalbertodt.github.io/2019/11/14/thoughts-on-error-handling-in-rust.html)
-* [Crate anyhow](https://docs.rs/anyhow/latest/anyhow/)
-* [Crate thiserror](https://docs.rs/thiserror/latest/thiserror/)
 
 ## Video
 * [Building on an unsafe foundation](https://www.youtube.com/watch?v=rTo2u13lVcQ)
 * [Demystifying unsafe code](https://www.youtube.com/watch?v=QAz-maaH0KM)
 * [Rust Concurrency Explained](https://www.youtube.com/watch?v=Dbytx0ivH7Q)
 * [Writing Idiomatic Libraries in Rust](https://www.youtube.com/watch?v=0zOg8_B71gE)
-* [Let's Get Rusty](https://www.youtube.com/@letsgetrusty/videos)
 
 ## VSCode
 * [Documentation](https://code.visualstudio.com/docs)
@@ -108,8 +94,6 @@
 * [Streaming gRPC with Rust](https://medium.com/@KevinHoffman/streaming-grpc-with-rust-d978fece5ef6)
 * [The state gRPC Rust : rust](https://www.reddit.com/r/rust/comments/aw1iog/the_state_grpc_rust/)
 * [Preferred library for grpc in rust](https://users.rust-lang.org/t/preferred-library-for-grpc-in-rust/37801)
-* [grpc - crates.io: Rust Package Registry](https://crates.io/crates/grpc)
-* [tonic - crates.io: Rust Package Registry](https://crates.io/crates/tonic)
 * [Rust gRPC: A beginners guide to gRPC with Rust - DEV](https://dev.to/anshulgoyal15/a-beginners-guide-to-grpc-with-rust-3c7o)
 
 ## MQ
@@ -120,7 +104,6 @@
 * [nng-sys - crates.io: Rust Package Registry](https://crates.io/crates/nng-sys)
 * [runng - crates.io: Rust Package Registry](https://crates.io/crates/runng)
 * [GitHub - rsocket/rsocket-rust: RSocket Rust Implementation using Tokio](https://github.com/rsocket/rsocket-rust)
-* [zmq - crates.io: Rust Package Registry](https://crates.io/crates/zmq)
 * [Simple ZeroMQ IPC between Python and Rust : rust](https://www.reddit.com/r/rust/comments/609h7l/simple_zeromq_ipc_between_python_and_rust/)
 
 ## 001
