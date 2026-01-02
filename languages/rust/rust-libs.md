@@ -17,7 +17,7 @@
 ## Configuration
 
 ### Configuration / Argument parsers
-* ❓
+* [clap (command line argument parser)](https://crates.io/crates/clap)
 
 ### Configuration / Environment
 * ❓
@@ -53,7 +53,7 @@
 * ❓
 
 ## Logging
-* ❓
+* [log](https://crates.io/crates/log)
 
 ## Multithreading
 * events ❓
@@ -64,13 +64,13 @@
 ## System
 
 ### System / File System
-* ❓
+* [glob](https://crates.io/crates/glob)
 
 ### System / Process
 * ❓
 
 ## Terminal
-* ❓
+* [console](https://crates.io/crates/console)
 
 ### Terminal / Progress
 * ❓
@@ -87,10 +87,14 @@
 * [tabulate-rs](https://crates.io/crates/tabulate-rs)
 
 ## Types
+* [strong-type](https://crates.io/crates/strong-type)
 * magic_enum ❓
-* strong_type ❓
 * units ❓
 * scope_gusrd ❓
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
+
+### Var 📌
+* [time (date and time library)](https://crates.io/crates/time)
+* [lru (a LRU cache implementation)](https://crates.io/crates/lru)
