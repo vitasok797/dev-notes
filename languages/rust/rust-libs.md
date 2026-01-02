@@ -1,6 +1,7 @@
 # Rust / Libs
 
-⚠️ [crates.io list](https://crates.io/crates?sort=downloads)
+⚠️ [crates.io list](https://crates.io/crates?sort=downloads) \
+⚠️ [C++ libs](../cpp/cpp-libs.md)
 
 ## Communication
 
