@@ -16,7 +16,7 @@
 * [tonic](https://crates.io/crates/tonic)
 
 ### Communication / ZeroMQ:
-* [](https://crates.io/crates/zeromq)
+* [zeromq](https://crates.io/crates/zeromq)
 * [rzmq](https://crates.io/crates/rzmq)
 
 ## Configuration
