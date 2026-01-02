@@ -4,6 +4,8 @@
 ⚠️ [C++ libs](../cpp/cpp-libs.md)
 
 ## Communication
+* [tokio](https://crates.io/crates/tokio)
+* [tower](https://crates.io/crates/tower)
 
 ### Communication / DDS:
 * ❓
@@ -50,7 +52,7 @@
 * ❓
 
 ## Interoperability
-* ❓
+* [vcpkg](https://crates.io/crates/vcpkg)
 
 ## Logging
 * [log](https://crates.io/crates/log)
@@ -88,9 +90,9 @@
 
 ## Types
 * [strong-type](https://crates.io/crates/strong-type)
+* [scopeguard](https://crates.io/crates/scopeguard)
 * magic_enum ❓
 * units ❓
-* scope_gusrd ❓
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
