@@ -5,28 +5,28 @@
 ## Communication
 
 ### Communication / DDS:
-❓
+* ❓
 
 ### Communication / gRPC:
 * [tonic](https://crates.io/crates/tonic)
 
 ### Communication / ZeroMQ:
-❓
+* ❓
 
 ## Configuration
 
 ### Configuration / Argument parsers
-❓
+* ❓
 
 ### Configuration / Environment
-❓
+* ❓
 
 ## Containers
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
 
 ## DB
-❓
+* ❓
 
 ## Error handling
 * [thiserror](https://crates.io/crates/thiserror)
@@ -40,42 +40,42 @@
 * Hashing ❓
 
 ## GUI
-❓
+* ❓
 
 ### GUI / Plot
-❓
+* ❓
 
 ## HTTP servers
-❓
+* ❓
 
 ## Interoperability
-❓
+* ❓
 
 ## Logging
-❓
+* ❓
 
 ## Multithreading
 * events ❓
 
 ## Scripting
-❓
+* ❓
 
 ## System
 
 ### System / File System
-❓
+* ❓
 
 ### System / Process
-❓
+* ❓
 
 ## Terminal
-❓
+* ❓
 
 ### Terminal / Progress
-❓
+* ❓
 
 ### Terminal / UI
-❓
+* ❓
 
 ## Text
 * [regex](https://crates.io/crates/regex)
