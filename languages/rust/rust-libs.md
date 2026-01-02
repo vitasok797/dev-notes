@@ -29,7 +29,7 @@
 * [smallvec](https://crates.io/crates/smallvec)
 
 ## DB
-* ❓
+* [diesel (ORM and query builder for PostgreSQL, SQLite, and MySQL)](https://crates.io/crates/diesel)
 
 ## Error handling
 * [thiserror](https://crates.io/crates/thiserror)
