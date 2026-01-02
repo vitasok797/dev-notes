@@ -30,21 +30,12 @@
 * [Cheat Sheet](https://cheats.rs/)
 * [Rust Programming Tipz](https://github.com/ferrous-systems/elements-of-rust)
 
-## How to learn
-* [How not to learn Rust](https://dystroy.org/blog/how-not-to-learn-rust/)
-* [(Habr) Про Rust — просто. Что читать в каком порядке?](https://habr.com/ru/companies/bitrix/articles/878912/)
-
 ## Style guide
 * [Naming conventions](https://github.com/rust-lang/rfcs/blob/master/text/0430-finalizing-naming-conventions.md)
 * [Rust Style Guide](https://github.com/rust-dev-tools/fmt-rfcs/blob/master/guide/guide.md)
 * [Style](https://doc.rust-lang.org/1.0.0/style/style/README.html)
 * [PingCAP Style Guide](https://pingcap.github.io/style-guide/rust/)
 * [Rust Style Guide | Rust Tutorial](https://rust.programmingpedia.net/en/tutorial/4620/rust-style-guide)
-
-## Interoperability
-* [(Habr) Rust + C++ через FFI: как подружить два мира и не сойти с ума](https://habr.com/ru/articles/953524/)
-* [A tour of the Rust and C++ interoperability ecosystem](https://eshard.com/posts/Rust-Cxx-interop)
-* [(YouTube) Simplified Rust/C++ Integration](https://www.youtube.com/watch?v=k_sp5wvoEVM)
 
 ## Test
 * [Rust Mock Shootout! | Comparison of several Rust mocking libraries](https://asomers.github.io/mock_shootout/)
