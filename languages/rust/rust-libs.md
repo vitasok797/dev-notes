@@ -10,7 +10,7 @@
 ### Communication / DDS:
 * [rustdds](https://crates.io/crates/rustdds)
 * [dust_dds](https://crates.io/crates/dust_dds)
-* [cyclors (low-level API for the native CycloneDDS bindings)](https://crates.io/crates/cyclors)
+* [cyclors (CycloneDDS bindings)](https://crates.io/crates/cyclors)
 
 ### Communication / gRPC:
 * [tonic](https://crates.io/crates/tonic)
