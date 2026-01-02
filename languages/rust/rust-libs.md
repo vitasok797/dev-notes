@@ -8,13 +8,16 @@
 * [tower](https://crates.io/crates/tower)
 
 ### Communication / DDS:
-* ❓
+* [rustdds](https://crates.io/crates/rustdds)
+* [dust_dds](https://crates.io/crates/dust_dds)
+* [cyclors (low-level API for the native CycloneDDS bindings)](https://crates.io/crates/cyclors)
 
 ### Communication / gRPC:
 * [tonic](https://crates.io/crates/tonic)
 
 ### Communication / ZeroMQ:
-* ❓
+* [](https://crates.io/crates/zeromq)
+* [rzmq](https://crates.io/crates/rzmq)
 
 ## Configuration
 
@@ -97,6 +100,9 @@
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
+
+## WSP
+* ❓
 
 ### Var 📌
 * [time (date and time library)](https://crates.io/crates/time)
