@@ -33,6 +33,8 @@
 
 ## DB
 * [diesel (ORM and query builder for PostgreSQL, SQLite, and MySQL)](https://crates.io/crates/diesel)
+* [sea-orm](https://crates.io/crates/sea-orm)
+* [sqlx](https://crates.io/crates/sqlx)
 
 ## Error handling
 * [thiserror](https://crates.io/crates/thiserror)
@@ -53,7 +55,7 @@
 * ❓
 
 ## HTTP servers
-* ❓
+* [actix-web](https://crates.io/crates/actix-web)
 
 ## Interoperability
 * [vcpkg](https://crates.io/crates/vcpkg)
