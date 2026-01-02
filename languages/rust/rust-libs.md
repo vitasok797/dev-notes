@@ -4,8 +4,14 @@
 
 ## Communication
 
+### Communication / DDS:
+❓
+
 ### Communication / gRPC:
 * [tonic](https://crates.io/crates/tonic)
+
+### Communication / ZeroMQ:
+❓
 
 ## Configuration
 
@@ -19,21 +25,48 @@
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
 
+## DB
+❓
+
 ## Error handling
 * [thiserror](https://crates.io/crates/thiserror)
 * [anyhow](https://crates.io/crates/anyhow)
 
 ## Formats
-* [serde (JSON, YAML, MessagePack, TOML, FlexBuffers, CSV)](https://crates.io/crates/serde)
+* [serde (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)](https://crates.io/crates/serde)
 * [prost (Protobuf)](https://crates.io/crates/prost)
+* XML ❓
+* Base64 ❓
+* Hashing ❓
 
 ## GUI
+❓
+
+### GUI / Plot
+❓
+
+### HTTP servers
 ❓
 
 ## Interoperability
 ❓
 
+## Logging
+❓
+
+## Multithreading
+* events ❓
+
+## Scripting
+❓
+
 ## Terminal
+❓
+
+### Terminal / Progress
+❓
+
+### Terminal / UI
 ❓
 
 ## Text
@@ -43,6 +76,16 @@
 ### Text / Tabulate
 * [stybulate](https://crates.io/crates/stybulate)
 * [tabulate-rs](https://crates.io/crates/tabulate-rs)
+
+## Types
+* magic_enum ❓
+* strong_type ❓
+* units ❓
+* scope_gusrd ❓
+
+## System
+### System / File System
+### System / Process
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
