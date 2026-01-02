@@ -46,10 +46,14 @@
 * Hashing ❓
 
 ## GUI
-* ❓
+* [iced](https://crates.io/crates/iced)
+* [egui](https://crates.io/crates/egui)
+* [gpui](https://crates.io/crates/gpui), [gpui-component](https://crates.io/crates/gpui-component)
 
 ### GUI / Plot
-* ❓
+* [plotly](https://crates.io/crates/plotly)
+* [plotters](https://crates.io/crates/plotters)
+* [egui_plot](https://crates.io/crates/egui_plot)
 
 ## HTTP servers
 * [actix-web](https://crates.io/crates/actix-web)
