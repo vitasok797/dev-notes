@@ -3,6 +3,9 @@
 ## Reference 📌
 * [std](https://doc.rust-lang.org/std/)
 
+## Articles
+* [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
+
 ## Error handling
 
 ### Error handling / Crates
