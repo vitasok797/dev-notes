@@ -199,7 +199,6 @@
 * [Creating a Rust function that returns a &str or String](https://hermanradtke.com/2015/05/29/creating-a-rust-function-that-returns-string-or-str.html)
 * [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/README.html)
 * [Karol Kuczmarski's Blog – Small Rust crates I (almost) always use](http://xion.io/post/code/rust-little-crates.html#rust-little-crates)
-* [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
 * [Асинхронный Rust: проблемы и способы их решения | Nuances of programming | Яндекс Дзен](https://zen.yandex.ru/media/nuancesprog/asinhronnyi-rust-problemy-i-sposoby-ih-resheniia-60e5f4e9176288585b4cab91)
 * [Vector instantiation: macro vs function](https://www.reddit.com/r/rust/comments/rq65ca/vector_instantiation_macro_vs_function/)
 * [(Habr) Что не так в Расте :: впечатления вкатуна](https://habr.com/ru/articles/973938/)
