@@ -1,6 +1,7 @@
 # Rust / Language
 
 ## Reference 📌
+* [core](https://doc.rust-lang.org/core/)
 * [std](https://doc.rust-lang.org/std/)
 
 ## Articles
