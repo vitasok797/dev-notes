@@ -11,3 +11,6 @@
 
 ### Error handling / Examples
 * [example](https://doc.rust-lang.org/std/str/trait.FromStr.html#examples)
+
+## Video channels
+* [Let's Get Rusty](https://www.youtube.com/@letsgetrusty/videos)
