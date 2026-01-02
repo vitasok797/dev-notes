@@ -17,8 +17,7 @@
    [interoperability](languages/rust/rust-interoperability.md),
    [language](languages/rust/rust-language.md),
    [learn](languages/rust/rust-learn.md),
-   [libs](languages/rust/rust-libs.md),
-   [video](languages/rust/rust-video.md))
+   [libs](languages/rust/rust-libs.md))
 * [C#](languages/csharp.md)
 * [Delphi](languages/delphi.md)
 * [Fortran](languages/fortran.md)
