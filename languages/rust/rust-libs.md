@@ -38,7 +38,7 @@
 ## Formats
 * [serde (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)](https://crates.io/crates/serde)
 * [prost (Protobuf)](https://crates.io/crates/prost)
-* [Flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
+* [flatbuffers (Flatbuffers)](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
 * XML ❓
 * Base64 ❓
 * Hashing ❓
