@@ -20,12 +20,7 @@
 * [rzmq](https://crates.io/crates/rzmq)
 
 ## Configuration
-
-### Configuration / Argument parsers
 * [clap (command line argument parser)](https://crates.io/crates/clap)
-
-### Configuration / Environment
-* ❓
 
 ## Containers
 * [itertools](https://crates.io/crates/itertools)
