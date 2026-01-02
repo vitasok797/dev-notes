@@ -14,6 +14,7 @@
 
 ### Communication / gRPC:
 * [tonic](https://crates.io/crates/tonic)
+* [grpc](https://crates.io/crates/grpc)
 
 ### Communication / ZeroMQ:
 * [zeromq](https://crates.io/crates/zeromq)
