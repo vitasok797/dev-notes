@@ -1,7 +1,7 @@
 # Rust / Language
 
 ## Reference 📌
-* [std](https://doc.rust-lang.org/std/index.html)
+* [std](https://doc.rust-lang.org/std/)
 
 ## Error handling
 
