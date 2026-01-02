@@ -39,7 +39,7 @@
 ## Formats
 * [serde (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)](https://crates.io/crates/serde)
 * [prost (Protobuf)](https://crates.io/crates/prost)
-* [protobuf](https://crates.io/crates/protobuf) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
+* [protobuf (v.4+)](https://crates.io/crates/protobuf) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
 * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
 * XML ❓
 * Base64 ❓
