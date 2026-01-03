@@ -4,9 +4,6 @@
 * [core](https://doc.rust-lang.org/core/)
 * [std](https://doc.rust-lang.org/std/)
 
-## Articles
-* [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
-
 ## Error handling
 
 ### Error handling / Crates
@@ -22,3 +19,6 @@
 
 ## Video channels
 * [Let's Get Rusty](https://www.youtube.com/@letsgetrusty/videos)
+
+## Var 📌
+* [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
