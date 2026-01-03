@@ -107,6 +107,6 @@
 ## WSP
 * ❓
 
-### Var 📌
+## Var 📌
 * [time (date and time library)](https://crates.io/crates/time)
 * [lru (a LRU cache implementation)](https://crates.io/crates/lru)
