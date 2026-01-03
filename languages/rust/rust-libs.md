@@ -58,6 +58,7 @@
 
 ## HTTP servers
 * [actix-web](https://crates.io/crates/actix-web)
+* [hyper](https://crates.io/crates/hyper)
 
 ## Interoperability
 * [vcpkg](https://crates.io/crates/vcpkg)
