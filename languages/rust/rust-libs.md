@@ -29,6 +29,9 @@
 * [smallvec](https://crates.io/crates/smallvec)
 * [hashbrown (port of Google's high-performance SwissTable hash map)](https://crates.io/crates/hashbrown)
 
+## Data processing
+* [polars](https://crates.io/crates/polars)
+
 ## DB
 * [diesel (ORM and query builder for PostgreSQL, SQLite, and MySQL)](https://crates.io/crates/diesel)
 * [sea-orm](https://crates.io/crates/sea-orm)
