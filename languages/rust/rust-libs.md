@@ -27,6 +27,7 @@
 ## Containers
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
+* [hashbrown (port of Google's high-performance SwissTable hash map)](https://crates.io/crates/hashbrown)
 
 ## DB
 * [diesel (ORM and query builder for PostgreSQL, SQLite, and MySQL)](https://crates.io/crates/diesel)
@@ -42,8 +43,8 @@
 * [prost (Protobuf)](https://crates.io/crates/prost)
 * [protobuf (v.4+)](https://crates.io/crates/protobuf) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
 * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
+* [base64](https://crates.io/crates/base64)
 * XML ❓
-* Base64 ❓
 * Hashing ❓
 
 ## GUI
@@ -76,6 +77,7 @@
 
 ### System / File System
 * [glob](https://crates.io/crates/glob)
+* [tempfile](https://crates.io/crates/tempfile)
 
 ### System / Process
 * ❓
@@ -100,6 +102,7 @@
 ## Types
 * [strong-type](https://crates.io/crates/strong-type)
 * [scopeguard](https://crates.io/crates/scopeguard)
+* [bitflags](https://crates.io/crates/bitflags)
 * magic_enum ❓
 * units ❓
 
