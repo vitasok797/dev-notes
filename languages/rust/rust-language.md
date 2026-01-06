@@ -17,8 +17,9 @@
   * [thiserror](https://crates.io/crates/thiserror)
   * [anyhow](https://crates.io/crates/anyhow)
 * Examples:
-  * [example](https://doc.rust-lang.org/std/str/trait.FromStr.html#examples)
-  * [example](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
+  * [example 1](https://doc.rust-lang.org/std/str/trait.FromStr.html#examples)
+  * [example 2](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
+  * [example 3](https://deterministic.space/rust-cli-tips.html#error-handling)
 
 ## Macro
 * ⚠️ [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/guides/writing-production-rust-macros-with-macro-rules)
