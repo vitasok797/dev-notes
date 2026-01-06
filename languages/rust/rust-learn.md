@@ -6,6 +6,7 @@
 * [The Cargo Book](https://doc.rust-lang.org/cargo/index.html)
 * [Command line apps in Rust](https://rust-cli.github.io/book/index.html)
 * [The Rustonomicon](https://doc.rust-lang.org/nomicon/index.html)
+* [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
 
 ## How to learn
 * [How not to learn Rust](https://dystroy.org/blog/how-not-to-learn-rust/)
