@@ -6,14 +6,14 @@
 
 ## Error handling
 
-### Error handling / Crates
+### Crates
 * [thiserror](https://crates.io/crates/thiserror)
 * [anyhow](https://crates.io/crates/anyhow)
 
-### Error handling / Examples
+### Examples
 * [example](https://doc.rust-lang.org/std/str/trait.FromStr.html#examples)
 
-### Error handling / Guides
+### Guides
 * [Book / Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
 * [Rust By Example / Error Handling](https://doc.rust-lang.org/rust-by-example/error.html)
 
