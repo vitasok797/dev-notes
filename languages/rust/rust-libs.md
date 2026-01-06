@@ -23,6 +23,7 @@
 
 ## Configuration
 * [clap](https://crates.io/crates/clap) (command line argument parser)
+* [config](https://crates.io/crates/config)
 
 ## Containers
 * [itertools](https://crates.io/crates/itertools)
