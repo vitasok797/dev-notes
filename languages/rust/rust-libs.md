@@ -37,6 +37,7 @@
 * [diesel](https://crates.io/crates/diesel) (ORM and query builder for PostgreSQL, SQLite, and MySQL)
 * [sea-orm](https://crates.io/crates/sea-orm)
 * [sqlx](https://crates.io/crates/sqlx)
+* [rusqlite](https://crates.io/crates/rusqlite)
 
 ## Error handling
 * [thiserror](https://crates.io/crates/thiserror)
@@ -76,9 +77,10 @@
   * [xxhash-rust](https://crates.io/crates/xxhash-rust)
   * [twox-hash](https://crates.io/crates/twox-hash)
 
-## Logging
+## Log
 * [log](https://crates.io/crates/log)
 * [slog](https://crates.io/crates/slog)
+* [env_logger](https://crates.io/crates/env_logger)
 
 ## Multithreading
 * events ❓
@@ -100,7 +102,9 @@
 ## Text
 * [regex](https://crates.io/crates/regex)
 * [textwrap](https://crates.io/crates/textwrap)
-* [tabled](https://crates.io/crates/tabled)
+* Tabulate:
+  * [tabled](https://crates.io/crates/tabled)
+  * [comfy-table](https://crates.io/crates/comfy-table)
 
 ## Time
 * [time](https://crates.io/crates/time)
@@ -125,6 +129,9 @@
 * [warp](https://crates.io/crates/warp)
 * [tide](https://crates.io/crates/tide)
 * [poem](https://crates.io/crates/poem)
+
+## Windows
+* [winreg](https://crates.io/crates/winreg)
 
 ## Var 📌
 * [lru](https://crates.io/crates/lru) (LRU cache)
