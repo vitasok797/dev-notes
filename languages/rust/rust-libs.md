@@ -75,6 +75,9 @@
 ## Multithreading
 * events ❓
 
+## Shared libs
+* [libloading](https://crates.io/crates/libloading)
+
 ## Scripting
 * ❓
 
