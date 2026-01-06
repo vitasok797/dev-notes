@@ -104,6 +104,10 @@
 * [stybulate](https://crates.io/crates/stybulate)
 * [tabulate-rs](https://crates.io/crates/tabulate-rs)
 
+## Time
+* [time](https://crates.io/crates/time)
+* [chrono](https://crates.io/crates/chrono)
+
 ## Types
 * [strong-type](https://crates.io/crates/strong-type)
 * [scopeguard](https://crates.io/crates/scopeguard)
@@ -121,5 +125,4 @@
 * ❓
 
 ## Var 📌
-* [time (date and time library)](https://crates.io/crates/time)
 * [lru (a LRU cache implementation)](https://crates.io/crates/lru)
