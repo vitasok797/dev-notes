@@ -62,7 +62,7 @@
 * [egui](https://crates.io/crates/egui)
 * [gpui](https://crates.io/crates/gpui), [gpui-component](https://crates.io/crates/gpui-component)
 
-### GUI / Plot
+### Plot
 * [plotly](https://crates.io/crates/plotly)
 * [plotters](https://crates.io/crates/plotters)
 * [egui_plot](https://crates.io/crates/egui_plot)
