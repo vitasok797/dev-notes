@@ -126,10 +126,15 @@
 * [humantime](https://crates.io/crates/humantime)
 
 ## Types
-* [derive_more](https://crates.io/crates/derive_more)
+* Newtype:
+  * [derive_more](https://crates.io/crates/derive_more)
+  * [strong-type](https://crates.io/crates/strong-type)
+  * [shrinkwraprs](https://crates.io/crates/shrinkwraprs)
+* Enum:
+  * [derive_more](https://crates.io/crates/derive_more) 
+  * [strum](https://crates.io/crates/strum)
+* ⭐ [derive_more](https://crates.io/crates/derive_more)
 * [derive-new](https://crates.io/crates/derive-new)
-* [strum](https://crates.io/crates/strum) (enums and strings)
-* [strong-type](https://crates.io/crates/strong-type)
 * [scopeguard](https://crates.io/crates/scopeguard)
 * [bitflags](https://crates.io/crates/bitflags)
 * units ❓
