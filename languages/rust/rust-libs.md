@@ -90,6 +90,7 @@
   * [walkdir](https://crates.io/crates/walkdir)
   * [ignore](https://crates.io/crates/ignore)
 * [tempfile](https://crates.io/crates/tempfile)
+* [dirs](https://crates.io/crates/dirs) (platform-specific standard locations)
 
 ### System / Process
 * ❓
@@ -110,6 +111,7 @@
 
 ## Types
 * [derive_more](https://crates.io/crates/derive_more)
+* [derive-new](https://crates.io/crates/derive-new)
 * [strum](https://crates.io/crates/strum) (enums and strings)
 * [strong-type](https://crates.io/crates/strong-type)
 * [scopeguard](https://crates.io/crates/scopeguard)
