@@ -1,7 +1,7 @@
 # Rust / Guidelines
 
 ## Math
-* [Float range](guidelines/float_range.md)
+* [Float range](guidelines/math_float_range.md)
 
 ## Types
-* [Newtype](guidelines/newtype.md)
+* [Newtype](guidelines/types_newtype.md)
