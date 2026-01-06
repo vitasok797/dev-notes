@@ -24,7 +24,9 @@
 * ⚠️ [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/guides/writing-production-rust-macros-with-macro-rules)
 
 ## Types
-* ⚠️ [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
+* Newtype:
+  * ⚠️ [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
+  * ⚠️ [The Newtype Pattern in Rust](https://www.worthe-it.co.za/blog/2020-10-31-newtype-pattern-in-rust.html)
 
 ## Video channels
 * [Let's Get Rusty](https://www.youtube.com/@letsgetrusty/videos)
