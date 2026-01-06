@@ -101,7 +101,12 @@
 ## Terminal
 * [crossterm](https://crates.io/crates/crossterm)
 * [console](https://crates.io/crates/console)
-* [ratatui](https://crates.io/crates/ratatui)
+* [dialoguer](https://crates.io/crates/dialoguer)
+* Progress:
+  * [indicatif](https://crates.io/crates/indicatif)
+* TUI:
+  * [ratatui](https://crates.io/crates/ratatui)
+  * [cursive](https://crates.io/crates/cursive)
 
 ## Text
 * [regex](https://crates.io/crates/regex)
