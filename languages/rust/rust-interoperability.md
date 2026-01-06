@@ -22,6 +22,7 @@
 * [pyo3](https://crates.io/crates/pyo3)
 
 ## Tutorials
+* [FFI](https://doc.rust-lang.org/nomicon/ffi.html)
 * [The bindgen user guide](https://rust-lang.github.io/rust-bindgen/)
 * [(Metanit) FFI. Взаимодействие с нативным кодом на C/C++](https://metanit.com/rust/tutorial/17.1.php)
 
