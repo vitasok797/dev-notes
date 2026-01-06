@@ -100,9 +100,9 @@
 * ❓
 
 ## Terminal
+* [crossterm](https://crates.io/crates/crossterm)
 * [console](https://crates.io/crates/console)
-* progress ❓
-* TUI ❓
+* [ratatui](https://crates.io/crates/ratatui)
 
 ## Text
 * [regex](https://crates.io/crates/regex)
