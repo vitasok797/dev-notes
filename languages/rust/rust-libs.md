@@ -102,10 +102,7 @@
 ## Text
 * [regex](https://crates.io/crates/regex)
 * [textwrap](https://crates.io/crates/textwrap)
-
-### Text / Tabulate
-* [stybulate](https://crates.io/crates/stybulate)
-* [tabulate-rs](https://crates.io/crates/tabulate-rs)
+* [tabled](https://crates.io/crates/tabled)
 
 ## Time
 * [time](https://crates.io/crates/time)
