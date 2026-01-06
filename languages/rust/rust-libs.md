@@ -47,7 +47,7 @@
 * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
 * Protobuf:
   * [prost](https://crates.io/crates/prost)
-  * [protobuf (v.4+)](https://crates.io/crates/protobuf) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
+  * [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
 
 ## GUI
 * [iced](https://crates.io/crates/iced)
