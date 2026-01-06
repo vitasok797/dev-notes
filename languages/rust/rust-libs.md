@@ -50,6 +50,7 @@
   * [ignore](https://crates.io/crates/ignore)
 * [tempfile](https://crates.io/crates/tempfile)
 * [dirs](https://crates.io/crates/dirs) (platform-specific standard locations)
+* [which](https://crates.io/crates/which)
 
 ## Formats
 * [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)
@@ -90,7 +91,6 @@
   * [winreg](https://crates.io/crates/winreg)
 
 ## Process
-* [which](https://crates.io/crates/which)
 * ❓
 
 ## Shared libs
