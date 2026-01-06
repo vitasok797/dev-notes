@@ -85,7 +85,10 @@
 ## System
 
 ### System / File System
-* [glob](https://crates.io/crates/glob)
+* Walk:
+  * [glob](https://crates.io/crates/glob)
+  * [walkdir](https://crates.io/crates/walkdir)
+  * [ignore](https://crates.io/crates/ignore)
 * [tempfile](https://crates.io/crates/tempfile)
 
 ### System / Process
