@@ -85,6 +85,11 @@
 ## Multithreading
 * events ❓
 
+## OS-specific
+
+### Windows
+* [winreg](https://crates.io/crates/winreg)
+
 ## Process
 * ❓
 
@@ -129,9 +134,6 @@
 * [warp](https://crates.io/crates/warp)
 * [tide](https://crates.io/crates/tide)
 * [poem](https://crates.io/crates/poem)
-
-## Windows
-* [winreg](https://crates.io/crates/winreg)
 
 ## Var 📌
 * [lru](https://crates.io/crates/lru) (LRU cache)
