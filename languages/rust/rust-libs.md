@@ -7,16 +7,16 @@
 * [tokio](https://crates.io/crates/tokio)
 * [tower](https://crates.io/crates/tower)
 
-### Communication / DDS:
+### DDS
 * [rustdds](https://crates.io/crates/rustdds)
 * [dust_dds](https://crates.io/crates/dust_dds)
 * [cyclors](https://crates.io/crates/cyclors) (CycloneDDS bindings)
 
-### Communication / gRPC:
+### gRPC
 * [tonic](https://crates.io/crates/tonic)
 * [grpc](https://crates.io/crates/grpc)
 
-### Communication / ZeroMQ:
+### ZeroMQ
 * [zeromq](https://crates.io/crates/zeromq)
 * [rzmq](https://crates.io/crates/rzmq)
 
@@ -39,6 +39,14 @@
 ## Error handling
 * [thiserror](https://crates.io/crates/thiserror)
 * [anyhow](https://crates.io/crates/anyhow)
+
+## File system
+* Walk:
+  * [glob](https://crates.io/crates/glob)
+  * [walkdir](https://crates.io/crates/walkdir)
+  * [ignore](https://crates.io/crates/ignore)
+* [tempfile](https://crates.io/crates/tempfile)
+* [dirs](https://crates.io/crates/dirs) (platform-specific standard locations)
 
 ## Formats
 * [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)
@@ -76,23 +84,13 @@
 ## Multithreading
 * events ❓
 
+## Process
+* ❓
+
 ## Shared libs
 * [libloading](https://crates.io/crates/libloading)
 
 ## Scripting
-* ❓
-
-## System
-
-### System / File System
-* Walk:
-  * [glob](https://crates.io/crates/glob)
-  * [walkdir](https://crates.io/crates/walkdir)
-  * [ignore](https://crates.io/crates/ignore)
-* [tempfile](https://crates.io/crates/tempfile)
-* [dirs](https://crates.io/crates/dirs) (platform-specific standard locations)
-
-### System / Process
 * ❓
 
 ## Terminal
