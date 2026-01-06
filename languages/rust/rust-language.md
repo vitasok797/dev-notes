@@ -14,6 +14,9 @@
 * Examples:
   * [example](https://doc.rust-lang.org/std/str/trait.FromStr.html#examples)
 
+## Types
+* [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
+
 ## Video channels
 * [Let's Get Rusty](https://www.youtube.com/@letsgetrusty/videos)
 
