@@ -86,9 +86,8 @@
 * events ❓
 
 ## OS-specific
-
-### Windows
-* [winreg](https://crates.io/crates/winreg)
+* Windows:
+  * [winreg](https://crates.io/crates/winreg)
 
 ## Process
 * ❓
