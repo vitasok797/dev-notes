@@ -48,7 +48,6 @@
 * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
 * [base64](https://crates.io/crates/base64)
 * XML ❓
-* Hashing ❓
 
 ## GUI
 * [iced](https://crates.io/crates/iced)
@@ -60,9 +59,12 @@
 * [plotters](https://crates.io/crates/plotters)
 * [egui_plot](https://crates.io/crates/egui_plot)
 
-## HTTP servers
-* [actix-web](https://crates.io/crates/actix-web)
-* [hyper](https://crates.io/crates/hyper)
+## Hashing
+* [digest](https://crates.io/crates/digest) ([supported-algorithms](https://github.com/RustCrypto/hashes?tab=readme-ov-file#supported-algorithms))
+* xxhash:
+  * [article](https://jolynch.github.io/posts/use_fast_data_algorithms/)
+  * [xxhash-rust](https://crates.io/crates/xxhash-rust)
+  * [twox-hash](https://crates.io/crates/twox-hash)
 
 ## Interoperability
 * [vcpkg](https://crates.io/crates/vcpkg)
@@ -111,6 +113,9 @@
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
+
+## Web servers
+* [actix-web](https://crates.io/crates/actix-web)
 
 ## WSP
 * ❓
