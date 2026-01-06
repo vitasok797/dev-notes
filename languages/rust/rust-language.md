@@ -3,6 +3,7 @@
 ## Reference 📌
 * [core](https://doc.rust-lang.org/core/)
 * [std](https://doc.rust-lang.org/std/)
+* [unstable-book](https://doc.rust-lang.org/unstable-book/)
 
 ## Architecture
 * ⚠️ [Master hexagonal architecture in Rust](https://www.howtocodeit.com/guides/master-hexagonal-architecture-in-rust)
