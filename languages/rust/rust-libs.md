@@ -46,7 +46,7 @@
 * [protobuf (v.4+)](https://crates.io/crates/protobuf) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
 * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
 * [base64](https://crates.io/crates/base64)
-* XML ❓
+* XML [search](https://crates.io/search?q=XML)
 
 ## GUI
 * [iced](https://crates.io/crates/iced)
@@ -70,6 +70,7 @@
 
 ## Logging
 * [log](https://crates.io/crates/log)
+* [slog](https://crates.io/crates/slog)
 
 ## Multithreading
 * events ❓
@@ -104,10 +105,11 @@
 * [chrono](https://crates.io/crates/chrono)
 
 ## Types
+* [derive_more](https://crates.io/crates/derive_more)
+* [strum (enums and strings)](https://crates.io/crates/strum)
 * [strong-type](https://crates.io/crates/strong-type)
 * [scopeguard](https://crates.io/crates/scopeguard)
 * [bitflags](https://crates.io/crates/bitflags)
-* magic_enum ❓
 * units ❓
 
 ## UUID
