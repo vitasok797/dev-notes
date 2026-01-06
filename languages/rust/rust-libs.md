@@ -22,7 +22,9 @@
 * [rzmq](https://crates.io/crates/rzmq)
 
 ## Configuration
-* [clap](https://crates.io/crates/clap) (command line argument parser)
+* Command line arguments:
+  * [clap](https://crates.io/crates/clap)
+  * [structopt](https://crates.io/crates/structopt)
 * [config](https://crates.io/crates/config)
 
 ## Containers
@@ -82,6 +84,7 @@
 * [log](https://crates.io/crates/log)
 * [slog](https://crates.io/crates/slog)
 * [env_logger](https://crates.io/crates/env_logger)
+* [loggerv](https://crates.io/crates/loggerv)
 
 ## Multithreading
 * events ❓
