@@ -120,6 +120,8 @@
 
 ## Web servers
 * [actix-web](https://crates.io/crates/actix-web)
+* [rocket](https://crates.io/crates/rocket)
+* [warp](https://crates.io/crates/warp)
 
 ## WSP
 * ❓
