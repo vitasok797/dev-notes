@@ -90,6 +90,7 @@
   * [winreg](https://crates.io/crates/winreg)
 
 ## Process
+* [which](https://crates.io/crates/which)
 * ❓
 
 ## Shared libs
@@ -97,6 +98,10 @@
 
 ## Scripting
 * ❓
+
+## System
+* [sysinfo](https://crates.io/crates/sysinfo)
+* [whoami](https://crates.io/crates/whoami)
 
 ## Terminal
 * [crossterm](https://crates.io/crates/crossterm)
@@ -118,6 +123,7 @@
 ## Time
 * [time](https://crates.io/crates/time)
 * [chrono](https://crates.io/crates/chrono)
+* [humantime](https://crates.io/crates/humantime)
 
 ## Types
 * [derive_more](https://crates.io/crates/derive_more)
