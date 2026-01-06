@@ -91,12 +91,8 @@
 
 ## Terminal
 * [console](https://crates.io/crates/console)
-
-### Terminal / Progress
-* ❓
-
-### Terminal / UI
-* ❓
+* progress ❓
+* TUI ❓
 
 ## Text
 * [regex](https://crates.io/crates/regex)
@@ -124,9 +120,6 @@
 * [warp](https://crates.io/crates/warp)
 * [tide](https://crates.io/crates/tide)
 * [poem](https://crates.io/crates/poem)
-
-## WSP
-* ❓
 
 ## Var 📌
 * [lru (a LRU cache implementation)](https://crates.io/crates/lru)
