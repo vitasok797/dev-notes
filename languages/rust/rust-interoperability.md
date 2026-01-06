@@ -3,6 +3,8 @@
 ## Crates
 * [ffi_helpers](https://crates.io/crates/ffi_helpers)
 * [bindgen](https://crates.io/crates/bindgen)
+* [cbindgen](https://crates.io/crates/cbindgen)
+* [cxx](https://crates.io/crates/cxx)
 * [vcpkg](https://crates.io/crates/vcpkg)
 
 ## Languages and libs
