@@ -13,6 +13,7 @@
   * [anyhow](https://crates.io/crates/anyhow)
 * Examples:
   * [example](https://doc.rust-lang.org/std/str/trait.FromStr.html#examples)
+  * [example](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
 
 ## Types
 * [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
