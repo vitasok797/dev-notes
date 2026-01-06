@@ -74,9 +74,6 @@
   * [xxhash-rust](https://crates.io/crates/xxhash-rust)
   * [twox-hash](https://crates.io/crates/twox-hash)
 
-## Interoperability
-* [vcpkg](https://crates.io/crates/vcpkg)
-
 ## Logging
 * [log](https://crates.io/crates/log)
 * [slog](https://crates.io/crates/slog)
