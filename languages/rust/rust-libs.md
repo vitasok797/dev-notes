@@ -1,7 +1,7 @@
 # Rust / Libs
 
 ⚠️ [crates.io list](https://crates.io/crates?sort=downloads) \
-⚠️ [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) \
+⚠️ [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
