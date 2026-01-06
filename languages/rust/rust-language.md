@@ -12,7 +12,7 @@
 * Guides:
   * [Book / Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
   * [Rust By Example / Error Handling](https://doc.rust-lang.org/rust-by-example/error.html)
-  * [The definitive guide to error handling in Rust](https://www.howtocodeit.com/guides/the-definitive-guide-to-rust-error-handling)
+  * ⚠️ [The definitive guide to error handling in Rust](https://www.howtocodeit.com/guides/the-definitive-guide-to-rust-error-handling)
 * Crates:
   * [thiserror](https://crates.io/crates/thiserror)
   * [anyhow](https://crates.io/crates/anyhow)
@@ -24,7 +24,7 @@
 * ⚠️ [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/guides/writing-production-rust-macros-with-macro-rules)
 
 ## Types
-* [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
+* ⚠️ [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
 
 ## Video channels
 * [Let's Get Rusty](https://www.youtube.com/@letsgetrusty/videos)
