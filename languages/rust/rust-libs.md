@@ -10,7 +10,7 @@
 ### Communication / DDS:
 * [rustdds](https://crates.io/crates/rustdds)
 * [dust_dds](https://crates.io/crates/dust_dds)
-* [cyclors (CycloneDDS bindings)](https://crates.io/crates/cyclors)
+* [cyclors](https://crates.io/crates/cyclors) (CycloneDDS bindings)
 
 ### Communication / gRPC:
 * [tonic](https://crates.io/crates/tonic)
@@ -21,18 +21,18 @@
 * [rzmq](https://crates.io/crates/rzmq)
 
 ## Configuration
-* [clap (command line argument parser)](https://crates.io/crates/clap)
+* [clap](https://crates.io/crates/clap) (command line argument parser)
 
 ## Containers
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
-* [hashbrown (port of Google's high-performance SwissTable hash map)](https://crates.io/crates/hashbrown)
+* [hashbrown](https://crates.io/crates/hashbrown) (port of Google's high-performance SwissTable hash map)
 
 ## Data processing
 * [polars](https://crates.io/crates/polars)
 
 ## DB
-* [diesel (ORM and query builder for PostgreSQL, SQLite, and MySQL)](https://crates.io/crates/diesel)
+* [diesel](https://crates.io/crates/diesel) (ORM and query builder for PostgreSQL, SQLite, and MySQL)
 * [sea-orm](https://crates.io/crates/sea-orm)
 * [sqlx](https://crates.io/crates/sqlx)
 
@@ -41,7 +41,7 @@
 * [anyhow](https://crates.io/crates/anyhow)
 
 ## Formats
-* [serde (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)](https://crates.io/crates/serde)
+* [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)
 * XML ([search](https://crates.io/search?q=XML))
 * [base64](https://crates.io/crates/base64)
 * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
@@ -107,7 +107,7 @@
 
 ## Types
 * [derive_more](https://crates.io/crates/derive_more)
-* [strum (enums and strings)](https://crates.io/crates/strum)
+* [strum](https://crates.io/crates/strum) (enums and strings)
 * [strong-type](https://crates.io/crates/strong-type)
 * [scopeguard](https://crates.io/crates/scopeguard)
 * [bitflags](https://crates.io/crates/bitflags)
@@ -125,4 +125,4 @@
 * [poem](https://crates.io/crates/poem)
 
 ## Var 📌
-* [lru (a LRU cache implementation)](https://crates.io/crates/lru)
+* [lru](https://crates.io/crates/lru) (LRU cache)
