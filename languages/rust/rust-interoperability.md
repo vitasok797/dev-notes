@@ -4,12 +4,19 @@
 * [ffi_helpers](https://crates.io/crates/ffi_helpers)
 * [bindgen](https://crates.io/crates/bindgen)
 
-## Qt
+## Languages and libs
 
-### Qt / Crates
+### Qt
+
+#### Crates
 * [cxx-qt](https://crates.io/crates/cxx-qt)
 * [qt_core](https://crates.io/crates/qt_core)
 * [rust_qt_binding_generator](https://crates.io/crates/rust_qt_binding_generator)
+
+### Python
+
+#### Crates
+* [pyo3](https://crates.io/crates/pyo3)
 
 ## Tutorials
 * [(Metanit) FFI. Взаимодействие с нативным кодом на C/C++](https://metanit.com/rust/tutorial/17.1.php)
