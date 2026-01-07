@@ -26,7 +26,10 @@
   * [clap](https://crates.io/crates/clap)
   * [structopt](https://crates.io/crates/structopt)
   * [confy](https://crates.io/crates/confy)
-* [config](https://crates.io/crates/config)
+* Coplex:
+  * [config](https://crates.io/crates/config)
+  * [figment](https://crates.io/crates/figment)
+  * [config-manager](https://crates.io/crates/config-manager)
 
 ## Containers
 * [itertools](https://crates.io/crates/itertools)
