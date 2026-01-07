@@ -14,3 +14,4 @@
 
 ## Tutorials
 * [Metanit](https://metanit.com/rust/tutorial/1.1.php)
+* [RustCourse: От новичка до эксперта](https://rust.nizeclub.ru/)
