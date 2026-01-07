@@ -101,7 +101,7 @@
   * [std::process](https://doc.rust-lang.org/std/process/)
   * [subprocess](https://crates.io/crates/subprocess)
   * [duct](https://crates.io/crates/duct)
-* Signal handling:
+* Signal handling ([article](https://rust-cli.github.io/book/in-depth/signals.html)):
   * [ctrlc](https://crates.io/crates/ctrlc) ([issue](https://github.com/Detegr/rust-ctrlc/issues/122))
   * [ctrlc2](https://crates.io/crates/ctrlc2)
   * [signal-hook](https://crates.io/crates/signal-hook)
