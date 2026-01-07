@@ -90,7 +90,11 @@
 * [loggerv](https://crates.io/crates/loggerv)
 
 ## Multithreading
-* events ❓
+* Channels:
+  * [std::sync::mpsc](https://doc.rust-lang.org/std/sync/mpsc/)
+  * [crossbeam-channel](https://crates.io/crates/crossbeam-channel)
+* [crossbeam](https://crates.io/crates/crossbeam)
+* [rsevents](https://crates.io/crates/rsevents)
 
 ## Process
 * Subprocess:
