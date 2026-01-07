@@ -89,14 +89,6 @@
 ## Multithreading
 * events ❓
 
-## OS-specific
-* Windows:
-  * [winreg](https://crates.io/crates/winreg)
-  * WinAPI:
-    * [winapi](https://crates.io/crates/winapi)
-    * [windows-sys](https://crates.io/crates/windows-sys)
-    * [windows](https://crates.io/crates/windows)
-
 ## Process
 * Signals:
   * [ctrlc](https://crates.io/crates/ctrlc) ([issue](https://github.com/Detegr/rust-ctrlc/issues/122))
@@ -113,6 +105,13 @@
 ## System
 * [sysinfo](https://crates.io/crates/sysinfo)
 * [whoami](https://crates.io/crates/whoami)
+* Windows:
+  * Registry:
+    * [winreg](https://crates.io/crates/winreg)
+  * WinAPI:
+    * [winapi](https://crates.io/crates/winapi)
+    * [windows-sys](https://crates.io/crates/windows-sys)
+    * [windows](https://crates.io/crates/windows)
 
 ## Terminal
 * [crossterm](https://crates.io/crates/crossterm)
