@@ -93,7 +93,9 @@
   * [ctrlc](https://crates.io/crates/ctrlc) ([issue](https://github.com/Detegr/rust-ctrlc/issues/122))
   * [signal-hook](https://crates.io/crates/signal-hook)
   * [tokio::signal](https://docs.rs/tokio/latest/tokio/signal/index.html) ([issue](https://github.com/tokio-rs/tokio/issues/7039))
-* ❓
+* Subprocess:
+  * [std::process](https://doc.rust-lang.org/std/process/)
+  * [subprocess](https://crates.io/crates/subprocess)
 
 ## Shared libs
 * [libloading](https://crates.io/crates/libloading)
@@ -104,13 +106,14 @@
 ## System
 * [sysinfo](https://crates.io/crates/sysinfo)
 * [whoami](https://crates.io/crates/whoami)
-* Windows:
-  * Registry:
-    * [winreg](https://crates.io/crates/winreg)
-  * WinAPI:
-    * [winapi](https://crates.io/crates/winapi)
-    * [windows-sys](https://crates.io/crates/windows-sys)
-    * [windows](https://crates.io/crates/windows)
+
+### Windows
+* Registry:
+  * [winreg](https://crates.io/crates/winreg)
+* WinAPI:
+  * [winapi](https://crates.io/crates/winapi)
+  * [windows-sys](https://crates.io/crates/windows-sys)
+  * [windows](https://crates.io/crates/windows)
 
 ## Terminal
 * [crossterm](https://crates.io/crates/crossterm)
