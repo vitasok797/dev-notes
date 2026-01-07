@@ -1,5 +1,8 @@
 # Rust / Guidelines
 
+## Functions
+* [Lambda type inference](guidelines/functions_lambda_type_inference.md)
+
 ## Math
 * [Float range](guidelines/math_float_range.md)
 
