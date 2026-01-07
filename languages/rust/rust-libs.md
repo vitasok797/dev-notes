@@ -92,8 +92,16 @@
 ## OS-specific
 * Windows:
   * [winreg](https://crates.io/crates/winreg)
+  * WinAPI:
+    * [winapi](https://crates.io/crates/winapi)
+    * [windows-sys](https://crates.io/crates/windows-sys)
+    * [windows](https://crates.io/crates/windows)
 
 ## Process
+* Signals:
+  * [ctrlc](https://crates.io/crates/ctrlc) ([issue](https://github.com/Detegr/rust-ctrlc/issues/122))
+  * [signal-hook](https://crates.io/crates/signal-hook)
+  * [tokio::signal](https://docs.rs/tokio/latest/tokio/signal/index.html) ([issue](https://github.com/tokio-rs/tokio/issues/7039))
 * ❓
 
 ## Shared libs
