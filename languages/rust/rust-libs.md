@@ -95,6 +95,7 @@
   * [duct](https://crates.io/crates/duct)
 * Signal handling:
   * [ctrlc](https://crates.io/crates/ctrlc) ([issue](https://github.com/Detegr/rust-ctrlc/issues/122))
+  * [ctrlc2](https://crates.io/crates/ctrlc2)
   * [signal-hook](https://crates.io/crates/signal-hook)
   * [tokio::signal](https://docs.rs/tokio/latest/tokio/signal/index.html) ([issue](https://github.com/tokio-rs/tokio/issues/7039))
 
@@ -133,10 +134,11 @@
   * [tabled](https://crates.io/crates/tabled)
   * [comfy-table](https://crates.io/crates/comfy-table)
 * Line endings:
-  * [newline-converte](https://crates.io/crates/newline-converter)
+  * [newline-converter](https://crates.io/crates/newline-converter)
   * [newline_normalizer](https://crates.io/crates/newline_normalizer)
   * [line-ending](https://crates.io/crates/line-ending)
   * [eolify](https://crates.io/crates/eolify)
+  * [normalized-line-endings](https://crates.io/crates/normalized-line-endings)
 
 ## Time
 * [time](https://crates.io/crates/time)
