@@ -89,13 +89,14 @@
 * events ❓
 
 ## Process
+* Subprocess:
+  * [std::process](https://doc.rust-lang.org/std/process/)
+  * [subprocess](https://crates.io/crates/subprocess)
+  * [duct](https://crates.io/crates/duct)
 * Signal handling:
   * [ctrlc](https://crates.io/crates/ctrlc) ([issue](https://github.com/Detegr/rust-ctrlc/issues/122))
   * [signal-hook](https://crates.io/crates/signal-hook)
   * [tokio::signal](https://docs.rs/tokio/latest/tokio/signal/index.html) ([issue](https://github.com/tokio-rs/tokio/issues/7039))
-* Subprocess:
-  * [std::process](https://doc.rust-lang.org/std/process/)
-  * [subprocess](https://crates.io/crates/subprocess)
 
 ## Shared libs
 * [libloading](https://crates.io/crates/libloading)
