@@ -75,8 +75,7 @@
 
 ## Hashing
 * [digest](https://crates.io/crates/digest) ([supported-algorithms](https://github.com/RustCrypto/hashes?tab=readme-ov-file#supported-algorithms))
-* xxhash:
-  * [article](https://jolynch.github.io/posts/use_fast_data_algorithms/)
+* xxhash ([article](https://jolynch.github.io/posts/use_fast_data_algorithms/)):
   * [xxhash-rust](https://crates.io/crates/xxhash-rust)
   * [twox-hash](https://crates.io/crates/twox-hash)
 
