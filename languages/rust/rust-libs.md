@@ -132,6 +132,11 @@
 * Tabulate:
   * [tabled](https://crates.io/crates/tabled)
   * [comfy-table](https://crates.io/crates/comfy-table)
+* Line endings:
+  * [newline-converte](https://crates.io/crates/newline-converter)
+  * [newline_normalizer](https://crates.io/crates/newline_normalizer)
+  * [line-ending](https://crates.io/crates/line-ending)
+  * [eolify](https://crates.io/crates/eolify)
 
 ## Time
 * [time](https://crates.io/crates/time)
