@@ -118,12 +118,12 @@
 * [whoami](https://crates.io/crates/whoami)
 
 ### Windows
-* Registry:
-  * [winreg](https://crates.io/crates/winreg)
-* WinAPI:
-  * [winapi](https://crates.io/crates/winapi)
-  * [windows-sys](https://crates.io/crates/windows-sys)
+* [winreg](https://crates.io/crates/winreg)
+* [winapi](https://crates.io/crates/winapi)
+* [windows-rs](https://github.com/microsoft/windows-rs) ([doc](https://kennykerr.ca/rust-getting-started/)):
   * [windows](https://crates.io/crates/windows)
+  * [windows-sys](https://crates.io/crates/windows-sys)
+  * [windows-strings](https://crates.io/crates/windows-strings)
 
 ## Terminal
 * [crossterm](https://crates.io/crates/crossterm)
