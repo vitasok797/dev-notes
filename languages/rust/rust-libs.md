@@ -158,6 +158,7 @@
   * [derive_more](https://crates.io/crates/derive_more)
   * [strong-type](https://crates.io/crates/strong-type)
   * [shrinkwraprs](https://crates.io/crates/shrinkwraprs)
+  * [nutype](https://crates.io/crates/nutype)
 * Enum:
   * [derive_more](https://crates.io/crates/derive_more) 
   * [strum](https://crates.io/crates/strum)
