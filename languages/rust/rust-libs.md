@@ -25,6 +25,7 @@
 * Command line arguments:
   * [clap](https://crates.io/crates/clap)
   * [structopt](https://crates.io/crates/structopt)
+  * [confy](https://crates.io/crates/confy)
 * [config](https://crates.io/crates/config)
 
 ## Containers
