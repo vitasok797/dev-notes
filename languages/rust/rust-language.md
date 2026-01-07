@@ -27,6 +27,9 @@
 ## Macro
 * ⚠️ [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/guides/writing-production-rust-macros-with-macro-rules)
 
+## Traits
+* [Deref](https://doc.rust-lang.org/book/ch15-02-deref.html)
+
 ## Types
 * Newtype:
   * ⚠️ [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
