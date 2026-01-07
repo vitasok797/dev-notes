@@ -3,6 +3,7 @@
 ## Reference 📌
 * [core](https://doc.rust-lang.org/core/)
 * [std](https://doc.rust-lang.org/std/)
+* [The Rust Reference](https://doc.rust-lang.org/reference/)
 * ⚠️ [The Cargo Book](https://doc.rust-lang.org/cargo/index.html)
 * ⚠️ [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
 * [unstable-book](https://doc.rust-lang.org/unstable-book/)
