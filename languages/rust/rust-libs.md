@@ -164,6 +164,8 @@
   * [strum](https://crates.io/crates/strum)
 * ⭐ [derive_more](https://crates.io/crates/derive_more)
 * [derive-new](https://crates.io/crates/derive-new)
+* [getset](https://crates.io/crates/getset)
+* [contracts](https://crates.io/crates/contracts)
 * [scopeguard](https://crates.io/crates/scopeguard)
 * [bitflags](https://crates.io/crates/bitflags)
 * units ❓
