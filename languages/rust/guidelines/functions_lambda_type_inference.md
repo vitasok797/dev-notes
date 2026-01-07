@@ -1,0 +1,1 @@
+# Lambda type inference
