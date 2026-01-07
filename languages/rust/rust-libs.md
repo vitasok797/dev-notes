@@ -90,7 +90,7 @@
 * events ❓
 
 ## Process
-* Signals:
+* Signal handling:
   * [ctrlc](https://crates.io/crates/ctrlc) ([issue](https://github.com/Detegr/rust-ctrlc/issues/122))
   * [signal-hook](https://crates.io/crates/signal-hook)
   * [tokio::signal](https://docs.rs/tokio/latest/tokio/signal/index.html) ([issue](https://github.com/tokio-rs/tokio/issues/7039))
