@@ -168,7 +168,8 @@
 * [contracts](https://crates.io/crates/contracts)
 * [scopeguard](https://crates.io/crates/scopeguard)
 * [bitflags](https://crates.io/crates/bitflags)
-* units ❓
+* [trace](https://crates.io/crates/trace)
+* [uom](https://crates.io/crates/uom) (units of measurement)
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
