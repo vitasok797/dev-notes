@@ -6,5 +6,8 @@
 ## Math
 * [Float range](guidelines/math_float_range.md)
 
+## Patterns
+* [Decorator](guidelines/patterns_decorator.md)
+
 ## Types
 * [Newtype](guidelines/types_newtype.md)
