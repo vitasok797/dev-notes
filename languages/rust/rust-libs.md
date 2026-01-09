@@ -162,14 +162,16 @@
 * Enum:
   * [derive_more](https://crates.io/crates/derive_more) 
   * [strum](https://crates.io/crates/strum)
+* Units:
+  * [uom](https://crates.io/crates/uom)
 * ⭐ [derive_more](https://crates.io/crates/derive_more)
 * [derive-new](https://crates.io/crates/derive-new)
 * [getset](https://crates.io/crates/getset)
-* [contracts](https://crates.io/crates/contracts)
-* [scopeguard](https://crates.io/crates/scopeguard)
-* [bitflags](https://crates.io/crates/bitflags)
-* [trace](https://crates.io/crates/trace)
-* [uom](https://crates.io/crates/uom) (units of measurement)
+* ???:
+  * [bitflags](https://crates.io/crates/bitflags)
+  * [scopeguard](https://crates.io/crates/scopeguard)
+  * [trace](https://crates.io/crates/trace)
+  * [contracts](https://crates.io/crates/contracts)
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
