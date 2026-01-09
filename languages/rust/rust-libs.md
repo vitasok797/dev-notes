@@ -45,6 +45,9 @@
 * [sqlx](https://crates.io/crates/sqlx)
 * [rusqlite](https://crates.io/crates/rusqlite)
 
+## Debug
+* [trace](https://crates.io/crates/trace)
+
 ## Error handling
 * [thiserror](https://crates.io/crates/thiserror)
 * [anyhow](https://crates.io/crates/anyhow)
@@ -167,11 +170,7 @@
 * ⭐ [derive_more](https://crates.io/crates/derive_more)
 * [derive-new](https://crates.io/crates/derive-new)
 * [getset](https://crates.io/crates/getset)
-* ???:
-  * [bitflags](https://crates.io/crates/bitflags)
-  * [scopeguard](https://crates.io/crates/scopeguard)
-  * [trace](https://crates.io/crates/trace)
-  * [contracts](https://crates.io/crates/contracts)
+* [bitflags](https://crates.io/crates/bitflags)
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
@@ -185,4 +184,6 @@
 * [poem](https://crates.io/crates/poem)
 
 ## Var 📌
+* [scopeguard](https://crates.io/crates/scopeguard)
+* [contracts](https://crates.io/crates/contracts)
 * [lru](https://crates.io/crates/lru) (LRU cache)
