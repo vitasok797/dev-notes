@@ -25,7 +25,7 @@
   * [example 3](https://deterministic.space/rust-cli-tips.html#error-handling)
 
 ## Functions
-* [Finding Closure in Rust](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/)
+* 👉 [Finding Closure in Rust](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/)
 
 ## Macro
 * 👉 [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/guides/writing-production-rust-macros-with-macro-rules)
