@@ -24,6 +24,9 @@
   * [example 2](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes)
   * [example 3](https://deterministic.space/rust-cli-tips.html#error-handling)
 
+## Functions
+* [Finding Closure in Rust](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/)
+
 ## Macro
 * 👉 [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/guides/writing-production-rust-macros-with-macro-rules)
 
@@ -32,6 +35,7 @@
 
 ## Traits
 * [Deref](https://doc.rust-lang.org/book/ch15-02-deref.html)
+* 👉 [Convenient and idiomatic conversions in Rust](https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust)
 
 ## Types
 * Newtype:
