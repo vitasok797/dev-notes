@@ -1,8 +1,8 @@
 # Rust / Libs
 
-👉 [crates.io list](https://crates.io/crates?sort=downloads) \
-👉 [Awesome Rust](https://github.com/rust-unofficial/awesome-rust) \
-👉 [lib.rs](https://lib.rs/)
+[crates.io list](https://crates.io/crates?sort=downloads) \
+[lib.rs](https://lib.rs/) \
+[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
