@@ -1,6 +1,6 @@
 # Newtype
 
-[The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes) \
+[The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes) 🔒 \
 [The Newtype Pattern in Rust](https://www.worthe-it.co.za/blog/2020-10-31-newtype-pattern-in-rust.html)
 
 ▶️[**Run**](https://godbolt.org/z/z5Ea7j49W)
