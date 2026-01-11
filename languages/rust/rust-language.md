@@ -30,7 +30,7 @@
 * 👉 [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/guides/writing-production-rust-macros-with-macro-rules) 🔒
 
 ## Project structure
-* 👉 [Rust modules vs files](https://fasterthanli.me/articles/rust-modules-vs-files) 🔒
+* [Rust modules vs files](https://fasterthanli.me/articles/rust-modules-vs-files) 🔒
 
 ## Traits
 * [Deref](https://doc.rust-lang.org/book/ch15-02-deref.html)
