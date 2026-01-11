@@ -82,6 +82,7 @@
 * [plotly](https://crates.io/crates/plotly)
 * [plotters](https://crates.io/crates/plotters)
 * [egui_plot](https://crates.io/crates/egui_plot)
+* [plotters-iced](https://crates.io/crates/plotters-iced)
 
 ## Hashing
 * [digest](https://crates.io/crates/digest) ([supported-algorithms](https://github.com/RustCrypto/hashes?tab=readme-ov-file#supported-algorithms))
