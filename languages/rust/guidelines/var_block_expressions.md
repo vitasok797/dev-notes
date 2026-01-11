@@ -1,26 +1,6 @@
 # Block expressions
 
 ```rust
-fn add(x: i32, y: i32) -> i32 {
-    x + y
-}
-
-fn test() {
-    let add = "something else";
-
-    let x = {
-        // using `add` inside this block
-        use crate::add;
-        add(1, 2)
-    };
-    assert_eq!(x, 3);
-
-    // `add` refers to "something else" again
-    assert_eq!(add, "something else");
-}
-```
-
-```rust
 let x = {
     let y = 5;
     let z = y + 1;
@@ -44,6 +24,26 @@ let res = {
 };
 
 assert_eq!(res, "[1]");
+```
+
+```rust
+fn add(x: i32, y: i32) -> i32 {
+    x + y
+}
+
+fn test() {
+    let add = "something else";
+
+    let x = {
+        // using `add` inside this block
+        use crate::add;
+        add(1, 2)
+    };
+    assert_eq!(x, 3);
+
+    // `add` refers to "something else" again
+    assert_eq!(add, "something else");
+}
 ```
 
 ▶️[**Demo**](https://godbolt.org/z/4xjKceh8E)
