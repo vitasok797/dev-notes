@@ -1,4 +1,4 @@
-# Rust / Interoperability
+# Rust / Interop
 
 ## Crates
 * [ffi_helpers](https://crates.io/crates/ffi_helpers)
