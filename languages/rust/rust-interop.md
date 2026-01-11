@@ -4,7 +4,7 @@
 * [ffi_helpers](https://crates.io/crates/ffi_helpers)
 * [bindgen](https://crates.io/crates/bindgen)
 * [cbindgen](https://crates.io/crates/cbindgen)
-* [cxx](https://crates.io/crates/cxx)
+* [cxx](https://crates.io/crates/cxx) ([tutorial](https://cxx.rs/))
 * [vcpkg](https://crates.io/crates/vcpkg)
 
 ## Languages
@@ -19,7 +19,7 @@
 
 ### Qt
 * [Qt Bridges](https://www.qt.io/development/qt-bridges)
-* [cxx-qt](https://crates.io/crates/cxx-qt)
+* [cxx-qt](https://crates.io/crates/cxx-qt) ([tutorial](https://kdab.github.io/cxx-qt/book/))
 * [qt_core](https://crates.io/crates/qt_core)
 * [rust_qt_binding_generator](https://crates.io/crates/rust_qt_binding_generator)
 * [qmetaobject](https://crates.io/crates/qmetaobject)
