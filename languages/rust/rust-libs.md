@@ -77,6 +77,7 @@
   * [awesome-iced](https://github.com/iced-rs/awesome-iced)
 * [egui](https://crates.io/crates/egui)
 * [gpui](https://crates.io/crates/gpui), [gpui-component](https://crates.io/crates/gpui-component)
+* [slint](https://crates.io/crates/slint)
 
 ### Plot
 * [plotly](https://crates.io/crates/plotly)
