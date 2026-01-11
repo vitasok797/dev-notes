@@ -3,16 +3,16 @@
 [Godbolt template](https://godbolt.org/z/W1xT841hz)
 
 ## Functions
-* [Lambda type inference](guidelines/functions_lambda_type_inference.md)
+* [Lambda type inference](guidelines/lambda_type_inference.md)
 
 ## Math
-* [Float range](guidelines/math_float_range.md)
+* [Float range](guidelines/float_range.md)
 
 ## Patterns
-* [Decorator](guidelines/patterns_decorator.md)
+* [Decorator](guidelines/decorator.md)
 
 ## Types
-* [Newtype](guidelines/types_newtype.md)
+* [Newtype](guidelines/newtype.md)
 
 ## Var 📌
-* [Block expressions](guidelines/var_block_expressions.md)
+* [Block expressions](guidelines/block_expressions.md)
