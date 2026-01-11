@@ -16,6 +16,9 @@
 * [qt_core](https://crates.io/crates/qt_core)
 * [rust_qt_binding_generator](https://crates.io/crates/rust_qt_binding_generator)
 
+### C#
+* [csbindgen](https://crates.io/crates/csbindgen)
+
 ### Python
 
 #### Crates
