@@ -71,9 +71,9 @@
   * [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
 
 ## GUI
-* iced:
+* Iced:
   * [iced](https://crates.io/crates/iced)
-  * [iced_aw](https://github.com/iced-rs/iced_aw) (additional widgets)
+  * [iced_aw](https://crates.io/crates/iced_aw) (additional widgets)
   * [awesome-iced](https://github.com/iced-rs/awesome-iced)
 * [egui](https://crates.io/crates/egui)
 * [gpui](https://crates.io/crates/gpui), [gpui-component](https://crates.io/crates/gpui-component)
