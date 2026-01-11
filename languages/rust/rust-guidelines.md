@@ -13,3 +13,6 @@
 
 ## Types
 * [Newtype](guidelines/types_newtype.md)
+
+## Var 📌
+* [Block expressions](guidelines/var_block_expressions.md)
