@@ -7,22 +7,20 @@
 * [cxx](https://crates.io/crates/cxx)
 * [vcpkg](https://crates.io/crates/vcpkg)
 
-## Languages and libs
-
-### Qt
-
-#### Crates
-* [cxx-qt](https://crates.io/crates/cxx-qt)
-* [qt_core](https://crates.io/crates/qt_core)
-* [rust_qt_binding_generator](https://crates.io/crates/rust_qt_binding_generator)
+## Languages
 
 ### C#
 * [csbindgen](https://crates.io/crates/csbindgen)
 
 ### Python
-
-#### Crates
 * [pyo3](https://crates.io/crates/pyo3)
+
+## Libs
+
+### Qt
+* [cxx-qt](https://crates.io/crates/cxx-qt)
+* [qt_core](https://crates.io/crates/qt_core)
+* [rust_qt_binding_generator](https://crates.io/crates/rust_qt_binding_generator)
 
 ## Tutorials
 * [FFI](https://doc.rust-lang.org/nomicon/ffi.html)
