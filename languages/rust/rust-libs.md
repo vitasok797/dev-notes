@@ -192,7 +192,6 @@
 * [derive-new](https://crates.io/crates/derive-new)
 * [getset](https://crates.io/crates/getset)
 * [bitflags](https://crates.io/crates/bitflags)
-* [lazy_static](https://crates.io/crates/lazy_static)
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
