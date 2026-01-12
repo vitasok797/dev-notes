@@ -1,8 +1,8 @@
 # Rust / Learn
 
 ## Tutorials (official) 📌
-* [Book](https://doc.rust-lang.org/book/)
-* [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+* [Rust book](https://doc.rust-lang.org/book/)
+* [Rust by example](https://doc.rust-lang.org/rust-by-example/)
 * [Command line apps in Rust](https://rust-cli.github.io/book/index.html)
 * [Rustonomicon](https://doc.rust-lang.org/nomicon/index.html)
 
