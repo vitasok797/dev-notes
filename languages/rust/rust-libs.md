@@ -1,8 +1,10 @@
 # Rust / Libs
 
-[crates.io list](https://crates.io/crates?sort=downloads) \
-[lib.rs](https://lib.rs/) \
-[Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
+## Lists 📌
+* [crates.io list](https://crates.io/crates?sort=downloads)
+* [lib.rs](https://lib.rs/)
+* [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
+* [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
@@ -63,7 +65,10 @@
 
 ## Formats
 * [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)
+* [serde_json](https://crates.io/crates/serde_json)
 * XML ([search](https://crates.io/search?q=XML))
+* [toml](https://crates.io/crates/toml)
+* [csv](https://crates.io/crates/csv)
 * [base64](https://crates.io/crates/base64)
 * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
 * Protobuf:
