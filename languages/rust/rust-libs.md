@@ -43,11 +43,15 @@
 * [polars](https://crates.io/crates/polars)
 
 ## DB
-* [diesel](https://crates.io/crates/diesel) (ORM and query builder for PostgreSQL, SQLite, and MySQL)
-* [sea-orm](https://crates.io/crates/sea-orm)
-* [sqlx](https://crates.io/crates/sqlx)
-* [rusqlite](https://crates.io/crates/rusqlite)
-* [postgres](https://crates.io/crates/postgres)
+* ORM:
+  * [diesel](https://crates.io/crates/diesel)
+  * [sea-orm](https://crates.io/crates/sea-orm)
+* Multi DB:
+  * [sqlx](https://crates.io/crates/sqlx)
+* Postgres:
+  * [postgres](https://crates.io/crates/postgres)
+* SQLite:
+  * [rusqlite](https://crates.io/crates/rusqlite)
 
 ## Debug
 * [trace](https://crates.io/crates/trace)
