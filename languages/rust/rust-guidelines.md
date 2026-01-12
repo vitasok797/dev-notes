@@ -1,6 +1,6 @@
 # Rust / Guidelines
 
-[Godbolt template](https://godbolt.org/z/W1xT841hz)
+[*Godbolt*](https://godbolt.org/z/W1xT841hz)
 
 ## Functions
 * [Lambda type inference](guidelines/lambda_type_inference.md)
