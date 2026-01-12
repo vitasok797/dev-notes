@@ -1,10 +1,6 @@
 # Rust / OLD
 
 ## Docs
-* [Reference](https://doc.rust-lang.org/reference/)
-* [Bindgen](https://rust-lang.github.io/rust-bindgen/)
-* [Embedded Book](https://doc.rust-lang.org/stable/embedded-book/)
-* [API Guidelines](https://rust-lang.github.io/api-guidelines/)
 * [Async Book](https://rust-lang.github.io/async-book/)
 * [Rustdoc](https://doc.rust-lang.org/rustdoc/)
 
