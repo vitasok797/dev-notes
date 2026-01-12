@@ -3,7 +3,7 @@
 ## Crates
 * [bindgen](https://crates.io/crates/bindgen) ([user guide](https://rust-lang.github.io/rust-bindgen/))
 * [cbindgen](https://crates.io/crates/cbindgen)
-* [cxx](https://crates.io/crates/cxx) ([tutorial](https://cxx.rs/))
+* [cxx](https://crates.io/crates/cxx) ([user guide](https://cxx.rs/))
 * [ffi_helpers](https://crates.io/crates/ffi_helpers)
 * [vcpkg](https://crates.io/crates/vcpkg)
 
@@ -17,7 +17,6 @@
 
 ## Tutorials
 * [FFI](https://doc.rust-lang.org/nomicon/ffi.html)
-* [bindgen user guide](https://rust-lang.github.io/rust-bindgen/)
 * [(Metanit) FFI. Взаимодействие с нативным кодом на C/C++](https://metanit.com/rust/tutorial/17.1.php)
 
 ## Var 📌
