@@ -78,6 +78,12 @@
 * [egui](https://crates.io/crates/egui)
 * [gpui](https://crates.io/crates/gpui), [gpui-component](https://crates.io/crates/gpui-component)
 * [slint](https://crates.io/crates/slint)
+* Qt:
+  * [Qt Bridges](https://www.qt.io/development/qt-bridges)
+  * [cxx-qt](https://crates.io/crates/cxx-qt) ([tutorial](https://kdab.github.io/cxx-qt/book/))
+  * [qt_core](https://crates.io/crates/qt_core)
+  * [rust_qt_binding_generator](https://crates.io/crates/rust_qt_binding_generator)
+  * [qmetaobject](https://crates.io/crates/qmetaobject)
 
 ### Plot
 * [plotly](https://crates.io/crates/plotly)
