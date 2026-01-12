@@ -11,6 +11,9 @@
 ## Patterns
 * [Decorator](guidelines/decorator.md)
 
+## Traits
+* [FromStr vs From<&str>](guidelines/fromstr.md)
+
 ## Types
 * [Newtype](guidelines/newtype.md)
 
