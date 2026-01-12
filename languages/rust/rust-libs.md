@@ -138,7 +138,7 @@
   * [ctrlc](https://crates.io/crates/ctrlc) ([issue](https://github.com/Detegr/rust-ctrlc/issues/122))
   * [ctrlc2](https://crates.io/crates/ctrlc2)
   * [signal-hook](https://crates.io/crates/signal-hook)
-  * [tokio::signal](https://docs.rs/tokio/latest/tokio/signal/index.html) ([issue](https://github.com/tokio-rs/tokio/issues/7039))
+  * [tokio::signal](https://docs.rs/tokio/latest/tokio/signal/) ([issue](https://github.com/tokio-rs/tokio/issues/7039))
 
 ## Shared libs
 * [libloading](https://crates.io/crates/libloading)
