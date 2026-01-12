@@ -2,6 +2,7 @@
 
 ## Reference 📌
 * Doc: [core](https://doc.rust-lang.org/core/), [std](https://doc.rust-lang.org/std/)
+* [Rust Release Notes](https://doc.rust-lang.org/releases.html)
 * [The Rust Reference](https://doc.rust-lang.org/reference/)
 * 👉 [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
 * [unstable-book](https://doc.rust-lang.org/unstable-book/)
@@ -39,6 +40,7 @@
 * Newtype:
   * 👉 [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes) 🔒
   * 👉 [The Newtype Pattern in Rust](https://www.worthe-it.co.za/blog/2020-10-31-newtype-pattern-in-rust.html)
+* [(Habr) Осторожно, Drop](https://habr.com/ru/companies/beget/articles/980626/)
 
 ## Video channels
 * [Let's Get Rusty](https://www.youtube.com/@letsgetrusty/videos)
