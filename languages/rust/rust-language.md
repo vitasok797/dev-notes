@@ -2,9 +2,9 @@
 
 ## Reference 📌
 * Doc: [core](https://doc.rust-lang.org/core/), [std](https://doc.rust-lang.org/std/)
-* [Rust release notes](https://doc.rust-lang.org/releases.html)
-* [Rust reference](https://doc.rust-lang.org/reference/)
-* 👉 [Rust API guidelines](https://rust-lang.github.io/api-guidelines/)
+* [Release notes](https://doc.rust-lang.org/releases.html)
+* [Reference](https://doc.rust-lang.org/reference/)
+* 👉 [API guidelines](https://rust-lang.github.io/api-guidelines/)
 * [Unstable book](https://doc.rust-lang.org/unstable-book/)
 
 ## Architecture
