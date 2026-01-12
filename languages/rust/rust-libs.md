@@ -77,7 +77,10 @@
 * [toml](https://crates.io/crates/toml)
 * [csv](https://crates.io/crates/csv)
 * [base64](https://crates.io/crates/base64)
-* [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
+* FlatBuffers:
+  * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
+* Cap'n Proto:
+  * [capnp](https://crates.io/crates/capnp)
 * Protobuf:
   * [prost](https://crates.io/crates/prost)
   * [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
@@ -119,10 +122,12 @@
 * Channels:
   * [std::sync::mpsc](https://doc.rust-lang.org/std/sync/mpsc/)
   * [crossbeam-channel](https://crates.io/crates/crossbeam-channel)
+  * [flume](https://crates.io/crates/flume)
+* Parallel computation:
+  * [rayon](https://crates.io/crates/rayon)
 * [crossbeam](https://crates.io/crates/crossbeam)
 * [rsevents](https://crates.io/crates/rsevents)
 * [threadpool](https://crates.io/crates/threadpool)
-* [rayon](https://crates.io/crates/rayon)
 
 ## Process
 * Subprocess:
@@ -162,6 +167,8 @@
 * TUI:
   * [ratatui](https://crates.io/crates/ratatui)
   * [cursive](https://crates.io/crates/cursive)
+* Prompts:
+  * [inquire](https://crates.io/crates/inquire)
 
 ## Text
 * [regex](https://crates.io/crates/regex)
