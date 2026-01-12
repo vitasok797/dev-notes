@@ -1,10 +1,10 @@
 # Rust / Interop
 
 ## Crates
-* [ffi_helpers](https://crates.io/crates/ffi_helpers)
-* [bindgen](https://crates.io/crates/bindgen)
+* [bindgen](https://crates.io/crates/bindgen) ([user guide](https://rust-lang.github.io/rust-bindgen/))
 * [cbindgen](https://crates.io/crates/cbindgen)
 * [cxx](https://crates.io/crates/cxx) ([tutorial](https://cxx.rs/))
+* [ffi_helpers](https://crates.io/crates/ffi_helpers)
 * [vcpkg](https://crates.io/crates/vcpkg)
 
 ## Languages
