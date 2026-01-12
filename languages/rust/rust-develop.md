@@ -10,3 +10,5 @@
 
 ## Style & formatting
 * [Rust style guide](https://doc.rust-lang.org/style-guide/)
+* [rustfmt](https://github.com/rust-lang/rustfmt)
+* [Configuring Rustfmt](https://rust-lang.github.io/rustfmt/)
