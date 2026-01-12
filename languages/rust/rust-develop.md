@@ -1,12 +1,12 @@
 # Rust / Develop
 
 ## Cargo
-* 👉 [Cargo book](https://doc.rust-lang.org/cargo/index.html)
+* 👉 [Cargo book](https://doc.rust-lang.org/cargo/)
 * [Cargo.toml conventions](https://doc.rust-lang.org/style-guide/cargo.html)
 
 ## Clippy
 * [Clippy doc](https://doc.rust-lang.org/clippy/)
-* [Clippy lints](https://rust-lang.github.io/rust-clippy/stable/index.html)
+* [Clippy lints](https://rust-lang.github.io/rust-clippy/stable/)
 
 ## Style & formatting
 * [Rust style guide](https://doc.rust-lang.org/style-guide/)
