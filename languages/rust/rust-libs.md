@@ -51,6 +51,7 @@
 
 ## Debug
 * [trace](https://crates.io/crates/trace)
+* [slog](https://crates.io/crates/slog)
 
 ## Error handling
 * [thiserror](https://crates.io/crates/thiserror)
@@ -106,7 +107,6 @@
 
 ## Log
 * [log](https://crates.io/crates/log)
-* [slog](https://crates.io/crates/slog)
 * [env_logger](https://crates.io/crates/env_logger)
 * [loggerv](https://crates.io/crates/loggerv)
 * [log4rs](https://crates.io/crates/log4rs)
