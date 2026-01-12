@@ -46,6 +46,7 @@
 * [sea-orm](https://crates.io/crates/sea-orm)
 * [sqlx](https://crates.io/crates/sqlx)
 * [rusqlite](https://crates.io/crates/rusqlite)
+* [postgres](https://crates.io/crates/postgres)
 
 ## Debug
 * [trace](https://crates.io/crates/trace)
@@ -107,6 +108,7 @@
 * [slog](https://crates.io/crates/slog)
 * [env_logger](https://crates.io/crates/env_logger)
 * [loggerv](https://crates.io/crates/loggerv)
+* [log4rs](https://crates.io/crates/log4rs)
 
 ## Multithreading
 * Channels:
@@ -114,6 +116,8 @@
   * [crossbeam-channel](https://crates.io/crates/crossbeam-channel)
 * [crossbeam](https://crates.io/crates/crossbeam)
 * [rsevents](https://crates.io/crates/rsevents)
+* [threadpool](https://crates.io/crates/threadpool)
+* [rayon](https://crates.io/crates/rayon)
 
 ## Process
 * Subprocess:
@@ -187,6 +191,7 @@
 * [derive-new](https://crates.io/crates/derive-new)
 * [getset](https://crates.io/crates/getset)
 * [bitflags](https://crates.io/crates/bitflags)
+* [lazy_static](https://crates.io/crates/lazy_static)
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
