@@ -2,10 +2,10 @@
 
 ## Reference 📌
 * Doc: [core](https://doc.rust-lang.org/core/), [std](https://doc.rust-lang.org/std/)
-* [Rust Release Notes](https://doc.rust-lang.org/releases.html)
-* [The Rust Reference](https://doc.rust-lang.org/reference/)
-* 👉 [Rust API Guidelines](https://rust-lang.github.io/api-guidelines/)
-* [unstable-book](https://doc.rust-lang.org/unstable-book/)
+* [Rust release notes](https://doc.rust-lang.org/releases.html)
+* [Rust reference](https://doc.rust-lang.org/reference/)
+* 👉 [Rust API guidelines](https://rust-lang.github.io/api-guidelines/)
+* [Unstable book](https://doc.rust-lang.org/unstable-book/)
 
 ## Architecture
 * 👉 [Master hexagonal architecture in Rust](https://www.howtocodeit.com/guides/master-hexagonal-architecture-in-rust) 🔒
