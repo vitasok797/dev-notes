@@ -5,7 +5,7 @@
 * [lib.rs](https://lib.rs/)
 * [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
 * [Blessed.rs](https://blessed.rs/crates)
-* [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
+* [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
