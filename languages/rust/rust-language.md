@@ -45,3 +45,4 @@
 
 ## Var 📌
 * [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
+* [Prototyping in Rust](https://corrode.dev/blog/prototyping/)
