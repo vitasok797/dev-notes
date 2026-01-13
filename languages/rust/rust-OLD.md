@@ -1,7 +1,6 @@
 # Rust / OLD
 
 ## Docs
-* [Async Book](https://rust-lang.github.io/async-book/)
 * [Rustdoc](https://doc.rust-lang.org/rustdoc/)
 
 ## Notes
@@ -17,7 +16,6 @@
 * [Rust Design Patterns](https://github.com/rust-unofficial/patterns)
 * [How to order Rust code](https://deterministic.space/how-to-order-rust-code.html)
 * [Rust Tutorial](https://riptutorial.com/rust)
-* [Rust Cookbook](https://rust-lang-nursery.github.io/rust-cookbook/intro.html)
 * [Rust Pedia](https://rust.programmingpedia.net/)
 * [Coding Guidelines · Libra](https://developers.libra.org/docs/community/coding-guidelines)
 * [The Rust Programming Language](https://www.cs.brandeis.edu/~cs146a/rust/doc-02-21-2015/book/README.html)
