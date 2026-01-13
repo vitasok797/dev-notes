@@ -5,6 +5,7 @@
 * [Release notes](https://doc.rust-lang.org/releases.html)
 * [Reference](https://doc.rust-lang.org/reference/)
 * 👉 [API guidelines](https://rust-lang.github.io/api-guidelines/)
+* [Async book](https://rust-lang.github.io/async-book/)
 * [Unstable book](https://doc.rust-lang.org/unstable-book/)
 
 ## Architecture
