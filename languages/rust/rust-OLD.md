@@ -17,7 +17,6 @@
 * [How to order Rust code](https://deterministic.space/how-to-order-rust-code.html)
 * [Rust Tutorial](https://riptutorial.com/rust)
 * [Rust Pedia](https://rust.programmingpedia.net/)
-* [Coding Guidelines · Libra](https://developers.libra.org/docs/community/coding-guidelines)
 * [The Rust Programming Language](https://www.cs.brandeis.edu/~cs146a/rust/doc-02-21-2015/book/README.html)
 * [Rust Anthology](https://brson.github.io/rust-anthology/1/intro.html)
 * [Idiomatic Rust](https://github.com/mre/idiomatic-rust)
@@ -26,8 +25,6 @@
 
 ## Style guide
 * [Naming conventions](https://github.com/rust-lang/rfcs/blob/master/text/0430-finalizing-naming-conventions.md)
-* [Rust Style Guide](https://github.com/rust-dev-tools/fmt-rfcs/blob/master/guide/guide.md)
-* [Style](https://doc.rust-lang.org/1.0.0/style/style/README.html)
 * [PingCAP Style Guide](https://pingcap.github.io/style-guide/rust/)
 * [Rust Style Guide | Rust Tutorial](https://rust.programmingpedia.net/en/tutorial/4620/rust-style-guide)
 
