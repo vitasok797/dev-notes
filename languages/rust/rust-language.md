@@ -4,9 +4,9 @@
 * Doc: [core](https://doc.rust-lang.org/core/), [std](https://doc.rust-lang.org/std/)
 * [Release notes](https://doc.rust-lang.org/releases.html)
 * [Reference](https://doc.rust-lang.org/reference/)
-* 👉 [API guidelines](https://rust-lang.github.io/api-guidelines/)
 * [Async book](https://rust-lang.github.io/async-book/)
 * [Unstable book](https://doc.rust-lang.org/unstable-book/)
+* 👉 [API guidelines](https://rust-lang.github.io/api-guidelines/)
 
 ## Architecture
 * 👉 [Master hexagonal architecture in Rust](https://www.howtocodeit.com/guides/master-hexagonal-architecture-in-rust) 🔒
