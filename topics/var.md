@@ -51,5 +51,5 @@
 * [(Habr) Вайбкодим с плагином Kilo Code в VS Code и IntelliJ IDEA из России](https://habr.com/ru/articles/977660/)
 
 ## Var
-* ⚡ [Токсичные репозитории](https://toxic-repos.ru/)
+* ⚡ [Токсичные репозитории](https://toxic-repos.ru/) ([CSV](https://github.com/toxic-repos/toxic-repos/blob/main/data/csv/toxic-repos.csv))
 * [Code Reviews (Part 1-5)](https://arne-mertz.de/2017/12/code-reviews-why/)
