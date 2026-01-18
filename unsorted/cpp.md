@@ -70,9 +70,6 @@
 * https://en.cppreference.com/w/cpp/language/operator_comparison.html#Three-way_comparison
 * https://en.cppreference.com/w/cpp/language/default_comparisons.html
 * https://godbolt.org/z/bWcc9PoPx
-* Вопросы:
-  * Для чего еще может использоваться <=>
-  * Как сравниваются структуры
 
 ## MACROS
 * https://blog.tartanllama.xyz/passing-overload-sets/
