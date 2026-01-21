@@ -321,7 +321,7 @@ options:
 * `--theirs`: use "theirs" file version
 * `--merge`: discard changes and re-create the original conflicted merge result (worktree and index)
 
-## Path
+## Patch
 #### Create formatted patches ([git-format-patch](https://git-scm.com/docs/git-format-patch))
 ```
 git format-patch <since_rev>
