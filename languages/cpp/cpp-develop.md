@@ -36,7 +36,6 @@
 ## Testing
 * [GoogleTest](https://google.github.io/googletest/quickstart-cmake.html)
 * [(MS) Testing tools in Visual Studio](https://learn.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019)
-* [How to automate testing with CMake, CTest, and gtest](https://cfd.university/learn/automating-cfd-solver-and-library-compilation-using-cmake/how-to-automate-testing-with-cmake-ctest-and-gtest/)
 
 ## Linters and Analyzers
 * [Cppcheck](https://cppcheck.sourceforge.io/)
