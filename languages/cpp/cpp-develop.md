@@ -107,7 +107,7 @@
 ## DLL
 
 <details>
-<summary>Import DLL library (MSVC)</summary>
+<summary>Import DLL (MSVC)</summary>
 
 Generate .def file:
 ```
@@ -126,7 +126,7 @@ cl /EHsc demo.cpp my_lib.lib
 </details>
 
 <details>
-<summary>Import DLL library (MinGW)</summary>
+<summary>Import DLL (MinGW)</summary>
 
 Generate .def file:
 ```
@@ -145,7 +145,7 @@ g++ -o my_app demo.cpp -L. -lmy_lib
 </details>
 
 <details>
-<summary>Import DLL library (MinGW direct linking)</summary>
+<summary>Import DLL (MinGW direct linking)</summary>
 
 ```
 g++ -o my_app demo.cpp my_lib.dll
