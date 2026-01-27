@@ -156,7 +156,7 @@ g++ -o my_app demo.cpp my_lib.dll
 <summary>Show DLL exports</summary>
 
 ```
-dumpbin /exports my_lib.dll`
+dumpbin /exports my_lib.dll
 ```
 </details>
 
