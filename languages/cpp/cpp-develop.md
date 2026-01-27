@@ -105,8 +105,60 @@
 * [(MS) Tutorial: Debug a CMake project on a remote Windows machine](https://learn.microsoft.com/en-us/cpp/build/cmake-remote-debugging?view=msvc-160)
 
 ## DLL
-* [(StackOverflow) How to make a .lib file when have a .dll file and a header file](https://stackoverflow.com/questions/9360280/how-to-make-a-lib-file-when-have-a-dll-file-and-a-header-file)
-* [(StackOverflow) How to generate an import library (LIB-file) from a DLL?](https://stackoverflow.com/questions/9946322/how-to-generate-an-import-library-lib-file-from-a-dll)
+
+<details>
+<summary>Import DLL library (MSVC)</summary>
+
+Generate .def file:
+```
+gendef my_lib.dll
+```
+
+Generate import library:
+```
+lib /DEF:my_lib.def /OUT:my_lib.lib /MACHINE:x64
+```
+
+Link:
+```
+cl /EHsc demo.cpp my_lib.lib
+```
+</details>
+
+<details>
+<summary>Import DLL library (MinGW)</summary>
+
+Generate .def file:
+```
+gendef my_lib.dll
+```
+
+Generate import library:
+```
+dlltool -d my_lib.def -l my_lib.a
+```
+
+Link:
+```
+g++ -o my_app demo.cpp -L. -lmy_lib
+```
+</details>
+
+<details>
+<summary>Import DLL library (MinGW direct linking)</summary>
+
+```
+g++ -o my_app demo.cpp my_lib.dll
+```
+</details>
+
+<details>
+<summary>Show DLL exports</summary>
+
+```
+dumpbin /exports my_lib.dll`
+```
+</details>
 
 ### DLL / Export
 * [Create dlls on Windows without declspec() using new CMake export all feature](https://www.kitware.com/create-dlls-on-windows-without-declspec-using-new-cmake-export-all-feature/)
