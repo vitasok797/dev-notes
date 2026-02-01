@@ -2141,6 +2141,47 @@ auto main() -> int
 </details>
 
 <details>
+<summary>Modify container inplace</summary>
+
+#### Using std::ranges::for_each
+
+* For mutating an object via reference
+* Projections support
+
+```cpp
+#include <algorithm>
+
+auto v = std::vector{1, 2, 3};
+std::ranges::for_each(v, [](int& x) { x *= 2; });
+```
+
+▶️[**Demo**](https://godbolt.org/z/64sa3e4qn)
+
+#### Using std::ranges::transform
+
+* Used when the logic is a function returning a new value
+* Semantically cleaner if the operation is strictly an A -> B transformation
+
+```cpp
+#include <algorithm>
+
+auto v = std::vector{1, 2, 3};
+std::ranges::transform(v, v.begin(), [](int n) { return n + 10; });
+```
+
+▶️[**Demo**](https://godbolt.org/z/dh9daEvfh)
+
+#### Using std::ranges::replace_if
+
+* For conditional replacement with a specific value
+
+```cpp
+std::ranges::replace_if(v, [](int n) { return n > 13; }, 0);
+```
+
+</details>
+
+<details>
 <summary>Projections</summary>
 
 ▶️[**Run**](https://godbolt.org/z/33n5xEcGc)
