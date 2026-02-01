@@ -2176,8 +2176,13 @@ std::ranges::transform(v, v.begin(), [](int n) { return n + 10; });
 * For conditional replacement with a specific value
 
 ```cpp
-std::ranges::replace_if(v, [](int n) { return n > 13; }, 0);
+#include <algorithm>
+
+auto v = std::vector{10, 20, 30};
+std::ranges::replace_if(v, [](int n) { return n > 15; }, 0);
 ```
+
+▶️[**Demo**](https://godbolt.org/z/d3dWq1M6o)
 
 </details>
 
