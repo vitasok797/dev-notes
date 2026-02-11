@@ -168,7 +168,7 @@
 * [Boost.Operators (Utility)](https://www.boost.org/doc/libs/latest/libs/utility/doc/html/utility/utilities/operators.html) ([vcpkg](https://vcpkg.io/en/package/boost-utility))
 
 ### Types / Reflection
-* <https://github.com/Neargye/nameof>
+* ⭐ <https://github.com/Neargye/nameof>
 * [Boost.TypeIndex](https://www.boost.org/doc/libs/latest/doc/html/boost_typeindex.html)
 * [Boost.Describe](https://www.boost.org/doc/libs/latest/libs/describe/doc/html/describe.html)
 * Boost.Core: [type_name](https://www.boost.org/doc/libs/latest/libs/core/doc/html/core/type_name.html)
@@ -363,7 +363,7 @@
 * POCO ([Logging](https://pocoproject.org/slides/110-Logging.pdf))
 * [Abseil Logging](https://abseil.io/docs/cpp/guides/logging)
 * <https://github.com/google/glog> ([ng-log](https://github.com/ng-log/ng-log))
-* <https://github.com/gabime/spdlog>
+* ⭐ <https://github.com/gabime/spdlog>
 * <https://github.com/odygrd/quill>
 * <https://github.com/SergiusTheBest/plog>
 * <https://github.com/abumq/easyloggingpp>
