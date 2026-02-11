@@ -363,7 +363,7 @@
 * POCO ([Logging](https://pocoproject.org/slides/110-Logging.pdf))
 * [Abseil Logging](https://abseil.io/docs/cpp/guides/logging)
 * <https://github.com/google/glog> ([ng-log](https://github.com/ng-log/ng-log))
-* ⭐ <https://github.com/gabime/spdlog>
+* ⭐ <https://github.com/gabime/spdlog> ([doc](https://github.com/gabime/spdlog/wiki))
 * <https://github.com/odygrd/quill>
 * <https://github.com/SergiusTheBest/plog>
 * <https://github.com/abumq/easyloggingpp>
