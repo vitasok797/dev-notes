@@ -362,7 +362,7 @@
 * [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
 * POCO ([Logging](https://pocoproject.org/slides/110-Logging.pdf))
 * [Abseil Logging](https://abseil.io/docs/cpp/guides/logging)
-* <https://github.com/google/glog>
+* <https://github.com/google/glog> ([ng-log](https://github.com/ng-log/ng-log))
 * <https://github.com/gabime/spdlog>
 * <https://github.com/odygrd/quill>
 * <https://github.com/SergiusTheBest/plog>
