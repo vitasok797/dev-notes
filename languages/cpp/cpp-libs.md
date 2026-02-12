@@ -381,7 +381,7 @@
 
 ## Testing
 * [Boost.Test](https://www.boost.org/doc/libs/latest/libs/test/doc/html/index.html)
-* <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest), [doc](https://google.github.io/googletest/))
+* ⭐ <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest), [doc](https://google.github.io/googletest/))
 * <https://github.com/catchorg/Catch2>
 * <https://github.com/doctest/doctest>
 * <https://github.com/boost-ext/ut> (~~vcpkg~~ :page_facing_up:)
