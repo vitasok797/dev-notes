@@ -301,7 +301,7 @@
 * Var:
   * <https://github.com/zeroc-ice/ice> ([vcpkg](https://vcpkg.io/en/package/zeroc-ice), GPL)
 
-## HTTP servers
+## Web frameworks
 * POCO ([Network](https://pocoproject.org/slides/200-Network.pdf))
 * <https://github.com/civetweb/civetweb>
 * <https://github.com/yhirose/cpp-httplib>
