@@ -41,12 +41,12 @@
 * ⭐ <https://github.com/p-ranav/tabulate>
 
 ### Text / Regex
-* ⚠️ `Boost`
-* ⚠️ `POCO (PCRE)`
-* ⚠️ `ICU?`
-* ⚠️ `Другие`
-* <https://github.com/ZimProjects/SRELL>
-* <https://github.com/hanickadot/compile-time-regular-expressions> ([vcpkg](https://vcpkg.io/en/package/ctre), [doc](https://compile-time-regular-expressions.readthedocs.io/))
+* POCO (PCRE2, [StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
+* [PCRE2](https://github.com/PCRE2Project/pcre2)
+* [CTRE](https://github.com/hanickadot/compile-time-regular-expressions) ([doc](https://compile-time-regular-expressions.readthedocs.io/))
+* [RE2](https://github.com/google/re2)
+* [hyperscan](https://www.hyperscan.io/)
+* [SRELL](https://github.com/ZimProjects/SRELL)
 * <https://github.com/zemasoft/wildcards>
 * Articles:
   * [(Habr) regexp — большие гонки](https://habr.com/ru/articles/812953/)
