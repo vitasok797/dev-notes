@@ -24,16 +24,16 @@
 
 ### Text / Encoding
 * ⚠️ `Boost Locale?`
-* ⚠️ `Найти примеры настроек сборки в одной из библиотек`
-* ⚠️ [ICU](https://icu.unicode.org/)
-* ⚠️ [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
-* ⚠️ [utfcpp](https://github.com/nemtrif/utfcpp)
-* ⚠️ [Boost.Nowide](https://www.boost.org/doc/libs/latest/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
-* ⚠️ [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
-* ⚠️ [simdutf](https://github.com/simdutf/simdutf)
-* ⚠️ [uni-algo](https://github.com/uni-algo/uni-algo)
-* ⚠️ [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
-* ⚠️ [utf8proc](https://github.com/JuliaStrings/utf8proc)
+* POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
+* [ICU](https://icu.unicode.org/)
+* [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
+* [utfcpp](https://github.com/nemtrif/utfcpp)
+* [Boost.Nowide](https://www.boost.org/doc/libs/latest/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
+* [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
+* [simdutf](https://github.com/simdutf/simdutf)
+* [uni-algo](https://github.com/uni-algo/uni-algo)
+* [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
+* [utf8proc](https://github.com/JuliaStrings/utf8proc)
 
 ### Text / Formatting
 * ⭐ <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/), [hackingcpp](https://hackingcpp.com/cpp/libs/fmt.html), [cheatsheet](https://hackingcpp.com/cpp/libs/fmt.png))
