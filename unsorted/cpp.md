@@ -132,8 +132,5 @@
   * Headers:
     * assert.h
     * error.h (throw nullptr_error)
-    * math.h/ftrim:
-      * throw [demo](https://godbolt.org/z/bsqGP99eK)
-      * std::logic_error -> std::invalid_argument
     * math.h/ceil_div (assert)
     * ...
