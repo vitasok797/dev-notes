@@ -6,7 +6,7 @@
 * [Reference](https://doc.rust-lang.org/reference/)
 * [Async book](https://rust-lang.github.io/async-book/)
 * [Unstable book](https://doc.rust-lang.org/unstable-book/)
-* 👉 [API guidelines](https://rust-lang.github.io/api-guidelines/)
+* ⚠️ [API guidelines](https://rust-lang.github.io/api-guidelines/)
 
 ## Tutorials 📌
 * [Rust book](https://doc.rust-lang.org/book/)
@@ -20,13 +20,13 @@
   * [(Habr) Про Rust — просто. Что читать в каком порядке?](https://habr.com/ru/companies/bitrix/articles/878912/)
 
 ## Architecture
-* 👉 [Master hexagonal architecture in Rust](https://www.howtocodeit.com/guides/master-hexagonal-architecture-in-rust) 🔒
+* ⚠️ [Master hexagonal architecture in Rust](https://www.howtocodeit.com/guides/master-hexagonal-architecture-in-rust) 🔒
 
 ## Error handling
 * Guides:
   * [Book / Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
   * [Rust By Example / Error Handling](https://doc.rust-lang.org/rust-by-example/error.html)
-  * 👉 [The definitive guide to error handling in Rust](https://www.howtocodeit.com/guides/the-definitive-guide-to-rust-error-handling) 🔒
+  * ⚠️ [The definitive guide to error handling in Rust](https://www.howtocodeit.com/guides/the-definitive-guide-to-rust-error-handling) 🔒
 * Crates:
   * [thiserror](https://crates.io/crates/thiserror)
   * [anyhow](https://crates.io/crates/anyhow)
@@ -36,22 +36,22 @@
   * [example 3](https://deterministic.space/rust-cli-tips.html#error-handling)
 
 ## Functions
-* 👉 [Finding Closure in Rust](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/)
+* ⚠️ [Finding Closure in Rust](https://huonw.github.io/blog/2015/05/finding-closure-in-rust/)
 
 ## Macro
-* 👉 [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/guides/writing-production-rust-macros-with-macro-rules) 🔒
+* ⚠️ [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/guides/writing-production-rust-macros-with-macro-rules) 🔒
 
 ## Project structure
 * [Rust modules vs files](https://fasterthanli.me/articles/rust-modules-vs-files) 🔒
 
 ## Traits
 * [Deref](https://doc.rust-lang.org/book/ch15-02-deref.html)
-* 👉 [Convenient and idiomatic conversions in Rust](https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust)
+* ⚠️ [Convenient and idiomatic conversions in Rust](https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust)
 
 ## Types
 * Newtype:
-  * 👉 ⭐ [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes) 🔒
-  * 👉 [The Newtype Pattern in Rust](https://www.worthe-it.co.za/blog/2020-10-31-newtype-pattern-in-rust.html)
+  * ⚠️ ⭐ [The ultimate guide to Rust newtypes](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes) 🔒
+  * ⚠️ [The Newtype Pattern in Rust](https://www.worthe-it.co.za/blog/2020-10-31-newtype-pattern-in-rust.html)
 * [(Habr) Осторожно, Drop](https://habr.com/ru/companies/beget/articles/980626/)
 
 ## Video channels
