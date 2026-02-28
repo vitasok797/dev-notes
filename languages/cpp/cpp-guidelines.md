@@ -624,7 +624,7 @@ if (shared_ptr)
 ```
 
 ```cpp
-#include <vsl/error.h>
+#include <vsl/pointer.h>
 
 vsl::check_ptr(shared_ptr);
 
@@ -634,7 +634,7 @@ vsl::check_ptr(shared_ptr);
 ```
 
 ```cpp
-#include <vsl/error.h>
+#include <vsl/pointer.h>
 
 auto[&] value = vsl::checked_deref_ptr(shared_ptr);
 
@@ -644,7 +644,7 @@ auto[&] value = vsl::checked_deref_ptr(shared_ptr);
 ```
 
 ```cpp
-#include <vsl/error.h>
+#include <vsl/pointer.h>
 
 class SomeClass
 {
@@ -668,14 +668,14 @@ private:
 #### Check and get raw pointer
 
 ```cpp
-#include <vsl/error.h>
+#include <vsl/pointer.h>
 
 auto non_optional_raw_ptr = vsl::checked_get_ptr(shared_ptr);
 
 // pass_by_const_raw_ptr(non_optional_raw_ptr)
 ```
 
-▶️[**Demo**](https://godbolt.org/z/a64b6fhv8) [[error.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/error.h)]
+▶️[**Demo**](https://godbolt.org/z/o4r6556nE) [[pointer.h](https://github.com/vitasok797/cpp-vsl/blob/main/vsl/pointer.h)]
 
 </details>
 
