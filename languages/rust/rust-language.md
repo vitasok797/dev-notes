@@ -8,6 +8,18 @@
 * [Unstable book](https://doc.rust-lang.org/unstable-book/)
 * 👉 [API guidelines](https://rust-lang.github.io/api-guidelines/)
 
+## Learn 📌
+* Tutorials:
+  * [Rust book](https://doc.rust-lang.org/book/)
+  * [Rust by example](https://doc.rust-lang.org/rust-by-example/)
+  * [Command line apps in Rust](https://rust-cli.github.io/book/)
+  * [Rustonomicon](https://doc.rust-lang.org/nomicon/)
+  * [Metanit](https://metanit.com/rust/tutorial/1.1.php)
+  * [RustCourse: От новичка до эксперта](https://rust.nizeclub.ru/)
+* How to learn:
+  * [How not to learn Rust](https://dystroy.org/blog/how-not-to-learn-rust/)
+  * [(Habr) Про Rust — просто. Что читать в каком порядке?](https://habr.com/ru/companies/bitrix/articles/878912/)
+
 ## Architecture
 * 👉 [Master hexagonal architecture in Rust](https://www.howtocodeit.com/guides/master-hexagonal-architecture-in-rust) 🔒
 
