@@ -1,7 +1,7 @@
 # Rust / Develop
 
 ## Cargo
-* 👉 [Cargo book](https://doc.rust-lang.org/cargo/)
+* ⚠️ [Cargo book](https://doc.rust-lang.org/cargo/)
 * [Cargo.toml conventions](https://doc.rust-lang.org/style-guide/cargo.html)
 
 ## Clippy
