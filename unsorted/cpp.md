@@ -61,16 +61,6 @@
 * https://stackoverflow.com/questions/44695684/structured-bindings-when-something-looks-like-a-reference-and-behaves-similarly/44696826#44696826
 * https://stackoverflow.com/questions/44671697/what-are-the-types-of-identifiers-introduced-by-structured-bindings-in-c17/44672220#44672220
 
-## Compare
-* https://stackoverflow.com/questions/47466358/what-is-the-spaceship-three-way-comparison-operator-in-c
-* https://habr.com/ru/companies/microsoft/articles/458242/
-* https://brevzin.github.io/c++/2019/07/28/comparisons-cpp20/#new-operator-abilities
-* https://en.cppreference.com/w/cpp/utility.html#Three-way_comparison
-* https://en.cppreference.com/w/cpp/language/operator_comparison.html
-* https://en.cppreference.com/w/cpp/language/operator_comparison.html#Three-way_comparison
-* https://en.cppreference.com/w/cpp/language/default_comparisons.html
-* https://godbolt.org/z/bWcc9PoPx
-
 ## MACROS
 * https://blog.tartanllama.xyz/passing-overload-sets/
 * https://vittorioromeo.info/index/blog/capturing_perfectly_forwarded_objects_in_lambdas.html
