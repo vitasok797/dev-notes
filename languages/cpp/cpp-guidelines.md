@@ -1939,6 +1939,24 @@ condition ? true_expression : false_expression
 
 </details>
 
+<details>
+<summary>Three-way comparison <=></summary>
+
+```cpp
+#include <compare>
+
+struct Point
+{
+    int x;
+    int y;
+    auto operator<=>(const Point&) const = default;
+};
+```
+
+▶️[**Demo**](https://godbolt.org/z/rqj7Mar88)
+
+</details>
+
 ## Ranges
 
 <details>
