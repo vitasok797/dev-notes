@@ -5,8 +5,13 @@
 | Name | Link |
 | :--- | :--- |
 | CMake | <https://cmake.org/download/><br><https://github.com/Kitware/CMake/releases> |
-| LLVM for Windows<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
 | Ninja | <https://github.com/ninja-build/ninja/releases> |
+
+### Build tools / MinGW
+
+| Name | Link |
+| :--- | :--- |
+| llvm-mingw<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
 
 ## Compilers
 
