@@ -12,6 +12,8 @@
 | Name | Link |
 | :--- | :--- |
 | llvm-mingw<br>(clang, clang-format) | <https://github.com/mstorsjo/llvm-mingw/releases> |
+| WinLibs MinGW | <https://winlibs.com/><br><https://github.com/brechtsanders/winlibs_mingw/releases/> |
+| MinGW binaries | <https://github.com/niXman/mingw-builds-binaries/releases> |
 
 ## Compilers
 
