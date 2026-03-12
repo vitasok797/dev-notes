@@ -96,7 +96,7 @@
 ### Formats / JSON
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * [Boost.JSON](https://www.boost.org/doc/libs/latest/libs/json/doc/html/index.html)
-* POCO ([JSON/Object.h](https://github.com/pocoproject/poco/blob/main/JSON/include/Poco/JSON/Object.h))
+* [POCO](https://github.com/pocoproject/poco/tree/main/JSON)
 * <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
 * <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
 * <https://github.com/stephenberry/glaze>
