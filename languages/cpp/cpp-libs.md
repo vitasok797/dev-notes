@@ -52,6 +52,9 @@
 * <https://github.com/zemasoft/wildcards>
 * Articles:
   * [(Habr) regexp — большие гонки](https://habr.com/ru/articles/812953/)
+  * [Performance comparison of regular expression engines](https://zherczeg.github.io/sljit/regex_perf.html)
+  * <https://github.com/rust-leipzig/regex-performance>
+  * <https://github.com/HFTrader/regex-performance>
 
 ### Text / To numeric
 * <https://github.com/fastfloat/fast_float>
