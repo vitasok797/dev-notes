@@ -43,6 +43,7 @@
 ### Text / Regex
 * POCO (PCRE2, [StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * [PCRE2](https://github.com/PCRE2Project/pcre2)
+* [jpcre2](https://github.com/jpcre2/jpcre2)
 * [CTRE](https://github.com/hanickadot/compile-time-regular-expressions) ([doc](https://compile-time-regular-expressions.readthedocs.io/))
 * [RE2](https://github.com/google/re2)
 * [hyperscan](https://www.hyperscan.io/)
