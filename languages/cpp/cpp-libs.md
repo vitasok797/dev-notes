@@ -315,7 +315,7 @@
   * <https://github.com/nanomsg/nng>
   * <https://github.com/cwzx/nngpp>
 * DDS:
-  * <https://github.com/eProsima/Fast-DDS> ([vcpkg](https://vcpkg.io/en/package/fastdds))
+  * ☀️ <https://github.com/eProsima/Fast-DDS> ([vcpkg](https://vcpkg.io/en/package/fastdds))
   * <https://github.com/eclipse-cyclonedds/cyclonedds> (vcpkg: [cyclonedds](https://vcpkg.io/en/package/cyclonedds), [cyclonedds-cxx](https://vcpkg.io/en/package/cyclonedds-cxx))
   * <https://github.com/OpenDDS/OpenDDS> (~~vcpkg~~)
 * Var:
