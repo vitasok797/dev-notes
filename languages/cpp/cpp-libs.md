@@ -181,8 +181,8 @@
 * <https://github.com/felixguendling/cista> ([site](https://cista.rocks/#reflection))
 
 ### Types / Scope guard
-* [Boost.Scope](https://www.boost.org/doc/libs/latest/libs/scope/doc/html/index.html)
 * [GSL final_action](https://github.com/microsoft/GSL/blob/main/include/gsl/util)
+* [Boost.Scope](https://www.boost.org/doc/libs/latest/libs/scope/doc/html/index.html)
 * <https://github.com/ricab/scope_guard> ([vcpkg](https://vcpkg.io/en/package/scope-guard))
 * <https://github.com/Neargye/scope_guard> (~~vcpkg~~ :page_facing_up:)
 
