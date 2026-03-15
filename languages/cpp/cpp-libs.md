@@ -192,8 +192,8 @@
 * <https://github.com/joboccara/NamedType> (dead?, ~~vcpkg~~ :page_facing_up:, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
 
 ### Types / Units
-* [Boost.Units](https://www.boost.org/doc/libs/latest/doc/html/boost_units.html)
 * POCO ([Util/Units.h](https://github.com/pocoproject/poco/blob/main/Util/include/Poco/Util/Units.h))
+* [Boost.Units](https://www.boost.org/doc/libs/latest/doc/html/boost_units.html)
 * <https://github.com/LLNL/units> ([vcpkg](https://vcpkg.io/en/package/llnl-units))
 * <https://github.com/mpusz/mp-units> ([vcpkg](https://vcpkg.io/en/package/mp-units))
 * <https://github.com/nholthaus/units> ([vcpkg](https://vcpkg.io/en/package/units))
@@ -202,23 +202,23 @@
 ## System
 
 ### System / Process
+* POCO ([Processes](https://pocoproject.org/slides/150-Processes.pdf))
 * [Boost.Process](https://www.boost.org/doc/libs/latest/doc/html/process.html)
 * [Boost.Interprocess](https://www.boost.org/doc/libs/latest/doc/html/interprocess.html)
-* POCO ([Processes](https://pocoproject.org/slides/150-Processes.pdf))
 * Folly ([Subprocess.h](https://github.com/facebook/folly/blob/main/folly/Subprocess.h))
 * <https://github.com/DaanDeMeyer/reproc>
 
 ### System / File System
 * [\<filesystem\>](https://en.cppreference.com/w/cpp/filesystem.html)
-* [Boost.Filesystem](https://www.boost.org/doc/libs/latest/libs/filesystem/doc/index.htm)
 * POCO ([Files](https://pocoproject.org/slides/080-Files.pdf))
+* [Boost.Filesystem](https://www.boost.org/doc/libs/latest/libs/filesystem/doc/index.htm)
 * Folly ([File.h](https://github.com/facebook/folly/blob/main/folly/File.h))
 * <https://github.com/p-ranav/glob> ([vcpkg](https://vcpkg.io/en/package/p-ranav-glob))
 
 ## Multithreading
 * [\<thread\>](https://en.cppreference.com/w/cpp/thread.html)
-* [Boost.Thread](https://www.boost.org/doc/libs/latest/doc/html/thread.html)
 * POCO ([Threads](https://pocoproject.org/slides/130-Threads.pdf), [NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
+* [Boost.Thread](https://www.boost.org/doc/libs/latest/doc/html/thread.html)
 
 ### Multithreading / Concurrent queues
 * POCO ([NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
@@ -261,8 +261,8 @@
 * <https://github.com/tcbrindle/flux>
 
 ## UUID
-* [Boost.Uuid](https://www.boost.org/doc/libs/latest/libs/uuid/doc/html/uuid.html)
 * POCO ([URIandUUID](https://pocoproject.org/slides/160-URIandUUID.pdf))
+* [Boost.Uuid](https://www.boost.org/doc/libs/latest/libs/uuid/doc/html/uuid.html)
 * <https://github.com/mariusbancila/stduuid>
 
 ## Terminal
@@ -280,8 +280,8 @@
 * <https://github.com/Cubified/tuibox> (~~vcpkg~~ :page_facing_up:)
 
 ## Signals, Events
-* [Boost.Signals2](https://www.boost.org/doc/libs/latest/doc/html/signals2.html)
 * POCO ([NotificationsEvents](https://pocoproject.org/slides/090-NotificationsEvents.pdf))
+* [Boost.Signals2](https://www.boost.org/doc/libs/latest/doc/html/signals2.html)
 * <https://github.com/libsigcplusplus/libsigcplusplus> ([vcpkg](https://vcpkg.io/en/package/libsigcpp))
 * <https://github.com/palacaze/sigslot> ([vcpkg](https://vcpkg.io/en/package/palsigslot))
 * <https://github.com/NoAvailableAlias/nano-signal-slot>
@@ -305,10 +305,10 @@
   * <https://github.com/zeroc-ice/ice> ([vcpkg](https://vcpkg.io/en/package/zeroc-ice), GPL)
 
 ## Web frameworks
+* ☀️ <https://github.com/CrowCpp/crow>
 * POCO ([Network](https://pocoproject.org/slides/200-Network.pdf))
 * <https://github.com/civetweb/civetweb>
 * <https://github.com/yhirose/cpp-httplib>
-* <https://github.com/CrowCpp/crow>
 * <https://github.com/drogonframework/drogon>
 * <https://github.com/Stiffstream/restinio>
 
@@ -318,8 +318,12 @@
 * [Boost.Icl (Interval Container Library)](https://www.boost.org/doc/libs/latest/libs/icl/doc/html/index.html)
 * [Boost.Interval](https://www.boost.org/doc/libs/latest/libs/numeric/interval/doc/interval.htm)
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
+
+### Math / Expressions
+* ☀️ <https://github.com/ArashPartow/exprtk>
 * <https://github.com/codeplea/tinyexpr>
-* <https://github.com/ArashPartow/exprtk>
+* Articles:
+  * <https://github.com/ArashPartow/math-parser-benchmark-project>
 
 ## Time
 * [\<chrono\>](https://en.cppreference.com/w/cpp/chrono.html)
