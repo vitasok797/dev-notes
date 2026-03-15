@@ -263,8 +263,10 @@
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
 
 ### Math / Expressions
-* ☀️ <https://github.com/ArashPartow/exprtk>
+* ☀️ <https://github.com/ArashPartow/exprtk> ([doc](https://www.partow.net/programming/exprtk/index.html))
 * <https://github.com/codeplea/tinyexpr>
+* <https://github.com/Blake-Madden/tinyexpr-plusplus> (~~vcpkg~~)
+* <https://github.com/beltoforion/muparser>
 * Articles:
   * <https://github.com/ArashPartow/math-parser-benchmark-project>
 
@@ -314,6 +316,8 @@
   * <https://github.com/cwzx/nngpp>
 * DDS:
   * <https://github.com/eProsima/Fast-DDS> ([vcpkg](https://vcpkg.io/en/package/fastdds))
+  * <https://github.com/eclipse-cyclonedds/cyclonedds> (vcpkg: [cyclonedds](https://vcpkg.io/en/package/cyclonedds), [cyclonedds-cxx](https://vcpkg.io/en/package/cyclonedds-cxx))
+  * <https://github.com/OpenDDS/OpenDDS> (~~vcpkg~~)
 * Var:
   * <https://github.com/zeroc-ice/ice> ([vcpkg](https://vcpkg.io/en/package/zeroc-ice), GPL)
 
