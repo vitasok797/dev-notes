@@ -6,29 +6,29 @@
 * [A list of open-source C++ libraries](https://en.cppreference.com/w/cpp/links/libs.html)
 
 ## Frameworks
-* [Boost](https://www.boost.org/libraries/latest/categorized/)
 * ⭐ [POCO](https://pocoproject.org/) ([doc](https://docs.pocoproject.org/current/index.html))
+* ⭐ [GSL](https://github.com/Microsoft/GSL) ([vcpkg](https://vcpkg.io/en/package/ms-gsl))
+* [Boost](https://www.boost.org/libraries/latest/categorized/)
 * [Qt](https://www.qt.io/product/framework)
 * [Abseil](https://abseil.io/)
 * [Folly](https://github.com/facebook/folly)
-* ⭐ [GSL](https://github.com/Microsoft/GSL) ([vcpkg](https://vcpkg.io/en/package/ms-gsl)), [gsl-lite](https://github.com/gsl-lite/gsl-lite)
 
 ## Text
 
 ### Text / String processing
+* ⭐ POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * ⚠️ `Boost Locale?`
 * [Boost String Algorithms Library](https://www.boost.org/doc/libs/latest/doc/html/string_algo.html)
 * [Boost.Tokenizer](https://www.boost.org/doc/libs/latest/libs/tokenizer/doc/index.html)
-* POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf)) ([String.h](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/String.h), [UTF8String.h](https://github.com/pocoproject/poco/blob/main/Foundation/include/Poco/UTF8String.h))
 * [Abseil Strings](https://abseil.io/docs/cpp/guides/strings)
 
 ### Text / Encoding
+* ⭐ POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
+* ☀️ [Boost.Nowide](https://www.boost.org/doc/libs/latest/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
+* ☀️ [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
 * ⚠️ `Boost Locale?`
-* POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * [ICU](https://icu.unicode.org/)
-* [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
 * [utfcpp](https://github.com/nemtrif/utfcpp)
-* [Boost.Nowide](https://www.boost.org/doc/libs/latest/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
 * [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
 * [simdutf](https://github.com/simdutf/simdutf)
 * [uni-algo](https://github.com/uni-algo/uni-algo)
@@ -37,24 +37,26 @@
 
 ### Text / Formatting
 * ⭐ <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/), [hackingcpp](https://hackingcpp.com/cpp/libs/fmt.html), [cheatsheet](https://hackingcpp.com/cpp/libs/fmt.png))
-* <https://github.com/p-ranav/pprint>
 * ⭐ <https://github.com/p-ranav/tabulate>
+* <https://github.com/p-ranav/pprint>
 
 ### Text / Regex
-* POCO (PCRE2, [StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
+* ⭐ POCO (PCRE2, [StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
+* ☀️ [jpcre2](https://github.com/jpcre2/jpcre2)
+* ☀️ [RE2](https://github.com/google/re2)
 * [PCRE2](https://github.com/PCRE2Project/pcre2)
-* [jpcre2](https://github.com/jpcre2/jpcre2)
 * [Boost.Regex](https://www.boost.org/doc/libs/latest/libs/regex/doc/html/index.html)
 * [CTRE](https://github.com/hanickadot/compile-time-regular-expressions) ([doc](https://compile-time-regular-expressions.readthedocs.io/))
-* [RE2](https://github.com/google/re2)
 * [hyperscan](https://www.hyperscan.io/)
 * [SRELL](https://github.com/ZimProjects/SRELL)
-* <https://github.com/zemasoft/wildcards>
 * Articles:
   * [(Habr) regexp — большие гонки](https://habr.com/ru/articles/812953/)
   * [Performance comparison of regular expression engines](https://zherczeg.github.io/sljit/regex_perf.html)
   * <https://github.com/rust-leipzig/regex-performance>
   * <https://github.com/HFTrader/regex-performance>
+
+### Text / Wildcards
+* <https://github.com/zemasoft/wildcards>
 
 ### Text / To numeric
 * <https://github.com/fastfloat/fast_float>
