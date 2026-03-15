@@ -255,6 +255,19 @@
 ### GUI / Var
 * <https://github.com/simulton/QSchematic> (~~vcpkg~~)
 
+## Math
+* [Numerics library](https://en.cppreference.com/w/cpp/numeric.html)
+* [Boost.Math](https://www.boost.org/doc/libs/latest/libs/math/doc/html/index.html)
+* [Boost.Icl (Interval Container Library)](https://www.boost.org/doc/libs/latest/libs/icl/doc/html/index.html)
+* [Boost.Interval](https://www.boost.org/doc/libs/latest/libs/numeric/interval/doc/interval.htm)
+* [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
+
+### Math / Expressions
+* ☀️ <https://github.com/ArashPartow/exprtk>
+* <https://github.com/codeplea/tinyexpr>
+* Articles:
+  * <https://github.com/ArashPartow/math-parser-benchmark-project>
+
 ## Ranges
 * ⭐ [range-v3](https://github.com/ericniebler/range-v3)
 * ⭐ [TartanLlama's ranges](https://github.com/TartanLlama/ranges) ([vcpkg](https://vcpkg.io/en/package/tl-ranges))
@@ -311,19 +324,6 @@
 * <https://github.com/yhirose/cpp-httplib>
 * <https://github.com/drogonframework/drogon>
 * <https://github.com/Stiffstream/restinio>
-
-## Math
-* [Numerics library](https://en.cppreference.com/w/cpp/numeric.html)
-* [Boost.Math](https://www.boost.org/doc/libs/latest/libs/math/doc/html/index.html)
-* [Boost.Icl (Interval Container Library)](https://www.boost.org/doc/libs/latest/libs/icl/doc/html/index.html)
-* [Boost.Interval](https://www.boost.org/doc/libs/latest/libs/numeric/interval/doc/interval.htm)
-* [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
-
-### Math / Expressions
-* ☀️ <https://github.com/ArashPartow/exprtk>
-* <https://github.com/codeplea/tinyexpr>
-* Articles:
-  * <https://github.com/ArashPartow/math-parser-benchmark-project>
 
 ## Time
 * [\<chrono\>](https://en.cppreference.com/w/cpp/chrono.html)
