@@ -85,8 +85,8 @@
 * <https://github.com/mshenoda/argy> (~~vcpkg~~ :page_facing_up:)
 
 ### Configuration / Environment
-* [Boost.Program_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * POCO ([PlatformAndEnvironment](https://pocoproject.org/slides/050-PlatformAndEnvironment.pdf))
+* [Boost.Program_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * <https://github.com/ph3at/libenvpp>
 * <https://github.com/p-ranav/envy> (~~vcpkg~~ :page_facing_up:)
 
