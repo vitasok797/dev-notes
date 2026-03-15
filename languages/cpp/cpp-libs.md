@@ -101,10 +101,10 @@
   * [(StackOverflow) Choose XML library](https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c/9387612#9387612)
 
 ### Formats / JSON
+* ☀️ <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
+* [POCO](https://github.com/pocoproject/poco/tree/main/JSON)
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * [Boost.JSON](https://www.boost.org/doc/libs/latest/libs/json/doc/html/index.html)
-* [POCO](https://github.com/pocoproject/poco/tree/main/JSON)
-* <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
 * <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
 * <https://github.com/stephenberry/glaze>
 * <https://github.com/danielaparker/jsoncons>
@@ -117,8 +117,8 @@
 * <https://github.com/mayah/tinytoml>
 
 ### Formats / CSV
+* ☀️ <https://github.com/d99kris/rapidcsv>
 * <https://github.com/ben-strasser/fast-cpp-csv-parser>
-* <https://github.com/d99kris/rapidcsv>
 * <https://github.com/vincentlaucsb/csv-parser> ([vcpkg](https://vcpkg.io/en/package/vincentlaucsb-csv-parser))
 * <https://github.com/p-ranav/csv2> ([vcpkg](https://vcpkg.io/en/package/p-ranav-csv2))
 * <https://github.com/stephenberry/glaze> ([CSV](https://github.com/stephenberry/glaze/blob/main/docs/csv.md))
