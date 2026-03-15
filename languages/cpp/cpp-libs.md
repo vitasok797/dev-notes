@@ -337,8 +337,8 @@
 * <https://github.com/getml/sqlgen>
 
 ## Shared Libraries
-* [Boost.DLL](https://www.boost.org/doc/libs/latest/doc/html/boost_dll.html)
 * POCO ([SharedLibraries](https://pocoproject.org/slides/120-SharedLibraries.pdf))
+* [Boost.DLL](https://www.boost.org/doc/libs/latest/doc/html/boost_dll.html)
 
 ## Bindings
 * [SWIG](https://www.swig.org/)
@@ -366,11 +366,11 @@
 * <https://github.com/martinmoene/expected-lite>
 
 ## Logging
-* [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
+* ⭐ <https://github.com/gabime/spdlog> ([doc](https://github.com/gabime/spdlog/wiki))
 * POCO ([Logging](https://pocoproject.org/slides/110-Logging.pdf))
+* [Boost.Log v2](https://www.boost.org/doc/libs/latest/libs/log/doc/html/index.html)
 * [Abseil Logging](https://abseil.io/docs/cpp/guides/logging)
 * <https://github.com/google/glog> ([ng-log](https://github.com/ng-log/ng-log))
-* ⭐ <https://github.com/gabime/spdlog> ([doc](https://github.com/gabime/spdlog/wiki))
 * <https://github.com/odygrd/quill>
 * <https://github.com/SergiusTheBest/plog>
 * <https://github.com/abumq/easyloggingpp>
@@ -387,8 +387,8 @@
 * <https://github.com/bombela/backward-cpp>
 
 ## Testing
-* [Boost.Test](https://www.boost.org/doc/libs/latest/libs/test/doc/html/index.html)
 * ⭐ <https://github.com/google/googletest> ([vcpkg](https://vcpkg.io/en/package/gtest), [doc](https://google.github.io/googletest/))
+* [Boost.Test](https://www.boost.org/doc/libs/latest/libs/test/doc/html/index.html)
 * <https://github.com/catchorg/Catch2>
 * <https://github.com/doctest/doctest>
 * <https://github.com/boost-ext/ut> (~~vcpkg~~ :page_facing_up:)
