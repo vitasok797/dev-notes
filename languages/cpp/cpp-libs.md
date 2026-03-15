@@ -67,13 +67,13 @@
 ## Configuration
 
 ### Configuration / Multisource
+* POCO ([Configuration](https://pocoproject.org/slides/180-Configuration.pdf))
 * [Boost.Program_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * [Boost.PropertyTree (JSON, XML)](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
-* POCO ([Configuration](https://pocoproject.org/slides/180-Configuration.pdf))
 
 ### Configuration / Argument parsers
-* [Boost.Program_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * POCO ([Applications](https://pocoproject.org/slides/190-Applications.pdf))
+* [Boost.Program_options](https://www.boost.org/doc/libs/latest/doc/html/program_options.html)
 * [Abseil Flags](https://abseil.io/docs/cpp/guides/flags)
 * <https://github.com/jarro2783/cxxopts>
 * <https://github.com/p-ranav/argparse>
@@ -93,8 +93,8 @@
 ## Formats
 
 ### Formats / XML
-* [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * POCO ([XML](https://pocoproject.org/slides/170-XML.pdf))
+* [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * <https://github.com/zeux/pugixml>
 * <https://github.com/leethomason/tinyxml2>
 * Articles:
