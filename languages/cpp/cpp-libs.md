@@ -251,6 +251,7 @@
 ### GUI / Plot
 * <https://github.com/wxIshiko/wxCharts>
 * <https://github.com/epezent/implot>
+* <https://github.com/jimmyorourke/plotlypp> (~~vcpkg~~)
 
 ### GUI / Var
 * <https://github.com/simulton/QSchematic> (~~vcpkg~~)
@@ -319,7 +320,9 @@
   * <https://github.com/eclipse-cyclonedds/cyclonedds> (vcpkg: [cyclonedds](https://vcpkg.io/en/package/cyclonedds), [cyclonedds-cxx](https://vcpkg.io/en/package/cyclonedds-cxx))
   * <https://github.com/OpenDDS/OpenDDS> (~~vcpkg~~)
 * Var:
+  * <https://github.com/zeromq/zyre>
   * <https://github.com/zeroc-ice/ice> ([vcpkg](https://vcpkg.io/en/package/zeroc-ice), GPL)
+  * <https://github.com/aregtech/areg-sdk> (vcpkg?)
 
 ## Web frameworks
 * ☀️ <https://github.com/CrowCpp/crow>
