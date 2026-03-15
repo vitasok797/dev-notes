@@ -178,7 +178,6 @@
 * ⭐ <https://github.com/Neargye/nameof>
 * [Boost.TypeIndex](https://www.boost.org/doc/libs/latest/doc/html/boost_typeindex.html)
 * [Boost.Describe](https://www.boost.org/doc/libs/latest/libs/describe/doc/html/describe.html)
-* Boost.Core: [type_name](https://www.boost.org/doc/libs/latest/libs/core/doc/html/core/type_name.html)
 * <https://github.com/felixguendling/cista> ([site](https://cista.rocks/#reflection))
 
 ### Types / Scope guard
@@ -191,9 +190,6 @@
 * ⭐ <https://github.com/rollbear/strong_type> ([vcpkg](https://vcpkg.io/en/package/strong-type))
 * <https://github.com/foonathan/type_safe> ([vcpkg](https://vcpkg.io/en/package/type-safe), [article1](https://www.foonathan.net/2016/10/type-safe/), [article2](https://www.foonathan.net/2016/10/strong-typedefs/))
 * <https://github.com/joboccara/NamedType> (dead?, ~~vcpkg~~ :page_facing_up:, [articles](https://www.fluentcpp.com/2016/12/08/strong-types-for-strong-interfaces/))
-
-### Types / Type Erasure
-* <https://github.com/kelbon/AnyAny> (~~vcpkg~~ :page_facing_up:)
 
 ### Types / Units
 * [Boost.Units](https://www.boost.org/doc/libs/latest/doc/html/boost_units.html)
