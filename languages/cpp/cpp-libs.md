@@ -165,7 +165,12 @@
 * [Boost.Container](https://www.boost.org/doc/libs/latest/doc/html/container.html)
 * [Boost.Circular_Buffer](https://www.boost.org/doc/libs/latest/doc/html/circular_buffer.html)
 * [Boost.MultiArray](https://www.boost.org/doc/libs/latest/libs/multi_array/doc/index.html)
+* [Boost.MultiIndex](https://www.boost.org/doc/libs/latest/libs/multi_index/doc/reference/index.html)
+* <https://github.com/serge-sans-paille/frozen>
 * <https://github.com/kokkos/mdspan>
+* FIFO-ordered associative containers:
+  * <https://github.com/Tessil/ordered-map> ([vcpkg](https://vcpkg.io/en/package/tsl-ordered-map))
+  * <https://github.com/nlohmann/fifo_map> (~~vcpkg~~ :page_facing_up:)
 
 ### Types / Enum
 * ⭐ <https://github.com/Neargye/magic_enum> ([vcpkg](https://vcpkg.io/en/package/magic-enum))
