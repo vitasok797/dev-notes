@@ -101,7 +101,7 @@
   * [(StackOverflow) Choose XML library](https://stackoverflow.com/questions/9387610/what-xml-parser-should-i-use-in-c/9387612#9387612)
 
 ### Formats / JSON
-* ☀️ <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
+* ⭐ <https://github.com/nlohmann/json> ([vcpkg](https://vcpkg.io/en/package/nlohmann-json))
 * POCO ([JSON](https://github.com/pocoproject/poco/tree/main/JSON))
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * [Boost.JSON](https://www.boost.org/doc/libs/latest/libs/json/doc/html/index.html)
