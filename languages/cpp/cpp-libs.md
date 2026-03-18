@@ -106,7 +106,6 @@
 * [Boost.PropertyTree](https://www.boost.org/doc/libs/latest/doc/html/property_tree.html)
 * [Boost.JSON](https://www.boost.org/doc/libs/latest/libs/json/doc/html/index.html)
 * <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
-* <https://github.com/stephenberry/glaze>
 * <https://github.com/danielaparker/jsoncons>
 * <https://github.com/open-source-parsers/jsoncpp>
 
@@ -116,12 +115,16 @@
 * <https://github.com/skystrife/cpptoml>
 * <https://github.com/mayah/tinytoml>
 
+### Formats / YAML
+* <https://github.com/jbeder/yaml-cpp>
+* <https://github.com/biojppm/rapidyaml>
+* <https://github.com/fktn-k/fkYAML>
+
 ### Formats / CSV
 * ☀️ <https://github.com/d99kris/rapidcsv>
 * <https://github.com/ben-strasser/fast-cpp-csv-parser>
 * <https://github.com/vincentlaucsb/csv-parser> ([vcpkg](https://vcpkg.io/en/package/vincentlaucsb-csv-parser))
 * <https://github.com/p-ranav/csv2> ([vcpkg](https://vcpkg.io/en/package/p-ranav-csv2))
-* <https://github.com/stephenberry/glaze> ([CSV](https://github.com/stephenberry/glaze/blob/main/docs/csv.md))
 * <https://github.com/danielaparker/jsoncons> ([CSV](https://github.com/danielaparker/jsoncons/blob/master/doc/ref/csv/csv.md))
 * <https://github.com/liquidaty/zsv> (~~vcpkg~~)
 
@@ -141,7 +144,8 @@
   * [Comparison of C++ Serialization Libraries for Graph Data (cista)](https://github.com/felixguendling/cpp-serialization-benchmark)
 
 ### Formats / Multiformat serialization
-* [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
+* ☀️ [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, CSV, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
+* [Glaze (JSON, CSV, MessagePack, TOML, YAML)](https://github.com/stephenberry/glaze) (C++23+)
 * <https://github.com/injae/serdepp>
 * <https://github.com/USCiLab/cereal> (binary, JSON, XML)
 
