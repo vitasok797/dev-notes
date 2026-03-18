@@ -128,6 +128,12 @@
 * <https://github.com/danielaparker/jsoncons> ([CSV](https://github.com/danielaparker/jsoncons/blob/master/doc/ref/csv/csv.md))
 * <https://github.com/liquidaty/zsv> (~~vcpkg~~)
 
+### Formats / Multiformat serialization
+* ☀️ [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, CSV, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
+* [Glaze (JSON, CSV, MessagePack, TOML, YAML)](https://github.com/stephenberry/glaze) (C++23)
+* <https://github.com/injae/serdepp>
+* <https://github.com/USCiLab/cereal> (binary, JSON, XML)
+
 ### Formats / Binary serialization
 * <https://protobuf.dev/>
 * <https://github.com/PragmaTwice/protopuf>
@@ -142,12 +148,6 @@
   * [CPP serializers benchmark (bitsery)](https://github.com/fraillt/cpp_serializers_benchmark)
   * [Benchmark comparing various data serialization libraries (thrift, protobuf etc.) for C++](https://github.com/thekvs/cpp-serializers)
   * [Comparison of C++ Serialization Libraries for Graph Data (cista)](https://github.com/felixguendling/cpp-serialization-benchmark)
-
-### Formats / Multiformat serialization
-* ☀️ [reflect-cpp: Serialization and validation (JSON, Cap'n Proto, CSV, flexbuffers, msgpack, TOML, XML, YAML)](https://github.com/getml/reflect-cpp) ([vcpkg](https://vcpkg.io/en/package/reflectcpp), [site](https://rfl.getml.com/))
-* [Glaze (JSON, CSV, MessagePack, TOML, YAML)](https://github.com/stephenberry/glaze) (C++23+)
-* <https://github.com/injae/serdepp>
-* <https://github.com/USCiLab/cereal> (binary, JSON, XML)
 
 ### Formats / Base64
 * POCO ([Streams](https://pocoproject.org/slides/100-Streams.pdf))
