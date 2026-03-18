@@ -111,17 +111,17 @@
 
 Generate .def file:
 ```
-gendef my_lib.dll
+gendef my.dll
 ```
 
 Generate import library:
 ```
-lib /DEF:my_lib.def /OUT:my_lib.lib /MACHINE:x64
+lib /DEF:my.def /OUT:my.lib /MACHINE:x64
 ```
 
 Link:
 ```
-cl /EHsc demo.cpp my_lib.lib
+cl /EHsc demo.cpp my.lib
 ```
 </details>
 
@@ -130,17 +130,17 @@ cl /EHsc demo.cpp my_lib.lib
 
 Generate .def file:
 ```
-gendef my_lib.dll
+gendef my.dll
 ```
 
 Generate import library:
 ```
-dlltool -d my_lib.def -l my_lib.a
+dlltool -d my.def -l libmy.a
 ```
 
 Link:
 ```
-g++ -o my_app demo.cpp -L. -lmy_lib
+g++ -o my_app demo.cpp -L. -lmy
 ```
 </details>
 
@@ -148,7 +148,7 @@ g++ -o my_app demo.cpp -L. -lmy_lib
 <summary>Import DLL (MinGW direct linking)</summary>
 
 ```
-g++ -o my_app demo.cpp my_lib.dll
+g++ -o my_app demo.cpp my.dll
 ```
 </details>
 
@@ -156,7 +156,7 @@ g++ -o my_app demo.cpp my_lib.dll
 <summary>Show DLL exports</summary>
 
 ```
-dumpbin /exports my_lib.dll
+dumpbin /exports my.dll
 ```
 </details>
 
