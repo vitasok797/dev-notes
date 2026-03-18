@@ -329,6 +329,7 @@
   * <https://github.com/eclipse-cyclonedds/cyclonedds> (vcpkg: [cyclonedds](https://vcpkg.io/en/package/cyclonedds), [cyclonedds-cxx](https://vcpkg.io/en/package/cyclonedds-cxx))
   * <https://github.com/OpenDDS/OpenDDS> (~~vcpkg~~)
 * Var:
+  * [Boost.Asio (standalone)](https://think-async.com/Asio/) ([vcpkg](https://vcpkg.io/en/package/asio))
   * <https://github.com/zeromq/zyre>
   * <https://github.com/zeroc-ice/ice> ([vcpkg](https://vcpkg.io/en/package/zeroc-ice), GPL)
   * <https://github.com/aregtech/areg-sdk> (vcpkg?)
@@ -376,7 +377,7 @@
 ## Error handling
 * [Boost.Optional](https://www.boost.org/doc/libs/latest/libs/optional/doc/html/index.html)
 * [Boost.Outcome](https://www.boost.org/doc/libs/latest/libs/outcome/doc/html/index.html) ([standalone](https://github.com/ned14/outcome))
-* [Boost.LEAF](https://www.boost.org/doc/libs/latest/libs/leaf/doc/html/index.html)
+* [Boost.LEAF](https://www.boost.org/doc/libs/latest/libs/leaf/doc/html/index.html) ([standalone](https://github.com/boostorg/leaf))
 * [Boost.System](https://www.boost.org/doc/libs/latest/libs/system/doc/html/system.html)
 * <https://github.com/TartanLlama/expected> ([vcpkg](https://vcpkg.io/en/package/tl-expected))
 * <https://github.com/martinmoene/expected-lite>
