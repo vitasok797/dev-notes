@@ -259,6 +259,7 @@
 * <https://github.com/aui-framework/aui> (~~vcpkg~~)
 
 ### GUI / Plot
+* [Qt Graphs](https://doc.qt.io/qt-6/qtgraphs-index.html) (GPL)
 * <https://github.com/wxIshiko/wxCharts>
 * <https://github.com/epezent/implot>
 * <https://github.com/jimmyorourke/plotlypp> (~~vcpkg~~)
