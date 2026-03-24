@@ -260,6 +260,10 @@
 
 ### GUI / Plot
 * [Qt Graphs](https://doc.qt.io/qt-6/qtgraphs-index.html) (GPL)
+* [QCustomPlot](https://www.qcustomplot.com/) (GPL)
+* QWT:
+  * <https://qwt.sourceforge.io/>
+  * <https://github.com/ig-or/qwtw>
 * <https://github.com/wxIshiko/wxCharts>
 * <https://github.com/epezent/implot>
 * <https://github.com/jimmyorourke/plotlypp> (~~vcpkg~~)
