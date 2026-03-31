@@ -108,6 +108,9 @@
 * <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
 * <https://github.com/danielaparker/jsoncons>
 * <https://github.com/open-source-parsers/jsoncpp>
+* JSON schema validators:
+  * <https://github.com/pboettch/json-schema-validator>
+  * <https://github.com/tristanpenman/valijson>
 
 ### Formats / TOML
 * <https://github.com/marzer/tomlplusplus> ([site](https://marzer.github.io/tomlplusplus/))
