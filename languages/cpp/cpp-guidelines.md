@@ -911,7 +911,7 @@ auto main() -> int
 <details>
 <summary>Function alias</summary>
 
-▶️[**Run**](https://godbolt.org/z/GrWjhYj48)
+▶️[**Run**](https://godbolt.org/z/6x1MP63ae)
 
 ```cpp
 #include <iostream>
@@ -923,14 +923,16 @@ auto target_func() -> void { std::cout << "target_func" << std::endl; }
 
 namespace my_lib
 {
-inline constexpr auto func = other_lib::target_func;
 using other_lib::target_func;
+inline constexpr auto func = other_lib::target_func;
+inline constexpr auto& func2 = other_lib::target_func;  // better
 }
 
 auto main() -> int
 {
-    my_lib::func();
     my_lib::target_func();
+    my_lib::func();
+    my_lib::func2();
 }
 ```
 
