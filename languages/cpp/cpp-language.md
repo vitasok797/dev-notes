@@ -85,6 +85,7 @@
 ## Algorithms
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (1)](https://habr.com/ru/articles/762554/)
 * [(Habr) Визуализация алгоритмов стандартной библиотеки C++ (2)](https://habr.com/ru/articles/763024/)
+* [(Habr) Подводные камни компараторов в С++](https://habr.com/ru/companies/kaspersky/articles/710916/)
 
 ## Text
 
