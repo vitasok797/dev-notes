@@ -3,7 +3,7 @@
 ## Commit format
 
 ```
-[<optional scope>] (BR) <type>: <Description> [...]
+[<optional scope>] (BR) <type>: <Description> ...
 <BLANK LINE>
 <optional body>
 <BLANK LINE>
