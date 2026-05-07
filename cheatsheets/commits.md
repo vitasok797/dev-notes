@@ -16,7 +16,7 @@
 | Type | Change description |
 | --- | --- |
 | fix | Bug fix |
-| feat | New or changed feature in API/UI |
+| feat | New or changed feature |
 
 #### Additional types
 | Type | Change description |
