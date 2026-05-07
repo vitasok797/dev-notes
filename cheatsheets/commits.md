@@ -56,7 +56,7 @@ Commits: 676104e, a215868
 
 ## Versioning
 
-* **fix** or "**additional**" types: correlates with **PATCH** in Semantic Versioning
+* **fix** or any **additional** type: correlates with **PATCH** in Semantic Versioning
 * **feat** type: correlates with **MINOR** in Semantic Versioning
 * **Breaking changes**: correlates with **MAJOR** in Semantic Versioning
 
