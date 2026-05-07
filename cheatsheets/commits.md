@@ -1,6 +1,7 @@
 # Commits Cheat Sheet
 
 ## Commit format
+
 ```
 <type>(<optional scope>)[!]: <Description> [...]
 <BLANK LINE>
@@ -11,15 +12,13 @@
 
 ### Type
 
-#### Main types
-
+Main types:
 | Type | Change description |
 | --- | --- |
 | fix | Bug fix |
 | feat | New or changed feature in API/UI |
 
-#### Additional types
-
+Additional types:
 | Type | Change description |
 | --- | --- |
 | perf | Performance improvement |
@@ -30,8 +29,6 @@
 | build | Build tools, dependencies, versions |
 | ops | DevOps, CI/CD, infrastructure, backups |
 | chore | Anything else (initial commit, modifying .gitignore, ...) |
-
-Резюме: для публичного API — fix!, для внутреннего — refactor. style — только форматирование, не затрагивающее логику.
 
 ### Breaking change
 
