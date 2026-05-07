@@ -3,12 +3,20 @@
 ## Commit format
 
 ```
-[<optional scope>] (BR) <type>: <Description> ...
+[<scope>] (BR) <type>: <Description> ...
 <BLANK LINE>
-<optional body>
+<body>
 <BLANK LINE>
-<optional footer>
+<footer>
 ```
+
+Optional items:
+* `[<scope>]`
+* `(BR)`
+* `<type>`
+* `...`
+* `<body>`
+* `<footer>`
 
 ### Type
 
