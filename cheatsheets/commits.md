@@ -9,19 +9,40 @@
 <optional footer>
 ```
 
-The footer should contain a closing reference to an issue if any.
+### Type
 
-## Commit types
+#### Main types:
 
 | Type | Change description |
 | --- | --- |
 | fix | Bug fix |
 | feat | New or changed feature in API/UI |
+
+#### Additional types:
+
+| Type | Change description |
+| --- | --- |
 | perf | Performance improvement |
 | refactor | Code restructuring without behavior change |
-| style | Formatting only |
+| style | Formatting |
 | test | Tests added/corrected |
 | docs | Documentation only |
 | build | Build tools, dependencies, versions |
-| ops | DevOps, infrastructure or backups |
-| chore | Anything else (fallback) |
+| ops | DevOps, CI/CD, infrastructure, backups |
+| chore | Anything else (initial commit, modifying .gitignore, ...) |
+
+### Footer
+
+The `footer` should contain issue references and informations about **Breaking changes**
+
+* The footer is an **optional** part, except if the commit introduce breaking changes
+* Optionally reference issue identifiers (Closes #123, Fixes JIRA-456)
+* **Breaking changes** must start with the word `BREAKING CHANGE:`
+  * For a single line description just add a space after `BREAKING CHANGE:`
+  * For a multi line description add two new lines after `BREAKING CHANGE:`
+
+## Versioning
+
+* **Breaking changes** incremented the **major** version
+* **API relevant changes** (feat, fix) incremented the **minor** version
+* **Else** increment the **patch** version
