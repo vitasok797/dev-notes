@@ -3,7 +3,7 @@
 ## Commit format
 
 ```
-<type>(<optional scope>)[!]: <Description> [...]
+[<optional scope>] (BR) <type>: <Description> [...]
 <BLANK LINE>
 <optional body>
 <BLANK LINE>
@@ -16,13 +16,13 @@
 | Type | Change description |
 | --- | --- |
 | fix | Bug fix |
-| feat | New or changed feature |
+| feat <br> *(or no type)* | New or changed feature |
 
 #### Additional types
 | Type | Change description |
 | --- | --- |
 | perf | Performance improvement |
-| refactor | Code restructuring without behavior change |
+| ref <br> refactor | Code restructuring without behavior change |
 | style | Formatting |
 | test | Tests added/corrected |
 | docs | Documentation only |
@@ -32,7 +32,7 @@
 
 ### Breaking change
 
-A commit that has a footer `BREAKING CHANGE:`, or appends a `!` after the type/scope, introduces a breaking change.
+A commit that has a footer `BREAKING CHANGE:`, or appends a `(BR)` after the scope, introduces a breaking change.
 A breaking change can be part of commits of any type
 
 ### Footer
