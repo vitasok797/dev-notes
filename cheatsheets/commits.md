@@ -13,15 +13,15 @@ The footer should contain a closing reference to an issue if any.
 
 ## Commit types
 
-| Change | Type |
+| Type | Change description |
 | --- | --- |
-| Bug fix | fix |
-| New or changed feature in API/UI | feat |
-| Performance improvement | perf |
-| Code restructuring without behavior change | refactor |
-| Formatting only | style |
-| Tests added/corrected | test |
-| Documentation only | docs |
-| Build tools, dependencies, versions | build |
-| DevOps, infrastructure or backups | ops |
-| Anything else (fallback) | chore |
+| fix | Bug fix |
+| feat | New or changed feature in API/UI |
+| perf | Performance improvement |
+| refactor | Code restructuring without behavior change |
+| style | Formatting only |
+| test | Tests added/corrected |
+| docs | Documentation only |
+| build | Build tools, dependencies, versions |
+| ops | DevOps, infrastructure or backups |
+| chore | Anything else (fallback) |
