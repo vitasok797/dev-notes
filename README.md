@@ -1,6 +1,7 @@
 ⚠️ [UNSORTED](unsorted)
 
 ## Cheat Sheets
+* [Commits cheatsheet](cheatsheets/commits.md)
 * [Git cheatsheet](cheatsheets/git.md)
 
 ## Languages
