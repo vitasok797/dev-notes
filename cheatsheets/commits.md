@@ -12,13 +12,13 @@
 
 ### Type
 
-Main types:
+#### Main types
 | Type | Change description |
 | --- | --- |
 | fix | Bug fix |
 | feat | New or changed feature in API/UI |
 
-Additional types:
+#### Additional types
 | Type | Change description |
 | --- | --- |
 | perf | Performance improvement |
