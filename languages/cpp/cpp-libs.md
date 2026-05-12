@@ -43,8 +43,10 @@
 ### Text / Regex
 * ⭐ POCO (PCRE2, [StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * ☀️ [RE2](https://github.com/google/re2)
-* ☀️ [jpcre2](https://github.com/jpcre2/jpcre2) (~~vcpkg~~ :page_facing_up:)
-* [PCRE2](https://github.com/PCRE2Project/pcre2)
+* PCRE2:
+  * [PCRE2](https://github.com/PCRE2Project/pcre2)
+  * ☀️ [jpcre2](https://github.com/jpcre2/jpcre2) (~~vcpkg~~ :page_facing_up:)
+  * [pcre2cpp](https://github.com/MAIPA01/pcre2cpp)
 * [Boost.Regex](https://www.boost.org/doc/libs/latest/libs/regex/doc/html/index.html)
 * [CTRE](https://github.com/hanickadot/compile-time-regular-expressions) ([doc](https://compile-time-regular-expressions.readthedocs.io/))
 * [hyperscan](https://www.hyperscan.io/)
