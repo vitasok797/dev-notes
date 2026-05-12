@@ -357,6 +357,10 @@
 * [\<chrono\>](https://en.cppreference.com/w/cpp/chrono.html)
 * [Abseil Time](https://abseil.io/docs/cpp/guides/time)
 
+## Pattern matching
+* <https://github.com/sentomk/patternia>
+* [match(it)](https://github.com/BowenFu/matchit.cpp) ([vcpkg](https://vcpkg.io/en/package/matchit))
+
 ## DB
 * POCO [Data (SQLite, MySQL/MariaDB, PostgreSQL)](https://docs.pocoproject.org/current/00200-DataUserManual.html)
 * <https://github.com/aminroosta/sqlite_modern_cpp> ([vcpkg](https://vcpkg.io/en/package/sqlite-modern-cpp))
@@ -444,4 +448,3 @@
 * <https://github.com/Dobiasd/FunctionalPlus>
 * <https://github.com/ryanhaining/cppitertools>
 * [cpp-validator](https://github.com/evgeniums/cpp-validator) (~~vcpkg~~ :page_facing_up:, [article](https://habr.com/ru/articles/525204/))
-* [match(it): Pattern-matching library](https://github.com/BowenFu/matchit.cpp) ([vcpkg](https://vcpkg.io/en/package/matchit))
