@@ -284,7 +284,7 @@
 * [Intel MKL](https://vcpkg.io/en/package/intel-mkl)
 
 ### Math / Expressions
-* ☀️ <https://github.com/ArashPartow/exprtk> ([doc](https://www.partow.net/programming/exprtk/index.html))
+* ⭐ <https://github.com/ArashPartow/exprtk> ([doc](https://www.partow.net/programming/exprtk/index.html))
 * <https://github.com/codeplea/tinyexpr>
 * <https://github.com/Blake-Madden/tinyexpr-plusplus> (~~vcpkg~~)
 * <https://github.com/beltoforion/muparser>
