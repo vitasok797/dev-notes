@@ -182,14 +182,14 @@
   * <https://github.com/Tessil/ordered-map> ([vcpkg](https://vcpkg.io/en/package/tsl-ordered-map))
   * <https://github.com/nlohmann/fifo_map> (~~vcpkg~~ :page_facing_up:)
 
-### Types / Enum
-* ⭐ <https://github.com/Neargye/magic_enum> ([vcpkg](https://vcpkg.io/en/package/magic-enum))
-* <https://github.com/fix8mt/conjure_enum> ([vcpkg](https://vcpkg.io/en/package/conjure-enum))
-
 ### Types / Operators
 * [Boost.Operators (Utility)](https://www.boost.org/doc/libs/latest/libs/utility/doc/html/utility/utilities/operators.html) ([vcpkg](https://vcpkg.io/en/package/boost-utility))
 
 ### Types / Reflection
+* Enum:
+  * ⭐ <https://github.com/Neargye/magic_enum> ([vcpkg](https://vcpkg.io/en/package/magic-enum))
+  * ☀️ <https://github.com/ZXShady/enchantum>
+  * <https://github.com/fix8mt/conjure_enum> ([vcpkg](https://vcpkg.io/en/package/conjure-enum))
 * ⭐ <https://github.com/Neargye/nameof>
 * [Boost.TypeIndex](https://www.boost.org/doc/libs/latest/doc/html/boost_typeindex.html)
 * [Boost.Describe](https://www.boost.org/doc/libs/latest/libs/describe/doc/html/describe.html)
