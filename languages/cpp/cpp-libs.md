@@ -26,12 +26,12 @@
 * ⭐ POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * ☀️ [Boost.Nowide](https://www.boost.org/doc/libs/latest/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
 * ☀️ [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
+* ☀️ [uni-algo](https://github.com/uni-algo/uni-algo)
 * ⚠️ `Boost Locale?`
 * [ICU](https://icu.unicode.org/)
 * [utfcpp](https://github.com/nemtrif/utfcpp)
 * [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
 * [simdutf](https://github.com/simdutf/simdutf)
-* [uni-algo](https://github.com/uni-algo/uni-algo)
 * [utf8.h](https://github.com/sheredom/utf8.h) ([vcpkg](https://vcpkg.io/en/package/utf8h))
 * [utf8proc](https://github.com/JuliaStrings/utf8proc)
 
@@ -47,10 +47,10 @@
   * ☀️ [jpcre2](https://github.com/jpcre2/jpcre2) (~~vcpkg~~ :page_facing_up:)
   * [pcre2cpp](https://github.com/MAIPA01/pcre2cpp)
 * ☀️ [RE2](https://github.com/google/re2)
+* ☀️ [SRELL](https://github.com/ZimProjects/SRELL)
 * [Boost.Regex](https://www.boost.org/doc/libs/latest/libs/regex/doc/html/index.html)
 * [CTRE](https://github.com/hanickadot/compile-time-regular-expressions) ([doc](https://compile-time-regular-expressions.readthedocs.io/))
 * [hyperscan](https://www.hyperscan.io/)
-* [SRELL](https://github.com/ZimProjects/SRELL)
 * Articles:
   * [(Habr) regexp — большие гонки](https://habr.com/ru/articles/812953/)
   * [Performance comparison of regular expression engines](https://zherczeg.github.io/sljit/regex_perf.html)
