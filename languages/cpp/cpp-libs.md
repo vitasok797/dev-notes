@@ -41,13 +41,12 @@
 * <https://github.com/p-ranav/pprint>
 
 ### Text / Regex
+* ⭐ [SRELL](https://github.com/ZimProjects/SRELL)
 * PCRE2:
-  * [PCRE2](https://github.com/PCRE2Project/pcre2)
-  * ⭐ POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
   * ☀️ [jpcre2](https://github.com/jpcre2/jpcre2) (~~vcpkg~~ :page_facing_up:)
+  * POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
   * [pcre2cpp](https://github.com/MAIPA01/pcre2cpp)
 * ☀️ [RE2](https://github.com/google/re2)
-* ☀️ [SRELL](https://github.com/ZimProjects/SRELL)
 * [Boost.Regex](https://www.boost.org/doc/libs/latest/libs/regex/doc/html/index.html)
 * [CTRE](https://github.com/hanickadot/compile-time-regular-expressions) ([doc](https://compile-time-regular-expressions.readthedocs.io/))
 * [hyperscan](https://www.hyperscan.io/)
