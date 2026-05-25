@@ -64,3 +64,4 @@
 | 7-zip | <https://www.7-zip.org/download.html><br><https://github.com/ip7z/7zip/releases> |
 | draw.io | <https://github.com/jgraph/drawio-desktop/releases> |
 | Notepad++ | <https://notepad-plus-plus.org/downloads/><br><https://github.com/notepad-plus-plus/notepad-plus-plus/releases> |
+| MarkText (markdown editor) | <https://github.com/marktext/marktext/releases> |
