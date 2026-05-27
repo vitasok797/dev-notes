@@ -175,6 +175,7 @@
 * [Boost.MultiArray](https://www.boost.org/doc/libs/latest/libs/multi_array/doc/index.html)
 * [Boost.MultiIndex](https://www.boost.org/doc/libs/latest/libs/multi_index/doc/reference/index.html)
 * [Boost.Unordered](https://www.boost.org/doc/libs/latest/libs/unordered/doc/html/unordered/intro.html) ([standalone](https://github.com/MikePopoloski/boost_unordered))
+* <https://github.com/martinus/svector>
 * <https://github.com/serge-sans-paille/frozen>
 * <https://github.com/kokkos/mdspan>
 * FIFO-ordered associative containers:
