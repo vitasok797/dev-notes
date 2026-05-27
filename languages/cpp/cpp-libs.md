@@ -433,8 +433,8 @@
   * [Cpp Unit Testing And Mocking Comparison](https://github.com/dhelper/CppUnitTestingAndMockingComparison)
 
 ## Benchmarking
+* ⭐ <https://github.com/martinus/nanobench>
 * <https://github.com/google/benchmark>
-* <https://github.com/martinus/nanobench>
 * <https://github.com/ivafanas/sltbench>
 * <https://github.com/DigitalInBlue/Celero>
 * <https://github.com/Compaile/ctrack>
