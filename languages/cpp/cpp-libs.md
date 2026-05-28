@@ -16,17 +16,17 @@
 ## Text
 
 ### Text / String processing
-* ⭐ POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
+* POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * ⚠️ `Boost Locale?`
 * [Boost String Algorithms Library](https://www.boost.org/doc/libs/latest/doc/html/string_algo.html)
 * [Boost.Tokenizer](https://www.boost.org/doc/libs/latest/libs/tokenizer/doc/index.html)
 * [Abseil Strings](https://abseil.io/docs/cpp/guides/strings)
 
 ### Text / Encoding
-* ⭐ POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
-* ☀️ [Boost.Nowide](https://www.boost.org/doc/libs/latest/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
-* ☀️ [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
-* ☀️ [uni-algo](https://github.com/uni-algo/uni-algo)
+* ⭐ [uni-algo](https://github.com/uni-algo/uni-algo)
+* POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
+* [Boost.Nowide](https://www.boost.org/doc/libs/latest/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
+* [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
 * ⚠️ `Boost Locale?`
 * [ICU](https://icu.unicode.org/)
 * [utfcpp](https://github.com/nemtrif/utfcpp)
