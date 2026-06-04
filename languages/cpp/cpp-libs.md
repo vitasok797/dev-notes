@@ -344,6 +344,7 @@
   * <https://github.com/zeromq/zyre>
   * <https://github.com/zeroc-ice/ice> ([vcpkg](https://vcpkg.io/en/package/zeroc-ice), GPL)
   * <https://github.com/aregtech/areg-sdk> (vcpkg?)
+  * <https://github.com/librats/librats> (~~vcpkg~~)
 
 ## Web frameworks
 * ☀️ <https://github.com/CrowCpp/crow>
