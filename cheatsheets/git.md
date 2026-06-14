@@ -106,6 +106,12 @@ options:
 * `--all`: fetch all remotes
 * `--prune`: before fetching, remove any remote-tracking references that no longer exist on the remote
 
+## Pushing
+#### Push up to a specific commit ([git-push](https://git-scm.com/docs/git-push))
+```
+git push <remote> <commit>:<branch>
+```
+
 ## List files
 #### List files EOL and text/binary autodetection status ([git-ls-files](https://git-scm.com/docs/git-ls-files))
 ```
