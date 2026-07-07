@@ -175,12 +175,16 @@
 * [Boost.MultiArray](https://www.boost.org/doc/libs/latest/libs/multi_array/doc/index.html)
 * [Boost.MultiIndex](https://www.boost.org/doc/libs/latest/libs/multi_index/doc/reference/index.html)
 * [Boost.Unordered](https://www.boost.org/doc/libs/latest/libs/unordered/doc/html/unordered/intro.html) ([standalone](https://github.com/MikePopoloski/boost_unordered))
-* <https://github.com/martinus/svector>
 * <https://github.com/serge-sans-paille/frozen>
 * <https://github.com/kokkos/mdspan>
+* SVO optimized vectors:
+  * <https://github.com/martinus/svector> (~~vcpkg~~ :page_facing_up:)
 * FIFO-ordered associative containers:
   * <https://github.com/Tessil/ordered-map> ([vcpkg](https://vcpkg.io/en/package/tsl-ordered-map))
   * <https://github.com/nlohmann/fifo_map> (~~vcpkg~~ :page_facing_up:)
+* Fast hash map and hash set using robin hood hashing:
+  * <https://github.com/martinus/unordered_dense> ([vcpkg](https://vcpkg.io/en/package/unordered-dense))
+  * <https://github.com/Tessil/robin-map>
 
 ### Types / Operators
 * [Boost.Operators (Utility)](https://www.boost.org/doc/libs/latest/libs/utility/doc/html/utility/utilities/operators.html) ([vcpkg](https://vcpkg.io/en/package/boost-utility))
