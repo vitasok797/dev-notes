@@ -3,26 +3,26 @@
 ## C++
 
 ```
-Далее приведен код на языке C++ (стандарт C++20).
-Проверь данный код на наличие ошибок.
-Дополнительно предложи изменения по:
-* улучшению производительности
-* использованию современных возможностей языка
-* использованию современных практик программирования на языке C++
-* упрощению кода
-* улучшению читаемости кода
-* выбору имен классов, структур, функций и переменных
-* добавлению [[nodiscard]], noexcept, constexpr, inline/static
-Укажи на неиспользуемые/недостающие заголовочные файлы.
-В случае возникновения вопросов по коду можешь уточнить их у меня.
+Below is C++ code (C++20 standard).
+Review this code for errors.
+Additionally, suggest improvements for:
+- improving performance
+- utilizing modern language features
+- applying modern C++ programming practices
+- simplifying the code
+- improving code readability
+- choosing names for classes, structs, functions and variables
+- adding [[nodiscard]], noexcept, constexpr, inline/static
+Point out any unused or missing header files.
+Feel free to ask me if you have any questions about the code.
 
 <code>
 
-Далее приведены тесты для кода.
-Проверь данные тесты.
-Дополнительно укажи:
-* есть ли неохваченные тестами пути кода или граничные случаи
-* есть ли лишние тесты
+Below are the tests for the code.
+Review these tests.
+Additionally, point out:
+- any uncovered code paths or edge cases
+- any redundant tests
 
 <tests>
 ```
