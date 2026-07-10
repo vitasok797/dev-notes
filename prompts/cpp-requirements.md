@@ -1,28 +1,28 @@
-Требования к коду на языке C++:
-- Стандарт языка: C++20
-- Код должен быть разделен между заголовочными файлами (`.h`) и файлами реализации (`.cpp`)
-- В заголовочных файлах должна использоваться стандартная защита от повторного включения (include guard) вида `#ifndef PATH_NAME_H`
-- Размер одного уровня отступа: 4 пробела
-- Именование:
-  - Классы, структуры: `PascalCase`
-  - Переменные, функции, члены классов: `snake_case`. При этом имена нестатических членов классов в секциях `protected` и `private` должны заканчиваться подчеркиванием
-- Стиль объявления переменных: AAA (Almost Always Auto). Пример: `const auto value = 42;`
-- Все функции (в том числе и с типом возвращаемого значения `void`) объявляются с использованием стиля "trailing return type"
-- Секции модификаторов доступа внутри класса должны быть объявлены явно в порядке `public`, затем `protected`, затем `private`
-- Порядок элементов в объявлении класса (внутри каждой секции модификаторов доступа):
-  - Типы (классы, структуры, перечисления) и псевдонимы (using)
-  - Статические константы (static const/constexpr)
-  - Статические фабричные методы (статические функции, возвращающие экземпляр класса)
-  - Конструкторы
-  - Специальные функции-члены в следующем порядке:
-     - Конструктор копирования
-     - Оператор присваивания копированием
-     - Конструктор перемещения
-     - Оператор присваивания перемещением
-     - Деструктор
-  - Функции-члены
-  - Поля класса
-- Для управления ресурсами должен применяться один из двух принципов: "Rule of Zero" или "Rule of Five"
-- Объявление и инициализация членов класса выполняется с использованием фигурных скобок:
-  - Direct-initialization: `Type name_{expr};`
-  - Value-initialization: `Type name_{};`
+C++ Code Requirements:
+- Language standard: C++20
+- Code must be split between header files (`.h`) and implementation files (`.cpp`)
+- Header files must use standard include guards in the format `#ifndef PATH_NAME_H`
+- Indentation size: 4 spaces
+- Naming conventions:
+  - Classes and structs: `PascalCase`
+  - Variables, functions, concepts and class members: `snake_case`. Non-static class members in the `protected` and `private` sections must end with a trailing underscore
+- Variable declaration style: AAA (Almost Always Auto). Example: `const auto value = 42;`
+- All functions (including those returning `void`) must be declared using the trailing return type syntax
+- Access modifier sections within a class must be explicitly declared in the following order: `public`, `protected`, `private`
+- Order of elements within a class declaration (inside each access modifier section):
+  - Types (classes, structs, enumerations) and type aliases (`using`)
+  - Static constants (`static const`/`constexpr`)
+  - Static factory methods (static functions returning an instance of the class)
+  - Constructors
+  - Special member functions in the following order:
+     - Copy constructor
+     - Copy assignment operator
+     - Move constructor
+     - Move assignment operator
+     - Destructor
+  - Member functions
+  - Data members
+- Resource management must follow either the "Rule of Zero" or the "Rule of Five"
+- Declaration and initialization of class members must use curly braces:
+  - Direct initialization: `Type name_{expr};`
+  - Value initialization: `Type name_{};`
