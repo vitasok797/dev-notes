@@ -1,9 +1,9 @@
 C++ Code Requirements:
 - Language standard: C++20
-- Actively utilize modern C++20 features and adhere to modern C++ programming practices
+- Actively use modern C++20 features and adhere to modern C++ programming practices
 - Prefer algorithms, views, and pipelines from the `<ranges>` library over classic `<algorithm>` functions with explicit iterators
 - Code must be split between header files (`.h`) and implementation files (`.cpp`)
-- Header files must use standard include guards in the format `#ifndef PATH_NAME_H`
+- Header files must use standard include guards in the format `#ifndef PROJECT_PATH_FILENAME_H`
 - Indentation size: 4 spaces
 - Code formatting must strictly adhere to the provided `.clang-format` configuration file, if one is supplied
 - All comments must be written in English
