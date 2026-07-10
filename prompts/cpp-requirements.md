@@ -1,13 +1,20 @@
 C++ Code Requirements:
 - Language standard: C++20
+- Actively utilize modern C++20 features and adhere to modern C++ programming practices
 - Code must be split between header files (`.h`) and implementation files (`.cpp`)
 - Header files must use standard include guards in the format `#ifndef PATH_NAME_H`
 - Indentation size: 4 spaces
+- All comments must be written in English
 - Naming conventions:
   - Classes and structs: `PascalCase`
   - Variables, functions, concepts and class members: `snake_case`. Non-static class members in the `protected` and `private` sections must end with a trailing underscore
 - Variable declaration style: AAA (Almost Always Auto). Example: `const auto value = 42;`
 - All functions (including those returning `void`) must be declared using the trailing return type syntax
+- Apply appropriate specifiers and attributes:
+  - use `[[nodiscard]]` for functions with important return values
+  - mark functions with `noexcept` when they do not throw
+  - use `constexpr` for compile-time evaluation
+  - apply `inline`/`static` where applicable
 - Access modifier sections within a class must be explicitly declared in the following order: `public`, `protected`, `private`
 - Order of elements within a class declaration (inside each access modifier section):
   - Types (classes, structs, enumerations) and type aliases (`using`)
@@ -26,3 +33,4 @@ C++ Code Requirements:
 - Declaration and initialization of class members must use curly braces:
   - Direct initialization: `Type name_{expr};`
   - Value initialization: `Type name_{};`
+- Unit tests for the code must be implemented using the Google Test framework
