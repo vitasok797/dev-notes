@@ -1,9 +1,11 @@
 C++ Code Requirements:
 - Language standard: C++20
 - Actively utilize modern C++20 features and adhere to modern C++ programming practices
+- Prefer algorithms, views, and pipelines from the `<ranges>` library over classic `<algorithm>` functions with explicit iterators
 - Code must be split between header files (`.h`) and implementation files (`.cpp`)
 - Header files must use standard include guards in the format `#ifndef PATH_NAME_H`
 - Indentation size: 4 spaces
+- Code formatting must strictly adhere to the provided `.clang-format` configuration file, if one is supplied
 - All comments must be written in English
 - Naming conventions:
   - Classes and structs: `PascalCase`
@@ -15,6 +17,7 @@ C++ Code Requirements:
   - mark functions with `noexcept` when they do not throw
   - use `constexpr` for compile-time evaluation
   - apply `inline`/`static` where applicable
+- Enforce strict const-correctness: all member functions that do not modify the object's state must be marked `const`. All variables that remain unchanged after initialization must be declared `const` or `constexpr`
 - Access modifier sections within a class must be explicitly declared in the following order: `public`, `protected`, `private`
 - Order of elements within a class declaration (inside each access modifier section):
   - Types (classes, structs, enumerations) and type aliases (`using`)
