@@ -324,6 +324,9 @@
 * <https://www.cppstories.com/2021/sphero-cpp-return/>
 * <https://www.cppstories.com/2024/expected-cpp23/>
 
+## Optimization
+* [C++ Low-Latency Patterns, Benchmarked: 15 Tricks from HFT and CppCon 2025 (and Which Claims Don't Reproduce)](https://pavelguzenfeld.com/posts/hft-cpp-performance-patterns-benchmarked/)
+
 ## C++ nextgen
 * Carbon:
   * <https://github.com/carbon-language/carbon-lang> ([doc](https://docs.carbon-lang.dev/))
