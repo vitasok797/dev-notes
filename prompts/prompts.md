@@ -27,6 +27,12 @@ Additionally, point out:
 <tests>
 ```
 
+## Var
+
+```
+Ответ приведи на русском языке
+```
+
 ## Tools
 
 * [Gitingest](https://gitingest.com/)
