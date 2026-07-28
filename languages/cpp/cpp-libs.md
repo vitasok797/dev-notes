@@ -37,8 +37,16 @@
 
 ### Text / Formatting
 * ⭐ <https://github.com/fmtlib/fmt> ([site](https://fmt.dev/), [hackingcpp](https://hackingcpp.com/cpp/libs/fmt.html), [cheatsheet](https://hackingcpp.com/cpp/libs/fmt.png))
-* ⭐ <https://github.com/p-ranav/tabulate>
 * <https://github.com/p-ranav/pprint>
+
+### Text / Formatting (table)
+* ⭐ <https://github.com/p-ranav/tabulate>
+* ☀️ <https://github.com/seleznevae/libfort>
+* ☀️ <https://github.com/Anas-Hamdane/tabular> (~~vcpkg~~ :page_facing_up:)
+* <https://github.com/haarcuba/cpp-text-table> (~~vcpkg~~ :page_facing_up:)
+* <https://github.com/DenisSamilton/CppConsoleTable> (~~vcpkg~~ :page_facing_up:)
+* <https://github.com/friedmud/variadic_table> (~~vcpkg~~ :page_facing_up:)
+* <https://github.com/vahancho/textable> (~~vcpkg~~)
 
 ### Text / Regex
 * ⭐ [SRELL](https://github.com/ZimProjects/SRELL)
