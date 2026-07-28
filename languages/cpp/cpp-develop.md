@@ -202,6 +202,7 @@ dumpbin /exports my.dll
 
 ## Compiler options
 * [Compiler Options Hardening Guide for C and C++](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++.html)
+* [Enums, warnings, and default](https://brevzin.github.io/c++/2019/08/01/enums-default/)
 * [(YouTube) Как внедрять современные проверки С++](https://www.youtube.com/watch?v=cPI437vi44w)
 * [(YouTube) Three Cool Things in C++26: Safety, Reflection & std::execution - Herb Sutter - C++ on Sea 2025](https://www.youtube.com/watch?v=kKbT0Vg3ISw)
 
