@@ -425,6 +425,7 @@
   * [(Habr) Сравнение библиотек логирования](https://habr.com/ru/articles/313686/)
 
 ## Debugging
+* <https://github.com/efmsoft/logme> ([article](https://habr.com/ru/articles/1035984/))
 * [Boost.Stacktrace](https://www.boost.org/doc/libs/latest/doc/html/stacktrace.html)
 * <https://github.com/foonathan/debug_assert> ([vcpkg](https://vcpkg.io/en/package/debug-assert), [article](https://www.foonathan.net/2016/09/assertions/))
 * <https://github.com/renatoGarcia/icecream-cpp>
