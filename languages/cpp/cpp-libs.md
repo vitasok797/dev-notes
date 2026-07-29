@@ -40,9 +40,9 @@
 * <https://github.com/p-ranav/pprint>
 
 ### Text / Formatting (table)
-* ⭐ <https://github.com/p-ranav/tabulate>
-* ☀️ <https://github.com/seleznevae/libfort>
-* ☀️ <https://github.com/Anas-Hamdane/tabular> (~~vcpkg~~ :page_facing_up:)
+* ⭐ <https://github.com/seleznevae/libfort>
+* <https://github.com/p-ranav/tabulate>
+* <https://github.com/Anas-Hamdane/tabular> (~~vcpkg~~ :page_facing_up:)
 * <https://github.com/DenisSamilton/CppConsoleTable> (~~vcpkg~~ :page_facing_up:)
 * <https://github.com/haarcuba/cpp-text-table> (~~vcpkg~~ :page_facing_up:)
 * <https://github.com/friedmud/variadic_table> (~~vcpkg~~ :page_facing_up:)
