@@ -337,6 +337,9 @@
 * <https://github.com/libevent/libevent>
 
 ## Communication
+* Sockets:
+  * <https://github.com/fpagliughi/sockpp>
+  * <https://github.com/Ybalrid/kissnet>
 * gRPC:
   * <https://github.com/grpc/grpc>
   * <https://github.com/Tradias/asio-grpc>
