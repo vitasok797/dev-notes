@@ -1,0 +1,30 @@
+[core]
+    pager = delta
+
+[interactive]
+    diffFilter = delta --color-only
+
+[merge]
+    conflictStyle = zdiff3
+
+[delta]
+    navigate = true
+    dark = true
+
+    file-added-label = [+]
+    file-copied-label = [C]
+    file-decoration-style = none
+    file-modified-label = [M]
+    file-removed-label = [-]
+    file-renamed-label = [R]
+    file-style = 142 normal
+    file-decoration-style = 142 box
+
+    zero-style = 244 normal
+    plus-style = normal 22
+    plus-emph-style = normal green
+
+    hunk-header-decoration-style = blue box
+    hunk-header-file-style = blue
+    hunk-header-line-number-style = blue
+    hunk-header-style = file line-number normal normal
