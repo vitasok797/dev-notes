@@ -26,9 +26,6 @@
 * [Lua](languages/lua.md)
 * [Python](languages/python.md)
 
-## Projects
-* [ASPD](projects/aspd.md)
-
 ## Prompts
 * [Prompts](prompts/prompts.md)
 * [C++ requirements](prompts/cpp-requirements.md)
