@@ -135,6 +135,7 @@
 * <https://github.com/Tencent/rapidjson> ([site](https://rapidjson.org/))
 * <https://github.com/danielaparker/jsoncons>
 * <https://github.com/open-source-parsers/jsoncpp>
+* <https://github.com/tucher/JsonFusion>
 * JSON schema validators:
   * <https://github.com/pboettch/json-schema-validator>
   * <https://github.com/tristanpenman/valijson>
