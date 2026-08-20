@@ -12,6 +12,7 @@
 * [(Habr) Бранч-стратегии при разработке в Git](https://habr.com/ru/companies/itglobalcom/articles/535524/)
 * [(Habr) Работа с Git без использования локальных веток](https://habr.com/ru/articles/269671/)
 * [(Habr) Собираем свой flow для git с нуля](https://habr.com/ru/articles/493866/)
+* [(Habr) One Branch To Rule Them All](https://habr.com/ru/companies/spring_aio/articles/1072386/)
 * [Git branching strategies](https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-git-branch-approach/git-branching-strategies.html)
 * [Comparing Git workflows](https://www.atlassian.com/git/tutorials/comparing-workflows)
 * [Linus Torvalds: git pull](https://www.mail-archive.com/dri-devel@lists.sourceforge.net/msg39091.html)
