@@ -1558,6 +1558,17 @@ auto               Person::get_person_type() -> PersonType
 </details>
 
 <details>
+<summary>Choosing qualifiers for local variables inside a function</summary>
+
+* **`constexpr auto`**: for local values that can and should be evaluated at compile time
+* **`const auto`**: for runtime values that should not change
+* **`auto`**: for lambdas, especially when used only locally
+* **`static constexpr auto`**: *(rare)* when you need a compile-time value with static lifetime/stable address
+* **`static const auto`**: for expensive runtime objects that should be constructed only once, e.g. `std::regex`
+
+</details>
+
+<details>
 <summary>Immediately Invoked Lambda Expression (IILE)</summary>
 
 [ES.28: Use lambdas for complex initialization, especially of const variables](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#es28-use-lambdas-for-complex-initialization-especially-of-const-variables)
