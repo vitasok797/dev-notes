@@ -4,7 +4,7 @@
 
 ## Show configuration
 ```
-git config --list --show-scope --show-origin
+git --no-pager config list --show-scope --show-origin
 ```
 
 ## Common options
