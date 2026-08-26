@@ -59,6 +59,7 @@ git config --<system|global> alias.ls-ig "ls-files --other --exclude-standard --
 git config --<system|global> alias.ls-un "ls-files --eol --other --exclude-standard"
 git config --<system|global> alias.show-h "show --format=fuller --no-patch"
 git config --<system|global> alias.st "!git status && ig=$(git ls-ig | wc -l) && [ $ig -gt 0 ] && echo Ignored: $ig"
+git config --<system|global> alias.push-c '!f() { branch=$(git branch --show-current); git push "$(git config branch.$branch.remote)" "$1:$(git config branch.$branch.merge)"; }; f'
 ```
 
 `core.autocrlf` options:
