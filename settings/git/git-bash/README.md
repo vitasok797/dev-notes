@@ -6,6 +6,8 @@
 ```
 alias sl='echo; git st; echo; git lg'
 alias s='clear; sl ${FROM}~..HEAD'
+alias dt='git dt'
+alias dts='git dt-s'
 ```
 * Add to `<git_install_dir>\etc\profile.d\env.sh` file:
 ```
