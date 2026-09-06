@@ -13,10 +13,10 @@ C++ Code Requirements:
 - Variable declaration style: AAA (Almost Always Auto). Example: `const auto value = 42;`
 - All functions (including those returning `void`) must be declared using the trailing return type syntax
 - Apply appropriate specifiers and attributes:
-  - use `[[nodiscard]]` for functions with important return values
-  - mark functions with `noexcept` when they do not throw
-  - use `constexpr` for compile-time evaluation
-  - apply `inline`/`static` where applicable
+  - Use `[[nodiscard]]` for functions with important return values
+  - Mark functions with `noexcept` when they do not throw
+  - Use `constexpr` for compile-time evaluation
+  - Apply `inline`/`static` where applicable
 - Enforce strict const-correctness: all member functions that do not modify the object's state must be marked `const`. All variables that remain unchanged after initialization must be declared `const` or `constexpr`
 - Access modifier sections within a class must be explicitly declared in the following order: `public`, `protected`, `private`
 - Order of elements within a class declaration (inside each access modifier section):
