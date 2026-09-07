@@ -8,8 +8,11 @@ alias sl='echo; git st; echo; git lg'
 alias s='clear; sl ${FROM}~..HEAD'
 alias dt='(git dt &> /dev/null &)'
 alias dt-s='(git dt-s &> /dev/null &)'
-alias tlog='(TortoiseGitProc.exe /command:log /path:. &> /dev/null &)'
-alias exp='explorer .'
+alias t-log='(TortoiseGitProc.exe /command:log &> /dev/null &)'
+alias t-reflog='(TortoiseGitProc.exe /command:reflog &> /dev/null &)'
+alias t-cl='(TortoiseGitProc.exe /command:cleanup &> /dev/null &)'
+alias t-cm='(TortoiseGitProc.exe /command:diff &> /dev/null &)'
+alias expl='explorer .'
 ```
 * Add to `<git_install_dir>\etc\profile.d\env.sh` file:
 ```
