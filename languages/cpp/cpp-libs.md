@@ -282,7 +282,7 @@
 * <https://github.com/Stiffstream/sobjectizer> (Actor and CSP models)
 
 ## GUI
-* <https://www.qt.io/product/framework>
+* ⭐ <https://www.qt.io/product/framework>
 * <https://www.wxwidgets.org/>
 * <https://github.com/ocornut/imgui>
 * <https://github.com/aui-framework/aui> (~~vcpkg~~)
@@ -374,7 +374,7 @@
   * <https://github.com/librats/librats> (~~vcpkg~~)
 
 ## Web frameworks
-* ☀️ <https://github.com/CrowCpp/crow>
+* ⭐ <https://github.com/CrowCpp/crow>
 * POCO ([Network](https://pocoproject.org/slides/200-Network.pdf))
 * <https://github.com/civetweb/civetweb>
 * <https://github.com/yhirose/cpp-httplib>
