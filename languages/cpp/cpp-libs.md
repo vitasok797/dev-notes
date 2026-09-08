@@ -8,15 +8,8 @@
   * [ ] tomlplusplus
   * [ ] pugixml
   * [ ] tinyxml2
-  * [ ] reflectcpp (features: xml, flexbuffers)
-* GUI:
-  * [ ] qt
-  * [ ] wxwidgets
-* Communication:
-  * [ ] grpc
-  * [ ] fastdds
-* Web frameworks:
-  * [ ] crow
+  * [ ] reflectcpp
+  * [ ] serdepp
 
 ## Library lists
 * [Awesome C++](https://github.com/fffaraz/awesome-cpp)
