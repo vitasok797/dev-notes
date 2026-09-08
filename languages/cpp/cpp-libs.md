@@ -28,7 +28,6 @@
 
 ### Text / String processing
 * POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
-* ⚠️ `Boost Locale?`
 * [Boost String Algorithms Library](https://www.boost.org/doc/libs/latest/doc/html/string_algo.html)
 * [Boost.Tokenizer](https://www.boost.org/doc/libs/latest/libs/tokenizer/doc/index.html)
 * [Abseil Strings](https://abseil.io/docs/cpp/guides/strings)
@@ -38,7 +37,6 @@
 * POCO ([StringsAndFormatting](https://pocoproject.org/slides/040-StringsAndFormatting.pdf))
 * [Boost.Nowide](https://www.boost.org/doc/libs/latest/libs/nowide/doc/html/index.html) ([standalone](https://github.com/boostorg/nowide))
 * [ztd-text](https://github.com/soasis/text) ([doc](https://ztdtext.readthedocs.io/en/stable/index.html), [article](https://thephd.dev/any-encoding-ever-ztd-text-unicode-cpp))
-* ⚠️ `Boost Locale?`
 * [ICU](https://icu.unicode.org/)
 * [utfcpp](https://github.com/nemtrif/utfcpp)
 * [tiny-utf8](https://github.com/DuffsDevice/tiny-utf8) ([vcpkg](https://vcpkg.io/en/package/tinyutf8))
@@ -353,7 +351,7 @@
   * <https://github.com/fpagliughi/sockpp>
   * <https://github.com/Ybalrid/kissnet>
 * gRPC:
-  * <https://github.com/grpc/grpc>
+  * ☀️ <https://github.com/grpc/grpc>
   * <https://github.com/Tradias/asio-grpc>
 * ZeroMQ:
   * <https://github.com/zeromq/libzmq> ([vcpkg](https://vcpkg.io/en/package/zeromq))
@@ -366,6 +364,10 @@
   * ☀️ <https://github.com/eProsima/Fast-DDS> ([vcpkg](https://vcpkg.io/en/package/fastdds))
   * <https://github.com/eclipse-cyclonedds/cyclonedds> (vcpkg: [cyclonedds](https://vcpkg.io/en/package/cyclonedds), [cyclonedds-cxx](https://vcpkg.io/en/package/cyclonedds-cxx))
   * <https://github.com/OpenDDS/OpenDDS> (~~vcpkg~~)
+* RPC:
+  * <https://github.com/sogou/srpc>
+* Discovery:
+  * <https://github.com/mjansson/mdns>
 * Var:
   * [Boost.Asio (standalone)](https://think-async.com/Asio/) ([vcpkg](https://vcpkg.io/en/package/asio))
   * <https://github.com/zeromq/zyre>
@@ -380,6 +382,8 @@
 * <https://github.com/yhirose/cpp-httplib>
 * <https://github.com/drogonframework/drogon>
 * <https://github.com/Stiffstream/restinio>
+* Frontend:
+  * <https://github.com/alpinejs/alpine>
 
 ## Time
 * [\<chrono\>](https://en.cppreference.com/w/cpp/chrono.html)
