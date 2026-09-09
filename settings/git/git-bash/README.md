@@ -4,7 +4,7 @@
 * Save `git-prompt.sh` file to `<git_install_dir>\etc\profile.d` directory
 * Add to `<git_install_dir>\etc\profile.d\aliases.sh` file:
 ```
-alias sl='echo; git st; echo; git lg'
+alias sl='echo; git st; echo; git log'
 alias s='clear; sl ${FROM}~..HEAD'
 alias dt='(git dt &> /dev/null &)'
 alias dt-s='(git dt-s &> /dev/null &)'
