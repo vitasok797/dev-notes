@@ -163,6 +163,7 @@
 * <https://github.com/capnproto/capnproto>
 * <https://github.com/eyalz800/zpp_bits> ([vcpkg](https://vcpkg.io/en/package/zpp-bits))
 * <https://github.com/fraillt/bitsery>
+* <https://github.com/nixman/yas>
 * <https://github.com/p-ranav/alpaca>
 * <https://github.com/felixguendling/cista>
 * [Kaitai Struct (custom binary format)](https://kaitai.io/) ([vcpkg](https://vcpkg.io/en/package/kaitai-struct-cpp-stl-runtime))
@@ -353,6 +354,8 @@
 * gRPC:
   * ☀️ <https://github.com/grpc/grpc>
   * <https://github.com/Tradias/asio-grpc>
+  * Sites:
+    * [Awesome gRPC](https://github.com/grpc-ecosystem/awesome-grpc)
 * ZeroMQ:
   * <https://github.com/zeromq/libzmq> ([vcpkg](https://vcpkg.io/en/package/zeromq))
   * <https://github.com/zeromq/cppzmq>
