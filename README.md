@@ -31,6 +31,7 @@
 * [C++ requirements](prompts/cpp-requirements.md)
 
 ## Topics
+* [AI](topics/AI.md)
 * [Architecture](topics/architecture.md)
 * [Bindings](topics/bindings.md)
 * [Calc](topics/calc.md)
