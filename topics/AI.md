@@ -1,6 +1,6 @@
 # AI
 
-## SKILLS
+## Skills
 * [Code Scout](https://github.com/di-sukharev/code-scout-skill)
 
 ## 3D
