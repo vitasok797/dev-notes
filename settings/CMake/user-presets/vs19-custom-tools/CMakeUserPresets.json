@@ -1,0 +1,43 @@
+{
+    "version": 3,
+    "configurePresets": [
+        {
+            "name": "custom-tools",
+            "hidden": true,
+            "cacheVariables": {
+                "CMAKE_MAKE_PROGRAM": "ninja.exe"
+            },
+            "cmakeExecutable": "cmake.exe"
+        },
+        {
+            "name": "win-x64-vs19-debug",
+            "inherits": [
+                "win-x64-debug",
+                "custom-tools"
+            ]
+        },
+        {
+            "name": "win-x64-vs19-release",
+            "inherits": [
+                "win-x64-release",
+                "custom-tools"
+            ]
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "win-x64-vs19-debug",
+            "configurePreset": "win-x64-vs19-debug",
+            "inherits": [
+                "win"
+            ]
+        },
+        {
+            "name": "win-x64-vs19-release",
+            "configurePreset": "win-x64-vs19-release",
+            "inherits": [
+                "win"
+            ]
+        }
+    ]
+}
