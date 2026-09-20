@@ -46,13 +46,14 @@ git config --<system|global> mergetool.guiDefault true
 git config --<system|global> mergetool.keepBackup false
 
 # Aliases
-git config --<system|global> alias.aliases 'config --get-regexp alias\.'
+git config --<system|global> alias.alias 'config --get-regexp alias\.'
 git config --<system|global> alias.br 'branch -vv'
 git config --<system|global> alias.ch 'diff --check'
 git config --<system|global> alias.dt 'difftool -d'
 git config --<system|global> alias.dt-s 'difftool -d --staged'
 git config --<system|global> alias.lg 'log --all --graph'
 git config --<system|global> alias.lg-f 'log --all --graph --first-parent'
+git config --<system|global> alias.log-f 'log --first-parent'
 git config --<system|global> alias.log-h 'log --format="%C(yellow)%h%C(auto)%d %Cblue%as (%ar) %Cgreen%an %Creset%B"'
 git config --<system|global> alias.ls-i 'ls-files --eol'
 git config --<system|global> alias.ls-ig 'ls-files --other --exclude-standard --ignored'
