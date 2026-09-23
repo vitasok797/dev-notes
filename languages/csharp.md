@@ -148,6 +148,8 @@
   * [Кроссплатформенное использование классов .Net в 1С через Native ВК. Или замена COM на Linux II](https://habr.com/ru/articles/307188/)
   * [1С,.Net Core. Динамическая компиляция класса обертки для получения событий .Net объекта в 1С](https://habr.com/ru/articles/309850/)
   * [Плагины на C# без рантайма: NativeAOT-экспорт и вызов из Rust/Python](https://habr.com/ru/companies/otus/articles/950462/)
+  * [Путешествие в unmanaged code: туда и обратно](https://habr.com/ru/articles/543306/)
+  * [Взаимодействие C# и C++ кроссплатформенно](https://habr.com/ru/articles/347352/)
 * Languages:
   * [Import C# Dll in delphi 10.4](https://en.delphipraxis.net/topic/11493-import-c-dll-in-delphi-104/)
   * [Using a .NET Assembly via COM in Delphi](https://blogs.embarcadero.com/using-a-net-assembly-via-com-in-delphi/)
@@ -155,7 +157,6 @@
 * Libs:
   * [Conari](https://github.com/3F/Conari)
   * [bflat](https://github.com/bflattened/bflat)
-* [(Habr) Путешествие в unmanaged code: туда и обратно](https://habr.com/ru/articles/543306/)
 * [Qt/.NET — Hosting .NET code in a Qt application (1/3)](https://www.qt.io/blog/qt/.net-hosting-.net-code-in-a-qt-application) ([qtdotnet](https://github.com/qt-labs/qtdotnet))
 * [Hosting .NET Core Components in Unmanaged C/C++ Process in Windows and Linux](https://www.codeproject.com/Articles/1276328/Hosting-NET-Core-Components-in-Unmanaged-C-Cpluspl)
 * [Hosting .NET Web Service in Unmanaged C/C++ Process in Windows and Linux](https://www.codeproject.com/Articles/5344732/Hosting-NET-Web-Service-in-Unmanaged-C-Cplusplus-P)
