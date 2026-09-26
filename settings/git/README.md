@@ -13,6 +13,9 @@ git --no-pager config list --show-scope --show-origin
 git config --<system|global> user.name "<username>"
 git config --<system|global> user.email <email>
 
+# Defaults
+git config --<system|global> init.defaultBranch main
+
 # EOL conversion
 git config --<system|global> core.eol native
 git config --<system|global> core.autocrlf <input|true>
