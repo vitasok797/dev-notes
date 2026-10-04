@@ -45,5 +45,6 @@
 * [Multithreading](topics/multithreading.md)
 * [Plot](topics/plot.md)
 * [Software](topics/software.md)
+* [Tools (online)](topics/tools.md)
 * [TDD](topics/tdd.md)
 * [Var](topics/var.md)
