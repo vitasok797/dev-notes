@@ -34,10 +34,6 @@
 * [(Habr) Работаем с таймзонами правильно](https://habr.com/ru/companies/vk/articles/242645/)
 * [(Habr) Работаем с таймзонами в Python](https://habr.com/ru/companies/vk/articles/242615/)
 
-## Tools
-* [Pixel fonts](https://www.dafont.com/bitmap.php) ([5x5](https://www.dafont.com/5x5.font), [Pixeljosh6](https://www.dafont.com/pixeljosh6.font))
-* [LanguageTool](https://languagetool.org/ru)
-
 ## What every programmer should know
 * [What Every Programmer Should Know About Memory](https://lwn.net/Articles/250967/)
 * [What Every Computer Scientist Should Know About Floating-Point Arithmetic](https://docs.oracle.com/cd/E19957-01/806-3568/ncg_goldberg.html)
