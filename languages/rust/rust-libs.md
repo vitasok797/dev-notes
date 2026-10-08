@@ -8,7 +8,7 @@
 * [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 
 ## Bindings
-* [diplomat](https://github.com/rust-diplomat/diplomat)
+* [diplomat](https://crates.io/crates/diplomat)
 
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
