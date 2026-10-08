@@ -208,10 +208,10 @@
 * Units:
   * [uom](https://crates.io/crates/uom)
 * ⭐ [derive_more](https://crates.io/crates/derive_more)
+* ⭐ [ambassador](https://crates.io/crates/ambassador)
 * [derive-new](https://crates.io/crates/derive-new)
 * [getset](https://crates.io/crates/getset)
 * [bitflags](https://crates.io/crates/bitflags)
-* [ambassador](https://crates.io/crates/ambassador)
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
