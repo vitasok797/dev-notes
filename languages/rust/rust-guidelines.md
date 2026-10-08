@@ -12,7 +12,7 @@
 * [Decorator](guidelines/decorator.md)
 
 ## String
-* [String creation](guidelines/string_creation.md)
+* [String creation from literal](guidelines/string_creation.md)
 
 ## Traits
 * [FromStr vs From<&str>](guidelines/fromstr.md)
