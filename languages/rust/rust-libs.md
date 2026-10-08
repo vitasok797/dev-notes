@@ -64,6 +64,11 @@
 * [thiserror](https://crates.io/crates/thiserror)
 * [anyhow](https://crates.io/crates/anyhow)
 
+## Expressions
+* [evalexpr](https://crates.io/crates/evalexpr)
+* [meval](https://crates.io/crates/meval)
+* [exprtk_rs](https://crates.io/crates/exprtk_rs)
+
 ## File system
 * Walk:
   * [glob](https://crates.io/crates/glob)
@@ -147,7 +152,7 @@
 * [libloading](https://crates.io/crates/libloading)
 
 ## Scripting
-* ❓
+* (rhai)[https://crates.io/crates/rhai]
 
 ## System
 * [sysinfo](https://crates.io/crates/sysinfo)
