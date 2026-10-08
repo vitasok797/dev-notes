@@ -152,7 +152,7 @@
 * [libloading](https://crates.io/crates/libloading)
 
 ## Scripting
-* (rhai)[https://crates.io/crates/rhai]
+* [rhai](https://crates.io/crates/rhai)
 
 ## System
 * [sysinfo](https://crates.io/crates/sysinfo)
