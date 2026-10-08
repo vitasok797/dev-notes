@@ -211,6 +211,7 @@
 * [derive-new](https://crates.io/crates/derive-new)
 * [getset](https://crates.io/crates/getset)
 * [bitflags](https://crates.io/crates/bitflags)
+* [ambassador](https://crates.io/crates/ambassador)
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
