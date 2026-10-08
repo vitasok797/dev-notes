@@ -16,6 +16,7 @@
 
 ## Types
 * [Newtype](guidelines/newtype.md)
+* [Object extension](guidelines/object_extension.md)
 
 ## Var 📌
 * [Block expressions](guidelines/block_expressions.md)
