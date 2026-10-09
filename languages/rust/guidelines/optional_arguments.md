@@ -105,26 +105,21 @@ For complex object initialization or functions with a large number of optional s
 
 ```rust
 struct Server {
-    host: String,
-    port: u16,
+    host: String,  // Required
+    port: u16,     // Optional
 }
 
 struct ServerBuilder {
-    host: String,
-    port: u16,
+    host: String,  // Required
+    port: u16,     // Optional
 }
 
 impl ServerBuilder {
-    fn new() -> Self {
+    fn new(host: &str) -> Self {
         ServerBuilder {
-            host: String::from("127.0.0.1"), // default
-            port: 80,                        // default
+            host: host.to_string(),
+            port: 80,  // Default value
         }
-    }
-
-    fn host(mut self, host: &str) -> Self {
-        self.host = host.to_string();
-        self
     }
 
     fn port(mut self, port: u16) -> Self {
@@ -138,11 +133,10 @@ impl ServerBuilder {
 }
 
 fn main() {
-    // Configure only what you need
-    let server = ServerBuilder::new()
+    let server1 = ServerBuilder::new("127.0.0.1").build();
+
+    let server2 = ServerBuilder::new("localhost")
         .port(3000)
         .build();
-    
-    println!("Server running on {}:{}", server.host, server.port);
 }
 ```
