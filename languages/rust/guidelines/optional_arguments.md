@@ -3,7 +3,7 @@
 In Rust, there is no built-in support for optional arguments in function signatures like you would find in Python, C++, or JavaScript. Every function requires a fixed number of arguments of specified types.
 However, you can easily achieve this functionality using common Rust idioms. Here are the 4 main ways to handle this.
 
-## 1. Using Option<T> (Base Approach)
+## 1. Using `Option<T>` (base approach)
 To make an argument optional, wrap its type in an `Option<T>`. Callers must explicitly pass `Some(value)` or `None`. Inside the function, you provide a default value using `.unwrap_or()`.
 
 ```rust
@@ -19,7 +19,7 @@ fn main() {
 }
 ```
 
-## 2. Using Into<Option<T>> (Cleaner Function Calls)
+## 2. Using `Into<Option<T>>` (cleaner function calls)
 To avoid writing `Some(...)` every time you call the function, you can use generics and the `Into` trait. Rust automatically implements `Into<Option<T>>` for any type `T`.
 
 ```rust
@@ -34,20 +34,20 @@ fn main() {
 }
 ```
 
-## 3. Using Structs and the Default Trait (For Multiple Arguments)
+## 3. Using Structs and the `Default` trait (for multiple arguments)
 When a function accepts many parameters and most should have default values, it is idiomatic to group them into a configuration struct that implements the `Default` trait. You can then use the struct update syntax (`..`).
 
 ```rust
 struct Config {
-    port: u16,
-    timeout: u64,
+    port: u16,     // optional
+    timeout: u64,  // optional
 }
 
 impl Default for Config {
     fn default() -> Self {
         Config {
-            port: 8080,
-            timeout: 30,
+            port: 8080,   // default
+            timeout: 30,  // default
         }
     }
 }
@@ -77,8 +77,8 @@ impl Config {
     fn new(host: &str) -> Self {
         Config {
             host: host.to_string(),
-            port: 8080, // default
-            timeout: 30, // default
+            port: 8080,   // default
+            timeout: 30,  // default
         }
     }
 }
@@ -99,7 +99,7 @@ fn main() {
 }
 ```
 
-## 4. The Builder Pattern
+## 4. The Builder pattern
 For complex object initialization or functions with a large number of optional settings, the Builder Pattern is the most flexible and scalable solution in Rust.
 
 ```rust
