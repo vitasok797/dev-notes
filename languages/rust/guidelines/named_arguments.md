@@ -1,7 +1,6 @@
 # Named arguments
 
-Rust does not support named arguments (also known as keyword arguments) at the syntax level for functions. This is a conscious design choice by the language maintainers to keep the type system and function signatures simple.
-However, Rust provides several idiomatic workarounds that achieve the same result.
+Rust does not support named arguments (also known as keyword arguments) at the syntax level for functions. However, Rust provides several idiomatic workarounds that achieve the same result.
 
 ## 1. Passing a configuration structure
 The simplest way to mimic named arguments is to pass a struct to the function. Rust's **Field Init Shorthand** makes this code clean when your variable names match the struct fields:
