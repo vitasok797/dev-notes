@@ -39,29 +39,28 @@ When a function accepts many parameters and most should have default values, it 
 
 ```rust
 struct Config {
-    host: String,
     port: u16,
     timeout: u64,
 }
 
-// Define the default values for the struct fieldsimpl Default for Config {
+impl Default for Config {
     fn default() -> Self {
         Config {
-            host: String::from("localhost"),
             port: 8080,
             timeout: 30,
         }
     }
 }
 
-fn connect(config: Config) {
-    println!("Connecting to {}:{} (timeout: {}s)", config.host, config.port, config.timeout);
+fn connect(host: &str, config: Config) {
+    println!("Connecting to {}:{} (timeout: {}s)", host, config.port, config.timeout);
 }
 
 fn main() {
-    // Change only the port, the rest is copied from Config::default()
-    connect(Config {
-        port: 9000,
+    connect("localhost", Config::default());
+
+    connect("google.com", Config {
+        port: 443,
         ..Config::default()
     });
 }
