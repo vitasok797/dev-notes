@@ -208,9 +208,11 @@
   * [uom](https://crates.io/crates/uom)
 * ☀️ [derive_more](https://crates.io/crates/derive_more)
 * ☀️ [ambassador](https://crates.io/crates/ambassador)
+* ☀️ [bon](https://crates.io/crates/bon) (generating builders, optional and named parameters)
 * [derive-new](https://crates.io/crates/derive-new)
 * [getset](https://crates.io/crates/getset)
 * [bitflags](https://crates.io/crates/bitflags)
+* [smart-default](https://crates.io/crates/smart-default)
 
 ## UUID
 * [uuid](https://crates.io/crates/uuid)
