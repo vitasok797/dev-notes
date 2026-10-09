@@ -1,6 +1,7 @@
 # Rust / Interop
 
 ## Crates
+* ☀️ [diplomat](https://crates.io/crates/diplomat)
 * [bindgen](https://crates.io/crates/bindgen) ([user guide](https://rust-lang.github.io/rust-bindgen/))
 * [cbindgen](https://crates.io/crates/cbindgen)
 * [cxx](https://crates.io/crates/cxx) ([user guide](https://cxx.rs/))
