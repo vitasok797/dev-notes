@@ -35,7 +35,7 @@ fn main() {
 ```
 
 ## 3. Using Structs and the `Default` trait (for multiple arguments)
-When a function accepts many parameters and most should have default values, it is idiomatic to group them into a configuration struct that implements the `Default` trait. You can then use the struct update syntax (`..`).
+Pass required parameters directly into the function signature, while keeping the optional ones grouped inside a Config struct.
 
 ```rust
 struct Config {
@@ -65,6 +65,7 @@ fn main() {
     });
 }
 ```
+If you prefer passing a single Config object into your function, you can enforce required fields by passing them as arguments to a new() constructor function. Optional fields are assigned defaults inside this constructor.
 
 ```rust
 struct Config {
