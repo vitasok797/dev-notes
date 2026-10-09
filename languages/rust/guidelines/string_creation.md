@@ -23,7 +23,7 @@ fn main() {
 
 ## Comparison
 
-| Method | Performance & Behavior | When to Use |
+| Method | Performance & behavior | When to Use |
 |---|---|---|
 | `String::from(...)` | Idiomatic and highly readable. Clearly communicates the intention to build a String from a slice. | Use by default for clean and expressive code. |
 | `.to_string()` | Generic conversion. Converts any type implementing ToString (like numbers) into a string. | Convenient if you prefer consistent syntax across different types. |
