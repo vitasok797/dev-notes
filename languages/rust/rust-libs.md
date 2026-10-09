@@ -7,9 +7,6 @@
 * [Blessed.rs](https://blessed.rs/crates)
 * [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 
-## Bindings
-* [diplomat](https://crates.io/crates/diplomat)
-
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
 * [tower](https://crates.io/crates/tower)
@@ -18,6 +15,7 @@
 * [rustdds](https://crates.io/crates/rustdds)
 * [dust_dds](https://crates.io/crates/dust_dds)
 * [cyclors](https://crates.io/crates/cyclors) (CycloneDDS bindings)
+* [hdds](https://crates.io/crates/hdds)
 
 ### gRPC
 * [tonic](https://crates.io/crates/tonic)
@@ -207,8 +205,8 @@
   * [strum](https://crates.io/crates/strum)
 * Units:
   * [uom](https://crates.io/crates/uom)
-* ⭐ [derive_more](https://crates.io/crates/derive_more)
-* ⭐ [ambassador](https://crates.io/crates/ambassador)
+* ☀️ [derive_more](https://crates.io/crates/derive_more)
+* ☀️ [ambassador](https://crates.io/crates/ambassador)
 * [derive-new](https://crates.io/crates/derive-new)
 * [getset](https://crates.io/crates/getset)
 * [bitflags](https://crates.io/crates/bitflags)
