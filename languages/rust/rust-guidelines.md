@@ -4,6 +4,7 @@
 
 ## Functions
 * [Lambda type inference](guidelines/lambda_type_inference.md)
+* [Optional arguments](guidelines/optional_arguments.md)
 
 ## Math
 * [Float range](guidelines/float_range.md)
