@@ -10,6 +10,7 @@
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
 * [tower](https://crates.io/crates/tower)
+* ☀️ [interprocess](https://crates.io/crates/interprocess)
 
 ### DDS
 * [rustdds](https://crates.io/crates/rustdds)
