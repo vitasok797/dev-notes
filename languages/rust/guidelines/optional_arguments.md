@@ -35,7 +35,7 @@ fn main() {
 ```
 
 ## 3. Using structs (for multiple arguments)
-Pass required parameters directly into the function signature, while keeping the optional ones grouped inside a Config struct.
+Pass required parameters directly into the function signature, while keeping the optional ones grouped inside a config struct.
 
 ```rust
 struct Config {
@@ -65,7 +65,7 @@ fn main() {
     });
 }
 ```
-If you prefer passing a single Config object into your function, you can enforce required fields by passing them as arguments to a new() constructor function. Optional fields are assigned defaults inside this constructor.
+If you prefer passing a single config object into your function, you can enforce required fields by passing them as arguments to a `new()` constructor function. Optional fields are assigned defaults inside this constructor.
 
 ```rust
 struct Config {
