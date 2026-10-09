@@ -4,6 +4,7 @@
 
 ## Functions
 * Arguments:
+  * [Named arguments](guidelines/named_arguments.md)
   * [Optional arguments](guidelines/optional_arguments.md)
 * [Lambda type inference](guidelines/lambda_type_inference.md)
 
