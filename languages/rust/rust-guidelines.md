@@ -3,8 +3,9 @@
 [*Godbolt*](https://godbolt.org/z/W1xT841hz)
 
 ## Functions
+* Arguments:
+  * [Optional arguments](guidelines/optional_arguments.md)
 * [Lambda type inference](guidelines/lambda_type_inference.md)
-* [Optional arguments](guidelines/optional_arguments.md)
 
 ## Math
 * [Float range](guidelines/float_range.md)
