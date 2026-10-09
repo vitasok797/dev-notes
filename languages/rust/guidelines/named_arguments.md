@@ -3,8 +3,8 @@
 Rust does not support named arguments (also known as keyword arguments) at the syntax level for functions. This is a conscious design choice by the language maintainers to keep the type system and function signatures simple.
 However, Rust provides several idiomatic workarounds that achieve the same result.
 
-## 1. Passing a Configuration Structure
-The simplest way to mimic named arguments is to pass a struct to the function. Rust's Field Init Shorthand makes this code clean when your variable names match the struct fields:
+## 1. Passing a configuration structure
+The simplest way to mimic named arguments is to pass a struct to the function. Rust's **Field Init Shorthand** makes this code clean when your variable names match the struct fields:
 
 ```rust
 struct CropOptions {
@@ -32,8 +32,8 @@ fn main() {
 }
 ```
 
-## 2. Structs with Default (For Optional Arguments)
-If your function accepts many parameters but most have sensible defaults, you can derive or implement the Default trait and use the Struct Update Syntax (..):
+## 2. Structs with `Default` (for optional arguments)
+If your function accepts many parameters but most have sensible defaults, you can derive or implement the `Default` trait and use the **Struct Update Syntax** (`..`):
 
 ```rust
 #[derive(Default)]
@@ -55,7 +55,7 @@ fn main() {
 }
 ```
 
-## 3. The Builder Pattern
+## 3. The Builder pattern
 This is the most popular approach in Rust ecosystem for complex functions. While you can write builders manually, modern Rust crates like [bon](https://bon-rs.com/) allow you to generate them automatically using macros:
 
 ```rust
@@ -75,8 +75,8 @@ fn main() {
 }
 ```
 
-## 4. The Newtype Pattern (To Prevent Argument Swapping)
-If your goal is simply to prevent mixing up arguments of the same type (e.g., passing height where width is expected), you can wrap basic types into distinct structures:
+## 4. The Newtype pattern (to prevent argument swapping)
+If your goal is simply to prevent mixing up arguments of the same type (e.g., passing `height` where `width` is expected), you can wrap basic types into distinct structures:
 
 ```rust
 struct Width(pub u32);
