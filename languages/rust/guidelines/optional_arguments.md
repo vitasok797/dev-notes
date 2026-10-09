@@ -34,7 +34,7 @@ fn main() {
 }
 ```
 
-## 3. Using Structs and the `Default` trait (for multiple arguments)
+## 3. Using structs (for multiple arguments)
 Pass required parameters directly into the function signature, while keeping the optional ones grouped inside a Config struct.
 
 ```rust
