@@ -66,6 +66,39 @@ fn main() {
 }
 ```
 
+```rust
+struct Config {
+    host: String,  // required
+    port: u16,     // optional
+    timeout: u64,  // optional
+}
+
+impl Config {
+    fn new(host: &str) -> Self {
+        Config {
+            host: host.to_string(),
+            port: 8080, // default
+            timeout: 30, // default
+        }
+    }
+}
+
+fn connect(config: Config) {
+    println!("Connecting to {}:{} (timeout: {}s)", config.host, config.port, config.timeout);
+}
+
+fn main() {
+    let config1 = Config::new("localhost");
+    connect(config1);
+
+    let config2 = Config {
+        port: 443,
+        ..Config::new("127.0.0.1")
+    };
+    connect(config2);
+}
+```
+
 ## 4. The Builder Pattern
 For complex object initialization or functions with a large number of optional settings, the Builder Pattern is the most flexible and scalable solution in Rust.
 
