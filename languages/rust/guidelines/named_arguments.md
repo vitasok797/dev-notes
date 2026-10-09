@@ -32,30 +32,7 @@ fn main() {
 }
 ```
 
-## 2. Structs with `Default` (for optional arguments)
-If your function accepts many parameters but most have sensible defaults, you can derive or implement the `Default` trait and use the **Struct Update Syntax** (`..`):
-
-```rust
-#[derive(Default)]
-struct ConnectionOptions {
-    host: String,
-    port: u16,
-    timeout: u32,
-    retry_attempts: u8,
-}
-
-fn connect(opts: ConnectionOptions) { /* ... */ }
-
-fn main() {
-    connect(ConnectionOptions {
-        host: String::from("localhost"),
-        port: 8080,
-        ..Default::default() // timeout and retry_attempts are filled automatically
-    });
-}
-```
-
-## 3. The Builder pattern
+## 2. The Builder pattern
 This is the most popular approach in Rust ecosystem for complex functions. While you can write builders manually, modern Rust crates like [bon](https://bon-rs.com/) allow you to generate them automatically using macros:
 
 ```rust
@@ -75,7 +52,7 @@ fn main() {
 }
 ```
 
-## 4. The Newtype pattern (to prevent argument swapping)
+## 3. The Newtype pattern (to prevent argument swapping)
 If your goal is simply to prevent mixing up arguments of the same type (e.g., passing `height` where `width` is expected), you can wrap basic types into distinct structures:
 
 ```rust
