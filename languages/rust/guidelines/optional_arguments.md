@@ -39,15 +39,15 @@ Pass required parameters directly into the function signature, while keeping the
 
 ```rust
 struct Config {
-    port: u16,     // optional
-    timeout: u64,  // optional
+    port: u16,     // Optional
+    timeout: u64,  // Optional
 }
 
 impl Default for Config {
     fn default() -> Self {
         Config {
-            port: 8080,   // default
-            timeout: 30,  // default
+            port: 8080,   // Default value
+            timeout: 30,  // Default value
         }
     }
 }
@@ -69,17 +69,17 @@ If you prefer passing a single config object into your function, you can enforce
 
 ```rust
 struct Config {
-    host: String,  // required
-    port: u16,     // optional
-    timeout: u64,  // optional
+    host: String,  // Required
+    port: u16,     // Optional
+    timeout: u64,  // Optional
 }
 
 impl Config {
     fn new(host: &str) -> Self {
         Config {
             host: host.to_string(),
-            port: 8080,   // default
-            timeout: 30,  // default
+            port: 8080,   // Default value
+            timeout: 30,  // Default value
         }
     }
 }
