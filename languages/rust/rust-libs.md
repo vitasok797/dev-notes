@@ -40,6 +40,7 @@
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
 * [hashbrown](https://crates.io/crates/hashbrown) (port of Google's high-performance SwissTable hash map)
+* [flat_map](https://crates.io/crates/flat_map)
 
 ## Data processing
 * [polars](https://crates.io/crates/polars)
