@@ -13,13 +13,13 @@
 * ☀️ [interprocess](https://crates.io/crates/interprocess)
 
 ### DDS
-* [rustdds](https://crates.io/crates/rustdds)
-* [dust_dds](https://crates.io/crates/dust_dds)
+* ☀️ [rustdds](https://crates.io/crates/rustdds)
+* ☀️ [dust_dds](https://crates.io/crates/dust_dds)
 * [cyclors](https://crates.io/crates/cyclors) (CycloneDDS bindings)
 * [hdds](https://crates.io/crates/hdds)
 
 ### gRPC
-* [tonic](https://crates.io/crates/tonic)
+* ☀️ [tonic](https://crates.io/crates/tonic)
 * [grpc](https://crates.io/crates/grpc)
 
 ### ZeroMQ
