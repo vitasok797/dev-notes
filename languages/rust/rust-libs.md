@@ -61,13 +61,13 @@
 * [slog](https://crates.io/crates/slog)
 
 ## Error handling
-* [thiserror](https://crates.io/crates/thiserror)
-* [anyhow](https://crates.io/crates/anyhow)
+* ☀️ [thiserror](https://crates.io/crates/thiserror)
+* ☀️ [anyhow](https://crates.io/crates/anyhow)
 
 ## Expressions
-* [evalexpr](https://crates.io/crates/evalexpr)
-* [meval](https://crates.io/crates/meval)
-* [exprtk_rs](https://crates.io/crates/exprtk_rs)
+* ☀️ [evalexpr](https://crates.io/crates/evalexpr)
+* ☀️ [meval](https://crates.io/crates/meval)
+* ☀️ [exprtk_rs](https://crates.io/crates/exprtk_rs)
 
 ## File system
 * Walk:
@@ -79,19 +79,19 @@
 * [which](https://crates.io/crates/which)
 
 ## Formats
-* [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)
-* [serde_json](https://crates.io/crates/serde_json)
+* ☀️ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)
+* ☀️ [serde_json](https://crates.io/crates/serde_json)
 * XML ([search](https://crates.io/search?q=XML))
 * [toml](https://crates.io/crates/toml)
-* [csv](https://crates.io/crates/csv)
+* ☀️ [csv](https://crates.io/crates/csv)
 * [base64](https://crates.io/crates/base64)
 * FlatBuffers:
   * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
 * Cap'n Proto:
   * [capnp](https://crates.io/crates/capnp)
 * Protobuf:
-  * [prost](https://crates.io/crates/prost)
-  * [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
+  * ☀️ [prost](https://crates.io/crates/prost)
+  * ☀️ [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
 
 ## GUI
 * Iced:
