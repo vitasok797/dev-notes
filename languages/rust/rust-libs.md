@@ -182,7 +182,6 @@
 * Regex:
   * ☀️ [regex](https://crates.io/crates/regex)
   * [fancy-regex](https://crates.io/crates/fancy-regex)
-* [textwrap](https://crates.io/crates/textwrap)
 * Convert:
   * ☀️ [encoding_rs](https://crates.io/crates/encoding_rs)
 * Tabulate:
@@ -194,6 +193,7 @@
   * [line-ending](https://crates.io/crates/line-ending)
   * [eolify](https://crates.io/crates/eolify)
   * [normalized-line-endings](https://crates.io/crates/normalized-line-endings)
+* [textwrap](https://crates.io/crates/textwrap)
 
 ## Time
 * [time](https://crates.io/crates/time)
