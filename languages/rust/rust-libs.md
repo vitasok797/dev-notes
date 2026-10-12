@@ -181,6 +181,8 @@
 ## Text
 * ☀️ [regex](https://crates.io/crates/regex)
 * [textwrap](https://crates.io/crates/textwrap)
+* Convert:
+  * ☀️ [encoding_rs](https://crates.io/crates/encoding_rs)
 * Tabulate:
   * ☀️ [tabled](https://crates.io/crates/tabled)
   * [comfy-table](https://crates.io/crates/comfy-table)
