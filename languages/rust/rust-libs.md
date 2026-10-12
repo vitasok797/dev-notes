@@ -87,7 +87,7 @@
   * [capnp](https://crates.io/crates/capnp)
 * Protobuf:
   * ☀️ [prost](https://crates.io/crates/prost)
-  * ☀️ [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
+  * [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
 
 ## GUI
 * Iced:
