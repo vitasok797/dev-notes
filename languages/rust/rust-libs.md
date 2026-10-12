@@ -179,7 +179,9 @@
   * [inquire](https://crates.io/crates/inquire)
 
 ## Text
-* ☀️ [regex](https://crates.io/crates/regex)
+* Regex:
+  * ☀️ [regex](https://crates.io/crates/regex)
+  * [fancy-regex](https://crates.io/crates/fancy-regex)
 * [textwrap](https://crates.io/crates/textwrap)
 * Convert:
   * ☀️ [encoding_rs](https://crates.io/crates/encoding_rs)
