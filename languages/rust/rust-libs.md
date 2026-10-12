@@ -142,7 +142,7 @@
   * [std::process](https://doc.rust-lang.org/std/process/)
   * [subprocess](https://crates.io/crates/subprocess)
   * [duct](https://crates.io/crates/duct)
-* Signal handling ([article](https://rust-cli.github.io/book/in-depth/signals.html)):
+* ☀️ Signal handling ([article](https://rust-cli.github.io/book/in-depth/signals.html)):
   * [ctrlc](https://crates.io/crates/ctrlc) ([issue](https://github.com/Detegr/rust-ctrlc/issues/122))
   * [ctrlc2](https://crates.io/crates/ctrlc2)
   * [signal-hook](https://crates.io/crates/signal-hook)
@@ -179,10 +179,10 @@
   * [inquire](https://crates.io/crates/inquire)
 
 ## Text
-* [regex](https://crates.io/crates/regex)
+* ☀️ [regex](https://crates.io/crates/regex)
 * [textwrap](https://crates.io/crates/textwrap)
 * Tabulate:
-  * [tabled](https://crates.io/crates/tabled)
+  * ☀️ [tabled](https://crates.io/crates/tabled)
   * [comfy-table](https://crates.io/crates/comfy-table)
 * Line endings:
   * [newline-converter](https://crates.io/crates/newline-converter)
@@ -227,6 +227,6 @@
 * [poem](https://crates.io/crates/poem)
 
 ## Var 📌
-* [scopeguard](https://crates.io/crates/scopeguard)
+* ☀️ [scopeguard](https://crates.io/crates/scopeguard)
 * [contracts](https://crates.io/crates/contracts)
 * [lru](https://crates.io/crates/lru) (LRU cache)
