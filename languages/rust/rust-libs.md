@@ -56,10 +56,6 @@
 * SQLite:
   * [rusqlite](https://crates.io/crates/rusqlite)
 
-## Debug
-* [trace](https://crates.io/crates/trace)
-* [slog](https://crates.io/crates/slog)
-
 ## Error handling
 * ☀️ [thiserror](https://crates.io/crates/thiserror)
 * ☀️ [anyhow](https://crates.io/crates/anyhow)
@@ -125,6 +121,10 @@
 * [env_logger](https://crates.io/crates/env_logger)
 * [loggerv](https://crates.io/crates/loggerv)
 * [log4rs](https://crates.io/crates/log4rs)
+* Debug:
+  * [slog](https://crates.io/crates/slog)
+  * [tracing](https://crates.io/crates/tracing)
+  * [trace](https://crates.io/crates/trace)
 
 ## Multithreading
 * Channels:
