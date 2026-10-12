@@ -209,6 +209,7 @@
 * Enum:
   * [derive_more](https://crates.io/crates/derive_more) 
   * [strum](https://crates.io/crates/strum)
+  * [num_enum](https://crates.io/crates/num_enum)
 * Units:
   * [uom](https://crates.io/crates/uom)
 * ☀️ [derive_more](https://crates.io/crates/derive_more)
