@@ -134,8 +134,10 @@
   * [flume](https://crates.io/crates/flume)
 * Parallel computation:
   * [rayon](https://crates.io/crates/rayon)
+* Events:
+  * ☀️ [rsevents](https://crates.io/crates/rsevents)
+  * ☀️ [event-listener](https://crates.io/crates/event-listener)
 * [crossbeam](https://crates.io/crates/crossbeam)
-* [rsevents](https://crates.io/crates/rsevents)
 * [threadpool](https://crates.io/crates/threadpool)
 
 ## Process
