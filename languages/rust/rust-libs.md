@@ -76,13 +76,14 @@
 * [which](https://crates.io/crates/which)
 
 ## Formats
-* ☀️ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers):
+* ☀️ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, FlexBuffers):
   * ☀️ [serde_json](https://crates.io/crates/serde_json)
-  * ☀️ [csv](https://crates.io/crates/csv)
+  * YAML:
+    * [serde_yaml_ng](https://crates.io/crates/serde_yaml_ng)
+    * [yaml_serde](https://crates.io/crates/yaml_serde)
   * [toml](https://crates.io/crates/toml)
+  * ☀️ [csv](https://crates.io/crates/csv)
   * [flexbuffers](https://crates.io/crates/flexbuffers)
-* XML ([search](https://crates.io/search?q=XML))
-* [base64](https://crates.io/crates/base64)
 * FlatBuffers:
   * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
 * Cap'n Proto:
@@ -90,6 +91,8 @@
 * Protobuf:
   * ☀️ [prost](https://crates.io/crates/prost)
   * [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
+* XML ([search](https://crates.io/search?q=XML))
+* [base64](https://crates.io/crates/base64)
 
 ## GUI
 * Iced:
