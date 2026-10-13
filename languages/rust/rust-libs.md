@@ -76,11 +76,12 @@
 * [which](https://crates.io/crates/which)
 
 ## Formats
-* ☀️ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)
-* ☀️ [serde_json](https://crates.io/crates/serde_json)
-* ☀️ [csv](https://crates.io/crates/csv)
+* ☀️ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers):
+  * ☀️ [serde_json](https://crates.io/crates/serde_json)
+  * ☀️ [csv](https://crates.io/crates/csv)
+  * [toml](https://crates.io/crates/toml)
+  * [flexbuffers](https://crates.io/crates/flexbuffers)
 * XML ([search](https://crates.io/search?q=XML))
-* [toml](https://crates.io/crates/toml)
 * [base64](https://crates.io/crates/base64)
 * FlatBuffers:
   * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
