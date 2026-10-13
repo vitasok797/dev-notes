@@ -122,13 +122,13 @@
   * [twox-hash](https://crates.io/crates/twox-hash)
 
 ## Log
-* [log](https://crates.io/crates/log)
-* [env_logger](https://crates.io/crates/env_logger)
-* [loggerv](https://crates.io/crates/loggerv)
-* [log4rs](https://crates.io/crates/log4rs)
+* [log](https://crates.io/crates/log) facade:
+  * [env_logger](https://crates.io/crates/env_logger)
+  * [loggerv](https://crates.io/crates/loggerv)
+  * [log4rs](https://crates.io/crates/log4rs)
+* [slog](https://crates.io/crates/slog)
+* [tracing](https://crates.io/crates/tracing)
 * Debug:
-  * [slog](https://crates.io/crates/slog)
-  * [tracing](https://crates.io/crates/tracing)
   * [trace](https://crates.io/crates/trace)
 
 ## Multithreading
