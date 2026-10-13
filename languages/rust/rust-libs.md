@@ -40,6 +40,7 @@
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
 * [hashbrown](https://crates.io/crates/hashbrown) (port of Google's high-performance SwissTable hash map)
+* [indexmap](https://crates.io/crates/indexmap) (a hash table with consistent order and fast iteration)
 * [flat_map](https://crates.io/crates/flat_map)
 
 ## Data processing
@@ -77,9 +78,9 @@
 ## Formats
 * ☀️ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, MessagePack, FlexBuffers)
 * ☀️ [serde_json](https://crates.io/crates/serde_json)
+* ☀️ [csv](https://crates.io/crates/csv)
 * XML ([search](https://crates.io/search?q=XML))
 * [toml](https://crates.io/crates/toml)
-* ☀️ [csv](https://crates.io/crates/csv)
 * [base64](https://crates.io/crates/base64)
 * FlatBuffers:
   * [flatbuffers](https://crates.io/crates/flatbuffers) ([search](https://crates.io/search?q=FlatBuffers))
@@ -184,6 +185,7 @@
   * [fancy-regex](https://crates.io/crates/fancy-regex)
 * Convert:
   * ☀️ [encoding_rs](https://crates.io/crates/encoding_rs)
+  * ☀️ [translit](https://crates.io/crates/translit)
 * Tabulate:
   * ☀️ [tabled](https://crates.io/crates/tabled)
   * [comfy-table](https://crates.io/crates/comfy-table)
