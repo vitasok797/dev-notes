@@ -1,37 +1,35 @@
 # Cargo offline usage
 
-Links:
-* Crates.io download link (example): https://crates.io/api/v1/crates/serde/1.0.0/download
-* Crates.io index: https://github.com/rust-lang/crates.io-index
-* https://doc.rust-lang.org/cargo/reference/source-replacement.html#local-registry-sources
-* https://crates.io/crates/cargo-local-registry
+## On the online machine (gathering the cache)
 
-## Step 1: On the online machine (gathering the cache)
-When you build Rust projects online, Cargo automatically caches all downloaded packages as .crate files (which are just compressed source archives) in a central system directory.
-To harvest your offline asset cache:
+1. Create a script in the directory where your Rust projects are located.
+2. Paste and run the following script to download all dependencies into a clean, isolated directory:
 
-   1. Navigate to: `%USERPROFILE%\.cargo\registry\cache\`
-   2. Inside, you will see a folder named something like `github.com-XXXXXX` or `index.crates.io-XXXXXX`.
-   3. Copy everything inside that directory to your USB drive or external storage. This is your definitive asset_cache.
+```batch
+@echo off
+setlocal
+set CARGO_HOME=%CD%\temp_cargo_home
 
-## Step 2: On the offline machine (one-time setup)
-We will configure the offline environment globally so that individual projects are completely unaware they are running in an isolated environment.
+:: Run 'cargo fetch' for each of your projects
+cd "project1" && cargo fetch && cd ..
+cd "project2" && cargo fetch && cd ..
+cd "project3" && cargo fetch && cd ..
 
-   1. Move the files from your USB drive to a permanent local directory, for example: `C:\rust_asset_cache\`
-   2. Create one single global configuration file for your Windows user profile at:
-   `%USERPROFILE%\.cargo\config.toml`
-   3. Paste the following configuration into it:
+echo Cache collection complete
+pause
+```
 
+3. Open the newly created `temp_cargo_home\registry\` folder and copy two specific directories to your USB drive:
+	• 📁 cache (contains the actual .crate archives)
+	• 📁 index (contains critical dependency metadata)
+
+## On the offline machine (deployment)
+
+1. Navigate to your global Cargo home directory: `%USERPROFILE%\.cargo\`
+2. Create a folder named registry inside it if it doesn't exist.
+3. Paste the cache and index folders from your USB drive directly into: `%USERPROFILE%\.cargo\registry\`
+4. Create or edit the global configuration file at `%USERPROFILE%\.cargo\config.toml` and add only these lines:
 ```toml
-# Permanently block Cargo from attempting network access
 [net]
 offline = true
-
-# Redirect all standard crates.io requests to our local mirror
-[source.crates-io]
-replace-with = "my-shared-asset-cache"
-
-# Specify the path to your centralized archive directory
-[source.my-shared-asset-cache]
-local-registry = "C:/rust_asset_cache"
 ```
