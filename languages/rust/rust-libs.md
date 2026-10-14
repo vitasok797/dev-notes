@@ -37,13 +37,13 @@
   * [config-manager](https://crates.io/crates/config-manager)
 
 ## Containers
-- Flat map:
-  - [linear-map](https://crates.io/crates/linear-map)
-  - [flat_map](https://crates.io/crates/flat_map)
-- Hashers for HashMap:
-  - [ahash](https://crates.io/crates/ahash)
-  - [rustc-hash](https://crates.io/crates/rustc-hash)
-  - [foldhash](https://crates.io/crates/foldhash)
+* Flat map:
+  * [linear-map](https://crates.io/crates/linear-map)
+  * [flat_map](https://crates.io/crates/flat_map)
+* Hashers for HashMap:
+  * [ahash](https://crates.io/crates/ahash)
+  * [rustc-hash](https://crates.io/crates/rustc-hash)
+  * [foldhash](https://crates.io/crates/foldhash)
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
 * [indexmap](https://crates.io/crates/indexmap) (a hash table with consistent order and fast iteration)
