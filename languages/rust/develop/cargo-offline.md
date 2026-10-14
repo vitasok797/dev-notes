@@ -1,5 +1,11 @@
 # Cargo offline usage
 
+Links:
+* Crates.io download link (example): https://crates.io/api/v1/crates/serde/1.0.0/download
+* Crates.io index: https://github.com/rust-lang/crates.io-index
+* https://doc.rust-lang.org/cargo/reference/source-replacement.html#local-registry-sources
+* https://crates.io/crates/cargo-local-registry
+
 ## Step 1: On the online machine (gathering the cache)
 When you build Rust projects online, Cargo automatically caches all downloaded packages as .crate files (which are just compressed source archives) in a central system directory.
 To harvest your offline asset cache:
