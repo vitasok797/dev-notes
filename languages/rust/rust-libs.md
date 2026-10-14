@@ -37,11 +37,16 @@
   * [config-manager](https://crates.io/crates/config-manager)
 
 ## Containers
+- Flat map:
+  - [linear-map](https://crates.io/crates/linear-map)
+  - [flat_map](https://crates.io/crates/flat_map)
+- Hashers for HashMap:
+  - [ahash](https://crates.io/crates/ahash)
+  - [rustc-hash](https://crates.io/crates/rustc-hash)
+  - [foldhash](https://crates.io/crates/foldhash)
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
-* [hashbrown](https://crates.io/crates/hashbrown) (port of Google's high-performance SwissTable hash map)
 * [indexmap](https://crates.io/crates/indexmap) (a hash table with consistent order and fast iteration)
-* [flat_map](https://crates.io/crates/flat_map)
 
 ## Data processing
 * [polars](https://crates.io/crates/polars)
@@ -215,8 +220,8 @@
   * [shrinkwraprs](https://crates.io/crates/shrinkwraprs)
   * [nutype](https://crates.io/crates/nutype)
 * Enum:
-  * [derive_more](https://crates.io/crates/derive_more) 
-  * [strum](https://crates.io/crates/strum)
+  * ☀️ [derive_more](https://crates.io/crates/derive_more) 
+  * ☀️ [strum](https://crates.io/crates/strum)
   * [num_enum](https://crates.io/crates/num_enum)
 * Units:
   * [uom](https://crates.io/crates/uom)
