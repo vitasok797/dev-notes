@@ -17,7 +17,6 @@
    [guidelines](languages/rust/rust-guidelines.md),
    [interop](languages/rust/rust-interop.md),
    [language](languages/rust/rust-language.md),
-   [learn](languages/rust/rust-learn.md),
    [libs](languages/rust/rust-libs.md))
 * [C#](languages/csharp.md)
 * [Delphi](languages/delphi.md)
