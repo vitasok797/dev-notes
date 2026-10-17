@@ -1,16 +1,5 @@
 # C++ / Libs
 
-## Libraries to test
-* Argument parsers:
-  * [ ] cxxopts
-  * [ ] argparse
-* Formats:
-  * [ ] tomlplusplus
-  * [ ] pugixml
-  * [ ] tinyxml2
-  * [ ] reflectcpp
-  * [ ] serdepp
-
 ## Library lists
 * [Awesome C++](https://github.com/fffaraz/awesome-cpp)
 * [Awesome HPP](https://github.com/p-ranav/awesome-hpp)
