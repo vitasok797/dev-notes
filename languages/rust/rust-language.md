@@ -58,6 +58,6 @@
 * [Let's Get Rusty](https://www.youtube.com/@letsgetrusty/videos)
 
 ## Var 📌
+* ⭐ [Prototyping in Rust](https://corrode.dev/blog/prototyping/)
 * [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
-* [Prototyping in Rust](https://corrode.dev/blog/prototyping/)
 * [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
