@@ -104,15 +104,18 @@
   * [iced](https://crates.io/crates/iced)
   * [iced_aw](https://crates.io/crates/iced_aw) (additional widgets)
   * [awesome-iced](https://github.com/iced-rs/awesome-iced)
+* [slint](https://crates.io/crates/slint)
+* [gtk4-rs](https://crates.io/crates/gtk4)
 * [egui](https://crates.io/crates/egui)
 * [gpui](https://crates.io/crates/gpui), [gpui-component](https://crates.io/crates/gpui-component)
-* [slint](https://crates.io/crates/slint)
 * Qt:
   * [Qt Bridges](https://www.qt.io/development/qt-bridges)
   * [cxx-qt](https://crates.io/crates/cxx-qt) ([doc](https://kdab.github.io/cxx-qt/book/))
   * [qt_core](https://crates.io/crates/qt_core)
   * [rust_qt_binding_generator](https://crates.io/crates/rust_qt_binding_generator)
   * [qmetaobject](https://crates.io/crates/qmetaobject)
+* WebView:
+  * [tauri](https://crates.io/crates/tauri)
 
 ### Plot
 * [plotly](https://crates.io/crates/plotly)
@@ -164,7 +167,11 @@
 * [libloading](https://crates.io/crates/libloading)
 
 ## Scripting
+* [mlua](https://crates.io/crates/mlua)
 * [rhai](https://crates.io/crates/rhai)
+* [rune](https://crates.io/crates/rune)
+* [wasmtime](https://crates.io/crates/wasmtime)
+* [rustpython](https://crates.io/crates/rustpython)
 
 ## System
 * [sysinfo](https://crates.io/crates/sysinfo)
