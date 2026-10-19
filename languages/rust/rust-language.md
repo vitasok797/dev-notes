@@ -41,6 +41,9 @@
 ## Macro
 * ⚠️ [Writing production Rust macros with macro_rules!](https://www.howtocodeit.com/guides/writing-production-rust-macros-with-macro-rules) 🔒
 
+## Multithreading
+* [(Habr) О параллельном (concurrent) и асинхронном (async) Rust](https://habr.com/ru/companies/timeweb/articles/802609/)
+
 ## Project structure
 * [Rust modules vs files](https://fasterthanli.me/articles/rust-modules-vs-files) 🔒
 
