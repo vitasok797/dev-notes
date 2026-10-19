@@ -13,6 +13,8 @@
     * [Pylance (MS)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
     * [Python Debugger (MS)](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
     * [Python Environments (MS)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs)
+  * [Ruff (linter and code formatter)](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
+  * ❓ [Python Test Explorer](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter)
 * ⚠️ Unsorted:
   * [Hex Editor (MS)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor)
   * [XML (Red Hat)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
