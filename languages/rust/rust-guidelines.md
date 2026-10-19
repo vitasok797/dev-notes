@@ -2,6 +2,10 @@
 
 [*Godbolt*](https://godbolt.org/z/W1xT841hz)
 
+## Crates and Modules
+* [Module visibility & encapsulation strategy](guidelines/module_visibility.md)
+* [Test organization](guidelines/test_organization.md)
+
 ## Functions
 * Arguments:
   * [Named arguments](guidelines/named_arguments.md)
