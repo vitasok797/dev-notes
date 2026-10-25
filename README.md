@@ -24,6 +24,7 @@
 * [Julia](languages/julia.md)
 * [Lua](languages/lua.md)
 * [Python](languages/python.md)
+* [WebView](languages/webview.md)
 
 ## Prompts
 * [Prompts](prompts/prompts.md)
