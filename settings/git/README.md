@@ -25,6 +25,9 @@ git config --<system|global> merge.ff false
 git config --<system|global> pull.ff only
 git config --<system|global> pull.rebase false
 
+# Merge
+git config --<system|global> merge.conflictStyle zdiff3
+
 # Enable automatic fetch --prune
 git config --<system|global> fetch.prune true
 git config --<system|global> fetch.pruneTags true
