@@ -4,6 +4,7 @@
 * [Web HMI and SCADA Demos](https://www.genlogic.com/demos.html)
 
 ## Frameworks
+* [Tailwind CSS](https://tailwindcss.com/)
 * [Alpine.js](https://alpinejs.dev/):
   * [Alpine.js frontend](frameworks/alpinejs_frontend.md) 🔗
 * [Vue](https://vuejs.org/):
@@ -12,5 +13,5 @@
     * [shadcn-vue](https://www.shadcn-vue.com/)
     * [PrimeVue](https://v3.primevue.org/)
   * Gauges:
-    * <https://github.com/swina/rockiot-ui>
-    * <https://github.com/Navnit73/vue-speedometer-gauge-chart>
+    * [rockiot-ui](https://github.com/swina/rockiot-ui)
+    * [vue-speedometer-gauge-chart](https://github.com/Navnit73/vue-speedometer-gauge-chart)
