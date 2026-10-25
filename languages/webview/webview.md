@@ -17,4 +17,4 @@
 
 ## Guidelines
 * [Alpine.js frontend](guidelines/alpinejs_frontend.md) 🔗
-* [Webview SCADA](guidelines/webview_scada.md) 🔗
+* [WebView SCADA](guidelines/webview_scada.md) 🔗
