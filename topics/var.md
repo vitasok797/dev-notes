@@ -15,15 +15,15 @@
 * [(Metanit) Руководство по PostgreSQL](https://metanit.com/sql/postgresql/)
 * [Руководство по SQL](https://proselyte.net/tutorials/sql/sql-transactions/)
 
-## GUI
-* [Multithreading with wxWidgets](https://cool-emerald.blogspot.com/2020/01/multithreading-with-wxwidgets.html)
-
 ## Guidelines
 * [Conventional Branch](https://conventional-branch.github.io/)
 * [Conventional Commits](https://www.conventionalcommits.org/)
 * [Keep a Changelog](https://keepachangelog.com/)
 * [Semantic Versioning 2.0.0](https://semver.org)
 * [TODO.md](https://github.com/todomd/todo.md)
+
+## Parsing
+* [Tree-sitter](https://tree-sitter.github.io/tree-sitter/)
 
 ## SVN
 * [(StackOverflow) TortoiseSVN icons overlay not showing after updating to Windows 10](https://stackoverflow.com/questions/31964627/tortoisesvn-icons-overlay-not-showing-after-updating-to-windows-10)
