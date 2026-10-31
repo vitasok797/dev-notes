@@ -242,9 +242,6 @@
 * [bitflags](https://crates.io/crates/bitflags)
 * [smart-default](https://crates.io/crates/smart-default)
 
-## UUID
-* [uuid](https://crates.io/crates/uuid)
-
 ## Web frameworks
 * [actix-web](https://crates.io/crates/actix-web)
 * [axum](https://crates.io/crates/axum)
@@ -255,5 +252,6 @@
 
 ## Var 📌
 * ☀️ [scopeguard](https://crates.io/crates/scopeguard)
+* [uuid](https://crates.io/crates/uuid)
 * [contracts](https://crates.io/crates/contracts)
 * [lru](https://crates.io/crates/lru) (LRU cache)
