@@ -214,6 +214,7 @@
   * [eolify](https://crates.io/crates/eolify)
   * [normalized-line-endings](https://crates.io/crates/normalized-line-endings)
 * [textwrap](https://crates.io/crates/textwrap)
+* [heck](https://crates.io/crates/heck) (case conversion)
 
 ## Time
 * [time](https://crates.io/crates/time)
@@ -232,6 +233,7 @@
   * [num_enum](https://crates.io/crates/num_enum)
 * Numeric:
   * [num](https://crates.io/crates/num)
+  * [byteorder](https://crates.io/crates/byteorder)
 * Units:
   * [uom](https://crates.io/crates/uom)
 * ☀️ [derive_more](https://crates.io/crates/derive_more)
@@ -253,5 +255,6 @@
 ## Var 📌
 * ☀️ [scopeguard](https://crates.io/crates/scopeguard)
 * [uuid](https://crates.io/crates/uuid)
+* [semver](https://crates.io/crates/semver)
 * [contracts](https://crates.io/crates/contracts)
 * [lru](https://crates.io/crates/lru) (LRU cache)
