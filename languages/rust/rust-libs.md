@@ -11,20 +11,17 @@
 * [tokio](https://crates.io/crates/tokio)
 * [tower](https://crates.io/crates/tower)
 * ☀️ [interprocess](https://crates.io/crates/interprocess)
-
-### DDS
-* ☀️ [rustdds](https://crates.io/crates/rustdds)
-* ☀️ [dust_dds](https://crates.io/crates/dust_dds)
-* [cyclors](https://crates.io/crates/cyclors) (CycloneDDS bindings)
-* [hdds](https://crates.io/crates/hdds)
-
-### gRPC
-* ☀️ [tonic](https://crates.io/crates/tonic)
-* [grpc](https://crates.io/crates/grpc)
-
-### ZeroMQ
-* [zeromq](https://crates.io/crates/zeromq)
-* [rzmq](https://crates.io/crates/rzmq)
+* DDS:
+  * ☀️ [rustdds](https://crates.io/crates/rustdds)
+  * ☀️ [dust_dds](https://crates.io/crates/dust_dds)
+  * [cyclors](https://crates.io/crates/cyclors) (CycloneDDS bindings)
+  * [hdds](https://crates.io/crates/hdds)
+* gRPC:
+  * ☀️ [tonic](https://crates.io/crates/tonic)
+  * [grpc](https://crates.io/crates/grpc)
+* ZeroMQ:
+  * [zeromq](https://crates.io/crates/zeromq)
+  * [rzmq](https://crates.io/crates/rzmq)
 
 ## Configuration
 * Command line arguments:
@@ -46,7 +43,7 @@
   * [foldhash](https://crates.io/crates/foldhash)
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
-* [indexmap](https://crates.io/crates/indexmap) (a hash table with consistent order and fast iteration)
+* [indexmap](https://crates.io/crates/indexmap) (hash table with consistent order and fast iteration)
 
 ## Data processing
 * [polars](https://crates.io/crates/polars)
@@ -63,8 +60,8 @@
   * [rusqlite](https://crates.io/crates/rusqlite)
 
 ## Error handling
-* ☀️ [thiserror](https://crates.io/crates/thiserror)
-* ☀️ [anyhow](https://crates.io/crates/anyhow)
+* ⭐ [thiserror](https://crates.io/crates/thiserror)
+* ⭐ [anyhow](https://crates.io/crates/anyhow)
 
 ## Expressions
 * ☀️ [evalexpr](https://crates.io/crates/evalexpr)
@@ -116,12 +113,11 @@
   * [qmetaobject](https://crates.io/crates/qmetaobject)
 * WebView:
   * [tauri](https://crates.io/crates/tauri)
-
-### Plot
-* [plotly](https://crates.io/crates/plotly)
-* [plotters](https://crates.io/crates/plotters)
-* [egui_plot](https://crates.io/crates/egui_plot)
-* [plotters-iced](https://crates.io/crates/plotters-iced)
+* Plot:
+  * [plotly](https://crates.io/crates/plotly)
+  * [plotters](https://crates.io/crates/plotters)
+  * [egui_plot](https://crates.io/crates/egui_plot)
+  * [plotters-iced](https://crates.io/crates/plotters-iced)
 
 ## Hashing
 * [digest](https://crates.io/crates/digest) ([supported-algorithms](https://github.com/RustCrypto/hashes?tab=readme-ov-file#supported-algorithms))
