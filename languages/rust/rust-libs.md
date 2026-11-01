@@ -231,7 +231,6 @@
   * [num_enum](https://crates.io/crates/num_enum)
 * Numeric:
   * [num](https://crates.io/crates/num)
-  * [num-traits](https://crates.io/crates/num-traits)
   * [az](https://crates.io/crates/az)
   * [byteorder](https://crates.io/crates/byteorder)
 * Units:
