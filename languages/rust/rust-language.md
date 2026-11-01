@@ -50,6 +50,7 @@
 ## Traits
 * [Deref](https://doc.rust-lang.org/book/ch15-02-deref.html)
 * ⚠️ [Convenient and idiomatic conversions in Rust](https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust)
+* [(Habr) Как Rust реализует трейт-объекты и почему dyn Trait медленнее дженериков](https://habr.com/ru/companies/beget/articles/1016672/)
 
 ## Types
 * Newtype:
