@@ -248,7 +248,6 @@
 * [axum](https://crates.io/crates/axum)
 * [rocket](https://crates.io/crates/rocket)
 * [warp](https://crates.io/crates/warp)
-* [tide](https://crates.io/crates/tide)
 * [poem](https://crates.io/crates/poem)
 
 ## Var 📌
