@@ -76,6 +76,7 @@
 * [tempfile](https://crates.io/crates/tempfile)
 * [dirs](https://crates.io/crates/dirs) (platform-specific standard locations)
 * [which](https://crates.io/crates/which)
+* [camino](https://crates.io/crates/camino) (UTF-8 paths)
 
 ## Formats
 * ☀️ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, FlexBuffers):
@@ -196,6 +197,8 @@
 * Regex:
   * ☀️ [regex](https://crates.io/crates/regex)
   * [fancy-regex](https://crates.io/crates/fancy-regex)
+* Unicode:
+  * [unicode-normalization](https://crates.io/crates/unicode-normalization)
 * Convert:
   * ☀️ [encoding_rs](https://crates.io/crates/encoding_rs)
   * ☀️ [translit](https://crates.io/crates/translit)
@@ -228,6 +231,8 @@
   * [num_enum](https://crates.io/crates/num_enum)
 * Numeric:
   * [num](https://crates.io/crates/num)
+  * [num-traits](https://crates.io/crates/num-traits)
+  * [az](https://crates.io/crates/az)
   * [byteorder](https://crates.io/crates/byteorder)
 * Units:
   * [uom](https://crates.io/crates/uom)
@@ -248,6 +253,7 @@
 * [poem](https://crates.io/crates/poem)
 
 ## Var 📌
+* ☀️ [rand](https://crates.io/crates/rand)
 * ☀️ [scopeguard](https://crates.io/crates/scopeguard)
 * [uuid](https://crates.io/crates/uuid)
 * [semver](https://crates.io/crates/semver)
