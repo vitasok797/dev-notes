@@ -11,6 +11,12 @@
    [language](languages/cpp/cpp-language.md),
    [libs](languages/cpp/cpp-libs.md),
    [ranges](languages/cpp/cpp-ranges.md))
+* [C#](languages/csharp.md)
+* [Delphi](languages/delphi.md)
+* [Fortran](languages/fortran.md)
+* [Julia](languages/julia.md)
+* [Lua](languages/lua.md)
+* [Python](languages/python.md)
 * [Rust](languages/rust)
   ([OLD](languages/rust/rust-OLD.md),
    [develop](languages/rust/rust-develop.md),
@@ -18,12 +24,6 @@
    [interop](languages/rust/rust-interop.md),
    [language](languages/rust/rust-language.md),
    [libs](languages/rust/rust-libs.md))
-* [C#](languages/csharp.md)
-* [Delphi](languages/delphi.md)
-* [Fortran](languages/fortran.md)
-* [Julia](languages/julia.md)
-* [Lua](languages/lua.md)
-* [Python](languages/python.md)
 * [WebView](languages/webview/webview.md)
 
 ## Prompts
