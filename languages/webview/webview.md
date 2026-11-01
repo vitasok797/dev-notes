@@ -16,5 +16,5 @@
     * [vue-speedometer-gauge-chart](https://github.com/Navnit73/vue-speedometer-gauge-chart)
 
 ## Guidelines
-* [Alpine.js frontend](guidelines/alpinejs_frontend.md) 🔗
-* [WebView SCADA](guidelines/webview_scada.md) 🔗
+* [Alpine.js frontend](guidelines/alpinejs-frontend.md) 🔗
+* [WebView SCADA](guidelines/webview-scada.md) 🔗

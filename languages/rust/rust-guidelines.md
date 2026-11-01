@@ -2,31 +2,34 @@
 
 [*Godbolt*](https://godbolt.org/z/W1xT841hz)
 
+## Cargo
+* [Cargo offline usage](guidelines/cargo-offline.md)
+
 ## Crates and Modules
-* [Module visibility & encapsulation strategy](guidelines/module_visibility.md)
-* [Test organization](guidelines/test_organization.md)
+* [Module visibility & encapsulation strategy](guidelines/module-visibility.md)
+* [Test organization](guidelines/test-organization.md)
 
 ## Functions
 * Arguments:
-  * [Named arguments](guidelines/named_arguments.md)
-  * [Optional arguments](guidelines/optional_arguments.md)
-* [Lambda type inference](guidelines/lambda_type_inference.md)
+  * [Named arguments](guidelines/named-arguments.md)
+  * [Optional arguments](guidelines/optional-arguments.md)
+* [Lambda type inference](guidelines/lambda-type-inference.md)
 
 ## Math
-* [Float range](guidelines/float_range.md)
+* [Float range](guidelines/float-range.md)
 
 ## Patterns
 * [Decorator](guidelines/decorator.md)
 
 ## String
-* [String creation from literal](guidelines/string_creation.md)
+* [String creation from literal](guidelines/string-creation.md)
 
 ## Traits
 * [FromStr vs From<&str>](guidelines/fromstr.md)
 
 ## Types
 * [Newtype](guidelines/newtype.md)
-* [Object extension](guidelines/object_extension.md)
+* [Object extension](guidelines/object-extension.md)
 
 ## Var 📌
-* [Block expressions](guidelines/block_expressions.md)
+* [Block expressions](guidelines/block-expressions.md)

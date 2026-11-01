@@ -1,7 +1,6 @@
 # Rust / Develop
 
 ## Cargo
-* ⭐ [Cargo offline usage](develop/cargo-offline.md) 🔗
 * [Cargo book](https://doc.rust-lang.org/cargo/)
 * [Cargo.toml conventions](https://doc.rust-lang.org/style-guide/cargo.html)
 
