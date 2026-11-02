@@ -34,4 +34,5 @@
 
 ## Var 📌
 * [Block expressions](guidelines/block-expressions.md)
+* [Check number in range](guidelines/check-number-in-range.md)
 * [Check value in list](guidelines/check-value-in-list.md)
