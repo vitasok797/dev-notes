@@ -7,6 +7,9 @@
 * [Blessed.rs](https://blessed.rs/crates)
 * [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 
+## Benchmarking
+* [criterion](https://crates.io/crates/criterion)
+
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
 * [tower](https://crates.io/crates/tower)
