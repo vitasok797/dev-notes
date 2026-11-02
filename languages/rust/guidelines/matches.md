@@ -21,7 +21,7 @@ let count = values.iter()
 ```rust
 if let Ok(_) = result {...}
 
-// replaced by
+// replace by
 if matches!(result, Ok(_)) {...}
 ```
 
@@ -33,8 +33,11 @@ for s in states {
     }
 }
 
-// replaced by
-let cnt = states.iter().filter(|s| matches!(s, State::Running)).count();
+// replace by
+let cnt = states.iter().filter(|&s| *s == State::Running).count();
+
+// or by
+let cnt = states.iter().filter(|&s| matches!(s, State::Running)).count();
 ```
 
 [assert_matches!](https://doc.rust-lang.org/std/macro.assert_matches.html)
