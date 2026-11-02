@@ -15,8 +15,8 @@
   * [AsRef](guidelines/arg_asref.md)
   * [Into\<*numeric*\>](guidelines/arg_into_numeric.md)
   * [Into\<String\>](guidelines/arg_into_string.md)
-  * [Named arguments](guidelines/named-arguments.md)
-  * [Optional arguments](guidelines/optional-arguments.md)
+  * [Named](guidelines/named-arguments.md)
+  * [Optional](guidelines/optional-arguments.md)
 * [Lambda type inference](guidelines/lambda-type-inference.md)
 
 ## Math
