@@ -20,8 +20,8 @@
 * [Float range](guidelines/float-range.md)
 
 ## Patterns
-* [Newtype](guidelines/newtype.md)
 * [Decorator](guidelines/decorator.md)
+* [Newtype](guidelines/newtype.md)
 
 ## String
 * [String creation from literal](guidelines/string-creation.md)
