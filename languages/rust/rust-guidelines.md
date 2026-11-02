@@ -12,7 +12,7 @@
 
 ## Functions
 * Arguments:
-  * [AsRef\<\>](guidelines/arg_asref.md)
+  * [AsRef](guidelines/arg_asref.md)
   * [Into\<*numeric*\>](guidelines/arg_into_numeric.md)
   * [Into\<String\>](guidelines/arg_into_string.md)
   * [Named arguments](guidelines/named-arguments.md)
