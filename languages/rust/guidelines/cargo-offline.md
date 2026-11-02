@@ -8,7 +8,7 @@ set CARGO_HOME=%CD%\temp_cargo_home
 cargo fetch
 ```
 
-2. Open the newly created `temp_cargo_home\registry\` folder and copy two specific directories to your USB drive:
+2. Open the newly created `temp_cargo_home\registry\` folder and copy two specific directories:
 * 📁 `cache` (contains the actual .crate archives)
 * 📁 `index` (contains critical dependency metadata)
 
@@ -16,8 +16,8 @@ cargo fetch
 
 1. Navigate to your global Cargo home directory: `%USERPROFILE%\.cargo\`
 2. Create a folder named `registry` inside it if it doesn't exist.
-3. Paste the `cache` and `index` folders from your USB drive directly into `%USERPROFILE%\.cargo\registry\`
-4. Create or edit the global configuration file at `%USERPROFILE%\.cargo\config.toml` and add only these lines:
+3. Paste the `cache` and `index` folders directly into `%USERPROFILE%\.cargo\registry\`
+4. Create or edit the global configuration file at `%USERPROFILE%\.cargo\config.toml` and add:
 ```toml
 [net]
 offline = true
