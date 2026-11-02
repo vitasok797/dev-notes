@@ -27,9 +27,6 @@
   * [Book / Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
   * [Rust By Example / Error Handling](https://doc.rust-lang.org/rust-by-example/error.html)
   * ⚠️ [The definitive guide to error handling in Rust](https://www.howtocodeit.com/guides/the-definitive-guide-to-rust-error-handling) 🔒
-* Crates:
-  * [thiserror](https://crates.io/crates/thiserror)
-  * [anyhow](https://crates.io/crates/anyhow)
 * Examples:
   * [example 1](https://doc.rust-lang.org/std/str/trait.FromStr.html#examples)
   * [example 2](https://www.howtocodeit.com/guides/ultimate-guide-rust-newtypes) 🔒
