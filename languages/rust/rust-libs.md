@@ -233,6 +233,7 @@
   * [num](https://crates.io/crates/num)
   * [az](https://crates.io/crates/az)
   * [byteorder](https://crates.io/crates/byteorder)
+  * [ord_subset](https://crates.io/crates/ord_subset)
 * Units:
   * [uom](https://crates.io/crates/uom)
 * ☀️ [derive_more](https://crates.io/crates/derive_more)
