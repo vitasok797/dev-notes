@@ -16,14 +16,14 @@
   * [Optional arguments](guidelines/optional-arguments.md)
 * [Lambda type inference](guidelines/lambda-type-inference.md)
 
+## Idiomatic Rust
+* [Newtype](guidelines/newtype.md)
+
 ## Math
 * [Float range](guidelines/float-range.md)
 
 ## Patterns
 * [Decorator](guidelines/decorator.md)
-
-## Rust patterns
-* [Newtype](guidelines/newtype.md)
 
 ## String
 * [String creation from literal](guidelines/string-creation.md)
