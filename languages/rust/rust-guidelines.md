@@ -1,6 +1,7 @@
 # Rust / Guidelines
 
 [*Godbolt*](https://godbolt.org/z/W1xT841hz)
+[*Rust Playground*](https://play.rust-lang.org/)
 
 ## Cargo
 * [Cargo offline usage](guidelines/cargo-offline.md)
