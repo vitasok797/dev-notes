@@ -1,4 +1,4 @@
-# Into\<String\> function argument
+# Into\<String\> arguments
 
 **When to use**: Use this pattern only if the function **needs to take ownership** of the data (e.g., storing it in a struct). If the function only needs to read the text, use `&str` instead to avoid unnecessary allocations.
 
