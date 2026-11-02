@@ -12,7 +12,7 @@
 
 ## Functions
 * Arguments:
-  * [Into<numeric>](guidelines/arg_into_numeric.md)
+  * [Into\<*numeric*\>](guidelines/arg_into_numeric.md)
   * [Named arguments](guidelines/named-arguments.md)
   * [Optional arguments](guidelines/optional-arguments.md)
 * [Lambda type inference](guidelines/lambda-type-inference.md)
