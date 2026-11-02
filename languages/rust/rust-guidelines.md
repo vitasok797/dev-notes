@@ -22,6 +22,9 @@
 ## Patterns
 * [Decorator](guidelines/decorator.md)
 
+## Rust patterns
+* [Newtype](guidelines/newtype.md)
+
 ## String
 * [String creation from literal](guidelines/string-creation.md)
 
@@ -29,7 +32,6 @@
 * [FromStr vs From<&str>](guidelines/fromstr.md)
 
 ## Types
-* [Newtype](guidelines/newtype.md)
 * [Object extension](guidelines/object-extension.md)
 
 ## Var 📌
