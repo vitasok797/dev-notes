@@ -62,3 +62,4 @@
 * ⭐ [Prototyping in Rust](https://corrode.dev/blog/prototyping/)
 * [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
 * [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
+* [Rust Language Cheat Sheet](https://cheats.rs/)
