@@ -5,10 +5,10 @@
 ```
 
 ```rust
-let rng = 0.0..=1.0; // core::range::legacy::Range
+let rng = 0.0..=1.0; // core::range::legacy::RangeInclusive
 rng.contains(&0.5)
 
-let rng = core::range::Range::from(0.0..=1.0);
+let rng = core::range::RangeInclusive::from(0.0..=1.0);
 rng.contains(&0.5)
 ```
 
