@@ -5,8 +5,8 @@
 Replacing a `Vec<T>` or a vector-wrapped smart pointer (like `Arc<Vec<T>>` or `Rc<Vec<T>>`) with a slice-based alternative is a powerful optimization for read-only data collections:
 
 - `Vec<T>` -> `Box<[T]>`;
-- `Arc<Vec<T>>` -> `Arc<[T]>`;
-- `Rc<Vec<T>>` -> `Rc<[T]>`.
+- `Rc<Vec<T>>` -> `Rc<[T]>`;
+- `Arc<Vec<T>>` -> `Arc<[T]>`.
 
 The underlying memory optimization is identical for all three types, but they serve different concurrency needs:
 
@@ -16,6 +16,39 @@ The underlying memory optimization is identical for all three types, but they se
 
 ## Core Benefits
 
-- Eliminates the "Double Pointer Hop": Standard vectors store data via a pointer to another location in the heap. Slices (`[T]`) combined with smart pointers allocate the metadata (counters/headers) and the actual elements together in a single contiguous block of heap memory. This improves CPU cache locality;
-- Reduces memory overhead: Slices do not have a capacity field (which vectors use for dynamic resizing). This saves 8 bytes of stack/heap space per allocation and prevents over-allocating unused memory;
+- Eliminates the extra pointer indirection for `Rc` and `Arc`;
+- Reduces memory overhead. Slices do not have a capacity field. This saves 8 bytes of stack/heap space per allocation;
 - Enforces immutability.
+
+## Creating
+
+### `Box<[T]>`:
+
+```rust
+// From array
+let a: Box<[i32]> = Box::new([1, 2, 3]);
+
+// From Vec<T> (may reallocate if len != capacity)
+let b: Box<[i32]> = vec![1, 2, 3].into_boxed_slice();
+let c: Box<[i32]> = vec![1, 2, 3].into();
+```
+
+### `Rc<[T]>` (same for `Arc<[T]>`):
+
+```rust
+use std::rc::Rc;
+
+// From array
+let a: Rc<[i32]> = Rc::new([1, 2, 3]);
+
+// From Vec<T> (moving items)
+let b: Rc<[i32]> = Rc::from(vec![1, 2, 3]);
+
+// From &[T] (cloning  items)
+let c: Rc<[i32]> = Rc::from(&[1, 2, 3][..]);
+
+// Using Box<[T]> (moving items)
+let d: Rc<[i32]> = Rc::from(
+    vec![1, 2, 3].into_boxed_slice()
+);
+```
