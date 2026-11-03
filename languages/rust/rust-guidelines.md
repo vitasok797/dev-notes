@@ -35,6 +35,7 @@
 * [Newtype](guidelines/newtype.md)
 * [Object extension](guidelines/object-extension.md)
 * [Ownership and smart pointers](guidelines/ownership-and-smart-pointers.md)
+* [Smart pointers with slices](guidelines/smart-pointers-with-slices.md)
 
 ## Var
 * [Block expressions](guidelines/block-expressions.md)
