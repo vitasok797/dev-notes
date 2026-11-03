@@ -32,6 +32,7 @@
 * [FromStr vs From<&str>](guidelines/fromstr.md)
 
 ## Types
+* [Container cheat sheet](guidelines/img/container-cheat-sheet.png)
 * [Newtype](guidelines/newtype.md)
 * [Object extension](guidelines/object-extension.md)
 * [Ownership and smart pointers](guidelines/ownership-and-smart-pointers.md)
