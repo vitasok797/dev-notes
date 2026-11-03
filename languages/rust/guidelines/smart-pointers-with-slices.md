@@ -12,7 +12,7 @@ Replacing a `Vec<T>` or a vector-wrapped smart pointer (like `Arc<Vec<T>>` or `R
 
 - Eliminates the "Double Pointer Hop": Standard vectors store data via a pointer to another location in the heap. Slices (`[T]`) combined with smart pointers allocate the metadata (counters/headers) and the actual elements together in a single contiguous block of heap memory. This improves CPU cache locality;
 - Reduces Memory Overhead: Slices do not have a capacity field (which vectors use for dynamic resizing). This saves 8 bytes of stack/heap space per allocation and prevents over-allocating unused memory;
-- Enforces Immutability: Moving data into a fixed-size slice guarantees at the type level that the collection length cannot be accidentally modified.
+- Enforces Immutability.
 
 ## Ownership & threading selection
 
