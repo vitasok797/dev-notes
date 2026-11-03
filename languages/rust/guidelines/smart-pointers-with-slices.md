@@ -17,5 +17,5 @@ The underlying memory optimization is identical for all three types, but they se
 ## Core Benefits
 
 - Eliminates the "Double Pointer Hop": Standard vectors store data via a pointer to another location in the heap. Slices (`[T]`) combined with smart pointers allocate the metadata (counters/headers) and the actual elements together in a single contiguous block of heap memory. This improves CPU cache locality;
-- Reduces Memory Overhead: Slices do not have a capacity field (which vectors use for dynamic resizing). This saves 8 bytes of stack/heap space per allocation and prevents over-allocating unused memory;
-- Enforces Immutability.
+- Reduces memory overhead: Slices do not have a capacity field (which vectors use for dynamic resizing). This saves 8 bytes of stack/heap space per allocation and prevents over-allocating unused memory;
+- Enforces immutability.
