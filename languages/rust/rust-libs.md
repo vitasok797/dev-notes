@@ -251,6 +251,7 @@
 * [actix-web](https://crates.io/crates/actix-web)
 * [axum](https://crates.io/crates/axum)
 * [rocket](https://crates.io/crates/rocket)
+* [loco-rs](https://crates.io/crates/loco-rs)
 * [warp](https://crates.io/crates/warp)
 * [poem](https://crates.io/crates/poem)
 
