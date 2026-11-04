@@ -9,6 +9,10 @@
   * [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
   * [C/C++ (MS) (for debug support)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
   * [Flowistry (information flow)](https://marketplace.visualstudio.com/items?itemName=wcrichton.flowistry)
+* C++:
+  * ❓
+* Fortran:
+  * ❓
 * Python:
   * [Python (MS)](https://marketplace.visualstudio.com/items?itemName=ms-python.python) installs:
     * [Pylance (MS)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
