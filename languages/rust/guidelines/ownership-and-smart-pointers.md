@@ -15,7 +15,7 @@
 
 - Read-only: `Rc<T>`
 - Needs mutation:
-  - Clone-on-write: `Rc<T>` + `.make_mut()` (requires `T: Clone`)
+  - Clone-on-write: `Rc<T>` + `Rc::make_mut()` (requires `T: Clone`)
   - Runtime checks: `Rc<Cell<T>>` (small `Copy` types)
   - Runtime checks: `Rc<RefCell<T>>`
 - Break cycles: `Weak<T>`
@@ -25,7 +25,7 @@
 - Read-only: `Arc<T>`
 - Needs mutation:
   - Simple counters/flags: `Arc<Atomic...>`
-  - Clone-on-write: `Arc<T>` + `.make_mut()` (requires `T: Clone`)
+  - Clone-on-write: `Arc<T>` + `Arc::make_mut()` (requires `T: Clone`)
   - Reads >> writes: `Arc<RwLock<T>>`
   - Otherwise: `Arc<Mutex<T>>`
 - Break cycles: `Weak<T>`
