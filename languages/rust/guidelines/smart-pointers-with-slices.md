@@ -17,8 +17,7 @@ The underlying memory optimization is identical for all three types, but they se
 ## Core Benefits
 
 - Eliminates the extra pointer indirection for `Rc` and `Arc`;
-- Reduces memory overhead. Slices do not have a capacity field. This saves 8 bytes of stack/heap space per allocation;
-- Enforces immutability.
+- Reduces memory overhead. Slices do not have a capacity field. This saves 8 bytes of stack/heap space per allocation.
 
 ## Creating
 
