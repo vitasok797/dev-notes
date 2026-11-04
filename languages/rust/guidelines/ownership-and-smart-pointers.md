@@ -1,6 +1,6 @@
 # Ownership and smart pointers
 
-## Single owner
+### Single owner
 
 - Direct ownership:
   - Stack: `T`
@@ -11,7 +11,7 @@
 - Clone-on-write:
   - `Cow<'a, T>`
 
-## Multiple owners (single thread)
+### Multiple owners (single thread)
 
 - Read-only: `Rc<T>`
 - Needs mutation:
@@ -20,7 +20,7 @@
   - Runtime checks: `Rc<RefCell<T>>`
 - Break cycles: `Weak<T>`
 
-## Multiple owners (multiple threads)
+### Multiple owners (multiple threads)
 
 - Read-only: `Arc<T>`
 - Needs mutation:
@@ -29,3 +29,6 @@
   - Reads >> writes: `Arc<RwLock<T>>`
   - Otherwise: `Arc<Mutex<T>>`
 - Break cycles: `Weak<T>`
+
+## Cheat sheet
+![xxx](img/ownership-and-smart-pointers.png)
