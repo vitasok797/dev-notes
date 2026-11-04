@@ -31,4 +31,4 @@
 - Break cycles: `Weak<T>`
 
 ## Cheat sheet
-![xxx](img/ownership-and-smart-pointers.png)
+![ownership-and-smart-pointers.png](img/ownership-and-smart-pointers.png)
