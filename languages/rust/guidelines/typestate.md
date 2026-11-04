@@ -6,9 +6,9 @@ The **Typestate pattern** in Rust is an API design approach that **encodes the s
 
 Thanks to Rust’s **move semantics** and strict ownership model, the language is uniquely suited for this pattern. When a method transitions an object to a new state, it consumes the current state (`self` by value) and returns a completely new type representing the next state.
 
-## Two Common Implementations
+## Two common implementations
 
-### 1. Explicit Structs (Distinct Types)
+### 1. Explicit structs (distinct types)
 Each state is represented by a completely separate struct. Methods for transitions are implemented exclusively on the valid state types, ensuring that illegal actions don't even exist as methods on wrong states.
 
 ```rust
@@ -40,7 +40,7 @@ impl ActiveCart {
 }
 ```
 
-### 2. Generic Typestate (Using PhantomData)
+### 2. Generic Typestate (using PhantomData)
 A single main struct leverages a generic marker parameter to enforce states. This prevents code duplication when multiple states share the same internal fields.
 
 ```rust
@@ -83,7 +83,7 @@ impl Post<Reviewed> {
 }
 ```
 
-## Key Benefits
+## Key benefits
 
 *   **Compile-Time Safety:** You cannot call `.checkout()` on a draft or empty cart. The compiler stops you immediately with a `no method named... found for struct...` error.
 *   **Prevention of Stale State Use:** Rust's move semantics invalidate the previous variable after a state transition occurs.
@@ -95,7 +95,7 @@ impl Post<Reviewed> {
 *   **Self-Documenting Code & IDE Support:** Auto-completion options dynamically adjust depending on the current state variable, leading to highly discoverable APIs.
 *   **Zero-Cost Abstraction:** The compiler optimizes types and `PhantomData` away completely, producing zero runtime overhead.
 
-## When Should You Use It?
+## When should you use it?
 
 1.  **Type-Safe Builders:** Ensuring that mandatory fields are provided in a precise sequence before an object can be built.
 2.  **Network/Protocol State Machines:** Modeling states like `Disconnected` → `Connecting` → `Connected` → `Authenticated`.
