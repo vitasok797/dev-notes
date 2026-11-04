@@ -24,6 +24,7 @@
 
 ## Patterns
 * [Decorator](guidelines/decorator.md)
+* [Typestate](guidelines/typestate.md)
 
 ## String
 * [String creation from literal](guidelines/string-creation.md)
