@@ -24,7 +24,7 @@
 
 - Read-only: `Arc<T>`
 - Needs mutation:
-  - Simple counters/flags: `Arc<Atomic...>`
+  - Simple counters/flags: `Arc<AtomicT>`
   - Clone-on-write: `Arc<T>` + `Arc::make_mut()` (requires `T: Clone`)
   - Reads >> writes: `Arc<RwLock<T>>`
   - Otherwise: `Arc<Mutex<T>>`
