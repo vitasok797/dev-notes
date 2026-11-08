@@ -32,6 +32,7 @@
 ### C++
 
 * [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) (MS)
+* [CMake Tools](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cmake-tools) (MS)
 
 ### Fortran
 
