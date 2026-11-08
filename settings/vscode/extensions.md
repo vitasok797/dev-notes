@@ -2,8 +2,8 @@
 
 ## ⚠️ Unsorted
 
-* [Hex Editor (MS)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor)
-* [XML (Red Hat)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+* [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor) (MS)
+* [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) (Red Hat)
 * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
 ## Common
@@ -11,24 +11,24 @@
 * [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) ([github](https://github.com/alefragnani/vscode-bookmarks))
 * [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
 * Remote development:
-  * [Remote - SSH (MS)](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
-  * [WSL (MS)](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl)
+  * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) (MS)
+  * [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) (MS)
 
 ## Languages
 
 ### Rust
 
 * [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
-* [C/C++ (MS) (for debug support)](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
-* [Flowistry (information flow)](https://marketplace.visualstudio.com/items?itemName=wcrichton.flowistry)
+* [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) (MS) (for debug support)
+* [Flowistry](https://marketplace.visualstudio.com/items?itemName=wcrichton.flowistry) (information flow)
 
 ### Python
 
-* [Python (MS)](https://marketplace.visualstudio.com/items?itemName=ms-python.python) installs:
-  * [Pylance (MS)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
-  * [Python Debugger (MS)](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
-  * [Python Environments (MS)](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs)
-* [Ruff (linter and code formatter)](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff)
+* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (MS) installs:
+  * [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) (MS)
+  * [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) (MS)
+  * [Python Environments](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs) (MS)
+* [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) (linter and code formatter)
 * ❓ [Python Test Explorer](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter)
 
 ### C++
