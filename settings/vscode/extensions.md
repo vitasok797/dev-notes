@@ -41,4 +41,8 @@
 
 ### Fortran
 
-* ❓
+* [Modern Fortran](https://marketplace.visualstudio.com/items?itemName=fortran-lang.linter-gfortran)
+
+### Var
+
+* [CodeLLDB](https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb) (debug C++, Rust, and other compiled languages)
