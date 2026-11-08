@@ -33,7 +33,7 @@
 
 ### C++
 
-* ❓
+* [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) (MS)
 
 ### Fortran
 
