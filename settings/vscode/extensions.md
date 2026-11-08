@@ -10,9 +10,7 @@
 
 * [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) ([github](https://github.com/alefragnani/vscode-bookmarks))
 * [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
-* Remote development:
-  * [Remote - SSH](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh) (MS)
-  * [WSL](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl) (MS)
+* [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) (MS) (extension pack) ([doc](https://code.visualstudio.com/docs/remote/remote-overview))
 
 ## Languages
 
