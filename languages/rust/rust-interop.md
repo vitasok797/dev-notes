@@ -2,6 +2,8 @@
 
 ## Crates
 * ☀️ [diplomat](https://crates.io/crates/diplomat)
+* [safer-ffi](https://crates.io/crates/safer-ffi)
+* [uniffi](https://crates.io/crates/uniffi)
 * [bindgen](https://crates.io/crates/bindgen) ([user guide](https://rust-lang.github.io/rust-bindgen/))
 * [cbindgen](https://crates.io/crates/cbindgen)
 * [cxx](https://crates.io/crates/cxx) ([user guide](https://cxx.rs/))
