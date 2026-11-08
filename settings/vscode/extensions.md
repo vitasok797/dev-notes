@@ -14,21 +14,6 @@
 
 ## Languages
 
-### Rust
-
-* [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
-* [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) (for debug support)
-* [Flowistry](https://marketplace.visualstudio.com/items?itemName=wcrichton.flowistry) (information flow)
-
-### Python
-
-* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) installs:
-  * [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
-  * [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
-  * [Python Environments](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs)
-* [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) (linter and code formatter)
-* ❓ [Python Test Explorer](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter)
-
 ### C++
 
 * [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
@@ -42,6 +27,21 @@
 ### Fortran
 
 * [Modern Fortran](https://marketplace.visualstudio.com/items?itemName=fortran-lang.linter-gfortran)
+
+### Python
+
+* [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) installs:
+  * [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance)
+  * [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
+  * [Python Environments](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-python-envs)
+* [Ruff](https://marketplace.visualstudio.com/items?itemName=charliermarsh.ruff) (linter and code formatter)
+* ❓ [Python Test Explorer](https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter)
+
+### Rust
+
+* [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+* [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools) (for debug support)
+* [Flowistry](https://marketplace.visualstudio.com/items?itemName=wcrichton.flowistry) (information flow)
 
 ### Var
 
