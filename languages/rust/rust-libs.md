@@ -140,6 +140,9 @@
   * [trace](https://crates.io/crates/trace)
 
 ## Multithreading
+* Async:
+  * [tokio](https://crates.io/crates/tokio)
+  * [smol](https://crates.io/crates/smol)
 * Channels:
   * [std::sync::mpsc](https://doc.rust-lang.org/std/sync/mpsc/)
   * [crossbeam-channel](https://crates.io/crates/crossbeam-channel)
@@ -237,6 +240,9 @@
   * [az](https://crates.io/crates/az)
   * [byteorder](https://crates.io/crates/byteorder)
   * [ord_subset](https://crates.io/crates/ord_subset)
+* Casting:
+  * [zerocopy](https://crates.io/crates/zerocopy)
+  * [bytemuck](https://crates.io/crates/bytemuck)
 * Units:
   * [uom](https://crates.io/crates/uom)
 * ☀️ [derive_more](https://crates.io/crates/derive_more)
