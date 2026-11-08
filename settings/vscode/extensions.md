@@ -3,7 +3,7 @@
 ## ⚠️ Unsorted
 
 * [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor)
-* [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml) (Red Hat)
+* [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
 * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
 ## Common
