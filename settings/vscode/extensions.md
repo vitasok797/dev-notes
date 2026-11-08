@@ -5,6 +5,7 @@
 * [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor)
 * [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
 * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
+* [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ## Common
 
