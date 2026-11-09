@@ -1,4 +1,4 @@
-# Named, optional and default arguments
+# Named and optional/default
 
 [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/)
 
