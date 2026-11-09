@@ -215,6 +215,8 @@ fn main() {
 }
 ```
 
+Additional `From` conversions:
+
 ```rust
 impl From<Url> for Redirect {
     fn from(url: Url) -> Self {
@@ -235,4 +237,5 @@ fn redirect_to(target: impl Into<Redirect>) {
 
 redirect_to(url);
 redirect_to(post);
+redirect_to(Redirect::Action {...});
 ```
