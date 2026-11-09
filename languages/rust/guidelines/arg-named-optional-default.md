@@ -53,12 +53,12 @@ fn main() {
 }
 ```
 
-### Optional/default arguments
+### Default arguments
 
 ```rust
 struct Config {
-    port: u16,     // Optional
-    timeout: u64,  // Optional
+    port: u16,
+    timeout: u64,
 }
 
 impl Default for Config {
@@ -84,21 +84,21 @@ fn main() {
 }
 ```
 
-### Required + optional/default arguments
+### Required + default arguments
 
 ```rust
 struct Config {
-    host: String,  // Required
-    port: u16,     // Optional
-    timeout: u64,  // Optional
+    host: String,
+    port: u16,
+    timeout: u64,
 }
 
 impl Config {
     fn new(host: &str) -> Self {
         Config {
-            host: host.to_string(),
-            port: 8080,   // Default value
-            timeout: 30,  // Default value
+            host: host.to_string(),  // Required
+            port: 8080,              // Default value
+            timeout: 30,             // Default value
         }
     }
 }
@@ -123,20 +123,20 @@ fn main() {
 
 ```rust
 struct Server {
-    host: String,  // Required
-    port: u16,     // Optional
+    host: String,
+    port: u16,
 }
 
 struct ServerBuilder {
-    host: String,  // Required
-    port: u16,     // Optional
+    host: String,
+    port: u16,
 }
 
 impl ServerBuilder {
     fn new(host: &str) -> Self {
         ServerBuilder {
-            host: host.to_string(),
-            port: 80,  // Default value
+            host: host.to_string(),  // Required
+            port: 80,                // Default value
         }
     }
 
