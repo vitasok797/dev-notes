@@ -28,7 +28,7 @@ greet(Some(&String::from("John")));
 
 ## Structs
 
-### Named
+### Named arguments
 
 ```rust
 struct CropOptions {
@@ -52,7 +52,7 @@ fn main() {
 }
 ```
 
-### All optional/default
+### Optional/default arguments
 
 ```rust
 struct Config {
@@ -83,7 +83,7 @@ fn main() {
 }
 ```
 
-### Required + optional/default
+### Required + optional/default arguments
 
 ```rust
 struct Config {
