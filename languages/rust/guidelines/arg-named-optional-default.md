@@ -28,4 +28,151 @@ greet(Some(&String::from("John")));
 
 ## Structs
 
+```rust
+struct CropOptions {
+    x: u32,
+    y: u32,
+    width: u32,
+    height: u32,
+}
+
+fn crop_image(opts: CropOptions) {
+    // Implementation
+}
+
+fn main() {
+    let x = 0;
+    let y = 0;
+    
+    // Simulating named arguments using a struct
+    crop_image(CropOptions {
+        x,
+        y,
+        width: 800,
+        height: 600,
+    });
+}
+```
+
+```rust
+struct Config {
+    port: u16,     // Optional
+    timeout: u64,  // Optional
+}
+
+impl Default for Config {
+    fn default() -> Self {
+        Config {
+            port: 8080,   // Default value
+            timeout: 30,  // Default value
+        }
+    }
+}
+
+fn connect(host: &str, config: Config) {
+    println!("Connecting to {}:{} (timeout: {}s)", host, config.port, config.timeout);
+}
+
+fn main() {
+    connect("localhost", Config::default());
+
+    connect("google.com", Config {
+        port: 443,
+        ..Config::default()
+    });
+}
+```
+
+If you prefer passing a single config object into your function, you can enforce required fields by passing them as arguments to a `new()` constructor function. Optional fields are assigned defaults inside this constructor.
+
+```rust
+struct Config {
+    host: String,  // Required
+    port: u16,     // Optional
+    timeout: u64,  // Optional
+}
+
+impl Config {
+    fn new(host: &str) -> Self {
+        Config {
+            host: host.to_string(),
+            port: 8080,   // Default value
+            timeout: 30,  // Default value
+        }
+    }
+}
+
+fn connect(config: Config) {
+    println!("Connecting to {}:{} (timeout: {}s)", config.host, config.port, config.timeout);
+}
+
+fn main() {
+    let config1 = Config::new("localhost");
+    connect(config1);
+
+    let config2 = Config {
+        port: 443,
+        ..Config::new("127.0.0.1")
+    };
+    connect(config2);
+}
+```
+
 ## Builder pattern
+
+```rust
+struct Server {
+    host: String,  // Required
+    port: u16,     // Optional
+}
+
+struct ServerBuilder {
+    host: String,  // Required
+    port: u16,     // Optional
+}
+
+impl ServerBuilder {
+    fn new(host: &str) -> Self {
+        ServerBuilder {
+            host: host.to_string(),
+            port: 80,  // Default value
+        }
+    }
+
+    fn port(mut self, port: u16) -> Self {
+        self.port = port;
+        self
+    }
+
+    fn build(self) -> Server {
+        Server { host: self.host, port: self.port }
+    }
+}
+
+fn main() {
+    let server1 = ServerBuilder::new("127.0.0.1").build();
+
+    let server2 = ServerBuilder::new("localhost")
+        .port(3000)
+        .build();
+}
+```
+
+While you can write builders manually, modern Rust crates like [bon](https://bon-rs.com/) allow you to generate them automatically using macros:
+
+```rust
+#[bon::builder]
+fn greet(name: &str, age: u32, language: Option<&str>) {
+    let lang = language.unwrap_or("English");
+    println!("Hello, {} (age {}), speaks {}", name, age, lang);
+}
+
+fn main() {
+    // Calling the function with "named" arguments via the generated builder
+    greet()
+        .name("Alex")
+        .age(30)
+        // language can be omitted because it's an Option
+        .call(); 
+}
+```
