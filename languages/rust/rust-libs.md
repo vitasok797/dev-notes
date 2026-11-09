@@ -45,7 +45,6 @@
 * Flat map:
   * [linear-map](https://crates.io/crates/linear-map)
   * [flat_map](https://crates.io/crates/flat_map)
-* [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
 * [indexmap](https://crates.io/crates/indexmap) (hash table with consistent order and fast iteration)
 
@@ -270,6 +269,7 @@
 * [poem](https://crates.io/crates/poem)
 
 ## Var 📌
+* ☀️ [itertools](https://crates.io/crates/itertools)
 * ☀️ [rand](https://crates.io/crates/rand)
 * ☀️ [scopeguard](https://crates.io/crates/scopeguard)
 * [uuid](https://crates.io/crates/uuid)
