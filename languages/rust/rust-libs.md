@@ -45,7 +45,7 @@
 * Flat map:
   * [linear-map](https://crates.io/crates/linear-map)
   * [flat_map](https://crates.io/crates/flat_map)
-* Hashers for HashMap:
+* Hashers for HashSet/HashMap:
   * [ahash](https://crates.io/crates/ahash)
   * [rustc-hash](https://crates.io/crates/rustc-hash)
   * [foldhash](https://crates.io/crates/foldhash)
