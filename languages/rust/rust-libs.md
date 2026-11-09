@@ -10,7 +10,9 @@
 ## Benchmarking
 * [criterion](https://crates.io/crates/criterion)
 * [divan](https://crates.io/crates/divan)
-* [flamegraph](https://crates.io/crates/flamegraph) (tool)
+* Tools:
+  * [flamegraph](https://crates.io/crates/flamegraph)
+  * [samply](https://crates.io/crates/samply)
 
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
