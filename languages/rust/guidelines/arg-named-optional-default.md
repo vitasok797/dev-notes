@@ -188,7 +188,7 @@ if let Some(timeout) = config.timeout {
     request = request.timeout(timeout);
 }
 
-let request = request.build()?;
+let request = request.build();
 ```
 
 Rust crates like [bon](https://bon-rs.com/) allow you to generate builders automatically using macros:
