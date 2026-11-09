@@ -26,7 +26,7 @@ greet(Some("Alex"));
 greet(Some(&String::from("John")));
 ```
 
-## Structs
+## Using structs
 
 ### Named arguments
 
@@ -187,4 +187,28 @@ fn main() {
         // language can be omitted because it's an Option
         .call(); 
 }
+```
+
+## Flexible argument types
+
+```rust
+enum Redirect {
+    Url(Url),
+    Post(Post),
+    Action {
+        action: String,
+        id: u64,
+    },
+}
+
+fn redirect_to(target: Redirect) {}
+
+redirect_to(Redirect::Url(url));
+
+redirect_to(Redirect::Post(post));
+
+redirect_to(Redirect::Action {
+    action: "show".into(),
+    id: 5,
+});
 ```
