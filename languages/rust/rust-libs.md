@@ -10,7 +10,7 @@
 ## Benchmarking
 * [criterion](https://crates.io/crates/criterion)
 * [divan](https://crates.io/crates/divan)
-* Tools:
+* Profiling tools:
   * [flamegraph](https://crates.io/crates/flamegraph)
   * [samply](https://crates.io/crates/samply)
 * Guides: [Benchmarking](https://nnethercote.github.io/perf-book/benchmarking.html), [Profiling](https://nnethercote.github.io/perf-book/profiling.html)
