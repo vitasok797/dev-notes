@@ -51,7 +51,7 @@ struct CropOptions {
     height: u32,
 }
 
-fn crop_image(opts: CropOptions) {}
+fn crop_image(crop_options: CropOptions) {}
 
 fn main() {
     let x = 0;
