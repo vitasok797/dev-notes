@@ -168,7 +168,6 @@ fn greet(name: &str, age: u32, language: Option<&str>) {
 }
 
 fn main() {
-    // Calling the function with "named" arguments via the generated builder
     greet()
         .name("Alex")
         .age(30)
