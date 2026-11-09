@@ -13,7 +13,7 @@
 ## Functions
 * Arguments:
   * [Flexible argument types](guidelines/arg-flexible-types.md)
-  * [Named and optional/default](guidelines/arg-named-optional-default.md)
+  * [Named, optional and default](guidelines/arg-named-optional-default.md)
   * [Trait: AsRef](guidelines/arg-asref.md)
   * [Trait: Into\<*numeric*\>](guidelines/arg-into-numeric.md)
   * [Trait: Into\<String\>](guidelines/arg-into-string.md)
