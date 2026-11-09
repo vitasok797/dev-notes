@@ -45,13 +45,6 @@
 * Flat map:
   * [linear-map](https://crates.io/crates/linear-map)
   * [flat_map](https://crates.io/crates/flat_map)
-* Hashers for HashSet/HashMap:
-  * HashDoS-resistant:
-    * std (SipHash 1-3, safest default)
-    * [ahash](https://crates.io/crates/ahash) (faster alternative to SipHash)
-  * Performance-oriented:
-    * [foldhash](https://crates.io/crates/foldhash) (general-purpose default)
-    * [rustc-hash](https://crates.io/crates/rustc-hash) (especially for primitive/integer keys)
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
 * [indexmap](https://crates.io/crates/indexmap) (hash table with consistent order and fast iteration)
@@ -136,6 +129,13 @@
 * xxhash ([article](https://jolynch.github.io/posts/use_fast_data_algorithms/)):
   * [xxhash-rust](https://crates.io/crates/xxhash-rust)
   * [twox-hash](https://crates.io/crates/twox-hash)
+* Hashers for HashSet/HashMap:
+  * HashDoS-resistant:
+    * std (SipHash 1-3, safest default)
+    * [ahash](https://crates.io/crates/ahash) (faster alternative to SipHash)
+  * Performance-oriented:
+    * [foldhash](https://crates.io/crates/foldhash) (general-purpose default)
+    * [rustc-hash](https://crates.io/crates/rustc-hash) (especially for primitive/integer keys)
 
 ## Log
 * [log](https://crates.io/crates/log) facade:
