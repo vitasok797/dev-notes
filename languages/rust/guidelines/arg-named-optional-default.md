@@ -190,16 +190,30 @@ Rust crates like [bon](https://bon-rs.com/) allow you to generate builders autom
 
 ```rust
 #[bon::builder]
-fn greet(name: &str, age: u32, language: Option<&str>) {
+fn greet1(name: &str, age: u32, language: Option<&str>) {
     let lang = language.unwrap_or("English");
-    println!("Hello, {} (age {}), speaks {}", name, age, lang);
+    println!("Hello, {name} (age {age}), speaks {lang}");
+}
+
+#[bon::builder]
+fn greet2(
+    name: &str,
+    #[builder(default = 18)]
+    age: u32,
+) {
+    println!("Hello, {name} (age {age})");
 }
 
 fn main() {
-    greet()
+    greet1()
         .name("Alex")
         .age(30)
-        // language can be omitted because it's an Option
+        // language can be omitted because it's an Option (defaults to None)
+        .call(); 
+
+    greet2()
+        .name("Alex")
+        // age can be omitted because it has a default value
         .call(); 
 }
 ```
