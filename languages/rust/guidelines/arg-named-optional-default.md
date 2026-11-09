@@ -22,11 +22,14 @@ set_size(Width(800), Height(600));
 ```rust
 fn greet(name: Option<&str>) {
     let user_name = name.unwrap_or("Guest");
-    ...
+    println!("{user_name}");
 }
 
-greet(Some("Alex"));
-greet(None);
+fn main() {
+    greet(None);
+    greet(Some("Alex"));
+    greet(Some(&String::from("John")));
+}
 ```
 
 ## Default arguments
