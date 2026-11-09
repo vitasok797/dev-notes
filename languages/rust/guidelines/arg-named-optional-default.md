@@ -53,6 +53,27 @@ fn main() {
 }
 ```
 
+### Optional arguments
+
+```rust
+struct RequestOptions {
+    timeout: Option<Duration>,
+    proxy: Option<Proxy>,
+    redirect: Option<RedirectPolicy>,
+}
+
+fn main() {
+    request(
+        url,
+        RequestOptions {
+            timeout: Some(Duration::from_secs(5)),
+            proxy: None,
+            redirect: None,
+        },
+    );
+}
+```
+
 ### Default arguments
 
 ```rust
