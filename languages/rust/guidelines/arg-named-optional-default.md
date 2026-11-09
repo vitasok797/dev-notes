@@ -28,6 +28,8 @@ greet(Some(&String::from("John")));
 
 ## Structs
 
+### Named
+
 ```rust
 struct CropOptions {
     x: u32,
@@ -49,6 +51,8 @@ fn main() {
     });
 }
 ```
+
+### All optional/default
 
 ```rust
 struct Config {
@@ -79,7 +83,7 @@ fn main() {
 }
 ```
 
-If you prefer passing a single config object into your function, you can enforce required fields by passing them as arguments to a `new()` constructor function. Optional fields are assigned defaults inside this constructor.
+### Required + optional/default
 
 ```rust
 struct Config {
