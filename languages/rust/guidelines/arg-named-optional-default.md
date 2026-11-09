@@ -103,9 +103,7 @@ impl Default for Config {
     }
 }
 
-fn connect(host: &str, config: Config) {
-    println!("Connecting to {}:{} (timeout: {}s)", host, config.port, config.timeout);
-}
+fn connect(host: &str, config: Config) {}
 
 fn main() {
     connect("localhost", Config::default());
@@ -136,9 +134,7 @@ impl Config {
     }
 }
 
-fn connect(config: Config) {
-    println!("Connecting to {}:{} (timeout: {}s)", config.host, config.port, config.timeout);
-}
+fn connect(config: Config) {}
 
 fn main() {
     let config1 = Config::new("localhost");
