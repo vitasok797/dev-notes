@@ -1,7 +1,5 @@
 # Named arguments
 
-Rust does not support named arguments (also known as keyword arguments) at the syntax level for functions. However, Rust provides several idiomatic workarounds that achieve the same result.
-
 ## 1. Passing a configuration structure
 The simplest way to mimic named arguments is to pass a struct to the function. Rust's **Field Init Shorthand** makes this code clean when your variable names match the struct fields:
 
@@ -48,20 +46,5 @@ fn main() {
         .age(30)
         // language can be omitted because it's an Option
         .call(); 
-}
-```
-
-## 3. The Newtype pattern (to prevent argument swapping)
-If your goal is simply to prevent mixing up arguments of the same type (e.g., passing `height` where `width` is expected), you can wrap basic types into distinct structures:
-
-```rust
-struct Width(pub u32);
-struct Height(pub u32);
-
-fn set_size(w: Width, h: Height) { /* ... */ }
-
-fn main() {
-    // Compile-time safety: you cannot accidentally swap these arguments
-    set_size(Width(800), Height(600)); 
 }
 ```
