@@ -9,6 +9,8 @@
 
 ## Benchmarking
 * [criterion](https://crates.io/crates/criterion)
+* [divan](https://crates.io/crates/divan)
+* [flamegraph](https://crates.io/crates/flamegraph) (tool)
 
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
