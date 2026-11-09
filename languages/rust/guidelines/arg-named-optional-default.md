@@ -63,14 +63,13 @@ struct RequestOptions {
 }
 
 fn main() {
-    request(
-        url,
-        RequestOptions {
-            timeout: Some(Duration::from_secs(5)),
-            proxy: None,
-            redirect: None,
-        },
-    );
+    let options = RequestOptions {
+        timeout: some_timeout,
+        proxy: detect_proxy(),
+        redirect: None,
+    };
+    
+    request(url, options);
 }
 ```
 
