@@ -2,7 +2,7 @@
 
 [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/)
 
-## Using Newtype pattern
+## Using the Newtype pattern
 
 ### Named arguments
 
@@ -31,12 +31,11 @@ connect("google.com", 443, Some(200));
 ```rust
 fn greet(name: Option<&str>) {
     let user_name = name.unwrap_or("Guest");
-    ...
+    println!("Hello, {user_name}!");
 }
 
 greet(None);
 greet(Some("Alex"));
-greet(Some(&String::from("John")));
 ```
 
 ## Using structs
@@ -115,7 +114,7 @@ fn main() {
 }
 ```
 
-### Required + default arguments
+### Required and Default arguments
 
 ```rust
 struct Config {
