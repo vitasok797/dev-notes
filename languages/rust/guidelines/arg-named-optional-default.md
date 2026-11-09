@@ -158,7 +158,7 @@ fn main() {
 }
 ```
 
-While you can write builders manually, modern Rust crates like [bon](https://bon-rs.com/) allow you to generate them automatically using macros:
+Rust crates like [bon](https://bon-rs.com/) allow you to generate builders automatically using macros:
 
 ```rust
 #[bon::builder]
