@@ -45,8 +45,9 @@
 * Flat map:
   * [linear-map](https://crates.io/crates/linear-map)
   * [flat_map](https://crates.io/crates/flat_map)
+* Map:
+  * [indexmap](https://crates.io/crates/indexmap) (hash table which preserves insertion order)
 * [smallvec](https://crates.io/crates/smallvec)
-* [indexmap](https://crates.io/crates/indexmap) (hash table with consistent order and fast iteration)
 
 ## Data processing
 * [polars](https://crates.io/crates/polars)
