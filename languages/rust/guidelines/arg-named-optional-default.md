@@ -214,3 +214,25 @@ fn main() {
     });
 }
 ```
+
+```rust
+impl From<Url> for Redirect {
+    fn from(url: Url) -> Self {
+        Self::Url(url)
+    }
+}
+
+impl From<Post> for Redirect {
+    fn from(post: Post) -> Self {
+        Self::Post(post)
+    }
+}
+
+fn redirect_to(target: impl Into<Redirect>) {
+    let target = target.into();
+    ...
+}
+
+redirect_to(url);
+redirect_to(post);
+```
