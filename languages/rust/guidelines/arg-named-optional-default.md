@@ -159,6 +159,18 @@ fn main() {
 }
 ```
 
+Each “argument” is an ordinary method call:
+
+```rust
+let mut request = Request::builder(url);
+
+if let Some(timeout) = config.timeout {
+    request = request.timeout(timeout);
+}
+
+let request = request.build()?;
+```
+
 Rust crates like [bon](https://bon-rs.com/) allow you to generate builders automatically using macros:
 
 ```rust
