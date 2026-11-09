@@ -2,19 +2,6 @@
 
 [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/)
 
-## Using the Newtype pattern
-
-### Named arguments
-
-```rust
-struct Width(pub u32);
-struct Height(pub u32);
-
-fn set_size(w: Width, h: Height) {}
-
-set_size(Width(800), Height(600)); 
-```
-
 ## Using `Option<T>`
 
 ### Optional arguments
