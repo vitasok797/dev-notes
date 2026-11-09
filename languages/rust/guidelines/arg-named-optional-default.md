@@ -208,12 +208,12 @@ fn main() {
     greet1()
         .name("Alex")
         .age(30)
-        // language can be omitted because it's an Option (defaults to None)
+        // 'language' can be omitted because it's an Option (defaults to None)
         .call(); 
 
     greet2()
         .name("Alex")
-        // age can be omitted because it has a default value
+        // 'age' can be omitted because it has a default value
         .call(); 
 }
 ```
