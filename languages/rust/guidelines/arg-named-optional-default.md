@@ -6,7 +6,7 @@
 
 ## Optional arguments
 
-### Using Option<T>
+### Using `Option<T>`
 
 ```rust
 fn greet(name: Option<&str>) {
