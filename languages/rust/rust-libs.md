@@ -46,9 +46,11 @@
   * [linear-map](https://crates.io/crates/linear-map)
   * [flat_map](https://crates.io/crates/flat_map)
 * Hashers for HashSet/HashMap:
-  * [ahash](https://crates.io/crates/ahash)
-  * [rustc-hash](https://crates.io/crates/rustc-hash)
-  * [foldhash](https://crates.io/crates/foldhash)
+  * Secure:
+    * [ahash](https://crates.io/crates/ahash) (faster alternative to SipHash)
+  * Insecure:
+    * [foldhash](https://crates.io/crates/foldhash) (default choise)
+    * [rustc-hash](https://crates.io/crates/rustc-hash) (for primitive types)
 * [itertools](https://crates.io/crates/itertools)
 * [smallvec](https://crates.io/crates/smallvec)
 * [indexmap](https://crates.io/crates/indexmap) (hash table with consistent order and fast iteration)
