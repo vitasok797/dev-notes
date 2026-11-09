@@ -13,6 +13,7 @@
 * Tools:
   * [flamegraph](https://crates.io/crates/flamegraph)
   * [samply](https://crates.io/crates/samply)
+* Guides: [Benchmarking](https://nnethercote.github.io/perf-book/benchmarking.html), [Profiling](https://nnethercote.github.io/perf-book/profiling.html)
 
 ## Communication
 * [tokio](https://crates.io/crates/tokio)
