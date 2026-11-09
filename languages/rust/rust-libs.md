@@ -47,6 +47,7 @@
   * [flat_map](https://crates.io/crates/flat_map)
 * Map:
   * [indexmap](https://crates.io/crates/indexmap) (hash table which preserves insertion order)
+  * [slotmap](https://crates.io/crates/slotmap)
 * Multi-index map:
   * [multi_index_map](https://crates.io/crates/multi_index_map)
   * [bimap](https://crates.io/crates/bimap)
