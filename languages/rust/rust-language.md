@@ -11,6 +11,7 @@
 ## Tutorials 📌
 * [Rust book](https://doc.rust-lang.org/book/)
 * [Rust by example](https://doc.rust-lang.org/rust-by-example/)
+* ⚠️ [The Rust Performance Book](https://nnethercote.github.io/perf-book/introduction.html)
 * [Command line apps in Rust](https://rust-cli.github.io/book/)
 * [Rustonomicon](https://doc.rust-lang.org/nomicon/)
 * [Metanit](https://metanit.com/rust/tutorial/1.1.php)
