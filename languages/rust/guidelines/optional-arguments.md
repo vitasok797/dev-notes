@@ -1,8 +1,5 @@
 # Optional arguments
 
-In Rust, there is no built-in support for optional arguments in function signatures like you would find in Python, C++, or JavaScript. Every function requires a fixed number of arguments of specified types.
-However, you can easily achieve this functionality using common Rust idioms. Here are the 4 main ways to handle this.
-
 ## 3. Using structs (for multiple arguments)
 Pass required parameters directly into the function signature, while keeping the optional ones grouped inside a config struct.
 
