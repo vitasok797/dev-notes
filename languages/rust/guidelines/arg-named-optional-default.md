@@ -36,15 +36,11 @@ struct CropOptions {
     height: u32,
 }
 
-fn crop_image(opts: CropOptions) {
-    // Implementation
-}
+fn crop_image(opts: CropOptions) {}
 
 fn main() {
     let x = 0;
     let y = 0;
-    
-    // Simulating named arguments using a struct
     crop_image(CropOptions {
         x,
         y,
