@@ -4,6 +4,17 @@
 
 ## Named arguments
 
+### Using the Newtype pattern
+
+```rust
+struct Width(pub u32);
+struct Height(pub u32);
+
+fn set_size(w: Width, h: Height) {}
+
+set_size(Width(800), Height(600)); 
+```
+
 ## Optional arguments
 
 ### Using `Option<T>`
@@ -14,10 +25,8 @@ fn greet(name: Option<&str>) {
     ...
 }
 
-fn main() {
-    greet(Some("Alex"));
-    greet(None);
-}
+greet(Some("Alex"));
+greet(None);
 ```
 
 ```rust
@@ -26,10 +35,8 @@ fn greet<S: Into<Option<&'static str>>>(name: S) {
     ...
 }
 
-fn main() {
-    greet("Alex");
-    greet(None);
-}
+greet("Alex");
+greet(None);
 ```
 
 ## Default arguments
