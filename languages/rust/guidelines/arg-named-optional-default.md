@@ -25,11 +25,9 @@ fn greet(name: Option<&str>) {
     println!("{user_name}");
 }
 
-fn main() {
-    greet(None);
-    greet(Some("Alex"));
-    greet(Some(&String::from("John")));
-}
+greet(None);
+greet(Some("Alex"));
+greet(Some(&String::from("John")));
 ```
 
 ## Default arguments
