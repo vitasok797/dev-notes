@@ -2,7 +2,9 @@
 
 [We Have Named Arguments at Home](https://corrode.dev/blog/named-arguments-at-home/)
 
-## Named arguments using Newtype pattern
+## Using Newtype pattern
+
+### Named arguments
 
 ```rust
 struct Width(pub u32);
