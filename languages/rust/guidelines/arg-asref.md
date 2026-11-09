@@ -22,3 +22,14 @@ But with this signature, open accepts anything it can borrow a `&Path` from:
 But this can’t be the whole story. A string literal is a `&str`, but the type that implements `AsRef<Path>` is `str`, without an `&`.
 Fortunately, the standard library includes the blanket implementation: for any types `T` and `U`, if `T: AsRef<U>`, then `&T: AsRef<U>` as well.
 In particular, since `str: AsRef<Path>`, then `&str: AsRef<Path>` as well.
+
+Examples:
+
+```rust
+fn greet(name: impl AsRef<str>) {
+    println!("Hello, {}", name.as_ref());
+}
+
+greet("Ferris");
+greet(String::from("Ferris"));
+```
