@@ -13,7 +13,18 @@ fn set_size(w: Width, h: Height) {}
 set_size(Width(800), Height(600)); 
 ```
 
-## Optional arguments using `Option<T>`
+## Using `Option<T>`
+
+### Optional arguments
+
+```rust
+fn connect(host: &str, port: u16, timeout_ms: Option<u64>) {}
+
+connect("google.com", 443, None);
+connect("google.com", 443, Some(200));
+```
+
+### Default arguments
 
 ```rust
 fn greet(name: Option<&str>) {
