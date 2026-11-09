@@ -12,10 +12,11 @@
 
 ## Functions
 * Arguments:
-  * [AsRef](guidelines/arg-asref.md)
-  * [Into\<*numeric*\>](guidelines/arg-into-numeric.md)
-  * [Into\<String\>](guidelines/arg-into-string.md)
+  * [Flexible argument types](guidelines/arg-flexible-types.md)
   * [Named and optional/default](guidelines/arg-named-optional-default.md)
+  * [Trait: AsRef](guidelines/arg-asref.md)
+  * [Trait: Into\<*numeric*\>](guidelines/arg-into-numeric.md)
+  * [Trait: Into\<String\>](guidelines/arg-into-string.md)
 * [Lambda type inference](guidelines/lambda-type-inference.md)
 
 ## Math
