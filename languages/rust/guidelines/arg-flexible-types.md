@@ -14,10 +14,7 @@ fn redirect_to(target: Redirect) {}
 
 redirect_to(Redirect::Url(url));
 redirect_to(Redirect::Post(post));
-redirect_to(Redirect::Action {
-    action: "show".into(),
-    id: 5,
-});
+redirect_to(Redirect::Action { action: "show".into(), id: 5 });
 ```
 
 Additional `From` conversions:
@@ -42,5 +39,5 @@ fn redirect_to(target: impl Into<Redirect>) {
 
 redirect_to(url);
 redirect_to(post);
-redirect_to(Redirect::Action {...});
+redirect_to(Redirect::Action { action: "show".into(), id: 5 });
 ```
