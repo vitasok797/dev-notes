@@ -3,37 +3,6 @@
 In Rust, there is no built-in support for optional arguments in function signatures like you would find in Python, C++, or JavaScript. Every function requires a fixed number of arguments of specified types.
 However, you can easily achieve this functionality using common Rust idioms. Here are the 4 main ways to handle this.
 
-## 1. Using `Option<T>` (base approach)
-To make an argument optional, wrap its type in an `Option<T>`. Callers must explicitly pass `Some(value)` or `None`. Inside the function, you provide a default value using `.unwrap_or()`.
-
-```rust
-fn greet(name: Option<&str>) {
-    // If no name is provided, default to "Guest"
-    let user_name = name.unwrap_or("Guest");
-    println!("Hello, {}!", user_name);
-}
-
-fn main() {
-    greet(Some("Alex")); // Passing a value
-    greet(None);         // Simulating an omitted argument
-}
-```
-
-## 2. Using `Into<Option<T>>` (cleaner function calls)
-To avoid writing `Some(...)` every time you call the function, you can use generics and the `Into` trait. Rust automatically implements `Into<Option<T>>` for any type `T`.
-
-```rust
-fn greet<S: Into<Option<&'static str>>>(name: S) {
-    let user_name = name.into().unwrap_or("Guest");
-    println!("Hello, {}!", user_name);
-}
-
-fn main() {
-    greet("Alex"); // Pass directly as &str, converts to Some automatically
-    greet(None);   // You can still pass None explicitly
-}
-```
-
 ## 3. Using structs (for multiple arguments)
 Pass required parameters directly into the function signature, while keeping the optional ones grouped inside a config struct.
 
