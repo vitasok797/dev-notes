@@ -31,7 +31,7 @@ connect("google.com", 443, Some(200));
 ```rust
 fn greet(name: Option<&str>) {
     let user_name = name.unwrap_or("Guest");
-    println!("{user_name}");
+    ...
 }
 
 greet(None);
