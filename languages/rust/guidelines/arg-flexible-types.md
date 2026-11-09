@@ -12,16 +12,12 @@ enum Redirect {
 
 fn redirect_to(target: Redirect) {}
 
-fn main() {
-    redirect_to(Redirect::Url(url));
-    
-    redirect_to(Redirect::Post(post));
-    
-    redirect_to(Redirect::Action {
-        action: "show".into(),
-        id: 5,
-    });
-}
+redirect_to(Redirect::Url(url));
+redirect_to(Redirect::Post(post));
+redirect_to(Redirect::Action {
+    action: "show".into(),
+    id: 5,
+});
 ```
 
 Additional `From` conversions:
