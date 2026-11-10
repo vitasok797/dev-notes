@@ -105,6 +105,10 @@
 * XML ([search](https://crates.io/search?q=XML))
 * [base64](https://crates.io/crates/base64)
 
+## Git
+* [git-version](https://crates.io/crates/git-version)
+* [crate-git-revision](https://crates.io/crates/crate-git-revision)
+
 ## GUI
 * Iced:
   * [iced](https://crates.io/crates/iced)
