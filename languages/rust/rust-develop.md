@@ -13,3 +13,6 @@
 * ⚠️ [Google Rust Style Guide](https://google.github.io/styleguide/rustguide.html)
 * [Rustfmt](https://github.com/rust-lang/rustfmt)
 * [Configuring Rustfmt](https://rust-lang.github.io/rustfmt/)
+
+## Tools
+* [cargo-expand](https://crates.io/crates/cargo-expand)
