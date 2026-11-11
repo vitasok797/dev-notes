@@ -202,7 +202,6 @@ where
         let idx = self.index2.remove(k2)?;
         let entry = self.slab.remove(idx);
         self.index1.remove(&entry.key1).unwrap();
-
         Some((entry.key1, entry.key2, entry.value))
     }
 }
