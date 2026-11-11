@@ -61,6 +61,32 @@ impl<K1, K2, V> MultiIndexMap<K1, K2, V> {
     }
 }
 
+impl<K1, K2, V> MultiIndexMap<K1, K2, V> {
+    fn find_entry<'a, K>(
+        slab: &'a Slab<SlotEntry<K1, K2, V>>,
+        index: &HashMap<K, usize>,
+        key: &K,
+    ) -> Option<&'a SlotEntry<K1, K2, V>>
+    where
+        K: Eq + Hash,
+    {
+        let &idx = index.get(key)?;
+        Some(slab.get(idx).unwrap())
+    }
+
+    fn find_entry_mut<'a, K>(
+        slab: &'a mut Slab<SlotEntry<K1, K2, V>>,
+        index: &HashMap<K, usize>,
+        key: &K,
+    ) -> Option<&'a mut SlotEntry<K1, K2, V>>
+    where
+        K: Eq + Hash,
+    {
+        let &idx = index.get(key)?;
+        Some(slab.get_mut(idx).unwrap())
+    }
+}
+
 impl<K1, K2, V> Default for MultiIndexMap<K1, K2, V> {
     fn default() -> Self {
         Self::new()
@@ -90,22 +116,41 @@ where
         Ok(())
     }
 
+    pub fn get_by_k1(&self, k1: &K1) -> Option<&V> {
+        Self::find_entry(&self.slab, &self.index1, k1).map(|e| &e.value)
+    }
+
     pub fn get_mut_by_k1(&mut self, k1: &K1) -> Option<&mut V> {
-        let &idx = self.index1.get(k1)?;
-        let entry = self.slab.get_mut(idx).unwrap();
-        Some(&mut entry.value)
+        Self::find_entry_mut(&mut self.slab, &self.index1, k1).map(|e| &mut e.value)
     }
 
     pub fn get_full_by_k1(&self, k1: &K1) -> Option<(&K1, &K2, &V)> {
-        let &idx = self.index1.get(k1)?;
-        let entry = self.slab.get(idx).unwrap();
-        Some((&entry.key1, &entry.key2, &entry.value))
+        Self::find_entry(&self.slab, &self.index1, k1).map(|e| (&e.key1, &e.key2, &e.value))
     }
 
     pub fn remove_by_k1(&mut self, k1: &K1) -> Option<V> {
         let idx = self.index1.remove(k1)?;
         let entry = self.slab.remove(idx);
         self.index2.remove(&entry.key2).unwrap();
+        Some(entry.value)
+    }
+
+    pub fn get_by_k2(&self, k2: &K2) -> Option<&V> {
+        Self::find_entry(&self.slab, &self.index2, k2).map(|e| &e.value)
+    }
+
+    pub fn get_mut_by_k2(&mut self, k2: &K2) -> Option<&mut V> {
+        Self::find_entry_mut(&mut self.slab, &self.index2, k2).map(|e| &mut e.value)
+    }
+
+    pub fn get_full_by_k2(&self, k2: &K2) -> Option<(&K1, &K2, &V)> {
+        Self::find_entry(&self.slab, &self.index2, k2).map(|e| (&e.key1, &e.key2, &e.value))
+    }
+
+    pub fn remove_by_k2(&mut self, k2: &K2) -> Option<V> {
+        let idx = self.index2.remove(k2)?;
+        let entry = self.slab.remove(idx);
+        self.index1.remove(&entry.key1).unwrap();
         Some(entry.value)
     }
 }
