@@ -28,7 +28,7 @@ where
 
     pub fn get_full_by_k1(&self, k1: &K1) -> Option<(&K1, &K2, &V)> {
         let &idx = self.index1.get(k1)?;
-        let entry = self.slab.get(idx)?;
+        let entry = self.slab.get(idx).unwrap();
         Some((&entry.key1, &entry.key2, &entry.value))
     }
 
