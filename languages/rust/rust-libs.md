@@ -49,8 +49,11 @@
   * Multi-index:
     * [multi_index_map](https://crates.io/crates/multi_index_map)
     * [bimap](https://crates.io/crates/bimap)
-  * [indexmap](https://crates.io/crates/indexmap) (hash table which preserves insertion order)
-  * [slotmap](https://crates.io/crates/slotmap)
+  * Slab:
+    * [slab](https://crates.io/crates/slab)
+    * [slotmap](https://crates.io/crates/slotmap)
+  * Var:
+    * [indexmap](https://crates.io/crates/indexmap) (hash table which preserves insertion order)
 * [smallvec](https://crates.io/crates/smallvec)
 
 ## Data processing
