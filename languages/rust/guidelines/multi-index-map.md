@@ -127,12 +127,28 @@ where
         self.index1.contains_key(k1)
     }
 
+    pub fn contains_k2<Q>(&self, k2: &Q) -> bool
+    where
+        K2: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
+        self.index2.contains_key(k2)
+    }
+
     pub fn get_by_k1<Q>(&self, k1: &Q) -> Option<&V>
     where
         K1: Borrow<Q>,
         Q: Eq + Hash + ?Sized,
     {
         Self::find_entry(&self.slab, &self.index1, k1).map(|e| &e.value)
+    }
+
+    pub fn get_by_k2<Q>(&self, k2: &Q) -> Option<&V>
+    where
+        K2: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
+        Self::find_entry(&self.slab, &self.index2, k2).map(|e| &e.value)
     }
 
     pub fn get_mut_by_k1<Q>(&mut self, k1: &Q) -> Option<&mut V>
@@ -143,12 +159,28 @@ where
         Self::find_entry_mut(&mut self.slab, &self.index1, k1).map(|e| &mut e.value)
     }
 
+    pub fn get_mut_by_k2<Q>(&mut self, k2: &Q) -> Option<&mut V>
+    where
+        K2: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
+        Self::find_entry_mut(&mut self.slab, &self.index2, k2).map(|e| &mut e.value)
+    }
+
     pub fn get_full_by_k1<Q>(&self, k1: &Q) -> Option<(&K1, &K2, &V)>
     where
         K1: Borrow<Q>,
         Q: Eq + Hash + ?Sized,
     {
         Self::find_entry(&self.slab, &self.index1, k1).map(|e| (&e.key1, &e.key2, &e.value))
+    }
+
+    pub fn get_full_by_k2<Q>(&self, k2: &Q) -> Option<(&K1, &K2, &V)>
+    where
+        K2: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
+        Self::find_entry(&self.slab, &self.index2, k2).map(|e| (&e.key1, &e.key2, &e.value))
     }
 
     pub fn remove_by_k1<Q>(&mut self, k1: &Q) -> Option<V>
@@ -160,38 +192,6 @@ where
         let entry = self.slab.remove(idx);
         self.index2.remove(&entry.key2).unwrap();
         Some(entry.value)
-    }
-
-    pub fn contains_k2<Q>(&self, k2: &Q) -> bool
-    where
-        K2: Borrow<Q>,
-        Q: Eq + Hash + ?Sized,
-    {
-        self.index2.contains_key(k2)
-    }
-
-    pub fn get_by_k2<Q>(&self, k2: &Q) -> Option<&V>
-    where
-        K2: Borrow<Q>,
-        Q: Eq + Hash + ?Sized,
-    {
-        Self::find_entry(&self.slab, &self.index2, k2).map(|e| &e.value)
-    }
-
-    pub fn get_mut_by_k2<Q>(&mut self, k2: &Q) -> Option<&mut V>
-    where
-        K2: Borrow<Q>,
-        Q: Eq + Hash + ?Sized,
-    {
-        Self::find_entry_mut(&mut self.slab, &self.index2, k2).map(|e| &mut e.value)
-    }
-
-    pub fn get_full_by_k2<Q>(&self, k2: &Q) -> Option<(&K1, &K2, &V)>
-    where
-        K2: Borrow<Q>,
-        Q: Eq + Hash + ?Sized,
-    {
-        Self::find_entry(&self.slab, &self.index2, k2).map(|e| (&e.key1, &e.key2, &e.value))
     }
 
     pub fn remove_by_k2<Q>(&mut self, k2: &Q) -> Option<V>
