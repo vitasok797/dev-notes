@@ -144,7 +144,7 @@
   * Performance-oriented:
     * [foldhash](https://crates.io/crates/foldhash) (general-purpose default)
     * [rustc-hash](https://crates.io/crates/rustc-hash) (especially for primitive/integer keys)
-  * [nohash-hasher](https://crates.io/crates/nohash-hasher) ([nohash](https://crates.io/crates/nohash))
+    * [nohash-hasher](https://crates.io/crates/nohash-hasher) ([nohash](https://crates.io/crates/nohash))
 
 ## Log
 * [log](https://crates.io/crates/log) facade:
