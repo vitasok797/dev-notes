@@ -33,6 +33,20 @@ impl<K1, K2, V> MultiIndexMap<K1, K2, V> {
             index2: HashMap::with_capacity(capacity),
         }
     }
+
+    pub fn len(&self) -> usize {
+        self.slab.len()
+    }
+
+    pub fn is_empty(&self) -> bool {
+        self.slab.is_empty()
+    }
+
+    pub fn clear(&mut self) {
+        self.slab.clear();
+        self.index1.clear();
+        self.index2.clear();
+    }
 }
 
 impl<K1, K2, V> Default for MultiIndexMap<K1, K2, V> {
