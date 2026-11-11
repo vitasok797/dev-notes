@@ -36,7 +36,7 @@ where
     pub fn remove_by_k1(&mut self, k1: &K1) -> Option<V> {
         let idx = self.index1.remove(k1)?;
         let entry = self.slab.remove(idx);
-        self.index2.remove(&entry.key2);
+        self.index2.remove(&entry.key2).unwrap();
         Some(entry.value)
     }
 }
