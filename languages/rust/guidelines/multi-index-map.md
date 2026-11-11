@@ -1,4 +1,4 @@
-# Multi-index map
+# Multi-index map (BindexMap)
 
 ```rust
 use slab::Slab;
