@@ -22,6 +22,22 @@ where
     K1: Eq + Hash + Clone,
     K2: Eq + Hash + Clone,
 {
+    pub fn new() -> Self {
+        Self {
+            slab: Slab::new(),
+            index1: HashMap::new(),
+            index2: HashMap::new(),
+        }
+    }
+
+    pub fn with_capacity(capacity: usize) -> Self {
+        Self {
+            slab: Slab::with_capacity(capacity),
+            index1: HashMap::with_capacity(capacity),
+            index2: HashMap::with_capacity(capacity),
+        }
+    }
+
     pub fn insert(&mut self, k1: K1, k2: K2, value: V) -> Result<(), (K1, K2, V)> {
         if self.index1.contains_key(&k1) || self.index2.contains_key(&k2) {
             return Err((k1, k2, value));
@@ -57,6 +73,16 @@ where
         let entry = self.slab.remove(idx);
         self.index2.remove(&entry.key2).unwrap();
         Some(entry.value)
+    }
+}
+
+impl<K1, K2, V> Default for MultiIndexMap<K1, K2, V>
+where
+    K1: Eq + Hash + Clone,
+    K2: Eq + Hash + Clone,
+{
+    fn default() -> Self {
+        Self::new()
     }
 }
 ```
