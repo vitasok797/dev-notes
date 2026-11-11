@@ -119,6 +119,14 @@ where
         Ok(())
     }
 
+    pub fn contains_k1<Q>(&self, k1: &Q) -> bool
+    where
+        K1: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
+        self.index1.contains_key(k1)
+    }
+
     pub fn get_by_k1<Q>(&self, k1: &Q) -> Option<&V>
     where
         K1: Borrow<Q>,
@@ -152,6 +160,14 @@ where
         let entry = self.slab.remove(idx);
         self.index2.remove(&entry.key2).unwrap();
         Some(entry.value)
+    }
+
+    pub fn contains_k2<Q>(&self, k2: &Q) -> bool
+    where
+        K2: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
+        self.index2.contains_key(k2)
     }
 
     pub fn get_by_k2<Q>(&self, k2: &Q) -> Option<&V>
