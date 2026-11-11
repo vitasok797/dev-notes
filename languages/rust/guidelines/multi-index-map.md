@@ -10,13 +10,13 @@ struct SlotEntry<K1, K2, V> {
     value: V,
 }
 
-pub struct MultiIndexStore<K1, K2, V> {
+pub struct MultiIndexMap<K1, K2, V> {
     slab: Slab<SlotEntry<K1, K2, V>>,
     index1: HashMap<K1, usize>,
     index2: HashMap<K2, usize>,
 }
 
-impl<K1, K2, V> MultiIndexStore<K1, K2, V>
+impl<K1, K2, V> MultiIndexMap<K1, K2, V>
 where
     K1: Eq + std::hash::Hash + Clone,
     K2: Eq + std::hash::Hash + Clone,
