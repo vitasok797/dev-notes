@@ -2,6 +2,7 @@
 
 ```rust
 use slab::Slab;
+use std::borrow::Borrow;
 use std::collections::HashMap;
 use std::hash::Hash;
 
@@ -59,28 +60,28 @@ impl<K1, K2, V> MultiIndexMap<K1, K2, V> {
             .iter_mut()
             .map(|(_, entry)| (&entry.key1, &entry.key2, &mut entry.value))
     }
-}
 
-impl<K1, K2, V> MultiIndexMap<K1, K2, V> {
-    fn find_entry<'a, K>(
+    fn find_entry<'a, K, Q>(
         slab: &'a Slab<SlotEntry<K1, K2, V>>,
         index: &HashMap<K, usize>,
-        key: &K,
+        key: &Q,
     ) -> Option<&'a SlotEntry<K1, K2, V>>
     where
-        K: Eq + Hash,
+        K: Eq + Hash + Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
     {
         let &idx = index.get(key)?;
         Some(slab.get(idx).unwrap())
     }
 
-    fn find_entry_mut<'a, K>(
+    fn find_entry_mut<'a, K, Q>(
         slab: &'a mut Slab<SlotEntry<K1, K2, V>>,
         index: &HashMap<K, usize>,
-        key: &K,
+        key: &Q,
     ) -> Option<&'a mut SlotEntry<K1, K2, V>>
     where
-        K: Eq + Hash,
+        K: Eq + Hash + Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
     {
         let &idx = index.get(key)?;
         Some(slab.get_mut(idx).unwrap())
@@ -116,38 +117,70 @@ where
         Ok(())
     }
 
-    pub fn get_by_k1(&self, k1: &K1) -> Option<&V> {
+    pub fn get_by_k1<Q>(&self, k1: &Q) -> Option<&V>
+    where
+        K1: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
         Self::find_entry(&self.slab, &self.index1, k1).map(|e| &e.value)
     }
 
-    pub fn get_mut_by_k1(&mut self, k1: &K1) -> Option<&mut V> {
+    pub fn get_mut_by_k1<Q>(&mut self, k1: &Q) -> Option<&mut V>
+    where
+        K1: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
         Self::find_entry_mut(&mut self.slab, &self.index1, k1).map(|e| &mut e.value)
     }
 
-    pub fn get_full_by_k1(&self, k1: &K1) -> Option<(&K1, &K2, &V)> {
+    pub fn get_full_by_k1<Q>(&self, k1: &Q) -> Option<(&K1, &K2, &V)>
+    where
+        K1: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
         Self::find_entry(&self.slab, &self.index1, k1).map(|e| (&e.key1, &e.key2, &e.value))
     }
 
-    pub fn remove_by_k1(&mut self, k1: &K1) -> Option<V> {
+    pub fn remove_by_k1<Q>(&mut self, k1: &Q) -> Option<V>
+    where
+        K1: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
         let idx = self.index1.remove(k1)?;
         let entry = self.slab.remove(idx);
         self.index2.remove(&entry.key2).unwrap();
         Some(entry.value)
     }
 
-    pub fn get_by_k2(&self, k2: &K2) -> Option<&V> {
+    pub fn get_by_k2<Q>(&self, k2: &Q) -> Option<&V>
+    where
+        K2: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
         Self::find_entry(&self.slab, &self.index2, k2).map(|e| &e.value)
     }
 
-    pub fn get_mut_by_k2(&mut self, k2: &K2) -> Option<&mut V> {
+    pub fn get_mut_by_k2<Q>(&mut self, k2: &Q) -> Option<&mut V>
+    where
+        K2: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
         Self::find_entry_mut(&mut self.slab, &self.index2, k2).map(|e| &mut e.value)
     }
 
-    pub fn get_full_by_k2(&self, k2: &K2) -> Option<(&K1, &K2, &V)> {
+    pub fn get_full_by_k2<Q>(&self, k2: &Q) -> Option<(&K1, &K2, &V)>
+    where
+        K2: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
         Self::find_entry(&self.slab, &self.index2, k2).map(|e| (&e.key1, &e.key2, &e.value))
     }
 
-    pub fn remove_by_k2(&mut self, k2: &K2) -> Option<V> {
+    pub fn remove_by_k2<Q>(&mut self, k2: &Q) -> Option<V>
+    where
+        K2: Borrow<Q>,
+        Q: Eq + Hash + ?Sized,
+    {
         let idx = self.index2.remove(k2)?;
         let entry = self.slab.remove(idx);
         self.index1.remove(&entry.key1).unwrap();
