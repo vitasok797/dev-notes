@@ -14,13 +14,13 @@ struct SlotEntry<K1, K2, V> {
 }
 
 #[derive(Debug, Clone)]
-pub struct MultiIndexMap<K1, K2, V> {
+pub struct BindexMap<K1, K2, V> {
     slab: Slab<SlotEntry<K1, K2, V>>,
     index1: HashMap<K1, usize>,
     index2: HashMap<K2, usize>,
 }
 
-impl<K1, K2, V> MultiIndexMap<K1, K2, V> {
+impl<K1, K2, V> BindexMap<K1, K2, V> {
     pub fn new() -> Self {
         Self {
             slab: Slab::new(),
@@ -90,13 +90,13 @@ impl<K1, K2, V> MultiIndexMap<K1, K2, V> {
     }
 }
 
-impl<K1, K2, V> Default for MultiIndexMap<K1, K2, V> {
+impl<K1, K2, V> Default for BindexMap<K1, K2, V> {
     fn default() -> Self {
         Self::new()
     }
 }
 
-impl<K1, K2, V> MultiIndexMap<K1, K2, V>
+impl<K1, K2, V> BindexMap<K1, K2, V>
 where
     K1: Eq + Hash + Clone,
     K2: Eq + Hash + Clone,
