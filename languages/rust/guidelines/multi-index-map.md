@@ -23,7 +23,8 @@ where
 {
     pub fn get_mut_by_k1(&mut self, k1: &K1) -> Option<&mut V> {
         let &idx = self.index1.get(k1)?;
-        self.slab.get_mut(idx).map(|entry| &mut entry.value)
+        let entry = self.slab.get_mut(idx).unwrap();
+        Some(&mut entry.value)
     }
 
     pub fn get_full_by_k1(&self, k1: &K1) -> Option<(&K1, &K2, &V)> {
