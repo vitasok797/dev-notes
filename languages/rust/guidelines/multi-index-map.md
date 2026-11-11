@@ -1,6 +1,3 @@
-# Multi-index map
-
-```rust
 use slab::Slab;
 use std::collections::HashMap;
 use std::hash::Hash;
@@ -22,6 +19,24 @@ where
     K1: Eq + Hash + Clone,
     K2: Eq + Hash + Clone,
 {
+    pub fn insert(&mut self, k1: K1, k2: K2, value: V) -> Result<(), (K1, K2, V)> {
+        if self.index1.contains_key(&k1) || self.index2.contains_key(&k2) {
+            return Err((k1, k2, value));
+        }
+
+        let entry = SlotEntry {
+            key1: k1.clone(),
+            key2: k2.clone(),
+            value,
+        };
+
+        let idx = self.slab.insert(entry);
+        self.index1.insert(k1, idx);
+        self.index2.insert(k2, idx);
+
+        Ok(())
+    }
+
     pub fn get_mut_by_k1(&mut self, k1: &K1) -> Option<&mut V> {
         let &idx = self.index1.get(k1)?;
         let entry = self.slab.get_mut(idx).unwrap();
@@ -41,4 +56,3 @@ where
         Some(entry.value)
     }
 }
-```
