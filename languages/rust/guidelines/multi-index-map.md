@@ -47,6 +47,18 @@ impl<K1, K2, V> MultiIndexMap<K1, K2, V> {
         self.index1.clear();
         self.index2.clear();
     }
+
+    pub fn iter(&self) -> impl Iterator<Item = (&K1, &K2, &V)> {
+        self.slab
+            .iter()
+            .map(|(_, entry)| (&entry.key1, &entry.key2, &entry.value))
+    }
+
+    pub fn iter_mut(&mut self) -> impl Iterator<Item = (&K1, &K2, &mut V)> {
+        self.slab
+            .iter_mut()
+            .map(|(_, entry)| (&entry.key1, &entry.key2, &mut entry.value))
+    }
 }
 
 impl<K1, K2, V> Default for MultiIndexMap<K1, K2, V> {
