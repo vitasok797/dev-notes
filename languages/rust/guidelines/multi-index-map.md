@@ -167,7 +167,7 @@ where
         Self::find_entry_mut(&mut self.slab, &self.index2, k2).map(|e| &mut e.value)
     }
 
-    pub fn get_full_by_k1<Q>(&self, k1: &Q) -> Option<(&K1, &K2, &V)>
+    pub fn get_entry_by_k1<Q>(&self, k1: &Q) -> Option<(&K1, &K2, &V)>
     where
         K1: Borrow<Q>,
         Q: Eq + Hash + ?Sized,
@@ -175,7 +175,7 @@ where
         Self::find_entry(&self.slab, &self.index1, k1).map(|e| (&e.key1, &e.key2, &e.value))
     }
 
-    pub fn get_full_by_k2<Q>(&self, k2: &Q) -> Option<(&K1, &K2, &V)>
+    pub fn get_entry_by_k2<Q>(&self, k2: &Q) -> Option<(&K1, &K2, &V)>
     where
         K2: Borrow<Q>,
         Q: Eq + Hash + ?Sized,
@@ -183,7 +183,7 @@ where
         Self::find_entry(&self.slab, &self.index2, k2).map(|e| (&e.key1, &e.key2, &e.value))
     }
 
-    pub fn remove_by_k1<Q>(&mut self, k1: &Q) -> Option<V>
+    pub fn remove_by_k1<Q>(&mut self, k1: &Q) -> Option<(K1, K2, V)>
     where
         K1: Borrow<Q>,
         Q: Eq + Hash + ?Sized,
@@ -191,10 +191,10 @@ where
         let idx = self.index1.remove(k1)?;
         let entry = self.slab.remove(idx);
         self.index2.remove(&entry.key2).unwrap();
-        Some(entry.value)
+        Some((entry.key1, entry.key2, entry.value))
     }
 
-    pub fn remove_by_k2<Q>(&mut self, k2: &Q) -> Option<V>
+    pub fn remove_by_k2<Q>(&mut self, k2: &Q) -> Option<(K1, K2, V)>
     where
         K2: Borrow<Q>,
         Q: Eq + Hash + ?Sized,
@@ -202,7 +202,8 @@ where
         let idx = self.index2.remove(k2)?;
         let entry = self.slab.remove(idx);
         self.index1.remove(&entry.key1).unwrap();
-        Some(entry.value)
+
+        Some((entry.key1, entry.key2, entry.value))
     }
 }
 ```
