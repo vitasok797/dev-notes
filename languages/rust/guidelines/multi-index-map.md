@@ -205,4 +205,11 @@ where
         Some((entry.key1, entry.key2, entry.value))
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    // TESTS
+}
 ```
