@@ -3,6 +3,7 @@
 ```rust
 use slab::Slab;
 use std::collections::HashMap;
+use std::hash::Hash;
 
 struct SlotEntry<K1, K2, V> {
     key1: K1,
@@ -18,8 +19,8 @@ pub struct MultiIndexMap<K1, K2, V> {
 
 impl<K1, K2, V> MultiIndexMap<K1, K2, V>
 where
-    K1: Eq + std::hash::Hash + Clone,
-    K2: Eq + std::hash::Hash + Clone,
+    K1: Eq + Hash + Clone,
+    K2: Eq + Hash + Clone,
 {
     pub fn get_mut_by_k1(&mut self, k1: &K1) -> Option<&mut V> {
         let &idx = self.index1.get(k1)?;
