@@ -1,3 +1,6 @@
+# Multi-index map
+
+```rust
 use slab::Slab;
 use std::collections::HashMap;
 use std::hash::Hash;
@@ -56,3 +59,4 @@ where
         Some(entry.value)
     }
 }
+```
