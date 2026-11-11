@@ -6,12 +6,14 @@ use std::borrow::Borrow;
 use std::collections::HashMap;
 use std::hash::Hash;
 
+#[derive(Debug, Clone)]
 struct SlotEntry<K1, K2, V> {
     key1: K1,
     key2: K2,
     value: V,
 }
 
+#[derive(Debug, Clone)]
 pub struct MultiIndexMap<K1, K2, V> {
     slab: Slab<SlotEntry<K1, K2, V>>,
     index1: HashMap<K1, usize>,
