@@ -7,7 +7,7 @@ Iterate by ref:
 ```rust
 let entries = vec![Ok(1), Err("error"), Ok(2)];
 
-let ok_entries: Vec<_> = entries
+let ok_entries: Vec<&i32> = entries
     .iter()
     .flatten()
     .collect();
@@ -20,7 +20,7 @@ Iterate by value:
 ```rust
 let entries = vec![Ok(1), Err("error"), Ok(2)];
 
-let ok_entries: Vec<_> = entries
+let ok_entries: Vec<i32> = entries
     .into_iter()
     .flatten()
     .collect();
@@ -35,7 +35,7 @@ Iterate by ref:
 ```rust
 let entries = vec![Ok(1), Err("error"), Ok(2)];
 
-let ok_entries: Vec<_> = entries
+let ok_entries: Vec<&i32> = entries
     .iter()
     .filter_map(|r| r.as_ref().ok())
     .collect();
@@ -48,7 +48,7 @@ Iterate by value:
 ```rust
 let entries = vec![Ok(1), Err("error"), Ok(2)];
 
-let ok_entries: Vec<_> = entries
+let ok_entries: Vec<i32> = entries
     .into_iter()
     .filter_map(Result::ok)
     .collect();
