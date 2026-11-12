@@ -30,6 +30,7 @@
 * [String creation from literal](guidelines/string-creation.md)
 
 ## Traits
+* [Default for generic structs](guidelines/default-for-generic-structs.md)
 * [FromStr vs From<&str>](guidelines/fromstr.md)
 
 ## Types
