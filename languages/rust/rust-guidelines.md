@@ -10,6 +10,9 @@
 * [Module visibility & encapsulation strategy](guidelines/module-visibility.md)
 * [Test organization](guidelines/test-organization.md)
 
+## File
+* [Check path extensions](guidelines/check-path-ext.md)
+
 ## Functions
 * Arguments:
   * [Flexible argument types](guidelines/arg-flexible-types.md)
