@@ -1,24 +1,29 @@
 # String creation from literal
 
-In Rust, a string literal (e.g., `"Hello"`) is of type `&'static str`, which is an immutable reference to a string slice stored directly in the compiled binary.
-To convert a literal into a dynamic, heap-allocated, and growable `String` type that your code can own and modify, use one of the following standard methods:
+## Ways to create a `String` from a literal (of type `&'static str`)
 
-## Ways to create a `String` from a Literal
+### 1. `String::from()`: the most explicit and readable way
 
 ```rust
-fn main() {
-    // 1. String::from() — The most explicit and readable way
-    let s1 = String::from("Hello");
+let s = String::from("Hello");
+```
 
-    // 2. .to_string() — A universal method from the ToString trait
-    let s2 = "Hello".to_string();
+### 2. `.to_string()`: an universal method from the `ToString` trait
 
-    // 3. .into() — Uses the Into trait; requires an explicit type annotation
-    let s3: String = "Hello".into();
+```rust
+let s = "Hello".to_string();
+```
 
-    // 4. .to_owned() — Clones the literal data to create an owned String
-    let s4 = "Hello".to_owned();
-}
+### 3. `.into()`: uses the `Into` trait (requires an explicit type annotation)
+
+```rust
+let s: String = "Hello".into();
+```
+
+### 4. `.to_owned()`: clones the literal data to create an owned `String`
+
+```rust
+let s = "Hello".to_owned();
 ```
 
 ## Comparison
