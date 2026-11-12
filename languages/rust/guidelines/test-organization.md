@@ -16,12 +16,12 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_add() {
+    fn add() {
         assert_eq!(add(2, 2), 4);
     }
 
     #[test]
-    fn test_sub() {
+    fn sub() {
         assert_eq!(sub(5, 3), 2);
     }
 }
@@ -32,13 +32,13 @@ mod tests {
 
     mod authentication {
         use super::*;
-        #[test] fn test_login() {}
-        #[test] fn test_logout() {}
+        #[test] fn login() {}
+        #[test] fn logout() {}
     }
 
     mod data_processing {
         use super::*;
-        #[test] fn test_parse() {}
+        #[test] fn parse() {}
     }
 }
 ```
@@ -48,7 +48,7 @@ Catch panic:
 ```rust
 #[test]
 #[should_panic]
-fn test_divide_by_zero() {
+fn panic() {
     divide(10, 0);
 }
 ```
@@ -58,7 +58,7 @@ Catch panic with message substring:
 ```rust
 #[test]
 #[should_panic(expected = "by zero")]
-fn test_divide_by_zero_with_message() {
+fn panic_with_message() {
     divide(10, 0);
 }
 ```
@@ -67,7 +67,7 @@ Catch panic at specific line:
 
 ```rust
 #[test]
-fn test_specific_line_panic() {
+fn specific_line_panic() {
     let setup_value = 10;
 
     let result = std::panic::catch_unwind(|| {
