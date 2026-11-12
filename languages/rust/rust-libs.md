@@ -69,6 +69,8 @@
   * [postgres](https://crates.io/crates/postgres)
 * SQLite:
   * [rusqlite](https://crates.io/crates/rusqlite)
+* Var:
+  * [sled](https://crates.io/crates/sled) (embedded kv)
 
 ## Error handling
 * ⭐ [thiserror](https://crates.io/crates/thiserror)
