@@ -221,6 +221,9 @@
 * Prompts:
   * [inquire](https://crates.io/crates/inquire)
 
+## Testing
+* [rstest](https://crates.io/crates/rstest)
+
 ## Text
 * Regex:
   * ☀️ [regex](https://crates.io/crates/regex)
