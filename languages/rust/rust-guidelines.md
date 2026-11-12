@@ -22,6 +22,9 @@
   * [Trait: Into\<String\>](guidelines/arg-into-string.md)
 * [Lambda type inference](guidelines/lambda-type-inference.md)
 
+## Iterators
+* [Filter Result](guidelines/filter-result.md)
+
 ## Math
 * [Float range](guidelines/float-range.md)
 
