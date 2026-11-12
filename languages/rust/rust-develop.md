@@ -15,4 +15,5 @@
 * [Configuring Rustfmt](https://rust-lang.github.io/rustfmt/)
 
 ## Tools
+* [cargo-cache](https://crates.io/crates/cargo-cache)
 * [cargo-expand](https://crates.io/crates/cargo-expand)
