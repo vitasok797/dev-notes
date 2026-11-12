@@ -63,14 +63,14 @@
 * ORM:
   * [diesel](https://crates.io/crates/diesel)
   * [sea-orm](https://crates.io/crates/sea-orm)
-* Multi DB:
+* Multi-DB:
   * [sqlx](https://crates.io/crates/sqlx)
 * Postgres:
   * [postgres](https://crates.io/crates/postgres)
-* SQLite:
-  * [rusqlite](https://crates.io/crates/rusqlite)
-* Var:
-  * [sled](https://crates.io/crates/sled) (embedded kv)
+* Embedded:
+  * [rusqlite](https://crates.io/crates/rusqlite) (SQLite)
+  * [sled](https://crates.io/crates/sled) (KV)
+  * [vsdb](https://crates.io/crates/vsdb)
 
 ## Error handling
 * ⭐ [thiserror](https://crates.io/crates/thiserror)
