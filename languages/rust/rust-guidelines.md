@@ -11,7 +11,7 @@
 * [Test organization](guidelines/test-organization.md)
 
 ## File
-* [Check path extensions](guidelines/check-path-ext.md)
+* [Check Path extensions](guidelines/check-path-ext.md)
 
 ## Functions
 * Arguments:
