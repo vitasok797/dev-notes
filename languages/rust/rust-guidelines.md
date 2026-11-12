@@ -6,9 +6,6 @@
 ## Cargo
 * [Cargo offline usage](guidelines/cargo-offline.md)
 
-## Containers
-* [Multi-index map](guidelines/multi-index-map.md)
-
 ## Crates and Modules
 * [Module visibility & encapsulation strategy](guidelines/module-visibility.md)
 * [Test organization](guidelines/test-organization.md)
