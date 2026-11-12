@@ -1,0 +1,1 @@
+# Default for generic structs
