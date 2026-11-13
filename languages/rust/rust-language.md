@@ -6,7 +6,7 @@
 * [Reference](https://doc.rust-lang.org/reference/)
 * [Async book](https://rust-lang.github.io/async-book/)
 * [Unstable book](https://doc.rust-lang.org/unstable-book/)
-* ⚠️ [API guidelines](https://rust-lang.github.io/api-guidelines/)
+* ⭐ [API guidelines](https://rust-lang.github.io/api-guidelines/)
 
 ## Tutorials 📌
 * [Rust book](https://doc.rust-lang.org/book/)
