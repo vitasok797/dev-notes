@@ -2,15 +2,17 @@
 
 ## ⚠️ Unsorted
 
+* [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 * [Hex Editor](https://marketplace.visualstudio.com/items?itemName=ms-vscode.hexeditor)
+* [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 * [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
 * [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
-* [Git Graph](https://marketplace.visualstudio.com/items?itemName=mhutchie.git-graph)
 
 ## Common
 
 * [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks) ([github](https://github.com/alefragnani/vscode-bookmarks))
 * [Even Better TOML](https://marketplace.visualstudio.com/items?itemName=tamasfe.even-better-toml)
+* [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
 * [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack) (extension pack) ([doc](https://code.visualstudio.com/docs/remote/remote-overview))
 
 ## Languages
