@@ -1,6 +1,6 @@
 # String creation from literal
 
-## Ways to create a `String` from a literal (of type `&'static str`)
+## Ways to create a `String` from a literal (`&'static str`)
 
 1. `String::from()`:
 
@@ -28,9 +28,9 @@ let s = "Hello".to_owned();
 
 ## Comparison
 
-| Method | Performance & behavior | When to use |
-|---|---|---|
-| `String::from(...)` | Idiomatic and highly readable. Clearly communicates the intention to build a `String` from a slice. | Use by default for clean and expressive code. |
-| `.to_string()` | Generic conversion. Converts any type implementing `ToString` (like numbers) into a string. | Convenient if you prefer consistent syntax across different types. |
-| `.into()` | Type-driven conversion. Works seamlessly when the compiler already expects a `String`. | Great for shortening code when passing arguments to functions. |
-| `.to_owned()` | Highly efficient. Directly allocates heap memory and copies bytes. | Preferred in performance-critical code or when duplicating references. |
+| Method | When to use |
+|---|---|
+| `String::from(...)` | Recommended default when explicitly creating a `String` from a string literal or `&str` |
+| `.to_string()` | When converting different types (numbers, booleans, etc.) to strings or when consistent syntax is preferred |
+| `.into()` | When the target type is already known from context. Useful for concise, idiomatic code |
+| `.to_owned()` | When emphasizing the conversion from borrowed to owned data, especially in generic code |
