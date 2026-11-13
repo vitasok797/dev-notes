@@ -43,6 +43,9 @@
 * [(Habr) О параллельном (concurrent) и асинхронном (async) Rust](https://habr.com/ru/companies/timeweb/articles/802609/)
 * [(Habr) Многопоточность в Rust: как Ownership, Send и Sync помогают бороться с гонками данных](https://habr.com/ru/articles/1102290/)
 
+## Patterns
+* [Builder (consuming/non-consuming)](https://rust-lang.github.io/api-guidelines/type-safety.html#builders-enable-construction-of-complex-values-c-builder)
+
 ## Project structure
 * [Rust modules vs files](https://fasterthanli.me/articles/rust-modules-vs-files) 🔒
 
