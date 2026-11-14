@@ -30,6 +30,7 @@
 
 ## Patterns
 * [Decorator](guidelines/decorator.md)
+* [Scope guard](guidelines/scope-guard.md)
 * [Typestate](guidelines/typestate.md)
 
 ## String
