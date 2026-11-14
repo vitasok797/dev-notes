@@ -33,11 +33,8 @@ struct MyStruct {
 impl MyStruct {
     fn test(&mut self) {
         let mut self_ = {
-            let cur_mode = self.mode.clone();
-            DropGuard::new(self, move |x| {
-                x.mode = cur_mode;
-                println!("guard");
-            })
+            let restore_mode = self.mode.clone();
+            DropGuard::new(self, move |x| x.mode = restore_mode)
         };
 
         self_.mode = Mode::NonBlocking;
