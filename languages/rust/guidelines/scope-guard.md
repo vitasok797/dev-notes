@@ -34,7 +34,7 @@ impl MyStruct {
     fn test(&mut self) {
         let mut self_ = {
             let restore_mode = self.mode.clone();
-            DropGuard::new(self, move |x| x.mode = restore_mode)
+            DropGuard::new(self, |x| x.mode = restore_mode)
         };
 
         self_.mode = Mode::NonBlocking;
