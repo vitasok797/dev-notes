@@ -26,7 +26,6 @@ enum Mode {
 struct MyStruct {
     #[allow(unused)]
     value: i32,
-    #[allow(unused)]
     mode: Mode,
 }
 
