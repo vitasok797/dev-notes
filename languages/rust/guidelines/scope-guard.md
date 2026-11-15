@@ -1,5 +1,8 @@
 # Scope guard
 
+* [std::mem::DropGuard](https://doc.rust-lang.org/std/mem/struct.DropGuard.html)
+* [scopeguard](https://crates.io/crates/scopeguard)
+
 ```rust
 use std::mem::DropGuard;
 
