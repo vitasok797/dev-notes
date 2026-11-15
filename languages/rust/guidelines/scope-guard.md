@@ -22,21 +22,35 @@ enum Mode {
     NonBlocking,
 }
 
+#[allow(unused)]
 #[derive(Debug)]
 struct MyStruct {
-    #[allow(unused)]
     value: i32,
     mode: Mode,
 }
 
 impl MyStruct {
-    fn test(&mut self) {
+    fn option_1(&mut self) {
         let mut self_ = {
             let restore_mode = self.mode.clone();
             DropGuard::new(self, |x| x.mode = restore_mode)
         };
 
         self_.mode = Mode::NonBlocking;
+
+        // SOME CODE
+
+        println!("{self_:?}");
+    }
+
+    fn option_2(&mut self) {
+        let self_ = {
+            let restore_mode = std::mem::replace(&mut self.mode, Mode::NonBlocking);
+            DropGuard::new(self, |x| x.mode = restore_mode)
+        };
+
+        // SOME CODE
+
         println!("{self_:?}");
     }
 }
@@ -47,8 +61,18 @@ fn main() {
         mode: Mode::Blocking,
     };
 
+    println!("--------------");
+
     println!("{s:?}");
-    s.test();
+    s.option_1();
     println!("{s:?}");
+
+    println!("--------------");
+
+    println!("{s:?}");
+    s.option_2();
+    println!("{s:?}");
+
+    println!("--------------");
 }
 ```
