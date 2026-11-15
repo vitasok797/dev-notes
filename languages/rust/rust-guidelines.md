@@ -4,6 +4,7 @@
 [*Rust Playground*](https://play.rust-lang.org/)
 
 ## Cargo
+* [Cargo configuration](guidelines/cargo-configuration.md)
 * [Cargo offline usage](guidelines/cargo-offline.md)
 
 ## Crates and Modules
