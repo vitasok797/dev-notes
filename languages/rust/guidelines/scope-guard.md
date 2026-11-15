@@ -3,7 +3,7 @@
 ```rust
 use std::mem::DropGuard;
 
-let guard = DropGuard::new((), |_| println!("guard"));
+let _guard = DropGuard::new((), |_| println!("guard"));
 ```
 
 ```rust
