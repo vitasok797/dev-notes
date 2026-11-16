@@ -252,23 +252,23 @@
 * [humantime](https://crates.io/crates/humantime)
 
 ## Types
+* Casting:
+  * [zerocopy](https://crates.io/crates/zerocopy)
+  * [bytemuck](https://crates.io/crates/bytemuck)
+* Enum:
+  * ☀️ [derive_more](https://crates.io/crates/derive_more) 
+  * ☀️ [strum](https://crates.io/crates/strum)
+  * [num_enum](https://crates.io/crates/num_enum)
 * Newtype:
   * [derive_more](https://crates.io/crates/derive_more)
   * [strong-type](https://crates.io/crates/strong-type)
   * [shrinkwraprs](https://crates.io/crates/shrinkwraprs)
   * [nutype](https://crates.io/crates/nutype)
-* Enum:
-  * ☀️ [derive_more](https://crates.io/crates/derive_more) 
-  * ☀️ [strum](https://crates.io/crates/strum)
-  * [num_enum](https://crates.io/crates/num_enum)
 * Numeric:
   * [num](https://crates.io/crates/num)
   * [az](https://crates.io/crates/az)
   * [byteorder](https://crates.io/crates/byteorder)
   * [ord_subset](https://crates.io/crates/ord_subset)
-* Casting:
-  * [zerocopy](https://crates.io/crates/zerocopy)
-  * [bytemuck](https://crates.io/crates/bytemuck)
 * Units:
   * [uom](https://crates.io/crates/uom)
 * ☀️ [derive_more](https://crates.io/crates/derive_more)
