@@ -241,6 +241,7 @@
   * ☀️ [tabled](https://crates.io/crates/tabled)
   * [comfy-table](https://crates.io/crates/comfy-table)
 * Unicode:
+  * [unicase](https://crates.io/crates/unicase) (caseless strings compare using unicode case-folding)
   * [unicode-normalization](https://crates.io/crates/unicode-normalization)
 * [textwrap](https://crates.io/crates/textwrap)
 * [heck](https://crates.io/crates/heck) (case conversion)
