@@ -252,9 +252,8 @@
 * [humantime](https://crates.io/crates/humantime)
 
 ## Types
-* Buffer:
+* Bytes:
   * [bytes](https://crates.io/crates/bytes)
-* Casting:
   * [zerocopy](https://crates.io/crates/zerocopy)
   * [bytemuck](https://crates.io/crates/bytemuck)
 * Enum:
