@@ -267,7 +267,7 @@
   * [shrinkwraprs](https://crates.io/crates/shrinkwraprs)
   * [nutype](https://crates.io/crates/nutype)
 * Numeric:
-  * [num](https://crates.io/crates/num) ([num-traits](https://crates.io/crates/num-traits))
+  * [num](https://crates.io/crates/num) ([num-traits](https://crates.io/crates/num-traits), [num-integer](https://crates.io/crates/num-integer))
   * [az](https://crates.io/crates/az)
   * [ord_subset](https://crates.io/crates/ord_subset)
 * Units:
