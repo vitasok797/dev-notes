@@ -252,6 +252,8 @@
 * [humantime](https://crates.io/crates/humantime)
 
 ## Types
+* Buffer:
+  * [bytes](https://crates.io/crates/bytes)
 * Casting:
   * [zerocopy](https://crates.io/crates/zerocopy)
   * [bytemuck](https://crates.io/crates/bytemuck)
@@ -265,6 +267,7 @@
   * [shrinkwraprs](https://crates.io/crates/shrinkwraprs)
   * [nutype](https://crates.io/crates/nutype)
 * Numeric:
+  * [num-traits](https://crates.io/crates/num-traits)
   * [num](https://crates.io/crates/num)
   * [az](https://crates.io/crates/az)
   * [byteorder](https://crates.io/crates/byteorder)
