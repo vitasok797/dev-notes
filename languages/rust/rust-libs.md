@@ -225,23 +225,23 @@
 * [rstest](https://crates.io/crates/rstest)
 
 ## Text
-* Regex:
-  * ☀️ [regex](https://crates.io/crates/regex)
-  * [fancy-regex](https://crates.io/crates/fancy-regex)
-* Unicode:
-  * [unicode-normalization](https://crates.io/crates/unicode-normalization)
 * Convert:
   * ☀️ [encoding_rs](https://crates.io/crates/encoding_rs)
   * ☀️ [translit](https://crates.io/crates/translit)
-* Tabulate:
-  * ☀️ [tabled](https://crates.io/crates/tabled)
-  * [comfy-table](https://crates.io/crates/comfy-table)
 * Line endings:
   * [newline-converter](https://crates.io/crates/newline-converter)
   * [newline_normalizer](https://crates.io/crates/newline_normalizer)
   * [line-ending](https://crates.io/crates/line-ending)
   * [eolify](https://crates.io/crates/eolify)
   * [normalized-line-endings](https://crates.io/crates/normalized-line-endings)
+* Regex:
+  * ☀️ [regex](https://crates.io/crates/regex)
+  * [fancy-regex](https://crates.io/crates/fancy-regex)
+* Tabulate:
+  * ☀️ [tabled](https://crates.io/crates/tabled)
+  * [comfy-table](https://crates.io/crates/comfy-table)
+* Unicode:
+  * [unicode-normalization](https://crates.io/crates/unicode-normalization)
 * [textwrap](https://crates.io/crates/textwrap)
 * [heck](https://crates.io/crates/heck) (case conversion)
 
