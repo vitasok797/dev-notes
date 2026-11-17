@@ -4,8 +4,8 @@
 * [crates.io list](https://crates.io/crates?sort=downloads)
 * [lib.rs](https://lib.rs/)
 * [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
-* [Blessed.rs](https://blessed.rs/crates)
-* [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
+* ⚠️ [Blessed.rs](https://blessed.rs/crates)
+* ⚠️ [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 
 ## Benchmarking
 * [criterion](https://crates.io/crates/criterion)
