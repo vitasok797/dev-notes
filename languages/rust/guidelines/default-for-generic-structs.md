@@ -1,4 +1,4 @@
-# Default for generic structs
+# `Default` for generic structs
 
 Use `#[derive(Default)]` when generic type parameters genuinely need to implement `Default`. Otherwise, implement `Default` manually to avoid unnecessary trait bounds.
 
