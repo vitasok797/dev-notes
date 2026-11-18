@@ -44,6 +44,7 @@
 ## Containers
 * Map:
   * Flat:
+    * [litemap](https://crates.io/crates/litemap)
     * [linear-map](https://crates.io/crates/linear-map)
     * [flat_map](https://crates.io/crates/flat_map)
   * Multi-index:
