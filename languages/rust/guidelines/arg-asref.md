@@ -26,10 +26,28 @@ In particular, since `str: AsRef<Path>`, then `&str: AsRef<Path>` as well.
 Examples:
 
 ```rust
-fn greet(name: impl AsRef<str>) {
+fn hello(name: impl AsRef<str>) {
     println!("Hello, {}", name.as_ref());
 }
 
-greet("Ferris");
-greet(String::from("Ferris"));
+hello("Ferris");
+hello(String::from("Ferris"));
+hello(&String::from("Ferris"));
+```
+
+```rust
+fn hello_str(name: &str) {
+    println!("Hello, {}", name);
+}
+
+fn hello_asref(name: impl AsRef<str>) {
+    println!("Hello, {}", name.as_ref());
+}
+
+let strings = vec!["Alice".to_owned(), "Bob".to_owned()];
+
+// strings.iter().for_each(hello_str); // Compile error
+strings.iter().for_each(|x| hello_str(x)); // OK
+
+strings.iter().for_each(hello_asref); // OK
 ```
