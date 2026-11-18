@@ -257,6 +257,9 @@
 * [humantime](https://crates.io/crates/humantime)
 
 ## Types
+* Builder:
+  * ☀️ [bon](https://crates.io/crates/bon) (builders) ([site](https://bon-rs.com/))
+  * [derive_builder](https://crates.io/crates/derive_builder)
 * Bytes:
   * [bytes](https://crates.io/crates/bytes)
   * [zerocopy](https://crates.io/crates/zerocopy)
@@ -279,7 +282,6 @@
   * [uom](https://crates.io/crates/uom)
 * ☀️ [derive_more](https://crates.io/crates/derive_more)
 * ☀️ [ambassador](https://crates.io/crates/ambassador)
-* ☀️ [bon](https://crates.io/crates/bon) (builders) ([site](https://bon-rs.com/))
 * [derive-new](https://crates.io/crates/derive-new)
 * [getset](https://crates.io/crates/getset)
 * [bitflags](https://crates.io/crates/bitflags)
