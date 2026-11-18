@@ -55,4 +55,4 @@
 * [Check number in range](guidelines/check-number-in-range.md)
 * [Check value in list](guidelines/check-value-in-list.md)
 * [Platform specific](guidelines/platform-specific.md)
-* ⚠️ [One-time initialization](guidelines/one-time-init.md)
+* [One-time initialization](guidelines/one-time-init.md)
