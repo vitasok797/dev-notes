@@ -31,7 +31,7 @@
 
 ## Patterns
 * ⚠️ [Decorator](guidelines/decorator.md)
-* [Scope guard (using `std::mem::DropGuard`)](guidelines/scope-guard.md)
+* [Scope guard](guidelines/scope-guard.md)
 * ⚠️ [Typestate](guidelines/typestate.md)
 
 ## String
