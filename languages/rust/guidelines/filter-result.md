@@ -1,4 +1,4 @@
-# Filter Result
+# Filter `Result`
 
 ## Using `flatten()`
 
