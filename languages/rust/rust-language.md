@@ -26,6 +26,8 @@
 ## Cheat Sheets
 * ⚠️ [Rust Language Cheat Sheet](https://cheats.rs/)
 * [upsuper/rust-cheatsheet](https://upsuper.github.io/rust-cheatsheet/)
+* [Containers layout](guidelines/img/container-cheat-sheet.png) 🔗
+* [Ownership and smart pointers](guidelines/img/ownership-and-smart-pointers.png) 🔗
 
 ## Error handling
 * Guides:
