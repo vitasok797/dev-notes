@@ -110,21 +110,8 @@
 ## 003
 * [Myths and Legends about Integer Overflow in Rust | Huon on the internet](https://huonw.github.io/blog/2016/04/myths-and-legends-about-integer-overflow-in-rust/)
 * [(Habr) Мифы и легенды о переполнении целых чисел в Rust](https://habr.com/ru/post/282958/)
-* [(Habr) Бот для Starcraft на Rust, C и на любом другом языке](https://habr.com/ru/post/416743/)
 * [Stacked Borrows: An Aliasing Model for Rust - paper.pdf](https://plv.mpi-sws.org/rustbelt/stacked-borrows/paper.pdf)
-* [ALL the Clippy Lints](https://rust-lang.github.io/rust-clippy/master/index.html)
 * [5 Tips for Writing Small CLI Tools in Rust - Pascal’s Scribbles](https://deterministic.space/rust-cli-tips.html)
-
-## 004
-* [Tokio](https://tokio.rs/)
-* [(Habr) Миграция на инфраструктуру async-await в Rust](https://habr.com/ru/post/475272/)
-* [(Habr) Rust в деталях: пишем масштабируемый чат с нуля, часть 1](https://habr.com/ru/post/268609/)
-* [(Habr) Rust в деталях, часть 2](https://habr.com/ru/post/278635/)
-* [(Habr) Введение в futures-rs: асинхронщина на Rust](https://habr.com/ru/post/310234/)
-* [(Habr) Взгляд на Tokio: как устроен этот асинхронный обработчик событий / Блог компании Bitfury Group](https://habr.com/ru/company/bitfury/blog/351824/)
-* [(Habr) Что такое Tokio и Async I/O и зачем это нужно?](https://habr.com/ru/post/347726/)
-* [Sam Sartor - Generalizing Coroutines in Rust](https://samsartor.com/coroutines-1/)
-* [Async/Await | Writing an OS in Rust](https://os.phil-opp.com/async-await/)
 
 ## 005
 * [Cargo - Replacing sources](https://rurust.github.io/cargo-docs-ru/source-replacement.html)
@@ -141,15 +128,12 @@
 * [patterns/builder.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/patterns/builder.md)
 
 ## 006
-* [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
-* [(Habr) Прогулка по быстрому, безопасному и почти законченному веб-сервису на Rust](https://habr.com/ru/post/353990/)
 * [GitHub - rust-unofficial/patterns: A catalogue of Rust design patterns](https://github.com/rust-unofficial/patterns)
 * [patterns/pass-var-to-closure.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/idioms/pass-var-to-closure.md)
 * [patterns/temporary-mutability.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/idioms/temporary-mutability.md)
 * [patterns/visitor.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/patterns/visitor.md)
 * [Hand-Implementing PartialEq, Eq, Hash, PartialOrd and Ord in Rust • Phil's Blog](https://www.philipdaniels.com/blog/2019/rust-equality-and-ordering/)
 * [(Habr) Traits из коробки](https://habr.com/ru/post/277461/)
-* [(Habr) Что делает Rust универсальным языком программирования](https://habr.com/ru/post/504622/)
 * [(Habr) Передача намерений](https://habr.com/ru/post/326896/)
 * [Convenient and idiomatic conversions in Rust](https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust)
 * [Interior mutability in Rust: what, why, how?](https://ricardomartins.cc/2016/06/08/interior-mutability)
@@ -158,7 +142,6 @@
 * [Interior mutability patterns – Paul Dicker – Some random Rust-related thoughts](https://pitdicker.github.io/Interior-mutability-patterns/)
 
 ## 007
-* [dtolnay::_01__await_a_minute - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._01__await_a_minute.html)
 * [dtolnay::_02__reference_types - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._02__reference_types.html)
 * [dtolnay::_03__soundness_bugs - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._03__soundness_bugs.html)
 * [Introduction | 24 days of Rust](https://zsiciarz.github.io/24daysofrust/index.html)
@@ -171,16 +154,9 @@
 * [comparative review - Clone Vector in rust except at one index - Code Review Stack Exchange](https://codereview.stackexchange.com/questions/217277/clone-vector-in-rust-except-at-one-index)
 * [(StackOverflow) Returning a closure from a function](https://stackoverflow.com/questions/25445761/returning-a-closure-from-a-function)
 * [Easy functional programming techniques in Rust for everyone | Technorage](https://deepu.tech/functional-programming-in-rust/)
-* [A Critique of Rust's `std::collections` · Ticki's blog](https://ticki.github.io/blog/horrible/)
 
 ## 008
-* [Rust container cheat sheet - Google Презентации](https://docs.google.com/presentation/d/1q-c7UAyrUlM-eZyTo1pd8SZ0qwA_wYxmPZVOQkoDmH4/edit#slide=id.p)
-* [Basics - Rust cheat sheet](https://upsuper.github.io/rust-cheatsheet/)
-* [Karol Kuczmarski's Blog – Taking string arguments in Rust](http://xion.io/post/code/rust-string-args.html)
 * [Rust pattern: Precise closure capture clauses](https://smallcultfollowing.com/babysteps/blog/2018/04/24/rust-pattern-precise-closure-capture-clauses/)
 * [Creating a Rust function that returns a &str or String](https://hermanradtke.com/2015/05/29/creating-a-rust-function-that-returns-string-or-str.html)
 * [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/README.html)
-* [Karol Kuczmarski's Blog – Small Rust crates I (almost) always use](http://xion.io/post/code/rust-little-crates.html#rust-little-crates)
-* [Асинхронный Rust: проблемы и способы их решения | Nuances of programming | Яндекс Дзен](https://zen.yandex.ru/media/nuancesprog/asinhronnyi-rust-problemy-i-sposoby-ih-resheniia-60e5f4e9176288585b4cab91)
 * [Vector instantiation: macro vs function](https://www.reddit.com/r/rust/comments/rq65ca/vector_instantiation_macro_vs_function/)
-* [(Habr) Что не так в Расте :: впечатления вкатуна](https://habr.com/ru/articles/973938/)
