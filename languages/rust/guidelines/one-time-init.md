@@ -1,31 +1,31 @@
 # One-time init
 
-- LazyLock
-- Module: std::sync
+- [LazyLock](https://doc.rust-lang.org/std/sync/struct.LazyLock.html)
+  - Module: std::sync
   - Thread-Safe (Sync): Yes
   - Data Container: Yes
   - Initialization Method: Implicit (Automatic via Deref on first access)
   - Best Used For: Global static variables that compute their value automatically when first needed (replaces the lazy_static crate).
-- OnceLock
-- Module: std::sync
+- [OnceLock](https://doc.rust-lang.org/beta/std/sync/struct.OnceLock.html)
+  - Module: std::sync
   - Thread-Safe (Sync): Yes
   - Data Container: Yes
   - Initialization Method: Explicit (Manual via .get_or_init() or .set())
   - Best Used For: Global static variables where you need to control when or how the data is initialized during runtime.
-- Once
-- Module: std::sync
+- [Once](https://doc.rust-lang.org/beta/std/sync/struct.Once.html)
+  - Module: std::sync
   - Thread-Safe (Sync): Yes
   - Data Container: No (Executes initialization logic only)
   - Initialization Method: Explicit (Manual via .call_once())
   - Best Used For: Running a one-time initialization function (e.g., FFI C-library setup or global logger configuration) without storing data inside the primitive.
-- LazyCell
-- Module: std::cell
+- [LazyCell](https://doc.rust-lang.org/beta/std/cell/struct.LazyCell.html)
+  - Module: std::cell
   - Thread-Safe (Sync): No (Single-threaded only)
   - Data Container: Yes
   - Initialization Method: Implicit (Automatic via Deref on first access)
   - Best Used For: Heavy fields inside local structs or functions that should be lazily evaluated without atomic overhead.
-- OnceCell
-- Module: std::cell
+- [OnceCell](https://doc.rust-lang.org/std/cell/struct.OnceCell.html)
+  - Module: std::cell
   - Thread-Safe (Sync): No (Single-threaded only)
   - Data Container: Yes
   - Initialization Method: Explicit (Manual via .get_or_init() or .set())
