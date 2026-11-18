@@ -42,7 +42,7 @@
   * [config-manager](https://crates.io/crates/config-manager)
 
 ## Containers
-* Maps:
+* Map:
   * Flat:
     * [linear-map](https://crates.io/crates/linear-map)
     * [flat_map](https://crates.io/crates/flat_map)
@@ -54,7 +54,8 @@
     * [slotmap](https://crates.io/crates/slotmap)
   * Var:
     * [indexmap](https://crates.io/crates/indexmap) (hash table which preserves insertion order)
-* [smallvec](https://crates.io/crates/smallvec)
+* Vec:
+  * [smallvec](https://crates.io/crates/smallvec)
 
 ## Data processing
 * [polars](https://crates.io/crates/polars)
