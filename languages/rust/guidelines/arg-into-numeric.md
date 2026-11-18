@@ -1,4 +1,4 @@
-# Into<*numeric*> arguments
+# `Into<*numeric*>` arguments
 
 Accepts any type that can be **safely** converted into a target type:
 
