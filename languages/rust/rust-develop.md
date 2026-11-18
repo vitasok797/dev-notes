@@ -3,7 +3,7 @@
 ## Cargo
 * [Cargo book](https://doc.rust-lang.org/cargo/)
 * [Cargo.toml conventions](https://doc.rust-lang.org/style-guide/cargo.html)
-* [Package Layout](https://doc.rust-lang.org/cargo/guide/project-layout.html)
+* [Package layout](https://doc.rust-lang.org/cargo/guide/project-layout.html)
 
 ## Clippy
 * [Clippy doc](https://doc.rust-lang.org/clippy/)
