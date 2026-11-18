@@ -1,4 +1,4 @@
-# Deref, Index, and method resolution
+# `Deref`, `Index`, and method resolution
 
 ## 1. The Dereference Operator `*` (`Deref` trait)
 Designed to allow smart pointers (like `Box`, `Vec`, `String`) to syntactically behave exactly like regular, primitive references.
