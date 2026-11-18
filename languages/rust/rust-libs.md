@@ -74,6 +74,10 @@
   * [sled](https://crates.io/crates/sled) (KV)
   * [vsdb](https://crates.io/crates/vsdb)
 
+## Debug
+* [trace](https://crates.io/crates/trace)
+* [stats_alloc](https://crates.io/crates/stats_alloc) ([stats_alloc_helper](https://crates.io/crates/stats_alloc_helper))
+
 ## Error handling
 * ⭐ [thiserror](https://crates.io/crates/thiserror)
 * ⭐ [anyhow](https://crates.io/crates/anyhow)
@@ -160,8 +164,6 @@
   * [log4rs](https://crates.io/crates/log4rs)
 * [slog](https://crates.io/crates/slog)
 * [tracing](https://crates.io/crates/tracing)
-* Debug:
-  * [trace](https://crates.io/crates/trace)
 
 ## Multithreading
 * Async:
