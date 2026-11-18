@@ -23,6 +23,10 @@
 ## Architecture
 * ⚠️ [Master hexagonal architecture in Rust](https://www.howtocodeit.com/guides/master-hexagonal-architecture-in-rust) 🔒
 
+## Cheat Sheets
+* ⚠️ [Rust Language Cheat Sheet](https://cheats.rs/)
+* [upsuper/rust-cheatsheet](https://upsuper.github.io/rust-cheatsheet/)
+
 ## Error handling
 * Guides:
   * [Book / Error Handling](https://doc.rust-lang.org/book/ch09-00-error-handling.html)
@@ -64,4 +68,3 @@
 * ⭐ [Prototyping in Rust](https://corrode.dev/blog/prototyping/)
 * [(Habr) Так ли токсичен синтаксис Rust?](https://habr.com/ru/post/532660/)
 * [Rust Design Patterns](https://rust-unofficial.github.io/patterns/)
-* ⚠️ [Rust Language Cheat Sheet](https://cheats.rs/)
