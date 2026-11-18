@@ -1,4 +1,4 @@
-# AsRef arguments
+# `AsRef<>` arguments
 
 `AsRef` (`AsMut`) is typically used to make functions more flexible in the argument types they accept.
 When a type implements `AsRef<T>`, that means you can borrow a `&T` from it efficiently (`AsMut` is the analogue for mutable references). 
