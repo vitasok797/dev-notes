@@ -88,25 +88,6 @@
 * [GitHub - rsocket/rsocket-rust: RSocket Rust Implementation using Tokio](https://github.com/rsocket/rsocket-rust)
 * [Simple ZeroMQ IPC between Python and Rust : rust](https://www.reddit.com/r/rust/comments/609h7l/simple_zeromq_ipc_between_python_and_rust/)
 
-## 001
-* [What's the "best" way to implement a doubly-linked list in Rust? - The Rust Programming Language Forum](https://users.rust-lang.org/t/whats-the-best-way-to-implement-a-doubly-linked-list-in-rust/27899)
-* [Writing a doubly linked list in Rust is easy : rust](https://www.reddit.com/r/rust/comments/7zsy72/writing_a_doubly_linked_list_in_rust_is_easy/)
-* [Why Writing a Doubly Linked List in (safe) Rust is So Damned Hard : programming](https://www.reddit.com/r/programming/comments/7zbi6s/why_writing_a_doubly_linked_list_in_safe_rust_is/dunjytf/?context=0)
-* [Why Writing a Linked List in (safe) Rust is So Damned Hard](https://rcoh.me/posts/rust-linked-list-basically-impossible/)
-* [Fields in Traits - language design - Rust Internals](https://internals.rust-lang.org/t/fields-in-traits/6933)
-* [fields-in-traits-rfc/0000-fields-in-traits.md at master · nikomatsakis/fields-in-traits-rfc · GitHub](https://github.com/nikomatsakis/fields-in-traits-rfc/blob/master/0000-fields-in-traits.md)
-* [Есть ли ООП в Rust? | rustycrate.ru | Сайт о языке программирования Rust](https://rustycrate.ru/%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5/2017/06/11/oop-in-rust.html)
-* [Обсуждение статьи "Есть ли ООП в Rust?" - Статьи - Форум rustycrate.ru](https://forum.rustycrate.ru/t/obsuzhdenie-stati-est-li-oop-v-rust/220/8)
-* [figures/src/figures at master · mkpankov/figures · GitHub](https://github.com/mkpankov/figures/tree/master/src/figures)
-* [(Habr) Как не переписать проект на Rust](https://habr.com/ru/post/474666/)
-* [(Habr) Как переписать код на Rust](https://habr.com/ru/post/511478/)
-
-## 002
-* [A little Rust with your C - The Embedded Rust Book](https://rust-embedded.github.io/book/interoperability/rust-with-c.html)
-* [Rust can create dll/so/dylib? - help - The Rust Programming Language Forum](https://users.rust-lang.org/t/rust-can-create-dll-so-dylib/7852)
-* [Linkage - The Rust Reference](https://doc.rust-lang.org/reference/linkage.html)
-* [Limit the use of unsafe Rust code · Issue #499 · stepancheg/rust-protobuf · GitHub](https://github.com/stepancheg/rust-protobuf/issues/499)
-
 ## 003
 * [Myths and Legends about Integer Overflow in Rust | Huon on the internet](https://huonw.github.io/blog/2016/04/myths-and-legends-about-integer-overflow-in-rust/)
 * [(Habr) Мифы и легенды о переполнении целых чисел в Rust](https://habr.com/ru/post/282958/)
@@ -114,18 +95,11 @@
 * [5 Tips for Writing Small CLI Tools in Rust - Pascal’s Scribbles](https://deterministic.space/rust-cli-tips.html)
 
 ## 005
-* [Cargo - Replacing sources](https://rurust.github.io/cargo-docs-ru/source-replacement.html)
-* [Cargo - Why do binaries have Cargo.lock in version control, but not libraries?](https://rurust.github.io/cargo-docs-ru/faq.html#why-do-binaries-have-cargolock-in-version-control-but-not-libraries)
 * [Understanding Closures in Rust.. fn, Fn, FnMut, FnOnce | by Andrew Pritchard | The Startup | Medium](https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759)
-* [Andrew’s Notepad. | notepad](https://andymac-2.github.io/notepad/)
-* [(StackOverflow) What is the difference between iter and into_iter?](https://stackoverflow.com/questions/34733811/what-is-the-difference-between-iter-and-into-iter)
 * [Effectively Using Iterators In Rust](https://hermanradtke.com/2015/06/22/effectively-using-iterators-in-rust.html)
 * [(StackOverflow) Understanding and relationship between Box, ref, & and *](https://stackoverflow.com/questions/31949579/understanding-and-relationship-between-box-ref-and?rq=1)
 * [Strategies for Returning References in Rust](https://bryce.fisher-fleig.org/strategies-for-returning-references-in-rust/)
 * [Rust Patterns: Using traits for function overloading | by Jonathan Reem | Medium](https://medium.com/@jreem/advanced-rust-using-traits-for-argument-overloading-c6a6c8ba2e17)
-* [derive_builder - crates.io: Rust Package Registry](https://crates.io/crates/derive_builder)
-* [The builder pattern](https://doc.rust-lang.org/1.0.0/style/ownership/builders.html)
-* [patterns/builder.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/patterns/builder.md)
 
 ## 006
 * [GitHub - rust-unofficial/patterns: A catalogue of Rust design patterns](https://github.com/rust-unofficial/patterns)
@@ -142,11 +116,7 @@
 * [Interior mutability patterns – Paul Dicker – Some random Rust-related thoughts](https://pitdicker.github.io/Interior-mutability-patterns/)
 
 ## 007
-* [dtolnay::_02__reference_types - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._02__reference_types.html)
-* [dtolnay::_03__soundness_bugs - Rust](https://docs.rs/dtolnay/0.0.9/dtolnay/macro._03__soundness_bugs.html)
-* [Introduction | 24 days of Rust](https://zsiciarz.github.io/24daysofrust/index.html)
 * [rustlings](https://github.com/rust-lang/rustlings)
-* [impl Trait for returning complex types with ease - The Edition Guide](https://doc.rust-lang.org/edition-guide/rust-2018/trait-system/impl-trait-for-returning-complex-types-with-ease.html)
 * [Don't use boxed trait objects for struct internals](https://bennetthardwick.com/blog/dont-use-boxed-trait-objects-for-struct-internals/)
 * [Generic returns in Rust – The If Works](https://blog.jcoglan.com/2019/04/22/generic-returns-in-rust/)
 * [Abstract return types, aka `impl Trait`](https://www.ncameron.org/blog/abstract-return-types-aka--impl-trait-/)
