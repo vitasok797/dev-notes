@@ -12,8 +12,8 @@
 ## Style & formatting
 * [Rust style guide](https://doc.rust-lang.org/style-guide/)
 * ⚠️ [Google Rust Style Guide](https://google.github.io/styleguide/rustguide.html)
-* [Rustfmt](https://github.com/rust-lang/rustfmt)
-* [Configuring Rustfmt](https://rust-lang.github.io/rustfmt/)
+* [Naming conventions](https://rust-lang.github.io/api-guidelines/naming.html)
+* [Rustfmt](https://github.com/rust-lang/rustfmt) ([configuring](https://rust-lang.github.io/rustfmt/))
 
 ## Tools
 * [cargo-cache](https://crates.io/crates/cargo-cache)
