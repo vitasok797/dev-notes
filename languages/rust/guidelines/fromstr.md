@@ -1,4 +1,4 @@
-# FromStr vs From<&str>
+# `FromStr` vs `From<&str>`
 
 | **Feature** | **FromStr** | **From<&str>** |
 | --- | --- | --- |
