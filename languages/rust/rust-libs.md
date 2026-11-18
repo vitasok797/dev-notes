@@ -97,24 +97,24 @@
 * [which](https://crates.io/crates/which)
 * [camino](https://crates.io/crates/camino) (UTF-8 paths)
 
-## Formats (serialization)
+## Formats and Serialization
 * ☀️ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, FlexBuffers):
   * ☀️ [serde_json](https://crates.io/crates/serde_json)
-  * YAML:
-    * [serde_yaml_ng](https://crates.io/crates/serde_yaml_ng)
-    * [yaml_serde](https://crates.io/crates/yaml_serde)
+  * YAML: [serde_yaml_ng](https://crates.io/crates/serde_yaml_ng), [yaml_serde](https://crates.io/crates/yaml_serde)
   * [toml](https://crates.io/crates/toml)
   * ☀️ [csv](https://crates.io/crates/csv)
   * [flexbuffers](https://crates.io/crates/flexbuffers)
-* FlatBuffers:
-  * [flatbuffers](https://crates.io/crates/flatbuffers)
-  * [search](https://crates.io/search?q=FlatBuffers)
-* Protobuf:
-  * ☀️ [prost](https://crates.io/crates/prost)
-  * [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
+* Serialization:
+  * FlatBuffers:
+    * [flatbuffers](https://crates.io/crates/flatbuffers)
+    * [search](https://crates.io/search?q=FlatBuffers)
+  * Protobuf:
+    * ☀️ [prost](https://crates.io/crates/prost)
+    * [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
+  * [flexbuffers](https://crates.io/crates/flexbuffers)
+  * [capnp](https://crates.io/crates/capnp) (Cap'n Proto)
 * XML ([search](https://crates.io/search?q=XML))
 * [base64](https://crates.io/crates/base64)
-* [capnp](https://crates.io/crates/capnp) (Cap'n Proto)
 
 ## Git
 * [git-version](https://crates.io/crates/git-version)
