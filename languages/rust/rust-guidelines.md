@@ -39,7 +39,7 @@
 
 ## Traits
 * [`Default` for generic structs](guidelines/default-for-generic-structs.md)
-* [`Deref`, `Index`, and method resolution](guidelines/deref.md)
+* ⚠️ [`Deref`, `Index`, and method resolution](guidelines/deref.md)
 * ⚠️ [`FromStr` vs `From<&str>`](guidelines/fromstr.md)
 
 ## Types
@@ -55,4 +55,4 @@
 * [Check number in range](guidelines/check-number-in-range.md)
 * [Check value in list](guidelines/check-value-in-list.md)
 * [Platform specific](guidelines/platform-specific.md)
-* [One-time init](guidelines/one-time-init.md)
+* ⚠️ [One-time init](guidelines/one-time-init.md)
