@@ -1,4 +1,4 @@
-# String creation from literal
+# `String` creation from literal
 
 ## Ways to create a `String` from a literal (`&'static str`)
 
