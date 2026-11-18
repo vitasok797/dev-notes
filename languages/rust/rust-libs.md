@@ -111,6 +111,9 @@
   * FlatBuffers: [flatbuffers](https://crates.io/crates/flatbuffers), [*search*](https://crates.io/search?q=FlatBuffers)
   * FlexBuffers: [flexbuffers](https://crates.io/crates/flexbuffers)
   * Cap'n Proto: [capnp](https://crates.io/crates/capnp)
+  * [rkyv](https://crates.io/crates/rkyv)
+  * [wincode](https://crates.io/crates/wincode)
+  * [bincode-next](https://crates.io/crates/bincode-next)
 * XML: [*search*](https://crates.io/search?q=XML)
 * [base64](https://crates.io/crates/base64)
 
