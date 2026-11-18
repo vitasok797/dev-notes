@@ -8,7 +8,7 @@
 * [Cargo offline usage](guidelines/cargo-offline.md)
 
 ## Crates and Modules
-* [Module visibility & encapsulation strategy](guidelines/module-visibility.md)
+* ⚠️ [Module visibility & encapsulation strategy](guidelines/module-visibility.md)
 * [Test organization](guidelines/test-organization.md)
 
 ## File
@@ -21,7 +21,7 @@
   * [Trait: AsRef](guidelines/arg-asref.md)
   * [Trait: Into\<*numeric*\>](guidelines/arg-into-numeric.md)
   * [Trait: Into\<String\>](guidelines/arg-into-string.md)
-* [Lambda type inference](guidelines/lambda-type-inference.md)
+* ⚠️ [Lambda type inference](guidelines/lambda-type-inference.md)
 
 ## Iterators
 * [Filter Result](guidelines/filter-result.md)
@@ -30,20 +30,20 @@
 * [Float range](guidelines/float-range.md)
 
 ## Patterns
-* [Decorator](guidelines/decorator.md)
+* ⚠️ [Decorator](guidelines/decorator.md)
 * [Scope guard](guidelines/scope-guard.md)
-* [Typestate](guidelines/typestate.md)
+* ⚠️ [Typestate](guidelines/typestate.md)
 
 ## String
 * [String creation from literal](guidelines/string-creation.md)
 
 ## Traits
 * [Default for generic structs](guidelines/default-for-generic-structs.md)
-* [FromStr vs From<&str>](guidelines/fromstr.md)
+* ⚠️ [FromStr vs From<&str>](guidelines/fromstr.md)
 
 ## Types
 * [Containers layout cheat sheet](guidelines/img/container-cheat-sheet.png)
-* [Newtype](guidelines/newtype.md)
+* ⚠️ [Newtype](guidelines/newtype.md)
 * [Object extension](guidelines/object-extension.md)
 * [Ownership and smart pointers](guidelines/ownership-and-smart-pointers.md)
 * [Smart pointers with slices](guidelines/smart-pointers-with-slices.md)
