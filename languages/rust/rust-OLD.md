@@ -40,10 +40,7 @@
 * [Error Handling in Rust - Andrew Gallant's Blog](https://blog.burntsushi.net/rust-error-handling/)
 * [Обработка ошибок - Язык программирования Rust](https://rurust.github.io/rust_book_ru/error-handling.html)
 * [Interoperability - Rust API Guidelines](https://rust-lang.github.io/api-guidelines/interoperability.html#c-good-err)
-* [Semantic validation in Rust](https://slowtec.de/posts/2019-09-03-semantic-validation-with-rust.html)
 * [Combine Results for Improved Rust Validation Logic](https://www.joshmcguigan.com/blog/multi-try-improved-validation-logic-rust/)
-* [Panicking | Learning Rust](https://learning-rust.github.io/docs/e2.panicking.html)
-* [Error handling | Rust Tutorial](https://rust.programmingpedia.net/en/tutorial/1762/error-handling)
 * [Beginner's guide to Error Handling in Rust](https://www.sheshbabu.com/posts/rust-error-handling/)
 * [From failure to Fehler - Without boats, dreams dry up](https://without.boats/blog/failure-to-fehler/)
 * [Rust: Structuring and handling errors in 2020 - nick.groenen.me](https://nick.groenen.me/posts/rust-error-handling/)
@@ -79,8 +76,6 @@
 ## 001
 * [Myths and Legends about Integer Overflow in Rust | Huon on the internet](https://huonw.github.io/blog/2016/04/myths-and-legends-about-integer-overflow-in-rust/)
 * [(Habr) Мифы и легенды о переполнении целых чисел в Rust](https://habr.com/ru/post/282958/)
-* [Stacked Borrows: An Aliasing Model for Rust - paper.pdf](https://plv.mpi-sws.org/rustbelt/stacked-borrows/paper.pdf)
-* [5 Tips for Writing Small CLI Tools in Rust - Pascal’s Scribbles](https://deterministic.space/rust-cli-tips.html)
 
 ## 002
 * [Understanding Closures in Rust.. fn, Fn, FnMut, FnOnce | by Andrew Pritchard | The Startup | Medium](https://medium.com/swlh/understanding-closures-in-rust-21f286ed1759)
@@ -96,25 +91,18 @@
 * [patterns/visitor.md at master · rust-unofficial/patterns · GitHub](https://github.com/rust-unofficial/patterns/blob/master/patterns/visitor.md)
 * [Hand-Implementing PartialEq, Eq, Hash, PartialOrd and Ord in Rust • Phil's Blog](https://www.philipdaniels.com/blog/2019/rust-equality-and-ordering/)
 * [(Habr) Traits из коробки](https://habr.com/ru/post/277461/)
-* [(Habr) Передача намерений](https://habr.com/ru/post/326896/)
-* [Convenient and idiomatic conversions in Rust](https://ricardomartins.cc/2016/08/03/convenient_and_idiomatic_conversions_in_rust)
 * [Interior mutability in Rust: what, why, how?](https://ricardomartins.cc/2016/06/08/interior-mutability)
 * [Interior mutability in Rust, part 2: thread safety](https://ricardomartins.cc/2016/06/25/interior-mutability-thread-safety)
 * [Interior mutability in Rust, part 3: behind the curtain](https://ricardomartins.cc/2016/07/11/interior-mutability-behind-the-curtain)
 * [Interior mutability patterns – Paul Dicker – Some random Rust-related thoughts](https://pitdicker.github.io/Interior-mutability-patterns/)
 
 ## 004
-* [rustlings](https://github.com/rust-lang/rustlings)
 * [Don't use boxed trait objects for struct internals](https://bennetthardwick.com/blog/dont-use-boxed-trait-objects-for-struct-internals/)
 * [Generic returns in Rust – The If Works](https://blog.jcoglan.com/2019/04/22/generic-returns-in-rust/)
 * [Abstract return types, aka `impl Trait`](https://www.ncameron.org/blog/abstract-return-types-aka--impl-trait-/)
-* [Easy functional programming techniques in Rust for everyone | Technorage](https://deepu.tech/functional-programming-in-rust/)
-* [comparative review - Clone Vector in rust except at one index - Code Review Stack Exchange](https://codereview.stackexchange.com/questions/217277/clone-vector-in-rust-except-at-one-index)
-* [(StackOverflow) Returning a closure from a function](https://stackoverflow.com/questions/25445761/returning-a-closure-from-a-function)
 * [Easy functional programming techniques in Rust for everyone | Technorage](https://deepu.tech/functional-programming-in-rust/)
 
 ## 005
 * [Rust pattern: Precise closure capture clauses](https://smallcultfollowing.com/babysteps/blog/2018/04/24/rust-pattern-precise-closure-capture-clauses/)
 * [Creating a Rust function that returns a &str or String](https://hermanradtke.com/2015/05/29/creating-a-rust-function-that-returns-string-or-str.html)
 * [The Little Book of Rust Macros](https://danielkeep.github.io/tlborm/book/README.html)
-* [Vector instantiation: macro vs function](https://www.reddit.com/r/rust/comments/rq65ca/vector_instantiation_macro_vs_function/)
