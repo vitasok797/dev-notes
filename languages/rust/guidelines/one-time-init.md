@@ -1,4 +1,4 @@
-# One-time init
+# One-time initialization
 
 ## Thread-Safe
 
