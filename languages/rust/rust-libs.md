@@ -108,10 +108,10 @@
   * Protobuf:
     * ☀️ [prost](https://crates.io/crates/prost)
     * [protobuf](https://crates.io/crates/protobuf) (v.4+) ([protobuf-team crates](https://crates.io/teams/github:protocolbuffers:protobuf-team))
-  * FlatBuffers: [flatbuffers](https://crates.io/crates/flatbuffers), [search](https://crates.io/search?q=FlatBuffers)
+  * FlatBuffers: [flatbuffers](https://crates.io/crates/flatbuffers), [*search*](https://crates.io/search?q=FlatBuffers)
   * FlexBuffers: [flexbuffers](https://crates.io/crates/flexbuffers)
   * Cap'n Proto: [capnp](https://crates.io/crates/capnp)
-* XML ([search](https://crates.io/search?q=XML))
+* XML: [*search*](https://crates.io/search?q=XML)
 * [base64](https://crates.io/crates/base64)
 
 ## Git
