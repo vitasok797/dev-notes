@@ -146,6 +146,7 @@
 
 ## Hashing
 * [digest](https://crates.io/crates/digest) ([supported-algorithms](https://github.com/RustCrypto/hashes?tab=readme-ov-file#supported-algorithms))
+* [blake3](https://crates.io/crates/blake3)
 * xxhash ([article](https://jolynch.github.io/posts/use_fast_data_algorithms/)):
   * [xxhash-rust](https://crates.io/crates/xxhash-rust)
   * [twox-hash](https://crates.io/crates/twox-hash)
@@ -218,6 +219,7 @@
 * [crossterm](https://crates.io/crates/crossterm)
 * [console](https://crates.io/crates/console)
 * [dialoguer](https://crates.io/crates/dialoguer)
+* [termcolor](https://crates.io/crates/termcolor)
 * Progress:
   * [indicatif](https://crates.io/crates/indicatif)
 * TUI:
