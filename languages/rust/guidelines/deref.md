@@ -1,4 +1,9 @@
-# `Deref`, `Index`, and method resolution
+# `Deref`, `Index`, method resolution, type coercions
+
+[Implementing the Deref Trait](https://doc.rust-lang.org/book/ch15-02-deref.html#implementing-the-deref-trait) \
+[The dereference operator](https://doc.rust-lang.org/reference/expressions/operator-expr.html#the-dereference-operator) \
+[Method-call expressions](https://doc.rust-lang.org/reference/expressions/method-call-expr.html) \
+[Type coercions](https://doc.rust-lang.org/reference/type-coercions.html)
 
 ## 1. The Dereference Operator `*` (`Deref` trait)
 Designed to allow smart pointers (like `Box`, `Vec`, `String`) to syntactically behave exactly like regular, primitive references.
@@ -57,8 +62,3 @@ If T implements DerefMut<Target = U>, and v is a value of type T, then:
 ([Trait  Index](https://doc.rust-lang.org/std/ops/trait.Index.html))
 
 container[index] is actually syntactic sugar for *container.index_mut(index), but only when used as a mutable value. If an immutable value is requested, the Index trait is used instead. This allows nice things such as v[index] = value.
-
-- https://doc.rust-lang.org/book/ch15-02-deref.html#implementing-the-deref-trait
-- https://doc.rust-lang.org/reference/expressions/operator-expr.html#the-dereference-operator
-- https://doc.rust-lang.org/reference/expressions/method-call-expr.html
-- https://doc.rust-lang.org/reference/type-coercions.html
