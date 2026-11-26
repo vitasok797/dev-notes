@@ -15,16 +15,14 @@
 ```rust
 #[cfg(windows)]
 mod platform_consts {
-	pub const VAR_STR: (&str, &str) = ("CARGO_PKG_NAME", "playground");
-	pub const VAR_INT: (&str, i32) = ("CARGO_PKG_VERSION_PATCH", 1);
-	pub const VAR_UNKNOWN: &str = "UNKNOWN";
+	pub const CONST_1: i32 = 42;
+	pub const CONST_2: i32 = 333;
 }
 
 #[cfg(unix)]
 mod platform_consts {
-	pub const VAR_STR: (&str, &str) = ("CARGO_PKG_NAME", "playground");
-	pub const VAR_INT: (&str, i32) = ("CARGO_PKG_VERSION_PATCH", 1);
-	pub const VAR_UNKNOWN: &str = "UNKNOWN";
+	pub const CONST_1: i32 = 7;
+	pub const CONST_2: i32 = 123;
 }
 
 use platform_consts::*;
