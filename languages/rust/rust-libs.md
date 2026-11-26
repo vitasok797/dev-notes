@@ -4,7 +4,7 @@
 * [crates.io list](https://crates.io/crates?sort=downloads)
 * [lib.rs](https://lib.rs/)
 * [Awesome Rust](https://github.com/rust-unofficial/awesome-rust)
-* ⚠️ [Blessed.rs](https://blessed.rs/crates)
+* [Blessed.rs](https://blessed.rs/crates)
 * ⚠️ [Rust cookbook](https://rust-lang-nursery.github.io/rust-cookbook/)
 
 ## Benchmarking
@@ -51,7 +51,7 @@
     * [multi_index_map](https://crates.io/crates/multi_index_map)
     * [bimap](https://crates.io/crates/bimap)
   * Slab:
-    * [slab](https://crates.io/crates/slab)
+    * ⭐ [slab](https://crates.io/crates/slab)
     * [slotmap](https://crates.io/crates/slotmap)
   * Var:
     * [indexmap](https://crates.io/crates/indexmap) (hash table which preserves insertion order)
@@ -233,8 +233,8 @@
 
 ## Text
 * Convert:
-  * ☀️ [encoding_rs](https://crates.io/crates/encoding_rs)
-  * ☀️ [translit](https://crates.io/crates/translit)
+  * ⭐ [encoding_rs](https://crates.io/crates/encoding_rs)
+  * [translit](https://crates.io/crates/translit)
 * Line endings:
   * [newline-converter](https://crates.io/crates/newline-converter)
   * [newline_normalizer](https://crates.io/crates/newline_normalizer)
@@ -242,7 +242,7 @@
   * [eolify](https://crates.io/crates/eolify)
   * [normalized-line-endings](https://crates.io/crates/normalized-line-endings)
 * Regex:
-  * ☀️ [regex](https://crates.io/crates/regex)
+  * ⭐ [regex](https://crates.io/crates/regex)
   * [fancy-regex](https://crates.io/crates/fancy-regex)
 * Tabulate:
   * ☀️ [tabled](https://crates.io/crates/tabled)
@@ -277,7 +277,7 @@
   * [shrinkwraprs](https://crates.io/crates/shrinkwraprs)
   * [nutype](https://crates.io/crates/nutype)
 * Numeric:
-  * [num](https://crates.io/crates/num) ([num-traits](https://crates.io/crates/num-traits), [num-integer](https://crates.io/crates/num-integer))
+  * ⭐ [num](https://crates.io/crates/num) ([num-traits](https://crates.io/crates/num-traits), [num-integer](https://crates.io/crates/num-integer))
   * [az](https://crates.io/crates/az)
   * [ord_subset](https://crates.io/crates/ord_subset)
 * Units:
@@ -298,9 +298,9 @@
 * [poem](https://crates.io/crates/poem)
 
 ## Var 📌
+* ⭐ [rand](https://crates.io/crates/rand)
 * ☀️ [itertools](https://crates.io/crates/itertools)
-* ☀️ [rand](https://crates.io/crates/rand)
-* ☀️ [scopeguard](https://crates.io/crates/scopeguard)
+* [scopeguard](https://crates.io/crates/scopeguard)
 * [uuid](https://crates.io/crates/uuid)
 * [semver](https://crates.io/crates/semver)
 * [contracts](https://crates.io/crates/contracts)
