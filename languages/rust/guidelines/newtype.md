@@ -37,3 +37,26 @@ fn main() {
     // print_password_string(&pass_newtype); // compile error
 }
 ```
+
+```rust
+#[cfg(windows)]
+#[cfg(unix)]
+```
+
+```rust
+#[cfg(windows)]
+mod platform_consts {
+	pub const VAR_STR: (&str, &str) = ("CARGO_PKG_NAME", "playground");
+	pub const VAR_INT: (&str, i32) = ("CARGO_PKG_VERSION_PATCH", 1);
+	pub const VAR_UNKNOWN: &str = "UNKNOWN";
+}
+
+#[cfg(unix)]
+mod platform_consts {
+	pub const VAR_STR: (&str, &str) = ("CARGO_PKG_NAME", "playground");
+	pub const VAR_INT: (&str, i32) = ("CARGO_PKG_VERSION_PATCH", 1);
+	pub const VAR_UNKNOWN: &str = "UNKNOWN";
+}
+
+use platform_consts::*;
+```
