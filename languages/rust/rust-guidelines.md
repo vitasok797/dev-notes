@@ -39,7 +39,7 @@
 
 ## Traits
 * [`Default` for generic structs](guidelines/default-for-generic-structs.md)
-* ⚠️ [`Deref`, `Index`, and method resolution](guidelines/deref.md)
+* ⚠️ [`Deref`, `Index`, method resolution, type coercions](guidelines/deref.md)
 * ⚠️ [`FromStr` vs `From<&str>`](guidelines/fromstr.md)
 
 ## Types
