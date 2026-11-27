@@ -98,11 +98,11 @@
 * [camino](https://crates.io/crates/camino) (UTF-8 paths)
 
 ## Formats and Serialization
-* ☀️ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, FlexBuffers):
-  * ☀️ [serde_json](https://crates.io/crates/serde_json)
+* ⭐ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, FlexBuffers):
+  * ⭐ [serde_json](https://crates.io/crates/serde_json)
   * YAML: [serde_yaml_ng](https://crates.io/crates/serde_yaml_ng), [yaml_serde](https://crates.io/crates/yaml_serde)
   * [toml](https://crates.io/crates/toml)
-  * ☀️ [csv](https://crates.io/crates/csv)
+  * ⭐ [csv](https://crates.io/crates/csv)
   * [flexbuffers](https://crates.io/crates/flexbuffers)
 * Serialization:
   * Protobuf:
