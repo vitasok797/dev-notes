@@ -4,7 +4,7 @@
 [Function `var_os`](https://doc.rust-lang.org/std/env/fn.var_os.html) \
 [Enum `VarError`](https://doc.rust-lang.org/std/env/enum.VarError.html)
 
-## Is exist
+## Exists
 
 ```rust
 let exists = std::env::var_os("name").is_some();
