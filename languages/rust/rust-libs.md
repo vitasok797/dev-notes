@@ -96,6 +96,7 @@
 * [dirs](https://crates.io/crates/dirs) (platform-specific standard locations)
 * [which](https://crates.io/crates/which)
 * [camino](https://crates.io/crates/camino) (UTF-8 paths)
+* [include_dir](https://crates.io/crates/include_dir)
 
 ## Formats and Serialization
 * ⭐ [serde](https://crates.io/crates/serde) (JSON, YAML, TOML, CSV, FlexBuffers):
