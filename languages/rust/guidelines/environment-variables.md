@@ -17,7 +17,7 @@ let exists = std::env::var("name").is_ok()
 ## Get as string
 
 ```rust
-let value: String = std::env::var("name")?;
+let value: String = std::env::var("name").unwrap();
 ```
 
 ## Get as string or
@@ -29,11 +29,11 @@ let value: String = std::env::var("name").unwrap_or_else(|_| "default".to_owned(
 ## Get and parse
 
 ```rust
-let value: i32 = std::env::var("name")?.parse()?;
+let value: i32 = std::env::var("name").unwrap().parse().unwrap();
 ```
 
 ## Get and parse or
 
 ```rust
-let value: i32 = std::env::var("name")?.parse().unwrap_or(123);
+let value: i32 = std::env::var("name").unwrap().parse().unwrap_or(123);
 ```
